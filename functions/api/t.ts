@@ -2,7 +2,7 @@
 // No cookies, no IPs stored, no identifiers — see /about.
 
 interface Env {
-  TRAFFIC?: AnalyticsEngineDataset;
+  FRACTALISM_TELEMETRY?: AnalyticsEngineDataset;
 }
 
 export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
@@ -11,7 +11,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     const to = typeof body.to === 'string' ? body.to.slice(0, 180) : '';
     const from = typeof body.from === 'string' ? body.from.slice(0, 180) : '';
     if (to.startsWith('/')) {
-      env.TRAFFIC?.writeDataPoint({
+      env.FRACTALISM_TELEMETRY?.writeDataPoint({
         blobs: [to, from.startsWith('/') ? from : ''],
         doubles: [1],
         indexes: [to.slice(0, 90)],
