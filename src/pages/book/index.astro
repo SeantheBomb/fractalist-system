@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { PARTS } from '../../../scripts/manifest.mjs';
+
+const nodes = (await getCollection('nodes')).sort((a, b) => a.data.order - b.data.order);
+const partOrder = Object.keys(PARTS);
+const grouped = partOrder
+  .map((key) => ({ key, part: PARTS[key], items: nodes.filter((n) => n.data.part === key) }))
+  .filter((g) => g.items.length > 0);
+---
+<Base title="The Book" description="Every chapter of the Fractalism handbook, in its printed order — read straight through, or wander by relation instead.">
+  <h1>The Book</h1>
+  <p style="color: var(--muted);">
+    This is the whole handbook in its printed order, for anyone who wants the straight path.
+    But the book itself will tell you: it's written in arcs, not a line. If you'd rather follow
+    your own thread, start from the <a href="/map/">map</a> and go wherever your interest leads.
+  </p>
+
+  {grouped.map((g) => (
+    <section style="margin-top: 2.8rem;">
+      <p class="eyebrow" style={`color: ${g.part.color}`}>{g.part.title}</p>
+      <ul style="list-style: none; padding: 0; margin: 0.7rem 0 0;">
+        {g.items.map((n) => (
+          <li style="margin-bottom: 0.55rem;">
+            <a href={`/node/${n.id}/`} style="text-decoration: none; font-weight: 500;">{n.data.title}</a>
+            <span style="color: var(--muted); font-size: 0.88rem;"> — {n.data.summary}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  <p style="margin-top: 3rem; color: var(--muted); font-size: 0.9rem;">
+    The Standing Thirds — the character chapters of Part Five — live in their own
+    <a href="/thirds/">gallery</a>, where each one has a face.
+  </p>
+</Base>

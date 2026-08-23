@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import NextCards from '../../components/NextCards.astro';
+import { PARTS } from '../../../scripts/manifest.mjs';
+
+export async function getStaticPaths() {
+  const nodes = await getCollection('nodes');
+  return nodes.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const part = PARTS[entry.data.part];
+const nodes = await getCollection('nodes');
+const inPart = nodes
+  .filter((n) => n.data.part === entry.data.part)
+  .sort((a, b) => a.data.order - b.data.order);
+const idx = inPart.findIndex((n) => n.id === entry.id);
+const nextInPart = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
+---
+<Base title={entry.data.title} description={entry.data.summary}>
+  <article>
+    <p class="eyebrow" style={`color: ${part?.color ?? 'var(--muted)'}`}>{part?.title ?? entry.data.part}</p>
+    <h1 style="margin-top: 0.2em;">{entry.data.title}</h1>
+    {entry.data.epigraph && <p class="epigraph">“{entry.data.epigraph}”</p>}
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+
+  <NextCards related={entry.data.related} nextInPart={nextInPart} />
+</Base>

@@ -1,0 +1,102 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  wide?: boolean;
+}
+const { title, description = 'A living, nonlinear home for the Fractalism materials.', wide = false } = Astro.props;
+const path = Astro.url.pathname;
+const nav = [
+  ['/start/', 'Start'],
+  ['/map/', 'Map'],
+  ['/book/', 'The Book'],
+  ['/thirds/', 'The Thirds'],
+  ['/weaving/', 'Weaving'],
+  ['/about/', 'About'],
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title === 'Fractalism' ? title : `${title} · Fractalism`}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="/">
+          <svg width="18" height="18" viewBox="0 0 100 100" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round">
+              <path d="M50 92 V55" />
+              <path d="M50 55 L28 30 M50 55 L72 30" />
+              <path d="M28 30 L17 16 M28 30 L37 14 M72 30 L61 14 M72 30 L83 16" />
+            </g>
+          </svg>
+          Fractalism
+        </a>
+        <nav>
+          {nav.map(([href, label]) => (
+            <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main class:list={['wrap', { wide }]} style="padding-top: 2.5rem;">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="inner">
+        <span>Built, not found — and honest about it.</span>
+        <a href="/about/">What this is</a>
+        <a href="/iterations/">Iterations</a>
+        <a href="https://github.com/SeantheBomb/fractalist-system">Source</a>
+      </div>
+    </footer>
+
+    <script>
+      // Thread tracking: remember which nodes you've visited (local only).
+      const KEY = 'fractalism-thread';
+      const read = (): string[] => {
+        try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; }
+      };
+      const path = location.pathname;
+      const m = path.match(/^\/(node|thirds)\/([^/]+)\/?$/);
+      if (m && m[2]) {
+        const id = `${m[1]}:${m[2]}`;
+        const thread = read();
+        if (thread[thread.length - 1] !== id) {
+          thread.push(id);
+          localStorage.setItem(KEY, JSON.stringify(thread.slice(-500)));
+        }
+      }
+      // Mark visited next-cards
+      const visited = new Set(read());
+      document.querySelectorAll<HTMLAnchorElement>('a.next-card').forEach((a) => {
+        const mm = a.pathname.match(/^\/(node|thirds)\/([^/]+)\/?$/);
+        if (mm && visited.has(`${mm[1]}:${mm[2]}`)) a.classList.add('visited');
+      });
+      // Telemetry beacon (page + referrer path only; no cookies, no IDs).
+      try {
+        const from = document.referrer && new URL(document.referrer).origin === location.origin
+          ? new URL(document.referrer).pathname : '';
+        navigator.sendBeacon?.('/api/t', JSON.stringify({ to: path, from }));
+      } catch { /* telemetry is best-effort */ }
+    </script>
+  </body>
+</html>

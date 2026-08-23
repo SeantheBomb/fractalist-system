@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import { PARTS } from '../../scripts/manifest.mjs';
+
+interface Props {
+  related: string[];
+  nextInPart?: { id: string; data: { title: string; summary: string; part: string } } | null;
+}
+const { related, nextInPart = null } = Astro.props;
+
+const nodes = await getCollection('nodes');
+const thirds = await getCollection('thirds');
+
+const cards = related
+  .map((slug) => {
+    const n = nodes.find((x) => x.id === slug);
+    if (n) return {
+      href: `/node/${n.id}/`,
+      title: n.data.title,
+      summary: n.data.summary,
+      label: PARTS[n.data.part]?.title ?? '',
+      color: PARTS[n.data.part]?.color ?? 'var(--muted)',
+    };
+    const t = thirds.find((x) => x.id === slug);
+    if (t) return {
+      href: `/thirds/${t.id}/`,
+      title: `${t.data.name}, ${t.data.epithet}`,
+      summary: t.data.personifies,
+      label: 'A Standing Third',
+      color: 'var(--c-p5)',
+    };
+    return null;
+  })
+  .filter(Boolean);
+---
+{cards.length > 0 && (
+  <section class="next-links">
+    <p class="eyebrow">Follow your thread</p>
+    {cards.map((c, i) => (
+      <a class:list={['next-card', { featured: i === 0 }]} href={c.href}>
+        <div class="nc-part" style={`color: ${c.color}`}>{c.label}</div>
+        <div class="nc-title">{c.title}</div>
+        <div class="nc-summary">{c.summary}</div>
+      </a>
+    ))}
+    {nextInPart && (
+      <a class="next-card" href={`/node/${nextInPart.id}/`}>
+        <div class="nc-part" style="color: var(--muted)">Reading in order instead</div>
+        <div class="nc-title">{nextInPart.data.title}</div>
+        <div class="nc-summary">{nextInPart.data.summary}</div>
+      </a>
+    )}
+  </section>
+)}
