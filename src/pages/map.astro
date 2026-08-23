@@ -1,0 +1,208 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { PARTS } from '../../scripts/manifest.mjs';
+
+const nodesC = await getCollection('nodes');
+const thirdsC = await getCollection('thirds');
+
+interface MapNode {
+  id: string; href: string; title: string; group: string; color: string;
+  related: string[]; x: number; y: number; r: number; inbound: number;
+}
+
+const items: MapNode[] = [
+  ...nodesC.map((n) => ({
+    id: n.id, href: `/node/${n.id}/`, title: n.data.title, group: n.data.part,
+    color: PARTS[n.data.part]?.color ?? 'var(--muted)',
+    related: n.data.related, x: 0, y: 0, r: 5, inbound: 0,
+    order: n.data.order,
+  })),
+  ...thirdsC.map((t) => ({
+    id: t.id, href: `/thirds/${t.id}/`, title: t.data.name, group: 'thirds',
+    color: 'var(--c-p5)',
+    related: [...t.data.relatedThirds, ...t.data.relatedNodes], x: 0, y: 0, r: 5, inbound: 0,
+    order: t.data.order,
+  })),
+];
+
+// inbound counts → node size
+const byId = new Map(items.map((n) => [n.id, n]));
+for (const n of items) for (const r of n.related) {
+  const t = byId.get(r);
+  if (t) t.inbound++;
+}
+for (const n of items) n.r = 4 + Math.min(6, n.inbound * 0.9);
+
+// cluster anchors on a loose oval — the parts as islands
+const W = 1100, H = 860;
+const anchors: Record<string, [number, number]> = {
+  'front': [180, 130],
+  'part-one': [430, 170],
+  'part-two': [760, 260],
+  'part-three': [200, 430],
+  'part-four': [480, 470],
+  'part-five': [820, 560],
+  'thirds': [560, 700],
+  'part-six': [250, 690],
+  'appendix': [70, 560],
+};
+
+// phyllotaxis within each cluster, deterministic
+const GA = Math.PI * (3 - Math.sqrt(5));
+const groups = new Map<string, MapNode[]>();
+for (const n of items) {
+  if (!groups.has(n.group)) groups.set(n.group, []);
+  groups.get(n.group)!.push(n);
+}
+for (const [g, list] of groups) {
+  list.sort((a: any, b: any) => a.order - b.order);
+  const [ax, ay] = anchors[g] ?? [W / 2, H / 2];
+  list.forEach((n, i) => {
+    const rad = 16 * Math.sqrt(i + 0.6);
+    const th = i * GA;
+    n.x = ax + rad * Math.cos(th);
+    n.y = ay + rad * 0.82 * Math.sin(th);
+  });
+}
+
+const edges: { a: MapNode; b: MapNode }[] = [];
+const seen = new Set<string>();
+for (const n of items) for (const r of n.related) {
+  const t = byId.get(r);
+  if (!t) continue;
+  const key = [n.id, t.id].sort().join('|');
+  if (seen.has(key)) continue;
+  seen.add(key);
+  edges.push({ a: n, b: t });
+}
+
+const groupLabels = [
+  ...Object.entries(PARTS).map(([k, v]: any) => ({ key: k, title: v.title.replace(/ — .*$/, ''), color: v.color })),
+  { key: 'thirds', title: 'The Standing Thirds', color: 'var(--c-p5)' },
+].filter((g) => groups.has(g.key));
+---
+<Base title="The Map" description="Every topic in Fractalism, connected by relation instead of order. Follow whichever thread holds your interest." wide>
+  <h1>The Map</h1>
+  <p style="max-width: 44rem; color: var(--muted);">
+    Every idea here, connected by what it actually touches — not by chapter order. Hover to see a
+    node's threads; click to read it. Pages you've visited stay lit, so your own path through the
+    material becomes something you can see. There is no correct order. That's the point.
+  </p>
+
+  <div class="map-frame">
+    <svg id="graph" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg">
+      <g id="edges">
+        {edges.map(({ a, b }) => (
+          <line
+            x1={a.x.toFixed(1)} y1={a.y.toFixed(1)} x2={b.x.toFixed(1)} y2={b.y.toFixed(1)}
+            data-a={a.id} data-b={b.id}
+          />
+        ))}
+      </g>
+      <g id="nodes">
+        {items.map((n) => (
+          <a href={n.href} data-id={n.id} class="gnode">
+            <circle cx={n.x.toFixed(1)} cy={n.y.toFixed(1)} r={n.r.toFixed(1)} style={`fill: ${n.color}`} />
+            <text x={n.x.toFixed(1)} y={(n.y + n.r + 10).toFixed(1)} text-anchor="middle">{n.title}</text>
+          </a>
+        ))}
+      </g>
+      <g id="glabels">
+        {groupLabels.map((g) => {
+          const [ax, ay] = anchors[g.key] ?? [0, 0];
+          return <text x={ax} y={ay - 78} text-anchor="middle" style={`fill: ${g.color}`} class="glabel">{g.title}</text>;
+        })}
+      </g>
+    </svg>
+  </div>
+
+  <p class="map-legend">
+    <span id="thread-count"></span>
+    Prefer a list? <a href="/book/">The Book</a> holds everything in printed order, and the
+    <a href="/thirds/">Thirds gallery</a> holds the mythology.
+  </p>
+</Base>
+
+<style>
+  .map-frame {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--bg2);
+    overflow-x: auto;
+    margin-top: 1.5rem;
+  }
+  #graph { display: block; min-width: 760px; width: 100%; height: auto; }
+  #edges line {
+    stroke: var(--line);
+    stroke-width: 1;
+    opacity: 0.55;
+    transition: opacity 0.12s ease, stroke 0.12s ease;
+  }
+  #edges line.hot { stroke: var(--accent); opacity: 1; stroke-width: 1.6; }
+  #edges line.dim { opacity: 0.12; }
+  .gnode { cursor: pointer; }
+  .gnode circle { opacity: 0.45; transition: opacity 0.12s ease; }
+  .gnode.visited circle { opacity: 1; }
+  .gnode.visited circle { filter: drop-shadow(0 0 4px currentColor); }
+  .gnode text {
+    font-family: var(--sans);
+    font-size: 9.5px;
+    fill: var(--muted);
+    opacity: 0.75;
+    pointer-events: none;
+  }
+  .gnode.hot circle { opacity: 1; }
+  .gnode.hot text { fill: var(--ink); opacity: 1; font-weight: 600; }
+  .gnode.dim circle, .gnode.dim text { opacity: 0.12; }
+  .glabel {
+    font-family: var(--sans);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+  .map-legend { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
+</style>
+
+<script>
+  const svg = document.getElementById('graph')!;
+  const nodes = Array.from(svg.querySelectorAll<SVGAElement>('.gnode'));
+  const edges = Array.from(svg.querySelectorAll<SVGLineElement>('#edges line'));
+
+  // visited glow
+  let thread: string[] = [];
+  try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
+  const visited = new Set(thread.map((t) => t.split(':')[1]));
+  let count = 0;
+  nodes.forEach((n) => {
+    if (visited.has(n.dataset.id!)) { n.classList.add('visited'); count++; }
+  });
+  const tc = document.getElementById('thread-count');
+  if (tc && count > 0) tc.textContent = `Your thread so far: ${count} of ${nodes.length} lit. `;
+
+  // hover highlighting
+  function setHot(id: string | null) {
+    if (!id) {
+      nodes.forEach((n) => n.classList.remove('hot', 'dim'));
+      edges.forEach((e) => e.classList.remove('hot', 'dim'));
+      return;
+    }
+    const linked = new Set([id]);
+    edges.forEach((e) => {
+      const hot = e.dataset.a === id || e.dataset.b === id;
+      e.classList.toggle('hot', hot);
+      e.classList.toggle('dim', !hot);
+      if (hot) { linked.add(e.dataset.a!); linked.add(e.dataset.b!); }
+    });
+    nodes.forEach((n) => {
+      const hot = linked.has(n.dataset.id!);
+      n.classList.toggle('hot', hot);
+      n.classList.toggle('dim', !hot);
+    });
+  }
+  nodes.forEach((n) => {
+    n.addEventListener('pointerenter', () => setHot(n.dataset.id!));
+    n.addEventListener('pointerleave', () => setHot(null));
+  });
+</script>

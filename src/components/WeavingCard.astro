@@ -1,0 +1,80 @@
+---
+import { getCollection } from 'astro:content';
+import { fractalSvg } from '../lib/fractals';
+import { KINSHIPS } from '../../scripts/manifest.mjs';
+
+// Renders every Third as a hidden card; client scripts reveal the drawn ones.
+const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.data.order);
+---
+<div id="deck" hidden>
+  {thirds.map((t) => (
+    <div
+      class="wcard"
+      data-slug={t.id}
+      data-kinship={t.data.kinship}
+      hidden
+    >
+      <div class="wc-art" set:html={fractalSvg(t.data.fractal.type, t.data.fractal.hue, t.id)} />
+      <div class="wc-body">
+        <p class="wc-kin">{KINSHIPS[t.data.kinship].title}</p>
+        <h3 class="wc-name">{t.data.name}</h3>
+        <p class="wc-epithet">{t.data.epithet}</p>
+        <p class="wc-personifies">{t.data.personifies}</p>
+        <div class="wc-readings">
+          <button class="wc-reading" data-mode="tending" type="button">
+            <span class="wc-rlabel">Tending</span>
+            <span>{t.data.tending}</span>
+          </button>
+          <button class="wc-reading" data-mode="fraying" type="button">
+            <span class="wc-rlabel">Fraying</span>
+            <span>{t.data.fraying}</span>
+          </button>
+        </div>
+        <p class="wc-more"><a href={`/thirds/${t.id}/`}>Meet {t.data.name} →</a></p>
+      </div>
+    </div>
+  ))}
+</div>
+
+<style is:global>
+  .wcard {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--bg2);
+    padding: 1.3rem;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 1.4rem;
+    align-items: start;
+    animation: wc-in 0.6s ease both;
+  }
+  @keyframes wc-in {
+    from { opacity: 0; transform: translateY(14px) scale(0.98); }
+    to { opacity: 1; transform: none; }
+  }
+  .wc-art { border: 1px solid var(--line); border-radius: 10px; background: var(--bg); padding: 0.5rem; }
+  .wc-art svg { display: block; width: 100%; height: auto; }
+  .wc-kin { font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 0; }
+  .wc-name { margin: 0.1em 0 0; font-size: 1.4rem; }
+  .wc-epithet { font-style: italic; color: var(--muted); margin: 0 0 0.6em; font-size: 0.9rem; }
+  .wc-personifies { font-size: 0.92rem; margin: 0 0 0.9em; }
+  .wc-readings { display: grid; gap: 0.6rem; }
+  .wc-reading {
+    text-align: left; font: inherit; color: inherit; cursor: pointer;
+    border: 1px solid var(--line); border-radius: 9px; background: var(--bg);
+    padding: 0.6rem 0.8rem; font-size: 0.88rem; line-height: 1.5;
+    display: block; width: 100%;
+    transition: border-color 0.15s ease, opacity 0.15s ease;
+  }
+  .wc-rlabel { display: block; font-family: var(--sans); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 0.15rem; }
+  .wc-reading[data-mode="tending"] .wc-rlabel { color: var(--accent); }
+  .wc-reading[data-mode="fraying"] .wc-rlabel { color: var(--k-fire); }
+  .wcard.chosen .wc-reading:not(.picked) { opacity: 0.38; }
+  .wc-reading.picked { border-color: var(--accent); }
+  .wc-reading[data-mode="fraying"].picked { border-color: var(--k-fire); }
+  .wc-more { margin: 0.8em 0 0; font-size: 0.82rem; font-family: var(--sans); }
+  @media (max-width: 560px) {
+    .wcard { grid-template-columns: 1fr; }
+    .wc-art { max-width: 170px; }
+  }
+</style>

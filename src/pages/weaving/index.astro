@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+import WeavingCard from '../../components/WeavingCard.astro';
+---
+<Base title="Weavings" description="A structured way of looking at one situation from several fixed angles at once. Draw today's card, or sit down for a full Four-Point Weaving.">
+  <h1>Weavings</h1>
+  <p style="color: var(--muted); max-width: 42rem;">
+    A Weaving is a deliberate, repeatable practice for seeing your own loop from outside it —
+    several fixed views of one situation, drawn from the <a href="/thirds/">Standing Thirds</a>,
+    laid out together until the real shape comes forward. It is not fortune-telling, and it
+    predicts nothing. <a href="/node/what-a-weaving-is/">The full framing is here.</a>
+  </p>
+
+  <section class="pull-section">
+    <p class="eyebrow" style="color: var(--c-p6)">The Single Pull · a daily practice</p>
+    <h2 style="margin-top: 0.3em;">Today's card</h2>
+    <p style="color: var(--muted); font-size: 0.95rem;">
+      One Third, drawn for the day, read loosely: is this a pattern to tend today, or one to watch
+      for signs of fraying? Everyone who visits today draws the same card — carry it lightly.
+    </p>
+    <div id="pull-slot"></div>
+    <button id="pull-btn" class="big-btn" type="button">Draw today's card</button>
+  </section>
+
+  <section class="four-section">
+    <p class="eyebrow" style="color: var(--c-p6)">The Four-Point Weaving · for an actual conundrum</p>
+    <h2 style="margin-top: 0.3em;">Have a Weaving conducted</h2>
+    <p style="color: var(--muted); font-size: 0.95rem;">
+      One card for each ring — Self, Dyad, Skein — plus an Unaligned frame, revealed one at a time.
+      The site walks you through the layout and what each card means. What the cards mean
+      <em>for you</em> stays entirely yours: you never type anything, and nothing you think leaves
+      your browser.
+    </p>
+    <a class="big-btn" href="/weaving/four/">Begin a Four-Point Weaving</a>
+  </section>
+
+  <WeavingCard />
+</Base>
+
+<style>
+  .pull-section, .four-section {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1.6rem 1.8rem;
+    margin-top: 2rem;
+    background: color-mix(in srgb, var(--bg2) 55%, var(--bg));
+  }
+  #pull-slot .wcard { margin: 1.2rem 0; }
+  :global(.big-btn) {
+    display: inline-block;
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+    padding: 0.65rem 1.4rem;
+    border-radius: 99px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  :global(.big-btn:hover) { background: var(--accent); color: var(--bg); }
+</style>
+
+<script>
+  // Date-seeded daily pull: same card for everyone, everywhere, today (UTC).
+  const btn = document.getElementById('pull-btn')!;
+  const slot = document.getElementById('pull-slot')!;
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('#deck .wcard'));
+
+  function dayIndex(): number {
+    const d = new Date();
+    const key = `${d.getUTCFullYear()}-${d.getUTCMonth() + 1}-${d.getUTCDate()}`;
+    let h = 2166136261;
+    for (let i = 0; i < key.length; i++) { h ^= key.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return (h >>> 0) % cards.length;
+  }
+
+  btn.addEventListener('click', () => {
+    const card = cards[dayIndex()].cloneNode(true) as HTMLElement;
+    card.hidden = false;
+    wireReadings(card);
+    slot.replaceChildren(card);
+    btn.remove();
+  });
+
+  function wireReadings(card: HTMLElement) {
+    card.querySelectorAll<HTMLButtonElement>('.wc-reading').forEach((b) => {
+      b.addEventListener('click', () => {
+        card.classList.add('chosen');
+        card.querySelectorAll('.wc-reading').forEach((x) => x.classList.remove('picked'));
+        b.classList.add('picked');
+      });
+    });
+  }
+</script>

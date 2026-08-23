@@ -1,0 +1,238 @@
+---
+import Base from '../../layouts/Base.astro';
+import WeavingCard from '../../components/WeavingCard.astro';
+---
+<Base title="A Four-Point Weaving" description="One card for each ring — Self, Dyad, Skein — plus an Unaligned frame, revealed one at a time.">
+  <h1>A Four-Point Weaving</h1>
+
+  <section id="step-intro" class="wstep">
+    <p>
+      Hold a real situation in mind — a live conundrum, not a hypothetical. You won't be asked to
+      type it, name it, or share it; the whole reading happens against what you're already holding.
+    </p>
+    <p style="color: var(--muted); font-size: 0.93rem;">
+      Four cards will be drawn, one at a time: an <strong>Unaligned frame</strong>, read apart, then
+      one for each nested ring — <strong>Self</strong>, <strong>Dyad</strong>, <strong>Skein</strong>.
+      Take each card slowly. A card that clearly doesn't fit tells you as much about the real shape
+      of your situation as one that lands cleanly.
+    </p>
+    <button class="big-btn" data-next type="button">Draw the frame</button>
+  </section>
+
+  <section class="wstep" data-ring="unaligned" hidden>
+    <p class="eyebrow">The frame · read apart from the rings</p>
+    <div class="slot"></div>
+    <p class="wprompt">
+      Read the frame first: is the pattern at the center of your question something that survives by
+      changing in the retelling, something that keeps arising on its own, or something fixed in place
+      and possibly followed past its sense? Sit with whether this frame lands before drawing inward.
+      If a reading above matches your situation, tap it.
+    </p>
+    <button class="big-btn" data-next type="button">Draw the Self ring</button>
+  </section>
+
+  <section class="wstep" data-ring="self" hidden>
+    <p class="eyebrow">The inner ring · Self</p>
+    <div class="slot"></div>
+    <p class="wprompt">
+      This ring is about what's happening <em>in you</em>, at your own scale — not what anyone else
+      is doing. Is this pattern, in you, doing the thing it's good at, or has it tipped?
+    </p>
+    <button class="big-btn" data-next type="button">Draw the Dyad ring</button>
+  </section>
+
+  <section class="wstep" data-ring="dyad" hidden>
+    <p class="eyebrow">The middle ring · Dyad</p>
+    <div class="slot"></div>
+    <p class="wprompt">
+      This ring is about what's happening between you and <em>one specific other person</em> inside
+      the situation. If nobody comes to mind at first, notice who you thought of anyway.
+    </p>
+    <button class="big-btn" data-next type="button">Draw the Skein ring</button>
+  </section>
+
+  <section class="wstep" data-ring="skein" hidden>
+    <p class="eyebrow">The outer ring · Skein</p>
+    <div class="slot"></div>
+    <p class="wprompt">
+      This ring is about the scale of the group around you — the family, team, or community the
+      situation is nested inside, whether or not they know about it.
+    </p>
+    <button class="big-btn" data-next type="button">Lay out the rings</button>
+  </section>
+
+  <section id="step-final" class="wstep" hidden>
+    <p class="eyebrow">The Weaving, laid out</p>
+    <p style="color: var(--muted); font-size: 0.93rem;">
+      Read from the center out, or the edge in — never as a timeline. And the rings do not have to
+      agree: handling something well at your own scale while it frays at the group's scale is exactly
+      the kind of information one flat view would have missed.
+    </p>
+
+    <div class="rings">
+      <div class="ring skein-ring">
+        <span class="ring-label">Skein</span>
+        <div class="ring-mini" data-mini="skein"></div>
+        <div class="ring dyad-ring">
+          <span class="ring-label">Dyad</span>
+          <div class="ring-mini" data-mini="dyad"></div>
+          <div class="ring self-ring">
+            <span class="ring-label">Self</span>
+            <div class="ring-mini" data-mini="self"></div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-aside">
+        <span class="ring-label">The frame</span>
+        <div class="ring-mini" data-mini="unaligned"></div>
+      </div>
+    </div>
+
+    <p style="font-size: 0.9rem; color: var(--muted); margin-top: 1.5rem;">
+      A Weaving describes a pattern already present; it never predicts an outcome, and it cannot tell
+      you what to do — <a href="/node/reading-honestly/">reading honestly</a> ·
+      <a href="/node/weaving-limits/">what a Weaving cannot show</a>. The genuinely useful card is
+      often the uncomfortable one.
+    </p>
+
+    <div class="final-actions">
+      <button id="copy-link" class="big-btn" type="button">Copy a link to this spread</button>
+      <a class="big-btn" href="/weaving/four/">Weave again</a>
+    </div>
+  </section>
+
+  <WeavingCard />
+</Base>
+
+<style>
+  .wstep { margin-top: 2rem; }
+  .wprompt {
+    border-left: 2px solid var(--line);
+    padding-left: 1rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 1.3rem 0;
+  }
+  .slot { margin-top: 1rem; }
+  .wstep .big-btn { margin-top: 0.4rem; }
+
+  .rings { margin-top: 1.5rem; }
+  .ring {
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 1rem;
+    position: relative;
+  }
+  .skein-ring { border-color: color-mix(in srgb, var(--k-skein) 55%, var(--line)); }
+  .dyad-ring { border-color: color-mix(in srgb, var(--k-dyad) 55%, var(--line)); margin-top: 0.8rem; }
+  .self-ring { border-color: color-mix(in srgb, var(--k-fire) 45%, var(--line)); margin-top: 0.8rem; }
+  .ring-label {
+    font-family: var(--sans); font-size: 0.66rem; text-transform: uppercase;
+    letter-spacing: 0.14em; color: var(--muted);
+  }
+  .ring-mini { display: flex; gap: 0.8rem; align-items: center; margin-top: 0.4rem; }
+  .ring-mini .mini-art { width: 54px; flex-shrink: 0; }
+  .ring-mini .mini-art :global(svg) { display: block; width: 100%; height: auto; }
+  .ring-mini .mini-name { font-weight: 600; }
+  .ring-mini .mini-pick { font-family: var(--sans); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+  .frame-aside {
+    border: 1px dashed var(--line);
+    border-radius: 18px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  .final-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.5rem; }
+</style>
+
+<script>
+  const deck = Array.from(document.querySelectorAll<HTMLElement>('#deck .wcard'));
+  const bySlug = new Map(deck.map((c) => [c.dataset.slug!, c]));
+  const byKin = (k: string) => deck.filter((c) => c.dataset.kinship === k);
+  const steps = Array.from(document.querySelectorAll<HTMLElement>('.wstep'));
+  const drawn: Record<string, string> = {};
+
+  function draw(kinship: string): HTMLElement {
+    const pool = byKin(kinship);
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
+
+  function reveal(step: HTMLElement, source: HTMLElement) {
+    const card = source.cloneNode(true) as HTMLElement;
+    card.hidden = false;
+    card.querySelectorAll<HTMLButtonElement>('.wc-reading').forEach((b) => {
+      b.addEventListener('click', () => {
+        card.classList.add('chosen');
+        card.querySelectorAll('.wc-reading').forEach((x) => x.classList.remove('picked'));
+        b.classList.add('picked');
+        drawn[step.dataset.ring! + ':pick'] = b.dataset.mode!;
+        renderMinis();
+      });
+    });
+    step.querySelector('.slot')!.replaceChildren(card);
+  }
+
+  function renderMinis() {
+    for (const ring of ['unaligned', 'self', 'dyad', 'skein']) {
+      const slug = drawn[ring];
+      const mini = document.querySelector<HTMLElement>(`[data-mini="${ring}"]`);
+      if (!slug || !mini) continue;
+      const src = bySlug.get(slug)!;
+      const art = src.querySelector('.wc-art')!.cloneNode(true) as HTMLElement;
+      art.className = 'mini-art';
+      const name = src.querySelector('.wc-name')!.textContent;
+      const pick = drawn[ring + ':pick'];
+      mini.replaceChildren(art);
+      const label = document.createElement('div');
+      label.innerHTML = `<div class="mini-name">${name}</div><div class="mini-pick">${pick ? pick : 'tending or fraying — yours to decide'}</div>`;
+      mini.appendChild(label);
+    }
+  }
+
+  const ringOrder = ['unaligned', 'self', 'dyad', 'skein'];
+  let stepIdx = 0;
+
+  function goNext() {
+    steps[stepIdx].querySelector<HTMLButtonElement>('[data-next]')?.setAttribute('disabled', 'true');
+    stepIdx++;
+    const step = steps[stepIdx];
+    if (!step) return;
+    step.hidden = false;
+    const ring = step.dataset.ring;
+    if (ring) {
+      const card = drawn[ring] ? bySlug.get(drawn[ring])! : draw(ring);
+      drawn[ring] = card.dataset.slug!;
+      reveal(step, card);
+    }
+    if (step.id === 'step-final') renderMinis();
+    step.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  document.querySelectorAll('[data-next]').forEach((b) => b.addEventListener('click', goNext));
+
+  document.getElementById('copy-link')!.addEventListener('click', async (e) => {
+    const w = ringOrder.map((r) => drawn[r]).join('.');
+    const url = `${location.origin}/weaving/four/?w=${w}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      (e.currentTarget as HTMLElement).textContent = 'Link copied';
+    } catch {
+      prompt('Copy this link:', url);
+    }
+  });
+
+  // Shared spread: ?w=frame.self.dyad.skein reveals everything at once.
+  const params = new URLSearchParams(location.search);
+  const w = params.get('w');
+  if (w) {
+    const slugs = w.split('.');
+    if (slugs.length === 4 && slugs.every((s) => bySlug.has(s))) {
+      ringOrder.forEach((r, i) => { drawn[r] = slugs[i]; });
+      // walk every step open
+      while (stepIdx < steps.length - 1) goNext();
+      document.getElementById('step-intro')!.insertAdjacentHTML(
+        'afterbegin',
+        '<p class="eyebrow" style="color: var(--c-p6)">A shared spread — someone laid this Weaving out and passed it to you.</p>'
+      );
+    }
+  }
+</script>
