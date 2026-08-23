@@ -1,0 +1,10 @@
+name = "fractalist-system"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "dist"
+
+# Telemetry storage. Requires one-time account opt-in:
+# https://dash.cloudflare.com/?to=/:account/workers/analytics-engine
+# Once enabled, uncomment and redeploy.
+# [[analytics_engine_datasets]]
+# binding = "TRAFFIC"
+# dataset = "fractalism_traffic"
