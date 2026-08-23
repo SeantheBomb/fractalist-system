@@ -1,0 +1,84 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import FractalGlyph from '../../components/FractalGlyph.astro';
+import NextCards from '../../components/NextCards.astro';
+import { KINSHIPS } from '../../../scripts/manifest.mjs';
+
+export async function getStaticPaths() {
+  const thirds = await getCollection('thirds');
+  return thirds.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const kin = KINSHIPS[entry.data.kinship];
+const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
+---
+<Base title={`${entry.data.name}, ${entry.data.epithet}`} description={entry.data.personifies}>
+  <article>
+    <div class="third-hero">
+      <div class="third-art">
+        <FractalGlyph type={entry.data.fractal.type} hue={entry.data.fractal.hue} seed={entry.id} />
+      </div>
+      <div>
+        <p class="eyebrow">{kin?.title} · The Standing Thirds</p>
+        <h1 style="margin: 0.15em 0 0.1em;">{entry.data.name}</h1>
+        <p style="font-style: italic; color: var(--muted); margin-top: 0;">{entry.data.epithet}</p>
+        {entry.data.epigraph && <p class="epigraph" style="margin-top: 1.2em;">“{entry.data.epigraph}”</p>}
+      </div>
+    </div>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <section class="readings">
+      <p class="eyebrow">In a Weaving</p>
+      <div class="reading-grid">
+        <div class="reading tending">
+          <div class="r-label">Tending</div>
+          <p>{entry.data.tending}</p>
+        </div>
+        <div class="reading fraying">
+          <div class="r-label">Fraying</div>
+          <p>{entry.data.fraying}</p>
+        </div>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--muted);">
+        Tending is not good news, and Fraying is not bad news — a card describes a pattern already
+        present, never an outcome. <a href="/node/tending-and-fraying/">How to read the two.</a>
+      </p>
+    </section>
+  </article>
+
+  <NextCards related={related} />
+</Base>
+
+<style>
+  .third-hero {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .third-art {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--bg2);
+    padding: 0.8rem;
+  }
+  .readings { margin-top: 3rem; }
+  .reading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0.8rem 0; }
+  .reading { border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; background: var(--bg2); }
+  .reading p { margin: 0.3em 0 0; font-size: 0.95rem; }
+  .r-label { font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; }
+  .tending .r-label { color: var(--accent); }
+  .fraying .r-label { color: var(--k-fire); }
+  @media (max-width: 640px) {
+    .third-hero { grid-template-columns: 1fr; }
+    .third-art { max-width: 240px; }
+    .reading-grid { grid-template-columns: 1fr; }
+  }
+</style>

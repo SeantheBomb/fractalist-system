@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Newest first. A text about revision should be visibly revisable.
+const iterations = [
+  {
+    date: '2026-08-23',
+    title: 'The First Iteration',
+    notes: [
+      'Site seeded from the complete handbook — all six parts, the appendix, and the full Standing Thirds roster.',
+      'The chaos game runs live on the home page.',
+      'Every chapter is a node with curated relations — the “follow your thread” paths.',
+    ],
+  },
+];
+---
+<Base title="Iterations" description="Every revision of this living document, recorded in the open.">
+  <h1>Iterations</h1>
+  <p style="color: var(--muted);">
+    This is a living document — <em>and the output of each telling becomes the input for every
+    telling since, including this one.</em> Every meaningful change is recorded here.
+  </p>
+
+  {iterations.map((it) => (
+    <section style="margin-top: 2.5rem; border-left: 2px solid var(--line); padding-left: 1.2rem;">
+      <p class="eyebrow">{it.date}</p>
+      <h2 style="margin-top: 0.2em;">{it.title}</h2>
+      <ul>
+        {it.notes.map((n) => <li>{n}</li>)}
+      </ul>
+    </section>
+  ))}
+</Base>

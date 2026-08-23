@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import FractalGlyph from '../../components/FractalGlyph.astro';
+import { KINSHIPS } from '../../../scripts/manifest.mjs';
+
+const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.data.order);
+const order = ['unaligned', 'self', 'dyad', 'skein'];
+const groups = order.map((k) => ({
+  key: k,
+  meta: KINSHIPS[k],
+  items: thirds.filter((t) => t.data.kinship === k),
+}));
+---
+<Base title="The Standing Thirds" description="Eighteen patterns old enough to have earned faces — each drawn as its own fractal." wide>
+  <h1>The Standing Thirds</h1>
+  <p style="max-width: 44rem; color: var(--muted);">
+    A pattern repeated widely enough, for long enough, stops needing any single person to keep it
+    running — and every culture that's ever lived close to the land eventually gives such a pattern
+    a face. One rule governs everything here: <strong>a Third has no will of its own.</strong>
+    Only perceived behavior, consistent enough to earn a name.
+    <a href="/node/what-a-third-is/">The full framing is here.</a>
+  </p>
+
+  {groups.map((g) => (
+    <section class="kinship">
+      <div class="kinship-head">
+        <h2>{g.meta.title}</h2>
+        <span class="badge">{g.meta.ring}</span>
+      </div>
+      <p class="kinship-intro">{g.meta.intro}</p>
+      <div class="third-grid">
+        {g.items.map((t) => (
+          <a class="third-card" href={`/thirds/${t.id}/`}>
+            <FractalGlyph type={t.data.fractal.type} hue={t.data.fractal.hue} seed={t.id} />
+            <div class="tc-name">{t.data.name}</div>
+            <div class="tc-epithet">{t.data.epithet}</div>
+            <div class="tc-line">{t.data.personifies}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <p style="margin-top: 3.5rem; color: var(--muted);">
+    The roster was never meant to be complete. <a href="/node/unnamed-thirds/">The Unnamed Thirds</a>
+    explains how a new pattern gets noticed, named, and stood up — and when a Weaving puts these
+    figures to work, <a href="/weaving/">that happens here</a>.
+  </p>
+</Base>
+
+<style>
+  .kinship { margin-top: 3.5rem; }
+  .kinship-head { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+  .kinship-head h2 { margin: 0; }
+  .kinship-intro { color: var(--muted); font-size: 0.95rem; max-width: 44rem; }
+  .third-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.2rem;
+  }
+  .third-card {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--bg2);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .third-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+  .tc-name { font-size: 1.25rem; font-weight: 600; margin-top: 0.6rem; }
+  .tc-epithet { font-style: italic; color: var(--muted); font-size: 0.88rem; margin-bottom: 0.5rem; }
+  .tc-line { font-family: var(--sans); font-size: 0.76rem; color: var(--muted); line-height: 1.45; }
+</style>

@@ -1,17 +1,184 @@
 ---
-
+import Base from '../layouts/Base.astro';
 ---
+<Base title="Fractalism" description="We build the world by repeating what we cannot see. A living, nonlinear home for the Fractalism materials." wide>
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Fractalism · A Practitioner's Handbook</p>
+      <h1>We build the world by repeating what we cannot see.</h1>
+      <p class="lede">
+        That sentence is the whole thing — everything else on this site is that sentence,
+        said again, from a different distance. You don't have to take it on faith.
+        You can watch it happen, right now, in the triangle beside this text.
+      </p>
+      <p class="lede small">
+        Each dot follows one tiny rule: <em>move halfway toward a random corner.</em>
+        No plan, no designer. The first dots are noise. Wait a few seconds.
+        <a href="/node/the-mathematics/">Here's why that happens.</a>
+      </p>
+    </div>
+    <div class="hero-canvas">
+      <canvas id="chaos" width="560" height="500" aria-label="The chaos game: random dots assembling into a Sierpinski triangle"></canvas>
+      <div class="canvas-hint">
+        <span id="chaos-count">0 dots</span> · tap anywhere in the triangle to restart from there
+      </div>
+    </div>
+  </section>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+  <section class="ways">
+    <p class="eyebrow">Three ways in</p>
+    <div class="way-grid">
+      <a class="way-card" href="/node/what-you-already-know/">
+        <h3>“I'm skeptical.”</h3>
+        <p>Good — this was built for you. Start with the one observation the whole thing rests on,
+        and stop the moment it stops earning your attention.</p>
+        <span class="way-go">Start with the claim →</span>
+      </a>
+      <a class="way-card" href="/node/onboarding/">
+        <h3>“Give me something to do.”</h3>
+        <p>Belief here is tested by practicing first and settling opinions after.
+        Seven days, one small thing per day.</p>
+        <span class="way-go">The one-week onboarding →</span>
+      </a>
+      <a class="way-card" href="/thirds/">
+        <h3>“Show me the stories.”</h3>
+        <p>Eighteen patterns old enough to have earned faces — the Standing Thirds,
+        each with a temperament, a gift, and a documented flaw.</p>
+        <span class="way-go">Meet the Thirds →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="features">
+    <a class="feature" href="/map/">
+      <p class="eyebrow" style="color: var(--c-p3)">The Map</p>
+      <h3>Read by relation, not by order</h3>
+      <p>Every topic links to the ideas it actually touches. Follow whichever thread holds your
+      interest — the pages you've visited stay lit, so your own path through becomes visible.</p>
+    </a>
+    <a class="feature" href="/weaving/">
+      <p class="eyebrow" style="color: var(--c-p6)">Weaving</p>
+      <h3>Have a Weaving conducted</h3>
+      <p>A structured way of looking at one situation from several fixed angles at once.
+      Draw today's single card, or sit down for a full Four-Point Weaving — the site walks
+      you through it, one card at a time, and leaves the reading to you.</p>
+    </a>
+    <a class="feature" href="/book/">
+      <p class="eyebrow" style="color: var(--c-p1)">The Book</p>
+      <h3>Or just read it straight through</h3>
+      <p>The complete handbook, in its printed order, free and unabridged. The nonlinear paths
+      exist because the book loops — but the straight road is always open.</p>
+    </a>
+    <a class="feature" href="/about/">
+      <p class="eyebrow" style="color: var(--c-neutral)">About</p>
+      <h3>Built, not found</h3>
+      <p>This belief system tells you exactly where it came from — which books it read, which
+      parts are observation and which are story. That's the method, applied to itself.</p>
+    </a>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 4.5rem;
+  }
+  .hero h1 { font-size: clamp(1.9rem, 4vw, 2.7rem); margin: 0.3em 0 0.5em; }
+  .lede { font-size: 1.08rem; color: var(--muted); }
+  .lede.small { font-size: 0.95rem; }
+  .hero-canvas { text-align: center; }
+  #chaos { width: 100%; max-width: 560px; height: auto; cursor: crosshair; }
+  .canvas-hint { font-family: var(--sans); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.05em; margin-top: 0.4rem; }
+
+  .ways { margin-bottom: 4rem; }
+  .way-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+  .way-card {
+    border: 1px solid var(--line); border-radius: 12px; padding: 1.3rem 1.4rem;
+    background: var(--bg2); text-decoration: none; color: var(--ink);
+    display: flex; flex-direction: column;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .way-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+  .way-card h3 { margin: 0 0 0.5em; font-size: 1.2rem; }
+  .way-card p { color: var(--muted); font-size: 0.93rem; margin: 0 0 1em; flex: 1; }
+  .way-go { font-family: var(--sans); font-size: 0.8rem; color: var(--accent); }
+
+  .features { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .feature {
+    border: 1px solid var(--line); border-radius: 12px; padding: 1.3rem 1.4rem;
+    text-decoration: none; color: var(--ink);
+    transition: border-color 0.15s ease;
+  }
+  .feature:hover { border-color: var(--accent); }
+  .feature h3 { margin: 0.2em 0 0.4em; }
+  .feature p { color: var(--muted); font-size: 0.93rem; margin: 0; }
+
+  @media (max-width: 800px) {
+    .hero { grid-template-columns: 1fr; gap: 1.5rem; }
+    .way-grid { grid-template-columns: 1fr; }
+    .features { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const canvas = document.getElementById('chaos') as HTMLCanvasElement;
+  const ctx = canvas.getContext('2d')!;
+  const W = canvas.width, H = canvas.height;
+  const pad = 30;
+  const A = { x: W / 2, y: pad };
+  const B = { x: pad, y: H - pad };
+  const C = { x: W - pad, y: H - pad };
+  const verts = [A, B, C];
+  const countEl = document.getElementById('chaos-count')!;
+
+  const css = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+  let p = { x: W / 2, y: H / 2 };
+  let n = 0;
+  let raf = 0;
+
+  function reset(x?: number, y?: number) {
+    cancelAnimationFrame(raf);
+    ctx.clearRect(0, 0, W, H);
+    // corner markers
+    ctx.fillStyle = css('--muted');
+    for (const v of verts) {
+      ctx.beginPath();
+      ctx.arc(v.x, v.y, 3, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    p = { x: x ?? W / 2 + (Math.random() - 0.5) * 100, y: y ?? H / 2 + (Math.random() - 0.5) * 100 };
+    n = 0;
+    raf = requestAnimationFrame(step);
+  }
+
+  function step() {
+    // ramp: slow at first so the noise phase is visible, then accelerate
+    const perFrame = n < 60 ? 1 : n < 300 ? 4 : n < 1500 ? 24 : 90;
+    ctx.fillStyle = css('--accent');
+    for (let i = 0; i < perFrame; i++) {
+      const v = verts[(Math.random() * 3) | 0];
+      p = { x: (p.x + v.x) / 2, y: (p.y + v.y) / 2 };
+      n++;
+      const r = n < 60 ? 2 : 1;
+      ctx.globalAlpha = n < 60 ? 0.9 : 0.55;
+      ctx.fillRect(p.x - r / 2, p.y - r / 2, r, r);
+    }
+    ctx.globalAlpha = 1;
+    countEl.textContent = `${n.toLocaleString()} dots`;
+    if (n < 60000) raf = requestAnimationFrame(step);
+  }
+
+  canvas.addEventListener('pointerdown', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * W;
+    const y = ((e.clientY - rect.top) / rect.height) * H;
+    reset(x, y);
+  });
+
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => reset());
+  reset();
+</script>

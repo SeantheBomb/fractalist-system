@@ -1,0 +1,17 @@
+---
+import { fractalSvg } from '../lib/fractals';
+
+interface Props {
+  type: string;
+  hue: string;
+  seed: string;
+  size?: string;
+}
+const { type, hue, seed, size = '100%' } = Astro.props;
+const svg = fractalSvg(type, hue, seed);
+---
+<div class="fractal-glyph" style={`width: ${size};`} set:html={svg} />
+
+<style>
+  .fractal-glyph :global(svg) { display: block; width: 100%; height: auto; }
+</style>
