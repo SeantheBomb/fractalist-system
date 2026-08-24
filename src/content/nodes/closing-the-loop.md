@@ -17,4 +17,6 @@ And here is the part that closes the loop across all three movements at once: wh
 
 This is the whole shape of Part Two, said once more, all the way through: you tend the Self, because an untended Self travels its chaos outward. You bring something worth magnifying into a Dyad, because a Dyad amplifies whatever you actually bring it, not what you meant to bring. You let a Skein form around real, repeated contact rather than a label, because a Skein built on anything else was never going to hold weight. And the whole practice, done honestly at any one of these scales, eventually — filtered, delayed, imperfectly, through whatever Fold it has to travel — comes home to all three at once.
 
+None of this was ever a plan for self-improvement measured in isolation, and none of it was ever a plan for building something bigger than yourself either. It's smaller and stranger than both: learning to help yourself in ways that happen to help the people around you, and trusting the rest to a rising tide rather than a ledger. You don't lift anyone by managing the water level. You just stop holding your own boat down, and let what happens next actually happen.
+
 You don't finish this part of the book. You close the loop, and it starts again, at whichever scale your actual life is asking for next.
