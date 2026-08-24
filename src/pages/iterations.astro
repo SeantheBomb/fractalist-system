@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import HeroFractal from '../components/HeroFractal.astro';
 
 // Newest first. A text about revision should be visibly revisable.
 const iterations = [
@@ -26,6 +27,7 @@ const iterations = [
 ];
 ---
 <Base title="Iterations" description="Every revision of this living document, recorded in the open.">
+  <HeroFractal type="spirals" seed="iterations" color="var(--c-p3)" />
   <h1>Iterations</h1>
   <p style="color: var(--muted);">
     This is a living document — <em>and the output of each telling becomes the input for every

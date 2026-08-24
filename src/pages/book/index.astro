@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import HeroFractal from '../../components/HeroFractal.astro';
 import { PARTS } from '../../../scripts/manifest.mjs';
 
 const nodes = (await getCollection('nodes')).sort((a, b) => a.data.order - b.data.order);
@@ -10,6 +11,7 @@ const grouped = partOrder
   .filter((g) => g.items.length > 0);
 ---
 <Base title="The Book" description="Every chapter of the Fractalism handbook, in its printed order — read straight through, or wander by relation instead.">
+  <HeroFractal type="chaos" seed="the-book" color="var(--c-p1)" />
   <h1>The Book</h1>
   <p style="color: var(--muted);">
     This is the whole handbook in its printed order, for anyone who wants the straight path.

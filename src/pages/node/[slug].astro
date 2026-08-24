@@ -2,7 +2,30 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NextCards from '../../components/NextCards.astro';
+import HeroFractal from '../../components/HeroFractal.astro';
 import { PARTS } from '../../../scripts/manifest.mjs';
+
+// Animated hero family per part, with topic-specific overrides.
+const FAMILY: Record<string, string> = {
+  'front': 'koch',
+  'part-one': 'chaos',
+  'part-two': 'grove',
+  'part-three': 'loops',
+  'part-four': 'ferns',
+  'part-five': 'spirals',
+  'part-six': 'rings',
+  'appendix': 'koch',
+};
+const OVERRIDES: Record<string, string> = {
+  'reading-your-own-cycle': 'tide',   // the tides paragraph is the chapter's payoff
+  'closing-the-loop': 'tide',         // "a rising tide rather than a ledger"
+  'the-mathematics': 'chaos',
+  'the-fold': 'rings',
+  'going-to-ground': 'ferns',
+  'the-compost-heap': 'ferns',
+  'the-skein': 'loops',
+  'where-it-comes-from': 'spirals',
+};
 
 export async function getStaticPaths() {
   const nodes = await getCollection('nodes');
@@ -17,10 +40,16 @@ const inPart = nodes
   .filter((n) => n.data.part === entry.data.part)
   .sort((a, b) => a.data.order - b.data.order);
 const idx = inPart.findIndex((n) => n.id === entry.id);
-const nextInPart = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
+const nextCandidate = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
+const nextInPart = nextCandidate && !entry.data.related.includes(nextCandidate.id) ? nextCandidate : null;
 ---
 <Base title={entry.data.title} description={entry.data.summary}>
   <article>
+    <HeroFractal
+      type={(OVERRIDES[entry.id] ?? FAMILY[entry.data.part] ?? 'grove') as any}
+      seed={entry.id}
+      color={part?.color ?? 'var(--accent)'}
+    />
     <p class="eyebrow" style={`color: ${part?.color ?? 'var(--muted)'}`}>{part?.title ?? entry.data.part}</p>
     <h1 style="margin-top: 0.2em;">{entry.data.title}</h1>
     {entry.data.epigraph && <p class="epigraph">“{entry.data.epigraph}”</p>}
