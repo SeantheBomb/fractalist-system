@@ -88,9 +88,10 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
       frame(dt) {
         prog += dt / drawSecs;
         if (prog >= 1.35) {
+          // no hard clear — the continuous fadeRect below already dissolves
+          // the previous level out as the next one draws in
           prog = 0;
           cur = (cur + 1) % (maxLevel + 1);
-          if (cur === 0) ctx.clearRect(0, 0, W, H);
         }
         fadeRect(ctx, W, H, bg, 0.08);
         const pts = levels[cur];
@@ -122,11 +123,13 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
       return [W / 2 + Math.cos(a) * W * 0.42, H / 2 + Math.sin(a) * H * 0.42];
     });
     let p = [W / 2, H / 2];
-    let last = -1, n = 0;
+    let last = -1, n = 0, burst = 0, cycleStart = 0;
     return {
       frame(dt, t) {
-        if (n > 42000) { ctx.clearRect(0, 0, W, H); n = 0; }
-        const per = Math.min(500, 8 + Math.floor(t * t * 3));
+        if (n > 42000) { n = 0; burst = 40; cycleStart = t; }
+        if (burst > 0) { fadeRect(ctx, W, H, bg, 0.1); burst--; }
+        const ct = t - cycleStart;
+        const per = Math.min(500, 8 + Math.floor(ct * ct * 3));
         ctx.fillStyle = ink;
         ctx.globalAlpha = 0.5;
         for (let i = 0; i < per; i++) {
@@ -219,7 +222,9 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
     return {
       frame(dt) {
         depth += dt / perLevel;
-        if (depth > maxD + 4.5) { depth = 0; plant(); ctx.clearRect(0, 0, W, H); }
+        // no hard clear — the fadeRect below dissolves the old tree as
+        // the new one (fresh segs from plant()) grows in on top of it
+        if (depth > maxD + 4.5) { depth = 0; plant(); }
         fadeRect(ctx, W, H, bg, 0.045);
         ctx.strokeStyle = ink;
         ctx.lineCap = 'round';
@@ -286,11 +291,13 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
       cx: W * (0.2 + rng() * 0.6), sc: H * (0.16 + rng() * 0.05), flip: rng() < 0.5 ? -1 : 1,
       x: 0, y: 0,
     }));
-    let n = 0;
+    let n = 0, burst = 0, cycleStart = 0;
     return {
       frame(dt, t) {
-        if (n > 26000) { ctx.clearRect(0, 0, W, H); n = 0; }
-        const per = Math.min(260, 6 + Math.floor(t * t * 2));
+        if (n > 26000) { n = 0; burst = 40; cycleStart = t; for (const p of plots) { p.x = 0; p.y = 0; } }
+        if (burst > 0) { fadeRect(ctx, W, H, bg, 0.1); burst--; }
+        const ct = t - cycleStart;
+        const per = Math.min(260, 6 + Math.floor(ct * ct * 2));
         ctx.fillStyle = ink;
         ctx.globalAlpha = 0.55;
         for (let i = 0; i < per; i++) {
@@ -317,12 +324,13 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
       cx: W * (count === 1 ? 0.5 : 0.28 + 0.44 * i), cy: H * 0.52,
       dir: rng() < 0.5 ? -1 : 1, phase: rng() * TAU,
     }));
-    let t0 = 0;
+    let t0 = 0, burst = 0;
     const cycle = 11;
     return {
       frame(dt, t) {
         t0 += dt;
-        if (t0 > cycle) { t0 = 0; ctx.clearRect(0, 0, W, H); }
+        if (t0 > cycle) { t0 = 0; burst = 30; }
+        if (burst > 0) { fadeRect(ctx, W, H, bg, 0.05); burst--; }
         fadeRect(ctx, W, H, bg, 0.012);
         ctx.strokeStyle = ink;
         for (const h of homes) {
