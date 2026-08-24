@@ -2,7 +2,7 @@
 // Animated fractal hero banner. Each page gets a family (by part/topic) and a
 // per-slug seed, so no two pages run the same animation.
 interface Props {
-  type: 'koch' | 'chaos' | 'grove' | 'loops' | 'ferns' | 'spirals' | 'rings' | 'tide';
+  type: 'koch' | 'chaos' | 'sierpinski' | 'grove' | 'loops' | 'ferns' | 'spirals' | 'rings' | 'tide';
   seed: string;
   color?: string;
   height?: number;
@@ -139,6 +139,53 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
           n++;
         }
         ctx.globalAlpha = 1;
+      },
+    };
+  };
+
+  // ---- sierpinski: a scrolling texture of triforce triangles drifting past ----
+  const sierpinski: Maker = (ctx, W, H, rng, ink, bg) => {
+    const depth = 2 + Math.floor(rng() * 2);                       // 2 = the classic triforce
+    const s = H * (0.62 + rng() * 0.35);                           // triangle side
+    const rowH = s * 0.866;
+    const speed = (9 + rng() * 13) * (rng() < 0.5 ? -1 : 1);       // px/s drift
+    const rows = Math.ceil(H / rowH) + 1;
+
+    // pre-render one horizontally-tileable strip at 2x for crispness
+    const scale = 2;
+    const tile = document.createElement('canvas');
+    tile.width = s * scale;
+    tile.height = H * scale;
+    const tc = tile.getContext('2d')!;
+    tc.scale(scale, scale);
+    tc.fillStyle = ink;
+    function tri(x: number, y: number, side: number, d: number) {
+      if (d === 0) {
+        tc.beginPath();
+        tc.moveTo(x + side / 2, y);
+        tc.lineTo(x + side, y + side * 0.866);
+        tc.lineTo(x, y + side * 0.866);
+        tc.closePath();
+        tc.fill();
+        return;
+      }
+      const h = side / 2;
+      tri(x + h / 2, y, h, d - 1);
+      tri(x, y + h * 0.866, h, d - 1);
+      tri(x + h, y + h * 0.866, h, d - 1);
+    }
+    for (let r = 0; r < rows; r++) {
+      const y = -rowH * 0.25 + r * rowH;
+      const stagger = (r % 2) * (s / 2);
+      tc.globalAlpha = r % 2 === 0 ? 0.34 : 0.2;
+      for (const off of [-s, 0, s]) tri(off + stagger, y, s, depth);
+    }
+
+    return {
+      frame(dt, t) {
+        ctx.clearRect(0, 0, W, H);
+        const offset = (((t * speed) % s) + s) % s - s;
+        for (let x = offset; x < W; x += s) ctx.drawImage(tile, x, 0, s, H);
       },
     };
   };
@@ -377,7 +424,7 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
     };
   };
 
-  const MAKERS: Record<string, Maker> = { koch, chaos, grove, loops, ferns, spirals, rings, tide };
+  const MAKERS: Record<string, Maker> = { koch, chaos, sierpinski, grove, loops, ferns, spirals, rings, tide };
 
   const host = document.querySelector<HTMLElement>('.hero-fractal');
   const canvas = host?.querySelector('canvas');
