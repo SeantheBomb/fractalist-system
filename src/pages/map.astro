@@ -7,202 +7,579 @@ const nodesC = await getCollection('nodes');
 const thirdsC = await getCollection('thirds');
 
 interface MapNode {
-  id: string; href: string; title: string; group: string; color: string;
-  related: string[]; x: number; y: number; r: number; inbound: number;
+  id: string; href: string; title: string; group: string; color: string; related: string[];
 }
 
 const items: MapNode[] = [
   ...nodesC.map((n) => ({
     id: n.id, href: `/node/${n.id}/`, title: n.data.title, group: n.data.part,
     color: PARTS[n.data.part]?.color ?? 'var(--muted)',
-    related: n.data.related, x: 0, y: 0, r: 5, inbound: 0,
-    order: n.data.order,
+    related: n.data.related,
   })),
   ...thirdsC.map((t) => ({
     id: t.id, href: `/thirds/${t.id}/`, title: t.data.name, group: 'thirds',
     color: 'var(--c-p5)',
-    related: [...t.data.relatedThirds, ...t.data.relatedNodes], x: 0, y: 0, r: 5, inbound: 0,
-    order: t.data.order,
+    related: [...t.data.relatedThirds, ...t.data.relatedNodes],
   })),
 ];
 
-// inbound counts → node size
 const byId = new Map(items.map((n) => [n.id, n]));
+
+// Unique undirected edges — this is the whole graph's gravity.
+const edgeSet = new Set<string>();
+const edges: [string, string][] = [];
 for (const n of items) for (const r of n.related) {
-  const t = byId.get(r);
-  if (t) t.inbound++;
+  if (!byId.has(r)) continue;
+  const key = [n.id, r].sort().join('|');
+  if (edgeSet.has(key)) continue;
+  edgeSet.add(key);
+  edges.push(key.split('|') as [string, string]);
 }
-for (const n of items) n.r = 4 + Math.min(6, n.inbound * 0.9);
 
-// cluster anchors on a loose oval — the parts as islands
-const W = 1100, H = 860;
-const anchors: Record<string, [number, number]> = {
-  'front': [180, 130],
-  'part-one': [430, 170],
-  'part-two': [760, 260],
-  'part-three': [200, 430],
-  'part-four': [480, 470],
-  'part-five': [820, 560],
-  'thirds': [560, 700],
-  'part-six': [250, 690],
-  'appendix': [70, 560],
-};
+// Degree — a note's mass. More connections, more gravity, more visual weight.
+const degree = new Map<string, number>();
+for (const n of items) degree.set(n.id, 0);
+for (const [a, b] of edges) {
+  degree.set(a, (degree.get(a) ?? 0) + 1);
+  degree.set(b, (degree.get(b) ?? 0) + 1);
+}
 
-// phyllotaxis within each cluster, deterministic
-const GA = Math.PI * (3 - Math.sqrt(5));
-const groups = new Map<string, MapNode[]>();
+// Connected components — a Skein is a cluster nobody assigned; it's just what's left
+// standing once you trace every real connection as far as it goes.
+const parent = new Map<string, string>();
+function find(x: string): string {
+  while (parent.get(x) !== x) { parent.set(x, parent.get(parent.get(x)!)!); x = parent.get(x)!; }
+  return x;
+}
+function union(a: string, b: string) {
+  const ra = find(a), rb = find(b);
+  if (ra !== rb) parent.set(ra, rb);
+}
+for (const n of items) parent.set(n.id, n.id);
+for (const [a, b] of edges) union(a, b);
+
+const compMembers = new Map<string, string[]>();
 for (const n of items) {
-  if (!groups.has(n.group)) groups.set(n.group, []);
-  groups.get(n.group)!.push(n);
+  const root = find(n.id);
+  if (!compMembers.has(root)) compMembers.set(root, []);
+  compMembers.get(root)!.push(n.id);
 }
-for (const [g, list] of groups) {
-  list.sort((a: any, b: any) => a.order - b.order);
-  const [ax, ay] = anchors[g] ?? [W / 2, H / 2];
-  list.forEach((n, i) => {
-    const rad = 16 * Math.sqrt(i + 0.6);
-    const th = i * GA;
-    n.x = ax + rad * Math.cos(th);
-    n.y = ay + rad * 0.82 * Math.sin(th);
+// Culture: how the Skeins are organized — each real cluster (2+ members), labeled by
+// whichever part/kinship is most common among its members.
+const components = Array.from(compMembers.values())
+  .filter((ids) => ids.length >= 2)
+  .map((ids) => {
+    const counts = new Map<string, number>();
+    for (const id of ids) {
+      const g = byId.get(id)!.group;
+      counts.set(g, (counts.get(g) ?? 0) + 1);
+    }
+    const dominant = Array.from(counts.entries()).sort((a, b) => b[1] - a[1])[0][0];
+    const label = dominant === 'thirds' ? 'The Standing Thirds' : (PARTS[dominant]?.title.replace(/ — .*$/, '') ?? dominant);
+    return { ids, label };
   });
-}
 
-const edges: { a: MapNode; b: MapNode }[] = [];
-const seen = new Set<string>();
-for (const n of items) for (const r of n.related) {
-  const t = byId.get(r);
-  if (!t) continue;
-  const key = [n.id, t.id].sort().join('|');
-  if (seen.has(key)) continue;
-  seen.add(key);
-  edges.push({ a: n, b: t });
-}
-
-const groupLabels = [
-  ...Object.entries(PARTS).map(([k, v]: any) => ({ key: k, title: v.title.replace(/ — .*$/, ''), color: v.color })),
-  { key: 'thirds', title: 'The Standing Thirds', color: 'var(--c-p5)' },
-].filter((g) => groups.has(g.key));
+const graphData = {
+  items: items.map((n) => ({
+    id: n.id, href: n.href, title: n.title, group: n.group, color: n.color,
+    degree: degree.get(n.id) ?? 0,
+  })),
+  edges,
+  components,
+};
 ---
-<Base title="The Map" description="Every topic in Fractalism, connected by relation instead of order. Follow whichever thread holds your interest." wide>
+<Base title="The Map" description="Every topic in Fractalism as a galaxy — notes as planets, connections as gravity, clusters as solar systems. Zoom from the whole cosmos down to a single note." wide>
   <h1>The Map</h1>
   <p style="max-width: 44rem; color: var(--muted);">
-    Every idea here, connected by what it actually touches — not by chapter order. Hover to see a
-    node's threads; click to read it. Pages you've visited stay lit, so your own path through the
-    material becomes something you can see. There is no correct order. That's the point.
+    This is the Infinite Boundary, sketched — every idea here, held together by nothing but its own
+    gravity. A note with no connections drifts to the outskirts, alone; a note with many pulls its
+    neighbors into orbit and grows to show it. Nothing here was placed by hand — the shape is what's
+    left once every real connection is allowed to pull, and everything else is allowed to push away.
   </p>
 
+  <div class="lens-bar" role="group" aria-label="Scale lens">
+    <button class="lens-btn" data-lens="cosmos" type="button" aria-pressed="true">
+      <span class="lens-name">Cosmos</span><span class="lens-sub">the whole map</span>
+    </button>
+    <button class="lens-btn" data-lens="culture" type="button" aria-pressed="false">
+      <span class="lens-name">Culture</span><span class="lens-sub">how the Skeins organize</span>
+    </button>
+    <button class="lens-btn" data-lens="skein" type="button" aria-pressed="false">
+      <span class="lens-name">Skein</span><span class="lens-sub">one cluster</span>
+    </button>
+    <button class="lens-btn" data-lens="dyad" type="button" aria-pressed="false">
+      <span class="lens-name">Dyad</span><span class="lens-sub">one connection</span>
+    </button>
+    <button class="lens-btn" data-lens="self" type="button" aria-pressed="false">
+      <span class="lens-name">Self</span><span class="lens-sub">one note</span>
+    </button>
+  </div>
+
   <div class="map-frame">
-    <svg id="graph" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg">
-      <g id="edges">
-        {edges.map(({ a, b }) => (
-          <line
-            x1={a.x.toFixed(1)} y1={a.y.toFixed(1)} x2={b.x.toFixed(1)} y2={b.y.toFixed(1)}
-            data-a={a.id} data-b={b.id}
-          />
-        ))}
-      </g>
-      <g id="nodes">
-        {items.map((n) => (
-          <a href={n.href} data-id={n.id} class="gnode">
-            <circle cx={n.x.toFixed(1)} cy={n.y.toFixed(1)} r={n.r.toFixed(1)} style={`fill: ${n.color}`} />
-            <text x={n.x.toFixed(1)} y={(n.y + n.r + 10).toFixed(1)} text-anchor="middle">{n.title}</text>
-          </a>
-        ))}
-      </g>
-      <g id="glabels">
-        {groupLabels.map((g) => {
-          const [ax, ay] = anchors[g.key] ?? [0, 0];
-          return <text x={ax} y={ay - 78} text-anchor="middle" style={`fill: ${g.color}`} class="glabel">{g.title}</text>;
-        })}
+    <svg id="graph" viewBox="0 0 1100 860" xmlns="http://www.w3.org/2000/svg">
+      <g id="camera">
+        <g id="hulls"></g>
+        <g id="edges"></g>
+        <g id="nodes"></g>
       </g>
     </svg>
+    <div class="map-controls">
+      <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+      <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+      <button id="zoom-reset" type="button" aria-label="Reset view">⟲</button>
+    </div>
+    <div id="node-card" class="node-card" hidden></div>
   </div>
 
   <p class="map-legend">
     <span id="thread-count"></span>
+    Hover a note to feel its gravity; drag to pan, scroll or pinch to zoom, click to read.
     Prefer a list? <a href="/book/">The Book</a> holds everything in printed order, and the
     <a href="/thirds/">Thirds gallery</a> holds the mythology.
   </p>
+
+  <script type="application/json" id="graph-data" set:html={JSON.stringify(graphData).replace(/</g, '\\u003c')} />
 </Base>
 
-<style>
+<style is:global>
+  .lens-bar {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+  .lens-btn {
+    font-family: var(--sans);
+    text-align: left;
+    border: 1px solid var(--line);
+    background: var(--bg2);
+    color: var(--muted);
+    border-radius: 10px;
+    padding: 0.5rem 0.85rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+  }
+  .lens-btn .lens-name { display: block; font-size: 0.85rem; font-weight: 600; color: var(--ink); }
+  .lens-btn .lens-sub { display: block; font-size: 0.68rem; letter-spacing: 0.03em; }
+  .lens-btn:hover { border-color: var(--accent); }
+  .lens-btn[aria-pressed="true"] {
+    background: color-mix(in srgb, var(--accent) 14%, var(--bg2));
+    border-color: var(--accent);
+  }
+  .lens-btn[aria-pressed="true"] .lens-name { color: var(--accent); }
+
   .map-frame {
+    position: relative;
     border: 1px solid var(--line);
     border-radius: 14px;
     background: var(--bg2);
-    overflow-x: auto;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    overflow: hidden;
   }
-  #graph { display: block; min-width: 760px; width: 100%; height: auto; }
-  #edges line {
-    stroke: var(--line);
-    stroke-width: 1;
-    opacity: 0.55;
-    transition: opacity 0.12s ease, stroke 0.12s ease;
+  #graph { display: block; width: 100%; height: min(78vh, 720px); touch-action: none; cursor: grab; }
+  #graph.dragging { cursor: grabbing; }
+
+  #edges line { stroke: var(--line); stroke-width: 1; opacity: 0.5; transition: opacity 0.12s ease, stroke 0.12s ease; }
+  #edges line.hot { stroke: var(--accent); opacity: 0.95; stroke-width: 1.8; }
+  #edges line.dim { opacity: 0.08; }
+
+  #hulls path {
+    fill: color-mix(in srgb, var(--muted) 7%, transparent);
+    stroke: var(--muted);
+    stroke-opacity: 0.28;
+    stroke-width: 16;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
   }
-  #edges line.hot { stroke: var(--accent); opacity: 1; stroke-width: 1.6; }
-  #edges line.dim { opacity: 0.12; }
+  #hulls text {
+    font-family: var(--sans);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    fill: var(--muted);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
+  }
+  .lens-culture #hulls path, .lens-culture #hulls text { opacity: 1; }
+
   .gnode { cursor: pointer; }
-  .gnode circle { opacity: 0.45; transition: opacity 0.12s ease; }
-  .gnode.visited circle { opacity: 1; }
-  .gnode.visited circle { filter: drop-shadow(0 0 4px currentColor); }
+  .gnode circle { opacity: 0.5; transition: opacity 0.12s ease, r 0.2s ease; }
+  .gnode.visited circle { opacity: 1; filter: drop-shadow(0 0 4px currentColor); }
   .gnode text {
     font-family: var(--sans);
     font-size: 9.5px;
     fill: var(--muted);
-    opacity: 0.75;
+    opacity: 0;
+    transition: opacity 0.12s ease;
     pointer-events: none;
   }
   .gnode.hot circle { opacity: 1; }
+  .gnode.hot text, .lens-culture .gnode.anchor text { opacity: 0.85; }
   .gnode.hot text { fill: var(--ink); opacity: 1; font-weight: 600; }
-  .gnode.dim circle, .gnode.dim text { opacity: 0.12; }
-  .glabel {
-    font-family: var(--sans);
-    font-size: 12px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    opacity: 0.8;
+  .gnode.dim circle, .gnode.dim text { opacity: 0.1; }
+  .lens-self .gnode:not(.hot) circle, .lens-dyad .gnode:not(.hot) circle { opacity: 0.15; }
+
+  .map-controls {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
   }
+  .map-controls button {
+    width: 30px; height: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .map-controls button:hover { border-color: var(--accent); }
+
+  .node-card {
+    position: absolute;
+    left: 0.85rem;
+    top: 0.85rem;
+    max-width: 15rem;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+    font-family: var(--sans);
+    font-size: 0.78rem;
+    pointer-events: none;
+  }
+  .node-card .nc-part { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .node-card .nc-title { font-family: var(--serif); font-size: 1rem; margin-top: 0.15rem; color: var(--ink); }
+
   .map-legend { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
 </style>
 
 <script>
-  const svg = document.getElementById('graph')!;
-  const nodes = Array.from(svg.querySelectorAll<SVGAElement>('.gnode'));
-  const edges = Array.from(svg.querySelectorAll<SVGLineElement>('#edges line'));
+  import { forceSimulation, forceManyBody, forceLink, forceCollide, forceCenter } from 'd3-force';
 
-  // visited glow
+  interface GNode { id: string; href: string; title: string; group: string; color: string; degree: number; r: number; x?: number; y?: number; }
+  interface GEdge { source: string | GNode; target: string | GNode; }
+
+  const dataEl = document.getElementById('graph-data')!;
+  const data = JSON.parse(dataEl.textContent || '{}') as {
+    items: Omit<GNode, 'r'>[]; edges: [string, string][]; components: { ids: string[]; label: string }[];
+  };
+
+  const nodes: GNode[] = data.items.map((n) => ({
+    ...n,
+    r: n.degree === 0 ? 3.2 : 4 + Math.min(11, Math.sqrt(n.degree) * 3.4),
+  }));
+  const byId = new Map(nodes.map((n) => [n.id, n]));
+  const linkData: GEdge[] = data.edges.map(([a, b]) => ({ source: a, target: b }));
+
+  const svg = document.getElementById('graph') as unknown as SVGSVGElement;
+  const camera = document.getElementById('camera')!;
+  const nodesG = document.getElementById('nodes')!;
+  const edgesG = document.getElementById('edges')!;
+  const hullsG = document.getElementById('hulls')!;
+  const mapFrame = svg.closest('.map-frame')!;
+  const nodeCard = document.getElementById('node-card') as HTMLDivElement;
+  const NS = 'http://www.w3.org/2000/svg';
+
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // ---- build DOM ----
+  const nodeEls = new Map<string, { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement }>();
+  for (const n of nodes) {
+    const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
+    g.setAttribute('href', n.href);
+    g.setAttribute('class', 'gnode');
+    g.dataset.id = n.id;
+    const c = document.createElementNS(NS, 'circle');
+    c.setAttribute('r', n.r.toFixed(1));
+    c.setAttribute('style', `fill:${n.color}`);
+    const t = document.createElementNS(NS, 'text');
+    t.setAttribute('text-anchor', 'middle');
+    t.textContent = n.title;
+    g.appendChild(c); g.appendChild(t);
+    nodesG.appendChild(g);
+    nodeEls.set(n.id, { g, c, t });
+  }
+  const edgeEls: { el: SVGLineElement; a: string; b: string }[] = [];
+  for (const [a, b] of data.edges) {
+    const line = document.createElementNS(NS, 'line');
+    line.dataset.a = a; line.dataset.b = b;
+    edgesG.appendChild(line);
+    edgeEls.push({ el: line, a, b });
+  }
+  const hullEls = data.components.map((comp) => {
+    const path = document.createElementNS(NS, 'path');
+    const text = document.createElementNS(NS, 'text');
+    text.textContent = comp.label;
+    hullsG.appendChild(path);
+    hullsG.appendChild(text);
+    return { comp, path, text };
+  });
+
+  // ---- visited thread ----
   let thread: string[] = [];
   try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
   const visited = new Set(thread.map((t) => t.split(':')[1]));
-  let count = 0;
-  nodes.forEach((n) => {
-    if (visited.has(n.dataset.id!)) { n.classList.add('visited'); count++; }
-  });
+  let visitedCount = 0;
+  for (const [id, { g }] of nodeEls) { if (visited.has(id)) { g.classList.add('visited'); visitedCount++; } }
   const tc = document.getElementById('thread-count');
-  if (tc && count > 0) tc.textContent = `Your thread so far: ${count} of ${nodes.length} lit. `;
+  if (tc && visitedCount > 0) tc.textContent = `Your thread so far: ${visitedCount} of ${nodes.length} lit. `;
 
-  // hover highlighting
+  // ---- physics: mass from connection, isolation pushed to the outskirts ----
+  const sim = forceSimulation(nodes as any)
+    .force('charge', forceManyBody().strength((d: any) => (d.degree === 0 ? -650 : -50 - d.degree * 16)))
+    .force('link', forceLink(linkData as any).id((d: any) => d.id).distance((d: any) => 30 + (d.source.r ?? 5) + (d.target.r ?? 5)).strength(0.55))
+    .force('collide', forceCollide().radius((d: any) => d.r + 4).strength(0.85).iterations(2))
+    .force('center', forceCenter(0, 0))
+    .alphaDecay(reduced ? 1 : 0.02);
+
+  if (reduced) {
+    for (let i = 0; i < 300; i++) sim.tick();
+    render();
+  } else {
+    sim.on('tick', render);
+  }
+
+  function render() {
+    for (const n of nodes) {
+      const el = nodeEls.get(n.id)!;
+      el.g.setAttribute('transform', `translate(${(n.x ?? 0).toFixed(1)},${(n.y ?? 0).toFixed(1)})`);
+      el.t.setAttribute('y', (n.r + 10).toFixed(1));
+    }
+    for (const e of edgeEls) {
+      const a = byId.get(e.a), b = byId.get(e.b);
+      if (!a || !b) continue;
+      e.el.setAttribute('x1', (a.x ?? 0).toFixed(1)); e.el.setAttribute('y1', (a.y ?? 0).toFixed(1));
+      e.el.setAttribute('x2', (b.x ?? 0).toFixed(1)); e.el.setAttribute('y2', (b.y ?? 0).toFixed(1));
+    }
+    for (const { comp, path, text } of hullEls) {
+      const pts = comp.ids.map((id) => byId.get(id)!).filter(Boolean);
+      const hull = convexHull(pts.map((p) => [p.x ?? 0, p.y ?? 0] as [number, number]));
+      if (hull.length < 2) continue;
+      path.setAttribute('d', hull.length === 2
+        ? `M${hull[0][0]},${hull[0][1]} L${hull[1][0]},${hull[1][1]}`
+        : `M${hull.map((p) => p.join(',')).join('L')}Z`);
+      const cx = pts.reduce((s, p) => s + (p.x ?? 0), 0) / pts.length;
+      const top = Math.min(...pts.map((p) => (p.y ?? 0) - p.r));
+      text.setAttribute('x', cx.toFixed(1));
+      text.setAttribute('y', (top - 22).toFixed(1));
+      text.setAttribute('text-anchor', 'middle');
+    }
+    if (!lensLocked) fitTo(allBounds(), false);
+  }
+
+  function convexHull(points: [number, number][]): [number, number][] {
+    const pts = Array.from(new Set(points.map((p) => p.join(',')))).map((s) => s.split(',').map(Number) as [number, number]);
+    if (pts.length < 3) return pts;
+    pts.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const cross = (o: number[], a: number[], b: number[]) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lower: [number, number][] = [];
+    for (const p of pts) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop(); lower.push(p); }
+    const upper: [number, number][] = [];
+    for (let i = pts.length - 1; i >= 0; i--) { const p = pts[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop(); upper.push(p); }
+    lower.pop(); upper.pop();
+    return lower.concat(upper);
+  }
+
+  // ---- camera: pan, zoom, and per-lens framing ----
+  let camX = 550, camY = 430, camK = 1;
+  let lensLocked = false; // true once the user picks a non-cosmos lens (stop auto-refitting on every tick)
+  applyCamera();
+
+  function applyCamera() {
+    camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(3)})`);
+  }
+
+  function bounds(ids: string[]): { x0: number; y0: number; x1: number; y1: number } | null {
+    const pts = ids.map((id) => byId.get(id)).filter(Boolean) as GNode[];
+    if (!pts.length) return null;
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const p of pts) {
+      x0 = Math.min(x0, (p.x ?? 0) - p.r); x1 = Math.max(x1, (p.x ?? 0) + p.r);
+      y0 = Math.min(y0, (p.y ?? 0) - p.r); y1 = Math.max(y1, (p.y ?? 0) + p.r);
+    }
+    return { x0, y0, x1, y1 };
+  }
+  function allBounds() { return bounds(nodes.map((n) => n.id))!; }
+
+  let animFrame = 0;
+  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, pad = 60) {
+    if (!b) return;
+    const vw = 1100, vh = 860;
+    const w = Math.max(40, b.x1 - b.x0) + pad * 2;
+    const h = Math.max(40, b.y1 - b.y0) + pad * 2;
+    const k = Math.max(0.15, Math.min(3.2, Math.min(vw / w, vh / h)));
+    const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
+    const tx = vw / 2 - cx * k, ty = vh / 2 - cy * k;
+    cancelAnimationFrame(animFrame);
+    if (!animate) { camX = tx; camY = ty; camK = k; applyCamera(); return; }
+    const sx = camX, sy = camY, sk = camK;
+    const dur = 650, start = performance.now();
+    function step(now: number) {
+      const t = Math.min(1, (now - start) / dur);
+      const e = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+      camX = sx + (tx - sx) * e; camY = sy + (ty - sy) * e; camK = sk + (k - sk) * e;
+      applyCamera();
+      if (t < 1) animFrame = requestAnimationFrame(step);
+    }
+    animFrame = requestAnimationFrame(step);
+  }
+
+  // ---- pan + zoom ----
+  let dragging = false, lastX = 0, lastY = 0;
+  svg.addEventListener('pointerdown', (e) => {
+    dragging = true; lastX = e.clientX; lastY = e.clientY;
+    svg.classList.add('dragging');
+    (e.target as Element).setPointerCapture?.(e.pointerId);
+  });
+  svg.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    const rect = svg.getBoundingClientRect();
+    const scale = 1100 / rect.width;
+    camX += (e.clientX - lastX) * scale;
+    camY += (e.clientY - lastY) * scale;
+    lastX = e.clientX; lastY = e.clientY;
+    lensLocked = true;
+    applyCamera();
+  });
+  const endDrag = () => { dragging = false; svg.classList.remove('dragging'); };
+  svg.addEventListener('pointerup', endDrag);
+  svg.addEventListener('pointerleave', endDrag);
+
+  function zoomAt(clientX: number, clientY: number, factor: number) {
+    const rect = svg.getBoundingClientRect();
+    const mx = (clientX - rect.left) * (1100 / rect.width);
+    const my = (clientY - rect.top) * (860 / rect.height);
+    camX = mx * (1 - factor) + camX * factor;
+    camY = my * (1 - factor) + camY * factor;
+    camK = Math.max(0.12, Math.min(6, camK * factor));
+    lensLocked = true;
+    applyCamera();
+  }
+  svg.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.12 : 1 / 1.12);
+  }, { passive: false });
+
+  document.getElementById('zoom-in')!.addEventListener('click', () => {
+    const r = svg.getBoundingClientRect();
+    zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1.25);
+  });
+  document.getElementById('zoom-out')!.addEventListener('click', () => {
+    const r = svg.getBoundingClientRect();
+    zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1 / 1.25);
+  });
+  document.getElementById('zoom-reset')!.addEventListener('click', () => {
+    lensLocked = false;
+    setLens('cosmos');
+  });
+
+  // ---- hover: highlight + drive focus-dependent lenses live ----
+  let hoveredId: string | null = null;
   function setHot(id: string | null) {
+    hoveredId = id;
     if (!id) {
-      nodes.forEach((n) => n.classList.remove('hot', 'dim'));
-      edges.forEach((e) => e.classList.remove('hot', 'dim'));
+      for (const { g } of nodeEls.values()) g.classList.remove('hot', 'dim');
+      for (const { el } of edgeEls) el.classList.remove('hot', 'dim');
+      if (nodeCard) nodeCard.hidden = true;
+      if (currentLens === 'skein' || currentLens === 'dyad' || currentLens === 'self') frameLens(currentLens);
       return;
     }
     const linked = new Set([id]);
-    edges.forEach((e) => {
-      const hot = e.dataset.a === id || e.dataset.b === id;
-      e.classList.toggle('hot', hot);
-      e.classList.toggle('dim', !hot);
-      if (hot) { linked.add(e.dataset.a!); linked.add(e.dataset.b!); }
-    });
-    nodes.forEach((n) => {
-      const hot = linked.has(n.dataset.id!);
-      n.classList.toggle('hot', hot);
-      n.classList.toggle('dim', !hot);
-    });
+    for (const e of edgeEls) {
+      const hot = e.a === id || e.b === id;
+      e.el.classList.toggle('hot', hot);
+      e.el.classList.toggle('dim', !hot);
+      if (hot) { linked.add(e.a); linked.add(e.b); }
+    }
+    for (const [nid, { g }] of nodeEls) {
+      const hot = linked.has(nid);
+      g.classList.toggle('hot', hot);
+      g.classList.toggle('dim', !hot);
+    }
+    const n = byId.get(id);
+    if (n && nodeCard) {
+      nodeCard.hidden = false;
+      const partLabel = n.group === 'thirds' ? 'A Standing Third' : n.group;
+      nodeCard.innerHTML = `<div class="nc-part">${partLabel} · ${n.degree} connection${n.degree === 1 ? '' : 's'}</div><div class="nc-title">${n.title}</div>`;
+    }
+    if (currentLens === 'skein' || currentLens === 'dyad' || currentLens === 'self') frameLens(currentLens);
   }
-  nodes.forEach((n) => {
-    n.addEventListener('pointerenter', () => setHot(n.dataset.id!));
-    n.addEventListener('pointerleave', () => setHot(null));
-  });
+  for (const [id, { g }] of nodeEls) {
+    g.addEventListener('pointerenter', () => setHot(id));
+    g.addEventListener('pointerleave', () => setHot(null));
+  }
+
+  // ---- lenses ----
+  type Lens = 'cosmos' | 'culture' | 'skein' | 'dyad' | 'self';
+  let currentLens: Lens = 'cosmos';
+
+  function largestComponent(): string[] {
+    return data.components.reduce((best, c) => (c.ids.length > best.length ? c.ids : best), [] as string[]);
+  }
+  function highestDegreeNode(): GNode {
+    return nodes.reduce((best, n) => (n.degree > best.degree ? n : best), nodes[0]);
+  }
+  function componentOf(id: string): string[] {
+    const comp = data.components.find((c) => c.ids.includes(id));
+    return comp ? comp.ids : [id];
+  }
+  function anEdgeOf(id: string): [string, string] | null {
+    const found = data.edges.find(([a, b]) => a === id || b === id);
+    return found ?? null;
+  }
+  function busiestEdge(): [string, string] {
+    let best = data.edges[0];
+    let bestScore = -1;
+    for (const [a, b] of data.edges) {
+      const score = (byId.get(a)?.degree ?? 0) + (byId.get(b)?.degree ?? 0);
+      if (score > bestScore) { bestScore = score; best = [a, b]; }
+    }
+    return best;
+  }
+
+  function frameLens(lens: Lens) {
+    if (lens === 'cosmos') { lensLocked = false; fitTo(allBounds(), true, 70); return; }
+    lensLocked = true;
+    if (lens === 'culture') { fitTo(allBounds(), true, 90); return; }
+    if (lens === 'skein') {
+      const ids = hoveredId ? componentOf(hoveredId) : largestComponent();
+      fitTo(bounds(ids.length ? ids : [highestDegreeNode().id]), true, 50);
+      return;
+    }
+    if (lens === 'dyad') {
+      const pair = (hoveredId && anEdgeOf(hoveredId)) || busiestEdge();
+      fitTo(bounds(pair), true, 70);
+      return;
+    }
+    if (lens === 'self') {
+      const id = hoveredId ?? highestDegreeNode().id;
+      const n = byId.get(id)!;
+      fitTo({ x0: (n.x ?? 0) - n.r, y0: (n.y ?? 0) - n.r, x1: (n.x ?? 0) + n.r, y1: (n.y ?? 0) + n.r }, true, 130);
+    }
+  }
+
+  function setLens(lens: Lens) {
+    currentLens = lens;
+    for (const btn of document.querySelectorAll<HTMLButtonElement>('.lens-btn')) {
+      btn.setAttribute('aria-pressed', String(btn.dataset.lens === lens));
+    }
+    mapFrame.classList.toggle('lens-culture', lens === 'culture');
+    frameLens(lens);
+  }
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('.lens-btn')) {
+    btn.addEventListener('click', () => setLens(btn.dataset.lens as Lens));
+  }
+
+  // mark high-degree nodes so the Culture lens can show a few anchor labels
+  const sortedByDegree = [...nodes].sort((a, b) => b.degree - a.degree);
+  for (const n of sortedByDegree.slice(0, 10)) nodeEls.get(n.id)!.g.classList.add('anchor');
 </script>
