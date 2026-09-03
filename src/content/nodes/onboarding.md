@@ -1,7 +1,7 @@
 ---
 title: "Start Here: The One-Week Onboarding"
 part: "part-two"
-order: 8
+order: 9
 epigraph: "A goal without a deadline is simply a dream."
 summary: "Seven days, one small thing per day. Don't adopt everything at once — that would be the exact mistake the whole book warns against."
 related: ["daily-practices", "finding-your-local-rule", "four-pillars"]

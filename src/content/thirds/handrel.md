@@ -2,12 +2,13 @@
 name: "Handrel"
 epithet: "Who Was Taught to Teach"
 kinship: "skein"
-order: 12
+order: 9
 epigraph: "Give a man a fish, and teach a man to fish."
 personifies: "Faithful transmission — the visible difference between a rumor and an apprenticeship, given a face."
 tending: "Pass this on faithfully; what you carry is worth carrying unchanged."
 fraying: "Transmission is stalled — something worth passing on is being hoarded or lost."
 fractal: {"type":"chain","hue":"skein"}
+drawable: true
 relatedThirds: ["quillith", "sethra", "aestren"]
 relatedNodes: ["the-skein"]
 ---

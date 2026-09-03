@@ -1,13 +1,13 @@
 ---
 title: "Naming and Defusing"
 part: "part-two"
-order: 11
+order: 12
 epigraph: "Accept the things you can not change, and change the things you can not accept."
 summary: "The self-stories that feel like settled fact — \"I always quit\" — and the practice of catching them as patterns instead of verdicts."
-related: ["the-compost-heap", "psychology-woven-self", "sythen", "the-loop-runs-you"]
+related: ["the-woven-self", "the-compost-heap", "psychology-woven-self", "sythen"]
 ---
 
-The Woven Self pillar carries a promise: what was built by repetition can be revised by repetition. This chapter is where that promise gets tested against the hardest material it ever runs into — the stories you tell about yourself, especially the unflattering ones that feel less like opinions and more like facts.
+The Woven Self, from Part One, carries a promise: what was built by repetition can be revised by repetition. This chapter is where that promise gets tested against the hardest material it ever runs into — the stories you tell about yourself, especially the unflattering ones that feel less like opinions and more like facts.
 
 *"I'm someone who always quits." "I'm bad with money." "I'm not a disciplined person."*
 
@@ -25,11 +25,13 @@ Here is the practice, and it's simpler than it sounds:
 
 **Ask what loop it's actually protecting.** Self-stories like this are rarely random. "I always quit" often protects you from the risk of trying fully and failing anyway. Naming the story is usually enough to reveal, a beat later, what it's actually for.
 
-**Notice: the story is a repeated pattern, not a verdict.** This is the direct application of the Woven Self pillar. If the self is built by iteration, then a self-story that keeps repeating is not a discovery about some fixed truth underneath you — it's just another loop, running the way loops run, reinforced every time you treat it as fact instead of pattern, and amplified by a mind that was always going to weigh it more heavily than the evidence deserved. That reframe alone, done honestly and repeatedly, is often the entire intervention. You don't have to win an argument against the thought. You have to stop mistaking it for the ground you're standing on.
+**Notice: the story is a repeated pattern, not a verdict.** This is the direct application of the Woven Self, and underneath it, of the Third Thing pillar it's built from. If the self is built by iteration, then a self-story that keeps repeating is not a discovery about some fixed truth underneath you — it's just another loop, running the way loops run, reinforced every time you treat it as fact instead of pattern, and amplified by a mind that was always going to weigh it more heavily than the evidence deserved. That reframe alone, done honestly and repeatedly, is often the entire intervention. You don't have to win an argument against the thought. You have to stop mistaking it for the ground you're standing on.
 
 This is, in miniature, the single easiest thing in this entire practice to forget, and worth naming as its own recurring difficulty rather than just a symptom of this one chapter: *you feel a line. You are a loop. You build a tree.* A self-story doesn't feel like one frame inside a longer, looping pattern. It feels like the single, linear, currently-unfolding truth of who you are, because that's the only vantage the experiencing self ever has access to — one moment, felt directly, with no view of the loop you're actually woven into. The veil isn't a flaw in your thinking. It's simply what it's like to be the part of you that only ever gets to live one instant at a time. Most of this practice, at every scale this book covers, is the slow work of learning to act on what you know about the loop you are, even while the only thing you can actually feel is the line.
 
 There's a further layer worth adding here, because it's the part of this practice that does the most actual defusing: "I always quit" is a loop-name, and a loop-name is already a compression. It was built by noticing that several past attempts resembled each other closely enough to deserve one label — but every one of those attempts was, in fact, different. Different stakes, different exhaustion, a different person watching, a different amount of sleep the night before. The real, uncompressed record isn't a tight little loop at all. It's a tree — one root tendency, branching into a genuinely distinct leaf every single time it met a new set of conditions. Part of defusing a self-story isn't arguing with the loop-name. It's recovering the tree the name flattened, and noticing that the specific leaf in front of you right now hasn't actually grown yet, no matter how many others came before it looking similar from a distance.
+
+A short, useful question sits underneath all of this, worth asking directly the moment a self-judgment shows up: *is this a Word, pulled toward something I've actually checked, or a Label, pushed at me before any checking happened?* "I'm bad at this" earned through several honest attempts, examined fairly, is a Word — reached for because something real is there to point at. "I always quit," arriving automatically, at full strength, before you've had a chance to look at the actual leaf in front of you, is a Label — pushed by the same negativity-dominance machinery already named in this chapter, doing persuasive work rather than descriptive work. A Label doesn't need to be true to feel convincing. It only needs to arrive fast enough to skip the checking that a real Word would have survived.
 
 This is not the same as forcing positivity or refusing to acknowledge real limitations. Some things you're bad at are actually just things you're bad at, for now, and pretending otherwise isn't defusion, it's denial. The practice isn't "believe something nicer." The practice is "notice that a repeated thought and a permanent fact are not the same category of thing," and let the noticing do its own quiet work.
 

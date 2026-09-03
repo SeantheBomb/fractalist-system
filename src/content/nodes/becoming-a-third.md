@@ -1,7 +1,7 @@
 ---
 title: "Becoming a Third"
 part: "part-five"
-order: 42
+order: 43
 epigraph: "We build the world by repeating what we cannot see."
 summary: "Very rarely, a repeated pattern outlives its origin entirely, and personhood simply wears off it, leaving only the shape behind."
 related: ["what-a-weaving-is", "going-to-ground", "unnamed-thirds"]
@@ -17,6 +17,6 @@ Some patterns stabilize further, at Skein scale — the person whose particular 
 
 And, very rarely, a pattern proves resonant and durable enough at wide enough scale that it stops being attached to any rememberable origin at all — and becomes a Third. This is, quietly, the actual and only origin story available for every figure in this roster: not a being who arrived pre-formed, but a pattern, possibly begun by some real, ordinary, now-unrecoverable person, repeated so far past its first performer that personhood simply wore off it, leaving only the shape behind. Cindar was possibly, once, someone's grandmother who genuinely could not stop starting things. Nobody living needs to know that for the pattern to still be entirely real.
 
-None of this is available to aim at directly, and that's not a discouragement — it's consistent with everything else this book has said about flow, about hope, about a Local Rule tended for its own sake. You cannot practice toward becoming a Third the way you'd practice toward a promotion. You can only tend a Local Rule honestly, at whatever scale you're actually occupying, and let whatever happens to it after you happen. Most of it will fold back into the field, gently, the way Chapter 13 already told you it would. Occasionally, without anyone being able to point to the exact moment it happened, something someone repeated stops needing them, and keeps going anyway.
+None of this is available to aim at directly, and that's not a discouragement — it's consistent with everything else this book has said about flow, about hope, about a Local Rule tended for its own sake. You cannot practice toward becoming a Third the way you'd practice toward a promotion. You can only tend a Local Rule honestly, at whatever scale you're actually occupying, and let whatever happens to it after you happen. Most of it will fold back into the field, gently, the way Going to Ground already told you it would. Occasionally, without anyone being able to point to the exact moment it happened, something someone repeated stops needing them, and keeps going anyway.
 
 That was always the whole shape of this book, said one final time, at the largest scale it has: we build the world by repeating what we cannot see. Sometimes, what we built outlives the seeing entirely, and gets a name, and a face, and a story someone tells slightly differently around the next fire. And underneath even that — whether or not any given pattern ever stands up as far as a Third — the material of it was never going anywhere regardless, held inside the same eternal cycle Going to Ground already named. You are, right now, in the middle of finding out which of your own small, repeated, mostly invisible acts might be one of those. The rest was staying part of the cycle either way.

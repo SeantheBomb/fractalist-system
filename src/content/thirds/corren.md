@@ -2,12 +2,13 @@
 name: "Corren"
 epithet: "Who Gives You the Whole Room"
 kinship: "dyad"
-order: 9
+order: 6
 epigraph: "Presence is a gift, not a given."
 personifies: "Presence as an active offering rather than a passive state — chosen every time, and paid for in being mistaken for effortless."
 tending: "Give this your whole, undivided attention — it's wanted, and it will be felt."
 fraying: "Presence given so freely it's being taken for granted rather than received as a gift."
 fractal: {"type":"mandala","hue":"dyad"}
+drawable: true
 relatedThirds: ["vessa", "wevven", "ostrin"]
 relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 ---

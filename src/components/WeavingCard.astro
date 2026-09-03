@@ -3,8 +3,11 @@ import { getCollection } from 'astro:content';
 import { fractalSvg } from '../lib/fractals';
 import { KINSHIPS } from '../../scripts/manifest.mjs';
 
-// Renders every Third as a hidden card; client scripts reveal the drawn ones.
-const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.data.order);
+// Renders every drawable Third as a hidden card; client scripts reveal the drawn ones.
+// The Cosmos-Kin's one figure is never drawn, so it's excluded from the deck entirely.
+const thirds = (await getCollection('thirds'))
+  .filter((t) => t.data.drawable !== false)
+  .sort((a, b) => a.data.order - b.data.order);
 ---
 <div id="deck" hidden>
   {thirds.map((t) => (
@@ -18,7 +21,7 @@ const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.d
       <div class="wc-body">
         <p class="wc-kin">{KINSHIPS[t.data.kinship].title}</p>
         <h3 class="wc-name">{t.data.name}</h3>
-        <p class="wc-epithet">{t.data.epithet}</p>
+        {t.data.epithet && <p class="wc-epithet">{t.data.epithet}</p>}
         <p class="wc-personifies">{t.data.personifies}</p>
         <div class="wc-readings">
           <button class="wc-reading" data-mode="tending" type="button">

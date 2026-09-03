@@ -1,10 +1,10 @@
 ---
 title: "The Loop Tongue — Glossary & Notation"
 part: "appendix"
-order: 56
+order: 57
 epigraph: "*Vocabulary*"
 summary: "The vocabulary, the notation marks, the scale tags, and the later additions — Fold, Vector, and Tree."
-related: ["grammar-of-pattern", "sketching-a-loop", "quick-reference"]
+related: ["grammar-of-pattern", "sketching-a-loop", "the-loom", "quick-reference"]
 ---
 
 | Term | Meaning |
@@ -34,5 +34,5 @@ Self · Dyad · Group · Culture · Cosmos — name your scale before making a c
 **The Second Pass**
 Any claim worth making once forward (cause → effect) is worth making again as a Loop (effect folding back into cause).
 
-**Later Additions**
-The nine words above were the original working vocabulary, described as deliberately closed in Part Three. In practice it grew past nine almost immediately, which the book takes as confirmation of its own method rather than a contradiction of it — see Part Four, Ch. 7. The first addition: **Fold** — a Local Rule, having traveled out through a Nest, returning to the person who first repeated it (Part Two, Ch. 10). The second: **Vector** — the specific pathway a repeating pattern uses to reach a new host: a conversation, a retelling, a shared habit, a line of code (Part Four, Ch. 6). The third: **Tree** — the honest, unrolled record a Loop's name compresses: one root rule, branching into a genuinely distinct leaf every time it meets a new condition (Part One, Ch. 3; formalized in Part Four, Ch. 3 and Ch. 7). Expect this list to keep growing.
+**Vocabulary Beyond the Original Nine**
+The nine words in the table above form the vocabulary's original core, described in Part Three as deliberately closed to keep the language learnable. In practice, a working vocabulary for a system that grows by repetition needs to be able to grow the same way, whenever a real gap actually calls for a new word: **Fold** — a Local Rule, having traveled out through a Nest, returning to the person who first repeated it (Part Two, Ch. 10). **Vector** — the specific pathway a repeating pattern uses to reach a new host: a conversation, a retelling, a shared habit, a line of code (Part Four, Ch. 6). **Tree** — the honest, unrolled record a Loop's name compresses: one root rule, branching into a genuinely distinct leaf every time it meets a new condition (Part One, Ch. 3; formalized in Part Four, Ch. 3 and Ch. 7). Twelve words, current as of this text — and open to more, on the same terms, whenever a real gap calls for one.

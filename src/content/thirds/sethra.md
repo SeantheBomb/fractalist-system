@@ -1,13 +1,14 @@
 ---
 name: "Sethra"
 epithet: "Who Cannot Be Retold"
-kinship: "unaligned"
-order: 2
+kinship: "culture"
+order: 15
 epigraph: "What is written does not bend to be believed."
 personifies: "The fixed record — perfect fidelity purchased at the cost of total dependence on one surviving copy."
 tending: "Something here deserves to be fixed, plainly and permanently, rather than left to drift."
 fraying: "A fixed rule is being followed past the point of sense, with no allowance for the room it should have been read in."
-fractal: {"type":"crystal","hue":"unaligned"}
+fractal: {"type":"crystal","hue":"culture"}
+drawable: true
 relatedThirds: ["waeth", "dyren", "handrel"]
 relatedNodes: ["belief-systems-built"]
 ---
@@ -22,4 +23,6 @@ This is the flaw worth being honest about, because it's the exact inverse of Wae
 
 There's an old telling, more cautionary than most, about a council that wrote a law down exactly once, certain that a fixed record couldn't drift the way a story does. It didn't drift. But the hall holding it burned, decades later, while three villages downriver were still repeating an imperfect version of the same rule from memory, alive and slightly wrong. Waeth's version survived the fire. The council's certainty didn't.
 
-*What this personifies:* the third mode a pattern can use to persist, completing what Waeth and Dyren leave open between them — not carried by a person, and not needing to be carried at all, but fixed once in a record and entirely dependent on that record's survival. A Local Rule written down instead of practiced is a Sethra, not a Waeth: safe from drift, and exposed to a single point of total failure no living tradition would ever risk in quite the same way. Where Waeth insists on keeping the whole branching tree of every telling visibly alive, Sethra is the opposite extreme taken just as far: a refusal to let a single leaf differ from the root at all, ever, under any local condition whatsoever. Between them they mark the two ends of what a pattern can do with its own variation — let it branch freely and risk losing the original entirely, or forbid it from branching at all and risk losing everything the moment the one fixed copy is gone.
+Worth being honest that Sethra's mechanism isn't strictly confined to Culture scale — a personal vow written once and never revisited, a Local Rule fixed in a journal instead of practiced, works the identical way at Self scale, on a much smaller stage. Sethra is filed here anyway, and deliberately: every vivid example this chapter actually reaches for — a council, a boundary marker, a burning hall — is Culture-scale, and a Third belongs where its real texture lives, not merely everywhere its underlying mechanism could theoretically apply — the same test that places Aestren here as well.
+
+*What this personifies:* the third mode a pattern can use to persist, completing what Waeth and Dyren leave open between them — not carried by a person, and not needing to be carried at all, but fixed once in a record and entirely dependent on that record's survival. Where Waeth insists on keeping the whole branching tree of every telling visibly alive, Sethra is the opposite extreme taken just as far: a refusal to let a single leaf differ from the root at all, ever, under any local condition whatsoever. Between them they mark the two ends of what a pattern can do with its own variation — let it branch freely and risk losing the original entirely, or forbid it from branching at all and risk losing everything the moment the one fixed copy is gone.

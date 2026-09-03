@@ -2,12 +2,13 @@
 name: "Quillith"
 epithet: "Who Remembers It Better Each Time"
 kinship: "skein"
-order: 11
+order: 8
 epigraph: "A story loses nothing in the telling — except, sometimes, the truth."
 personifies: "The drift of a story toward whatever flatters it — proof that fitness for spreading and fidelity to truth were never the same measurement."
 tending: "This story is growing in the telling; notice what it's becoming."
 fraying: "A story has drifted past what actually happened, and the drift is doing harm."
 fractal: {"type":"spiralBloom","hue":"skein"}
+drawable: true
 relatedThirds: ["handrel", "cessant", "waeth"]
 relatedNodes: ["the-skein", "belief-systems-built"]
 ---

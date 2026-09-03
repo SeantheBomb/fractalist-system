@@ -2,12 +2,13 @@
 name: "Loum"
 epithet: "Keeper of the Long Field"
 kinship: "self"
-order: 6
+order: 3
 epigraph: "From dust you came, and to dust you shall return."
 personifies: "The Compost Heap — the patient, unglamorous work behind everything Cindar ever gets to burn."
 tending: "Let this sit. What looks finished is still becoming something."
 fraying: "Using patience as an excuse to avoid a decision that's actually due now."
 fractal: {"type":"fern","hue":"earth"}
+drawable: true
 relatedThirds: ["cindar", "rethen", "sythen"]
 relatedNodes: ["the-compost-heap", "going-to-ground"]
 ---

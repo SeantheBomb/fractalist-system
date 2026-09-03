@@ -18,13 +18,14 @@
   --c-p5: #7d5ba6;
   --c-p6: #a5527a;
 
-  --k-unaligned: #8b8d84;
   --k-fire: #c05f2a;
   --k-water: #3d7fa6;
   --k-wind: #6c9c8a;
   --k-earth: #6f8f45;
   --k-dyad: #38827a;
   --k-skein: #7d5ba6;
+  --k-culture: #b5651d;
+  --k-cosmos: #33364a;
 
   --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
   --sans: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
@@ -52,13 +53,14 @@
     --c-p5: #ab8ad4;
     --c-p6: #d47da6;
 
-    --k-unaligned: #a3a59b;
     --k-fire: #e08350;
     --k-water: #64a9cf;
     --k-wind: #8fc4af;
     --k-earth: #9cbd68;
     --k-dyad: #5fb8ae;
     --k-skein: #ab8ad4;
+    --k-culture: #e0954f;
+    --k-cosmos: #9095b8;
   }
 }
 
@@ -95,7 +97,7 @@ blockquote {
 
 hr { border: none; border-top: 1px solid var(--line); margin: 2.5em auto; width: 40%; }
 
-table { border-collapse: collapse; width: 100%; margin: 1.5em 0; font-size: 0.92em; }
+table { border-collapse: collapse; width: 100%; margin: 1.5em 0; font-size: 0.92em; display: block; overflow-x: auto; max-width: 100%; }
 th, td { border: 1px solid var(--line); padding: 0.5em 0.75em; text-align: left; vertical-align: top; }
 th { font-family: var(--sans); font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .table-scroll { overflow-x: auto; }

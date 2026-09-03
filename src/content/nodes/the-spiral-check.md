@@ -1,7 +1,7 @@
 ---
 title: "The Spiral Check"
 part: "part-three"
-order: 29
+order: 30
 epigraph: "None of us is as smart as all of us. — Ken Blanchard"
 summary: "A group ritual for decisions: everyone names their scale before their view, and nobody repeats the scale just used."
 related: ["loop-tongue-practice-set", "group-practice", "scale-tagging"]

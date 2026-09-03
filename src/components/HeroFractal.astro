@@ -363,18 +363,27 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
     };
   };
 
-  // ---- rings: the Weaving layout — nested rings, each turning at its own pace ----
+  // ---- rings: the Weaving layout — Self/Dyad/Skein/Culture, each turning at its own pace,
+  // held inside one faint boundary standing in for the never-drawn Cosmos-Kin ----
   const rings: Maker = (ctx, W, H, rng, ink, bg) => {
     const cx = W / 2, cy = H / 2;
-    const base = H * 0.16;
-    const rs = [base, base * 1.85, base * 2.7];
-    const speeds = rs.map((_, i) => (0.5 - i * 0.16) * (rng() < 0.5 ? 1 : -1));
+    const base = H * 0.13;
+    const rs = [base, base * 1.7, base * 2.35, base * 2.95];
+    const speeds = rs.map((_, i) => (0.5 - i * 0.11) * (rng() < 0.5 ? 1 : -1));
     const phases = rs.map(() => rng() * TAU);
-    const aside = { x: W * 0.86, y: H * 0.5, r: base * 0.55 };
+    const boundaryR = base * 3.5;
     return {
       frame(dt, t) {
         fadeRect(ctx, W, H, bg, 0.06);
         ctx.strokeStyle = ink;
+        // the boundary everything else already sits inside — static, never orbited
+        ctx.globalAlpha = 0.14;
+        ctx.setLineDash([2, 7]);
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.arc(cx, cy, boundaryR, 0, TAU);
+        ctx.stroke();
+        ctx.setLineDash([]);
         rs.forEach((r, i) => {
           ctx.globalAlpha = 0.25;
           ctx.lineWidth = 1;
@@ -385,15 +394,9 @@ const { type, seed, color = 'var(--accent)', height = 170 } = Astro.props;
           ctx.globalAlpha = 0.95;
           ctx.fillStyle = ink;
           ctx.beginPath();
-          ctx.arc(cx + Math.cos(a) * r * 1.35, cy + Math.sin(a) * r * 0.92, 2.6, 0, TAU);
+          ctx.arc(cx + Math.cos(a) * r * 1.35, cy + Math.sin(a) * r * 0.92, 2.4, 0, TAU);
           ctx.fill();
         });
-        ctx.globalAlpha = 0.3;
-        ctx.setLineDash([4, 6]);
-        ctx.beginPath();
-        ctx.arc(aside.x, aside.y, aside.r, 0, TAU);
-        ctx.stroke();
-        ctx.setLineDash([]);
         ctx.globalAlpha = 1;
       },
     };

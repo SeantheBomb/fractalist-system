@@ -1,10 +1,10 @@
 ---
 title: "The Psychology of the Woven Self"
 part: "part-four"
-order: 33
+order: 34
 epigraph: "Ego is the enemy to growth, humility is its ally."
 summary: "The experiencing self, the remembering self, and the observing self — three research traditions converging on a self that was always assembled."
-related: ["flow-reward", "naming-and-defusing", "going-to-ground"]
+related: ["the-woven-self", "flow-reward", "naming-and-defusing", "going-to-ground"]
 ---
 
 Part One claimed the self is "a pattern you're running" rather than a fixed thing you have. This chapter takes that claim out of metaphor and into three separate, independently-developed bodies of research that converge on it from different directions.
@@ -19,7 +19,7 @@ That distortion is worth taking seriously as more than a bias to correct for, be
 
 **The observing self.** A third and more directly practical strand — the basis of the Naming and Defusing practice in Part Two — draws a distinction between the content of your mind (the specific thoughts, judgments, and self-stories passing through it) and the capacity that notices that content. This capacity, sometimes called the observing self, is described as remarkably stable across a lifetime in a way the content of thought is not: the thoughts you had at seven and the thoughts you have now share almost nothing, but the "watching" itself has a continuity the content lacks. Practically, this reframes the entire defusion practice: you're not trying to replace a bad thought with a good one. You're strengthening your contact with the part of you that can notice either kind of thought without being fully identified with it — which is a different, and more durable, kind of change than winning an argument against any single thought.
 
-Put these three together and the Woven Self pillar stops being a poetic flourish and becomes a fairly precise empirical claim: there is no single, stable, unified "you" running the show from a fixed interior point. There are multiple systems (experiencing and remembering), assembled substantially from outside material (social, environmental, relational), with one part of the system (the observing capacity) stable enough to notice all of this happening — which is, not coincidentally, exactly the part this book's practices are all designed to strengthen.
+Put these three together and the Woven Self stops being a poetic flourish and becomes a fairly precise empirical claim: there is no single, stable, unified "you" running the show from a fixed interior point. There are multiple systems (experiencing and remembering), assembled substantially from outside material (social, environmental, relational), with one part of the system (the observing capacity) stable enough to notice all of this happening — which is, not coincidentally, exactly the part this book's practices are all designed to strengthen.
 
 **Emotion is not an interruption to the self. It's the self's operating system.** A common, intuitive picture treats feeling as noise that occasionally corrupts otherwise-clean rational decision-making — the calm, reasoned self interrupted by an unhelpful surge of emotion. The evidence points the other way. People who lose the capacity for ordinary emotional response, while retaining intact logical reasoning, do not become better decision-makers freed from emotional bias. They become unable to decide much of anything at all — a pros-and-cons list, however carefully reasoned, does not reliably translate into an actual choice without some felt sense of which option matters. This has a direct bearing on the Naming and Defusing practice in Part Two: the goal was never to strip emotion out of a self-story to leave behind some purer rational core. There is no such core sitting underneath the feeling, waiting to be uncovered once the emotion is cleared away. The practice works by changing your *relationship* to the feeling, not by evacuating it — because a self with the feeling removed isn't a clearer self, it's a self missing the actual machinery it decides with.
 

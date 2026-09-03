@@ -2,12 +2,13 @@
 name: "Wevven"
 epithet: "Who Crosses Back"
 kinship: "dyad"
-order: 7
+order: 4
 epigraph: "A stitch in time saves nine."
 personifies: "The Second Pass made into a habit of the hands — the compulsion to cross back, for better and occasionally for worse."
 tending: "Close this gap now, honestly, even if the words aren't perfect."
 fraying: "Repairing something that hasn't finished being honestly examined first."
 fractal: {"type":"interweave","hue":"dyad"}
+drawable: true
 relatedThirds: ["ostrin", "corren", "vessa"]
 relatedNodes: ["the-second-pass", "the-dyad"]
 ---

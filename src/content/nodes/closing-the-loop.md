@@ -1,9 +1,9 @@
 ---
 title: "Closing the Loop"
 part: "part-two"
-order: 23
+order: 24
 epigraph: "The universe isn't short on wake-up calls — we're just quick to hit snooze."
-summary: "Self, Dyad, and Skein were never separate — and suffering, held honestly, is the friction that reveals what was invisible."
+summary: "Self, Dyad, and Skein were never separate — and the whole practice was always closer to a rising tide than a ledger."
 related: ["why-lines-break-loops", "the-fold", "going-to-ground"]
 ---
 

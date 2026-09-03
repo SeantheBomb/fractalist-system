@@ -1,9 +1,9 @@
 ---
 title: "The Grammar of Pattern"
 part: "part-three"
-order: 25
+order: 26
 epigraph: "Convey information how the human mind is wired to receive it."
-summary: "The Loop Tongue's working vocabulary — nine words, each earned through practice, deliberately few enough to actually spread."
+summary: "The Loop Tongue's working vocabulary, plus the Word/Label test — is a term pulled toward something real, or pushed to produce a reaction?"
 related: ["sketching-a-loop", "loop-tongue-glossary", "why-lines-break-loops"]
 ---
 
@@ -28,3 +28,7 @@ The Loop Tongue doesn't introduce new ideas. It compresses ideas you already hav
 **Leverage** — the specific point in a Loop where a small change produces a disproportionate effect on the Global Form, per the leverage-point ladder in Part Two.
 
 That's the full working vocabulary — nine words. This is deliberate. A jargon that requires fifty terms before it's usable stops being a shared language and starts being a private one, readable only to people who've already done a great deal of study. Nine words, each already earned through direct experience in Parts One and Two, is closer to something that can actually spread by use, the way a real dialect does.
+
+**There's a test worth applying to any of these nine words, or to any word at all, and it's the same test the Skein and the Banner already taught you at community scale, generalized to naming itself.** A **Word** is *pulled* — reached for because something real is already there, checked, noticed, needing only a handle to be pointed at. A **Label** is *pushed* — thrown at a target to produce an effect, agreement or fear or loyalty, whether or not the thing underneath it actually exists. Tywin Lannister said the sharpest version of this that popular fiction has produced: *"Any man who must say 'I am the king' is no true king."* A real king doesn't need to announce the word. The word was always going to be pulled toward him by people who'd already noticed the thing it names. A man who has to push the word out ahead of himself is admitting, in the same breath, that the thing isn't there yet to be pointed at.
+
+This test travels well past politics. Every term in this Loop Tongue is here because an existing gap needed filling — Fold, Vector, and Tree each name something real that the other nine words couldn't quite reach on their own. None of them exist because they'd sound authoritative or spread well on their own merits. That's not an accident worth skipping past. It's the actual proof that this vocabulary passes its own test.

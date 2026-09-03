@@ -1,7 +1,7 @@
 ---
 title: "What a Third Is, and What It Isn't"
 part: "part-five"
-order: 39
+order: 40
 epigraph: "To name a thing is to have already decided it matters."
 summary: "A pattern repeated widely enough, for long enough, can be given a face. One rule governs everything that follows: a Third has no will of its own."
 related: ["what-a-weaving-is", "the-third-thing", "becoming-a-third"]
@@ -17,4 +17,4 @@ One rule governs everything in this part, and it's worth stating before a single
 
 Worth being honest about what a name like Cindar or Wevven actually is, in the same terms this book uses everywhere else: a Third is a loop-name given to a tree. No two fires Cindar has ever personified were identical — different fuel, different wind, different hands tending them — and no two repairs Wevven has ever crossed were the same conversation twice. Every Third in this roster compresses a genuinely branching tree of real, never-identical instances into one figure stable enough to recognize on sight. That compression is the entire value of a Third — you couldn't hold the whole tree in mind, so the name does it for you — but it's worth remembering, especially once you start weaving with these figures in Part Six, that the character is a convenient loop standing in for a much larger and more varied tree underneath.
 
-The Standing Thirds fall into four kinships, echoing the same architecture Part Two already walked you through — Self, Dyad, Skein — plus a small set of figures who belong to none of them, because the patterns they personify were never bound to any single scale at all.
+The Standing Thirds fall into five kinships, one for each scale this book has already given a name: Self, Dyad, Skein, and Culture, echoing the same architecture Part One and Part Two already walked you through; and Cosmos, a kinship of exactly one, because there is only one totality for it to hold. There is no sixth, scale-transcendent category. Any pattern that might seem to float above the table on first impression has a real home somewhere within it, once its actual illustrative texture is checked honestly — that check is worth applying to any future candidate before granting it an exemption from the scale system.

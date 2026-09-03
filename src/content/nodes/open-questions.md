@@ -1,7 +1,7 @@
 ---
 title: "Open Questions & How to Expand This"
 part: "part-four"
-order: 38
+order: 39
 epigraph: "It's easier to iterate than generate."
 summary: "This book will be wrong about some things — here is what's genuinely unsettled, and the actual mechanism for revising any of it."
 related: ["unnamed-thirds", "loop-tongue-limits", "a-word-on-belief"]
@@ -17,7 +17,7 @@ Whether the Seven Iterations should be read as a fixed structure or whether late
 
 Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here.
 
-Already, three examples of this happening: Part Three called its nine-word vocabulary deliberately closed, and then Part Two needed a tenth word — the Fold — to describe what a Local Rule becomes once it's traveled out through a Nest and returned. This chapter needed an eleventh — the Vector — to name the specific pathway a pattern travels to reach a new host, once it became clear the existing vocabulary could describe where a pattern lands and what it becomes but not how it actually got there. And this same chapter needed a twelfth — the Tree — once it became clear that a Loop itself was already a compression, and the honest, unrolled record of every real pass through one deserved its own name: one root rule, branching into a genuinely distinct leaf every time it meets a new condition. None of these additions is a contradiction of the earlier claim. All three are the claim, working. A vocabulary built for a system that grows by repetition should itself grow by repetition, and the fact that it needed revising three times within the same book it was introduced in is closer to proof of concept than embarrassment.
+The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree sit alongside the original nine specifically because each names something the other terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
 
 Whether the leverage-point ladder in Part Two and Four transfers as cleanly to collective-scale problems as it does to individual habits, or whether group-scale leverage needs its own separate treatment this book hasn't yet attempted.
 

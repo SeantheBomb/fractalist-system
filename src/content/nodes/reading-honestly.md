@@ -1,7 +1,7 @@
 ---
 title: "Reading Honestly"
 part: "part-six"
-order: 52
+order: 53
 epigraph: "The cards describe. They do not decide."
 summary: "A Weaving describes a pattern; it does not predict an outcome. The genuinely useful reading is often the uncomfortable one."
 related: ["weaving-limits", "tending-and-fraying", "the-fold"]

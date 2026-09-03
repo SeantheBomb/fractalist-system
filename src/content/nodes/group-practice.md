@@ -1,7 +1,7 @@
 ---
 title: "Group Practice"
 part: "part-two"
-order: 21
+order: 22
 epigraph: "Many hands make light work."
 summary: "A simple structure for practicing with witnesses: share one loop, offer one leverage point, close with a seed."
 related: ["the-skein", "the-spiral-check", "weaving-together"]

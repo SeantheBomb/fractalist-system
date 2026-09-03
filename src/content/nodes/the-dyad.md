@@ -1,7 +1,7 @@
 ---
 title: "The Dyad"
 part: "part-two"
-order: 18
+order: 19
 epigraph: "It takes two to tango."
 summary: "A Skein narrowed to exactly two people, woven completely enough to function as a single unit — and why complete doesn't automatically mean healthy."
 related: ["the-trust-triangle", "do-i-understand-you", "wevven", "the-third-thing"]

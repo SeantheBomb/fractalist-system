@@ -1,7 +1,7 @@
 ---
 title: "The Fold"
 part: "part-two"
-order: 17
+order: 18
 epigraph: "Karma: the simple science of putting others first."
 summary: "What goes out through a Nest tends to come back through the Nest — karma without a ledger-keeper, and with real cautions attached."
 related: ["the-dyad", "going-to-ground", "grammar-of-pattern", "waeth"]

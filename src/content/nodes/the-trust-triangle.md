@@ -1,7 +1,7 @@
 ---
 title: "The Trust Triangle"
 part: "part-two"
-order: 19
+order: 20
 epigraph: "Don't trust what they say, trust what they do."
 summary: "Authenticity, empathy, logic — the three legs a two-person weave stands on, and what breaks when one goes missing."
 related: ["do-i-understand-you", "ostrin", "the-dyad"]

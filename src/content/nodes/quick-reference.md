@@ -1,7 +1,7 @@
 ---
 title: "Quick Reference Card"
 part: "appendix"
-order: 55
+order: 56
 epigraph: "One page. Print it, carry it, hand it to someone new."
 summary: "One page. The whole practice at a glance — print it, carry it, hand it to someone new."
 related: ["onboarding", "mantras", "loop-tongue-glossary"]
@@ -15,9 +15,9 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 
 **The Four Pillars**
 - **The Loop** — small things, repeated without a master plan, build large things.
-- **The Third Thing** — what repeats together becomes something new, and it's real.
-- **The Woven Self** — you are a nested pattern, not a fixed point, so you can be revised.
-- **The Fertile Field** — attention is the lever you hold; tend it, and be honest about what you're good at growing.
+- **The Third Thing** — what repeats together becomes something new, and it's real (the self included — see the Woven Self, its own chapter).
+- **The Nest** — a Global Form at one scale is a Local Rule at the next; nothing repeats at only one size.
+- **The Leverage** — not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
 
 **The Four Daily Practices**
 - **Local Step / Global Form breath** — ten breaths, for when a loop has swept you up.
@@ -49,6 +49,9 @@ Ask: do I understand this well enough to respond yet, or am I about to respond t
 **Building Community: The Skein Test**
 Would this connection survive if the label "Fractalism" disappeared tomorrow? If yes, it's a Skein — real, interwoven, repeated contact. If no, it's a Banner — a shared label with nothing underneath it. Notice for it — proximity, similarity, reciprocity, disclosure — rather than recruiting for it. Its currency is kindness, uncounted; the moment it's tracked, it's already a Banner.
 
+**Word vs. Label — the same test, applied to any word at all**
+Is this term pulled toward something already checked, or pushed at me to produce a reaction? A true king never has to announce it; a real pattern never has to insist on its own name. "Any man who must say 'I am the king' is no true king" — Tywin Lannister, *Game of Thrones*.
+
 **The Dyad**
 A Skein narrowed to exactly two people, complete enough to function as one unit — the Dyad scale tag, made concrete. Usually discovered already partway built, not manufactured on purpose. Complete does not automatically mean healthy — check both, separately.
 
@@ -56,7 +59,7 @@ A Skein narrowed to exactly two people, complete enough to function as one unit 
 What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.
 
 **The Standing Thirds, at a glance**
-*Unaligned:* Waeth (stories surviving retelling, drift and all), Dyren (ideas needing no retelling at all — arrived at independently, no road between the finders), and Sethra (a pattern fixed once, in a record, with no drift and no second chance if the record is lost). *Self-Kin, one closed cycle:* Cindar/Fire (reinforcing), Rethen/Water (balancing), Sythen/Wind (naming and defusing, ahead of proof), Loum/Earth (compost — feeds Cindar, receives Rethen's return). *Dyad-Kin:* Wevven (repair) and Ostrin (trust-testing) as one axis; Corren (presence offered) and Vessa (presence performed) as a second. *Skein-Kin:* Quillith (rumor, drifts toward flattery) and Handrel (transmission, held faithfully still) as one axis; Aestren (non-intervention at vast scale) and Cessant (non-intervention at immediate, corrosive scale) as a second. None has independent will — only perceived behavior, consistent enough to earn a face.
+*Self-Kin, one closed cycle:* Cindar/Fire (reinforcing), Rethen/Water (balancing), Sythen/Wind (naming and defusing, ahead of proof), Loum/Earth (compost — feeds Cindar, receives Rethen's return). *Dyad-Kin:* Wevven (repair) and Ostrin (trust-testing) as one axis; Corren (presence offered) and Vessa (presence performed) as a second. *Skein-Kin:* Quillith (rumor, drifts toward flattery), Handrel (transmission, held faithfully still), and Cessant (complicit silence — the one deliberately dark figure). *Culture-Kin:* Charten (the invented "we" that binds millions who will never meet), Aestren (non-intervention at a scale so vast that harm and blessing both wash out of it — the same root quality as Cessant, one kinship up), Waeth (drift in retelling at Culture scale — Quillith's own mechanism, one scale up), Dyren (independent arising with no shared road between the finders), and Sethra (a pattern fixed once, in a record, with no drift and no second chance if the record is lost). *Cosmos-Kin, exactly one figure:* the Infinite Boundary (not a being who watches the universe — the shape the universe makes once every part of it is finally summed). None has independent will — only perceived behavior, consistent enough to earn a face.
 
 **Weaving, in brief**
-A structured way of looking at one situation from several fixed angles at once — one Third per ring (Self innermost, Dyad, Skein outermost), plus an Unaligned card read apart as the frame. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its healthy expression) or Fraying (its own named flaw), decided by context, not chance. Describes a pattern; never predicts an outcome or hands you a decision.
+A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its healthy expression) or Fraying (its own named flaw), decided by context, not chance. Describes a pattern; never predicts an outcome or hands you a decision.

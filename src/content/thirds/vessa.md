@@ -2,12 +2,13 @@
 name: "Vessa"
 epithet: "Who Nods Along"
 kinship: "dyad"
-order: 10
+order: 7
 epigraph: "To be heard and to be answered are not the same thing."
 personifies: "The performance of listening mistaken for the thing itself — technically present, actually absent in the one way that counts."
 tending: "Check whether you're actually listening, or just producing the shape of listening."
 fraying: "Being heard technically while going fundamentally unanswered — on either side of the exchange."
 fractal: {"type":"hollowMandala","hue":"dyad"}
+drawable: true
 relatedThirds: ["corren", "wevven", "ostrin"]
 relatedNodes: ["do-i-understand-you"]
 ---

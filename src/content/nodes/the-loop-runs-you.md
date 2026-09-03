@@ -4,7 +4,7 @@ part: "part-one"
 order: 3
 epigraph: "You don't decide your future. You decide your habits."
 summary: "The self is not a thing you have. It's a pattern you're running — and a thing built by repetition can be rebuilt by repetition."
-related: ["four-pillars", "daily-practices", "psychology-woven-self", "reading-your-own-cycle"]
+related: ["the-woven-self", "four-pillars", "daily-practices", "psychology-woven-self"]
 ---
 
 Habit is the clearest place to feel all of this in your own body, because you don't have to take it on faith — you can catch it happening.

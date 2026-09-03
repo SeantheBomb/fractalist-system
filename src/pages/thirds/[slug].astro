@@ -15,7 +15,7 @@ const { Content } = await render(entry);
 const kin = KINSHIPS[entry.data.kinship];
 const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
 ---
-<Base title={`${entry.data.name}, ${entry.data.epithet}`} description={entry.data.personifies}>
+<Base title={entry.data.epithet ? `${entry.data.name}, ${entry.data.epithet}` : entry.data.name} description={entry.data.personifies}>
   <article>
     <div class="third-hero">
       <div class="third-art">
@@ -24,7 +24,7 @@ const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
       <div>
         <p class="eyebrow">{kin?.title} · The Standing Thirds</p>
         <h1 style="margin: 0.15em 0 0.1em;">{entry.data.name}</h1>
-        <p style="font-style: italic; color: var(--muted); margin-top: 0;">{entry.data.epithet}</p>
+        {entry.data.epithet && <p style="font-style: italic; color: var(--muted); margin-top: 0;">{entry.data.epithet}</p>}
         {entry.data.epigraph && <p class="epigraph" style="margin-top: 1.2em;">“{entry.data.epigraph}”</p>}
       </div>
     </div>
@@ -33,23 +33,34 @@ const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
       <Content />
     </div>
 
-    <section class="readings">
-      <p class="eyebrow">In a Weaving</p>
-      <div class="reading-grid">
-        <div class="reading tending">
-          <div class="r-label">Tending</div>
-          <p>{entry.data.tending}</p>
+    {entry.data.drawable === false ? (
+      <section class="readings">
+        <p class="eyebrow">In a Weaving</p>
+        <p style="color: var(--muted);">
+          {entry.data.name} is never drawn as a card. There's only one, and it already holds every
+          Weaving before a single card is turned over — worth naming once at the start, not pulled
+          as a variable within it. <a href="/node/the-deck/">Why the deck works this way.</a>
+        </p>
+      </section>
+    ) : (
+      <section class="readings">
+        <p class="eyebrow">In a Weaving</p>
+        <div class="reading-grid">
+          <div class="reading tending">
+            <div class="r-label">Tending</div>
+            <p>{entry.data.tending}</p>
+          </div>
+          <div class="reading fraying">
+            <div class="r-label">Fraying</div>
+            <p>{entry.data.fraying}</p>
+          </div>
         </div>
-        <div class="reading fraying">
-          <div class="r-label">Fraying</div>
-          <p>{entry.data.fraying}</p>
-        </div>
-      </div>
-      <p style="font-size: 0.88rem; color: var(--muted);">
-        Tending is not good news, and Fraying is not bad news — a card describes a pattern already
-        present, never an outcome. <a href="/node/tending-and-fraying/">How to read the two.</a>
-      </p>
-    </section>
+        <p style="font-size: 0.88rem; color: var(--muted);">
+          Tending is not good news, and Fraying is not bad news — a card describes a pattern already
+          present, never an outcome. <a href="/node/tending-and-fraying/">How to read the two.</a>
+        </p>
+      </section>
+    )}
   </article>
 
   <NextCards related={related} />

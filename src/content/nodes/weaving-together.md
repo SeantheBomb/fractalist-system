@@ -1,7 +1,7 @@
 ---
 title: "Weaving Together"
 part: "part-six"
-order: 51
+order: 52
 epigraph: "Many hands make light work."
 summary: "A group Weaving gives Group Practice a shared ritual object — one spread for the group's shared situation, read aloud together."
 related: ["reading-honestly", "group-practice", "the-four-point-weaving"]

@@ -108,6 +108,7 @@ THIRDS.forEach((t, i) => {
     `tending: ${y(t.tending)}`,
     `fraying: ${y(t.fraying)}`,
     `fractal: ${JSON.stringify(t.fractal)}`,
+    `drawable: ${t.drawable === false ? 'false' : 'true'}`,
     `relatedThirds: [${t.relatedThirds.map(y).join(', ')}]`,
     `relatedNodes: [${t.relatedNodes.map(y).join(', ')}]`,
     '---',

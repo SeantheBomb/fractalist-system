@@ -1,9 +1,9 @@
 ---
 title: "Finding Your Leverage Point"
 part: "part-two"
-order: 14
+order: 15
 epigraph: "Give me a place to stand, and I will move the earth. — Archimedes"
-summary: "Numbers, buffers, rules, information flow, goals, paradigm — the ladder of where change actually holds, from weakest lever to strongest."
+summary: "Numbers, buffers, rules, information flow, goals, paradigm — the ladder of where change actually holds, walked through at Self, Dyad, and Skein scale."
 related: ["fractal-resistance", "systems-theory", "the-sacrifice-trap"]
 ---
 
@@ -24,5 +24,11 @@ Here is a simple hierarchy, ordered roughly from weakest leverage to strongest, 
 **Paradigm.** The unquestioned assumption underneath the goal itself — not "I should be more productive" but the buried belief that your worth is a function of your output at all. This is the strongest lever that exists, and also the hardest to see, precisely because a paradigm doesn't feel like an assumption from inside it. It feels like reality. Shifting it rarely happens through direct argument — it tends to happen the way everything else in this book happens: through repeated, lived contact with a different pattern, until the old assumption simply stops being the thing you're standing on.
 
 The practical use of this ladder is not "always aim for paradigm change" — that's a good way to spend years of effort with nothing to show for it, because paradigm-level work is slow and hard to aim deliberately. The practical use is: when a numbers-level fix keeps failing to hold, stop blaming your willpower and check one level up. Usually the real leverage was sitting one or two rungs above where you were pushing.
+
+**The ladder works the same six rungs at every scale, and it's worth actually walking it somewhere other than a personal habit, since that's the only place this book has taken it so far.**
+
+A Dyad stuck in a repeating fight, walked the same way: the *numbers*-level fix is "we should talk less about money" — a quantity adjustment that never holds. The *buffer* is a bigger emotional reserve — more patience banked before the next argument, still not addressing why the argument keeps recurring. The *rule* is something like "no money conversations after 9pm" — a real structural change, more durable than either of the above. *Information flow* is whether both people can actually see the shared budget rather than one person managing it invisibly. The *goal* underneath the rule is the real fork: is this Dyad organized around "avoid conflict" or around "build something honestly together"? And the *paradigm* — the rarely-examined assumption underneath even that — might be something like "money conversations are inherently dangerous," inherited from somewhere neither person chose, quietly poisoning every lower rung until it's actually named and checked.
+
+A Skein gone quiet, walked the same way: the *numbers* fix is "we should message more often" — reliably ignored within a month. The *buffer* is more goodwill built up during the good stretches, so a bad month doesn't end the group — better than nothing, still not the actual lever. The *rule* is a standing structure — a recurring Group Practice date, not left to spontaneous scheduling. *Information flow* is whether people actually know when someone's struggling, or only find out much later. The *goal* question is sharper than it looks: is this Skein organized around convenience, or around real mutual commitment? And the *paradigm* underneath — often something like "reaching out first is needy" — is usually the actual reason contact quietly died in the first place, and no amount of scheduling fixes it until that assumption gets named and questioned directly.
 
 Worth calling this ladder what it structurally is, because the word sharpens the practice: it's a tree, not a ladder, with paradigm sitting at the root and every symptom you actually notice — a missed habit, a blown budget, a recurring argument — sitting out at a leaf. The reason a paradigm-level fix cascades down through goals, rules, and numbers automatically, while a numbers-level fix never reaches upward, is exactly the relationship a root has to its leaves: the root shapes every leaf that grows from it, but no single leaf can reshape the root by itself. This is the same structure "root cause" has always pointed at, now given the rest of its shape — a cause isn't a root because it's important. It's a root because everything else downstream of it is one of its leaves, shaped by it, unable to un-shape it by acting alone.

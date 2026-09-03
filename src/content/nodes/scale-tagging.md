@@ -1,7 +1,7 @@
 ---
 title: "Scale-Tagging"
 part: "part-three"
-order: 27
+order: 28
 epigraph: "When everything is important, nothing is important."
 summary: "Most arguments between people who agree are two descriptions of the same pattern at different scales. Name your zoom level before you speak."
 related: ["the-second-pass", "the-spiral-check", "aestren"]

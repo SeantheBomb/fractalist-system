@@ -1,7 +1,7 @@
 ---
 title: "The Mantras, Prayers, and Meditations"
 part: "appendix"
-order: 54
+order: 55
 epigraph: "For daily use, alone or in groups. See Part Two for the practices these accompany."
 summary: "The full text of every mantra, prayer, and meditation — for daily use, alone or in groups."
 related: ["daily-practices", "quick-reference", "group-practice"]

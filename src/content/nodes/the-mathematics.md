@@ -1,7 +1,7 @@
 ---
 title: "The Mathematics"
 part: "part-four"
-order: 32
+order: 33
 epigraph: "To perceive generalization will not merely be a new result, but a new force."
 summary: "The chaos game, done properly: randomness and determinism converging on the identical structure, checkable with a pencil."
 related: ["systems-theory", "the-third-thing", "where-it-comes-from"]

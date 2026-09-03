@@ -1,7 +1,7 @@
 ---
 title: "Flow, Reward, and Why Practice Works"
 part: "part-four"
-order: 35
+order: 36
 epigraph: "The opposite of work is not play, it's depression."
 summary: "Why something this simple produces a felt sense of meaning: challenge-skill balance, hedonic adaptation, and reward that doesn't degrade."
 related: ["fractalism-collective", "daily-practices", "the-sacrifice-trap"]

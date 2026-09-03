@@ -1,7 +1,7 @@
 ---
 title: "The Sacrifice Trap"
 part: "part-two"
-order: 16
+order: 17
 epigraph: "Ambition must be informed by reality."
 summary: "Grind now, live later is a trade that never pays out. A meditation for the moment you catch yourself making it."
 related: ["the-fold", "going-to-ground", "flow-reward"]

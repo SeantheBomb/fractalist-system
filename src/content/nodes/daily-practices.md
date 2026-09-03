@@ -1,7 +1,7 @@
 ---
 title: "The Daily Practices"
 part: "part-two"
-order: 9
+order: 10
 epigraph: "It's easier to iterate than generate."
 summary: "Four short practices that carry the daily weight: the breath, Tree-Gazing, Naming the Loop, and Seeding — each with the mechanism explained."
 related: ["finding-your-local-rule", "flow-reward", "naming-and-defusing", "mantras"]

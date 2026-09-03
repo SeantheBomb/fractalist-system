@@ -1,7 +1,7 @@
 ---
 title: "Fractal Resistance, Practiced"
 part: "part-two"
-order: 15
+order: 16
 epigraph: "People are not disturbed by things, but by the view they take of them. — Epictetus"
 summary: "Inside a system that resists change, be one honest, differently-behaving part — variation as immunity, not rebellion."
 related: ["the-sacrifice-trap", "fractalism-collective", "belief-systems-built"]

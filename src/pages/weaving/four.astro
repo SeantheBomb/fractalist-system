@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import WeavingCard from '../../components/WeavingCard.astro';
 ---
-<Base title="A Four-Point Weaving" description="One card for each ring — Self, Dyad, Skein — plus an Unaligned frame, revealed one at a time.">
+<Base title="A Four-Point Weaving" description="One card for each ring — Self, Dyad, Skein, Culture — revealed one at a time, with no privileged first card.">
   <h1>A Four-Point Weaving</h1>
 
   <section id="step-intro" class="wstep">
@@ -11,28 +11,23 @@ import WeavingCard from '../../components/WeavingCard.astro';
       type it, name it, or share it; the whole reading happens against what you're already holding.
     </p>
     <p style="color: var(--muted); font-size: 0.93rem;">
-      Four cards will be drawn, one at a time: an <strong>Unaligned frame</strong>, read apart, then
-      one for each nested ring — <strong>Self</strong>, <strong>Dyad</strong>, <strong>Skein</strong>.
-      Take each card slowly. A card that clearly doesn't fit tells you as much about the real shape
-      of your situation as one that lands cleanly.
+      Four cards will be drawn, one for each ring — <strong>Self</strong>, <strong>Dyad</strong>,
+      <strong>Skein</strong>, <strong>Culture</strong> — read from the center out. None of them gets
+      special priority just for being drawn first. Take each card slowly. A card that clearly doesn't
+      fit tells you as much about the real shape of your situation as one that lands cleanly.
     </p>
-    <button class="big-btn" data-next type="button">Draw the frame</button>
-  </section>
-
-  <section class="wstep" data-ring="unaligned" hidden>
-    <p class="eyebrow">The frame · read apart from the rings</p>
-    <div class="slot"></div>
-    <p class="wprompt">
-      Read the frame first: is the pattern at the center of your question something that survives by
-      changing in the retelling, something that keeps arising on its own, or something fixed in place
-      and possibly followed past its sense? Sit with whether this frame lands before drawing inward.
-      If a reading above matches your situation, tap it.
+    <p style="color: var(--muted); font-size: 0.88rem;">
+      One thing worth saying once before you begin, rather than drawing a card for it: whatever these
+      four show, the whole reading is still one small, summed part of something no single Weaving was
+      ever going to capture completely. That's the Cosmos-Kin's only figure, the Infinite Boundary —
+      never drawn, because there's only one, and it already holds every Weaving before a card is
+      turned over.
     </p>
     <button class="big-btn" data-next type="button">Draw the Self ring</button>
   </section>
 
   <section class="wstep" data-ring="self" hidden>
-    <p class="eyebrow">The inner ring · Self</p>
+    <p class="eyebrow">The innermost ring · Self</p>
     <div class="slot"></div>
     <p class="wprompt">
       This ring is about what's happening <em>in you</em>, at your own scale — not what anyone else
@@ -42,7 +37,7 @@ import WeavingCard from '../../components/WeavingCard.astro';
   </section>
 
   <section class="wstep" data-ring="dyad" hidden>
-    <p class="eyebrow">The middle ring · Dyad</p>
+    <p class="eyebrow">The second ring · Dyad</p>
     <div class="slot"></div>
     <p class="wprompt">
       This ring is about what's happening between you and <em>one specific other person</em> inside
@@ -52,11 +47,22 @@ import WeavingCard from '../../components/WeavingCard.astro';
   </section>
 
   <section class="wstep" data-ring="skein" hidden>
-    <p class="eyebrow">The outer ring · Skein</p>
+    <p class="eyebrow">The third ring · Skein</p>
     <div class="slot"></div>
     <p class="wprompt">
       This ring is about the scale of the group around you — the family, team, or community the
       situation is nested inside, whether or not they know about it.
+    </p>
+    <button class="big-btn" data-next type="button">Draw the Culture ring</button>
+  </section>
+
+  <section class="wstep" data-ring="culture" hidden>
+    <p class="eyebrow">The outermost ring · Culture</p>
+    <div class="slot"></div>
+    <p class="wprompt">
+      This ring is about a scale beyond any single group you could name — the shared story, the
+      invented "we," the pattern operating across a whole society or institution the situation sits
+      inside of.
     </p>
     <button class="big-btn" data-next type="button">Lay out the rings</button>
   </section>
@@ -70,21 +76,28 @@ import WeavingCard from '../../components/WeavingCard.astro';
     </p>
 
     <div class="rings">
-      <div class="ring skein-ring">
-        <span class="ring-label">Skein</span>
-        <div class="ring-mini" data-mini="skein"></div>
-        <div class="ring dyad-ring">
-          <span class="ring-label">Dyad</span>
-          <div class="ring-mini" data-mini="dyad"></div>
-          <div class="ring self-ring">
-            <span class="ring-label">Self</span>
-            <div class="ring-mini" data-mini="self"></div>
+      <div class="ring culture-ring">
+        <span class="ring-label">Culture</span>
+        <div class="ring-mini" data-mini="culture"></div>
+        <div class="ring skein-ring">
+          <span class="ring-label">Skein</span>
+          <div class="ring-mini" data-mini="skein"></div>
+          <div class="ring dyad-ring">
+            <span class="ring-label">Dyad</span>
+            <div class="ring-mini" data-mini="dyad"></div>
+            <div class="ring self-ring">
+              <span class="ring-label">Self</span>
+              <div class="ring-mini" data-mini="self"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="frame-aside">
-        <span class="ring-label">The frame</span>
-        <div class="ring-mini" data-mini="unaligned"></div>
+      <div class="cosmos-aside">
+        <span class="ring-label">Cosmos — never drawn</span>
+        <p>
+          The Infinite Boundary holds the whole arrangement without being placed as a card —
+          the edge the four rings above already sit inside.
+        </p>
       </div>
     </div>
 
@@ -123,7 +136,8 @@ import WeavingCard from '../../components/WeavingCard.astro';
     padding: 1rem;
     position: relative;
   }
-  .skein-ring { border-color: color-mix(in srgb, var(--k-skein) 55%, var(--line)); }
+  .culture-ring { border-color: color-mix(in srgb, var(--k-culture) 55%, var(--line)); }
+  .skein-ring { border-color: color-mix(in srgb, var(--k-skein) 55%, var(--line)); margin-top: 0.8rem; }
   .dyad-ring { border-color: color-mix(in srgb, var(--k-dyad) 55%, var(--line)); margin-top: 0.8rem; }
   .self-ring { border-color: color-mix(in srgb, var(--k-fire) 45%, var(--line)); margin-top: 0.8rem; }
   .ring-label {
@@ -135,12 +149,13 @@ import WeavingCard from '../../components/WeavingCard.astro';
   .ring-mini .mini-art :global(svg) { display: block; width: 100%; height: auto; }
   .ring-mini .mini-name { font-weight: 600; }
   .ring-mini .mini-pick { font-family: var(--sans); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
-  .frame-aside {
+  .cosmos-aside {
     border: 1px dashed var(--line);
     border-radius: 18px;
     padding: 1rem;
     margin-top: 1rem;
   }
+  .cosmos-aside p { font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 0; }
   .final-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.5rem; }
 </style>
 
@@ -171,8 +186,10 @@ import WeavingCard from '../../components/WeavingCard.astro';
     step.querySelector('.slot')!.replaceChildren(card);
   }
 
+  const ringOrder = ['self', 'dyad', 'skein', 'culture'];
+
   function renderMinis() {
-    for (const ring of ['unaligned', 'self', 'dyad', 'skein']) {
+    for (const ring of ringOrder) {
       const slug = drawn[ring];
       const mini = document.querySelector<HTMLElement>(`[data-mini="${ring}"]`);
       if (!slug || !mini) continue;
@@ -188,7 +205,6 @@ import WeavingCard from '../../components/WeavingCard.astro';
     }
   }
 
-  const ringOrder = ['unaligned', 'self', 'dyad', 'skein'];
   let stepIdx = 0;
 
   function goNext() {
@@ -220,7 +236,7 @@ import WeavingCard from '../../components/WeavingCard.astro';
     }
   });
 
-  // Shared spread: ?w=frame.self.dyad.skein reveals everything at once.
+  // Shared spread: ?w=self.dyad.skein.culture reveals everything at once.
   const params = new URLSearchParams(location.search);
   const w = params.get('w');
   if (w) {

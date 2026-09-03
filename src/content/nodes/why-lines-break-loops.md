@@ -1,7 +1,7 @@
 ---
 title: "Why Lines Break Loops"
 part: "part-three"
-order: 24
+order: 25
 epigraph: "A sentence has an ending. A loop doesn't."
 summary: "A sentence has an ending. A loop doesn't. Why ordinary language quietly deletes the part of a pattern where the leverage lives."
 related: ["grammar-of-pattern", "the-second-pass", "psychology-woven-self"]

@@ -6,21 +6,22 @@ import HeroFractal from '../../components/HeroFractal.astro';
 import { KINSHIPS } from '../../../scripts/manifest.mjs';
 
 const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.data.order);
-const order = ['unaligned', 'self', 'dyad', 'skein'];
+const order = ['self', 'dyad', 'skein', 'culture', 'cosmos'];
 const groups = order.map((k) => ({
   key: k,
   meta: KINSHIPS[k],
   items: thirds.filter((t) => t.data.kinship === k),
 }));
 ---
-<Base title="The Standing Thirds" description="Eighteen patterns old enough to have earned faces — each drawn as its own fractal." wide>
+<Base title="The Standing Thirds" description="Seventeen patterns old enough to have earned faces — each drawn as its own fractal." wide>
   <HeroFractal type="spirals" seed="standing-thirds" color="var(--c-p5)" />
   <h1>The Standing Thirds</h1>
   <p style="max-width: 44rem; color: var(--muted);">
     A pattern repeated widely enough, for long enough, stops needing any single person to keep it
     running — and every culture that's ever lived close to the land eventually gives such a pattern
     a face. One rule governs everything here: <strong>a Third has no will of its own.</strong>
-    Only perceived behavior, consistent enough to earn a name.
+    Only perceived behavior, consistent enough to earn a name. Five kinships, one for each scale
+    this book has already named — Self, Dyad, Skein, Culture, and Cosmos.
     <a href="/node/what-a-third-is/">The full framing is here.</a>
   </p>
 
@@ -31,13 +32,14 @@ const groups = order.map((k) => ({
         <span class="badge">{g.meta.ring}</span>
       </div>
       <p class="kinship-intro">{g.meta.intro}</p>
-      <div class="third-grid">
+      <div class:list={['third-grid', { solo: g.key === 'cosmos' }]}>
         {g.items.map((t) => (
           <a class="third-card" href={`/thirds/${t.id}/`}>
             <FractalGlyph type={t.data.fractal.type} hue={t.data.fractal.hue} seed={t.id} />
             <div class="tc-name">{t.data.name}</div>
-            <div class="tc-epithet">{t.data.epithet}</div>
+            {t.data.epithet && <div class="tc-epithet">{t.data.epithet}</div>}
             <div class="tc-line">{t.data.personifies}</div>
+            {t.data.drawable === false && <div class="tc-never">Never drawn in a Weaving</div>}
           </a>
         ))}
       </div>
@@ -75,4 +77,9 @@ const groups = order.map((k) => ({
   .tc-name { font-size: 1.25rem; font-weight: 600; margin-top: 0.6rem; }
   .tc-epithet { font-style: italic; color: var(--muted); font-size: 0.88rem; margin-bottom: 0.5rem; }
   .tc-line { font-family: var(--sans); font-size: 0.76rem; color: var(--muted); line-height: 1.45; }
+  .tc-never {
+    font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--k-cosmos); margin-top: 0.6rem;
+  }
+  .third-grid.solo { grid-template-columns: minmax(200px, 320px); }
 </style>

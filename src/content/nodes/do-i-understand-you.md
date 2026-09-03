@@ -1,7 +1,7 @@
 ---
 title: "Do I Understand You Well Enough?"
 part: "part-two"
-order: 20
+order: 21
 epigraph: "Eyes connect to the brain. Ears connect to the heart."
 summary: "The single most practical sentence in the book, meant to be asked out loud before you assume you know what someone needs."
 related: ["group-practice", "corren", "vessa", "weaving-for-another"]

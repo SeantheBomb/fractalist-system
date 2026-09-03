@@ -1,7 +1,7 @@
 ---
 title: "The Skein"
 part: "part-two"
-order: 22
+order: 23
 epigraph: "If you want others to help you, help them."
 summary: "The difference between a community bound by real repeated contact and one bound only by a label — and the test that tells them apart."
 related: ["closing-the-loop", "quillith", "cessant", "fractalism-collective"]
@@ -28,6 +28,14 @@ The test that separates them is simple, and slightly uncomfortable to actually a
 **Disclosure** — is there enough real, higher-risk communication between you — the kind that requires trust, not just pleasantries — for the connection to deepen past the surface? A group that only ever exchanges logistics never becomes a Skein, no matter how long it's been meeting.
 
 These four aren't a checklist to force onto people you've already decided you want in your Skein. They're a set of things to actually notice, honestly, about the connections you already have — the same way Chapter 3 asked you to notice your own loved-good-needed-sustainable overlap rather than manufacture one. Where all four are already true of a relationship, you're very likely already inside a Skein without having named it yet. Where one or two are true and the others are missing, that's useful information about what the connection actually needs before it can bear more weight — more proximity, more honest disclosure, a check on whether reciprocity has quietly gone one-directional.
+
+**"You become like the company you keep" — and why the popular version of this undersells it.** There's a widely repeated modern claim that you're the average of the five people you spend the most time with — catchy, quotable, and not entirely wrong. The underlying kernel is old and genuinely convergent: some version of "you become like those you spend time with" shows up across cultures with no plausible contact between them, which is exactly the kind of independent recurrence this book takes seriously rather than dismisses as coincidence. Something real is being pointed at.
+
+But the specific packaging — *average*, a headcount of *five* — is a Loop-name flattening a Tree, in precisely the way this book keeps catching that move. Nothing about influence from other people arrives as a smooth, evenly-weighted blend. It arrives lumpy: one hard conversation that changes your mind in an afternoon, a decade of casual contact that transfers almost nothing, an offhand comment from someone you barely know landing harder than years of proximity to someone you see daily. "Average" implies a calculation running quietly in the background. What's actually happening is closer to a branching tree of unevenly weighted moments, most of them doing very little, a few of them doing enormous work.
+
+The quote is also silently one-directional, and that's the more important flaw. It puts you entirely on the receiving end — shaped, past tense, done to. But if the Fold means anything, you're also feeding those same five people constantly, and whatever you seed into them is folding back into you already changed by everything else they're carrying, not arriving as a clean average of your own contribution. The popular version describes half a loop and calls it the whole shape.
+
+And a flat headcount of five erases the exact distinction this chapter has spent the most effort building: a Dyad and a Skein-thread are not the same kind of relationship, and treating five undifferentiated people as equally load-bearing is worse advice than actually asking, honestly, about each one — proximity, similarity, reciprocity, disclosure — whether it's carrying real weight at all. Someone with one real Dyad and four loose acquaintances is not in the same position as someone with five roughly equal Skein-threads, and "you are the average of five" can't tell those two people apart. The four relationships can. Use them instead of the count.
 
 **Use the practices as the bonding material — not the conversation about the practices.** A group that meets to discuss Fractalism is closer to a Banner. A group that actually runs Group Practice together, trades honest listening the way Movement II describes, or works through a real Spiral Check on a real decision is a group building a shared Global Form through repeated contact — which is the only thing that was ever going to make it a Skein in the first place.
 

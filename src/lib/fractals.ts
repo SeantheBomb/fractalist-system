@@ -258,20 +258,60 @@ function carpet(): string[] {
   return out;
 }
 
+function chorus(rng: Rng): string[] {
+  // no single body: many small voices, each a tiny starburst, all pulled
+  // toward one shared arc that speaks for all of them at once.
+  const out: string[] = [];
+  const n = 9;
+  const voices: [number, number][] = [];
+  for (let i = 0; i < n; i++) {
+    const x = 22 + rng() * 156;
+    const y = 120 + rng() * 62;
+    voices.push([x, y]);
+    const rays = 5 + Math.floor(rng() * 3);
+    const r0 = 3 + rng() * 2;
+    for (let k = 0; k < rays; k++) {
+      const a = (k / rays) * Math.PI * 2 + rng() * 0.4;
+      const r1 = r0 + 2 + rng() * 2;
+      out.push(`<line x1="${f2(x + Math.cos(a) * r0)}" y1="${f2(y + Math.sin(a) * r0)}" x2="${f2(x + Math.cos(a) * r1)}" y2="${f2(y + Math.sin(a) * r1)}" stroke-width="0.9" opacity="0.7"/>`);
+    }
+  }
+  // the shared "we": one arc every voice is quietly pulled toward
+  out.push('<path d="M 20 58 Q 100 22 180 58" fill="none" stroke-width="1.6" opacity="0.9"/>');
+  for (const [x, y] of voices) {
+    const t = (x - 20) / 160;
+    const ax = 20 + t * 160;
+    const ay = 58 - Math.sin(t * Math.PI) * 36;
+    out.push(`<line x1="${f2(x)}" y1="${f2(y)}" x2="${f2(ax)}" y2="${f2(ay)}" stroke-width="0.5" opacity="0.22" stroke-dasharray="1 4"/>`);
+  }
+  return out;
+}
+
+function boundary(): string[] {
+  // the one deliberately non-fractal glyph: no branching, no repetition,
+  // nothing left outside the totality for a name to compress away.
+  const out: string[] = [];
+  out.push('<circle cx="100" cy="100" r="84" fill="none" stroke-width="1.6" opacity="0.85"/>');
+  out.push('<circle cx="100" cy="100" r="72" fill="none" stroke-width="0.6" opacity="0.28" stroke-dasharray="1 6"/>');
+  out.push('<circle cx="100" cy="100" r="1.6" opacity="0.9"/>');
+  return out;
+}
+
 const GENERATORS: Record<string, (rng: Rng) => string[]> = {
   driftTree, twinSpires, crystal: () => crystal(), flame, delta, windswept, fern,
   interweave, lattice, mandala: () => mandala(), hollowMandala: () => hollowMandala(),
-  spiralBloom, chain, ridge, carpet: () => carpet(),
+  spiralBloom, chain, ridge, carpet: () => carpet(), chorus, boundary: () => boundary(),
 };
 
 export const HUES: Record<string, string> = {
-  unaligned: 'var(--k-unaligned)',
   fire: 'var(--k-fire)',
   water: 'var(--k-water)',
   wind: 'var(--k-wind)',
   earth: 'var(--k-earth)',
   dyad: 'var(--k-dyad)',
   skein: 'var(--k-skein)',
+  culture: 'var(--k-culture)',
+  cosmos: 'var(--k-cosmos)',
 };
 
 export function fractalSvg(type: string, hue: string, seedKey: string): string {

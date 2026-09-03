@@ -1,13 +1,13 @@
 ---
 title: "On the Limits of This Language"
 part: "part-three"
-order: 31
+order: 32
 epigraph: "You can't know what you don't know."
 summary: "The honest gaps, stated plainly: a language built for a system that grows by repetition should itself still be growing."
 related: ["open-questions", "belief-systems-built", "grammar-of-pattern"]
 ---
 
-This part of the book is younger than the rest of it, and it should read that way. A few honest gaps, stated plainly rather than smoothed over:
+A shared language like this one is never finished, and this chapter exists to say so plainly rather than let the previous seven quietly imply otherwise. A few honest gaps, stated plainly rather than smoothed over:
 
 Worth saying once, plainly, before the specific gaps: the Loop Tongue is itself a language, which means it's also, mechanically, a pattern competing to spread the same way any other pattern does — by being memorable and useful enough to get repeated, not by some guarantee that its terms are the objectively correct ones. A word like Nest or Fold survives in actual use for the same reason a good rumor survives, stripped of any comforting assumption that survival and accuracy are the same thing. The difference this book is trying to maintain — the only difference that's actually available to maintain — is to keep testing these terms against real use rather than assuming they've earned their place just by having been written down first.
 

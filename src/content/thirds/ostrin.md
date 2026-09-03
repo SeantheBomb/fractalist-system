@@ -2,12 +2,13 @@
 name: "Ostrin"
 epithet: "Who Never Names the First Price"
 kinship: "dyad"
-order: 8
+order: 5
 epigraph: "Trust, but verify."
 personifies: "The Trust Triangle's refusal to take any leg on faith without testing it. Trust isn't a starting condition — it's a result."
 tending: "Test this before trusting it; an untested yes isn't trust yet."
 fraying: "Turning a relationship into a permanent negotiation that never resolves into trust."
 fractal: {"type":"lattice","hue":"dyad"}
+drawable: true
 relatedThirds: ["wevven", "corren", "vessa"]
 relatedNodes: ["the-trust-triangle"]
 ---

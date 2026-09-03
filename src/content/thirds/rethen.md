@@ -2,12 +2,13 @@
 name: "Rethen"
 epithet: "Who Carries What Is Spent"
 kinship: "self"
-order: 4
+order: 1
 epigraph: "Symmetry is easy balance, but balance is not always easy."
 personifies: "The balancing loop — and its physical dependency on Cindar's excess. Rethen has nothing to carry if nothing has burned."
 tending: "Pull back toward the middle; enough has happened for now."
 fraying: "Correcting or dampening something that hadn't finished compounding yet."
 fractal: {"type":"delta","hue":"water"}
+drawable: true
 relatedThirds: ["cindar", "loum", "sythen"]
 relatedNodes: ["reading-your-own-cycle"]
 ---

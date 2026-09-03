@@ -1,13 +1,13 @@
 ---
 title: "Finding Your Local Rule"
 part: "part-two"
-order: 10
+order: 11
 epigraph: "Choose the game you want to play."
 summary: "Four honest questions — loved, capable, needed, sustainable — and the overlap where a rule worth repeating actually lives."
 related: ["naming-and-defusing", "the-sacrifice-trap", "reading-your-own-cycle", "flow-reward"]
 ---
 
-The Fertile Field pillar asks a specific, practical question: *what are you actually going to repeat?* This chapter is a self-inventory to help answer it — not a personality test, just four honest questions, best answered in writing, that overlap where a sustainable local rule tends to live.
+The Third Thing pillar, pointed at your own life, asks a specific, practical question: *what are you actually going to repeat?* This chapter is a self-inventory to help answer it — not a personality test, just four honest questions, best answered in writing, that overlap where a sustainable local rule tends to live.
 
 **What do you love enough to repeat without being paid to?**
 Not what you're supposed to love. Not what looks good described at a dinner party. What do you actually keep returning to, on your own time, when nothing is making you?

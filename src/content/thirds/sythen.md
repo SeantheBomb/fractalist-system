@@ -2,12 +2,13 @@
 name: "Sythen"
 epithet: "the One Who Turns First"
 kinship: "self"
-order: 5
+order: 2
 epigraph: "The wind does not ask permission to change direction."
 personifies: "Naming and Defusing at the scale of instinct — sensing a change before there's proof, and getting out of its way."
 tending: "Trust the instinct arriving ahead of the proof."
 fraying: "Acting on a hunch nobody else can see yet, and resenting them for not believing it."
 fractal: {"type":"windswept","hue":"wind"}
+drawable: true
 relatedThirds: ["cindar", "rethen", "loum"]
 relatedNodes: ["naming-and-defusing"]
 ---

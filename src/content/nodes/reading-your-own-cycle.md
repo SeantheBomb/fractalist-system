@@ -1,9 +1,9 @@
 ---
 title: "Reading Your Own Cycle"
 part: "part-two"
-order: 13
+order: 14
 epigraph: "Step repeats, form emerges."
-summary: "Reinforcing loops amplify; balancing loops correct back toward a middle. Learn which one you're actually running before you try to change it."
+summary: "Reinforcing loops amplify; balancing loops correct back toward a middle — and everything that survives runs both at once, like a tide."
 related: ["finding-your-leverage-point", "cindar", "rethen", "systems-theory"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Unnamed Thirds"
 part: "part-five"
-order: 40
+order: 41
 epigraph: "There are more things in heaven and earth than are dreamt of in your philosophy.\"* — Shakespeare, *Hamlet"
 summary: "The roster was never meant to be complete. How to notice a pattern, stand it up, and see whether the name survives being retold."
 related: ["going-to-ground", "open-questions", "what-a-third-is"]

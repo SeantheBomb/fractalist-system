@@ -2,12 +2,13 @@
 name: "Cindar"
 epithet: "the First Spark"
 kinship: "self"
-order: 3
+order: 0
 epigraph: "Strike while the iron is hot."
 personifies: "The reinforcing loop — momentum that amplifies whatever direction it's already moving in, without preference for whether it's good for anyone."
 tending: "Start it. Momentum is available and worth spending."
 fraying: "Burning through something faster than it can be replaced; check what's being consumed rather than built."
 fractal: {"type":"flame","hue":"fire"}
+drawable: true
 relatedThirds: ["rethen", "loum", "sythen"]
 relatedNodes: ["reading-your-own-cycle"]
 ---

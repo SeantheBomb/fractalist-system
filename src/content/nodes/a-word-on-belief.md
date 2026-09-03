@@ -1,9 +1,9 @@
 ---
 title: "A Word on Belief Itself"
 part: "part-one"
-order: 7
+order: 8
 epigraph: "A man convinced against his will is of the same opinion still."
-summary: "This belief system tells you it was built — on purpose. Why an admitted construction is a stronger kind of honesty, not a weaker kind of truth."
+summary: "This belief system tells you it was built — on purpose, and this isn't self-help or organization-building. It's a rising tide, not a ledger."
 related: ["belief-systems-built", "onboarding", "sources"]
 ---
 

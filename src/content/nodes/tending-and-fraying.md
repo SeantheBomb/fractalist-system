@@ -1,7 +1,7 @@
 ---
 title: "Tending and Fraying"
 part: "part-six"
-order: 45
+order: 46
 epigraph: "No thread is only itself."
 summary: "Every Third carries its healthy expression and its own documented flaw. Tending is not good news, and Fraying is not bad news."
 related: ["the-rings", "the-deck", "reading-honestly"]

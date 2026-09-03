@@ -1,7 +1,7 @@
 ---
 title: "What a Weaving Is"
 part: "part-six"
-order: 43
+order: 44
 epigraph: "You cannot know the shape of a thing from one face of it."
 summary: "A structured way of looking at one situation from several fixed angles at once — because a single vantage was never going to show you the whole shape."
 related: ["the-deck", "what-a-third-is", "scale-tagging"]

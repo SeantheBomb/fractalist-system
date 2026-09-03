@@ -1,7 +1,7 @@
 ---
 title: "What a Weaving Cannot Show"
 part: "part-six"
-order: 53
+order: 54
 epigraph: "You can't know what you don't know."
 summary: "Diagnostic, never prescriptive — and never a substitute for an actual conversation with an actual person."
 related: ["reading-honestly", "weaving-for-another", "open-questions"]
@@ -9,7 +9,7 @@ related: ["reading-honestly", "weaving-for-another", "open-questions"]
 
 Consistent with every other practice in this book: this one has limits, and they're worth naming plainly rather than discovering the hard way.
 
-A Weaving can show you a pattern already present and give you language for it. It cannot tell you what to do about it — that decision still belongs entirely to you, using every other tool this book has already given you, the leverage ladder and the Sacrifice Trap and the rest. A Weaving is diagnostic, not prescriptive, and treating a drawn card as an instruction rather than a lens is a way of quietly handing your own judgment over to eighteen invented figures who were explicit, from Part Five's very first chapter, about having no will of their own to hand it to.
+A Weaving can show you a pattern already present and give you language for it. It cannot tell you what to do about it — that decision still belongs entirely to you, using every other tool this book has already given you, the leverage ladder and the Sacrifice Trap and the rest. A Weaving is diagnostic, not prescriptive, and treating a drawn card as an instruction rather than a lens is a way of quietly handing your own judgment over to seventeen invented figures who were explicit, from Part Five's very first chapter, about having no will of their own to hand it to.
 
 Nor does a Weaving replace an actual conversation with an actual person. Weaving for another is a structure for a real exchange, not a substitute for one — a card is a prompt for genuine listening, never a verdict delivered instead of it. The moment a Weaving starts speaking for someone rather than opening a conversation with them, it has stopped doing what Corren's whole chapter exists to teach and started doing what Vessa's does instead.
 
