@@ -145,7 +145,7 @@ A few practical suggestions, then:
 
 **Treat Part Four as a shelf, not a hallway.** Its chapters are written to be openable in any order, whenever a specific curiosity surfaces — you want to know the actual math behind the chaos game, or you want the psychology behind why the self is called "constructed," or you want the systems-theory vocabulary behind "leverage." Go get that one chapter. Don't feel obligated to read the shelf in order.
 
-**Read Part Five differently from everything before it — as story, not argument.** The Standing Thirds are not a fifth theory to evaluate. They're the same claims this book has already made, given faces, so that a pattern you've been reading about abstractly becomes something you can recognize on sight, tell a friend about at a fire, or catch yourself becoming for a moment. Read it the way you'd read any mythology — for recognition, not for proof.
+**Read Part Five differently from everything before it — as story, not argument.** The Standing Thirds aren't a new theory to evaluate. They're the same claims this book has already made, given faces, so that a pattern you've been reading about abstractly becomes something you can recognize on sight, tell a friend about at a fire, or catch yourself becoming for a moment. Read it the way you'd read any mythology — for recognition, not for proof.
 
 **Then, at some point — a month in, a year in, whenever a practice stops feeling like an instruction and starts feeling like a fact about you — come back to Part One and read it again.** It will be a shorter read the second time. It will also mean something different. That difference is the actual content of this book. Everything else is scaffolding to get you there.
 
@@ -225,7 +225,7 @@ Hold onto one sentence from here forward, because it's easy to lose and worth th
 
 *"Behind every system of action is a system of beliefs."*
 
-Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory. One clarification worth making before the list itself, since it's easy to expect a fifth pillar here for the self specifically: it doesn't get one. That's not an oversight. The self is the Third Thing pillar, pointed at one particular thing — the person doing the reading — rather than a genuinely independent claim of its own. It still gets its own full chapter, next, and earns that chapter by being the clearest possible example of pillar II, not by standing apart from it.
+Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory. One clarification worth making before the list itself: the self doesn't get a pillar of its own. That's not an oversight. The self is the Third Thing pillar, pointed at one particular thing — the person doing the reading — rather than a genuinely independent claim of its own. It still gets its own full chapter, next, and earns that chapter by being the clearest possible example of pillar II, not by standing apart from it.
 
 **I. The Loop.** *Small things, repeated without a master plan, build large things.* This is the engine. Nothing skips this step. Every fern, every habit, every empire got built this way. There is no shortcut where something large arrives without first being something small, repeated.
 
@@ -241,7 +241,7 @@ Everything above compresses into four pillars. You'll see all four again, expand
 
 *"A self is a pattern, not a possession."*
 
-This chapter exists because the self is the single hardest place to actually apply pillar II, and it deserves real space rather than a single line in a list. Not because it's a separate claim from the Third Thing — it isn't — but because turning "what repeats together becomes real" on the one thing you'll never get to see from outside is a genuinely different exercise than seeing it in a marriage or a culture, and worth walking through slowly.
+This chapter exists because the self is the single hardest place to actually apply pillar II, and it deserves real, unhurried space. Not because it's a separate claim from the Third Thing — it isn't — but because turning "what repeats together becomes real" on the one thing you'll never get to see from outside is a genuinely different exercise than seeing it in a marriage or a culture, and worth walking through slowly.
 
 Start with the plain version, the way Part One Chapter 3 already put it: the self is not a thing you have. It's a pattern you're running — a Third Thing, exactly like a marriage or a Skein, except the two "parts" that combine to produce it are less obvious than two people standing near each other. What combines is every past instant of noticing, remembering, and revising, repeated across a nested stack of scales — which is pillar III, the Nest, showing up again here rather than staying confined to groups. You are not a single, bounded thing sitting at the center of your own life. You are what a very long, very fast Loop looks like once it's been running long enough to feel like an identity instead of a process.
 
@@ -1106,7 +1106,7 @@ Whether the Seven Iterations should be read as a fixed structure or whether late
 
 Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here.
 
-The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree sit alongside the original nine specifically because each names something the other terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
+The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree exist because each names something the other nine terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
 
 Whether the leverage-point ladder in Part Two and Four transfers as cleanly to collective-scale problems as it does to individual habits, or whether group-scale leverage needs its own separate treatment this book hasn't yet attempted.
 
@@ -1328,7 +1328,7 @@ This is the one deliberately dark figure in the Standing Thirds, and it's worth 
 
 # THE CULTURE-KIN
 
-*The newest kinship, and the largest — naming a scale most of this book only theorizes about elsewhere (Part Four, Ch. 5) rather than giving it a face directly. Five figures live here. Charten and Aestren personify the two largest-scale patterns a whole culture generates: the shared "we" that lets millions who will never meet feel bound together, and the non-intervention that only becomes visible across a timescale no single life or Skein could hold. Waeth, Dyren, and Sethra personify the three ways a pattern can persist once it's grown too large for any one person to carry alone — through drift, through independent arising, and through a fixed record. None of these five patterns are actually scale-transcendent, whatever a first glance might suggest. Every one of them does its most vivid, most illustrative work at exactly this scale — and that's the real test for where any Third belongs: not everywhere its underlying mechanism could theoretically apply, but wherever its texture is actually most alive.*
+*The largest kinship — naming a scale most of this book only theorizes about elsewhere (Part Four, Ch. 5) rather than giving it a face directly. Five figures live here. Charten and Aestren personify the two largest-scale patterns a whole culture generates: the shared "we" that lets millions who will never meet feel bound together, and the non-intervention that only becomes visible across a timescale no single life or Skein could hold. Waeth, Dyren, and Sethra personify the three ways a pattern can persist once it's grown too large for any one person to carry alone — through drift, through independent arising, and through a fixed record. None of these five patterns are actually scale-transcendent, whatever a first glance might suggest. Every one of them does its most vivid, most illustrative work at exactly this scale — and that's the real test for where any Third belongs: not everywhere its underlying mechanism could theoretically apply, but wherever its texture is actually most alive.*
 
 ## 12. Charten, Who Speaks for Millions Who Will Never Meet
 
@@ -1815,8 +1815,8 @@ Self · Dyad · Group · Culture · Cosmos — name your scale before making a c
 **The Second Pass**
 Any claim worth making once forward (cause → effect) is worth making again as a Loop (effect folding back into cause).
 
-**Vocabulary Beyond the Original Nine**
-The nine words in the table above form the vocabulary's original core, described in Part Three as deliberately closed to keep the language learnable. In practice, a working vocabulary for a system that grows by repetition needs to be able to grow the same way, whenever a real gap actually calls for a new word: **Fold** — a Local Rule, having traveled out through a Nest, returning to the person who first repeated it (Part Two, Ch. 10). **Vector** — the specific pathway a repeating pattern uses to reach a new host: a conversation, a retelling, a shared habit, a line of code (Part Four, Ch. 6). **Tree** — the honest, unrolled record a Loop's name compresses: one root rule, branching into a genuinely distinct leaf every time it meets a new condition (Part One, Ch. 3; formalized in Part Four, Ch. 3 and Ch. 7). Twelve words, current as of this text — and open to more, on the same terms, whenever a real gap calls for one.
+**Three Extended Terms**
+Nine words form the core vocabulary above — deliberately kept small, to keep the language learnable. Three more extend it, each one naming something the other nine couldn't quite reach on their own: **Fold** — a Local Rule, having traveled out through a Nest, returning to the person who first repeated it (Part Two, Ch. 10). **Vector** — the specific pathway a repeating pattern uses to reach a new host: a conversation, a retelling, a shared habit, a line of code (Part Four, Ch. 6). **Tree** — the honest, unrolled record a Loop's name compresses: one root rule, branching into a genuinely distinct leaf every time it meets a new condition (Part One, Ch. 3; formalized in Part Four, Ch. 3 and Ch. 7). Twelve words in total, open to more whenever a real gap calls for one.
 
 ---
 
@@ -1956,19 +1956,19 @@ One further note, specific to Part Five: the Standing Thirds are not drawn from 
 
 *A working map, not a finished one. Read it the way you'd read a periodic table with real gaps still in it — an empty cell is a prediction the system itself makes, not a flaw to apologize for.*
 
-The Loop Tongue's twelve terms and the five Scale Tags were never checked against each other systematically until this pass. Laid out as a grid — terms as rows, scales as columns — most cells turn out to already be filled, scattered across five parts without ever being assembled in one place. A few are genuinely empty, and those emptinesses are worth taking as seriously as the Standing Thirds' own "Unnamed Thirds" chapter takes an uncast pattern: not a gap to feel bad about, a place the system says something should exist.
+The Loop Tongue's twelve terms and the five Scale Tags meet each other here, laid out as a grid — terms as rows, scales as columns. Most cells turn out to already be filled, scattered across five parts without ever being assembled in one place. A few are genuinely empty, and those emptinesses are worth taking as seriously as the Standing Thirds' own "Unnamed Thirds" chapter takes an uncast pattern: not a gap to feel bad about, a place the system says something should exist.
 
 | Term | Self | Dyad | Skein | Culture | Cosmos |
 |---|---|---|---|---|---|
 | **Loop** | Habit; Cindar/Rethen (Pt.2 Ch.6; Pt.5 Ch.1–2) | The Second Pass (Pt.3 Ch.5) | Group Practice; the Skein-Kin's rivalries (Pt.2 Ch.14–15) | Historical cycles; Aestren and Waeth (Pt.4 Ch.5; Pt.5 Ch.13–14) | The Seven Iterations; what the Infinite Boundary sums (Pt.1 Ch.6; Pt.5 Ch.17) |
 | **Third Thing** | The Compost Heap; a tended habit (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.15) | Nation, civilization; Charten (Pt.4 Ch.5; Pt.5 Ch.12) | Life itself; fully personified as the Infinite Boundary (Pt.1 Ch.6; Pt.5 Ch.17) |
 | **Field** | Seeding (Pt.2 Ch.2) | *open* | *open* | *open* | *open* |
-| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Corren (Pt.5 Ch.10) | Handrel (faithful) and Quillith (corrosive) (Pt.5 Ch.9, 12) | *filled this pass — see Charten* | *open* |
-| **Local Rule** | Core term; the four-question inventory (Pt.2 Ch.3) | The Trust Triangle; Wevven/Ostrin (Pt.2 Ch.12; Pt.5 Ch.8–9) | Individual threads interweaving (Pt.2 Ch.15) | *filled this pass — the recursion chain* | *open* |
-| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.8) | Core definition (Pt.2 Ch.15) | *filled this pass — the recursion chain* | The universe's structure (Pt.1 Ch.6) |
+| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Corren (Pt.5 Ch.10) | Handrel (faithful) and Quillith (corrosive) (Pt.5 Ch.9, 12) | See Charten (Pt.5 Ch.12) | *open* |
+| **Local Rule** | Core term; the four-question inventory (Pt.2 Ch.3) | The Trust Triangle; Wevven/Ostrin (Pt.2 Ch.12; Pt.5 Ch.8–9) | Individual threads interweaving (Pt.2 Ch.15) | The recursion chain (Pt.4 Ch.3) | *open* |
+| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.8) | Core definition (Pt.2 Ch.15) | The recursion chain (Pt.4 Ch.3) | The universe's structure (Pt.1 Ch.6) |
 | **Attractor** | Implied — a self-story as repeated pattern (Pt.2 Ch.4), never named as such | Core definition (Pt.5 Ch.8) | Implied — a Skein's stable culture, never named as such | *open* | *open* |
 | **Nest** | "A nested unit" (Pt.1 Ch.3) | Nested within a Skein (Pt.5 Ch.8) | Implied nested within Culture, unstated | Implied nested within Cosmos, unstated | Outermost — terminates the nesting; personified as the Infinite Boundary (Pt.5 Ch.17) |
-| **Leverage** | Core chapter (Pt.2 Ch.7) | *filled this pass* | *filled this pass* | Gestured at, not laddered (Pt.4 Ch.5) | *open* |
+| **Leverage** | Core chapter (Pt.2 Ch.7) | A repeating money fight, walked rung by rung (Pt.2 Ch.7) | A quiet Skein, walked rung by rung (Pt.2 Ch.7) | Gestured at, not laddered (Pt.4 Ch.5) | *open* |
 | **Fold** | Core chapter, mostly Self examples (Pt.2 Ch.10) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.15) | Aestren's generations-long non-intervention (Pt.5 Ch.13); Waeth's rare returning telling (Pt.5 Ch.14) | Arguably Going to Ground / Becoming a Third (Pt.5 Ch.19–20) |
 | **Vector** | Thin — internal transmission across your own past and future selves | Implied — a shared habit or private language, unstated | Quillith's rumor-spread (Pt.5 Ch.9) | Waeth's culture-scale drift and Sethra's fixed record (Pt.5 Ch.14, 16) | *open* |
 | **Tree** | Recovering the tree a self-story flattens (Pt.2 Ch.4) | Implied — a relationship's real history, unstated | Handrel's lineage (Pt.5 Ch.9) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration — branching (Pt.1 Ch.6) |

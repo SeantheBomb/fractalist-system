@@ -17,7 +17,7 @@ Whether the Seven Iterations should be read as a fixed structure or whether late
 
 Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here.
 
-The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree sit alongside the original nine specifically because each names something the other terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
+The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree exist because each names something the other nine terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
 
 Whether the leverage-point ladder in Part Two and Four transfers as cleanly to collective-scale problems as it does to individual habits, or whether group-scale leverage needs its own separate treatment this book hasn't yet attempted.
 

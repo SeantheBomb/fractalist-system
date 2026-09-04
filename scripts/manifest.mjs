@@ -55,7 +55,7 @@ export const NODES = [
     slug: 'four-pillars',
     title: 'The Four Pillars',
     part: 'part-one',
-    summary: 'The whole framework in four moves: the Loop, the Third Thing, the Nest, and the Leverage — with the self as pillar II\'s own dedicated chapter, not a fifth.',
+    summary: 'The whole framework in four moves: the Loop, the Third Thing, the Nest, and the Leverage — with the self\'s own chapter next, as the clearest example of pillar II.',
     related: ['the-woven-self', 'onboarding', 'youve-met-this-before', 'quick-reference'],
   },
   {
@@ -63,7 +63,7 @@ export const NODES = [
     slug: 'the-woven-self',
     title: 'The Woven Self',
     part: 'part-one',
-    summary: 'The self is the hardest place to actually apply the Third Thing pillar — worth its own full chapter rather than a single line in a list.',
+    summary: 'The self is the hardest place to actually apply the Third Thing pillar — the one thing you\'ll never get to see from outside.',
     related: ['naming-and-defusing', 'psychology-woven-self', 'the-loop-runs-you', 'going-to-ground'],
   },
   {
@@ -491,7 +491,7 @@ export const NODES = [
     slug: 'loop-tongue-glossary',
     title: 'The Loop Tongue — Glossary & Notation',
     part: 'appendix',
-    summary: 'The vocabulary, the notation marks, the scale tags, and the later additions — Fold, Vector, and Tree.',
+    summary: 'The vocabulary, the notation marks, the scale tags, and three extended terms — Fold, Vector, and Tree.',
     related: ['grammar-of-pattern', 'sketching-a-loop', 'the-loom', 'quick-reference'],
   },
   {
@@ -507,7 +507,7 @@ export const NODES = [
     slug: 'the-loom',
     title: 'The Loom — Where Every Term Meets Every Scale',
     part: 'appendix',
-    summary: 'The Loop Tongue\'s twelve terms checked against all five Scale Tags in one grid — most cells already filled, a few genuinely open.',
+    summary: 'The Loop Tongue\'s twelve terms checked against all five Scale Tags in one grid — most cells filled, a few genuinely open.',
     related: ['loop-tongue-glossary', 'systems-theory', 'charten', 'infinite-boundary'],
   },
 ];
@@ -725,7 +725,7 @@ export const KINSHIPS = {
   culture: {
     title: 'The Culture-Kin',
     ring: 'The outermost drawable ring.',
-    intro: 'The newest kinship, and the largest — five figures naming a scale most of the book only theorizes about elsewhere. Charten and Aestren personify the two largest-scale patterns a whole culture generates; Waeth, Dyren, and Sethra personify the three ways a pattern can persist once it has grown too large for any one person to carry alone.',
+    intro: 'The largest kinship — five figures naming a scale most of the book only theorizes about elsewhere. Charten and Aestren personify the two largest-scale patterns a whole culture generates; Waeth, Dyren, and Sethra personify the three ways a pattern can persist once it has grown too large for any one person to carry alone.',
   },
   cosmos: {
     title: 'The Cosmos-Kin',

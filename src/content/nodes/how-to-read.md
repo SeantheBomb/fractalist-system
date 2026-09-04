@@ -23,7 +23,7 @@ A few practical suggestions, then:
 
 **Treat Part Four as a shelf, not a hallway.** Its chapters are written to be openable in any order, whenever a specific curiosity surfaces — you want to know the actual math behind the chaos game, or you want the psychology behind why the self is called "constructed," or you want the systems-theory vocabulary behind "leverage." Go get that one chapter. Don't feel obligated to read the shelf in order.
 
-**Read Part Five differently from everything before it — as story, not argument.** The Standing Thirds are not a fifth theory to evaluate. They're the same claims this book has already made, given faces, so that a pattern you've been reading about abstractly becomes something you can recognize on sight, tell a friend about at a fire, or catch yourself becoming for a moment. Read it the way you'd read any mythology — for recognition, not for proof.
+**Read Part Five differently from everything before it — as story, not argument.** The Standing Thirds aren't a new theory to evaluate. They're the same claims this book has already made, given faces, so that a pattern you've been reading about abstractly becomes something you can recognize on sight, tell a friend about at a fire, or catch yourself becoming for a moment. Read it the way you'd read any mythology — for recognition, not for proof.
 
 **Then, at some point — a month in, a year in, whenever a practice stops feeling like an instruction and starts feeling like a fact about you — come back to Part One and read it again.** It will be a shorter read the second time. It will also mean something different. That difference is the actual content of this book. Everything else is scaffolding to get you there.
 

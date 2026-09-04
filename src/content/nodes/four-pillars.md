@@ -3,11 +3,11 @@ title: "The Four Pillars"
 part: "part-one"
 order: 4
 epigraph: "Behind every system of action is a system of beliefs."
-summary: "The whole framework in four moves: the Loop, the Third Thing, the Nest, and the Leverage — with the self as pillar II's own dedicated chapter, not a fifth."
+summary: "The whole framework in four moves: the Loop, the Third Thing, the Nest, and the Leverage — with the self's own chapter next, as the clearest example of pillar II."
 related: ["the-woven-self", "onboarding", "youve-met-this-before", "quick-reference"]
 ---
 
-Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory. One clarification worth making before the list itself, since it's easy to expect a fifth pillar here for the self specifically: it doesn't get one. That's not an oversight. The self is the Third Thing pillar, pointed at one particular thing — the person doing the reading — rather than a genuinely independent claim of its own. It still gets its own full chapter, next, and earns that chapter by being the clearest possible example of pillar II, not by standing apart from it.
+Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory. One clarification worth making before the list itself: the self doesn't get a pillar of its own. That's not an oversight. The self is the Third Thing pillar, pointed at one particular thing — the person doing the reading — rather than a genuinely independent claim of its own. It still gets its own full chapter, next, and earns that chapter by being the clearest possible example of pillar II, not by standing apart from it.
 
 **I. The Loop.** *Small things, repeated without a master plan, build large things.* This is the engine. Nothing skips this step. Every fern, every habit, every empire got built this way. There is no shortcut where something large arrives without first being something small, repeated.
 
