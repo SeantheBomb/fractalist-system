@@ -218,38 +218,51 @@ const graphData = {
   })),
 };
 ---
-<Base title="The Map" description="Every topic in Fractalism as a galaxy — Cultures of Skeins, Skeins of notes, notes bound by nothing but their own gravity." wide>
+<Base title="The Map" description="Every topic in Fractalism as a star map — one continuous space, from the whole Cosmos down to a single note, held together by nothing but its own gravity." wide>
   <h1>The Map</h1>
   <p style="max-width: 44rem; color: var(--muted);">
     This is the Infinite Boundary, sketched — every idea here, held together by nothing but its own
-    gravity. Start at the whole Cosmos; click a Culture to see the Skeins that make it up; click a
-    Skein to meet the actual notes and the Dyads between them. Nothing here was placed by hand — the
-    shape is what's left once every real connection is allowed to pull, and everything else is
+    gravity. From far out you see the Cultures. Come closer and the Skeins inside them resolve; closer
+    still and the notes themselves light up, with the Dyads between them. Nothing was placed by hand —
+    the shape is what's left once every real connection is allowed to pull, and everything else is
     allowed to push away.
   </p>
 
-  <div class="crumb-bar" id="crumb-bar" role="navigation" aria-label="Map depth"></div>
+  <div class="crumb-bar" id="crumb-bar" role="navigation" aria-label="Where you are"></div>
 
   <div class="map-frame">
     <svg id="graph" viewBox="0 0 1100 860" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="nebula" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="12" />
+        </filter>
+        <filter id="nebula-soft" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="22" />
+        </filter>
+      </defs>
       <g id="camera">
-        <g id="cultureLayer"></g>
-        <g id="skeinLayer"></g>
+        <g id="dust"></g>
+        <g id="cultureHulls"></g>
+        <g id="skeinHulls"></g>
         <g id="edgeLayer"></g>
         <g id="noteLayer"></g>
+        <g id="skeinLabels"></g>
+        <g id="cultureLabels"></g>
       </g>
     </svg>
+    <div class="vignette" aria-hidden="true"></div>
     <div class="map-controls">
       <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
       <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
-      <button id="zoom-reset" type="button" aria-label="Back to Cosmos">⟲</button>
+      <button id="zoom-reset" type="button" aria-label="Back to the whole Cosmos">⟲</button>
     </div>
     <div id="node-card" class="node-card" hidden></div>
   </div>
 
   <p class="map-legend">
     <span id="thread-count"></span>
-    Hover to learn what something is; click to go deeper; drag to pan, scroll or pinch to zoom.
+    Drag to pan, scroll or pinch to zoom, click anything to fly to it. When a note is close enough to
+    read, clicking it opens it.
     Prefer a list? <a href="/book/">The Book</a> holds everything in printed order, and the
     <a href="/thirds/">Thirds gallery</a> holds the mythology.
   </p>
@@ -259,73 +272,70 @@ const graphData = {
 
 <style is:global>
   .crumb-bar {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    flex-wrap: wrap;
-    margin-top: 1.5rem;
-    font-family: var(--sans);
-    font-size: 0.85rem;
-    min-height: 1.6rem;
+    display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+    margin-top: 1.5rem; font-family: var(--sans); font-size: 0.85rem; min-height: 1.6rem;
   }
   .crumb-bar button {
-    font: inherit;
-    background: none;
-    border: none;
-    color: var(--muted);
-    cursor: pointer;
-    padding: 0.15rem 0.3rem;
-    border-radius: 6px;
+    font: inherit; background: none; border: none; color: var(--muted); cursor: pointer;
+    padding: 0.15rem 0.3rem; border-radius: 6px;
   }
   .crumb-bar button:hover { color: var(--accent); background: var(--bg2); }
   .crumb-bar .crumb-current { color: var(--ink); font-weight: 600; padding: 0.15rem 0.3rem; }
   .crumb-bar .crumb-sep { color: var(--line); }
 
   .map-frame {
-    position: relative;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    background: var(--bg2);
-    margin-top: 0.75rem;
-    overflow: hidden;
+    position: relative; border: 1px solid var(--line); border-radius: 14px;
+    background: var(--bg2); margin-top: 0.75rem; overflow: hidden;
   }
   #graph { display: block; width: 100%; height: min(78vh, 720px); touch-action: none; cursor: grab; }
   #graph.dragging { cursor: grabbing; }
+  .vignette {
+    position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 52%, color-mix(in srgb, var(--ink) 10%, transparent) 100%);
+  }
 
-  /* notes + dyads (Skein view) */
-  #edgeLayer .dyad { stroke: var(--line); stroke-width: 1; opacity: 0.55; transition: opacity 0.12s ease, stroke 0.12s ease; }
-  #edgeLayer .dyad-hit { stroke: transparent; stroke-width: 14; cursor: pointer; }
+  /* background dust: depth without meaning */
+  #dust circle { fill: var(--muted); }
+  #dust circle.tw { animation: dust-twinkle 5s ease-in-out infinite; }
+  @keyframes dust-twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+  /* nebulae */
+  #cultureHulls path { filter: url(#nebula-soft); stroke-linejoin: round; stroke-linecap: round; transition: fill-opacity 0.2s ease, stroke-opacity 0.2s ease; }
+  #skeinHulls path { filter: url(#nebula); stroke-linejoin: round; stroke-linecap: round; transition: fill-opacity 0.2s ease, stroke-opacity 0.2s ease; }
+  #cultureHulls path.hot, #skeinHulls path.hot { fill-opacity: 0.26 !important; stroke-opacity: 0.4 !important; }
+  #cultureHulls path, #skeinHulls path { cursor: pointer; }
+
+  /* dyads */
+  #edgeLayer .dyad { stroke: var(--muted); stroke-width: 1; vector-effect: non-scaling-stroke; opacity: 0.45; transition: opacity 0.12s ease, stroke 0.12s ease; }
+  #edgeLayer .dyad-hit { stroke: transparent; stroke-width: 14; vector-effect: non-scaling-stroke; cursor: pointer; }
   #edgeLayer .dyad.hot { stroke: var(--accent); opacity: 1; stroke-width: 2; }
-  #edgeLayer .dyad.dim { opacity: 0.08; }
+  #edgeLayer .dyad.dim { opacity: 0.06; }
 
+  /* stars */
   .gnode { cursor: pointer; }
-  .gnode circle { opacity: 0.55; transition: opacity 0.12s ease; }
-  .gnode.visited circle { opacity: 1; filter: drop-shadow(0 0 4px currentColor); }
+  .gnode circle { transition: opacity 0.15s ease; }
+  .gnode.visited circle { filter: drop-shadow(0 0 3px currentColor); }
   .gnode text {
-    font-family: var(--sans); font-size: 9.5px; fill: var(--muted); opacity: 0;
-    transition: opacity 0.12s ease; pointer-events: none;
+    font-family: var(--sans); fill: var(--ink); text-anchor: middle; pointer-events: none;
+    paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round;
+    opacity: var(--lbl, 0); transition: opacity 0.15s ease;
   }
-  .gnode.hot circle { opacity: 1; }
-  .gnode.hot text { fill: var(--ink); opacity: 1; font-weight: 600; }
-  .gnode.dim circle, .gnode.dim text { opacity: 0.12; }
+  .gnode.hot circle { opacity: 1 !important; filter: drop-shadow(0 0 5px currentColor); }
+  .gnode.hot text { opacity: 1; font-weight: 600; }
+  .gnode.dim circle { opacity: 0.12 !important; }
+  .gnode.dim text { opacity: 0 !important; }
 
-  /* culture + skein aggregate nodes */
-  .agg-node { cursor: pointer; }
-  .agg-node circle { opacity: 0.85; stroke: var(--bg); stroke-width: 2; transition: opacity 0.15s ease, transform 0.15s ease; }
-  .agg-node:hover circle { transform: scale(1.04); }
-  .agg-node text {
-    font-family: var(--sans); font-size: 12px; font-weight: 600; fill: var(--ink);
-    text-anchor: middle; pointer-events: none;
+  /* region labels */
+  #cultureLabels text, #skeinLabels text {
+    font-family: var(--sans); text-anchor: middle; pointer-events: none;
+    paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round; fill: var(--ink);
   }
-  .agg-node.context circle { opacity: 0.32; }
-  .agg-node.context text { opacity: 0.55; font-size: 10.5px; font-weight: 500; }
-  .agg-node.hot circle { opacity: 1; }
-  .agg-node.dim circle, .agg-node.dim text { opacity: 0.15; }
+  #cultureLabels text { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  #cultureLabels text .sub { font-weight: 400; letter-spacing: 0; text-transform: none; font-size: 0.8em; fill: color-mix(in srgb, var(--ink) 70%, var(--muted)); }
+  #graph.narrow #cultureLabels text .sub { display: none; }
+  #skeinLabels text { font-weight: 500; fill: color-mix(in srgb, var(--ink) 80%, var(--muted)); }
 
-  .map-controls {
-    position: absolute; right: 0.75rem; bottom: 0.75rem;
-    display: flex; flex-direction: column; gap: 0.35rem;
-  }
+  .map-controls { position: absolute; right: 0.75rem; bottom: 0.75rem; display: flex; flex-direction: column; gap: 0.35rem; }
   .map-controls button {
     width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line);
     background: var(--bg); color: var(--ink); font-size: 1rem; line-height: 1; cursor: pointer;
@@ -342,108 +352,264 @@ const graphData = {
   .node-card .nc-sub { margin-top: 0.3rem; color: var(--muted); }
 
   .map-legend { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
+
+  @media (prefers-reduced-motion: reduce) { #dust circle.tw { animation: none; } }
 </style>
 
 <script>
   import { forceSimulation, forceManyBody, forceLink, forceCollide, forceCenter } from 'd3-force';
 
   interface Note { id: string; href: string; title: string; group: string; color: string; degree: number; skeinId: string; cultureId: string; r: number; x?: number; y?: number; }
-  interface Agg { id: string; label: string; color: string; anchor: string; noteIds: string[]; adj: string[]; cultureId?: string; skeinIds?: string[]; x: number; y: number; r: number; }
+  interface Region { id: string; label: string; color: string; anchor: string; noteIds: string[]; cultureId?: string; skeinIds?: string[]; x: number; y: number; }
 
   const data = JSON.parse(document.getElementById('graph-data')!.textContent || '{}') as {
     items: Omit<Note, 'r'>[]; edges: [string, string][];
-    cultures: { id: string; label: string; color: string; anchor: string; noteIds: string[]; skeinIds: string[]; adj: string[] }[];
-    skeins: { id: string; cultureId: string; label: string; color: string; anchor: string; noteIds: string[]; adj: string[] }[];
+    cultures: { id: string; label: string; color: string; anchor: string; noteIds: string[]; skeinIds: string[] }[];
+    skeins: { id: string; cultureId: string; label: string; color: string; anchor: string; noteIds: string[] }[];
   };
 
   const notes: Note[] = data.items.map((n) => ({ ...n, r: n.degree === 0 ? 3.2 : 4 + Math.min(11, Math.sqrt(n.degree) * 3.4) }));
   const noteById = new Map(notes.map((n) => [n.id, n]));
-  const linkData = data.edges.map(([a, b]) => ({ source: a, target: b }));
+  const cultures: Region[] = data.cultures.map((c) => ({ ...c, x: 0, y: 0 }));
+  const skeins: Region[] = data.skeins.map((s) => ({ ...s, x: 0, y: 0 }));
+  const cultureById = new Map(cultures.map((c) => [c.id, c]));
+  const skeinById = new Map(skeins.map((s) => [s.id, s]));
 
   const svg = document.getElementById('graph') as unknown as SVGSVGElement;
   const camera = document.getElementById('camera')!;
-  const cultureLayer = document.getElementById('cultureLayer')!;
-  const skeinLayer = document.getElementById('skeinLayer')!;
-  const edgeLayer = document.getElementById('edgeLayer')!;
-  const noteLayer = document.getElementById('noteLayer')!;
+  const dustG = document.getElementById('dust')!;
+  const cultureHullG = document.getElementById('cultureHulls')!;
+  const skeinHullG = document.getElementById('skeinHulls')!;
+  const edgeG = document.getElementById('edgeLayer')!;
+  const noteG = document.getElementById('noteLayer')!;
+  const skeinLabelG = document.getElementById('skeinLabels')!;
+  const cultureLabelG = document.getElementById('cultureLabels')!;
   const nodeCard = document.getElementById('node-card') as HTMLDivElement;
   const crumbBar = document.getElementById('crumb-bar')!;
   const NS = 'http://www.w3.org/2000/svg';
+  // the viewBox follows the frame's real aspect, so a tall phone never letterboxes the galaxy
+  let VW = 1100, VH = 860;
+  function syncViewBox() {
+    const r = svg.getBoundingClientRect();
+    if (r.width > 0 && r.height > 0) VH = Math.round(VW * (r.height / r.width));
+    svg.setAttribute('viewBox', `0 0 ${VW} ${VH}`);
+  }
+  syncViewBox();
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // ---- physics: the one true layout every aggregate view is derived from ----
+  const band = (v: number, a: number, b: number) => { if (v <= a) return 0; if (v >= b) return 1; const t = (v - a) / (b - a); return t * t * (3 - 2 * t); };
+  const rgbaOf = (cssColor: string) => cssColor; // colors are CSS vars; opacity is applied via fill-opacity/stroke-opacity
+
+  // ---- physics: the single layout every scale is a view of ----
   const sim = forceSimulation(notes as any)
     .force('charge', forceManyBody().strength((d: any) => (d.degree === 0 ? -650 : -50 - d.degree * 16)))
-    .force('link', forceLink(linkData as any).id((d: any) => d.id).distance((d: any) => 30 + (d.source.r ?? 5) + (d.target.r ?? 5)).strength(0.55))
+    .force('link', forceLink(data.edges.map(([a, b]) => ({ source: a, target: b })) as any).id((d: any) => d.id).distance((d: any) => 30 + (d.source.r ?? 5) + (d.target.r ?? 5)).strength(0.55))
     .force('collide', forceCollide().radius((d: any) => d.r + 4).strength(0.85).iterations(2))
     .force('center', forceCenter(0, 0))
     .alphaDecay(reduced ? 1 : 0.02);
 
-  // ---- aggregate nodes (culture + skein), positioned as the centroid of their members ----
-  const cultures: Agg[] = data.cultures.map((c) => ({ ...c, x: 0, y: 0, r: 10 + Math.sqrt(c.noteIds.length) * 7 }));
-  const skeins: Agg[] = data.skeins.map((s) => ({ ...s, x: 0, y: 0, r: 8 + Math.sqrt(s.noteIds.length) * 6 }));
-  const cultureById = new Map(cultures.map((c) => [c.id, c]));
-  const skeinById = new Map(skeins.map((s) => [s.id, s]));
+  // ---- background dust: seeded, meaningless, purely for depth ----
+  (function seedDust() {
+    let s = 20260824;
+    const rnd = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
+    for (let i = 0; i < 520; i++) {
+      const ang = rnd() * Math.PI * 2;
+      const rad = 120 + Math.pow(rnd(), 0.6) * 1100;
+      const c = document.createElementNS(NS, 'circle');
+      c.setAttribute('cx', (Math.cos(ang) * rad).toFixed(1));
+      c.setAttribute('cy', (Math.sin(ang) * rad * 0.85).toFixed(1));
+      c.setAttribute('r', (0.5 + rnd() * 0.9).toFixed(2));
+      c.setAttribute('opacity', (0.12 + rnd() * 0.22).toFixed(2));
+      if (rnd() < 0.22) { c.setAttribute('class', 'tw'); c.style.animationDelay = `${(rnd() * 5).toFixed(2)}s`; }
+      dustG.appendChild(c);
+    }
+  })();
 
-  function centroid(ids: string[]): [number, number] {
-    let sx = 0, sy = 0;
-    for (const id of ids) { const n = noteById.get(id); sx += n?.x ?? 0; sy += n?.y ?? 0; }
-    return [sx / (ids.length || 1), sy / (ids.length || 1)];
-  }
-
-  // ---- DOM: build once, reuse forever, toggle visibility/emphasis per view ----
-  type NoteEl = { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement };
-  const noteEls = new Map<string, NoteEl>();
+  // ---- DOM ----
+  const noteEls = new Map<string, { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement }>();
   for (const n of notes) {
     const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
     g.setAttribute('href', n.href); g.setAttribute('class', 'gnode'); g.dataset.id = n.id;
     const c = document.createElementNS(NS, 'circle');
-    c.setAttribute('r', n.r.toFixed(1)); c.setAttribute('style', `fill:${n.color}`);
+    c.setAttribute('style', `fill:${n.color}`);
     const t = document.createElementNS(NS, 'text');
-    t.setAttribute('text-anchor', 'middle'); t.textContent = n.title;
+    t.textContent = n.title;
     g.appendChild(c); g.appendChild(t);
-    noteLayer.appendChild(g);
+    noteG.appendChild(g);
     noteEls.set(n.id, { g, c, t });
   }
-  type EdgeEl = { vis: SVGLineElement; hit: SVGLineElement; a: string; b: string };
-  const edgeEls: EdgeEl[] = data.edges.map(([a, b]) => {
+  const edgeEls = data.edges.map(([a, b]) => {
     const vis = document.createElementNS(NS, 'line'); vis.setAttribute('class', 'dyad');
     const hit = document.createElementNS(NS, 'line'); hit.setAttribute('class', 'dyad-hit');
-    edgeLayer.appendChild(vis); edgeLayer.appendChild(hit);
+    edgeG.appendChild(vis); edgeG.appendChild(hit);
     return { vis, hit, a, b };
   });
-  type AggEl = { g: SVGGElement; c: SVGCircleElement; t: SVGTextElement };
-  function buildAggEl(layer: SVGGElement, a: Agg): AggEl {
-    const g = document.createElementNS(NS, 'g') as unknown as SVGGElement;
-    g.setAttribute('class', 'agg-node'); g.dataset.id = a.id;
-    const c = document.createElementNS(NS, 'circle');
-    c.setAttribute('style', `fill:${a.color}`);
-    const t = document.createElementNS(NS, 'text');
-    t.textContent = a.label;
-    g.appendChild(c); g.appendChild(t);
-    layer.appendChild(g);
-    return { g, c, t };
+  function buildRegion(layerHull: Element, layerLabel: Element, r: Region, twoLine: boolean) {
+    const path = document.createElementNS(NS, 'path');
+    path.setAttribute('style', `fill:${r.color}; stroke:${r.color}`);
+    path.dataset.id = r.id;
+    layerHull.appendChild(path);
+    const text = document.createElementNS(NS, 'text');
+    if (twoLine) {
+      const l1 = document.createElementNS(NS, 'tspan'); l1.textContent = r.label; l1.setAttribute('x', '0');
+      const l2 = document.createElementNS(NS, 'tspan'); l2.textContent = `“${r.anchor}”`; l2.setAttribute('x', '0'); l2.setAttribute('dy', '1.35em'); l2.setAttribute('class', 'sub');
+      text.appendChild(l1); text.appendChild(l2);
+    } else {
+      text.textContent = r.anchor;
+    }
+    layerLabel.appendChild(text);
+    return { path, text };
   }
-  const cultureEls = new Map(cultures.map((c) => [c.id, buildAggEl(cultureLayer as unknown as SVGGElement, c)]));
-  const skeinEls = new Map(skeins.map((s) => [s.id, buildAggEl(skeinLayer as unknown as SVGGElement, s)]));
+  const cultureEls = new Map(cultures.map((c) => [c.id, buildRegion(cultureHullG, cultureLabelG, c, true)]));
+  const skeinEls = new Map(skeins.map((s) => [s.id, buildRegion(skeinHullG, skeinLabelG, s, false)]));
 
   // ---- visited thread ----
   let thread: string[] = [];
   try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
   const visited = new Set(thread.map((t) => t.split(':')[1]));
   let visitedCount = 0;
-  for (const [id, { g }] of noteEls) { if (visited.has(id)) { g.classList.add('visited'); visitedCount++; } }
+  for (const [id, { g }] of noteEls) if (visited.has(id)) { g.classList.add('visited'); visitedCount++; }
   const tc = document.getElementById('thread-count');
   if (tc && visitedCount > 0) tc.textContent = `Your thread so far: ${visitedCount} of ${notes.length} lit. `;
-  function visitedIn(ids: string[]) { return ids.filter((id) => visited.has(id)).length; }
+  const visitedIn = (ids: string[]) => ids.filter((id) => visited.has(id)).length;
 
-  // ---- render: positions update every physics tick; view-mode + camera do NOT ----
-  function render() {
+  // ---- geometry helpers ----
+  function centroid(ids: string[]): [number, number] {
+    let sx = 0, sy = 0;
+    for (const id of ids) { const n = noteById.get(id); sx += n?.x ?? 0; sy += n?.y ?? 0; }
+    return [sx / (ids.length || 1), sy / (ids.length || 1)];
+  }
+  function convexHull(points: [number, number][]): [number, number][] {
+    const pts = Array.from(new Set(points.map((p) => p.join(',')))).map((s) => s.split(',').map(Number) as [number, number]);
+    if (pts.length < 3) return pts;
+    pts.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+    const cross = (o: number[], a: number[], b: number[]) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+    const lower: [number, number][] = [];
+    for (const p of pts) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop(); lower.push(p); }
+    const upper: [number, number][] = [];
+    for (let i = pts.length - 1; i >= 0; i--) { const p = pts[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop(); upper.push(p); }
+    lower.pop(); upper.pop();
+    return lower.concat(upper);
+  }
+  function regionPath(ids: string[], pad: number): string {
+    const pts = ids.map((id) => noteById.get(id)!).filter(Boolean).map((n) => [n.x ?? 0, n.y ?? 0] as [number, number]);
+    const hull = convexHull(pts);
+    if (hull.length >= 3) return `M${hull.map((p) => p.join(',')).join('L')}Z`;
+    const [cx, cy] = centroid(ids);
+    let rad = pad;
+    for (const p of pts) rad = Math.max(rad, Math.hypot(p[0] - cx, p[1] - cy) + pad * 0.6);
+    return `M${cx - rad},${cy} a${rad},${rad} 0 1,0 ${rad * 2},0 a${rad},${rad} 0 1,0 ${-rad * 2},0`;
+  }
+  function boundsOfNotes(ids: string[]) {
+    const pts = ids.map((id) => noteById.get(id)!).filter(Boolean);
+    if (!pts.length) return null;
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    for (const p of pts) {
+      x0 = Math.min(x0, (p.x ?? 0) - p.r); x1 = Math.max(x1, (p.x ?? 0) + p.r);
+      y0 = Math.min(y0, (p.y ?? 0) - p.r); y1 = Math.max(y1, (p.y ?? 0) + p.r);
+    }
+    return { x0, y0, x1, y1 };
+  }
+
+  // ---- camera ----
+  let camX = VW / 2, camY = VH / 2, camK = 1, k0 = 1;
+  let autoFit = true;
+  const unitsPerPx = () => VW / svg.getBoundingClientRect().width;
+  const frameWidth = () => svg.getBoundingClientRect().width;
+  const padFor = (p: number) => Math.min(p, frameWidth() * 0.14);
+
+  function applyCamera() {
+    camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(4)})`);
+    updateLOD();
+    updateCrumbs();
+  }
+
+  function fitK(b: { x0: number; y0: number; x1: number; y1: number }, padPx: number) {
+    const upp = unitsPerPx();
+    const w = Math.max(40, b.x1 - b.x0) + padPx * upp * 2;
+    const h = Math.max(40, b.y1 - b.y0) + padPx * upp * 2;
+    return Math.min(VW / w, VH / h);
+  }
+
+  let animFrame = 0;
+  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, padPx = 60, kMax = Infinity, kMin = 0) {
+    if (!b) return;
+    const k = Math.max(kMin, Math.min(kMax, fitK(b, padPx)));
+    const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
+    const tx = VW / 2 - cx * k, ty = VH / 2 - cy * k;
+    cancelAnimationFrame(animFrame);
+    if (!animate) { camX = tx; camY = ty; camK = k; applyCamera(); return; }
+    const sx = camX, sy = camY, sk = camK, dur = 780, start = performance.now();
+    function step(now: number) {
+      const t = Math.min(1, (now - start) / dur);
+      const e = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+      // interpolate zoom in log space so the fly feels even across scales
+      camX = sx + (tx - sx) * e; camY = sy + (ty - sy) * e;
+      camK = Math.exp(Math.log(sk) + (Math.log(k) - Math.log(sk)) * e);
+      applyCamera();
+      if (t < 1) animFrame = requestAnimationFrame(step);
+    }
+    animFrame = requestAnimationFrame(step);
+  }
+  function fitAll(animate: boolean) {
+    const b = boundsOfNotes(notes.map((n) => n.id));
+    if (!b) return;
+    k0 = fitK(b, padFor(80));
+    fitTo(b, animate, padFor(80));
+  }
+  // each flight lands inside the zoom band where its level is legible — a culture flight
+  // always shows you its skeins, a skein flight always shows you readable notes
+  const flyToCulture = (id: string) => { autoFit = false; fitTo(boundsOfNotes(cultureById.get(id)!.noteIds), true, padFor(70), k0 * 3.0, k0 * 2.0); };
+  const flyToSkein = (id: string) => { autoFit = false; fitTo(boundsOfNotes(skeinById.get(id)!.noteIds), true, padFor(90), k0 * 6.5, k0 * 4.0); };
+  new ResizeObserver(() => { syncViewBox(); if (autoFit) fitAll(false); else applyCamera(); }).observe(svg);
+  const flyHome = () => { autoFit = false; fitAll(true); };
+
+  // ---- LOD: zoom decides what's legible; nothing is ever swapped out ----
+  function updateLOD() {
+    const z = camK / k0;
+    const upp = unitsPerPx();
+    const px = (n: number) => (n * upp) / camK; // screen px -> user units at current zoom
+    const narrow = frameWidth() < 600;
+    svg.classList.toggle('narrow', narrow);
+    const close = band(z, 1.0, 3.4);
+
+    // stars: screen-constant sizing, brighter as you approach
     for (const n of notes) {
       const el = noteEls.get(n.id)!;
-      el.g.setAttribute('transform', `translate(${(n.x ?? 0).toFixed(1)},${(n.y ?? 0).toFixed(1)})`);
-      el.t.setAttribute('y', (n.r + 10).toFixed(1));
+      el.c.setAttribute('r', px(n.r * (0.42 + 0.9 * close)).toFixed(2));
+      el.t.setAttribute('y', px(n.r * (0.42 + 0.9 * close) + 11).toFixed(2));
     }
+    noteG.style.opacity = String(0.38 + 0.62 * close);
+    noteG.style.setProperty('--lbl', String(band(z, 3.0, 4.4)));
+    noteG.style.fontSize = `${px(narrow ? 9 : 10)}px`;
+    noteG.style.strokeWidth = `${px(3)}px`;
+
+    edgeG.style.opacity = String(band(z, 2.0, 3.6));
+    edgeG.style.pointerEvents = z >= 2.4 ? '' : 'none';
+
+    const skeinVis = band(z, 1.35, 2.3) * (1 - band(z, 5.2, 7.5));
+    skeinLabelG.style.opacity = String(band(z, 1.45, 2.05) * (1 - band(z, 4.6, 6.2)));
+    skeinLabelG.style.fontSize = `${px(narrow ? 10 : 11.5)}px`;
+    skeinLabelG.style.strokeWidth = `${px(3.5)}px`;
+    skeinHullG.style.opacity = String(skeinVis);
+    skeinHullG.style.pointerEvents = z >= 1.5 && z < 4.6 ? '' : 'none';
+    for (const { path } of skeinEls.values()) { path.setAttribute('fill-opacity', '0.13'); path.setAttribute('stroke-opacity', '0.18'); path.setAttribute('stroke-width', px(26).toFixed(1)); }
+
+    const cultureVis = 1 - 0.8 * band(z, 1.2, 2.6);
+    cultureLabelG.style.opacity = String(1 - band(z, 1.25, 2.05));
+    cultureLabelG.style.fontSize = `${px(narrow ? 11 : 13.5)}px`;
+    cultureLabelG.style.strokeWidth = `${px(4)}px`;
+    cultureHullG.style.opacity = String(cultureVis);
+    cultureHullG.style.pointerEvents = z < 1.6 ? '' : 'none';
+    for (const { path } of cultureEls.values()) { path.setAttribute('fill-opacity', '0.11'); path.setAttribute('stroke-opacity', '0.14'); path.setAttribute('stroke-width', px(44).toFixed(1)); }
+
+    dustG.style.opacity = String(1 - band(z, 2.1, 3.4));
+    placeLabels();
+  }
+
+  // ---- render: geometry only; runs on physics ticks ----
+  function render() {
+    for (const n of notes) noteEls.get(n.id)!.g.setAttribute('transform', `translate(${(n.x ?? 0).toFixed(1)},${(n.y ?? 0).toFixed(1)})`);
     for (const e of edgeEls) {
       const a = noteById.get(e.a), b = noteById.get(e.b);
       if (!a || !b) continue;
@@ -454,248 +620,189 @@ const graphData = {
     }
     for (const s of skeins) {
       [s.x, s.y] = centroid(s.noteIds);
-      const el = skeinEls.get(s.id)!;
-      el.g.setAttribute('transform', `translate(${s.x.toFixed(1)},${s.y.toFixed(1)})`);
-      el.c.setAttribute('r', s.r.toFixed(1));
-      el.t.setAttribute('y', (s.r + 13).toFixed(1));
+      skeinEls.get(s.id)!.path.setAttribute('d', regionPath(s.noteIds, 18));
     }
     for (const c of cultures) {
       [c.x, c.y] = centroid(c.noteIds);
-      const el = cultureEls.get(c.id)!;
-      el.g.setAttribute('transform', `translate(${c.x.toFixed(1)},${c.y.toFixed(1)})`);
-      el.c.setAttribute('r', c.r.toFixed(1));
-      el.t.setAttribute('y', (c.r + 15).toFixed(1));
+      cultureEls.get(c.id)!.path.setAttribute('d', regionPath(c.noteIds, 30));
     }
-    if (view.mode === 'cosmos' && !userMoved) fitTo(boundsOf(cultures), false, 70);
+    placeLabels();
+    if (autoFit) fitAll(false);
+  }
+
+  // Louvain communities interpenetrate in space, so their names would too — nudge labels
+  // apart in screen space until none overlap. Deterministic given positions, so stable.
+  function spreadLabels(pts: { x: number; y: number }[], minW: number, minH: number) {
+    for (let it = 0; it < 14; it++) {
+      for (let i = 0; i < pts.length; i++) for (let j = i + 1; j < pts.length; j++) {
+        const a = pts[i], b = pts[j];
+        const dx = b.x - a.x, dy = b.y - a.y;
+        const ox = minW - Math.abs(dx), oy = minH - Math.abs(dy);
+        if (ox <= 0 || oy <= 0) continue;
+        if (ox / minW < oy / minH) { const s = (ox / 2 + 0.5) * (dx < 0 ? -1 : 1); a.x -= s; b.x += s; }
+        else { const s = (oy / 2 + 0.5) * (dy < 0 ? -1 : 1); a.y -= s; b.y += s; }
+      }
+    }
+    return pts;
+  }
+  function placeLabels() {
+    const px = (n: number) => (n * unitsPerPx()) / camK;
+    const narrow = frameWidth() < 600;
+    const cpts = spreadLabels(cultures.map((c) => ({ x: c.x, y: c.y })), px(narrow ? 135 : 170), px(narrow ? 36 : 44));
+    cultures.forEach((c, i) => cultureEls.get(c.id)!.text.setAttribute('transform', `translate(${cpts[i].x.toFixed(1)},${cpts[i].y.toFixed(1)})`));
+    const spts = spreadLabels(skeins.map((s) => { const b = boundsOfNotes(s.noteIds)!; return { x: s.x, y: b.y0 - px(14) }; }), px(narrow ? 120 : 150), px(20));
+    skeins.forEach((s, i) => { const t = skeinEls.get(s.id)!.text; t.setAttribute('x', spts[i].x.toFixed(1)); t.setAttribute('y', spts[i].y.toFixed(1)); });
   }
   if (reduced) { for (let i = 0; i < 300; i++) sim.tick(); render(); }
   else sim.on('tick', render);
+  sim.on('end', () => { if (autoFit) fitAll(false); });
 
-  // ---- camera: translate/scale only, moved on view changes and explicit pan/zoom — never on hover ----
-  let camX = 550, camY = 430, camK = 1;
-  let userMoved = false;
-  applyCamera();
-  function applyCamera() { camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(3)})`); }
-
-  function boundsOf(items: { x: number; y: number; r: number }[]) {
-    if (!items.length) return null;
-    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-    for (const p of items) {
-      x0 = Math.min(x0, p.x - p.r); x1 = Math.max(x1, p.x + p.r);
-      y0 = Math.min(y0, p.y - p.r); y1 = Math.max(y1, p.y + p.r);
-    }
-    return { x0, y0, x1, y1 };
+  // ---- where you are: derived from the camera, not from a mode ----
+  function nearestRegion(list: Region[]): Region | null {
+    const cx = (VW / 2 - camX) / camK, cy = (VH / 2 - camY) / camK;
+    let best: Region | null = null, bd = Infinity;
+    for (const r of list) { const d = Math.hypot(r.x - cx, r.y - cy); if (d < bd) { bd = d; best = r; } }
+    return best;
   }
-
-  let animFrame = 0;
-  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, pad = 70) {
-    if (!b) return;
-    const vw = 1100, vh = 860;
-    const w = Math.max(40, b.x1 - b.x0) + pad * 2;
-    const h = Math.max(40, b.y1 - b.y0) + pad * 2;
-    const k = Math.max(0.15, Math.min(4, Math.min(vw / w, vh / h)));
-    const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
-    const tx = vw / 2 - cx * k, ty = vh / 2 - cy * k;
-    cancelAnimationFrame(animFrame);
-    if (!animate) { camX = tx; camY = ty; camK = k; applyCamera(); return; }
-    const sx = camX, sy = camY, sk = camK, dur = 600, start = performance.now();
-    function step(now: number) {
-      const t = Math.min(1, (now - start) / dur);
-      const e = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
-      camX = sx + (tx - sx) * e; camY = sy + (ty - sy) * e; camK = sk + (k - sk) * e;
-      applyCamera();
-      if (t < 1) animFrame = requestAnimationFrame(step);
-    }
-    animFrame = requestAnimationFrame(step);
-  }
-
-  // ---- pan + zoom: always available, in any view, and never fights the current framing ----
-  let dragging = false, lastX = 0, lastY = 0;
-  svg.addEventListener('pointerdown', (e) => {
-    dragging = true; lastX = e.clientX; lastY = e.clientY; svg.classList.add('dragging');
-    (e.target as Element).setPointerCapture?.(e.pointerId);
-  });
-  svg.addEventListener('pointermove', (e) => {
-    if (!dragging) return;
-    const rect = svg.getBoundingClientRect();
-    const scale = 1100 / rect.width;
-    camX += (e.clientX - lastX) * scale; camY += (e.clientY - lastY) * scale;
-    lastX = e.clientX; lastY = e.clientY;
-    userMoved = true;
-    applyCamera();
-  });
-  const endDrag = () => { dragging = false; svg.classList.remove('dragging'); };
-  svg.addEventListener('pointerup', endDrag);
-  svg.addEventListener('pointerleave', endDrag);
-
-  function zoomAt(clientX: number, clientY: number, factor: number) {
-    const rect = svg.getBoundingClientRect();
-    const mx = (clientX - rect.left) * (1100 / rect.width);
-    const my = (clientY - rect.top) * (860 / rect.height);
-    camX = mx * (1 - factor) + camX * factor;
-    camY = my * (1 - factor) + camY * factor;
-    camK = Math.max(0.12, Math.min(8, camK * factor));
-    userMoved = true;
-    applyCamera();
-  }
-  svg.addEventListener('wheel', (e) => { e.preventDefault(); zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.12 : 1 / 1.12); }, { passive: false });
-  document.getElementById('zoom-in')!.addEventListener('click', () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1.25); });
-  document.getElementById('zoom-out')!.addEventListener('click', () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1 / 1.25); });
-  document.getElementById('zoom-reset')!.addEventListener('click', () => enter({ mode: 'cosmos' }));
-
-  // ---- views: Cosmos → Culture → Skein. Hover only ever highlights + shows a card, never moves the camera. ----
-  type View = { mode: 'cosmos' } | { mode: 'culture'; id: string } | { mode: 'skein'; id: string };
-  let view: View = { mode: 'cosmos' };
-
-  function setHidden(el: Element, hidden: boolean) { (el as HTMLElement).style.display = hidden ? 'none' : ''; }
-
-  function applyView() {
-    const inCosmos = view.mode === 'cosmos';
-    const inCulture = view.mode === 'culture';
-    const inSkein = view.mode === 'skein';
-
-    setHidden(cultureLayer, !(inCosmos || inCulture));
-    setHidden(skeinLayer, !(inCulture || inSkein));
-    setHidden(edgeLayer, !inSkein);
-    setHidden(noteLayer, !inSkein);
-
-    if (inCosmos) {
-      for (const c of cultures) { const el = cultureEls.get(c.id)!; el.g.classList.remove('context', 'dim', 'hot'); el.g.style.display = ''; }
-    }
-    if (inCulture) {
-      const focus = cultureById.get(view.id)!;
-      for (const c of cultures) {
-        const el = cultureEls.get(c.id)!;
-        const isFocus = c.id === focus.id;
-        const isNeighbor = focus.adj.includes(c.id);
-        el.g.style.display = isFocus ? 'none' : (isNeighbor ? '' : 'none');
-        el.g.classList.toggle('context', !isFocus);
-        el.g.classList.remove('dim', 'hot');
-      }
-      for (const s of skeins) {
-        const el = skeinEls.get(s.id)!;
-        const show = s.cultureId === focus.id;
-        el.g.style.display = show ? '' : 'none';
-        el.g.classList.remove('context', 'dim', 'hot');
+  let lastCrumbKey = '';
+  function updateCrumbs() {
+    const z = camK / k0;
+    const parts: { label: string; go?: () => void }[] = [{ label: 'Cosmos', go: flyHome }];
+    if (z >= 1.45) {
+      const c = nearestRegion(cultures);
+      if (c) {
+        parts.push({ label: c.label, go: () => flyToCulture(c.id) });
+        if (z >= 3.2) {
+          const s = nearestRegion(skeins.filter((x) => x.cultureId === c.id)) ?? nearestRegion(skeins);
+          if (s) parts.push({ label: `“${s.anchor}”`, go: () => flyToSkein(s.id) });
+        }
       }
     }
-    if (inSkein) {
-      const focus = skeinById.get(view.id)!;
-      for (const s of skeins) {
-        const el = skeinEls.get(s.id)!;
-        const isFocus = s.id === focus.id;
-        const isNeighbor = focus.adj.includes(s.id);
-        el.g.style.display = isFocus ? 'none' : (isNeighbor ? '' : 'none');
-        el.g.classList.toggle('context', !isFocus);
-        el.g.classList.remove('dim', 'hot');
-      }
-      const memberSet = new Set(focus.noteIds);
-      for (const n of notes) {
-        const el = noteEls.get(n.id)!;
-        el.g.style.display = memberSet.has(n.id) ? '' : 'none';
-      }
-      for (const e of edgeEls) {
-        const show = memberSet.has(e.a) && memberSet.has(e.b);
-        e.vis.style.display = show ? '' : 'none';
-        e.hit.style.display = show ? '' : 'none';
-      }
-    }
-    renderCrumbs();
-  }
-
-  function renderCrumbs() {
-    const parts: { label: string; onClick: () => void }[] = [{ label: 'Cosmos', onClick: () => enter({ mode: 'cosmos' }) }];
-    if (view.mode === 'culture') parts.push({ label: cultureById.get(view.id)!.label, onClick: () => {} });
-    if (view.mode === 'skein') {
-      const s = skeinById.get(view.id)!;
-      parts.push({ label: cultureById.get(s.cultureId)!.label, onClick: () => enter({ mode: 'culture', id: s.cultureId }) });
-      parts.push({ label: `“${s.anchor}”`, onClick: () => {} });
-    }
+    const key = parts.map((p) => p.label).join('|');
+    if (key === lastCrumbKey) return;
+    lastCrumbKey = key;
     crumbBar.replaceChildren();
     parts.forEach((p, i) => {
       if (i > 0) { const sep = document.createElement('span'); sep.className = 'crumb-sep'; sep.textContent = '›'; crumbBar.appendChild(sep); }
-      const isLast = i === parts.length - 1;
-      if (isLast) {
-        const span = document.createElement('span'); span.className = 'crumb-current'; span.textContent = p.label; crumbBar.appendChild(span);
-      } else {
-        const btn = document.createElement('button'); btn.type = 'button'; btn.textContent = p.label;
-        btn.addEventListener('click', p.onClick);
-        crumbBar.appendChild(btn);
-      }
+      if (i === parts.length - 1) { const span = document.createElement('span'); span.className = 'crumb-current'; span.textContent = p.label; crumbBar.appendChild(span); }
+      else { const btn = document.createElement('button'); btn.type = 'button'; btn.textContent = p.label; btn.addEventListener('click', p.go!); crumbBar.appendChild(btn); }
     });
   }
 
-  function enter(next: View) {
-    view = next;
-    applyView();
-    if (next.mode === 'cosmos') { userMoved = false; fitTo(boundsOf(cultures), true, 70); }
-    if (next.mode === 'culture') {
-      userMoved = true;
-      const focus = cultureById.get(next.id)!;
-      const ownSkeins = skeins.filter((s) => s.cultureId === focus.id);
-      fitTo(boundsOf(ownSkeins.length ? ownSkeins : [focus]), true, 90);
+  // ---- pan, wheel zoom, pinch zoom ----
+  const pointers = new Map<number, { x: number; y: number }>();
+  let pinchDist = 0, dragMoved = false;
+  svg.addEventListener('pointerdown', (e) => {
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    dragMoved = false;
+    if (pointers.size === 2) { const [a, b] = Array.from(pointers.values()); pinchDist = Math.hypot(a.x - b.x, a.y - b.y); }
+    svg.classList.add('dragging');
+    (e.target as Element).setPointerCapture?.(e.pointerId);
+  });
+  svg.addEventListener('pointermove', (e) => {
+    if (!pointers.has(e.pointerId)) return;
+    const prev = pointers.get(e.pointerId)!;
+    pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pointers.size === 2) {
+      const [a, b] = Array.from(pointers.values());
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      if (pinchDist > 0) zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, d / pinchDist);
+      pinchDist = d;
+      return;
     }
-    if (next.mode === 'skein') {
-      userMoved = true;
-      const focus = skeinById.get(next.id)!;
-      const members = focus.noteIds.map((id) => noteById.get(id)!).filter(Boolean);
-      fitTo(boundsOf(members.length ? members : [focus]), true, 60);
-    }
-  }
+    const upp = unitsPerPx();
+    const dx = e.clientX - prev.x, dy = e.clientY - prev.y;
+    if (Math.abs(dx) + Math.abs(dy) > 2) dragMoved = true;
+    camX += dx * upp; camY += dy * upp;
+    autoFit = false;
+    cancelAnimationFrame(animFrame);
+    applyCamera();
+  });
+  const endPointer = (e: PointerEvent) => { pointers.delete(e.pointerId); if (pointers.size < 2) pinchDist = 0; if (!pointers.size) svg.classList.remove('dragging'); };
+  svg.addEventListener('pointerup', endPointer);
+  svg.addEventListener('pointercancel', endPointer);
+  svg.addEventListener('pointerleave', endPointer);
 
-  // ---- hover: highlight + info card only. Never touches the camera. ----
+  function zoomAt(clientX: number, clientY: number, factor: number) {
+    const rect = svg.getBoundingClientRect();
+    const mx = (clientX - rect.left) * (VW / rect.width);
+    const my = (clientY - rect.top) * (VH / rect.height);
+    const nk = Math.max(k0 * 0.55, Math.min(k0 * 9, camK * factor));
+    const f = nk / camK;
+    camX = mx * (1 - f) + camX * f;
+    camY = my * (1 - f) + camY * f;
+    camK = nk;
+    autoFit = false;
+    cancelAnimationFrame(animFrame);
+    applyCamera();
+  }
+  svg.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const dy = e.deltaMode === 1 ? e.deltaY * 16 : e.deltaMode === 2 ? e.deltaY * 400 : e.deltaY;
+    zoomAt(e.clientX, e.clientY, Math.max(0.75, Math.min(1.33, Math.exp(-dy * 0.0018))));
+  }, { passive: false });
+  const centerZoom = (f: number) => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, f); };
+  document.getElementById('zoom-in')!.addEventListener('click', () => centerZoom(1.3));
+  document.getElementById('zoom-out')!.addEventListener('click', () => centerZoom(1 / 1.3));
+  document.getElementById('zoom-reset')!.addEventListener('click', flyHome);
+
+  // ---- hover: highlight + card. Never moves the camera. ----
   function clearHot() {
-    for (const el of [...cultureEls.values(), ...skeinEls.values()]) el.g.classList.remove('hot', 'dim');
     for (const el of noteEls.values()) el.g.classList.remove('hot', 'dim');
     for (const e of edgeEls) e.vis.classList.remove('hot', 'dim');
+    for (const el of [...cultureEls.values(), ...skeinEls.values()]) el.path.classList.remove('hot');
     nodeCard.hidden = true;
   }
-  function showCard(html: string) { nodeCard.hidden = false; nodeCard.innerHTML = html; }
+  const showCard = (html: string) => { nodeCard.hidden = false; nodeCard.innerHTML = html; };
 
   for (const c of cultures) {
-    const el = cultureEls.get(c.id)!;
-    el.g.addEventListener('pointerenter', () => {
-      el.g.classList.add('hot');
+    const { path } = cultureEls.get(c.id)!;
+    path.addEventListener('pointerenter', () => {
+      path.classList.add('hot');
       showCard(`<div class="nc-part">A Culture · ${c.skeinIds!.length} Skein${c.skeinIds!.length === 1 ? '' : 's'} · ${c.noteIds.length} notes</div><div class="nc-title">${c.label}</div><div class="nc-sub">${visitedIn(c.noteIds)}/${c.noteIds.length} visited · anchored by “${c.anchor}”</div>`);
     });
-    el.g.addEventListener('pointerleave', clearHot);
-    el.g.addEventListener('click', () => enter({ mode: 'culture', id: c.id }));
+    path.addEventListener('pointerleave', clearHot);
+    path.addEventListener('click', () => { if (!dragMoved) flyToCulture(c.id); });
   }
   for (const s of skeins) {
-    const el = skeinEls.get(s.id)!;
-    el.g.addEventListener('pointerenter', () => {
-      el.g.classList.add('hot');
+    const { path } = skeinEls.get(s.id)!;
+    path.addEventListener('pointerenter', () => {
+      path.classList.add('hot');
       showCard(`<div class="nc-part">A Skein · ${s.noteIds.length} note${s.noteIds.length === 1 ? '' : 's'}</div><div class="nc-title">${s.label}</div><div class="nc-sub">${visitedIn(s.noteIds)}/${s.noteIds.length} visited · anchored by “${s.anchor}”</div>`);
     });
-    el.g.addEventListener('pointerleave', clearHot);
-    el.g.addEventListener('click', () => enter({ mode: 'skein', id: s.id }));
+    path.addEventListener('pointerleave', clearHot);
+    path.addEventListener('click', () => { if (!dragMoved) flyToSkein(s.id); });
   }
   for (const n of notes) {
-    const el = noteEls.get(n.id)!;
-    el.g.addEventListener('pointerenter', () => {
-      el.g.classList.add('hot');
+    const { g } = noteEls.get(n.id)!;
+    g.addEventListener('pointerenter', () => {
+      g.classList.add('hot');
       const linked = new Set([n.id]);
       for (const e of edgeEls) {
         const hot = e.a === n.id || e.b === n.id;
         e.vis.classList.toggle('hot', hot); e.vis.classList.toggle('dim', !hot);
         if (hot) { linked.add(e.a); linked.add(e.b); }
       }
-      for (const [nid, el2] of noteEls) el2.g.classList.toggle('dim', !linked.has(nid) && nid !== n.id);
-      const partLabel = n.group === 'thirds' ? 'A Standing Third' : n.group;
+      if (camK / k0 >= 2.0) for (const [nid, el] of noteEls) el.g.classList.toggle('dim', !linked.has(nid));
+      const partLabel = n.group === 'thirds' ? 'A Standing Third' : (cultureById.get(n.cultureId)?.label ?? n.group);
       showCard(`<div class="nc-part">${partLabel} · ${n.degree} connection${n.degree === 1 ? '' : 's'}</div><div class="nc-title">${n.title}</div>`);
     });
-    el.g.addEventListener('pointerleave', clearHot);
+    g.addEventListener('pointerleave', clearHot);
+    g.addEventListener('click', (e) => {
+      if (dragMoved) { e.preventDefault(); return; }
+      // too far to read? fly there instead of opening it
+      if (camK / k0 < 3.8) { e.preventDefault(); flyToSkein(n.skeinId); }
+    });
   }
   for (const e of edgeEls) {
     e.hit.addEventListener('pointerenter', () => {
       e.vis.classList.add('hot');
       const a = noteById.get(e.a)!, b = noteById.get(e.b)!;
       noteEls.get(e.a)!.g.classList.add('hot'); noteEls.get(e.b)!.g.classList.add('hot');
-      for (const [nid, el2] of noteEls) if (nid !== e.a && nid !== e.b) el2.g.classList.add('dim');
       showCard(`<div class="nc-part">A Dyad</div><div class="nc-title">${a.title} ↔ ${b.title}</div>`);
     });
     e.hit.addEventListener('pointerleave', clearHot);
   }
 
-  applyView();
+  applyCamera();
 </script>
