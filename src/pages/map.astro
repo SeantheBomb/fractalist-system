@@ -44,27 +44,96 @@ for (const [a, b] of edges) {
   degree.set(b, (degree.get(b) ?? 0) + 1);
 }
 
-// Connected components — a Skein is a cluster nobody assigned; it's just what's left
-// standing once you trace every real connection as far as it goes.
-const parent = new Map<string, string>();
-function find(x: string): string {
-  while (parent.get(x) !== x) { parent.set(x, parent.get(parent.get(x)!)!); x = parent.get(x)!; }
-  return x;
-}
-function union(a: string, b: string) {
-  const ra = find(a), rb = find(b);
-  if (ra !== rb) parent.set(ra, rb);
-}
-for (const n of items) parent.set(n.id, n.id);
-for (const [a, b] of edges) union(a, b);
+// A Skein is not everything reachable by some path — a single incidental cross-reference
+// would then merge the whole book into one blob, which is homogenizing, not honest. A Skein
+// is where connections are genuinely DENSE relative to the rest of the graph: Louvain
+// modularity maximization, the standard community-detection algorithm, run once here so
+// the gaps between real clusters get to stay gaps instead of being erased by one bridge edge.
+function louvain(nodeIds: string[], rawEdges: [string, string][]): Map<string, string> {
+  type Edge = [string, string, number];
+  let curNodes: string[] = nodeIds.slice();
+  let curEdges: Edge[] = rawEdges.map(([a, b]) => [a, b, 1]);
+  const levels: Map<string, string>[] = [];
 
+  for (let level = 0; level < 12; level++) {
+    const adj = new Map<string, Map<string, number>>();
+    for (const n of curNodes) adj.set(n, new Map());
+    for (const [a, b, w] of curEdges) {
+      if (a === b) { adj.get(a)!.set(a, (adj.get(a)!.get(a) ?? 0) + w * 2); continue; }
+      adj.get(a)!.set(b, (adj.get(a)!.get(b) ?? 0) + w);
+      adj.get(b)!.set(a, (adj.get(b)!.get(a) ?? 0) + w);
+    }
+    const degreeOf = new Map<string, number>();
+    let m2 = 0;
+    for (const n of curNodes) {
+      let d = 0;
+      for (const w of adj.get(n)!.values()) d += w;
+      degreeOf.set(n, d);
+      m2 += d;
+    }
+    if (m2 === 0) break;
+
+    const comm = new Map<string, string>(curNodes.map((n) => [n, n]));
+    const commTot = new Map<string, number>(curNodes.map((n) => [n, degreeOf.get(n)!]));
+
+    let anyMoveEver = false;
+    for (let pass = 0, improved = true; improved && pass < 50; pass++) {
+      improved = false;
+      for (const n of curNodes) {
+        const nDeg = degreeOf.get(n)!;
+        const curC = comm.get(n)!;
+        commTot.set(curC, commTot.get(curC)! - nDeg);
+        const neighborW = new Map<string, number>();
+        for (const [nb, w] of adj.get(n)!) {
+          if (nb === n) continue;
+          const c = comm.get(nb)!;
+          neighborW.set(c, (neighborW.get(c) ?? 0) + w);
+        }
+        const gainFor = (c: string) => (neighborW.get(c) ?? 0) - (nDeg * (commTot.get(c) ?? 0)) / m2;
+        let bestC = curC, bestGain = gainFor(curC);
+        for (const c of neighborW.keys()) {
+          const g = gainFor(c);
+          if (g > bestGain + 1e-9) { bestGain = g; bestC = c; }
+        }
+        commTot.set(bestC, (commTot.get(bestC) ?? 0) + nDeg);
+        if (bestC !== curC) { comm.set(n, bestC); improved = true; anyMoveEver = true; }
+      }
+    }
+
+    levels.push(new Map(comm));
+    const uniqueComms = new Set(comm.values());
+    if (!anyMoveEver || uniqueComms.size === curNodes.length) break;
+
+    const edgeWeight = new Map<string, number>();
+    for (const [a, b, w] of curEdges) {
+      const ca = comm.get(a)!, cb = comm.get(b)!;
+      const key = ca <= cb ? `${ca}|${cb}` : `${cb}|${ca}`;
+      edgeWeight.set(key, (edgeWeight.get(key) ?? 0) + w);
+    }
+    curNodes = Array.from(uniqueComms);
+    curEdges = Array.from(edgeWeight.entries()).map(([k, w]): Edge => {
+      const [a, b] = k.split('|');
+      return [a, b, w];
+    });
+  }
+
+  const finalComm = new Map<string, string>();
+  for (const orig of nodeIds) {
+    let cur = orig;
+    for (const lvl of levels) cur = lvl.get(cur) ?? cur;
+    finalComm.set(orig, cur);
+  }
+  return finalComm;
+}
+
+const communityOf = louvain(items.map((n) => n.id), edges);
 const compMembers = new Map<string, string[]>();
 for (const n of items) {
-  const root = find(n.id);
+  const root = communityOf.get(n.id)!;
   if (!compMembers.has(root)) compMembers.set(root, []);
   compMembers.get(root)!.push(n.id);
 }
-// Culture: how the Skeins are organized — each real cluster (2+ members), labeled by
+// Culture: how the Skeins are organized — each real, dense cluster (2+ members), labeled by
 // whichever part/kinship is most common among its members.
 const components = Array.from(compMembers.values())
   .filter((ids) => ids.length >= 2)
