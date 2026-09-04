@@ -45,11 +45,11 @@ for (const [a, b] of edges) {
 }
 
 // A Skein is not everything reachable by some path — a single incidental cross-reference
-// would then merge the whole book into one blob, which is homogenizing, not honest. A Skein
-// is where connections are genuinely DENSE relative to the rest of the graph: Louvain
-// modularity maximization, the standard community-detection algorithm, run once here so
-// the gaps between real clusters get to stay gaps instead of being erased by one bridge edge.
-function louvain(nodeIds: string[], rawEdges: [string, string][]): Map<string, string> {
+// would then merge the whole book into one blob. A Skein is where connections are genuinely
+// DENSE relative to the rest of the graph: Louvain modularity maximization, run here at two
+// resolutions — once coarse for Cultures, then again inside each Culture, finer, for the
+// Skeins that actually make it up.
+function louvain(nodeIds: string[], rawEdges: [string, string][], resolution = 1): Map<string, string> {
   type Edge = [string, string, number];
   let curNodes: string[] = nodeIds.slice();
   let curEdges: Edge[] = rawEdges.map(([a, b]) => [a, b, 1]);
@@ -89,7 +89,7 @@ function louvain(nodeIds: string[], rawEdges: [string, string][]): Map<string, s
           const c = comm.get(nb)!;
           neighborW.set(c, (neighborW.get(c) ?? 0) + w);
         }
-        const gainFor = (c: string) => (neighborW.get(c) ?? 0) - (nDeg * (commTot.get(c) ?? 0)) / m2;
+        const gainFor = (c: string) => (neighborW.get(c) ?? 0) - resolution * (nDeg * (commTot.get(c) ?? 0)) / m2;
         let bestC = curC, bestGain = gainFor(curC);
         for (const c of neighborW.keys()) {
           const g = gainFor(c);
@@ -126,83 +126,130 @@ function louvain(nodeIds: string[], rawEdges: [string, string][]): Map<string, s
   return finalComm;
 }
 
-const communityOf = louvain(items.map((n) => n.id), edges);
-const compMembers = new Map<string, string[]>();
-for (const n of items) {
-  const root = communityOf.get(n.id)!;
-  if (!compMembers.has(root)) compMembers.set(root, []);
-  compMembers.get(root)!.push(n.id);
+function dominant(ids: string[]): { label: string; color: string; group: string } {
+  const counts = new Map<string, number>();
+  for (const id of ids) {
+    const g = byId.get(id)!.group;
+    counts.set(g, (counts.get(g) ?? 0) + 1);
+  }
+  const group = Array.from(counts.entries()).sort((a, b) => b[1] - a[1])[0][0];
+  const label = group === 'thirds' ? 'The Standing Thirds' : (PARTS[group]?.title.replace(/ — .*$/, '') ?? group);
+  const color = group === 'thirds' ? 'var(--c-p5)' : (PARTS[group]?.color ?? 'var(--muted)');
+  return { label, color, group };
 }
-// Culture: how the Skeins are organized — each real, dense cluster (2+ members), labeled by
-// whichever part/kinship is most common among its members.
-const components = Array.from(compMembers.values())
-  .filter((ids) => ids.length >= 2)
-  .map((ids) => {
-    const counts = new Map<string, number>();
-    for (const id of ids) {
-      const g = byId.get(id)!.group;
-      counts.set(g, (counts.get(g) ?? 0) + 1);
-    }
-    const dominant = Array.from(counts.entries()).sort((a, b) => b[1] - a[1])[0][0];
-    const label = dominant === 'thirds' ? 'The Standing Thirds' : (PARTS[dominant]?.title.replace(/ — .*$/, '') ?? dominant);
-    return { ids, label };
-  });
+function anchorTitle(ids: string[]): string {
+  const best = ids.reduce((a, b) => ((degree.get(b) ?? 0) > (degree.get(a) ?? 0) ? b : a));
+  return byId.get(best)!.title;
+}
+
+// ---- Cultures: the coarse pass over the whole graph ----
+const cultureOf = louvain(items.map((n) => n.id), edges, 1);
+const cultureMembers = new Map<string, string[]>();
+for (const n of items) {
+  const c = cultureOf.get(n.id)!;
+  if (!cultureMembers.has(c)) cultureMembers.set(c, []);
+  cultureMembers.get(c)!.push(n.id);
+}
+const cultures = Array.from(cultureMembers.entries()).map(([id, noteIds], i) => {
+  const d = dominant(noteIds);
+  return { id: `culture-${i}`, rawId: id, noteIds, label: d.label, color: d.color, anchor: anchorTitle(noteIds) };
+});
+const cultureIdOf = new Map<string, string>(); // note -> culture-N
+for (const c of cultures) for (const id of c.noteIds) cultureIdOf.set(id, c.id);
+
+// ---- Skeins: a finer pass INSIDE each Culture, so a Skein is never split across Cultures ----
+const noteIdSet = new Set(items.map((n) => n.id));
+let skeinCounter = 0;
+const skeinIdOf = new Map<string, string>(); // note -> skein-N
+const skeins: { id: string; cultureId: string; noteIds: string[]; label: string; color: string; anchor: string }[] = [];
+for (const culture of cultures) {
+  const subSet = new Set(culture.noteIds);
+  const subEdges = edges.filter(([a, b]) => subSet.has(a) && subSet.has(b));
+  let subComm: Map<string, string>;
+  if (culture.noteIds.length >= 4 && subEdges.length >= 2) {
+    subComm = louvain(culture.noteIds, subEdges, 1.6);
+  } else {
+    subComm = new Map(culture.noteIds.map((id) => [id, 'solo']));
+  }
+  const groups = new Map<string, string[]>();
+  for (const id of culture.noteIds) {
+    const g = subComm.get(id) ?? 'solo';
+    if (!groups.has(g)) groups.set(g, []);
+    groups.get(g)!.push(id);
+  }
+  for (const noteIds of groups.values()) {
+    const id = `skein-${skeinCounter++}`;
+    for (const nid of noteIds) skeinIdOf.set(nid, id);
+    const d = dominant(noteIds);
+    skeins.push({ id, cultureId: culture.id, noteIds, label: d.label, color: d.color, anchor: anchorTitle(noteIds) });
+  }
+}
+
+// ---- adjacency, for "related X on the outskirts" at each level ----
+function adjacency(idOf: Map<string, string>): Map<string, Set<string>> {
+  const adj = new Map<string, Set<string>>();
+  for (const [a, b] of edges) {
+    const ca = idOf.get(a)!, cb = idOf.get(b)!;
+    if (ca === cb) continue;
+    if (!adj.has(ca)) adj.set(ca, new Set());
+    if (!adj.has(cb)) adj.set(cb, new Set());
+    adj.get(ca)!.add(cb);
+    adj.get(cb)!.add(ca);
+  }
+  return adj;
+}
+const cultureAdj = adjacency(cultureIdOf);
+const skeinAdj = adjacency(skeinIdOf);
 
 const graphData = {
   items: items.map((n) => ({
     id: n.id, href: n.href, title: n.title, group: n.group, color: n.color,
-    degree: degree.get(n.id) ?? 0,
+    degree: degree.get(n.id) ?? 0, skeinId: skeinIdOf.get(n.id)!, cultureId: cultureIdOf.get(n.id)!,
   })),
   edges,
-  components,
+  cultures: cultures.map((c) => ({
+    id: c.id, label: c.label, color: c.color, anchor: c.anchor, noteIds: c.noteIds,
+    skeinIds: skeins.filter((s) => s.cultureId === c.id).map((s) => s.id),
+    adj: Array.from(cultureAdj.get(c.id) ?? []),
+  })),
+  skeins: skeins.map((s) => ({
+    id: s.id, cultureId: s.cultureId, label: s.label, color: s.color, anchor: s.anchor, noteIds: s.noteIds,
+    adj: Array.from(skeinAdj.get(s.id) ?? []),
+  })),
 };
 ---
-<Base title="The Map" description="Every topic in Fractalism as a galaxy — notes as planets, connections as gravity, clusters as solar systems. Zoom from the whole cosmos down to a single note." wide>
+<Base title="The Map" description="Every topic in Fractalism as a galaxy — Cultures of Skeins, Skeins of notes, notes bound by nothing but their own gravity." wide>
   <h1>The Map</h1>
   <p style="max-width: 44rem; color: var(--muted);">
     This is the Infinite Boundary, sketched — every idea here, held together by nothing but its own
-    gravity. A note with no connections drifts to the outskirts, alone; a note with many pulls its
-    neighbors into orbit and grows to show it. Nothing here was placed by hand — the shape is what's
-    left once every real connection is allowed to pull, and everything else is allowed to push away.
+    gravity. Start at the whole Cosmos; click a Culture to see the Skeins that make it up; click a
+    Skein to meet the actual notes and the Dyads between them. Nothing here was placed by hand — the
+    shape is what's left once every real connection is allowed to pull, and everything else is
+    allowed to push away.
   </p>
 
-  <div class="lens-bar" role="group" aria-label="Scale lens">
-    <button class="lens-btn" data-lens="cosmos" type="button" aria-pressed="true">
-      <span class="lens-name">Cosmos</span><span class="lens-sub">the whole map</span>
-    </button>
-    <button class="lens-btn" data-lens="culture" type="button" aria-pressed="false">
-      <span class="lens-name">Culture</span><span class="lens-sub">how the Skeins organize</span>
-    </button>
-    <button class="lens-btn" data-lens="skein" type="button" aria-pressed="false">
-      <span class="lens-name">Skein</span><span class="lens-sub">one cluster</span>
-    </button>
-    <button class="lens-btn" data-lens="dyad" type="button" aria-pressed="false">
-      <span class="lens-name">Dyad</span><span class="lens-sub">one connection</span>
-    </button>
-    <button class="lens-btn" data-lens="self" type="button" aria-pressed="false">
-      <span class="lens-name">Self</span><span class="lens-sub">one note</span>
-    </button>
-  </div>
+  <div class="crumb-bar" id="crumb-bar" role="navigation" aria-label="Map depth"></div>
 
   <div class="map-frame">
     <svg id="graph" viewBox="0 0 1100 860" xmlns="http://www.w3.org/2000/svg">
       <g id="camera">
-        <g id="hulls"></g>
-        <g id="edges"></g>
-        <g id="nodes"></g>
+        <g id="cultureLayer"></g>
+        <g id="skeinLayer"></g>
+        <g id="edgeLayer"></g>
+        <g id="noteLayer"></g>
       </g>
     </svg>
     <div class="map-controls">
       <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
       <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
-      <button id="zoom-reset" type="button" aria-label="Reset view">⟲</button>
+      <button id="zoom-reset" type="button" aria-label="Back to Cosmos">⟲</button>
     </div>
     <div id="node-card" class="node-card" hidden></div>
   </div>
 
   <p class="map-legend">
     <span id="thread-count"></span>
-    Hover a note to feel its gravity; drag to pan, scroll or pinch to zoom, click to read.
+    Hover to learn what something is; click to go deeper; drag to pan, scroll or pinch to zoom.
     Prefer a list? <a href="/book/">The Book</a> holds everything in printed order, and the
     <a href="/thirds/">Thirds gallery</a> holds the mythology.
   </p>
@@ -211,122 +258,88 @@ const graphData = {
 </Base>
 
 <style is:global>
-  .lens-bar {
+  .crumb-bar {
     display: flex;
-    gap: 0.5rem;
+    align-items: center;
+    gap: 0.4rem;
     flex-wrap: wrap;
     margin-top: 1.5rem;
-  }
-  .lens-btn {
     font-family: var(--sans);
-    text-align: left;
-    border: 1px solid var(--line);
-    background: var(--bg2);
+    font-size: 0.85rem;
+    min-height: 1.6rem;
+  }
+  .crumb-bar button {
+    font: inherit;
+    background: none;
+    border: none;
     color: var(--muted);
-    border-radius: 10px;
-    padding: 0.5rem 0.85rem;
     cursor: pointer;
-    transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+    padding: 0.15rem 0.3rem;
+    border-radius: 6px;
   }
-  .lens-btn .lens-name { display: block; font-size: 0.85rem; font-weight: 600; color: var(--ink); }
-  .lens-btn .lens-sub { display: block; font-size: 0.68rem; letter-spacing: 0.03em; }
-  .lens-btn:hover { border-color: var(--accent); }
-  .lens-btn[aria-pressed="true"] {
-    background: color-mix(in srgb, var(--accent) 14%, var(--bg2));
-    border-color: var(--accent);
-  }
-  .lens-btn[aria-pressed="true"] .lens-name { color: var(--accent); }
+  .crumb-bar button:hover { color: var(--accent); background: var(--bg2); }
+  .crumb-bar .crumb-current { color: var(--ink); font-weight: 600; padding: 0.15rem 0.3rem; }
+  .crumb-bar .crumb-sep { color: var(--line); }
 
   .map-frame {
     position: relative;
     border: 1px solid var(--line);
     border-radius: 14px;
     background: var(--bg2);
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     overflow: hidden;
   }
   #graph { display: block; width: 100%; height: min(78vh, 720px); touch-action: none; cursor: grab; }
   #graph.dragging { cursor: grabbing; }
 
-  #edges line { stroke: var(--line); stroke-width: 1; opacity: 0.5; transition: opacity 0.12s ease, stroke 0.12s ease; }
-  #edges line.hot { stroke: var(--accent); opacity: 0.95; stroke-width: 1.8; }
-  #edges line.dim { opacity: 0.08; }
-
-  #hulls path {
-    fill: color-mix(in srgb, var(--muted) 7%, transparent);
-    stroke: var(--muted);
-    stroke-opacity: 0.28;
-    stroke-width: 16;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    pointer-events: none;
-  }
-  #hulls text {
-    font-family: var(--sans);
-    font-size: 11px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    fill: var(--muted);
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    pointer-events: none;
-  }
-  .lens-culture #hulls path, .lens-culture #hulls text { opacity: 1; }
+  /* notes + dyads (Skein view) */
+  #edgeLayer .dyad { stroke: var(--line); stroke-width: 1; opacity: 0.55; transition: opacity 0.12s ease, stroke 0.12s ease; }
+  #edgeLayer .dyad-hit { stroke: transparent; stroke-width: 14; cursor: pointer; }
+  #edgeLayer .dyad.hot { stroke: var(--accent); opacity: 1; stroke-width: 2; }
+  #edgeLayer .dyad.dim { opacity: 0.08; }
 
   .gnode { cursor: pointer; }
-  .gnode circle { opacity: 0.5; transition: opacity 0.12s ease, r 0.2s ease; }
+  .gnode circle { opacity: 0.55; transition: opacity 0.12s ease; }
   .gnode.visited circle { opacity: 1; filter: drop-shadow(0 0 4px currentColor); }
   .gnode text {
-    font-family: var(--sans);
-    font-size: 9.5px;
-    fill: var(--muted);
-    opacity: 0;
-    transition: opacity 0.12s ease;
-    pointer-events: none;
+    font-family: var(--sans); font-size: 9.5px; fill: var(--muted); opacity: 0;
+    transition: opacity 0.12s ease; pointer-events: none;
   }
   .gnode.hot circle { opacity: 1; }
-  .gnode.hot text, .lens-culture .gnode.anchor text { opacity: 0.85; }
   .gnode.hot text { fill: var(--ink); opacity: 1; font-weight: 600; }
-  .gnode.dim circle, .gnode.dim text { opacity: 0.1; }
-  .lens-self .gnode:not(.hot) circle, .lens-dyad .gnode:not(.hot) circle { opacity: 0.15; }
+  .gnode.dim circle, .gnode.dim text { opacity: 0.12; }
+
+  /* culture + skein aggregate nodes */
+  .agg-node { cursor: pointer; }
+  .agg-node circle { opacity: 0.85; stroke: var(--bg); stroke-width: 2; transition: opacity 0.15s ease, transform 0.15s ease; }
+  .agg-node:hover circle { transform: scale(1.04); }
+  .agg-node text {
+    font-family: var(--sans); font-size: 12px; font-weight: 600; fill: var(--ink);
+    text-anchor: middle; pointer-events: none;
+  }
+  .agg-node.context circle { opacity: 0.32; }
+  .agg-node.context text { opacity: 0.55; font-size: 10.5px; font-weight: 500; }
+  .agg-node.hot circle { opacity: 1; }
+  .agg-node.dim circle, .agg-node.dim text { opacity: 0.15; }
 
   .map-controls {
-    position: absolute;
-    right: 0.75rem;
-    bottom: 0.75rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
+    position: absolute; right: 0.75rem; bottom: 0.75rem;
+    display: flex; flex-direction: column; gap: 0.35rem;
   }
   .map-controls button {
-    width: 30px; height: 30px;
-    border-radius: 8px;
-    border: 1px solid var(--line);
-    background: var(--bg);
-    color: var(--ink);
-    font-size: 1rem;
-    line-height: 1;
-    cursor: pointer;
+    width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--bg); color: var(--ink); font-size: 1rem; line-height: 1; cursor: pointer;
   }
   .map-controls button:hover { border-color: var(--accent); }
 
   .node-card {
-    position: absolute;
-    left: 0.85rem;
-    top: 0.85rem;
-    max-width: 15rem;
-    background: var(--bg);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    padding: 0.6rem 0.8rem;
-    font-family: var(--sans);
-    font-size: 0.78rem;
-    pointer-events: none;
+    position: absolute; left: 0.85rem; top: 0.85rem; max-width: 16rem;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
+    padding: 0.6rem 0.8rem; font-family: var(--sans); font-size: 0.78rem; pointer-events: none;
   }
   .node-card .nc-part { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
   .node-card .nc-title { font-family: var(--serif); font-size: 1rem; margin-top: 0.15rem; color: var(--ink); }
+  .node-card .nc-sub { margin-top: 0.3rem; color: var(--muted); }
 
   .map-legend { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
 </style>
@@ -334,164 +347,158 @@ const graphData = {
 <script>
   import { forceSimulation, forceManyBody, forceLink, forceCollide, forceCenter } from 'd3-force';
 
-  interface GNode { id: string; href: string; title: string; group: string; color: string; degree: number; r: number; x?: number; y?: number; }
-  interface GEdge { source: string | GNode; target: string | GNode; }
+  interface Note { id: string; href: string; title: string; group: string; color: string; degree: number; skeinId: string; cultureId: string; r: number; x?: number; y?: number; }
+  interface Agg { id: string; label: string; color: string; anchor: string; noteIds: string[]; adj: string[]; cultureId?: string; skeinIds?: string[]; x: number; y: number; r: number; }
 
-  const dataEl = document.getElementById('graph-data')!;
-  const data = JSON.parse(dataEl.textContent || '{}') as {
-    items: Omit<GNode, 'r'>[]; edges: [string, string][]; components: { ids: string[]; label: string }[];
+  const data = JSON.parse(document.getElementById('graph-data')!.textContent || '{}') as {
+    items: Omit<Note, 'r'>[]; edges: [string, string][];
+    cultures: { id: string; label: string; color: string; anchor: string; noteIds: string[]; skeinIds: string[]; adj: string[] }[];
+    skeins: { id: string; cultureId: string; label: string; color: string; anchor: string; noteIds: string[]; adj: string[] }[];
   };
 
-  const nodes: GNode[] = data.items.map((n) => ({
-    ...n,
-    r: n.degree === 0 ? 3.2 : 4 + Math.min(11, Math.sqrt(n.degree) * 3.4),
-  }));
-  const byId = new Map(nodes.map((n) => [n.id, n]));
-  const linkData: GEdge[] = data.edges.map(([a, b]) => ({ source: a, target: b }));
+  const notes: Note[] = data.items.map((n) => ({ ...n, r: n.degree === 0 ? 3.2 : 4 + Math.min(11, Math.sqrt(n.degree) * 3.4) }));
+  const noteById = new Map(notes.map((n) => [n.id, n]));
+  const linkData = data.edges.map(([a, b]) => ({ source: a, target: b }));
 
   const svg = document.getElementById('graph') as unknown as SVGSVGElement;
   const camera = document.getElementById('camera')!;
-  const nodesG = document.getElementById('nodes')!;
-  const edgesG = document.getElementById('edges')!;
-  const hullsG = document.getElementById('hulls')!;
-  const mapFrame = svg.closest('.map-frame')!;
+  const cultureLayer = document.getElementById('cultureLayer')!;
+  const skeinLayer = document.getElementById('skeinLayer')!;
+  const edgeLayer = document.getElementById('edgeLayer')!;
+  const noteLayer = document.getElementById('noteLayer')!;
   const nodeCard = document.getElementById('node-card') as HTMLDivElement;
+  const crumbBar = document.getElementById('crumb-bar')!;
   const NS = 'http://www.w3.org/2000/svg';
-
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // ---- build DOM ----
-  const nodeEls = new Map<string, { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement }>();
-  for (const n of nodes) {
-    const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
-    g.setAttribute('href', n.href);
-    g.setAttribute('class', 'gnode');
-    g.dataset.id = n.id;
-    const c = document.createElementNS(NS, 'circle');
-    c.setAttribute('r', n.r.toFixed(1));
-    c.setAttribute('style', `fill:${n.color}`);
-    const t = document.createElementNS(NS, 'text');
-    t.setAttribute('text-anchor', 'middle');
-    t.textContent = n.title;
-    g.appendChild(c); g.appendChild(t);
-    nodesG.appendChild(g);
-    nodeEls.set(n.id, { g, c, t });
-  }
-  const edgeEls: { el: SVGLineElement; a: string; b: string }[] = [];
-  for (const [a, b] of data.edges) {
-    const line = document.createElementNS(NS, 'line');
-    line.dataset.a = a; line.dataset.b = b;
-    edgesG.appendChild(line);
-    edgeEls.push({ el: line, a, b });
-  }
-  const hullEls = data.components.map((comp) => {
-    const path = document.createElementNS(NS, 'path');
-    const text = document.createElementNS(NS, 'text');
-    text.textContent = comp.label;
-    hullsG.appendChild(path);
-    hullsG.appendChild(text);
-    return { comp, path, text };
-  });
-
-  // ---- visited thread ----
-  let thread: string[] = [];
-  try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
-  const visited = new Set(thread.map((t) => t.split(':')[1]));
-  let visitedCount = 0;
-  for (const [id, { g }] of nodeEls) { if (visited.has(id)) { g.classList.add('visited'); visitedCount++; } }
-  const tc = document.getElementById('thread-count');
-  if (tc && visitedCount > 0) tc.textContent = `Your thread so far: ${visitedCount} of ${nodes.length} lit. `;
-
-  // ---- physics: mass from connection, isolation pushed to the outskirts ----
-  const sim = forceSimulation(nodes as any)
+  // ---- physics: the one true layout every aggregate view is derived from ----
+  const sim = forceSimulation(notes as any)
     .force('charge', forceManyBody().strength((d: any) => (d.degree === 0 ? -650 : -50 - d.degree * 16)))
     .force('link', forceLink(linkData as any).id((d: any) => d.id).distance((d: any) => 30 + (d.source.r ?? 5) + (d.target.r ?? 5)).strength(0.55))
     .force('collide', forceCollide().radius((d: any) => d.r + 4).strength(0.85).iterations(2))
     .force('center', forceCenter(0, 0))
     .alphaDecay(reduced ? 1 : 0.02);
 
-  if (reduced) {
-    for (let i = 0; i < 300; i++) sim.tick();
-    render();
-  } else {
-    sim.on('tick', render);
+  // ---- aggregate nodes (culture + skein), positioned as the centroid of their members ----
+  const cultures: Agg[] = data.cultures.map((c) => ({ ...c, x: 0, y: 0, r: 10 + Math.sqrt(c.noteIds.length) * 7 }));
+  const skeins: Agg[] = data.skeins.map((s) => ({ ...s, x: 0, y: 0, r: 8 + Math.sqrt(s.noteIds.length) * 6 }));
+  const cultureById = new Map(cultures.map((c) => [c.id, c]));
+  const skeinById = new Map(skeins.map((s) => [s.id, s]));
+
+  function centroid(ids: string[]): [number, number] {
+    let sx = 0, sy = 0;
+    for (const id of ids) { const n = noteById.get(id); sx += n?.x ?? 0; sy += n?.y ?? 0; }
+    return [sx / (ids.length || 1), sy / (ids.length || 1)];
   }
 
+  // ---- DOM: build once, reuse forever, toggle visibility/emphasis per view ----
+  type NoteEl = { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement };
+  const noteEls = new Map<string, NoteEl>();
+  for (const n of notes) {
+    const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
+    g.setAttribute('href', n.href); g.setAttribute('class', 'gnode'); g.dataset.id = n.id;
+    const c = document.createElementNS(NS, 'circle');
+    c.setAttribute('r', n.r.toFixed(1)); c.setAttribute('style', `fill:${n.color}`);
+    const t = document.createElementNS(NS, 'text');
+    t.setAttribute('text-anchor', 'middle'); t.textContent = n.title;
+    g.appendChild(c); g.appendChild(t);
+    noteLayer.appendChild(g);
+    noteEls.set(n.id, { g, c, t });
+  }
+  type EdgeEl = { vis: SVGLineElement; hit: SVGLineElement; a: string; b: string };
+  const edgeEls: EdgeEl[] = data.edges.map(([a, b]) => {
+    const vis = document.createElementNS(NS, 'line'); vis.setAttribute('class', 'dyad');
+    const hit = document.createElementNS(NS, 'line'); hit.setAttribute('class', 'dyad-hit');
+    edgeLayer.appendChild(vis); edgeLayer.appendChild(hit);
+    return { vis, hit, a, b };
+  });
+  type AggEl = { g: SVGGElement; c: SVGCircleElement; t: SVGTextElement };
+  function buildAggEl(layer: SVGGElement, a: Agg): AggEl {
+    const g = document.createElementNS(NS, 'g') as unknown as SVGGElement;
+    g.setAttribute('class', 'agg-node'); g.dataset.id = a.id;
+    const c = document.createElementNS(NS, 'circle');
+    c.setAttribute('style', `fill:${a.color}`);
+    const t = document.createElementNS(NS, 'text');
+    t.textContent = a.label;
+    g.appendChild(c); g.appendChild(t);
+    layer.appendChild(g);
+    return { g, c, t };
+  }
+  const cultureEls = new Map(cultures.map((c) => [c.id, buildAggEl(cultureLayer as unknown as SVGGElement, c)]));
+  const skeinEls = new Map(skeins.map((s) => [s.id, buildAggEl(skeinLayer as unknown as SVGGElement, s)]));
+
+  // ---- visited thread ----
+  let thread: string[] = [];
+  try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
+  const visited = new Set(thread.map((t) => t.split(':')[1]));
+  let visitedCount = 0;
+  for (const [id, { g }] of noteEls) { if (visited.has(id)) { g.classList.add('visited'); visitedCount++; } }
+  const tc = document.getElementById('thread-count');
+  if (tc && visitedCount > 0) tc.textContent = `Your thread so far: ${visitedCount} of ${notes.length} lit. `;
+  function visitedIn(ids: string[]) { return ids.filter((id) => visited.has(id)).length; }
+
+  // ---- render: positions update every physics tick; view-mode + camera do NOT ----
   function render() {
-    for (const n of nodes) {
-      const el = nodeEls.get(n.id)!;
+    for (const n of notes) {
+      const el = noteEls.get(n.id)!;
       el.g.setAttribute('transform', `translate(${(n.x ?? 0).toFixed(1)},${(n.y ?? 0).toFixed(1)})`);
       el.t.setAttribute('y', (n.r + 10).toFixed(1));
     }
     for (const e of edgeEls) {
-      const a = byId.get(e.a), b = byId.get(e.b);
+      const a = noteById.get(e.a), b = noteById.get(e.b);
       if (!a || !b) continue;
-      e.el.setAttribute('x1', (a.x ?? 0).toFixed(1)); e.el.setAttribute('y1', (a.y ?? 0).toFixed(1));
-      e.el.setAttribute('x2', (b.x ?? 0).toFixed(1)); e.el.setAttribute('y2', (b.y ?? 0).toFixed(1));
+      for (const line of [e.vis, e.hit]) {
+        line.setAttribute('x1', (a.x ?? 0).toFixed(1)); line.setAttribute('y1', (a.y ?? 0).toFixed(1));
+        line.setAttribute('x2', (b.x ?? 0).toFixed(1)); line.setAttribute('y2', (b.y ?? 0).toFixed(1));
+      }
     }
-    for (const { comp, path, text } of hullEls) {
-      const pts = comp.ids.map((id) => byId.get(id)!).filter(Boolean);
-      const hull = convexHull(pts.map((p) => [p.x ?? 0, p.y ?? 0] as [number, number]));
-      if (hull.length < 2) continue;
-      path.setAttribute('d', hull.length === 2
-        ? `M${hull[0][0]},${hull[0][1]} L${hull[1][0]},${hull[1][1]}`
-        : `M${hull.map((p) => p.join(',')).join('L')}Z`);
-      const cx = pts.reduce((s, p) => s + (p.x ?? 0), 0) / pts.length;
-      const top = Math.min(...pts.map((p) => (p.y ?? 0) - p.r));
-      text.setAttribute('x', cx.toFixed(1));
-      text.setAttribute('y', (top - 22).toFixed(1));
-      text.setAttribute('text-anchor', 'middle');
+    for (const s of skeins) {
+      [s.x, s.y] = centroid(s.noteIds);
+      const el = skeinEls.get(s.id)!;
+      el.g.setAttribute('transform', `translate(${s.x.toFixed(1)},${s.y.toFixed(1)})`);
+      el.c.setAttribute('r', s.r.toFixed(1));
+      el.t.setAttribute('y', (s.r + 13).toFixed(1));
     }
-    if (!lensLocked) fitTo(allBounds(), false);
+    for (const c of cultures) {
+      [c.x, c.y] = centroid(c.noteIds);
+      const el = cultureEls.get(c.id)!;
+      el.g.setAttribute('transform', `translate(${c.x.toFixed(1)},${c.y.toFixed(1)})`);
+      el.c.setAttribute('r', c.r.toFixed(1));
+      el.t.setAttribute('y', (c.r + 15).toFixed(1));
+    }
+    if (view.mode === 'cosmos' && !userMoved) fitTo(boundsOf(cultures), false, 70);
   }
+  if (reduced) { for (let i = 0; i < 300; i++) sim.tick(); render(); }
+  else sim.on('tick', render);
 
-  function convexHull(points: [number, number][]): [number, number][] {
-    const pts = Array.from(new Set(points.map((p) => p.join(',')))).map((s) => s.split(',').map(Number) as [number, number]);
-    if (pts.length < 3) return pts;
-    pts.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
-    const cross = (o: number[], a: number[], b: number[]) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
-    const lower: [number, number][] = [];
-    for (const p of pts) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop(); lower.push(p); }
-    const upper: [number, number][] = [];
-    for (let i = pts.length - 1; i >= 0; i--) { const p = pts[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop(); upper.push(p); }
-    lower.pop(); upper.pop();
-    return lower.concat(upper);
-  }
-
-  // ---- camera: pan, zoom, and per-lens framing ----
+  // ---- camera: translate/scale only, moved on view changes and explicit pan/zoom — never on hover ----
   let camX = 550, camY = 430, camK = 1;
-  let lensLocked = false; // true once the user picks a non-cosmos lens (stop auto-refitting on every tick)
+  let userMoved = false;
   applyCamera();
+  function applyCamera() { camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(3)})`); }
 
-  function applyCamera() {
-    camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(3)})`);
-  }
-
-  function bounds(ids: string[]): { x0: number; y0: number; x1: number; y1: number } | null {
-    const pts = ids.map((id) => byId.get(id)).filter(Boolean) as GNode[];
-    if (!pts.length) return null;
+  function boundsOf(items: { x: number; y: number; r: number }[]) {
+    if (!items.length) return null;
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-    for (const p of pts) {
-      x0 = Math.min(x0, (p.x ?? 0) - p.r); x1 = Math.max(x1, (p.x ?? 0) + p.r);
-      y0 = Math.min(y0, (p.y ?? 0) - p.r); y1 = Math.max(y1, (p.y ?? 0) + p.r);
+    for (const p of items) {
+      x0 = Math.min(x0, p.x - p.r); x1 = Math.max(x1, p.x + p.r);
+      y0 = Math.min(y0, p.y - p.r); y1 = Math.max(y1, p.y + p.r);
     }
     return { x0, y0, x1, y1 };
   }
-  function allBounds() { return bounds(nodes.map((n) => n.id))!; }
 
   let animFrame = 0;
-  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, pad = 60) {
+  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, pad = 70) {
     if (!b) return;
     const vw = 1100, vh = 860;
     const w = Math.max(40, b.x1 - b.x0) + pad * 2;
     const h = Math.max(40, b.y1 - b.y0) + pad * 2;
-    const k = Math.max(0.15, Math.min(3.2, Math.min(vw / w, vh / h)));
+    const k = Math.max(0.15, Math.min(4, Math.min(vw / w, vh / h)));
     const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
     const tx = vw / 2 - cx * k, ty = vh / 2 - cy * k;
     cancelAnimationFrame(animFrame);
     if (!animate) { camX = tx; camY = ty; camK = k; applyCamera(); return; }
-    const sx = camX, sy = camY, sk = camK;
-    const dur = 650, start = performance.now();
+    const sx = camX, sy = camY, sk = camK, dur = 600, start = performance.now();
     function step(now: number) {
       const t = Math.min(1, (now - start) / dur);
       const e = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
@@ -502,21 +509,19 @@ const graphData = {
     animFrame = requestAnimationFrame(step);
   }
 
-  // ---- pan + zoom ----
+  // ---- pan + zoom: always available, in any view, and never fights the current framing ----
   let dragging = false, lastX = 0, lastY = 0;
   svg.addEventListener('pointerdown', (e) => {
-    dragging = true; lastX = e.clientX; lastY = e.clientY;
-    svg.classList.add('dragging');
+    dragging = true; lastX = e.clientX; lastY = e.clientY; svg.classList.add('dragging');
     (e.target as Element).setPointerCapture?.(e.pointerId);
   });
   svg.addEventListener('pointermove', (e) => {
     if (!dragging) return;
     const rect = svg.getBoundingClientRect();
     const scale = 1100 / rect.width;
-    camX += (e.clientX - lastX) * scale;
-    camY += (e.clientY - lastY) * scale;
+    camX += (e.clientX - lastX) * scale; camY += (e.clientY - lastY) * scale;
     lastX = e.clientX; lastY = e.clientY;
-    lensLocked = true;
+    userMoved = true;
     applyCamera();
   });
   const endDrag = () => { dragging = false; svg.classList.remove('dragging'); };
@@ -529,126 +534,168 @@ const graphData = {
     const my = (clientY - rect.top) * (860 / rect.height);
     camX = mx * (1 - factor) + camX * factor;
     camY = my * (1 - factor) + camY * factor;
-    camK = Math.max(0.12, Math.min(6, camK * factor));
-    lensLocked = true;
+    camK = Math.max(0.12, Math.min(8, camK * factor));
+    userMoved = true;
     applyCamera();
   }
-  svg.addEventListener('wheel', (e) => {
-    e.preventDefault();
-    zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.12 : 1 / 1.12);
-  }, { passive: false });
+  svg.addEventListener('wheel', (e) => { e.preventDefault(); zoomAt(e.clientX, e.clientY, e.deltaY < 0 ? 1.12 : 1 / 1.12); }, { passive: false });
+  document.getElementById('zoom-in')!.addEventListener('click', () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1.25); });
+  document.getElementById('zoom-out')!.addEventListener('click', () => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1 / 1.25); });
+  document.getElementById('zoom-reset')!.addEventListener('click', () => enter({ mode: 'cosmos' }));
 
-  document.getElementById('zoom-in')!.addEventListener('click', () => {
-    const r = svg.getBoundingClientRect();
-    zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1.25);
-  });
-  document.getElementById('zoom-out')!.addEventListener('click', () => {
-    const r = svg.getBoundingClientRect();
-    zoomAt(r.left + r.width / 2, r.top + r.height / 2, 1 / 1.25);
-  });
-  document.getElementById('zoom-reset')!.addEventListener('click', () => {
-    lensLocked = false;
-    setLens('cosmos');
-  });
+  // ---- views: Cosmos → Culture → Skein. Hover only ever highlights + shows a card, never moves the camera. ----
+  type View = { mode: 'cosmos' } | { mode: 'culture'; id: string } | { mode: 'skein'; id: string };
+  let view: View = { mode: 'cosmos' };
 
-  // ---- hover: highlight + drive focus-dependent lenses live ----
-  let hoveredId: string | null = null;
-  function setHot(id: string | null) {
-    hoveredId = id;
-    if (!id) {
-      for (const { g } of nodeEls.values()) g.classList.remove('hot', 'dim');
-      for (const { el } of edgeEls) el.classList.remove('hot', 'dim');
-      if (nodeCard) nodeCard.hidden = true;
-      if (currentLens === 'skein' || currentLens === 'dyad' || currentLens === 'self') frameLens(currentLens);
-      return;
+  function setHidden(el: Element, hidden: boolean) { (el as HTMLElement).style.display = hidden ? 'none' : ''; }
+
+  function applyView() {
+    const inCosmos = view.mode === 'cosmos';
+    const inCulture = view.mode === 'culture';
+    const inSkein = view.mode === 'skein';
+
+    setHidden(cultureLayer, !(inCosmos || inCulture));
+    setHidden(skeinLayer, !(inCulture || inSkein));
+    setHidden(edgeLayer, !inSkein);
+    setHidden(noteLayer, !inSkein);
+
+    if (inCosmos) {
+      for (const c of cultures) { const el = cultureEls.get(c.id)!; el.g.classList.remove('context', 'dim', 'hot'); el.g.style.display = ''; }
     }
-    const linked = new Set([id]);
-    for (const e of edgeEls) {
-      const hot = e.a === id || e.b === id;
-      e.el.classList.toggle('hot', hot);
-      e.el.classList.toggle('dim', !hot);
-      if (hot) { linked.add(e.a); linked.add(e.b); }
+    if (inCulture) {
+      const focus = cultureById.get(view.id)!;
+      for (const c of cultures) {
+        const el = cultureEls.get(c.id)!;
+        const isFocus = c.id === focus.id;
+        const isNeighbor = focus.adj.includes(c.id);
+        el.g.style.display = isFocus ? 'none' : (isNeighbor ? '' : 'none');
+        el.g.classList.toggle('context', !isFocus);
+        el.g.classList.remove('dim', 'hot');
+      }
+      for (const s of skeins) {
+        const el = skeinEls.get(s.id)!;
+        const show = s.cultureId === focus.id;
+        el.g.style.display = show ? '' : 'none';
+        el.g.classList.remove('context', 'dim', 'hot');
+      }
     }
-    for (const [nid, { g }] of nodeEls) {
-      const hot = linked.has(nid);
-      g.classList.toggle('hot', hot);
-      g.classList.toggle('dim', !hot);
+    if (inSkein) {
+      const focus = skeinById.get(view.id)!;
+      for (const s of skeins) {
+        const el = skeinEls.get(s.id)!;
+        const isFocus = s.id === focus.id;
+        const isNeighbor = focus.adj.includes(s.id);
+        el.g.style.display = isFocus ? 'none' : (isNeighbor ? '' : 'none');
+        el.g.classList.toggle('context', !isFocus);
+        el.g.classList.remove('dim', 'hot');
+      }
+      const memberSet = new Set(focus.noteIds);
+      for (const n of notes) {
+        const el = noteEls.get(n.id)!;
+        el.g.style.display = memberSet.has(n.id) ? '' : 'none';
+      }
+      for (const e of edgeEls) {
+        const show = memberSet.has(e.a) && memberSet.has(e.b);
+        e.vis.style.display = show ? '' : 'none';
+        e.hit.style.display = show ? '' : 'none';
+      }
     }
-    const n = byId.get(id);
-    if (n && nodeCard) {
-      nodeCard.hidden = false;
+    renderCrumbs();
+  }
+
+  function renderCrumbs() {
+    const parts: { label: string; onClick: () => void }[] = [{ label: 'Cosmos', onClick: () => enter({ mode: 'cosmos' }) }];
+    if (view.mode === 'culture') parts.push({ label: cultureById.get(view.id)!.label, onClick: () => {} });
+    if (view.mode === 'skein') {
+      const s = skeinById.get(view.id)!;
+      parts.push({ label: cultureById.get(s.cultureId)!.label, onClick: () => enter({ mode: 'culture', id: s.cultureId }) });
+      parts.push({ label: `“${s.anchor}”`, onClick: () => {} });
+    }
+    crumbBar.replaceChildren();
+    parts.forEach((p, i) => {
+      if (i > 0) { const sep = document.createElement('span'); sep.className = 'crumb-sep'; sep.textContent = '›'; crumbBar.appendChild(sep); }
+      const isLast = i === parts.length - 1;
+      if (isLast) {
+        const span = document.createElement('span'); span.className = 'crumb-current'; span.textContent = p.label; crumbBar.appendChild(span);
+      } else {
+        const btn = document.createElement('button'); btn.type = 'button'; btn.textContent = p.label;
+        btn.addEventListener('click', p.onClick);
+        crumbBar.appendChild(btn);
+      }
+    });
+  }
+
+  function enter(next: View) {
+    view = next;
+    applyView();
+    if (next.mode === 'cosmos') { userMoved = false; fitTo(boundsOf(cultures), true, 70); }
+    if (next.mode === 'culture') {
+      userMoved = true;
+      const focus = cultureById.get(next.id)!;
+      const ownSkeins = skeins.filter((s) => s.cultureId === focus.id);
+      fitTo(boundsOf(ownSkeins.length ? ownSkeins : [focus]), true, 90);
+    }
+    if (next.mode === 'skein') {
+      userMoved = true;
+      const focus = skeinById.get(next.id)!;
+      const members = focus.noteIds.map((id) => noteById.get(id)!).filter(Boolean);
+      fitTo(boundsOf(members.length ? members : [focus]), true, 60);
+    }
+  }
+
+  // ---- hover: highlight + info card only. Never touches the camera. ----
+  function clearHot() {
+    for (const el of [...cultureEls.values(), ...skeinEls.values()]) el.g.classList.remove('hot', 'dim');
+    for (const el of noteEls.values()) el.g.classList.remove('hot', 'dim');
+    for (const e of edgeEls) e.vis.classList.remove('hot', 'dim');
+    nodeCard.hidden = true;
+  }
+  function showCard(html: string) { nodeCard.hidden = false; nodeCard.innerHTML = html; }
+
+  for (const c of cultures) {
+    const el = cultureEls.get(c.id)!;
+    el.g.addEventListener('pointerenter', () => {
+      el.g.classList.add('hot');
+      showCard(`<div class="nc-part">A Culture · ${c.skeinIds!.length} Skein${c.skeinIds!.length === 1 ? '' : 's'} · ${c.noteIds.length} notes</div><div class="nc-title">${c.label}</div><div class="nc-sub">${visitedIn(c.noteIds)}/${c.noteIds.length} visited · anchored by “${c.anchor}”</div>`);
+    });
+    el.g.addEventListener('pointerleave', clearHot);
+    el.g.addEventListener('click', () => enter({ mode: 'culture', id: c.id }));
+  }
+  for (const s of skeins) {
+    const el = skeinEls.get(s.id)!;
+    el.g.addEventListener('pointerenter', () => {
+      el.g.classList.add('hot');
+      showCard(`<div class="nc-part">A Skein · ${s.noteIds.length} note${s.noteIds.length === 1 ? '' : 's'}</div><div class="nc-title">${s.label}</div><div class="nc-sub">${visitedIn(s.noteIds)}/${s.noteIds.length} visited · anchored by “${s.anchor}”</div>`);
+    });
+    el.g.addEventListener('pointerleave', clearHot);
+    el.g.addEventListener('click', () => enter({ mode: 'skein', id: s.id }));
+  }
+  for (const n of notes) {
+    const el = noteEls.get(n.id)!;
+    el.g.addEventListener('pointerenter', () => {
+      el.g.classList.add('hot');
+      const linked = new Set([n.id]);
+      for (const e of edgeEls) {
+        const hot = e.a === n.id || e.b === n.id;
+        e.vis.classList.toggle('hot', hot); e.vis.classList.toggle('dim', !hot);
+        if (hot) { linked.add(e.a); linked.add(e.b); }
+      }
+      for (const [nid, el2] of noteEls) el2.g.classList.toggle('dim', !linked.has(nid) && nid !== n.id);
       const partLabel = n.group === 'thirds' ? 'A Standing Third' : n.group;
-      nodeCard.innerHTML = `<div class="nc-part">${partLabel} · ${n.degree} connection${n.degree === 1 ? '' : 's'}</div><div class="nc-title">${n.title}</div>`;
-    }
-    if (currentLens === 'skein' || currentLens === 'dyad' || currentLens === 'self') frameLens(currentLens);
+      showCard(`<div class="nc-part">${partLabel} · ${n.degree} connection${n.degree === 1 ? '' : 's'}</div><div class="nc-title">${n.title}</div>`);
+    });
+    el.g.addEventListener('pointerleave', clearHot);
   }
-  for (const [id, { g }] of nodeEls) {
-    g.addEventListener('pointerenter', () => setHot(id));
-    g.addEventListener('pointerleave', () => setHot(null));
-  }
-
-  // ---- lenses ----
-  type Lens = 'cosmos' | 'culture' | 'skein' | 'dyad' | 'self';
-  let currentLens: Lens = 'cosmos';
-
-  function largestComponent(): string[] {
-    return data.components.reduce((best, c) => (c.ids.length > best.length ? c.ids : best), [] as string[]);
-  }
-  function highestDegreeNode(): GNode {
-    return nodes.reduce((best, n) => (n.degree > best.degree ? n : best), nodes[0]);
-  }
-  function componentOf(id: string): string[] {
-    const comp = data.components.find((c) => c.ids.includes(id));
-    return comp ? comp.ids : [id];
-  }
-  function anEdgeOf(id: string): [string, string] | null {
-    const found = data.edges.find(([a, b]) => a === id || b === id);
-    return found ?? null;
-  }
-  function busiestEdge(): [string, string] {
-    let best = data.edges[0];
-    let bestScore = -1;
-    for (const [a, b] of data.edges) {
-      const score = (byId.get(a)?.degree ?? 0) + (byId.get(b)?.degree ?? 0);
-      if (score > bestScore) { bestScore = score; best = [a, b]; }
-    }
-    return best;
+  for (const e of edgeEls) {
+    e.hit.addEventListener('pointerenter', () => {
+      e.vis.classList.add('hot');
+      const a = noteById.get(e.a)!, b = noteById.get(e.b)!;
+      noteEls.get(e.a)!.g.classList.add('hot'); noteEls.get(e.b)!.g.classList.add('hot');
+      for (const [nid, el2] of noteEls) if (nid !== e.a && nid !== e.b) el2.g.classList.add('dim');
+      showCard(`<div class="nc-part">A Dyad</div><div class="nc-title">${a.title} ↔ ${b.title}</div>`);
+    });
+    e.hit.addEventListener('pointerleave', clearHot);
   }
 
-  function frameLens(lens: Lens) {
-    if (lens === 'cosmos') { lensLocked = false; fitTo(allBounds(), true, 70); return; }
-    lensLocked = true;
-    if (lens === 'culture') { fitTo(allBounds(), true, 90); return; }
-    if (lens === 'skein') {
-      const ids = hoveredId ? componentOf(hoveredId) : largestComponent();
-      fitTo(bounds(ids.length ? ids : [highestDegreeNode().id]), true, 50);
-      return;
-    }
-    if (lens === 'dyad') {
-      const pair = (hoveredId && anEdgeOf(hoveredId)) || busiestEdge();
-      fitTo(bounds(pair), true, 70);
-      return;
-    }
-    if (lens === 'self') {
-      const id = hoveredId ?? highestDegreeNode().id;
-      const n = byId.get(id)!;
-      fitTo({ x0: (n.x ?? 0) - n.r, y0: (n.y ?? 0) - n.r, x1: (n.x ?? 0) + n.r, y1: (n.y ?? 0) + n.r }, true, 130);
-    }
-  }
-
-  function setLens(lens: Lens) {
-    currentLens = lens;
-    for (const btn of document.querySelectorAll<HTMLButtonElement>('.lens-btn')) {
-      btn.setAttribute('aria-pressed', String(btn.dataset.lens === lens));
-    }
-    mapFrame.classList.toggle('lens-culture', lens === 'culture');
-    frameLens(lens);
-  }
-  for (const btn of document.querySelectorAll<HTMLButtonElement>('.lens-btn')) {
-    btn.addEventListener('click', () => setLens(btn.dataset.lens as Lens));
-  }
-
-  // mark high-degree nodes so the Culture lens can show a few anchor labels
-  const sortedByDegree = [...nodes].sort((a, b) => b.degree - a.degree);
-  for (const n of sortedByDegree.slice(0, 10)) nodeEls.get(n.id)!.g.classList.add('anchor');
+  applyView();
 </script>
