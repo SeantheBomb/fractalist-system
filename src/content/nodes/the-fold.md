@@ -1,7 +1,7 @@
 ---
 title: "The Fold"
 part: "part-two"
-order: 18
+order: 20
 epigraph: "Karma: the simple science of putting others first."
 summary: "What goes out through a Nest tends to come back through the Nest — karma without a ledger-keeper, and with real cautions attached."
 related: ["the-dyad", "going-to-ground", "grammar-of-pattern", "waeth"]
@@ -19,7 +19,7 @@ Call this closing motion the **Fold** — the moment a Local Rule, having travel
 
 A few things distinguish the Fold sharply from the traditions it's descended from, on purpose:
 
-**No proportional accounting.** The Fold doesn't promise that cruelty returns as cruelty, in matched measure, on a schedule. A Nest is a messy, many-input system — what returns to you has passed through everyone else's Local Rules on the way, not just yours. Expect the Fold to be real but distorted, not exact. There's a structural reason for the distortion, worth naming rather than leaving mysterious: what left you was never traveling around a closed circle waiting to come back unchanged. It branched — through one person, then several, then a Skein's worth of retellings and reactions, a tree of genuinely different intermediate states, each one shaped by whoever was carrying it at the time. What returns is one leaf of that tree finding its way back to the root, not the original thing making a clean lap. Calling it a Fold names the return. It doesn't promise the return arrives looking anything like what you sent.
+**No proportional accounting.** The Fold doesn't promise that cruelty returns as cruelty, in matched measure, on a schedule. A Nest is a messy, many-input system — what returns to you has passed through everyone else's Local Rules on the way, not just yours. Expect the Fold to be real but distorted, not exact. There's a structural reason for the distortion: what left you was never traveling around a closed circle waiting to come back unchanged. It branched — through one person, then several, then a Skein's worth of retellings and reactions, a tree of genuinely different intermediate states, each one shaped by whoever was carrying it at the time. What returns is one leaf of that tree finding its way back to the root, not the original thing making a clean lap. Calling it a Fold names the return. It doesn't promise the return arrives looking anything like what you sent.
 
 **No afterlife required.** The loop can close within years, within months, sometimes within the same conversation — the Second Pass practice in the Loop Tongue is, structurally, a compressed Fold: your own contribution to a conflict folds directly back into the interaction you're already having.
 

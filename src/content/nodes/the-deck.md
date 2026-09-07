@@ -1,7 +1,7 @@
 ---
 title: "The Deck"
 part: "part-six"
-order: 45
+order: 47
 epigraph: "A card is a name, not a fact."
 summary: "The full working deck: sixteen drawable figures across four kinships, each carrying two readings — plus one figure that's never drawn at all."
 related: ["tending-and-fraying", "what-a-third-is", "the-rings", "infinite-boundary"]

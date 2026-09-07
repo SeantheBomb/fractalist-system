@@ -1,7 +1,7 @@
 ---
 title: "Why Lines Break Loops"
 part: "part-three"
-order: 25
+order: 27
 epigraph: "A sentence has an ending. A loop doesn't."
 summary: "A sentence has an ending. A loop doesn't. Why ordinary language quietly deletes the part of a pattern where the leverage lives."
 related: ["grammar-of-pattern", "the-second-pass", "psychology-woven-self"]
@@ -19,4 +19,4 @@ Most of the time this doesn't matter. Logistics, instructions, most conversation
 
 The Loop Tongue exists to stop losing that part. It is not a replacement for ordinary language — you'll do almost everything else in this book in plain sentences, including most of this chapter. It's a small, specific supplement for the moments when the thing you're trying to say is shaped like a circle, and you want the person you're talking to to actually receive that shape instead of a flattened version of it.
 
-There's a reason this problem is worth an entire language rather than a single fix, and it's worth stating as plainly as this book states anything: *you feel a line. You are a loop. You build a tree.* You will never feel the loop directly. You only ever feel the current point on it, one at a time, in order — which means the linear sentence isn't just a convenient shorthand for what happened, it's the only shape your felt experience of yourself was ever going to arrive in. But even "loop" is a compression, not the full record — the real, unrolled history of every pass you've actually made is a tree, each pass a genuinely different leaf grown from meeting a new condition the last pass didn't have. The Loop Tongue exists because that felt shape, the named loop, and the actual branching tree underneath it are three different things, and no amount of paying closer attention to your own experience will close those gaps on its own. You have to reach for a different kind of sentence on purpose.
+There's a reason this problem is worth an entire language rather than a single fix: *you feel a line. You are a loop. You build a tree.* You will never feel the loop directly. You only ever feel the current point on it, one at a time, in order — which means the linear sentence isn't just a convenient shorthand for what happened, it's the only shape your felt experience of yourself was ever going to arrive in. But even "loop" is a compression, not the full record — the real, unrolled history of every pass you've actually made is a tree, each pass a genuinely different leaf grown from meeting a new condition the last pass didn't have. The Loop Tongue exists because that felt shape, the named loop, and the actual branching tree underneath it are three different things, and no amount of paying closer attention to your own experience will close those gaps on its own. You have to reach for a different kind of sentence on purpose.

@@ -20,3 +20,5 @@ Every retelling picks up one small, plausible, flattering-to-the-story detail th
 Quillith is the reason a small kindness grows into a legend and a small mistake curdles into a scandal, by the exact same mechanism, applied without preference for which direction it happens to be running. The old warning attached to Quillith was never "don't trust them." It's gentler and more useful than that: notice that you already have, and take a moment to measure how far a thing has traveled since you first said it out loud.
 
 *What this personifies:* how a Skein's Global Form can drift from what any individual Local Rule actually was — the same currency-of-kindness mechanism the Skein chapter describes, except running toward exaggeration instead of toward quiet, uncounted care. Quillith is proof that a pattern's fitness for spreading and its fidelity to what actually happened were never the same measurement — the version of the story that travels best is not, by any guarantee, the version that's true.
+
+*Ask:* What story have I repeated that's grown since I first heard it?

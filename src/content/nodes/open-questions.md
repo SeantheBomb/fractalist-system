@@ -1,8 +1,8 @@
 ---
 title: "Open Questions & How to Expand This"
 part: "part-four"
-order: 39
-epigraph: "It's easier to iterate than generate."
+order: 41
+epigraph: "A good question is worth more than a settled answer."
 summary: "This book will be wrong about some things — here is what's genuinely unsettled, and the actual mechanism for revising any of it."
 related: ["unnamed-thirds", "loop-tongue-limits", "a-word-on-belief"]
 ---
@@ -15,9 +15,11 @@ Whether the Four Pillars are actually the right four, or whether practice at sca
 
 Whether the Seven Iterations should be read as a fixed structure or whether later iterations — an eighth, describing something the self-that-notices eventually builds beyond meaning itself — belong in the story as practice deepens.
 
-Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here.
+Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here — the notation is untested above two-person scale, scale-tagging assumes five clean categories that real patterns often refuse to sit still inside, and the Second Pass is easy to perform badly, as a way of sounding fair while still quietly assigning most of the blame to the other half of the loop.
 
-The Loop Tongue's twelve terms are not presented as a closed set, and shouldn't be treated as one going forward. Fold, Vector, and Tree exist because each names something the other nine terms couldn't quite reach on their own — a return through a Nest, the pathway a pattern travels to a new host, the branching record a Loop's own name compresses. A vocabulary built for a system that grows by repetition should itself be able to grow by repetition, whenever a real gap actually calls for a new word rather than a new word looking for a gap to justify it.
+Whether the Loop Tongue can survive its own honest description of itself. It is a language, which means it is also a pattern competing to spread the way any pattern spreads — by being memorable and useful enough to get repeated, with no guarantee attached that its terms are the correct ones. A word like Nest or Fold survives in use for the same reason a good rumor survives. The only difference available to maintain is to keep testing these words against real use rather than assuming they earned their place by having been written down first.
+
+The Loop Tongue's nine terms are not presented as a closed set, and shouldn't be treated as one. Each earns its place by naming something the others can't quite reach — but a word that can be replaced by a plain phrase without loss should be replaced by that phrase, because every term in a shared language is a cost paid by everyone who has to learn it before they can use any of it. A vocabulary built for a system that grows by repetition should be able to grow by repetition, whenever a real gap calls for a word rather than a word looking for a gap to justify it. It should shrink the same way.
 
 Whether the leverage-point ladder in Part Two and Four transfers as cleanly to collective-scale problems as it does to individual habits, or whether group-scale leverage needs its own separate treatment this book hasn't yet attempted.
 

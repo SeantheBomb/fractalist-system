@@ -1,15 +1,25 @@
 ---
 title: "Finding Your Leverage Point"
 part: "part-two"
-order: 15
+order: 17
 epigraph: "Give me a place to stand, and I will move the earth. — Archimedes"
 summary: "Numbers, buffers, rules, information flow, goals, paradigm — the ladder of where change actually holds, walked through at Self, Dyad, and Skein scale."
-related: ["fractal-resistance", "systems-theory", "the-sacrifice-trap"]
+related: ["position-speed-acceleration", "fractal-resistance", "systems-theory", "the-sacrifice-trap"]
 ---
 
 Not every repetition is equally powerful, and one of the most common ways people abandon this practice is by pouring years of effort into the *weakest* possible place to intervene, then concluding the whole framework doesn't work.
 
 Here is a simple hierarchy, ordered roughly from weakest leverage to strongest, borrowed from how systems thinkers describe intervening in any system at all — a business, an ecosystem, a body, a self.
+
+**Before the list itself, the thing that makes it make sense.** Part One asked you to tell position from speed from acceleration. This ladder is that distinction, applied to intervention — that's the whole reason the rungs are ordered the way they are, and it's the part that's usually left unexplained.
+
+The bottom rungs act on **position**. A number is a state: what's in the account today, what the scale says this morning. Change it directly and nothing about the machinery that produced it has changed, which is exactly why it drifts back.
+
+The middle rungs act on **speed**. Rules and information flow don't set a state — they set a rate. A rule changes how fast something accumulates or drains, every day, without being renewed. This is already a different category of intervention, and it's why rule-level change outlasts number-level change so reliably.
+
+The top rungs act on **acceleration**. A goal or a paradigm doesn't set a state or a rate. It changes how the rate itself changes — which is why a paradigm shift cascades downward through every level below it automatically, and why nothing below it ever reaches back up. Each level is an integration of the one above.
+
+That's also the honest warning attached to the top of this ladder. Acceleration-level work produces almost no visible movement in position for a long time. If you change a paradigm today, the numbers will look identical next week, and quite possibly next month. This is not a sign you chose wrong. It's arithmetic.
 
 **Numbers.** Adjusting a quantity — spend less, sleep more, scroll less. This is where almost everyone starts, and it's real, but it's the weakest lever there is. Change a number without changing anything underneath it, and the system quietly finds its way back to the old number within weeks. This is why New Year's resolutions built entirely on numbers — a calorie target, a savings amount — have the reputation they do.
 
@@ -31,4 +41,12 @@ A Dyad stuck in a repeating fight, walked the same way: the *numbers*-level fix 
 
 A Skein gone quiet, walked the same way: the *numbers* fix is "we should message more often" — reliably ignored within a month. The *buffer* is more goodwill built up during the good stretches, so a bad month doesn't end the group — better than nothing, still not the actual lever. The *rule* is a standing structure — a recurring Group Practice date, not left to spontaneous scheduling. *Information flow* is whether people actually know when someone's struggling, or only find out much later. The *goal* question is sharper than it looks: is this Skein organized around convenience, or around real mutual commitment? And the *paradigm* underneath — often something like "reaching out first is needy" — is usually the actual reason contact quietly died in the first place, and no amount of scheduling fixes it until that assumption gets named and questioned directly.
 
+**One more possibility the ladder doesn't cover, and it's the one people miss most often: sometimes a Local Rule isn't underpowered, it's the wrong category of rule entirely.** There are shapes that a whole family of simple rules can approximate forever and never actually reach — no amount of additional repetition gets you there, because the rule you're repeating is structurally incapable of producing that result. Applied to a life: some things you're failing at are not failing for want of consistency, or leverage, or a better rung. They're failing because the kind of move you're making could never have worked, and doing more of it just spends more of you on the same impossibility.
+
+**Try this:** Name one thing you've been trying to fix by doing more of the same. Ask, honestly, whether more of it could ever have worked — or whether the situation needs a different kind of move altogether. If it's the second, stop climbing the ladder. You're on the wrong one.
+
 Worth calling this ladder what it structurally is, because the word sharpens the practice: it's a tree, not a ladder, with paradigm sitting at the root and every symptom you actually notice — a missed habit, a blown budget, a recurring argument — sitting out at a leaf. The reason a paradigm-level fix cascades down through goals, rules, and numbers automatically, while a numbers-level fix never reaches upward, is exactly the relationship a root has to its leaves: the root shapes every leaf that grows from it, but no single leaf can reshape the root by itself. This is the same structure "root cause" has always pointed at, now given the rest of its shape — a cause isn't a root because it's important. It's a root because everything else downstream of it is one of its leaves, shaped by it, unable to un-shape it by acting alone.
+
+**And a way to know, from outside, whether you've been working the ladder well: count the parts.** A system you've been intervening in wisely gets lighter over time. A system you've been patching gets heavier — a rule, then an exception, then an exception to the exception, each one added because the last one didn't hold, none of them ever removed. That accumulation has a name worth using: complication, the residue of leverage applied in the wrong place. It's the most visible symptom there is that you've been pushing at a low rung for a long time.
+
+The opposite is the actual goal. Elegance is what high leverage looks like from outside: one small rule producing a great deal, rather than many rules each producing a little. If your solution to a problem keeps needing additions, that's information. Not about your discipline — about the rung.

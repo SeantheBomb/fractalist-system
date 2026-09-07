@@ -1,7 +1,7 @@
 ---
 title: "Going to Ground"
 part: "part-five"
-order: 42
+order: 44
 epigraph: "The field does not mourn what it receives."
 summary: "What actually continues, said plainly: the material — conservation of mass, literally — the Fold already in motion, and the noticing itself."
 related: ["becoming-a-third", "the-fold", "the-sacrifice-trap"]

@@ -27,6 +27,20 @@ A few practical suggestions, then:
 
 **Then, at some point — a month in, a year in, whenever a practice stops feeling like an instruction and starts feeling like a fact about you — come back to Part One and read it again.** It will be a shorter read the second time. It will also mean something different. That difference is the actual content of this book. Everything else is scaffolding to get you there.
 
+---
+
+### Three ways through
+
+Every Part opens by stating plainly what it's for, what you'll be able to do afterward, and where to go instead if you only want the practice. Read those blocks; they're not decoration. Some of this book is worth skipping depending on what you came for, and a book that won't tell you which parts is asking for more of your time than it has earned.
+
+Three routes, depending on what you actually want:
+
+**The practice path.** Part One, Chapters 4, 6, and 7 → all of Part Two → Part Three, Chapters 4 through 6. Roughly a quarter of the book, and everything you need to actually do this. Nothing you skip on this route is required for anything on it.
+
+**The full path.** Front to back, in order, as described above. Slower, and the only route that delivers the second-reading effect this chapter opened with.
+
+**The open-anywhere path.** Live in Part Five and Part Six — the figures and the Weavings — dipping into the rest as reference when a question sends you looking. This is the least conventional route and, for some people, the one that actually holds. A book about loops has no obligation to be entered at the start.
+
 One more thing, and then we'll start. This book was assembled, iteratively, by people reading widely across mathematics, psychology, systems theory, and story, and noticing the same pattern insisting on itself from every direction. It is offered to you the same way it was built: as something to repeat, revise, and hand forward, not as something to receive once and hold still.
 
 ---

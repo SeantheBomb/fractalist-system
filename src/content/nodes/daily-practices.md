@@ -1,7 +1,7 @@
 ---
 title: "The Daily Practices"
 part: "part-two"
-order: 10
+order: 12
 epigraph: "It's easier to iterate than generate."
 summary: "Four short practices that carry the daily weight: the breath, Tree-Gazing, Naming the Loop, and Seeding — each with the mechanism explained."
 related: ["finding-your-local-rule", "flow-reward", "naming-and-defusing", "mantras"]
@@ -40,4 +40,4 @@ A simple version for closing the day: *"What I did today becomes what I do tomor
 
 **What it's actually doing:** every thought you repeat gets easier to think again — that's simply what repetition does to a mental pathway, the same mechanism that turns a difficult new skill into an effortless one. That mechanism doesn't check whether what it's making effortless is good for you. Seeding is choosing, on purpose, what you're willing to make effortless.
 
-**A body-grounded version of the same idea, worth naming directly rather than leaving as an unstated borrow:** holistic and traditional medicine traditions have long treated the body itself as a branching structure — a trunk with peripheral extremities — where small residue naturally collects at the furthest points and has to be periodically moved back toward the center or it stagnates there. The lymphatic system works exactly this way physically: fluid pools at the extremities and only returns toward the trunk through deliberate movement, never on its own. The evening Seeding prayer is doing the same job for something less literal — the small, unprocessed residue of a day, the minor frictions and passing regrets that gather at the edges of your attention and quietly stiffen into something worse if they're never carried back to where they can actually be metabolized. You don't need daily catastrophe to justify the evening practice. You need the ordinary, unglamorous fact that residue collects at the leaves of a day, and a day is healthier for being drained back toward its root before it hardens into tomorrow's starting condition.
+Residue collects at the edges of a day the way fluid pools at the body's extremities — neither one returns to the center on its own. That's the whole case for the evening version. You don't need a catastrophe to justify it.

@@ -1,7 +1,7 @@
 ---
 title: "You've Met This Before"
 part: "part-one"
-order: 6
+order: 8
 epigraph: "Your focus determines your reality.\"* — Qui-Gon Jinn, *Star Wars: Episode I – The Phantom Menace"
 summary: "Steven Universe, Ted Lasso, Kipo, Qui-Gon, and Uncle Iroh — five characters you already trust who arrived at this pattern without ever naming it."
 related: ["where-it-comes-from", "what-a-third-is", "four-pillars"]

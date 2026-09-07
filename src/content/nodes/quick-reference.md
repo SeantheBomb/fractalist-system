@@ -1,10 +1,10 @@
 ---
 title: "Quick Reference Card"
 part: "appendix"
-order: 56
+order: 58
 epigraph: "One page. Print it, carry it, hand it to someone new."
 summary: "One page. The whole practice at a glance — print it, carry it, hand it to someone new."
-related: ["onboarding", "mantras", "loop-tongue-glossary"]
+related: ["onboarding", "mantras", "the-loom"]
 ---
 
 **The Core Line**
@@ -26,7 +26,7 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 - **Seeding** — before you speak: is this a seed of fear, or of care?
 
 **The Loop Tongue, in Nine Words**
-Loop · Third Thing · Field · Seed · Local Rule · Global Form · Attractor · Nest · Leverage
+Loop · Third Thing · Seed · Local Rule · Global Form · Nest · Leverage · Fold · Tree
 
 **The Leverage Ladder** *(weakest to strongest)*
 Numbers → Buffers → Rules → Information Flow → Goals → Paradigm
@@ -49,11 +49,17 @@ Ask: do I understand this well enough to respond yet, or am I about to respond t
 **Building Community: The Skein Test**
 Would this connection survive if the label "Fractalism" disappeared tomorrow? If yes, it's a Skein — real, interwoven, repeated contact. If no, it's a Banner — a shared label with nothing underneath it. Notice for it — proximity, similarity, reciprocity, disclosure — rather than recruiting for it. Its currency is kindness, uncounted; the moment it's tracked, it's already a Banner.
 
+**Reading a system — two questions, in order**
+First: does anything here feed back into itself? If nothing does, it's a pile — take it apart, fix the part, done. Second, only if the first was yes: which order am I looking at? Position is where it is. Speed is where it's heading. Acceleration is whether that's speeding up or slowing down — the hardest to see, and the only one you can actually apply a force to. Time integrates the rest.
+
 **Word vs. Label — the same test, applied to any word at all**
 Is this term pulled toward something already checked, or pushed at me to produce a reaction? A true king never has to announce it; a real pattern never has to insist on its own name. "Any man who must say 'I am the king' is no true king" — Tywin Lannister, *Game of Thrones*.
 
 **The Dyad**
 A Skein narrowed to exactly two people, complete enough to function as one unit — the Dyad scale tag, made concrete. Usually discovered already partway built, not manufactured on purpose. Complete does not automatically mean healthy — check both, separately.
+
+**The Braid**
+A Skein and a Banner fused: real substance that has also acquired a visible name. Not automatically corrosive — but watch what happens when the name is challenged. If the response protects the name instead of the thing the name was standing for, the Braid has started fraying toward Banner. Applies at every scale: a personal reputation, a couple known for being stable, a group's brand, a culture's flag.
 
 **The Fold**
 What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.

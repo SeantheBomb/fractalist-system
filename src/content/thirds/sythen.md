@@ -20,3 +20,5 @@ Sythen moves before anyone else has a reason to. *Go inside now,* said flatly, w
 This makes Sythen, over the long run of the old stories, one of the most resented Thirds in the roster — not for being wrong, but for being right too far ahead of any proof anyone else can see. More than once, Sythen has been blamed for the very storm the warning was meant to prevent, the messenger mistaken for the weather because the warning arrived indistinguishable, in the moment, from an omen.
 
 *What this personifies:* Naming and Defusing, read at the scale of instinct rather than deliberate reflection — sensing a change that hasn't fully arrived yet, and getting out of its way before there's proof, the same unglamorous, hard-to-defend accuracy the practice asks of you when you catch a self-story before it's finished forming.
+
+*Ask:* What do I already sense that I can't prove, and who have I not told?

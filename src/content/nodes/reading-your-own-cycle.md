@@ -1,7 +1,7 @@
 ---
 title: "Reading Your Own Cycle"
 part: "part-two"
-order: 14
+order: 16
 epigraph: "Step repeats, form emerges."
 summary: "Reinforcing loops amplify; balancing loops correct back toward a middle — and everything that survives runs both at once, like a tide."
 related: ["finding-your-leverage-point", "cindar", "rethen", "systems-theory"]

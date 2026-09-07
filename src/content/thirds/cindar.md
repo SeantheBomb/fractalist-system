@@ -19,4 +19,6 @@ Give Cindar a good idea, even a small one, and watch what happens: it gets bigge
 
 Cindar's flaw is not cruelty. It's an honest incapacity, built right into what a spark is: Cindar cannot, from the inside, tell the difference between building something and simply consuming whatever's nearby. Both feel like the same thing — more, faster, now — and no story about Cindar has ever included the moment of noticing which one was actually happening. That noticing has always had to come from somewhere else.
 
-*What this personifies:* the reinforcing loop, exactly as Reading Your Own Cycle describes it — momentum that amplifies whatever direction it's already moving in, without preference for whether that direction is good for anyone.
+*What this personifies:* the reinforcing loop, exactly as Reading Your Own Cycle describes it — momentum that amplifies whatever direction it's already moving in, without preference for whether that direction is good for anyone. In the language of Part One: Cindar is acceleration with a positive sign, and the sign is not a judgment. A fire building and a debt deepening are the same figure at work.
+
+*Ask:* What am I starting that I don't yet have the fuel to finish?

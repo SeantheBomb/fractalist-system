@@ -19,6 +19,8 @@ The mannerism people remember most: Corren repeats back the exact feeling behind
 
 The quirk, retold with real affection in the old tellings: Corren can sit through an hour of someone else's problem and, at the end of it, ask for nothing in return — no reciprocal turn, no "anyway, enough about me," content instead to have simply been fully present for the length of it. This isn't martyrdom. Corren genuinely doesn't experience the hour as a cost.
 
-The flaw, worth naming honestly rather than only admiring: total presence given this freely, this often, eventually runs a real risk of being taken as infinite — a well people assume never needs tending because Corren never once asked it to be. The old cautionary tellings are not about Corren giving too little. They're about everyone around Corren forgetting, over enough years, that presence this complete was ever a gift instead of simply the temperature of the room.
+The flaw, stated rather than only admired: total presence given this freely, this often, eventually runs a real risk of being taken as infinite — a well people assume never needs tending because Corren never once asked it to be. The old cautionary tellings are not about Corren giving too little. They're about everyone around Corren forgetting, over enough years, that presence this complete was ever a gift instead of simply the temperature of the room.
 
 *What this personifies:* presence as an active offering rather than a passive state — the exact practice described in "Do I Understand You Well Enough," made into a character who does it as naturally as breathing, and pays for that naturalness in being underestimated as effortless rather than chosen.
+
+*Ask:* Who deserves my whole attention today, and will actually feel it?

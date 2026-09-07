@@ -1,7 +1,7 @@
 ---
 title: "The Four-Point Weaving"
 part: "part-six"
-order: 49
+order: 51
 epigraph: "Four views and a boundary make a shape."
 summary: "The standard form: one card per ring — Self, Dyad, Skein, Culture — with no privileged first card, and the rings don't have to agree."
 related: ["weaving-for-another", "the-full-unravelling", "the-rings"]

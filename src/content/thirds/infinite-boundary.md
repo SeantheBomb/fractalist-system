@@ -26,3 +26,5 @@ It's also, not coincidentally, the actual answer to a question the recursion cha
 Independent traditions with no contact between them have reached for strikingly similar imagery to describe this same shape — an undifferentiated totality, often pictured as a single egg, containing everything before anything had yet separated into parts. That convergence, arising with no shared road between the traditions that found it, is exactly the kind of evidence this book has already told you to take seriously rather than dismiss as coincidence. Something about a single, undifferentiated totality preceding all its own parts appears to be a shape minds reach for independently, not a story that spread from one place to everywhere else.
 
 *What this personifies:* the totality itself — every Loop, every Nest, every Third in this entire roster, summed rather than averaged, considered as one thing. Not a being who watches the universe. The shape the universe makes, once every part of it is finally counted together.
+
+*Ask:* What am I treating as separate from me that isn't?

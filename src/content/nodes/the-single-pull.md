@@ -1,7 +1,7 @@
 ---
 title: "The Single Pull"
 part: "part-six"
-order: 48
+order: 50
 epigraph: "One card is a question, not an answer."
 summary: "The lightest form — one Third drawn at random, read loosely for the day ahead. A daily practice, not a consultation."
 related: ["the-four-point-weaving", "daily-practices", "tending-and-fraying"]

@@ -5,12 +5,54 @@
 
 export const PARTS = {
   'front': { title: 'Front Matter', color: 'var(--c-neutral)' },
-  'part-one': { title: 'Part One — Why This Matters', color: 'var(--c-p1)' },
-  'part-two': { title: 'Part Two — How to Practice', color: 'var(--c-p2)' },
-  'part-three': { title: 'Part Three — The Loop Tongue', color: 'var(--c-p3)' },
-  'part-four': { title: 'Part Four — Deeper Theory', color: 'var(--c-p4)' },
-  'part-five': { title: 'Part Five — The Standing Thirds', color: 'var(--c-p5)' },
-  'part-six': { title: 'Part Six — Weavings', color: 'var(--c-p6)' },
+  'part-one': {
+    title: 'Part One — Why This Matters', color: 'var(--c-p1)',
+    guide: {
+      purpose: 'Convincing you the claim is true before asking you to practice anything.',
+      outcome: 'Recognize a loop and a Third Thing when you see one — a perceptual shift, not yet a practice.',
+      shortcut: 'Read Chapters 4, 6, and 7, then go straight to Part Two.',
+    },
+  },
+  'part-two': {
+    title: 'Part Two — How to Practice', color: 'var(--c-p2)',
+    guide: {
+      purpose: 'This is the working book. Everything else supports it.',
+      outcome: 'Run about a dozen concrete practices — on yourself, on one other person, and in a group.',
+      shortcut: 'You\'re already here. Start with Chapter 1 and do the seven days.',
+    },
+  },
+  'part-three': {
+    title: 'Part Three — The Loop Tongue', color: 'var(--c-p3)',
+    guide: {
+      purpose: 'Giving two people a shared way to describe a pattern out loud, so a conversation about one doesn\'t collapse into blame.',
+      outcome: 'Name a scale before making a claim, say a conflict twice, and run a group decision from more than one zoom level.',
+      shortcut: 'Chapters 4, 5, and 6. The rest is optional.',
+    },
+  },
+  'part-four': {
+    title: 'Part Four — The Ground Underneath', color: 'var(--c-p4)',
+    guide: {
+      purpose: 'Showing that the claims in Parts One and Two rest on real mathematics, real psychology, and real systems theory — not on assertion.',
+      outcome: 'Nothing new. This part exists so the practices you already have feel earned instead of asserted, which is worth something, but it is the most skippable part of this book.',
+      shortcut: 'Skip it entirely, and come back the first time a practice works and you want to know why.',
+    },
+  },
+  'part-five': {
+    title: 'Part Five — The Standing Thirds', color: 'var(--c-p5)',
+    guide: {
+      purpose: 'Giving a face to patterns you already recognize, so they\'re easier to spot and easier to name to someone else.',
+      outcome: 'Run a diagnostic question against your own situation for each figure, and use the roster as the deck Part Six draws from.',
+      shortcut: 'Read Chapter 0, then the question at the end of each figure\'s chapter. The stories are there to make the questions memorable, not the other way around.',
+    },
+  },
+  'part-six': {
+    title: 'Part Six — Weavings', color: 'var(--c-p6)',
+    guide: {
+      purpose: 'A structured way to look at one problem from four distances instead of one.',
+      outcome: 'Run a Weaving for yourself, or for someone with no prior knowledge of any of this.',
+      shortcut: 'Chapters 3, 5, and 7.',
+    },
+  },
   'appendix': { title: 'Appendix', color: 'var(--c-neutral)' },
 };
 
@@ -67,7 +109,23 @@ export const NODES = [
     related: ['naming-and-defusing', 'psychology-woven-self', 'the-loop-runs-you', 'going-to-ground'],
   },
   {
-    heading: '6. You\'ve Met This Before',
+    heading: '6. Complicated or Complex',
+    slug: 'complicated-or-complex',
+    title: 'Complicated or Complex',
+    part: 'part-one',
+    summary: 'A jet engine and a pond both have many parts. Only one of them has a feedback loop — and only a complex system can ever produce a Third Thing.',
+    related: ['position-speed-acceleration', 'the-third-thing', 'finding-your-local-rule'],
+  },
+  {
+    heading: '7. Position, Speed, Acceleration',
+    slug: 'position-speed-acceleration',
+    title: 'Position, Speed, Acceleration',
+    part: 'part-one',
+    summary: 'The same three orders that describe motion describe a habit, a Dyad, or a Skein — and why real leverage often looks like nothing happening yet.',
+    related: ['youve-met-this-before', 'finding-your-leverage-point', 'systems-theory', 'the-sacrifice-trap'],
+  },
+  {
+    heading: '8. You\'ve Met This Before',
     slug: 'youve-met-this-before',
     title: 'You\'ve Met This Before',
     part: 'part-one',
@@ -75,7 +133,7 @@ export const NODES = [
     related: ['where-it-comes-from', 'what-a-third-is', 'four-pillars'],
   },
   {
-    heading: '7. Where It Comes From',
+    heading: '9. Where It Comes From',
     slug: 'where-it-comes-from',
     title: 'Where It Comes From — The Seven Iterations',
     part: 'part-one',
@@ -83,7 +141,7 @@ export const NODES = [
     related: ['a-word-on-belief', 'the-mathematics', 'mantras'],
   },
   {
-    heading: '8. A Word on Belief Itself',
+    heading: '10. A Word on Belief Itself',
     slug: 'a-word-on-belief',
     title: 'A Word on Belief Itself',
     part: 'part-one',
@@ -114,7 +172,7 @@ export const NODES = [
     title: 'Finding Your Local Rule',
     part: 'part-two',
     summary: 'Four honest questions — loved, capable, needed, sustainable — and the overlap where a rule worth repeating actually lives.',
-    related: ['naming-and-defusing', 'the-sacrifice-trap', 'reading-your-own-cycle', 'flow-reward'],
+    related: ['naming-and-defusing', 'the-sacrifice-trap', 'reading-your-own-cycle', 'flow-reward', 'complicated-or-complex'],
   },
   {
     heading: '4. Naming and Defusing',
@@ -146,7 +204,7 @@ export const NODES = [
     title: 'Finding Your Leverage Point',
     part: 'part-two',
     summary: 'Numbers, buffers, rules, information flow, goals, paradigm — the ladder of where change actually holds, walked through at Self, Dyad, and Skein scale.',
-    related: ['fractal-resistance', 'systems-theory', 'the-sacrifice-trap'],
+    related: ['position-speed-acceleration', 'fractal-resistance', 'systems-theory', 'the-sacrifice-trap'],
   },
   {
     heading: '8. Fractal Resistance, Practiced',
@@ -162,7 +220,7 @@ export const NODES = [
     title: 'The Sacrifice Trap',
     part: 'part-two',
     summary: 'Grind now, live later is a trade that never pays out. A meditation for the moment you catch yourself making it.',
-    related: ['the-fold', 'going-to-ground', 'flow-reward'],
+    related: ['the-fold', 'position-speed-acceleration', 'going-to-ground', 'flow-reward'],
   },
   {
     heading: '10. The Fold',
@@ -236,7 +294,7 @@ export const NODES = [
     title: 'The Grammar of Pattern',
     part: 'part-three',
     summary: 'The Loop Tongue\'s working vocabulary, plus the Word/Label test — is a term pulled toward something real, or pushed to produce a reaction?',
-    related: ['sketching-a-loop', 'loop-tongue-glossary', 'why-lines-break-loops'],
+    related: ['sketching-a-loop', 'the-loom', 'why-lines-break-loops'],
   },
   {
     heading: '3. Sketching a Loop',
@@ -310,7 +368,7 @@ export const NODES = [
     title: 'Systems Theory Foundations',
     part: 'part-four',
     summary: 'Stocks, flows, and feedback loops — the formal machinery underneath the leverage ladder, and the recursion that makes the whole system fractal.',
-    related: ['finding-your-leverage-point', 'the-loom', 'flow-reward', 'the-mathematics'],
+    related: ['finding-your-leverage-point', 'position-speed-acceleration', 'the-loom', 'flow-reward', 'the-mathematics'],
   },
   {
     heading: '4. Flow, Reward, and Why Practice Works',
@@ -450,7 +508,7 @@ export const NODES = [
     title: 'Weaving Together',
     part: 'part-six',
     summary: 'A group Weaving gives Group Practice a shared ritual object — one spread for the group\'s shared situation, read aloud together.',
-    related: ['reading-honestly', 'group-practice', 'the-four-point-weaving'],
+    related: ['reading-honestly', 'group-practice', 'the-four-point-weaving', 'complicated-or-complex'],
   },
   {
     heading: '9. Reading Honestly',
@@ -484,31 +542,23 @@ export const NODES = [
     title: 'Quick Reference Card',
     part: 'appendix',
     summary: 'One page. The whole practice at a glance — print it, carry it, hand it to someone new.',
-    related: ['onboarding', 'mantras', 'loop-tongue-glossary'],
+    related: ['onboarding', 'mantras', 'the-loom'],
   },
   {
-    heading: 'C. The Loop Tongue — Glossary and Notation Sheet',
-    slug: 'loop-tongue-glossary',
-    title: 'The Loop Tongue — Glossary & Notation',
+    heading: 'C. The Loom — The Complete Reference',
+    slug: 'the-loom',
+    title: 'The Loom — The Complete Reference',
     part: 'appendix',
-    summary: 'The vocabulary, the notation marks, the scale tags, and three extended terms — Fold, Vector, and Tree.',
-    related: ['grammar-of-pattern', 'sketching-a-loop', 'the-loom', 'quick-reference'],
+    summary: 'The Loop Tongue\'s nine words, the notation, the scale grid, and a compact index to every named concept in the book — one page doing three jobs.',
+    related: ['grammar-of-pattern', 'systems-theory', 'quick-reference', 'infinite-boundary'],
   },
   {
-    heading: 'E. Source Library',
+    heading: 'D. Source Library',
     slug: 'sources',
     title: 'Source Library',
     part: 'appendix',
     summary: 'The works whose ideas were read together, synthesized, and argued with to build this text — offered, never required.',
     related: ['a-word-on-belief', 'belief-systems-built', 'open-questions'],
-  },
-  {
-    heading: 'F. The Loom — Where Every Term Meets Every Scale',
-    slug: 'the-loom',
-    title: 'The Loom — Where Every Term Meets Every Scale',
-    part: 'appendix',
-    summary: 'The Loop Tongue\'s twelve terms checked against all five Scale Tags in one grid — most cells filled, a few genuinely open.',
-    related: ['loop-tongue-glossary', 'systems-theory', 'charten', 'infinite-boundary'],
   },
 ];
 

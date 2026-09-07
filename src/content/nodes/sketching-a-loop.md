@@ -1,13 +1,15 @@
 ---
 title: "Sketching a Loop"
 part: "part-three"
-order: 27
+order: 29
 epigraph: "A picture is worth a thousand words."
 summary: "Four marks, learnable in under a minute, sketchable on a napkin mid-conversation: →, ↻, ⤸, and [ ]."
 related: ["scale-tagging", "reading-your-own-cycle", "grammar-of-pattern"]
 ---
 
-Words alone still carry some of the linear bias baked into speech. A simple notation removes more of it — not a formal diagramming system requiring training, just four marks, learnable in under a minute, sketchable on a napkin mid-conversation.
+Most people never draw these. If you're not someone who reaches for a pen mid-conversation, skip to the next chapter — nothing later in this book depends on it.
+
+For everyone else: words alone still carry some of the linear bias baked into speech, and four marks remove more of it. Learnable in under a minute, sketchable on a napkin.
 
 **An arrow (→)** means "feeds into." *Anxiety → checking the phone.*
 
@@ -17,4 +19,4 @@ Words alone still carry some of the linear bias baked into speech. A simple nota
 
 **A nested bracket [ ]** around a chain means "this whole pattern is itself one Local Rule inside a larger version of the same Loop, one scale up." *[Anxiety → checking the phone ↻] → a culture of distraction, built the same way, one person at a time.*
 
-That's the entire notation. It isn't trying to replace a formal systems diagram — anyone who wants the fuller version has *Thinking in Systems* and its relatives waiting in Part Four's further reading. It's trying to be the version two people can actually use standing in a kitchen, mid-argument, when one of them says "wait, draw what you mean" and a napkin is the only tool available.
+That's the entire notation — not a replacement for a formal systems diagram, just the version two people can use standing in a kitchen, mid-argument, when one of them says "wait, draw what you mean."

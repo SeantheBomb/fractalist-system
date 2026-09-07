@@ -1,7 +1,7 @@
 ---
 title: "Weaving for Another"
 part: "part-six"
-order: 51
+order: 53
 epigraph: "Do I understand you well enough to draw for you?"
 summary: "Reveal one card at a time, and fold the other person's response into how you read the next one — the mechanism that makes a reading personal."
 related: ["weaving-together", "do-i-understand-you", "corren"]

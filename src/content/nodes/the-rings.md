@@ -1,7 +1,7 @@
 ---
 title: "The Rings, Not the Row"
 part: "part-six"
-order: 47
+order: 49
 epigraph: "Read from the center out, never left to right."
 summary: "A Weaving is laid out as nested rings, never a row — Self, Dyad, Skein, and Culture, four nested resolutions of one situation, not four chapters of a story."
 related: ["the-single-pull", "the-four-point-weaving", "grammar-of-pattern"]

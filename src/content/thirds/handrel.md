@@ -20,3 +20,5 @@ Handrel never simply performs a skill in front of someone learning it. The motio
 Where Quillith's retelling drifts toward whatever flatters the story, Handrel's is held deliberately, effortfully still — passed down as close to unchanged as a human hand can manage, which is not the same as unchanged, but is the honest opposite instinct from Quillith's. This is not an accident of the roster. It's the entire visible difference between a rumor and an apprenticeship, given two separate faces so the difference is actually easy to spot in the moment it's happening.
 
 *What this personifies:* the Given Hand's craft-transmission version of a Skein's currency — kindness and skill both circulating without being tracked, but faithfully rather than embellished.
+
+*Ask:* What do I know that someone near me needs, and haven't passed on?

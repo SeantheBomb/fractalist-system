@@ -21,4 +21,6 @@ The flaw here is exactly what you'd expect from someone built this way: Ostrin c
 
 *What this personifies:* the Trust Triangle, specifically its refusal to take any single leg — authenticity, empathy, logic — on faith without being tested.
 
+*Ask:* What have I agreed to without testing whether it holds?
+
 *How Wevven and Ostrin move against each other:* they're almost never shown apart, and almost never shown in agreement. Wevven wants every gap closed immediately. Ostrin refuses to let a gap close until it's actually earned the closing. A Dyad with only Wevven repairs everything too fast, papering over what needed real scrutiny first. A Dyad with only Ostrin tests forever and repairs nothing. The old wedding blessing, in more than one telling, asks for both by name, in that order — Ostrin first, to make sure it's real; Wevven second, to make sure it lasts.

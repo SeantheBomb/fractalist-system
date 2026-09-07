@@ -1,7 +1,7 @@
 ---
 title: "The Full Unravelling"
 part: "part-six"
-order: 50
+order: 52
 epigraph: "Some questions are worth the whole cloth."
 summary: "Reserved for the large, rare questions — the whole relevant portion of the deck at once, laid out slowly and sat with honestly."
 related: ["weaving-for-another", "the-four-point-weaving", "reading-honestly"]

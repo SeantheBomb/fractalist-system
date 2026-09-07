@@ -1,7 +1,7 @@
 ---
 title: "The Loop Tongue Practice Set"
 part: "part-three"
-order: 31
+order: 33
 epigraph: "Practice makes perfect."
 summary: "Three exercises in increasing difficulty — solo translation, the paired mirror, and a live Spiral Check on a real decision."
 related: ["loop-tongue-limits", "the-second-pass", "sketching-a-loop"]

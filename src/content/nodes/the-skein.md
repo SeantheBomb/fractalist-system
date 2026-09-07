@@ -1,7 +1,7 @@
 ---
 title: "The Skein"
 part: "part-two"
-order: 23
+order: 25
 epigraph: "If you want others to help you, help them."
 summary: "The difference between a community bound by real repeated contact and one bound only by a label — and the test that tells them apart."
 related: ["closing-the-loop", "quillith", "cessant", "fractalism-collective"]
@@ -42,6 +42,12 @@ And a flat headcount of five erases the exact distinction this chapter has spent
 **Let people belong to your Skein without ever using the word.** This is the direct extension of Part One's point that Steven, Ted, Kipo, Qui-Gon, and Iroh never once say "Fractalism" and are still doing it. Your most valuable thread might be a friend who'd never sit through a chapter of this book but who already, unknowingly, practices Seeding better than anyone you know.
 
 **A currency of kindness, not a ledger.** It's tempting, once you notice a Skein actually functioning, to want to formalize it — track who's done what for whom, make sure the exchange stays even. Resist this. A Skein's actual currency isn't counted the way money is counted. It behaves more like the quiet, uncredited debt every real collaboration runs on: help given because it was needed and you were able, without a running tally, trusting that the same care will circulate back to you eventually, through the Skein, in whatever form it happens to take rather than the exact form you gave it in. The moment a Skein starts keeping score, it's already drifting toward something else — a transaction wearing a Skein's shape. Kindness that has to be tracked to keep flowing was never really the Skein's currency to begin with; it was a loan the whole time, and loans are Banners with better manners.
+
+**A Braid — when a real Skein also has a visible name.** The Skein/Banner test assumes a group is one or the other. In practice, a group can pass the Skein test cleanly — genuinely interwoven, real contact, would survive the label vanishing — and still have acquired a name other people recognize it by. That combination is common enough, and different enough from either pure state, to deserve its own name: a **Braid**, two distinct strands twisted together — real substance, and a visible name riding alongside it.
+
+A Braid isn't a failure state. Plenty of real Skeins eventually get a name, and there's nothing wrong with that on its own. What's worth watching for is the specific vulnerability a Braid carries that neither parent state has alone. A pure Banner has nothing real underneath to protect, so it can't be tempted to trade substance for appearance — there's no substance to trade. A pure, unnamed Skein has no external audience to perform for. A Braid has both, which means it faces a third failure mode distinct from ordinary Banner-drift: not the substance quietly emptying out, but the group's energy gradually shifting from tending the real thing toward defending the name attached to it — answering criticism of the label instead of doing the harder, less visible work the label was originally earned by.
+
+The test for which is happening, in a given moment: **when this group's name is challenged, does the response protect the name, or the thing the name was standing for?** A pure Skein has no name to defend and won't feel the question. A pure Banner has nothing else to defend and will always choose the name. A Braid is the only one of the three where the answer can genuinely go either way, decision by decision — which is exactly why it's worth asking the question on purpose rather than assuming the answer.
 
 **Watch for the Banner's failure modes if a Skein starts formalizing.** The moment a group starts requiring the label — asking people to declare themselves Fractalists, gatekeeping who counts, optimizing for size or visibility over depth of contact — it's drifting from Skein toward Banner, even if the original core of it was genuine. The corrective isn't to police membership harder. It's to redirect attention back to the actual repeated practice, and let the label matter less, not more.
 

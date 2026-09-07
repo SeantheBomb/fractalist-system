@@ -1,7 +1,7 @@
 ---
 title: "Where It Comes From — The Seven Iterations"
 part: "part-one"
-order: 7
+order: 9
 epigraph: "Fractals are infinite dimensions."
 summary: "Fractalism's genesis story: no voice speaking from outside the system — only a small pattern, repeating, until repetition became a universe."
 related: ["a-word-on-belief", "the-mathematics", "mantras"]

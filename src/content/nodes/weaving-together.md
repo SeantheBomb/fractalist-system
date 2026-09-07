@@ -1,10 +1,10 @@
 ---
 title: "Weaving Together"
 part: "part-six"
-order: 52
-epigraph: "Many hands make light work."
+order: 54
+epigraph: "Four eyes see more than two."
 summary: "A group Weaving gives Group Practice a shared ritual object — one spread for the group's shared situation, read aloud together."
-related: ["reading-honestly", "group-practice", "the-four-point-weaving"]
+related: ["reading-honestly", "group-practice", "the-four-point-weaving", "complicated-or-complex"]
 ---
 
 A group Weaving extends Group Practice from Part Two with an actual shared ritual object, rather than only spoken sharing.

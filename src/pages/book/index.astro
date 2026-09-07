@@ -22,6 +22,11 @@ const grouped = partOrder
   {grouped.map((g) => (
     <section style="margin-top: 2.8rem;">
       <p class="eyebrow" style={`color: ${g.part.color}`}>{g.part.title}</p>
+      {g.part.guide && (
+        <p style="color: var(--muted); font-style: italic; font-size: 0.92rem; margin: 0.5rem 0 0; max-width: 38rem;">
+          {g.part.guide.purpose} {g.part.guide.shortcut && <span>If you only want the practice: {g.part.guide.shortcut}</span>}
+        </p>
+      )}
       <ul style="list-style: none; padding: 0; margin: 0.7rem 0 0;">
         {g.items.map((n) => (
           <li style="margin-bottom: 0.55rem;">

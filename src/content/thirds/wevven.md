@@ -20,3 +20,5 @@ An unanswered silence after something hard has been said is, for Wevven, close t
 The old cautionary stories about Wevven are never about refusing to mend something. They're about mending something that had, by any honest measure, already worn all the way through — repair offered not because the thing was worth repairing, but because an open gap was simply more than Wevven could stand to leave sitting there.
 
 *What this personifies:* the Second Pass, made into a habit of the hands rather than just a habit of speech — the compulsion to cross back, for better and occasionally for worse.
+
+*Ask:* What gap between me and one other person have I left open too long?
