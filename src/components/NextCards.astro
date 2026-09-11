@@ -12,6 +12,7 @@ const nodes = await getCollection('nodes');
 const thirds = await getCollection('thirds');
 
 const cards = related
+  .filter((slug) => slug !== nextInPart?.id)
   .map((slug) => {
     const n = nodes.find((x) => x.id === slug);
     if (n) return {
@@ -33,22 +34,26 @@ const cards = related
   })
   .filter(Boolean);
 ---
+{nextInPart && (
+  <section class="next-links continue-reading">
+    <p class="eyebrow">Continue reading</p>
+    <a class="next-card featured continue-card" href={`/node/${nextInPart.id}/`}>
+      <div class="nc-part" style={`color: ${PARTS[nextInPart.data.part]?.color ?? 'var(--muted)'}`}>{PARTS[nextInPart.data.part]?.title ?? ''}</div>
+      <div class="nc-title">{nextInPart.data.title}</div>
+      <div class="nc-summary">{nextInPart.data.summary}</div>
+    </a>
+  </section>
+)}
+
 {cards.length > 0 && (
-  <section class="next-links">
-    <p class="eyebrow">Follow your thread</p>
-    {cards.map((c, i) => (
-      <a class:list={['next-card', { featured: i === 0 }]} href={c.href}>
+  <section class="next-links thread-links">
+    <p class="eyebrow">Or follow a thread instead</p>
+    {cards.map((c) => (
+      <a class="next-card" href={c.href}>
         <div class="nc-part" style={`color: ${c.color}`}>{c.label}</div>
         <div class="nc-title">{c.title}</div>
         <div class="nc-summary">{c.summary}</div>
       </a>
     ))}
-    {nextInPart && (
-      <a class="next-card" href={`/node/${nextInPart.id}/`}>
-        <div class="nc-part" style="color: var(--muted)">Reading in order instead</div>
-        <div class="nc-title">{nextInPart.data.title}</div>
-        <div class="nc-summary">{nextInPart.data.summary}</div>
-      </a>
-    )}
   </section>
 )}

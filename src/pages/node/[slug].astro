@@ -36,12 +36,9 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const part = PARTS[entry.data.part];
 const nodes = await getCollection('nodes');
-const inPart = nodes
-  .filter((n) => n.data.part === entry.data.part)
-  .sort((a, b) => a.data.order - b.data.order);
-const idx = inPart.findIndex((n) => n.id === entry.id);
-const nextCandidate = idx >= 0 && idx < inPart.length - 1 ? inPart[idx + 1] : null;
-const nextInPart = nextCandidate && !entry.data.related.includes(nextCandidate.id) ? nextCandidate : null;
+const inOrder = nodes.sort((a, b) => a.data.order - b.data.order);
+const idx = inOrder.findIndex((n) => n.id === entry.id);
+const nextInPart = idx >= 0 && idx < inOrder.length - 1 ? inOrder[idx + 1] : null;
 ---
 <Base title={entry.data.title} description={entry.data.summary}>
   <article>
