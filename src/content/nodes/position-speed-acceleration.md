@@ -9,9 +9,11 @@ related: ["youve-met-this-before", "finding-your-leverage-point", "systems-theor
 
 Only ask this one if the last chapter came back yes. A thing with no feedback in it has no acceleration worth reading — nothing compounds, so where it is and where it's heading tell you everything there is. This chapter is for the other kind.
 
-Once you know something loops, you can ask the harder question — and it's the one almost nobody asks.
+You don't need a number to know something's turning. You need to ask two honest questions, one right after the other — and your own body already knows how to ask the first one, even though it's never been taught the second.
 
-Watch a car. **Position** is where it is. **Speed** is how fast that's changing. **Acceleration** is how the speed itself is changing. Three descriptions of one motion, and they can disagree completely: a car can be far ahead of you, slowing down, and about to be passed. Its position says winning. Its acceleration says losing.
+Think about a plane. Taking off, you feel it — pressed back into your seat, no doubt about it. Cruising at five hundred miles an hour, smooth and level, you feel nothing at all. You could be reading, asleep, unaware you're moving faster than you'll ever move again on solid ground. Your body was never built to notice speed. It was built to notice a *change* in speed — starting, stopping, speeding up, slowing down. Steady, however fast, reads as nothing.
+
+This has a name worth learning properly, because the plain feeling and the formal idea are the same thing. **Position** is where something is. **Speed** is how fast that's changing. **Acceleration** is how the speed itself is changing — the thing your body actually feels, and the thing almost nobody thinks to track on purpose. Three descriptions of one motion, and they can disagree completely: a car can be far ahead of you, slowing down, about to be passed. Its position says winning. Its acceleration says losing.
 
 Everything that loops has these three orders, and there's a rough ladder of attention that goes with them.
 
@@ -32,6 +34,12 @@ This is the whole book stated in physics. A daily practice is a small constant f
 It also explains something you will otherwise experience as failure. A change in acceleration produces almost no visible change in position for a long time. Weeks of a new practice, and the numbers look identical. That is not evidence it isn't working. That is what a second derivative looks like from inside, and mistaking the delay for failure is probably the single most common reason people abandon something that was about to work.
 
 **Acceleration is not a synonym for growth.** A reinforcing loop can compound in either direction — a habit building or a debt deepening are the same mathematics with opposite signs. And deliberately slowing something down is a legitimate, often correct goal. That's damping, not failure. Not every good force points at *more*.
+
+**One more thing worth knowing before you trust any reading you take: a loop has a natural period, and you need to have watched at least one full turn of it before you can honestly tell a trend from a stage.** A habit's loop closes in a day — watch a week and you've already seen it cycle several times over, trend included. A loop closing across generations is a different matter entirely. Watch an entire human lifetime and you may have caught less than half a single turn of it, and from where you're standing, that half-turn is indistinguishable from a permanent fact about the world, rather than one phase of something that was always going to reverse eventually. A fast loop announces itself. A slow one disguises itself as the ground you're standing on, precisely because you've personally never had the chance to stand anywhere else.
+
+This is where a written record earns its place as more than a nice habit. Your own memory doesn't span a slow loop's period, and no amount of attentiveness fixes that — attention only ever covers the time you were actually there for it. A log does something memory structurally cannot: hold two points far enough apart in time to let you see the shape actually moving between them, rather than trusting a single, recent impression to stand in for the whole cycle. This is a personal, Self-scale version of exactly what a fixed record is built for — kept specifically because the pattern it's tracking outlasts what any one sitting could perceive on its own.
+
+**Try this:** Before calling something a fixed truth about your life, your relationship, or your work, ask what its natural period might be if it turns out to be a loop rather than a fact. If you've only been watching for a fraction of that period, withhold the verdict — not because the trend isn't real, but because you don't yet have enough of the cycle in view to tell a trend from a stage.
 
 ### Knowing when to stop
 

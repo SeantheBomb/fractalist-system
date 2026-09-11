@@ -19,6 +19,8 @@ Sythen moves before anyone else has a reason to. *Go inside now,* said flatly, w
 
 This makes Sythen, over the long run of the old stories, one of the most resented Thirds in the roster — not for being wrong, but for being right too far ahead of any proof anyone else can see. More than once, Sythen has been blamed for the very storm the warning was meant to prevent, the messenger mistaken for the weather because the warning arrived indistinguishable, in the moment, from an omen.
 
+Worth being honest about the one thing Sythen's own tellings never quite say out loud: the sense is earned, not given. It comes from a hundred small storms actually watched, actually confirmed or disproven, close enough together to build real, fast-correcting familiarity. That earning doesn't transfer for free to a domain with no comparable history behind it. Sythen trusted on weather is a different claim entirely from Sythen trusted on which stranger to marry — the first has the repetition and the quick feedback behind it. The second has neither, no matter how loud or certain the feeling arrives.
+
 *What this personifies:* Naming and Defusing, read at the scale of instinct rather than deliberate reflection — sensing a change that hasn't fully arrived yet, and getting out of its way before there's proof, the same unglamorous, hard-to-defend accuracy the practice asks of you when you catch a self-story before it's finished forming.
 
 *Ask:* What do I already sense that I can't prove, and who have I not told?

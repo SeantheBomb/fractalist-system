@@ -31,6 +31,8 @@ related: ["a-word-on-belief", "belief-systems-built", "open-questions"]
 - *The Coaching Habit* — Michael Bungay Stanier
 - *Snow Crash* — Neal Stephenson
 - *A Song of Ice and Fire* / *Game of Thrones* — George R. R. Martin / HBO
+- *Star Wars* — George Lucas / Lucasfilm
+- *A Short History of Nearly Everything* — Bill Bryson
 
 Alongside these, an unpublished source: a personal notebook of aphorisms, talk outlines, and design notes, transcribed and folded into Part Two's Self, Dyad, and Skein movements directly — the Trust Triangle, the reinforcing-versus-balancing rhythm in "Reading Your Own Cycle," and the four relationships underneath the Skein chapter all trace back to it. Unlike the books above, it isn't a published work to go read further — it's closer to this whole project's original seed, several years of practice arriving at conclusions independently and later found to rhyme with the reading list around it.
 

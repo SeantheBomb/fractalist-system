@@ -56,7 +56,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **The core mantra** — *You feel a line. You are a loop. You build a tree.* Pt.1 Ch.3 · Pt.2 Ch.4 · Pt.3 Ch.1, 5 · Pt.4 Ch.2
 
-**Reading a system — the two questions** — First: does anything here feed back into itself? Second: which order am I looking at? Pt.1 Ch.6–7 · Pt.2 Ch.7 · Pt.4 Ch.3 · Pt.6 Ch.9
+**Reading a system — the two questions** — First: does anything here feed back into itself? Second: which order am I looking at? A complex system also predicts its own skew — feedback concentrates outcomes rather than spreading them evenly, which is the real mechanism behind the familiar 80/20 observation. Pt.1 Ch.6–7 · Pt.2 Ch.7 · Pt.4 Ch.3 · Pt.6 Ch.9
 
 **Complicated vs. complex** — The first question. No feedback, no Third Thing, no acceleration to read. Pt.1 Ch.6 · Pt.4 Ch.3 · Pt.6 Ch.9
 
@@ -67,6 +67,26 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 **The four pillars, and how they generate each other** — Pt.1 Ch.4
 
 **The Woven Self** — The Third Thing pointed at the self. Pt.1 Ch.5 · Pt.2 Ch.4 · Pt.4 Ch.2
+
+**The symphysical, and emergence** — What physical things make once their parts interact, standing beside "metaphysical" rather than above it. Emergence has a threshold (phase transition) and a direction (weak, in-principle traceable, vs. strong, not traceable even in principle). Pt.1 Ch.2, 6 · Pt.4 Ch.3
+
+**Emergence vs. luck; "luck = preparation + time"** — Chance is a fact about one instant; emergence is a fact about the shape many instants make together. A good Local Rule improves the distribution of outcomes across many attempts — it never guarantees the one you're currently on. The popular equation overclaims on both signs: the "=" should be probabilistic, and the "+" should be "×," since captured luck compounds future exposure rather than simply adding to it. Pt.1 Ch.9 (Genesis, Fourth Iteration) · Pt.2 Ch.9 (The Sacrifice Trap)
+
+**Coasting vs. accelerating — why the same practice costs some people everything and others almost nothing** — Holding a speed already reached costs only enough to cancel drag; building it from zero costs far more, because one is maintaining existing momentum and the other is generating momentum that doesn't exist yet. Explains why people quit mid-build, mistaking the cost of construction for evidence of failure. Test: has this gotten easier, or have you just gotten used to how hard it is? Pt.2 Ch.7
+
+**The Fold and the Force** — A real fictional example of what the Fold would be with intention and full legibility added back in. The Infinite Boundary is what's left once both are deliberately removed: real connection and real return, never a guide toward a specific outcome. Pt.5 Ch.17
+
+**Solidity as a Third Thing** — You are not touching your chair; no particle in you meets a particle in it, and what you feel as resistance is a field relationship with real emptiness on both sides. Pushed to its physical limit, this is the clearest possible case that a relationship can be as real as the things it relates. Pt.1 Ch.2
+
+**Open and closed boundaries; models** — A closed boundary (judged by external behavior, not internal accuracy) is not a lesser Word — it's often the correct one, and the elegance test applies directly: the right boundary gives the most correct prediction for the least internal machinery the purpose actually needs. A closed boundary corrodes into a Label only once it's kept past the point it stops predicting anything, or opened only once a genuinely different purpose needs what's inside. The same act, in different language, as naming a scale. Pt.3 Ch.2 · Pt.4 Ch.6
+
+**Atomic composition and the Woven Self** — Electrons move constantly at no cost to identity (Numbers-level); neutrons are stable until they aren't, decaying on their own schedule if unprocessed (echoes the Compost Heap); protons require nuclear force to move at all, and moving them changes the element itself (Paradigm-level). A physical body for the claim that a self changes constantly at one cost and almost never at another. Pt.4 Ch.2
+
+**Local Rule across scales, and resonance** — A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same." Pt.2 Ch.3. Resonance — finding your exact situation already has a name — installs faster than derivation, which is the actual argument for why the Standing Thirds are characters rather than a plain list of tendencies. Pt.4 Ch.6
+
+**The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.3 (Sythen — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)
+
+**Loop period, and the minimum observation window** — A loop's natural period sets how long you need to have watched before honestly telling a trend from a stage; a fast loop announces itself, a slow one disguises itself as the ground you're standing on. A written log is the tool for this specifically, since memory doesn't span a slow loop's period the way a record can. Pt.1 Ch.7 · Pt.5 Ch.13 (Aestren, given an actual mechanism rather than just an image)
 
 **Naming and defusing a self-story** — Pt.2 Ch.4 · Pt.4 Ch.2
 

@@ -19,6 +19,8 @@ The oldest tellings claim Aestren has made the same crossing enough times that e
 
 This total indifference is exactly what makes the pattern Aestren personifies reliable across a stretch of time no individual life, and no single Skein's memory, is ever going to survive long enough to see whole — and exactly what makes Aestren nearly impossible to feel close to, however much a person standing in the middle of one bad year might want a figure this vast to notice them, specifically, even once.
 
+There's an actual mechanism underneath the shrug, worth naming plainly: a loop this size has a period no individual life is long enough to complete even once. Watched from any single human vantage, "villages rise and fall in the gaps between crossings" isn't Aestren choosing indifference — it's what an honest partial view of a full-length cycle always looks like, mistaken, from inside a single lifetime, for a permanent fact about the world rather than one turn of something that was always going to keep turning.
+
 *What this personifies:* a Culture-scale loop operating far above the pace of any one person's life or any one Skein's memory, indifferent to any single traveler's survival, reliable precisely because it was never depending on any one of them in the first place.
 
 *Ask:* What am I treating as permanent that's simply slower than I am?

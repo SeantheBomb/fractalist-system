@@ -23,4 +23,6 @@ That's a closed loop, not a checklist — the last practice feeding the first, w
 
 None of this was ever a plan for self-improvement measured in isolation, and none of it was ever a plan for building something bigger than yourself either. It's smaller and stranger than both: learning to help yourself in ways that happen to help the people around you, and trusting the rest to a rising tide rather than a ledger. You don't lift anyone by managing the water level. You just stop holding your own boat down, and let what happens next actually happen.
 
+Say plainly, one last time, what every practice in this part has actually been training: not a set of tricks for feeling better, but the underlying capacity to notice a loop while you're still inside it and reach in anyway — a capacity most of your life runs entirely without, by default, and one this book has never claimed comes standard. That noticing, exercised on purpose, at whatever scale it's needed, is the whole of what this practice was ever asking of you.
+
 You don't finish this part of the book. You close the loop, and it starts again, at whichever scale your actual life is asking for next.
