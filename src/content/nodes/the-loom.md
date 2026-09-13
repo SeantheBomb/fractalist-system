@@ -82,6 +82,24 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Atomic composition and the Woven Self** — Electrons move constantly at no cost to identity (Numbers-level); neutrons are stable until they aren't, decaying on their own schedule if unprocessed (echoes the Compost Heap); protons require nuclear force to move at all, and moving them changes the element itself (Paradigm-level). A physical body for the claim that a self changes constantly at one cost and almost never at another. Pt.4 Ch.2
 
+**Two senses of "real"** — Structural realism (a Third Thing is real independent of anyone perceiving it — solidity, a floral electric field) and experiential realism (a feeling's occurrence is real simply because it's happening, separate from whether its content is true). Confusing the two is a major source of unnecessary internal struggle. Pt.1 Ch.2 · Pt.2 Ch.4
+
+**Floral electric fields** — A dynamically updating relational field, altered by every visit and read by the next visitor for real information neither party holds alone; also the Fold's mechanism with no metaphor required, since each visitor reads a field already shaped by everyone before them. Pt.1 Ch.2 · Pt.2 Ch.10
+
+**Constraint counting, and which unknown to decide first** — Facing several genuinely tangled unknowns (a budget, a deadline, the Iron Triangle), decide whichever one reality has already constrained the most, not whichever feels most exciting to decide. Pt.2 Ch.7
+
+**Sign-flipping couplings** — Distinct from an ordinary threshold crossing: a single relationship whose effective sign changes as a direct consequence of crossing a threshold, same rule, no new force (logistic growth's carrying capacity; debt, expansionary below a capacity and corrosive above it, general shape credible, specific universal thresholds not). Worse than ordinary burnout, since the behavior doesn't change to announce the reversal. Pt.2 Ch.9
+
+**Interpersonal complementarity** — Warmth invites warmth, coldness invites coldness (correspondence); dominance invites deference and deference invites dominance (complementarity, opposite answered with opposite). Two different mechanisms on two different axes, not one universal rule. Pt.2 Ch.12
+
+**The Oriental hornet's solar cycle** — A literal, not metaphorical, instance of tide-based homeostasis: solar energy harvested by the cuticle, activity correlated with sunlight intensity, the same reinforcing-then-balancing rhythm already claimed for the tide, running in a real insect. Pt.2 Ch.6
+
+**Signed-loop polarity** — Every link in a loop carries a sign (does more of the cause produce more or less of the effect); count the negative links, and an even count (including zero) is reinforcing, an odd count is balancing. The actual arithmetic underneath the ↻ and ⤸ marks — derivable, not a judgment call. Pt.3 Ch.3
+
+**Shared-edge leverage** — A high-leverage connection is a maximally shared one, load-bearing for many downstream structures at once; a low-leverage one is peripheral, touching nothing beyond its own corner. Gives the leverage ladder an exact structural form rather than only a depth metaphor. Pt.4 Ch.3
+
+**The Drake equation as a worked recursion chain** — Each term is another Local-Rule-to-Global-Form threshold (chemistry to life to complexity to intelligence to detectable technology); small real probabilities compounding multiplicatively across a chain, made vivid at the largest scale available. Pt.4 Ch.3
+
 **Local Rule across scales, and resonance** — A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same." Pt.2 Ch.3. Resonance — finding your exact situation already has a name — installs faster than derivation, which is the actual argument for why the Standing Thirds are characters rather than a plain list of tendencies. Pt.4 Ch.6
 
 **The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.3 (Sythen — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)

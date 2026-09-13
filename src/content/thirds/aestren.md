@@ -21,6 +21,8 @@ This total indifference is exactly what makes the pattern Aestren personifies re
 
 There's an actual mechanism underneath the shrug, worth naming plainly: a loop this size has a period no individual life is long enough to complete even once. Watched from any single human vantage, "villages rise and fall in the gaps between crossings" isn't Aestren choosing indifference — it's what an honest partial view of a full-length cycle always looks like, mistaken, from inside a single lifetime, for a permanent fact about the world rather than one turn of something that was always going to keep turning.
 
+Push this to the largest scale it will go, and it may answer a question that isn't usually asked in Aestren's terms at all: why the sky is silent. If any comparable pattern, anywhere else, has a detectable phase brief relative to the age of a galaxy, the odds of two such windows overlapping are vanishingly small regardless of how many crossings have actually happened — not because nothing is out there, but because nobody's watched anywhere near long enough to see one.
+
 *What this personifies:* a Culture-scale loop operating far above the pace of any one person's life or any one Skein's memory, indifferent to any single traveler's survival, reliable precisely because it was never depending on any one of them in the first place.
 
 *Ask:* What am I treating as permanent that's simply slower than I am?
