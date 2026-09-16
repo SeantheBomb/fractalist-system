@@ -124,12 +124,14 @@ const TIER_GLYPHS = {
 const SLUG_FIX = { 'The Infinite Boundary': 'infinite-boundary' };
 const slugify = (n) => SLUG_FIX[n] ?? n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-// Table rows, minus the header and separator lines.
+// Table rows, minus separators and the header row above each separator. Headers are
+// found by position, not by name, so renaming a table's columns can't turn them into figures.
 function tableRows(text) {
-  return text.split('\n')
-    .filter((l) => l.trim().startsWith('|') && !/^\|[-\s|]+\|?$/.test(l.trim()))
-    .map((l) => l.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim()))
-    .filter((cells) => !/^(Current|Meeting|Weave|Long Form|Third)$/i.test(cells[0]));
+  const lines = text.split('\n').map((l) => l.trim());
+  const isSep = (l) => /^\|[-\s|:]+\|?$/.test(l);
+  return lines
+    .filter((l, i) => l.startsWith('|') && !isSep(l) && !isSep(lines[i + 1] ?? ''))
+    .map((l) => l.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
 }
 
 function splitName(cell) {
