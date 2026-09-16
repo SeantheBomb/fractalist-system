@@ -2,12 +2,13 @@
 name: "Aestren"
 epithet: "Who Was Already Walking"
 kinship: "culture"
-order: 46
+order: 47
 personifies: "The Sagging Floor and The Hall of Mirrors, compounded past any one life."
 tending: "Larger and slower than you; let it run."
 fraying: "Too slow to perceive, mistaken for permanent."
 fractal: {"type":"ridge","hue":"culture"}
 drawable: true
+parents: ["the-sagging-floor", "the-hall-of-mirrors"]
 relatedThirds: ["the-sagging-floor", "the-hall-of-mirrors"]
 relatedNodes: ["scale-tagging", "fractalism-collective"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["scale-tagging", "fractalism-collective"]
 
 **Its Turning.** **The Turning of the Tide** — fire against the dark; name what's receding. What it builds: pulling back gets confirmed as not-failing.
 
-Catalogued in [The Seven Long Forms](/node/seven-long-forms/), alongside every other figure at this scale.
+Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.

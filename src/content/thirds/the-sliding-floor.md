@@ -8,8 +8,9 @@ tending: "The standard adjusted honestly."
 fraying: "It's eroding, every step small enough to miss."
 fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
+parents: ["mareth", "rethen"]
 relatedThirds: ["mareth", "rethen", "the-sagging-floor"]
-relatedNodes: ["nineteen-meetings"]
+relatedNodes: ["meetings"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -20,4 +21,4 @@ relatedNodes: ["nineteen-meetings"]
 
 **Its Turning.** **The Original Terms** — revisit what you both agreed to at the start. What it builds: drift becomes visible while it's still small.
 
-Catalogued in [The Nineteen Meetings](/node/nineteen-meetings/), alongside every other figure at this scale.
+Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.

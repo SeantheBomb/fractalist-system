@@ -27,6 +27,8 @@ The Loop Tongue doesn't introduce new ideas. It compresses ideas you already hav
 
 **Tree** — the honest, unrolled record that a Loop's name compresses. One root rule, branching into a genuinely different leaf every time it meets a new condition.
 
+Loop and Tree are not two different things. They are one structure at two settings of temporal compression: the Loop is the cycle with time collapsed into a rule, and the Tree is that same cycle unrolled across every instance it actually ran. Unroll a cycle along time and it stops being a cycle — it becomes a branching record with no return path in it, because each pass through is now its own separate limb. This also explains why only complex things have Trees at all. Unroll something that never repeated and you get back exactly what you started with; nothing branches, because nothing ran twice. A merely complicated chain doesn't have a Tree. It has a diagram.
+
 That's the full working vocabulary — nine words. This is deliberate. A jargon that requires fifty terms before it's usable stops being a shared language and starts being a private one, readable only to people who've already done a great deal of study. Nine words, each already earned through direct experience in Parts One and Two, is closer to something that can actually spread by use, the way a real dialect does.
 
 That's the list. What follows is a different kind of material — not more terms to learn, but the actual test for whether any of these nine, or any word at all, has earned its place.

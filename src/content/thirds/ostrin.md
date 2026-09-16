@@ -8,6 +8,7 @@ tending: "Test the terms before agreeing to them."
 fraying: "The testing has become the relationship."
 fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
+parents: ["mareth", "nammeth"]
 relatedThirds: ["mareth", "nammeth"]
 relatedNodes: ["the-trust-triangle"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["the-trust-triangle"]
 
 **Its Turning.** **The First Price** — openly haggle over something low-stakes and silly. What it builds: testing becomes normal rather than insulting.
 
-Catalogued in [The Nineteen Meetings](/node/nineteen-meetings/), alongside every other figure at this scale.
+Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.

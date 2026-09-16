@@ -8,8 +8,9 @@ tending: "Let the room shape you; that's real responsiveness."
 fraying: "There's no position of yours left anywhere."
 fractal: {"type":"windswept","hue":"wind"}
 drawable: true
+parents: []
 relatedThirds: ["reading-the-room", "the-echo", "the-unbridged-gap"]
-relatedNodes: ["twelve-currents"]
+relatedNodes: ["currents"]
 ---
 
 **The Local Rule.** Taking form from who is present. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
@@ -20,4 +21,4 @@ relatedNodes: ["twelve-currents"]
 
 **Its Turning.** **The Empty Room** — a day alone, nothing posted, nothing reported back. What it builds: you find what's left when nobody's watching.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

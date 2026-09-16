@@ -7,7 +7,7 @@ summary: "The full working deck: sixteen drawable figures across four kinships, 
 related: ["tending-and-fraying", "what-a-third-is", "the-rings", "infinite-boundary"]
 ---
 
-The full working deck is the complete drawable roster from Part Five — forty-eight figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
+The full working deck is the complete drawable roster from Part Five — forty-nine figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
 
 What follows is a compressed reference, not a replacement for Part Five's catalogue — read there for the mechanism and the fusion lineage; use this when you're actually weaving and need the meaning at a glance.
 
@@ -66,6 +66,7 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 | The Hall of Mirrors | The group is genuinely responsive to itself. | No independent position anywhere in it. |
 | Second-Order Design | Emergence richer than anyone could author. | Emergence nobody intended or wanted. |
 | The Inner Circle | Shared fluency makes real work fast. | The fluency has become a wall. |
+| The Only Road | You are the bridge two worlds actually cross on. | Everything must pass through you, and your absence severs. |
 
 **The Long Forms** *(outermost drawable ring — Culture)*
 

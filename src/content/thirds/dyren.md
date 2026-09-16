@@ -2,12 +2,13 @@
 name: "Dyren"
 epithet: "Who Was Never Taught"
 kinship: "culture"
-order: 47
+order: 48
 personifies: "Second-Order Design fused with itself, compounded past any one life."
 tending: "Reached twice, with no contact — real evidence."
 fraying: "Parallel bias mistaken for confirmation."
 fractal: {"type":"twinSpires","hue":"culture"}
 drawable: true
+parents: ["second-order-design", "second-order-design"]
 relatedThirds: ["second-order-design"]
 relatedNodes: ["belief-systems-built", "going-to-ground"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["belief-systems-built", "going-to-ground"]
 
 **Its Turning.** **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name. What it builds: independent arrival stops reading as unoriginality.
 
-Catalogued in [The Seven Long Forms](/node/seven-long-forms/), alongside every other figure at this scale.
+Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.

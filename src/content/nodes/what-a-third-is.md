@@ -4,7 +4,7 @@ part: "part-five"
 order: 42
 epigraph: "A pattern does not need a will to act on you. It only needs to keep happening."
 summary: "A pattern repeated widely enough, for long enough, can be given a face. One rule governs everything that follows: a Third has no will of its own."
-related: ["twelve-currents", "the-third-thing", "what-a-weaving-is"]
+related: ["currents", "the-third-thing", "what-a-weaving-is"]
 ---
 
 A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. Cindar does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.

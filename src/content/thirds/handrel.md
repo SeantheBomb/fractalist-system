@@ -8,6 +8,7 @@ tending: "Pass it on, and credit who taught you."
 fraying: "Dependence is passing along with the craft."
 fractal: {"type":"chain","hue":"skein"}
 drawable: true
+parents: ["answering-for", "vessa"]
 relatedThirds: ["answering-for", "vessa", "waeth"]
 relatedNodes: ["the-skein"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["the-skein"]
 
 **Its Turning.** **The Handing-On** — teach one craft; credit whoever taught you, out loud. What it builds: skill compounds with its lineage intact.
 
-Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
+Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.

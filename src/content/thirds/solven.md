@@ -8,8 +8,9 @@ tending: "A stopgap here buys time you genuinely need."
 fraying: "The patch has replaced the capacity it was covering."
 fractal: {"type":"fern","hue":"earth"}
 drawable: true
+parents: []
 relatedThirds: ["answering-for"]
-relatedNodes: ["twelve-currents"]
+relatedNodes: ["currents"]
 ---
 
 **The Local Rule.** Reaching for what relieves the symptom. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
@@ -20,4 +21,4 @@ relatedNodes: ["twelve-currents"]
 
 **Its Turning.** **The Patch Audit** — list what's held by temporary fixes; properly fix one. What it builds: stopgaps stop silently becoming permanent.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

@@ -8,6 +8,7 @@ tending: "Start it; momentum is available and worth spending."
 fraying: "Burning through something faster than it can be replaced."
 fractal: {"type":"flame","hue":"fire"}
 drawable: true
+parents: []
 relatedThirds: ["escalation", "wevven", "vessa", "answering-for"]
 relatedNodes: ["reading-your-own-cycle"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["reading-your-own-cycle"]
 
 **Its Turning.** **Spark Feast** — feast for something started and not finished. What it builds: starting stops requiring certainty.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

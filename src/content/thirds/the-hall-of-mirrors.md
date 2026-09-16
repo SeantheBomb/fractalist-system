@@ -8,8 +8,9 @@ tending: "The group is genuinely responsive to itself."
 fraying: "No independent position anywhere in it."
 fractal: {"type":"carpet","hue":"skein"}
 drawable: true
+parents: ["the-echo", "reading-the-room"]
 relatedThirds: ["the-echo", "reading-the-room", "aestren"]
-relatedNodes: ["ten-weaves"]
+relatedNodes: ["weaves"]
 ---
 
 **A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -20,4 +21,4 @@ relatedNodes: ["ten-weaves"]
 
 **Its Turning.** **The Outsider** — invite someone outside and let them describe what they see. What it builds: an independent position enters the room.
 
-Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
+Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.

@@ -2,12 +2,13 @@
 name: "Waeth"
 epithet: "the Traveler Who Forgets on Purpose"
 kinship: "culture"
-order: 45
+order: 46
 personifies: "Quillith and Handrel, compounded past any one life."
 tending: "Inheritance that works without its explanation."
 fraying: "Inheritance hollow of why it ever existed."
 fractal: {"type":"driftTree","hue":"culture"}
 drawable: true
+parents: ["quillith", "handrel"]
 relatedThirds: ["quillith", "handrel"]
 relatedNodes: ["belief-systems-built", "the-fold"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["belief-systems-built", "the-fold"]
 
 **Its Turning.** **The Why Behind** — trace one inherited practice back to why it started. What it builds: inheritance keeps its reasons attached.
 
-Catalogued in [The Seven Long Forms](/node/seven-long-forms/), alongside every other figure at this scale.
+Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.

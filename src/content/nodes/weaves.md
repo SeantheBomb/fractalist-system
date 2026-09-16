@@ -1,10 +1,10 @@
 ---
-title: "The Ten Weaves — Skein Scale"
+title: "The Eleven Weaves — Skein Scale"
 part: "part-five"
 order: 45
 epigraph: "Two dyads that share a person. This is how a group becomes a thing rather than a list."
-summary: "Ten group patterns, each built from two dyads that share a person — the mechanism by which a group becomes a thing rather than a list."
-related: ["seven-long-forms", "the-skein", "group-practice"]
+summary: "Eleven group patterns, each built from two dyads that share a person — the mechanism by which a group becomes a thing rather than a list."
+related: ["long-forms", "the-skein", "group-practice"]
 ---
 
 | Weave | Dyads (shared person) | Tending | Fraying |
@@ -19,3 +19,4 @@ related: ["seven-long-forms", "the-skein", "group-practice"]
 | **The Hall of Mirrors** | The Echo + Reading the Room | A group genuinely responsive to itself | A group with no independent position anywhere in it |
 | **Second-Order Design** | The Arrangement + Wevven | Emergence richer than anyone could have authored | Emergence nobody intended or wanted |
 | **The Inner Circle** | The Unbridged Gap + The Naming Contest | Shared fluency that makes real work fast | Shared fluency that becomes a wall |
+| **The Only Road** | The Inner Circle + The Unbridged Gap | The single bridge by which two separate worlds reach each other at all | One person through whom everything must pass, whose absence severs rather than inconveniences |

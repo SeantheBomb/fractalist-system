@@ -8,6 +8,7 @@ tending: "Pull back. Enough has happened for now."
 fraying: "Stopping something that hadn't finished compounding."
 fractal: {"type":"delta","hue":"water"}
 drawable: true
+parents: []
 relatedThirds: ["the-standoff", "wevven", "the-guard", "connection-first"]
 relatedNodes: ["reading-your-own-cycle"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["reading-your-own-cycle"]
 
 **Its Turning.** **Low Tide** — a day of indulgent rest, not productive rest. What it builds: rest stops needing to be earned.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

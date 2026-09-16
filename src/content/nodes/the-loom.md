@@ -74,6 +74,16 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Coasting vs. accelerating — why the same practice costs some people everything and others almost nothing** — Holding a speed already reached costs only enough to cancel drag; building it from zero costs far more, because one is maintaining existing momentum and the other is generating momentum that doesn't exist yet. Explains why people quit mid-build, mistaking the cost of construction for evidence of failure. Test: has this gotten easier, or have you just gotten used to how hard it is? Pt.2 Ch.7
 
+**Solving for the third leg** — Your Current, theirs, and the Meeting you produce are three locked elements; knowing two gives the third, and no two Meetings share a fusion pair, so the solve is unique. The useful direction: you can't change their leg, but changing yours determines the change in what you produce together. Pt.5 Ch.2
+
+**Mutuality, not accounting** — Forces come in pairs; the force lives in the interaction, not in either object. You cannot affect without being affected. But equal-and-opposite applies to forces, not outcomes — mutual does not mean zero-sum, and almost nothing worth caring about is conserved. Pt.1 Ch.2
+
+**Balance is a wave** — Balance is never stillness; it is continuous correction whose average looks like rest. Stopping the correction is a distinct failure from retreating early. If you can't see the work, that's your resolution, not the thing. Pt.2 Ch.6 · Pt.5 Ch.1
+
+**Isomorphism, and the Nest's falsification test** — Same structure, different labels. The formal content of "the same pattern at another scale" — and therefore a demand: show the correspondence part for part, or admit it's a resemblance. Separate components with no path between them is why independent arrival counts as evidence at all. Pt.4 Ch.3
+
+**Distortion scales with distance** — The Fold returns nearly intact from one step away and nearly unreadable from six, because each edge crossed adds its own shaping. Pt.2 Ch.10
+
 **Fusion depth** — A Third's scale is what it is made of, not a category assigned to it: two selves running currents produce a dyad-scale Third; two dyads sharing a person produce a skein. The tiers of Part Five are composition, not ranking. Pt.5 Ch.0–4
 
 **The two-pole rule** — Every Third carries a Tending pole that builds and a Fraying pole that corrodes; none is good or evil in itself. If only one pole is visible, the zoom is too tight — widen until both appear. The Infinite Boundary is the sole exemption, structurally, since a pole must be read from somewhere outside. Pt.5 Ch.0, 5

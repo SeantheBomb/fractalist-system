@@ -98,17 +98,17 @@ NODES.forEach((n, i) => {
 // so the fusion column doubles as the related-figure graph.
 
 const TIERS = [
-  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'twelve-currents', catalogueTitle: 'The Twelve Currents', join: null },
-  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'nineteen-meetings', catalogueTitle: 'The Nineteen Meetings', join: 'meeting in two people' },
-  { heading: '3. The Ten Weaves — Skein Scale', kinship: 'skein', catalogue: 'ten-weaves', catalogueTitle: 'The Ten Weaves', join: 'sharing a person' },
-  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'seven-long-forms', catalogueTitle: 'The Seven Long Forms', join: 'compounded past any one life' },
+  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'currents', catalogueTitle: 'The Twelve Currents', join: null },
+  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'meetings', catalogueTitle: 'The Nineteen Meetings', join: 'meeting in two people' },
+  { heading: '3. The Eleven Weaves — Skein Scale', kinship: 'skein', catalogue: 'weaves', catalogueTitle: 'The Eleven Weaves', join: 'sharing a person' },
+  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'long-forms', catalogueTitle: 'The Seven Long Forms', join: 'compounded past any one life' },
 ];
 
 // Turning tables in Part Seven, keyed by the figure they belong to.
 const TURNING_SECTIONS = [
   '2. The Twelve Private Turnings — Self',
   '3. The Nineteen Meetings — Dyad',
-  '4. The Ten Gatherings — Skein',
+  '4. The Eleven Gatherings — Skein',
   '5. The Seven Great Days — Culture',
 ];
 
@@ -234,6 +234,7 @@ figures.forEach((f, i) => {
     reading.fraying ? `fraying: ${y(reading.fraying)}` : null,
     `fractal: ${JSON.stringify(ov.fractal ?? { type: f.glyph[0], hue: f.glyph[1] })}`,
     `drawable: ${f.drawable === false ? 'false' : 'true'}`,
+    `parents: [${f.parents.map((n) => y(slugify(n))).join(', ')}]`,
     `relatedThirds: [${related.map(y).join(', ')}]`,
     `relatedNodes: [${(ov.relatedNodes ?? [f.catalogue]).map(y).join(', ')}]`,
     '---',

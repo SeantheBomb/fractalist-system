@@ -73,7 +73,7 @@
 - 0. What a Third Is, and What It Isn't
 - 1. The Twelve Currents — Self Scale
 - 2. The Nineteen Meetings — Dyad Scale
-- 3. The Ten Weaves — Skein Scale
+- 3. The Eleven Weaves — Skein Scale
 - 4. The Seven Long Forms — Culture Scale
 - 5. The Infinite Boundary — Cosmos Scale
 - 6. What This Catalogue Is Not
@@ -101,7 +101,7 @@
 - 1. Reading the Global Form
 - 2. The Twelve Private Turnings — Self
 - 3. The Nineteen Meetings — Dyad
-- 4. The Ten Gatherings — Skein
+- 4. The Eleven Gatherings — Skein
 - 5. The Seven Great Days — Culture
 - 6. The Long Visitor — Cosmos
 - 7. Anchoring to What Already Turns
@@ -113,6 +113,8 @@
 - B. Quick Reference Card
 - C. The Loom — The Complete Reference
 - D. Source Library
+
+---
 
 ---
 
@@ -250,7 +252,11 @@ The mechanism by which the symphysical actually appears has a name worth knowing
 
 This is the honest, occasionally hard answer to "why isn't this working yet." A marriage, a habit, a Skein can be accumulating everything it needs and show you nothing for a long time — not because the effort is wasted, but because you're on the wrong side of a threshold you can't see from where you're standing. Then, without warning, it's on the other side.
 
-Push the same claim to its most physically stubborn case, because it's worth being able to answer the most skeptical version of "but is any of this actually real." You are, right now, not touching the chair beneath you. Every atom you're made of is mostly empty space, and no particle in you ever makes contact with a particle in it — what you feel as solid resistance is a field relationship, electrons on both sides refusing to occupy the same space, with genuine emptiness on every side of that refusal. Solidity, examined honestly, is symphysical: not a property sitting in the chair, or in you, but the real, load-bearing thing your interaction with it produces. Push reductionism all the way down and solidity vanishes from the parts entirely — and yet you are, undeniably, not falling through the floor. Something has to give. Either solidity was never real, which nobody sitting down actually believes for a second, or a relationship between things can be exactly as real as the things themselves, sometimes carrying more weight than either one alone. Once you'll grant that for something this mundane, refusing to grant it for a marriage, a culture, or a habit isn't rigor. It's just an arbitrary place to stop being consistent.
+Push the same claim to its most physically stubborn case, because it's worth being able to answer the most skeptical version of "but is any of this actually real." You are, right now, not touching the chair beneath you. Every atom you're made of is mostly empty space, and no particle in you ever makes contact with a particle in it — what you feel as solid resistance is a field relationship, electrons on both sides refusing to occupy the same space, with genuine emptiness on every side of that refusal. Solidity, examined honestly, is symphysical: not a property sitting in the chair, or in you, but the real, load-bearing thing your interaction with it produces. Push reductionism all the way down and solidity vanishes from the parts entirely — and yet you are, undeniably, not falling through the floor. Something has to give. Either solidity was never real, which nobody sitting down actually believes for a second, or a relationship between things can be exactly as real as the things themselves, sometimes carrying more weight than either one alone. Once you'll grant that for something this mundane, refusing to grant it for a marriage, a culture, or a habit isn't rigor. It's just an arbitrary place to stop being consistent. 
+
+There's a sharper version of this in the physics itself, and it's worth having because it turns a claim about chairs into a claim about everything. Forces come in pairs — always, without exception. Push on anything and it pushes back, exactly as hard, in the opposite direction. This is usually taught as a fact about billiard balls, but its real content is stranger: **the force does not live in either object.** It lives in the interaction. Neither thing contains it; both are subject to it. That is as literal a statement of the symphysical as physics produces, and it yields a claim you can carry into every relationship you have — **you cannot affect without being affected.** There is no one-way relation anywhere in the universe. Whatever you push against is pushing back on you, right now, in exact proportion.
+
+Worth saying what this does *not* mean, because the wrong inference is common and it would quietly ruin everything that follows. Equal and opposite applies to the *forces*, not to the *outcomes*. Two skaters pushing off each other feel identical force and both end up moving faster than before — symmetric interaction, and both gained. Mutual does not mean zero-sum. Almost nothing you actually care about is conserved the way mass is: teaching someone does not subtract your knowledge, and trust given does not deplete a fixed supply. The rule is mutuality, not accounting.
 
 A living example carries this even further than a chair can, because it's not just structurally real — it's functionally real, actively used. A flower's electric field isn't a fixed property sitting in the flower alone. Every bee that visits measurably alters it, and other bees can detect that alteration and read it as information — whether this particular bloom has already been drained — that exists nowhere in the bee alone and nowhere in the flower alone. It's a relational field, evolved specifically to carry meaning between two parties, updating in something close to real time. If a chair convinces you relationships can be structurally real, a flower should convince you they can be functionally real too — genuinely doing work, genuinely carrying information, with no single party holding it alone.
 
@@ -688,7 +694,7 @@ Here's a version of this you can actually check against your own life. Picture t
 
 The other person's rhythm runs the opposite shape: energy builds across the day, peaks late, and requires an active wind-down before rest is possible at all — the loop doesn't compound in one direction so much as swing and return, evening pulling the day back toward a baseline the way a thermostat pulls a room back toward a set point. Neither shape is a character flaw. They're both loops. They just close differently.
 
-Worth naming the actual point of running both, since the chapter so far only describes the two shapes without saying why a living thing needs either of them: everything that survives has tides. Not a metaphor borrowed loosely — a tide is exactly this pattern, a reinforcing pull and a balancing return, running together, neither one ever fully winning, and the ocean is not thrown into chaos by it. The tide is how the ocean stays the ocean. That's the actual payoff of reading your own cycle honestly: not choosing a side between momentum and rest, but recognizing that the two together are what homeostasis looks like from inside a life, the same way they're what homeostasis looks like from inside a sea.
+Worth naming the actual point of running both, since the chapter so far only describes the two shapes without saying why a living thing needs either of them: everything that survives has tides. Not a metaphor borrowed loosely — a tide is exactly this pattern, a reinforcing pull and a balancing return, running together, neither one ever fully winning, and the ocean is not thrown into chaos by it. The tide is how the ocean stays the ocean. And this is worth stating as its own claim, because a common misreading of balance quietly undoes the whole chapter: **balance is not stillness.** Zoom in on anything that appears balanced and you find a wave — a continuous teeter between two thresholds, corrected constantly. Standing upright is uninterrupted falling and catching; your sway never stops. Body temperature is not held fixed, it oscillates inside a band by active correction. Even a rock is running loops far below the resolution a human life samples at — atoms in permanent motion, bonds held in tension, the whole thing expanding by day and contracting by night. Stillness is always the average, never the state. Which means: balance is evidence of work, and if you cannot see the work, that is a fact about your resolution rather than about the thing. That's the actual payoff of reading your own cycle honestly: not choosing a side between momentum and rest, but recognizing that the two together are what homeostasis looks like from inside a life, the same way they're what homeostasis looks like from inside a sea.
 
 A living creature runs this exact cycle, literally, with no metaphor needed. The Oriental hornet's cuticle genuinely harvests solar energy, and the insect's daily activity is measurably correlated with sunlight intensity — building reserve during the reinforcing half of its day, and drawing it down during the balancing half. Homeostasis was never an idea borrowed from the ocean and applied to a life by analogy. It's the same real mechanism, running at every scale that has to survive its own rhythm rather than fight it.
 
@@ -825,6 +831,8 @@ Call this closing motion the **Fold** — the moment a Local Rule, having travel
 A few things distinguish the Fold sharply from the traditions it's descended from, on purpose:
 
 **No proportional accounting.** The Fold doesn't promise that cruelty returns as cruelty, in matched measure, on a schedule. A Nest is a messy, many-input system — what returns to you has passed through everyone else's Local Rules on the way, not just yours. Expect the Fold to be real but distorted, not exact. There's a structural reason for the distortion: what left you was never traveling around a closed circle waiting to come back unchanged. It branched — through one person, then several, then a Skein's worth of retellings and reactions, a tree of genuinely different intermediate states, each one shaped by whoever was carrying it at the time. What returns is one leaf of that tree finding its way back to the root, not the original thing making a clean lap. Calling it a Fold names the return. It doesn't promise the return arrives looking anything like what you sent.
+
+**And the distortion is proportional to distance, which makes the Fold's unpredictability a matter of arithmetic rather than mystery.** What returns from one step away — a single person, directly — comes back nearly intact. What returns after crossing six people is barely recognizable, because it passed through six Local Rules, each adding its own shaping. So the Fold is not equally unreliable everywhere. It is nearly faithful up close and nearly unreadable at distance, and the only variable is how many edges it had to cross. This is also why a near Dyad is the only scale where you can meaningfully check what came back against what you sent.
 
 A living, literal version of this exists, worth knowing about because it's real rather than only illustrative: a flower's electric field is measurably reshaped by every single bee that visits it, and the next bee reads a field already altered by everyone who came before — real information, genuinely returned, and never a clean, untouched original. This is the Fold with no metaphor required at all, running in a system small enough to actually measure.
 
@@ -1073,6 +1081,8 @@ The Loop Tongue doesn't introduce new ideas. It compresses ideas you already hav
 
 **Tree** — the honest, unrolled record that a Loop's name compresses. One root rule, branching into a genuinely different leaf every time it meets a new condition.
 
+Loop and Tree are not two different things. They are one structure at two settings of temporal compression: the Loop is the cycle with time collapsed into a rule, and the Tree is that same cycle unrolled across every instance it actually ran. Unroll a cycle along time and it stops being a cycle — it becomes a branching record with no return path in it, because each pass through is now its own separate limb. This also explains why only complex things have Trees at all. Unroll something that never repeated and you get back exactly what you started with; nothing branches, because nothing ran twice. A merely complicated chain doesn't have a Tree. It has a diagram.
+
 That's the full working vocabulary — nine words. This is deliberate. A jargon that requires fifty terms before it's usable stops being a shared language and starts being a private one, readable only to people who've already done a great deal of study. Nine words, each already earned through direct experience in Parts One and Two, is closer to something that can actually spread by use, the way a real dialect does.
 
 That's the list. What follows is a different kind of material — not more terms to learn, but the actual test for whether any of these nine, or any word at all, has earned its place.
@@ -1213,6 +1223,8 @@ But — and this matters — these chapters are not disconnected from what came 
 
 *"To perceive generalization will not merely be a new result, but a new force."*
 
+There's a compression claim buried in this that the rest of the book has been leaning on without naming. A sphere is fully described by one number, a triangle by three — but describing a coastline in genuine detail takes millions. And yet a handful of iterated rules will generate that same coastline exactly. This is the formal version of Loop and Tree: the rule set is the compression, the generated form is the unrolled thing, and the enormous gap between how little you must specify and how much you get back is precisely what it means for something to be built by repetition rather than by design.
+
 Part One asked you to take the chaos game somewhat on faith — drop a pen, roll a die, walk halfway to a random corner, repeat, and watch order assemble from noise. This chapter is that claim, done properly.
 
 Take a triangle with corners A, B, and C. Place a point anywhere you like, inside the triangle or outside it — it doesn't actually matter where you start. Roll a three-sided die (or, more practically, flip a coin twice and map the four outcomes onto three corners, discarding the rare tie). Move your point exactly halfway between its current position and whichever corner was chosen. Mark the new point. Repeat this process a few thousand times.
@@ -1280,6 +1292,12 @@ Two practical consequences follow. First, a complicated system can be fully unde
 A reinforcing loop is positive feedback on the rate: the fuller the stock, the faster it fills. That's compounding, and it's the same mathematics whether it's compounding toward something good or something ruinous — a reinforcing loop has a sign, and nothing about the structure prefers one sign over the other. A balancing loop is negative feedback: the further the stock drifts from its target, the harder the flow pushes back. Formally that's damping, not deceleration, and the distinction is worth keeping — a damped system resists displacement in either direction, which is a different behavior from a reinforcing loop running in reverse.
 
 **Worth being precise about where a market's equilibrium actually belongs in this vocabulary, since it's tempting to reach for a different word entirely.** A stable price isn't attraction between opposites the way two charges pull together — a pure attraction has no resting point, it just collapses inward. A real equilibrium needs a second, opposing term, the way an actual chemical bond needs both attraction and a repulsive term at short range to settle anywhere at all. Rising price pulling demand down while pulling supply up is exactly that two-term shape: two opposing pressures meeting at one point. That's a balancing loop, precisely, not a new mechanism needing its own name.
+
+**The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Two structures are *isomorphic* when they have identical shape under different labels — same parts, same connections, different names on everything. That is precisely what "the same pattern at a different scale" asserts every time this book says it. Which means the claim is falsifiable, and should be treated that way: show the correspondence, part for part and relation for relation, or admit you are pattern-matching. A resemblance that cannot be laid out as a structure-preserving match between two systems is a resemblance, not a Nest.
+
+**And the same formalism defines why independent arrival counts as evidence at all.** Two structures with no path between them — nothing shared, no route by which either could have reached the other — are, in the language of relations, separate components. An idea appearing in both is then not a coincidence to be admired but a specific and checkable claim: *the same structure arose twice, in components with no connection.* That is the whole of why convergence across unconnected traditions is treated as evidence in this book, stated precisely. No path means no transmission. No transmission means the resemblance had to come from somewhere other than borrowing.
+
+**One more mechanism worth naming, because it explains several of the Standing Thirds at once.** A reinforcing loop operating on *connection itself* produces accumulation: more connection draws more connection, at steadily declining cost. This is one rule, and it does not need exceptions — whether the accumulating quantity is conserved, mutual, or capacity-limited is a fact about what is accumulating, not a break in the pattern. Mass is conserved and its attraction is strictly mutual, which is why a one-way gravitational pull is impossible. Attention is neither, which is exactly why millions can be drawn toward a "we" that pulls back on no one in particular — the asymmetry that makes Charten possible at all, and that would be forbidden if attention obeyed the same conservation mass does.
 
 **Leverage itself has an exact structural form once a system is drawn as a shared lattice of relations rather than a single chain.** Some connections are shared by many other structures built on top of them — a central relationship nearly every downstream pattern depends on. Others are peripheral, belonging to only one small local structure, touching nothing beyond it. A high-leverage intervention is, precisely, a maximally shared connection: changing it forces every structure that depends on it to resettle. A low-leverage one is a peripheral connection, changing nothing beyond its own small corner. This gives the leverage ladder an exact form rather than only a spatial metaphor — depth was never really the point. Degree of shared dependency was.
 
@@ -1476,6 +1494,8 @@ These twelve are generated directly, by one person, repeating one thing. They fu
 | **Loum**, Keeper of the Long Field | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
 | **Corren**, Who Gives the Whole Room | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
 
+**One thing worth saying about Rethen specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means Rethen's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
+
 *Four practices that behave like currents but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*
 
 ---
@@ -1508,9 +1528,23 @@ Each of these is two currents, running in two people, producing something belong
 | **The Arrangement** | Loum + Loum | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
 | **Ostrin**, Who Never Names the First Price | Mareth + Nammeth | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
 
+**The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Current, theirs, and the Meeting the two of you produce. Know any two and the third follows — and no two Meetings in this table share a fusion pair, so the answer is never ambiguous.
+
+That gives three solves, and the third is the one worth having.
+
+*Forward.* You know both Currents, so you can predict what the two of you will keep producing.
+
+*Backward.* You can see the Meeting and you know your own Current — so theirs resolves, uniquely. This is the diagnostic: you rarely get told what loop someone else is running, but you can usually see what the two of you keep making together, and you always have access to your own half.
+
+*Sideways, and this is the useful one.* You can see the Meeting. You cannot change their Current — it isn't yours, and asking rarely works. But you can change yours. And because the three elements are locked together, changing your leg *determines* a change in what the two of you produce. You don't need their agreement, their cooperation, or even their awareness. This isn't manipulation: the only thing you touched was yourself.
+
+Two currents meeting produce nineteen of the seventy-eight pairs this table could in principle contain. The rest co-occur without fusing into anything — which is not a gap in the catalogue but the Third Thing test doing its work. Two people can run patterns side by side all day and make nothing together.
+
+**Try this:** name the pattern you and one specific person reliably produce. Find it in the table. Read off your own Current — then read off theirs, and ask honestly whether that lands. Then ask the only question you actually have leverage over: what happens to the Meeting if you change your leg and theirs stays exactly where it is?
+
 ---
 
-## 3. The Ten Weaves — Skein Scale
+## 3. The Eleven Weaves — Skein Scale
 
 *"Two dyads that share a person. This is how a group becomes a thing rather than a list."*
 
@@ -1526,6 +1560,7 @@ Each of these is two currents, running in two people, producing something belong
 | **The Hall of Mirrors** | The Echo + Reading the Room | A group genuinely responsive to itself | A group with no independent position anywhere in it |
 | **Second-Order Design** | The Arrangement + Wevven | Emergence richer than anyone could have authored | Emergence nobody intended or wanted |
 | **The Inner Circle** | The Unbridged Gap + The Naming Contest | Shared fluency that makes real work fast | Shared fluency that becomes a wall |
+| **The Only Road** | The Inner Circle + The Unbridged Gap | The single bridge by which two separate worlds reach each other at all | One person through whom everything must pass, whose absence severs rather than inconveniences |
 
 ---
 
@@ -1551,7 +1586,7 @@ Each of these is two currents, running in two people, producing something belong
 
 *"There is no outside from which to see it."*
 
-**The Infinite Boundary** is every figure above, aggregated and never averaged — the only entry in this catalogue with no Tending and no Fraying pole, and the exemption is structural rather than convenient. A pole is read from somewhere. There is nowhere outside this one to stand.
+**The Infinite Boundary** is every figure above, aggregated and never averaged — the only entry in this catalogue with no Tending and no Fraying pole. This is not an exemption granted for convenience. It follows directly from the rules already in play: a pole is read from a vantage, every vantage sits at some scale, and the recursion chain terminates here. There is no scale above this one, therefore no vantage, therefore no pole. Mathematics has a name for an object every other object maps into, uniquely, with nothing beyond it to map onward to — a terminal object, and the word is doing exact work rather than decorative work. What terminates has no outside.
 
 Practitioners have taken to calling it, with equal parts irreverence and precision, the Greatest Objective Denominator — not without noticing what the initials spell, and not entirely joking either. The mathematics of the word matters: a denominator isn't what a set of fractions have in common with each other. It's the single base every one of them is expressed over, however different their numerators. Not the one trait every pattern shares, which would be a compression — the one thing every pattern is ultimately expressed in terms of, which is a sum.
 
@@ -1649,7 +1684,7 @@ A **Weaving** is a structured way of taking several orthographic views of one si
 
 *"A card is a name, not a fact."*
 
-The full working deck is the complete drawable roster from Part Five — forty-eight figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
+The full working deck is the complete drawable roster from Part Five — forty-nine figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
 
 What follows is a compressed reference, not a replacement for Part Five's catalogue — read there for the mechanism and the fusion lineage; use this when you're actually weaving and need the meaning at a glance.
 
@@ -1708,6 +1743,7 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 | The Hall of Mirrors | The group is genuinely responsive to itself. | No independent position anywhere in it. |
 | Second-Order Design | Emergence richer than anyone could author. | Emergence nobody intended or wanted. |
 | The Inner Circle | Shared fluency makes real work fast. | The fluency has become a wall. |
+| The Only Road | You are the bridge two worlds actually cross on. | Everything must pass through you, and your absence severs. |
 
 **The Long Forms** *(outermost drawable ring — Culture)*
 
@@ -1974,7 +2010,7 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 
 ---
 
-## 4. The Ten Gatherings — Skein
+## 4. The Eleven Gatherings — Skein
 
 *"Monthly, in a room, with the people who actually show up."*
 
@@ -1990,6 +2026,7 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 | The Hall of Mirrors | **The Outsider** — invite someone outside and let them describe what they see | An independent position enters the room |
 | Second-Order Design | **The Rule Game** — invent a game with three rules, play it, watch what emerges | The group feels emergence rather than being told about it |
 | The Inner Circle | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
+| The Only Road | **The Handover** — whoever everything routes through spends one gathering entirely absent, on purpose, with the group carrying on | Indispensability gets converted back into redundancy |
 
 ---
 
@@ -2172,10 +2209,10 @@ A Skein and a Banner fused: real substance that has also acquired a visible name
 What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.
 
 **The Standing Thirds, at a glance**
-Forty-nine figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
+Fifty figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
 *Twelve Currents (Self), generated directly by one person repeating one thing:* Cindar (reinforcing), Rethen (balancing), Mareth (judging against a reference), Solven (reaching for the symptom-fix), Sythen (judging by what arrives first), Kessin (storing peak and ending), Dorrin (answering the easier question), Selvan (maintaining a self-story), Mirrath (taking the shape of the room), Nammeth (speaking as construction), Loum (shaping conditions), Corren (attending repeatedly).
 *Nineteen Meetings (Dyad), my current meeting yours:* Escalation, The Standoff, Wevven, Vessa, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, Ostrin.
-*Ten Weaves (Skein), two Meetings sharing a person:* Cessant, Quillith, Handrel, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle.
+*Eleven Weaves (Skein), two Meetings sharing a person:* Cessant, Quillith, Handrel, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
 *Seven Long Forms (Culture):* Charten, Proxy Detachment, Policy Resistance, The Long Cycle, Waeth, Aestren, Dyren.
 *One Cosmos figure:* the Infinite Boundary — not a being who watches the universe, but the shape the universe makes once every part of it is summed. The only figure with no poles, because a pole must be read from somewhere outside, and there is no outside here.
 None has independent will — only perceived behavior, consistent enough to earn a face.
@@ -2255,6 +2292,16 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 **Emergence vs. luck; "luck = preparation + time"** — Chance is a fact about one instant; emergence is a fact about the shape many instants make together. A good Local Rule improves the distribution of outcomes across many attempts — it never guarantees the one you're currently on. The popular equation overclaims on both signs: the "=" should be probabilistic, and the "+" should be "×," since captured luck compounds future exposure rather than simply adding to it. Pt.1 Ch.9 (Genesis, Fourth Iteration) · Pt.2 Ch.9 (The Sacrifice Trap)
 
 **Coasting vs. accelerating — why the same practice costs some people everything and others almost nothing** — Holding a speed already reached costs only enough to cancel drag; building it from zero costs far more, because one is maintaining existing momentum and the other is generating momentum that doesn't exist yet. Explains why people quit mid-build, mistaking the cost of construction for evidence of failure. Test: has this gotten easier, or have you just gotten used to how hard it is? Pt.2 Ch.7
+
+**Solving for the third leg** — Your Current, theirs, and the Meeting you produce are three locked elements; knowing two gives the third, and no two Meetings share a fusion pair, so the solve is unique. The useful direction: you can't change their leg, but changing yours determines the change in what you produce together. Pt.5 Ch.2
+
+**Mutuality, not accounting** — Forces come in pairs; the force lives in the interaction, not in either object. You cannot affect without being affected. But equal-and-opposite applies to forces, not outcomes — mutual does not mean zero-sum, and almost nothing worth caring about is conserved. Pt.1 Ch.2
+
+**Balance is a wave** — Balance is never stillness; it is continuous correction whose average looks like rest. Stopping the correction is a distinct failure from retreating early. If you can't see the work, that's your resolution, not the thing. Pt.2 Ch.6 · Pt.5 Ch.1
+
+**Isomorphism, and the Nest's falsification test** — Same structure, different labels. The formal content of "the same pattern at another scale" — and therefore a demand: show the correspondence part for part, or admit it's a resemblance. Separate components with no path between them is why independent arrival counts as evidence at all. Pt.4 Ch.3
+
+**Distortion scales with distance** — The Fold returns nearly intact from one step away and nearly unreadable from six, because each edge crossed adds its own shaping. Pt.2 Ch.10
 
 **Fusion depth** — A Third's scale is what it is made of, not a category assigned to it: two selves running currents produce a dyad-scale Third; two dyads sharing a person produce a skein. The tiers of Part Five are composition, not ranking. Pt.5 Ch.0–4
 

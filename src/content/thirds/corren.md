@@ -8,6 +8,7 @@ tending: "Attend to it; what you water grows."
 fraying: "So does whatever you keep confirming."
 fractal: {"type":"mandala","hue":"earth"}
 drawable: true
+parents: []
 relatedThirds: ["vessa", "typecasting"]
 relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 
 **Its Turning.** **The Watering** — name one thing you attended to all year, and what grew. What it builds: attention becomes a visible choice.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

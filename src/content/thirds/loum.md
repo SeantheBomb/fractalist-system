@@ -8,6 +8,7 @@ tending: "Change the conditions, not the willpower."
 fraying: "You can't act at all once conditions shift."
 fractal: {"type":"fern","hue":"earth"}
 drawable: true
+parents: []
 relatedThirds: ["the-arrangement"]
 relatedNodes: ["the-compost-heap", "going-to-ground"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["the-compost-heap", "going-to-ground"]
 
 **Its Turning.** **The Rearranging** — physically change one thing so a desired action gets easier. What it builds: environment takes over work willpower was doing.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

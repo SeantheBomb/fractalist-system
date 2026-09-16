@@ -8,6 +8,7 @@ tending: "The story survives by adapting to each teller."
 fraying: "It has drifted free of what it started as."
 fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
+parents: ["the-naming-contest", "filling-the-gap"]
 relatedThirds: ["the-naming-contest", "filling-the-gap", "waeth"]
 relatedNodes: ["the-skein", "belief-systems-built"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["the-skein", "belief-systems-built"]
 
 **Its Turning.** **Round the Circle** — play telephone with a real story about the group. What it builds: drift becomes funny and visible.
 
-Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
+Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.

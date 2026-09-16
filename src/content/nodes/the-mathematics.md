@@ -7,6 +7,8 @@ summary: "The chaos game, done properly: randomness and determinism converging o
 related: ["systems-theory", "the-third-thing", "where-it-comes-from"]
 ---
 
+There's a compression claim buried in this that the rest of the book has been leaning on without naming. A sphere is fully described by one number, a triangle by three — but describing a coastline in genuine detail takes millions. And yet a handful of iterated rules will generate that same coastline exactly. This is the formal version of Loop and Tree: the rule set is the compression, the generated form is the unrolled thing, and the enormous gap between how little you must specify and how much you get back is precisely what it means for something to be built by repetition rather than by design.
+
 Part One asked you to take the chaos game somewhat on faith — drop a pen, roll a die, walk halfway to a random corner, repeat, and watch order assemble from noise. This chapter is that claim, done properly.
 
 Take a triangle with corners A, B, and C. Place a point anywhere you like, inside the triangle or outside it — it doesn't actually matter where you start. Roll a three-sided die (or, more practically, flip a coin twice and map the four outcomes onto three corners, discarding the rare tie). Move your point exactly halfway between its current position and whichever corner was chosen. Mark the new point. Repeat this process a few thousand times.

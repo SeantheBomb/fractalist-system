@@ -8,6 +8,7 @@ tending: "Trust the read arriving ahead of the proof."
 fraying: "Vividness is impersonating frequency."
 fractal: {"type":"windswept","hue":"wind"}
 drawable: true
+parents: []
 relatedThirds: ["filling-the-gap", "reading-the-room"]
 relatedNodes: ["naming-and-defusing"]
 ---
@@ -20,4 +21,4 @@ relatedNodes: ["naming-and-defusing"]
 
 **Its Turning.** **The Second Guess** — for one day, every instant answer gets a written second one. What it builds: first answers stop being final.
 
-Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.
+Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.

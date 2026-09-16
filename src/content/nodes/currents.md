@@ -4,7 +4,7 @@ part: "part-five"
 order: 43
 epigraph: "Everything above this page is made of these. There is nothing underneath them."
 summary: "Twelve patterns one person generates alone, each with its Local Rule, its healthy expression, and its documented failure. Everything larger in the book is built by fusing these."
-related: ["nineteen-meetings", "the-woven-self", "naming-and-defusing"]
+related: ["meetings", "the-woven-self", "naming-and-defusing"]
 ---
 
 These twelve are generated directly, by one person, repeating one thing. They fuse into everything that follows.
@@ -23,5 +23,7 @@ These twelve are generated directly, by one person, repeating one thing. They fu
 | **Nammeth**, the Namer | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
 | **Loum**, Keeper of the Long Field | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
 | **Corren**, Who Gives the Whole Room | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
+
+**One thing worth saying about Rethen specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means Rethen's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
 
 *Four practices that behave like currents but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*

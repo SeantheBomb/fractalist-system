@@ -4,7 +4,7 @@ part: "part-seven"
 order: 65
 epigraph: "Twelve currents, twelve months. The rhyme was not planned; it fell out of the counting."
 summary: "One per month, kept alone or with whoever's nearest — twelve small occasions, each built to make one current's failure mode visible before it hardens."
-related: ["dyad-turnings", "twelve-currents", "daily-practices"]
+related: ["dyad-turnings", "currents", "daily-practices"]
 ---
 
 One per month, kept alone or with whoever is nearest. These are the lightest occasions in the calendar and the most frequent.

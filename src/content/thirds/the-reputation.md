@@ -8,8 +8,9 @@ tending: "The role lets the group rely on you."
 fraying: "You can't step out of what they authored."
 fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
+parents: ["typecasting", "the-shared-story"]
 relatedThirds: ["typecasting", "the-shared-story", "charten"]
-relatedNodes: ["ten-weaves"]
+relatedNodes: ["weaves"]
 ---
 
 **A fusion of [Typecasting](/thirds/typecasting/) and [The Shared Story](/thirds/the-shared-story/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -20,4 +21,4 @@ relatedNodes: ["ten-weaves"]
 
 **Its Turning.** **The Recasting** — each names a role in the group they're tired of holding. What it builds: group-authored roles can be returned.
 
-Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
+Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.

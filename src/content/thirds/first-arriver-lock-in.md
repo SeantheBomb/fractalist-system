@@ -8,8 +8,9 @@ tending: "What works is being rewarded."
 fraying: "Whoever arrived first is entrenched regardless."
 fractal: {"type":"interweave","hue":"skein"}
 drawable: true
+parents: ["the-rising-bar", "escalation"]
 relatedThirds: ["the-rising-bar", "escalation", "the-long-cycle"]
-relatedNodes: ["ten-weaves"]
+relatedNodes: ["weaves"]
 ---
 
 **A fusion of [The Rising Bar](/thirds/the-rising-bar/) and [Escalation](/thirds/escalation/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -20,4 +21,4 @@ relatedNodes: ["ten-weaves"]
 
 **Its Turning.** **The Newcomer's Turn** — the newest member decides what the oldest usually decides. What it builds: early advantage stops calcifying.
 
-Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
+Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
