@@ -1,13 +1,13 @@
 ---
 title: "Going to Ground"
 part: "part-five"
-order: 44
+order: 49
 epigraph: "The field does not mourn what it receives."
 summary: "What actually continues, said plainly: the material — conservation of mass, literally — the Fold already in motion, and the noticing itself."
 related: ["becoming-a-third", "the-fold", "the-sacrifice-trap"]
 ---
 
-Every Third in this roster, without exception, is a pattern that outlived whoever or whatever first performed it — which means, before any of them can be discussed as an aspiration, they have to be understood honestly as an exception. Most patterns don't do this. Most people don't do this. This chapter is about what happens to the rest of us, which is to say: nearly everyone.
+Every Third in this catalogue, without exception, is a pattern that outlived whoever or whatever first performed it — which means, before any of them can be discussed as an aspiration, they have to be understood honestly as an exception. Most patterns don't do this. Most people don't do this. This chapter is about what happens to the rest of us, which is to say: nearly everyone.
 
 Say it plainly, the way this book has tried to say everything else: the experiencer does not continue. Whatever is having this exact moment, right now, does not get relocated somewhere else once the body carrying it stops. Nothing in this framework supports a version of you persisting, unchanged, somewhere beyond the reach of everything Naming and Defusing already established about the self never having been a fixed thing to begin with. A pattern doesn't earn an exemption from its own nature just by ending.
 

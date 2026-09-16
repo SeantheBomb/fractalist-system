@@ -1,10 +1,10 @@
 ---
 title: "Becoming a Third"
 part: "part-five"
-order: 45
+order: 50
 epigraph: "We build the world by repeating what we cannot see."
 summary: "Very rarely, a repeated pattern outlives its origin entirely, and personhood simply wears off it, leaving only the shape behind."
-related: ["what-a-weaving-is", "going-to-ground", "unnamed-thirds"]
+related: ["what-a-weaving-is", "going-to-ground", "catalogue-limits"]
 ---
 
 Everything in the last chapter is the general case, and it was important to say first, honestly, without softening it into something it isn't. This chapter is the rare exception — not a better fate waiting for the especially deserving, but a specific, mechanical thing that occasionally happens to a pattern, regardless of whether the person who first carried it ever knew it would.

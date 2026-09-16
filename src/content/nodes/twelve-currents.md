@@ -1,0 +1,27 @@
+---
+title: "The Twelve Currents — Self Scale"
+part: "part-five"
+order: 43
+epigraph: "Everything above this page is made of these. There is nothing underneath them."
+summary: "Twelve patterns one person generates alone, each with its Local Rule, its healthy expression, and its documented failure. Everything larger in the book is built by fusing these."
+related: ["nineteen-meetings", "the-woven-self", "naming-and-defusing"]
+---
+
+These twelve are generated directly, by one person, repeating one thing. They fuse into everything that follows.
+
+| Current | The Local Rule | Tending | Fraying |
+|---|---|---|---|
+| **Cindar**, the First Spark | An output becomes the next input | Compounding that builds | Compounding that consumes |
+| **Rethen**, Who Carries What Is Spent | Returning toward a setpoint | Recovery a system genuinely needs | Retreat taken before the work was finished |
+| **Mareth**, Who Holds the Yardstick | Judging against a reference point | A reference that makes judgment possible at all | A reference that governs long after it stopped being true |
+| **Solven**, Who Soothes First | Reaching for what relieves the symptom | A stopgap buying real time to build the true fix | A stopgap atrophying the capacity it replaced |
+| **Sythen**, the One Who Turns First | Judging by what arrives first | Recency as genuine signal | Vividness impersonating frequency |
+| **Kessin**, Who Keeps the Ending | Storing an episode by its peak and its close | Compression that makes a life recountable | A record that misrepresents what was lived |
+| **Dorrin**, the Easier Door | Answering a simpler question than the one asked | The only reason hard questions ever get answered | Confident answers to questions nobody posed |
+| **Selvan**, Who Wears the Story | Maintaining a self-story against evidence | Conviction that enables commitment | A self you can no longer see around |
+| **Mirrath**, Who Takes the Shape of the Room | Taking form from who is present | A self genuinely built by relationship | No position independent of who is watching |
+| **Nammeth**, the Namer | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
+| **Loum**, Keeper of the Long Field | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
+| **Corren**, Who Gives the Whole Room | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
+
+*Four practices that behave like currents but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*

@@ -1,13 +1,15 @@
 ---
 title: "The Deck"
 part: "part-six"
-order: 47
+order: 52
 epigraph: "A card is a name, not a fact."
 summary: "The full working deck: sixteen drawable figures across four kinships, each carrying two readings — plus one figure that's never drawn at all."
 related: ["tending-and-fraying", "what-a-third-is", "the-rings", "infinite-boundary"]
 ---
 
-The full working deck is the complete drawable roster from Part Five — sixteen figures across four drawable kinships, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus one figure that is never drawn at all, described at the end of this chapter. What follows is a compressed reference, not a replacement for Part Five's fuller character chapters — read there first for the texture; use this table when you're actually weaving and need the meaning at a glance.
+The full working deck is the complete drawable roster from Part Five — forty-seven figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
+
+What follows is a compressed reference, not a replacement for Part Five's catalogue — read there for the mechanism and the fusion lineage; use this when you're actually weaving and need the meaning at a glance.
 
 **The Self-Kin** *(innermost ring)*
 

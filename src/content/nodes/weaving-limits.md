@@ -1,10 +1,10 @@
 ---
 title: "What a Weaving Cannot Show"
 part: "part-six"
-order: 56
+order: 62
 epigraph: "No map shows the hand holding it."
 summary: "Diagnostic, never prescriptive — and never a substitute for an actual conversation with an actual person."
-related: ["reading-honestly", "weaving-for-another", "open-questions"]
+related: ["what-a-turning-is", "reading-honestly", "weaving-for-another"]
 ---
 
 Consistent with every other practice in this book: this one has limits, and they're better stated than discovered the hard way.

@@ -1,7 +1,7 @@
 ---
 title: "Quick Reference Card"
 part: "appendix"
-order: 58
+order: 74
 epigraph: "One page. Print it, carry it, hand it to someone new."
 summary: "One page. The whole practice at a glance — print it, carry it, hand it to someone new."
 related: ["onboarding", "mantras", "the-loom"]

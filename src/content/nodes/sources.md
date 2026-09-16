@@ -1,7 +1,7 @@
 ---
 title: "Source Library"
 part: "appendix"
-order: 60
+order: 76
 epigraph: "For the curious. These are the works whose ideas were read together, synthesized, and — in places — argued with, to build this text. Fractalism does not ask you to read them to practice; it offers them to anyone who wants to see the raw material the pattern was noticed in."
 summary: "The works whose ideas were read together, synthesized, and argued with to build this text — offered, never required."
 related: ["a-word-on-belief", "belief-systems-built", "open-questions"]

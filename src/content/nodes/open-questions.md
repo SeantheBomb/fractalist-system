@@ -4,7 +4,7 @@ part: "part-four"
 order: 41
 epigraph: "A good question is worth more than a settled answer."
 summary: "This book will be wrong about some things — here is what's genuinely unsettled, and the actual mechanism for revising any of it."
-related: ["unnamed-thirds", "loop-tongue-limits", "a-word-on-belief"]
+related: ["catalogue-limits", "loop-tongue-limits", "a-word-on-belief"]
 ---
 
 This book will be wrong about some things. Not as a hedge, and not as false modesty — as a direct consequence of everything it claims about how anything worth having gets built. A text that arrived finished, correct in every detail, delivered whole, would be the one kind of object this belief system has no theory for. Nothing else described in these pages works that way, and there's no reason this book should be the exception.

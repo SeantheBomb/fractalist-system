@@ -1,7 +1,7 @@
 ---
 title: "The Loom — The Complete Reference"
 part: "appendix"
-order: 59
+order: 75
 epigraph: "One reference, three jobs: what each word means, how it behaves at every scale, and where the book treats it. A working map rather than a finished one — an empty cell is a prediction the system makes, not a flaw to apologize for."
 summary: "The Loop Tongue's nine words, the notation, the scale grid, and a compact index to every named concept in the book — one page doing three jobs."
 related: ["grammar-of-pattern", "systems-theory", "quick-reference", "infinite-boundary"]
@@ -29,9 +29,9 @@ related: ["grammar-of-pattern", "systems-theory", "quick-reference", "infinite-b
 | **Seed** | A repeatable act, thought, or word planted in your attention | Pt.2 Ch.2 · Pt.3 Ch.2 |
 | **Local Rule** | The specific small repeatable behavior chosen | Pt.2 Ch.3 · Pt.3 Ch.2 · Pt.4 Ch.3 |
 | **Global Form** | The large-scale shape a repeated Local Rule becomes | Pt.1 Ch.4 · Pt.2 Ch.3, 15 · Pt.4 Ch.3 |
-| **Nest** | A pattern that is one layer inside a larger version of itself | Pt.1 Ch.4 · Pt.3 Ch.2 · Pt.4 Ch.3 · Pt.5 Ch.12 |
+| **Nest** | A pattern that is one layer inside a larger version of itself | Pt.1 Ch.4 · Pt.3 Ch.2 · Pt.4 Ch.3 · Pt.5 Ch.4 |
 | **Leverage** | Where a small change produces a disproportionate effect | Pt.1 Ch.4 · Pt.2 Ch.7 · Pt.4 Ch.3 |
-| **Fold** | A Local Rule returning to you after traveling through a Nest | Pt.2 Ch.10 · Pt.3 Ch.5 · Pt.5 Ch.19 |
+| **Fold** | A Local Rule returning to you after traveling through a Nest | Pt.2 Ch.10 · Pt.3 Ch.5 · Pt.5 Ch.7 |
 | **Tree** | The branching record a Loop's name compresses | Pt.1 Ch.3 · Pt.2 Ch.4 · Pt.4 Ch.3 |
 
 A word that can be replaced by a plain phrase without loss should be. Nine is not a target — it's what survived the test.
@@ -40,15 +40,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 | Term | Self | Dyad | Skein | Culture | Cosmos |
 |---|---|---|---|---|---|
-| **Loop** | Habit; Cindar/Rethen (Pt.2 Ch.6; Pt.5 Ch.1–2) | The Second Pass (Pt.3 Ch.5) | Group Practice (Pt.2 Ch.14–15) | Historical cycles; Aestren, Waeth (Pt.4 Ch.5; Pt.5 Ch.13–14) | The Seven Iterations (Pt.1 Ch.9; Pt.5 Ch.17) |
-| **Third Thing** | A tended habit; the Compost Heap (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.15) | Nation, civilization; Charten (Pt.4 Ch.5; Pt.5 Ch.12) | Life itself; the Infinite Boundary (Pt.1 Ch.9; Pt.5 Ch.17) |
-| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Corren (Pt.5 Ch.7) | Handrel and Quillith (Pt.5 Ch.9–10) | Charten's borrowed "we" (Pt.5 Ch.12) | *open* |
-| **Local Rule** | The four-question inventory (Pt.2 Ch.3) | The Trust Triangle; Wevven, Ostrin (Pt.2 Ch.12; Pt.5 Ch.5–6) | Individual threads interweaving (Pt.2 Ch.15) | A Skein's culture, inherited upward (Pt.1 Ch.4) | *open* |
-| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.5) | Core definition (Pt.2 Ch.15) | What Charten inherits (Pt.5 Ch.12) | The universe's structure (Pt.1 Ch.9) |
-| **Nest** | A habit inside a self (Pt.1 Ch.3) | Nested within a Skein (Pt.5 Ch.5) | Nested within Culture | Nested within Cosmos | Outermost; the Infinite Boundary (Pt.5 Ch.17) |
+| **Loop** | Habit; Cindar/Rethen (Pt.2 Ch.6; Pt.5 Ch.1) | The Second Pass (Pt.3 Ch.5) | Group Practice (Pt.2 Ch.14–15) | Historical cycles; Aestren, Waeth (Pt.4 Ch.5; Pt.5 Ch.4) | The Seven Iterations (Pt.1 Ch.9; Pt.5 Ch.5) |
+| **Third Thing** | A tended habit; the Compost Heap (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.15) | Nation, civilization; Charten (Pt.4 Ch.5; Pt.5 Ch.4) | Life itself; the Infinite Boundary (Pt.1 Ch.9; Pt.5 Ch.5) |
+| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Corren (Pt.5 Ch.2) | Handrel and Quillith (Pt.5 Ch.3) | Charten's borrowed "we" (Pt.5 Ch.4) | *open* |
+| **Local Rule** | The four-question inventory (Pt.2 Ch.3) | The Trust Triangle; Wevven, Ostrin (Pt.2 Ch.12; Pt.5 Ch.2) | Individual threads interweaving (Pt.2 Ch.15) | A Skein's culture, inherited upward (Pt.1 Ch.4) | *open* |
+| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.2) | Core definition (Pt.2 Ch.15) | What Charten inherits (Pt.5 Ch.4) | The universe's structure (Pt.1 Ch.9) |
+| **Nest** | A habit inside a self (Pt.1 Ch.3) | Nested within a Skein (Pt.5 Ch.2) | Nested within Culture | Nested within Cosmos | Outermost; the Infinite Boundary (Pt.5 Ch.5) |
 | **Leverage** | The ladder (Pt.2 Ch.7) | The Dyad worked example (Pt.2 Ch.7) | The Skein worked example (Pt.2 Ch.7) | Gestured at, not laddered (Pt.4 Ch.5) | *open* |
-| **Fold** | Core chapter (Pt.2 Ch.10) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.15) | Aestren; Waeth's returning telling (Pt.5 Ch.13–14) | Going to Ground (Pt.5 Ch.19–20) |
-| **Tree** | Recovering what a self-story flattens (Pt.2 Ch.4) | A relationship's real history | Handrel's lineage (Pt.5 Ch.10) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration (Pt.1 Ch.9) |
+| **Fold** | Core chapter (Pt.2 Ch.10) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.15) | Aestren; Waeth's returning telling (Pt.5 Ch.4) | Going to Ground (Pt.5 Ch.7–8) |
+| **Tree** | Recovering what a self-story flattens (Pt.2 Ch.4) | A relationship's real history | Handrel's lineage (Pt.5 Ch.3) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration (Pt.1 Ch.9) |
 
 **How to read the gaps.** Culture is the fullest column and Cosmos the sparsest, by design: there is only one totality, so there can only be one Third standing at that scale. The remaining open cells may eventually fill with practices rather than figures. A new figure is added only when it makes at least two existing figures more legible — completeness is not a virtue here, and filling a cell for its own sake is complication wearing a complexity costume.
 
@@ -60,7 +60,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Complicated vs. complex** — The first question. No feedback, no Third Thing, no acceleration to read. Pt.1 Ch.6 · Pt.4 Ch.3 · Pt.6 Ch.9
 
-**Position, speed, acceleration** — The second question. You never touch position directly; you apply a force, which is acceleration, and time integrates the rest. Why high-leverage work shows no visible movement for a long time. Pt.1 Ch.7 · Pt.2 Ch.5, 7, 9 · Pt.4 Ch.3 · Pt.5 Ch.1–2
+**Position, speed, acceleration** — The second question. You never touch position directly; you apply a force, which is acceleration, and time integrates the rest. Why high-leverage work shows no visible movement for a long time. Pt.1 Ch.7 · Pt.2 Ch.5, 7, 9 · Pt.4 Ch.3 · Pt.5 Ch.1
 
 **Elegance** — Maximum complexity from minimum complication. Pt.1 Ch.6 · Pt.2 Ch.3, 7
 
@@ -74,7 +74,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Coasting vs. accelerating — why the same practice costs some people everything and others almost nothing** — Holding a speed already reached costs only enough to cancel drag; building it from zero costs far more, because one is maintaining existing momentum and the other is generating momentum that doesn't exist yet. Explains why people quit mid-build, mistaking the cost of construction for evidence of failure. Test: has this gotten easier, or have you just gotten used to how hard it is? Pt.2 Ch.7
 
-**The Fold and the Force** — A real fictional example of what the Fold would be with intention and full legibility added back in. The Infinite Boundary is what's left once both are deliberately removed: real connection and real return, never a guide toward a specific outcome. Pt.5 Ch.17
+**Fusion depth** — A Third's scale is what it is made of, not a category assigned to it: two selves running currents produce a dyad-scale Third; two dyads sharing a person produce a skein. The tiers of Part Five are composition, not ranking. Pt.5 Ch.0–4
+
+**The two-pole rule** — Every Third carries a Tending pole that builds and a Fraying pole that corrodes; none is good or evil in itself. If only one pole is visible, the zoom is too tight — widen until both appear. The Infinite Boundary is the sole exemption, structurally, since a pole must be read from somewhere outside. Pt.5 Ch.0, 5
+
+**Weather, Climate, Terrain** — The three speeds at which any drawn figure can be read: now, this season, the shape underneath a life. Distinct from ring position, which names how many people a pattern runs through rather than how long it has been running. Distress reliably makes Weather feel like Terrain. Pt.6 Ch.4
+
+**The Long Visitor** — The Cosmos-scale Turning, triggered by a great comet rather than any calendar: the largest possible gathering, everywhere at once, outdoors. Builds the species briefly as a single witnessing thing. One restraint — celebrate the witnessing, refuse the omen. Pt.7 Ch.6
+
+**The Fold and the Force** — A real fictional example of what the Fold would be with intention and full legibility added back in. The Infinite Boundary is what's left once both are deliberately removed: real connection and real return, never a guide toward a specific outcome. Pt.5 Ch.5
 
 **Solidity as a Third Thing** — You are not touching your chair; no particle in you meets a particle in it, and what you feel as resistance is a field relationship with real emptiness on both sides. Pushed to its physical limit, this is the clearest possible case that a relationship can be as real as the things it relates. Pt.1 Ch.2
 
@@ -102,13 +110,13 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Local Rule across scales, and resonance** — A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same." Pt.2 Ch.3. Resonance — finding your exact situation already has a name — installs faster than derivation, which is the actual argument for why the Standing Thirds are characters rather than a plain list of tendencies. Pt.4 Ch.6
 
-**The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.3 (Sythen — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)
+**The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.1 (Sythen — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)
 
-**Loop period, and the minimum observation window** — A loop's natural period sets how long you need to have watched before honestly telling a trend from a stage; a fast loop announces itself, a slow one disguises itself as the ground you're standing on. A written log is the tool for this specifically, since memory doesn't span a slow loop's period the way a record can. Pt.1 Ch.7 · Pt.5 Ch.13 (Aestren, given an actual mechanism rather than just an image)
+**Loop period, and the minimum observation window** — A loop's natural period sets how long you need to have watched before honestly telling a trend from a stage; a fast loop announces itself, a slow one disguises itself as the ground you're standing on. A written log is the tool for this specifically, since memory doesn't span a slow loop's period the way a record can. Pt.1 Ch.7 · Pt.5 Ch.4 (Aestren, given an actual mechanism rather than just an image)
 
 **Naming and defusing a self-story** — Pt.2 Ch.4 · Pt.4 Ch.2
 
-**Reinforcing vs. balancing rhythm; tides and homeostasis** — Pt.1 Ch.9 · Pt.2 Ch.6 · Pt.4 Ch.3 · Pt.5 Ch.1–2
+**Reinforcing vs. balancing rhythm; tides and homeostasis** — Pt.1 Ch.9 · Pt.2 Ch.6 · Pt.4 Ch.3 · Pt.5 Ch.1
 
 **Creative work as compost, not waste** — Pt.2 Ch.5 · Pt.4 Ch.4
 
@@ -116,15 +124,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Fractal Resistance** — Being the honest variation inside a rigid structure. Pt.2 Ch.8 · Pt.4 Ch.5
 
-**The Dyad** — A Third Thing at exactly two-person scale. Pt.2 Ch.11 · Pt.5 Ch.5
+**The Dyad** — A Third Thing at exactly two-person scale. Pt.2 Ch.11 · Pt.5 Ch.2
 
-**The Trust Triangle** — Authenticity, empathy, logic; checked rather than assumed. Pt.2 Ch.12–13 · Pt.5 Ch.6–8
+**The Trust Triangle** — Authenticity, empathy, logic; checked rather than assumed. Pt.2 Ch.12–13 · Pt.5 Ch.2
 
 **The Skein and the Banner** — Real community vs. a shared label with nothing underneath. Pt.2 Ch.15 · Pt.4 Ch.5
 
-**The Braid** — A Skein and a Banner fused; real substance carrying a visible name. Pt.2 Ch.4, 11, 15 · Pt.4 Ch.6 · Pt.5 Ch.12
+**The Braid** — A Skein and a Banner fused; real substance carrying a visible name. Pt.2 Ch.4, 11, 15 · Pt.4 Ch.6 · Pt.5 Ch.4
 
-**Word vs. Label** — Pulled toward something real, or pushed to produce an effect. Pt.2 Ch.4 · Pt.3 Ch.2 · Pt.4 Ch.6 · Pt.5 Ch.12
+**Word vs. Label** — Pulled toward something real, or pushed to produce an effect. Pt.2 Ch.4 · Pt.3 Ch.2 · Pt.4 Ch.6 · Pt.5 Ch.4
 
 **"You become like the company you keep"** — The popular version and the real mechanism. Pt.2 Ch.15
 
@@ -136,16 +144,16 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Belief, language, and code as one category** — Patterns that need a host. Pt.1 Ch.10 · Pt.4 Ch.6
 
-**Beyond telling** — Why traditions with no contact converge. Pt.4 Ch.6 · Pt.5 Ch.15
+**Beyond telling** — Why traditions with no contact converge. Pt.4 Ch.6 · Pt.5 Ch.4
 
 **Not self-help, not organization-building** — Pt.1 Ch.10 · Pt.2 Ch.16
 
-**The Standing Thirds** — Framing and rules: Pt.5 Ch.0. Roster: Pt.5 Ch.1–17. Five kinships, one per scale, no exceptions.
+**The Standing Thirds** — Framing and rules: Pt.5 Ch.0. Roster: Pt.5 Ch.1–5. Five kinships, one per scale, no exceptions.
 
 **Weaving** — Reading a situation from four distances. Pt.6, all chapters. Progressive reveal is the core technique (Ch.7).
 
-**Going to Ground; conservation of mass; becoming a Third** — Pt.5 Ch.19–20
+**Going to Ground; conservation of mass; becoming a Third** — Pt.5 Ch.7–8
 
-**The Infinite Boundary** — The Cosmos-Kin's one figure. Pt.5 Ch.17 · Pt.4 Ch.3
+**The Infinite Boundary** — The Cosmos-Kin's one figure. Pt.5 Ch.5 · Pt.4 Ch.3
 
 **What's unfinished** — Pt.4 Ch.7

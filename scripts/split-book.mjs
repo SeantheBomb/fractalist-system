@@ -70,11 +70,13 @@ const y = (v) => JSON.stringify(v);
 const nodesDir = join(root, 'src', 'content', 'nodes');
 const thirdsDir = join(root, 'src', 'content', 'thirds');
 rmSync(nodesDir, { recursive: true, force: true });
-rmSync(thirdsDir, { recursive: true, force: true });
 mkdirSync(nodesDir, { recursive: true });
 mkdirSync(thirdsDir, { recursive: true });
 
 let missing = [];
+// Part Five stopped giving each Standing Third its own chapter, so a third whose
+// heading is gone keeps its committed file rather than being wiped.
+let preservedThirds = [];
 
 NODES.forEach((n, i) => {
   const raw = sections.get(n.heading);
@@ -95,7 +97,7 @@ NODES.forEach((n, i) => {
 
 THIRDS.forEach((t, i) => {
   const raw = sections.get(t.heading);
-  if (raw === undefined) { missing.push(t.heading); return; }
+  if (raw === undefined) { preservedThirds.push(t.slug); return; }
   const { epigraph, body } = extractEpigraph(cleanBody(raw));
   const fm = [
     '---',
@@ -120,4 +122,7 @@ if (missing.length) {
   console.error('MISSING HEADINGS:\n' + missing.map((m) => `  - ${m}`).join('\n'));
   process.exit(1);
 }
-console.log(`Wrote ${NODES.length} nodes and ${THIRDS.length} thirds.`);
+console.log(`Wrote ${NODES.length} nodes and ${THIRDS.length - preservedThirds.length} thirds.`);
+if (preservedThirds.length) {
+  console.log(`Preserved ${preservedThirds.length} thirds with no chapter in the book: ${preservedThirds.join(', ')}`);
+}
