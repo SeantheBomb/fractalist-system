@@ -10,7 +10,7 @@ fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["kessin", "kessin"]
 relatedThirds: ["kessin", "the-reputation"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **[Kessin](/thirds/kessin/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Two Tellings** — both tell one shared memory separately, then compare. What it builds: joint memory stays honest.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

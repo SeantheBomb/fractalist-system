@@ -4,7 +4,7 @@ part: "part-seven"
 order: 67
 epigraph: "Monthly, in a room, with the people who actually show up."
 summary: "Monthly, in a room, with the people who actually show up — eleven occasions, each built to catch one specific way a group quietly goes wrong."
-related: ["great-days", "weaves", "group-practice"]
+related: ["great-days", "skein-kin", "group-practice"]
 ---
 
 | Weave | The Turning | What it builds |

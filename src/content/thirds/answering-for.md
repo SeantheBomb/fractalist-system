@@ -10,7 +10,7 @@ fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["solven", "cindar"]
 relatedThirds: ["solven", "cindar", "handrel"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Solven](/thirds/solven/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Held Tongue** — a conversation where you may only ask questions. What it builds: capacity stays with its owner.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

@@ -10,7 +10,7 @@ fractal: {"type":"hollowMandala","hue":"dyad"}
 drawable: true
 parents: ["nammeth", "rethen"]
 relatedThirds: ["nammeth", "rethen"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Nammeth](/thirds/nammeth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Long Preamble** — a meeting whose first half is deliberately not about the thing. What it builds: content lands because connection preceded it.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

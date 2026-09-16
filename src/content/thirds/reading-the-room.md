@@ -10,7 +10,7 @@ fractal: {"type":"mandala","hue":"dyad"}
 drawable: true
 parents: ["sythen", "mirrath"]
 relatedThirds: ["sythen", "mirrath", "the-hall-of-mirrors"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Sythen](/thirds/sythen/) and [Mirrath](/thirds/mirrath/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Weather Report** — each names what they think the other feels, then gets corrected. What it builds: projection separates from perception.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

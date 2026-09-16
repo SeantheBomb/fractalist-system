@@ -1,5 +1,5 @@
 ---
-title: "The Seven Long Forms — Culture Scale"
+title: "The Culture-Kin"
 part: "part-five"
 order: 46
 epigraph: "Slow enough that no single life sees one turn completely."

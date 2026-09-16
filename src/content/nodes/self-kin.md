@@ -1,10 +1,10 @@
 ---
-title: "The Twelve Currents — Self Scale"
+title: "The Self-Kin"
 part: "part-five"
 order: 43
 epigraph: "Everything above this page is made of these. There is nothing underneath them."
 summary: "Twelve patterns one person generates alone, each with its Local Rule, its healthy expression, and its documented failure. Everything larger in the book is built by fusing these."
-related: ["meetings", "the-woven-self", "naming-and-defusing"]
+related: ["dyad-kin", "the-woven-self", "naming-and-defusing"]
 ---
 
 These twelve are generated directly, by one person, repeating one thing. They fuse into everything that follows.

@@ -1,10 +1,10 @@
 ---
-title: "The Nineteen Meetings — Dyad"
+title: "The Nineteen Dyad Turnings"
 part: "part-seven"
 order: 66
 epigraph: "These have no dates. The relationship supplies the occasion."
 summary: "Nineteen two-person occasions with no dates attached at all. The relationship supplies the occasion."
-related: ["skein-gatherings", "meetings", "do-i-understand-you"]
+related: ["skein-gatherings", "dyad-kin", "do-i-understand-you"]
 ---
 
 Triggered by circumstance rather than calendar — which is also why nineteen of them fit a year without dividing into anything.

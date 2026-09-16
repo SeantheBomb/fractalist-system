@@ -10,7 +10,7 @@ fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["rethen", "selvan"]
 relatedThirds: ["rethen", "selvan", "cessant"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Rethen](/thirds/rethen/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Unarmoring** — share one thing you'd normally armor. What it builds: protection stops preventing the connection.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

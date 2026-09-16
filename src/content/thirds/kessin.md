@@ -10,10 +10,10 @@ fractal: {"type":"lattice","hue":"water"}
 drawable: true
 parents: []
 relatedThirds: ["the-shared-story"]
-relatedNodes: ["currents"]
+relatedNodes: ["self-kin"]
 ---
 
-**The Local Rule.** Storing an episode by its peak and its close. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Storing an episode by its peak and its close. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** Compression that makes a life recountable.
 
@@ -21,4 +21,4 @@ relatedNodes: ["currents"]
 
 **Its Turning.** **The Long Read** — reread old journals or photos; notice what you'd forgotten. What it builds: the remembered life reconnects to the lived one.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

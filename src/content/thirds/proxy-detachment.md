@@ -10,7 +10,7 @@ fractal: {"type":"ridge","hue":"culture"}
 drawable: true
 parents: ["the-sagging-floor", "gaming-the-terms"]
 relatedThirds: ["the-sagging-floor", "gaming-the-terms"]
-relatedNodes: ["long-forms"]
+relatedNodes: ["culture-kin"]
 ---
 
 **A fusion of [The Sagging Floor](/thirds/the-sagging-floor/) and [Gaming the Terms](/thirds/gaming-the-terms/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["long-forms"]
 
 **Its Turning.** **The Unmeasured Day** — do the thing without recording, counting, or reporting it. What it builds: the measure stops outranking what it measured.
 
-Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.
+Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

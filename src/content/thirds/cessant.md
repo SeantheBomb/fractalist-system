@@ -21,4 +21,4 @@ relatedNodes: ["the-skein", "fractal-resistance"]
 
 **Its Turning.** **The Loud Table** — someone must say one true unspoken thing before dessert. What it builds: silence stops being the group's default.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

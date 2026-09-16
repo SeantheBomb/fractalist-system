@@ -21,4 +21,4 @@ relatedNodes: ["belief-systems-built", "going-to-ground"]
 
 **Its Turning.** **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name. What it builds: independent arrival stops reading as unoriginality.
 
-Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.
+Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

@@ -21,4 +21,4 @@ relatedNodes: ["the-skein", "belief-systems-built"]
 
 **Its Turning.** **Round the Circle** — play telephone with a real story about the group. What it builds: drift becomes funny and visible.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

@@ -4,7 +4,7 @@ part: "part-seven"
 order: 68
 epigraph: "Fixed to the sky, because the sky keeps its own appointments."
 summary: "Seven occasions fixed to solstice and equinox, because the sky keeps its own appointments and has never once needed reminding."
-related: ["the-long-visitor", "long-forms", "anchoring"]
+related: ["the-long-visitor", "culture-kin", "anchoring"]
 ---
 
 | Long Form | The Turning | Anchor | What it builds |

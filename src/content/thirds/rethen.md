@@ -13,7 +13,7 @@ relatedThirds: ["the-standoff", "wevven", "the-guard", "connection-first"]
 relatedNodes: ["reading-your-own-cycle"]
 ---
 
-**The Local Rule.** Returning toward a setpoint. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Returning toward a setpoint. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** Recovery a system genuinely needs.
 
@@ -21,4 +21,4 @@ relatedNodes: ["reading-your-own-cycle"]
 
 **Its Turning.** **Low Tide** — a day of indulgent rest, not productive rest. What it builds: rest stops needing to be earned.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

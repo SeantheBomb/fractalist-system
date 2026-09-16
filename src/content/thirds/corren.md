@@ -13,7 +13,7 @@ relatedThirds: ["vessa", "typecasting"]
 relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 ---
 
-**The Local Rule.** Attending repeatedly to one thing among many. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Attending repeatedly to one thing among many. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** What you attend to grows.
 
@@ -21,4 +21,4 @@ relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 
 **Its Turning.** **The Watering** — name one thing you attended to all year, and what grew. What it builds: attention becomes a visible choice.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

@@ -10,7 +10,7 @@ fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["dorrin", "cindar"]
 relatedThirds: ["dorrin", "cindar", "the-shared-pot", "proxy-detachment"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Dorrin](/thirds/dorrin/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Spirit Reading** — reread an agreement and ask what it was actually for. What it builds: purpose outranks letter.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

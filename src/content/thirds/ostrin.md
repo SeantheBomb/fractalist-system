@@ -21,4 +21,4 @@ relatedNodes: ["the-trust-triangle"]
 
 **Its Turning.** **The First Price** — openly haggle over something low-stakes and silly. What it builds: testing becomes normal rather than insulting.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

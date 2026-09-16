@@ -10,7 +10,7 @@ fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["mareth", "cindar"]
 relatedThirds: ["mareth", "cindar", "first-arriver-lock-in"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **Good Enough Day** — deliberately do something to a standard you'd normally reject. What it builds: sufficiency becomes possible again.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

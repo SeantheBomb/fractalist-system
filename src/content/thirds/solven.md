@@ -10,10 +10,10 @@ fractal: {"type":"fern","hue":"earth"}
 drawable: true
 parents: []
 relatedThirds: ["answering-for"]
-relatedNodes: ["currents"]
+relatedNodes: ["self-kin"]
 ---
 
-**The Local Rule.** Reaching for what relieves the symptom. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Reaching for what relieves the symptom. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** A stopgap buying real time to build the true fix.
 
@@ -21,4 +21,4 @@ relatedNodes: ["currents"]
 
 **Its Turning.** **The Patch Audit** — list what's held by temporary fixes; properly fix one. What it builds: stopgaps stop silently becoming permanent.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

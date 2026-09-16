@@ -10,7 +10,7 @@ fractal: {"type":"mandala","hue":"dyad"}
 drawable: true
 parents: ["loum", "loum"]
 relatedThirds: ["loum", "second-order-design"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **[Loum](/thirds/loum/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Direct Ask** — one thing asked for plainly rather than engineered. What it builds: directness stays available.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

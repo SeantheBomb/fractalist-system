@@ -1,10 +1,10 @@
 ---
-title: "The Nineteen Meetings — Dyad Scale"
+title: "The Dyad-Kin"
 part: "part-five"
 order: 44
 epigraph: "My loop, meeting yours. Neither of us brought the thing that happened next."
-summary: "Nineteen two-person patterns, each one two currents meeting: my loop against yours, producing something neither of us brought."
-related: ["weaves", "the-dyad", "the-trust-triangle"]
+summary: "Nineteen two-person patterns, each one two Self-Kin meeting: my loop against yours, producing something neither of us brought."
+related: ["skein-kin", "the-dyad", "the-trust-triangle"]
 ---
 
 Each of these is two currents, running in two people, producing something belonging to neither.

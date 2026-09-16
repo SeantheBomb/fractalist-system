@@ -10,7 +10,7 @@ fractal: {"type":"carpet","hue":"skein"}
 drawable: true
 parents: ["the-echo", "reading-the-room"]
 relatedThirds: ["the-echo", "reading-the-room", "aestren"]
-relatedNodes: ["weaves"]
+relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["weaves"]
 
 **Its Turning.** **The Outsider** — invite someone outside and let them describe what they see. What it builds: an independent position enters the room.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

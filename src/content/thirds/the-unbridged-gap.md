@@ -10,7 +10,7 @@ fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["selvan", "mirrath"]
 relatedThirds: ["selvan", "mirrath", "the-inner-circle", "the-only-road"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Selvan](/thirds/selvan/) and [Mirrath](/thirds/mirrath/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Teaching** — teach each other something from your own domain, to a beginner standard. What it builds: expertise stays transmissible.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

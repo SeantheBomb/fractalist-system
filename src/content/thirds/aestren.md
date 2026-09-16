@@ -21,4 +21,4 @@ relatedNodes: ["scale-tagging", "fractalism-collective"]
 
 **Its Turning.** **The Turning of the Tide** — fire against the dark; name what's receding. What it builds: pulling back gets confirmed as not-failing.
 
-Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.
+Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

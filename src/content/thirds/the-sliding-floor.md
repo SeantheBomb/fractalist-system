@@ -10,7 +10,7 @@ fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["mareth", "rethen"]
 relatedThirds: ["mareth", "rethen", "the-sagging-floor"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Original Terms** — revisit what you both agreed to at the start. What it builds: drift becomes visible while it's still small.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

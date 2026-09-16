@@ -13,7 +13,7 @@ relatedThirds: ["filling-the-gap", "reading-the-room"]
 relatedNodes: ["naming-and-defusing"]
 ---
 
-**The Local Rule.** Judging by what arrives first. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Judging by what arrives first. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** Recency as genuine signal.
 
@@ -21,4 +21,4 @@ relatedNodes: ["naming-and-defusing"]
 
 **Its Turning.** **The Second Guess** — for one day, every instant answer gets a written second one. What it builds: first answers stop being final.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

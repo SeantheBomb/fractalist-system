@@ -10,7 +10,7 @@ fractal: {"type":"chain","hue":"skein"}
 drawable: true
 parents: ["the-sliding-floor", "the-standoff"]
 relatedThirds: ["the-sliding-floor", "the-standoff", "proxy-detachment", "aestren"]
-relatedNodes: ["weaves"]
+relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Sliding Floor](/thirds/the-sliding-floor/) and [The Standoff](/thirds/the-standoff/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["weaves"]
 
 **Its Turning.** **The High Bar** — attempt one genuinely difficult thing together. What it builds: the group remembers what its ceiling was.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

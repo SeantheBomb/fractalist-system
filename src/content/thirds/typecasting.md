@@ -10,7 +10,7 @@ fractal: {"type":"hollowMandala","hue":"dyad"}
 drawable: true
 parents: ["corren", "selvan"]
 relatedThirds: ["corren", "selvan", "the-reputation"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Corren](/thirds/corren/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **The Wrong Role** — each does the thing the other is "the one who does that". What it builds: roles stay permeable.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

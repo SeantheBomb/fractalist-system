@@ -21,4 +21,4 @@ relatedNodes: ["the-second-pass", "the-dyad"]
 
 **Its Turning.** **Trading Places** — swap the driver and the brake for a day. What it builds: each learns the cost of the other's role.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

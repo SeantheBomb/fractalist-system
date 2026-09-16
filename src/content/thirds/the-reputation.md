@@ -10,7 +10,7 @@ fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
 parents: ["typecasting", "the-shared-story"]
 relatedThirds: ["typecasting", "the-shared-story", "charten"]
-relatedNodes: ["weaves"]
+relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [Typecasting](/thirds/typecasting/) and [The Shared Story](/thirds/the-shared-story/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["weaves"]
 
 **Its Turning.** **The Recasting** — each names a role in the group they're tired of holding. What it builds: group-authored roles can be returned.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

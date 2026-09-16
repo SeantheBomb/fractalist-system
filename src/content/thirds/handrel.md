@@ -21,4 +21,4 @@ relatedNodes: ["the-skein"]
 
 **Its Turning.** **The Handing-On** — teach one craft; credit whoever taught you, out loud. What it builds: skill compounds with its lineage intact.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

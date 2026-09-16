@@ -21,4 +21,4 @@ relatedNodes: ["fractalism-collective", "grammar-of-pattern"]
 
 **Its Turning.** **The Roll Call** — say what actually binds this group, without using its name. What it builds: the name stays accountable to the substance.
 
-Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.
+Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

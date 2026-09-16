@@ -21,4 +21,4 @@ relatedNodes: ["belief-systems-built", "the-fold"]
 
 **Its Turning.** **The Why Behind** — trace one inherited practice back to why it started. What it builds: inheritance keeps its reasons attached.
 
-Catalogued in [The Seven Long Forms](/node/long-forms/), alongside every other figure at this scale.
+Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

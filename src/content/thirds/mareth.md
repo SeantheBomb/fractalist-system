@@ -10,10 +10,10 @@ fractal: {"type":"windswept","hue":"wind"}
 drawable: true
 parents: []
 relatedThirds: ["the-rising-bar", "the-sliding-floor", "ostrin"]
-relatedNodes: ["currents"]
+relatedNodes: ["self-kin"]
 ---
 
-**The Local Rule.** Judging against a reference point. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Judging against a reference point. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** A reference that makes judgment possible at all.
 
@@ -21,4 +21,4 @@ relatedNodes: ["currents"]
 
 **Its Turning.** **The Old Yardstick** — dig out a measure from years ago and compare honestly. What it builds: standards that moved without a decision become visible.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

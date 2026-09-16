@@ -98,10 +98,10 @@ NODES.forEach((n, i) => {
 // so the fusion column doubles as the related-figure graph.
 
 const TIERS = [
-  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'currents', catalogueTitle: 'The Twelve Currents', join: null },
-  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'meetings', catalogueTitle: 'The Nineteen Meetings', join: 'meeting in two people' },
-  { heading: '3. The Eleven Weaves — Skein Scale', kinship: 'skein', catalogue: 'weaves', catalogueTitle: 'The Eleven Weaves', join: 'sharing a person' },
-  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'long-forms', catalogueTitle: 'The Seven Long Forms', join: 'compounded past any one life' },
+  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'self-kin', catalogueTitle: 'The Self-Kin', join: null },
+  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'dyad-kin', catalogueTitle: 'The Dyad-Kin', join: 'meeting in two people' },
+  { heading: '3. The Eleven Weaves — Skein Scale', kinship: 'skein', catalogue: 'skein-kin', catalogueTitle: 'The Skein-Kin', join: 'sharing a person' },
+  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'culture-kin', catalogueTitle: 'The Culture-Kin', join: 'compounded past any one life' },
 ];
 
 // Turning tables in Part Seven, keyed by the figure they belong to.
@@ -207,7 +207,7 @@ figures.forEach((f, i) => {
   const link = (s) => `[${bySlug.get(s).name}](/thirds/${s}/)`;
   const lines = [];
   if (f.localRule) {
-    lines.push(`**The Local Rule.** ${f.localRule}. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.`);
+    lines.push(`**The Local Rule.** ${f.localRule}. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.`);
   } else if (selfFused && parentSlugs.length) {
     lines.push(`**${link(parentSlugs[0])}, fused with itself** — the same pattern running on both sides, ${f.join}. A figure's tier is what it's made of, not a rank it was given.`);
   } else if (parentSlugs.length) {

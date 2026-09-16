@@ -10,7 +10,7 @@ fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["rethen", "rethen"]
 relatedThirds: ["rethen", "cessant", "the-sagging-floor"]
-relatedNodes: ["meetings"]
+relatedNodes: ["dyad-kin"]
 ---
 
 **[Rethen](/thirds/rethen/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["meetings"]
 
 **Its Turning.** **Who Goes First** — a coin flip decides who speaks first about the unsaid thing. What it builds: stalemates break by structure, not willpower.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

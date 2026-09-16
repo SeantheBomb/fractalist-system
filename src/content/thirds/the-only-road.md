@@ -10,7 +10,7 @@ fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
 parents: ["the-inner-circle", "the-unbridged-gap"]
 relatedThirds: ["the-inner-circle", "the-unbridged-gap"]
-relatedNodes: ["weaves"]
+relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Inner Circle](/thirds/the-inner-circle/) and [The Unbridged Gap](/thirds/the-unbridged-gap/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["weaves"]
 
 **Its Turning.** **The Handover** — whoever everything routes through spends one gathering entirely absent, on purpose, with the group carrying on. What it builds: indispensability gets converted back into redundancy.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

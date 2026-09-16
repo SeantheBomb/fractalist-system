@@ -21,4 +21,4 @@ relatedNodes: ["do-i-understand-you"]
 
 **Its Turning.** **The Naming of Growth** — tell someone one thing you've watched grow in them. What it builds: growth gets witnessed.
 
-Catalogued in [The Nineteen Meetings](/node/meetings/), alongside every other figure at this scale.
+Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

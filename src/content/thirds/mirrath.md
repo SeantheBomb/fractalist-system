@@ -10,10 +10,10 @@ fractal: {"type":"windswept","hue":"wind"}
 drawable: true
 parents: []
 relatedThirds: ["reading-the-room", "the-echo", "the-unbridged-gap"]
-relatedNodes: ["currents"]
+relatedNodes: ["self-kin"]
 ---
 
-**The Local Rule.** Taking form from who is present. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Taking form from who is present. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** A self genuinely built by relationship.
 
@@ -21,4 +21,4 @@ relatedNodes: ["currents"]
 
 **Its Turning.** **The Empty Room** — a day alone, nothing posted, nothing reported back. What it builds: you find what's left when nobody's watching.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

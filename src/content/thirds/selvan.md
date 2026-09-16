@@ -10,10 +10,10 @@ fractal: {"type":"delta","hue":"water"}
 drawable: true
 parents: []
 relatedThirds: ["filling-the-gap", "the-guard", "typecasting", "the-unbridged-gap"]
-relatedNodes: ["currents"]
+relatedNodes: ["self-kin"]
 ---
 
-**The Local Rule.** Maintaining a self-story against evidence. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
+**The Local Rule.** Maintaining a self-story against evidence. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
 **Tending.** Conviction that enables commitment.
 
@@ -21,4 +21,4 @@ relatedNodes: ["currents"]
 
 **Its Turning.** **The Costume** — tell one person a story about yourself you're no longer sure is true. What it builds: self-stories stay testable.
 
-Catalogued in [The Twelve Currents](/node/currents/), alongside every other figure at this scale.
+Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

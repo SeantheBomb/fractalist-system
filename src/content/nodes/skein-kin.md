@@ -1,10 +1,10 @@
 ---
-title: "The Eleven Weaves — Skein Scale"
+title: "The Skein-Kin"
 part: "part-five"
 order: 45
 epigraph: "Two dyads that share a person. This is how a group becomes a thing rather than a list."
-summary: "Eleven group patterns, each built from two dyads that share a person — the mechanism by which a group becomes a thing rather than a list."
-related: ["long-forms", "the-skein", "group-practice"]
+summary: "Eleven group patterns, each built from two Dyad-Kin that share a person — the mechanism by which a group becomes a thing rather than a list."
+related: ["culture-kin", "the-skein", "group-practice"]
 ---
 
 | Weave | Dyads (shared person) | Tending | Fraying |

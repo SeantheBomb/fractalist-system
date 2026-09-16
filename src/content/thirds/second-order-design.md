@@ -10,7 +10,7 @@ fractal: {"type":"interweave","hue":"skein"}
 drawable: true
 parents: ["the-arrangement", "wevven"]
 relatedThirds: ["the-arrangement", "wevven", "dyren"]
-relatedNodes: ["weaves"]
+relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Arrangement](/thirds/the-arrangement/) and [Wevven](/thirds/wevven/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
@@ -21,4 +21,4 @@ relatedNodes: ["weaves"]
 
 **Its Turning.** **The Rule Game** — invent a game with three rules, play it, watch what emerges. What it builds: the group feels emergence rather than being told about it.
 
-Catalogued in [The Eleven Weaves](/node/weaves/), alongside every other figure at this scale.
+Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.
