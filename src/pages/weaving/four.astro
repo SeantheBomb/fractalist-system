@@ -75,6 +75,24 @@ import WeavingCard from '../../components/WeavingCard.astro';
       the kind of information one flat view would have missed.
     </p>
 
+    <section class="speeds">
+      <p class="eyebrow">Now ask the second question — at what speed am I looking at this?</p>
+      <div class="speed-btns">
+        <button type="button" data-speed="weather">Weather</button>
+        <button type="button" data-speed="climate" aria-pressed="true">Climate</button>
+        <button type="button" data-speed="terrain">Terrain</button>
+      </div>
+      <p class="speed-body" data-speed-body>
+        <strong>Climate</strong> is the season you're actually in — this year of the marriage, this
+        stretch of the job, this phase of the friendship. Most real decisions live here.
+      </p>
+      <p class="speed-caution">
+        A card drawn in distress will almost always <em>feel</em> like Terrain — catastrophe has a way
+        of presenting itself as permanent. Ask deliberately whether you've watched this long enough to
+        call it that. <a href="/node/weather-climate-terrain/">The full framing is here.</a>
+      </p>
+    </section>
+
     <div class="rings">
       <div class="ring culture-ring">
         <span class="ring-label">Culture</span>
@@ -157,6 +175,16 @@ import WeavingCard from '../../components/WeavingCard.astro';
   }
   .cosmos-aside p { font-size: 0.85rem; color: var(--muted); margin: 0.5rem 0 0; }
   .final-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; margin-top: 1.5rem; }
+  .speeds { margin: 1.8rem 0 0.5rem; border-top: 1px solid var(--line); padding-top: 1.2rem; }
+  .speed-btns { display: flex; gap: 0.5rem; margin: 0.6rem 0 0.9rem; flex-wrap: wrap; }
+  .speed-btns button {
+    font-family: var(--sans); font-size: 0.85rem; padding: 0.4rem 1rem;
+    border: 1px solid var(--line); border-radius: 99px; background: var(--bg2);
+    color: var(--muted); cursor: pointer;
+  }
+  .speed-btns button[aria-pressed="true"] { border-color: var(--accent); color: var(--ink); background: var(--bg3); }
+  .speed-body { font-size: 0.95rem; margin: 0; }
+  .speed-caution { font-size: 0.85rem; color: var(--muted); margin-top: 0.8rem; }
 </style>
 
 <script>
@@ -251,4 +279,19 @@ import WeavingCard from '../../components/WeavingCard.astro';
       );
     }
   }
+
+  // The second question from Part Six: the same card reads differently at three speeds.
+  const SPEEDS: Record<string, string> = {
+    weather: '<strong>Weather</strong> is now — this argument, this week, this mood. Weather changes without meaning much, and reading a card as weather keeps you from handing a verdict to a bad Tuesday.',
+    climate: "<strong>Climate</strong> is the season you're actually in — this year of the marriage, this stretch of the job, this phase of the friendship. Most real decisions live here.",
+    terrain: '<strong>Terrain</strong> is the shape underneath all of it — the pattern across every relationship you have had, not this one. Terrain moves, but on a scale where you will rarely watch it move.',
+  };
+  const speedBody = document.querySelector<HTMLElement>('[data-speed-body]');
+  document.querySelectorAll<HTMLButtonElement>('.speed-btns button').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.speed-btns button').forEach((b) => b.removeAttribute('aria-pressed'));
+      btn.setAttribute('aria-pressed', 'true');
+      if (speedBody) speedBody.innerHTML = SPEEDS[btn.dataset.speed!];
+    });
+  });
 </script>

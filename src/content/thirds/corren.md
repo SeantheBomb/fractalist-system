@@ -1,26 +1,23 @@
 ---
 name: "Corren"
-epithet: "Who Gives You the Whole Room"
-kinship: "dyad"
-order: 6
-epigraph: "Presence is a gift, not a given."
-personifies: "Presence as an active offering rather than a passive state — chosen every time, and paid for in being mistaken for effortless."
-tending: "Give this your whole, undivided attention — it's wanted, and it will be felt."
-fraying: "Presence given so freely it's being taken for granted rather than received as a gift."
-fractal: {"type":"mandala","hue":"dyad"}
+epithet: "Who Gives the Whole Room"
+kinship: "self"
+order: 11
+personifies: "The Local Rule: attending repeatedly to one thing among many."
+tending: "Attend to it; what you water grows."
+fraying: "So does whatever you keep confirming."
+fractal: {"type":"mandala","hue":"earth"}
 drawable: true
-relatedThirds: ["vessa", "wevven", "ostrin"]
+relatedThirds: ["vessa", "typecasting"]
 relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 ---
 
-Corren enters a room and, without any visible effort, becomes the only thing in it worth looking at — not through charisma exactly, more through a total absence of the usual half-attention most people bring into a conversation. When Corren listens, the listening is complete: no phone, no glance toward the door, no visible drafting of a response while the other person is still speaking.
+**The Local Rule.** Attending repeatedly to one thing among many. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.
 
-The mannerism people remember most: Corren repeats back the exact feeling behind what was just said, not the facts of it — *"you're not really asking about the schedule, you're asking whether you still matter to this plan"* — offered gently, and almost always correctly, in a way that makes the speaker feel unusually, sometimes uncomfortably, seen. Corren has never once been observed checking the time.
+**Tending.** What you attend to grows.
 
-The quirk, retold with real affection in the old tellings: Corren can sit through an hour of someone else's problem and, at the end of it, ask for nothing in return — no reciprocal turn, no "anyway, enough about me," content instead to have simply been fully present for the length of it. This isn't martyrdom. Corren genuinely doesn't experience the hour as a cost.
+**Fraying.** So does what you keep confirming.
 
-The flaw, stated rather than only admired: total presence given this freely, this often, eventually runs a real risk of being taken as infinite — a well people assume never needs tending because Corren never once asked it to be. The old cautionary tellings are not about Corren giving too little. They're about everyone around Corren forgetting, over enough years, that presence this complete was ever a gift instead of simply the temperature of the room.
+**Its Turning.** **The Watering** — name one thing you attended to all year, and what grew. What it builds: attention becomes a visible choice.
 
-*What this personifies:* presence as an active offering rather than a passive state — the exact practice described in "Do I Understand You Well Enough," made into a character who does it as naturally as breathing, and pays for that naturalness in being underestimated as effortless rather than chosen.
-
-*Ask:* Who deserves my whole attention today, and will actually feel it?
+Catalogued in [The Twelve Currents](/node/twelve-currents/), alongside every other figure at this scale.

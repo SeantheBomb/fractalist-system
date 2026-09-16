@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { NODES, THIRDS } from './manifest.mjs';
+import { NODES, THIRD_OVERRIDES } from './manifest.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const src = readFileSync(join(root, 'source', 'Fractalism_Complete.md'), 'utf8');
@@ -70,13 +70,11 @@ const y = (v) => JSON.stringify(v);
 const nodesDir = join(root, 'src', 'content', 'nodes');
 const thirdsDir = join(root, 'src', 'content', 'thirds');
 rmSync(nodesDir, { recursive: true, force: true });
+rmSync(thirdsDir, { recursive: true, force: true });
 mkdirSync(nodesDir, { recursive: true });
 mkdirSync(thirdsDir, { recursive: true });
 
 let missing = [];
-// Part Five stopped giving each Standing Third its own chapter, so a third whose
-// heading is gone keeps its committed file rather than being wiped.
-let preservedThirds = [];
 
 NODES.forEach((n, i) => {
   const raw = sections.get(n.heading);
@@ -95,34 +93,157 @@ NODES.forEach((n, i) => {
   writeFileSync(join(nodesDir, `${n.slug}.md`), `${fm}\n\n${body}\n`);
 });
 
-THIRDS.forEach((t, i) => {
-  const raw = sections.get(t.heading);
-  if (raw === undefined) { preservedThirds.push(t.slug); return; }
-  const { epigraph, body } = extractEpigraph(cleanBody(raw));
+// ---- STANDING THIRDS ----
+// Generated from Part Five's catalogue tables. A figure's tier is what it's made of,
+// so the fusion column doubles as the related-figure graph.
+
+const TIERS = [
+  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'twelve-currents', catalogueTitle: 'The Twelve Currents', join: null },
+  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'nineteen-meetings', catalogueTitle: 'The Nineteen Meetings', join: 'meeting in two people' },
+  { heading: '3. The Ten Weaves — Skein Scale', kinship: 'skein', catalogue: 'ten-weaves', catalogueTitle: 'The Ten Weaves', join: 'sharing a person' },
+  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'seven-long-forms', catalogueTitle: 'The Seven Long Forms', join: 'compounded past any one life' },
+];
+
+// Turning tables in Part Seven, keyed by the figure they belong to.
+const TURNING_SECTIONS = [
+  '2. The Twelve Private Turnings — Self',
+  '3. The Nineteen Meetings — Dyad',
+  '4. The Ten Gatherings — Skein',
+  '5. The Seven Great Days — Culture',
+];
+
+// Glyphs the book doesn't specify get one by tier; the generator is seeded per slug,
+// so figures sharing a type still render distinctly.
+const TIER_GLYPHS = {
+  self: [['flame', 'fire'], ['delta', 'water'], ['windswept', 'wind'], ['fern', 'earth'], ['spiralBloom', 'fire'], ['lattice', 'water']],
+  dyad: [['interweave', 'dyad'], ['lattice', 'dyad'], ['mandala', 'dyad'], ['hollowMandala', 'dyad'], ['chain', 'dyad']],
+  skein: [['spiralBloom', 'skein'], ['chain', 'skein'], ['carpet', 'skein'], ['interweave', 'skein'], ['lattice', 'skein']],
+  culture: [['chorus', 'culture'], ['ridge', 'culture'], ['driftTree', 'culture'], ['twinSpires', 'culture'], ['crystal', 'culture'], ['carpet', 'culture'], ['spiralBloom', 'culture']],
+};
+
+const SLUG_FIX = { 'The Infinite Boundary': 'infinite-boundary' };
+const slugify = (n) => SLUG_FIX[n] ?? n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+// Table rows, minus the header and separator lines.
+function tableRows(text) {
+  return text.split('\n')
+    .filter((l) => l.trim().startsWith('|') && !/^\|[-\s|]+\|?$/.test(l.trim()))
+    .map((l) => l.trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim()))
+    .filter((cells) => !/^(Current|Meeting|Weave|Long Form|Third)$/i.test(cells[0]));
+}
+
+function splitName(cell) {
+  const m = cell.match(/^\*\*(.+?)\*\*(?:,\s*(.+))?$/);
+  if (m) return { name: m[1].trim(), epithet: (m[2] || '').trim() };
+  return { name: cell.replace(/\*\*/g, '').trim(), epithet: '' };
+}
+
+// Card-voice readings live in Part Six's deck table, not the catalogue.
+const deckReadings = new Map();
+for (const cells of tableRows(sections.get('1. The Deck') ?? '')) {
+  if (cells.length >= 3) deckReadings.set(cells[0].replace(/\*\*/g, '').trim(), { tending: cells[1], fraying: cells[2] });
+}
+
+const turnings = new Map();
+for (const h of TURNING_SECTIONS) {
+  for (const cells of tableRows(sections.get(h) ?? '')) {
+    if (cells.length >= 3) turnings.set(cells[0].replace(/\*\*/g, '').trim(), { turning: cells[1], builds: cells[cells.length - 1] });
+  }
+}
+
+const figures = [];
+for (const tier of TIERS) {
+  const raw = sections.get(tier.heading);
+  if (raw === undefined) { missing.push(tier.heading); continue; }
+  tableRows(raw).forEach((cells, i) => {
+    const { name, epithet } = splitName(cells[0]);
+    const parents = tier.join
+      ? cells[1].split('+').map((s) => s.replace(/\*\*/g, '').trim()).filter(Boolean)
+      : [];
+    figures.push({
+      name, epithet, kinship: tier.kinship, catalogue: tier.catalogue,
+      catalogueTitle: tier.catalogueTitle, join: tier.join,
+      slug: slugify(name), localRule: tier.join ? null : cells[1],
+      parents, tendingLong: cells[2], frayingLong: cells[3],
+      glyph: TIER_GLYPHS[tier.kinship][i % TIER_GLYPHS[tier.kinship].length],
+    });
+  });
+}
+
+// The Cosmos figure is prose rather than a table row, and is never drawn.
+figures.push({
+  name: 'The Infinite Boundary', epithet: '', kinship: 'cosmos', catalogue: 'infinite-boundary-scale',
+  catalogueTitle: 'The Infinite Boundary', join: null,
+  slug: 'infinite-boundary', localRule: null, parents: [], drawable: false,
+  tendingLong: '', frayingLong: '', glyph: ['boundary', 'cosmos'],
+});
+
+const bySlug = new Map(figures.map((f) => [f.slug, f]));
+const childrenOf = new Map();
+for (const f of figures) {
+  for (const p of f.parents) {
+    const ps = slugify(p);
+    if (!childrenOf.has(ps)) childrenOf.set(ps, []);
+    if (!childrenOf.get(ps).includes(f.slug)) childrenOf.get(ps).push(f.slug);
+  }
+}
+
+figures.forEach((f, i) => {
+  const ov = THIRD_OVERRIDES[f.slug] ?? {};
+  const reading = deckReadings.get(f.name) ?? {};
+  const turning = turnings.get(f.name);
+  const parentSlugs = [...new Set(f.parents.map(slugify))].filter((s) => bySlug.has(s));
+  const related = [...new Set([...parentSlugs, ...(childrenOf.get(f.slug) ?? [])])].slice(0, 4);
+
+  const selfFused = f.parents.length === 2 && f.parents[0] === f.parents[1];
+  const personifies = f.localRule
+    ? `The Local Rule: ${f.localRule.charAt(0).toLowerCase()}${f.localRule.slice(1)}.`
+    : selfFused
+      ? `${f.parents[0]} fused with itself, ${f.join}.`
+      : f.parents.length
+        ? `${f.parents.join(' and ')}, ${f.join}.`
+        : 'Every figure above, aggregated and never averaged.';
+
+  const link = (s) => `[${bySlug.get(s).name}](/thirds/${s}/)`;
+  const lines = [];
+  if (f.localRule) {
+    lines.push(`**The Local Rule.** ${f.localRule}. This is a Current: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.`);
+  } else if (selfFused && parentSlugs.length) {
+    lines.push(`**${link(parentSlugs[0])}, fused with itself** — the same pattern running on both sides, ${f.join}. A figure's tier is what it's made of, not a rank it was given.`);
+  } else if (parentSlugs.length) {
+    lines.push(`**A fusion of ${parentSlugs.map(link).join(' and ')}**, ${f.join}. A figure's tier is what it's made of, not a rank it was given.`);
+  }
+  // The Cosmos figure is prose in the book rather than a table row, so it carries its own.
+  if (f.kinship === 'cosmos') {
+    const prose = extractEpigraph(cleanBody(sections.get('5. The Infinite Boundary — Cosmos Scale') ?? '')).body;
+    if (prose) lines.push(prose);
+  }
+  if (f.tendingLong) lines.push(`**Tending.** ${f.tendingLong}.`);
+  if (f.frayingLong) lines.push(`**Fraying.** ${f.frayingLong}.`);
+  if (turning) lines.push(`**Its Turning.** ${turning.turning}. What it builds: ${turning.builds.toLowerCase()}.`);
+  lines.push(`Catalogued in [${f.catalogueTitle}](/node/${f.catalogue}/), alongside every other figure at this scale.`);
+
   const fm = [
     '---',
-    `name: ${y(t.name)}`,
-    `epithet: ${y(t.epithet)}`,
-    `kinship: ${y(t.kinship)}`,
+    `name: ${y(f.name)}`,
+    `epithet: ${y(f.epithet)}`,
+    `kinship: ${y(f.kinship)}`,
     `order: ${i}`,
-    epigraph ? `epigraph: ${y(epigraph)}` : null,
-    `personifies: ${y(t.personifies)}`,
-    `tending: ${y(t.tending)}`,
-    `fraying: ${y(t.fraying)}`,
-    `fractal: ${JSON.stringify(t.fractal)}`,
-    `drawable: ${t.drawable === false ? 'false' : 'true'}`,
-    `relatedThirds: [${t.relatedThirds.map(y).join(', ')}]`,
-    `relatedNodes: [${t.relatedNodes.map(y).join(', ')}]`,
+    `personifies: ${y(personifies)}`,
+    reading.tending ? `tending: ${y(reading.tending)}` : null,
+    reading.fraying ? `fraying: ${y(reading.fraying)}` : null,
+    `fractal: ${JSON.stringify(ov.fractal ?? { type: f.glyph[0], hue: f.glyph[1] })}`,
+    `drawable: ${f.drawable === false ? 'false' : 'true'}`,
+    `relatedThirds: [${related.map(y).join(', ')}]`,
+    `relatedNodes: [${(ov.relatedNodes ?? [f.catalogue]).map(y).join(', ')}]`,
     '---',
   ].filter(Boolean).join('\n');
-  writeFileSync(join(thirdsDir, `${t.slug}.md`), `${fm}\n\n${body}\n`);
+  writeFileSync(join(thirdsDir, `${f.slug}.md`), `${fm}\n\n${lines.join('\n\n')}\n`);
 });
 
 if (missing.length) {
   console.error('MISSING HEADINGS:\n' + missing.map((m) => `  - ${m}`).join('\n'));
   process.exit(1);
 }
-console.log(`Wrote ${NODES.length} nodes and ${THIRDS.length - preservedThirds.length} thirds.`);
-if (preservedThirds.length) {
-  console.log(`Preserved ${preservedThirds.length} thirds with no chapter in the book: ${preservedThirds.join(', ')}`);
-}
+const drawable = figures.filter((f) => f.drawable !== false).length;
+console.log(`Wrote ${NODES.length} nodes and ${figures.length} thirds (${drawable} drawable).`);

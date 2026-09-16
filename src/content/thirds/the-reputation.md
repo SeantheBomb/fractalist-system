@@ -1,0 +1,23 @@
+---
+name: "The Reputation"
+epithet: ""
+kinship: "skein"
+order: 36
+personifies: "Typecasting and The Shared Story, sharing a person."
+tending: "The role lets the group rely on you."
+fraying: "You can't step out of what they authored."
+fractal: {"type":"spiralBloom","hue":"skein"}
+drawable: true
+relatedThirds: ["typecasting", "the-shared-story", "charten"]
+relatedNodes: ["ten-weaves"]
+---
+
+**A fusion of [Typecasting](/thirds/typecasting/) and [The Shared Story](/thirds/the-shared-story/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+
+**Tending.** A role that lets a group rely on you.
+
+**Fraying.** A role authored by the group that you can't step out of.
+
+**Its Turning.** **The Recasting** — each names a role in the group they're tired of holding. What it builds: group-authored roles can be returned.
+
+Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.

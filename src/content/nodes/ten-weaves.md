@@ -4,7 +4,7 @@ part: "part-five"
 order: 45
 epigraph: "Two dyads that share a person. This is how a group becomes a thing rather than a list."
 summary: "Ten group patterns, each built from two dyads that share a person — the mechanism by which a group becomes a thing rather than a list."
-related: ["six-long-forms", "the-skein", "group-practice"]
+related: ["seven-long-forms", "the-skein", "group-practice"]
 ---
 
 | Weave | Dyads (shared person) | Tending | Fraying |

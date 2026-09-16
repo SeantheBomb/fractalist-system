@@ -74,7 +74,7 @@
 - 1. The Twelve Currents — Self Scale
 - 2. The Nineteen Meetings — Dyad Scale
 - 3. The Ten Weaves — Skein Scale
-- 4. The Six Long Forms — Culture Scale
+- 4. The Seven Long Forms — Culture Scale
 - 5. The Infinite Boundary — Cosmos Scale
 - 6. What This Catalogue Is Not
 - 7. Going to Ground
@@ -102,7 +102,7 @@
 - 2. The Twelve Private Turnings — Self
 - 3. The Nineteen Meetings — Dyad
 - 4. The Ten Gatherings — Skein
-- 5. The Six Great Days — Culture
+- 5. The Seven Great Days — Culture
 - 6. The Long Visitor — Cosmos
 - 7. Anchoring to What Already Turns
 - 8. Practicing Inside Someone Else's Calendar
@@ -113,6 +113,10 @@
 - B. Quick Reference Card
 - C. The Loom — The Complete Reference
 - D. Source Library
+
+---
+
+---
 
 ---
 
@@ -282,7 +286,7 @@ Hold onto one sentence from here forward, because it's easy to lose and worth th
 
 *"Behind every system of action is a system of beliefs."*
 
-Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory. One clarification worth making before the list itself: the self doesn't get a pillar of its own. That's not an oversight. The self is the Third Thing pillar, pointed at one particular thing — the person doing the reading — rather than a genuinely independent claim of its own. It still gets its own full chapter, next, and earns that chapter by being the clearest possible example of pillar II, not by standing apart from it.
+Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory.
 
 **I. The Loop.** *Small things, repeated without a master plan, build large things.* This is the engine. Nothing skips this step. Every fern, every habit, every empire got built this way. There is no shortcut where something large arrives without first being something small, repeated.
 
@@ -1021,7 +1025,7 @@ You don't finish this part of the book. You close the loop, and it starts again,
 
 Part Two gave you practices to do alone. This part gives you something to do with another person: a small, learnable way of speaking that's built specifically for the moments when ordinary sentences quietly lose the thing you're trying to say.
 
-This is the newest part of Fractalism, and before any of it: it's not finished, and it isn't supposed to look finished. A language built by one person in one sitting would be exactly the wrong kind of object for a belief system built on the idea that anything worth having gets built iteratively, by many hands, over time. What follows is a working draft — precise enough to actually use starting today, honest enough to admit where it still needs more repetition before it holds its shape.
+This is the least settled part of Fractalism, and before any of it: it's not finished, and it isn't supposed to look finished. A language built by one person in one sitting would be exactly the wrong kind of object for a belief system built on the idea that anything worth having gets built iteratively, by many hands, over time. What follows is a working draft — precise enough to actually use starting today, honest enough to admit where it still needs more repetition before it holds its shape.
 
 ---
 
@@ -1525,7 +1529,7 @@ Each of these is two currents, running in two people, producing something belong
 
 ---
 
-## 4. The Six Long Forms — Culture Scale
+## 4. The Seven Long Forms — Culture Scale
 
 *"Slow enough that no single life sees one turn completely."*
 
@@ -1537,6 +1541,7 @@ Each of these is two currents, running in two people, producing something belong
 | **The Long Cycle** | First-Arriver Lock-In + The Shared Pot | Expansion that genuinely builds | The same mechanism past threshold, consuming what it built |
 | **Waeth**, the Traveler Who Forgets on Purpose | Quillith + Handrel | Inherited knowledge that works without needing its explanation | Inherited knowledge hollow of the reason it ever existed |
 | **Aestren**, Who Was Already Walking | The Sagging Floor + The Hall of Mirrors | Continuity outlasting any single life's turbulence | Change too slow to perceive, mistaken for permanence |
+| **Dyren**, Who Was Never Taught | Second-Order Design + Second-Order Design | The same answer reached twice with no contact between the finders — real evidence, because no path connects them | Parallel bias mistaken for independent confirmation, or an honest arrival dismissed as unoriginal |
 
 *Note on this tier: it is three inference-layers deep, built by composing weaves rather than observed directly. Treat it as the most provisional part of this catalogue.*
 
@@ -1644,47 +1649,79 @@ A **Weaving** is a structured way of taking several orthographic views of one si
 
 *"A card is a name, not a fact."*
 
-The full working deck is the complete drawable roster from Part Five — forty-seven figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
+The full working deck is the complete drawable roster from Part Five — forty-eight figures across four drawable tiers, each carrying two readings, Tending and Fraying, described fully in the next chapter — plus the Infinite Boundary, which is never drawn at all. For scale: a tarot deck runs seventy-eight cards and a poker deck fifty-two, so this is a smaller object than either, and for the same reason both of those work. A deck large enough that no two Weavings repeat is doing something a short list cannot.
 
 What follows is a compressed reference, not a replacement for Part Five's catalogue — read there for the mechanism and the fusion lineage; use this when you're actually weaving and need the meaning at a glance.
 
-**The Self-Kin** *(innermost ring)*
+**The Currents** *(innermost ring — Self)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Cindar | Start it. Momentum is available and worth spending. | Burning through something faster than it can be replaced; check what's being consumed rather than built. |
-| Rethen | Pull back toward the middle; enough has happened for now. | Correcting or dampening something that hadn't finished compounding yet. |
-| Sythen | Trust the instinct arriving ahead of the proof. | Acting on a hunch nobody else can see yet, and resenting them for not believing it. |
-| Loum | Let this sit. What looks finished is still becoming something. | Using patience as an excuse to avoid a decision that's actually due now. |
+| Cindar | Start it; momentum is available and worth spending. | Burning through something faster than it can be replaced. |
+| Rethen | Pull back. Enough has happened for now. | Stopping something that hadn't finished compounding. |
+| Mareth | You have a reference point, and it still holds. | Measuring against a mark that stopped being true. |
+| Solven | A stopgap here buys time you genuinely need. | The patch has replaced the capacity it was covering. |
+| Sythen | Trust the read arriving ahead of the proof. | Vividness is impersonating frequency. |
+| Kessin | Compress it; the story is worth being tellable. | The account has drifted from what was lived. |
+| Dorrin | An easier question is the only way in right now. | You're answering something nobody asked. |
+| Selvan | Hold the conviction; it's what makes commitment possible. | You can't see around the story anymore. |
+| Mirrath | Let the room shape you; that's real responsiveness. | There's no position of yours left anywhere. |
+| Nammeth | Say it; the naming builds something real. | The naming is building something against you. |
+| Loum | Change the conditions, not the willpower. | You can't act at all once conditions shift. |
+| Corren | Attend to it; what you water grows. | So does whatever you keep confirming. |
 
-**The Dyad-Kin** *(second ring)*
-
-| Third | Tending | Fraying |
-|---|---|---|
-| Wevven | Close this gap now, honestly, even if the words aren't perfect. | Repairing something that hasn't finished being honestly examined first. |
-| Ostrin | Test this before trusting it; an untested yes isn't trust yet. | Turning a relationship into a permanent negotiation that never resolves into trust. |
-| Corren | Give this your whole, undivided attention — it's wanted, and it will be felt. | Presence given so freely it's being taken for granted rather than received as a gift. |
-| Vessa | Check whether you're actually listening, or just producing the shape of listening. | Being heard technically while going fundamentally unanswered — on either side of the exchange. |
-
-**The Skein-Kin** *(third ring)*
-
-| Third | Tending | Fraying |
-|---|---|---|
-| Quillith | This story is growing in the telling; notice what it's becoming. | A story has drifted past what actually happened, and the drift is doing harm. |
-| Handrel | Pass this on faithfully; what you carry is worth carrying unchanged. | Transmission is stalled — something worth passing on is being hoarded or lost. |
-| Cessant | Notice who's staying quiet, including you, and what that silence is currently permitting. | A silence has already done real, specific harm; naming it is overdue. |
-
-**The Culture-Kin** *(outermost drawable ring)*
+**The Meetings** *(second ring — Dyad)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Charten | Name the "we" plainly; a group this size needs the shared story to function. | Something is being justified only because "we" said it, with no one specific answerable for it. |
-| Aestren | This pattern is larger and slower than you; let it run its actual course. | Something is being excused as "too big to matter" when it's actually close enough to address. |
-| Waeth | This pattern survives by changing a little in the telling — let it drift rather than demanding perfect fidelity. | Something is being distorted past recognition in the retelling; check what's been quietly added or lost. |
-| Dyren | This conclusion doesn't need outside validation — it's been arrived at honestly, on its own merits. | Something genuinely earned is being dismissed as obvious or unoriginal; don't let convergence read as unoriginality. |
-| Sethra | Something here deserves to be fixed, plainly and permanently, rather than left to drift. | A fixed rule is being followed past the point of sense, with no allowance for the room it should have been read in. |
+| Escalation | Both of you are rising; let it run. | An arms race neither chose and neither can exit. |
+| The Standoff | You're giving each other room. | Both waiting, both calling the stalemate patience. |
+| Wevven | One drives, one steadies — a real division. | Each resenting the role the other left them. |
+| Vessa | Your attention is growing what's best in them. | It's growing whatever you keep confirming instead. |
+| Answering For | Give the expertise; it's genuinely needed. | You're preventing them developing their own. |
+| Filling the Gap | Assume, and act without constant checking. | You're in a relationship with someone who isn't there. |
+| The Guard | The boundary is protecting something real. | The armor is preventing what it was protecting. |
+| Reading the Room | The feeling in the room is real data. | You've mistaken your reaction for their state. |
+| Connection First | Warmth first; then it can land. | Warmth is substituting for having something to say. |
+| The Rising Bar | The standard rose because you did. | Nothing will ever be sufficient at this rate. |
+| The Sliding Floor | The standard adjusted honestly. | It's eroding, every step small enough to miss. |
+| The Shared Story | A joint memory binding you to something real. | Neither of you actually had this event. |
+| The Echo | You're genuinely shaped by each other. | There's no fixed position anywhere between you. |
+| Typecasting | Seeing them as capable until they become it. | Seeing them as one thing until they can't be another. |
+| Gaming the Terms | You've found real slack in a bad agreement. | The letter is satisfied and the purpose is hollow. |
+| The Naming Contest | You're building a shared vocabulary. | Naming has replaced resolving. |
+| The Unbridged Gap | Your fluency comes from real depth. | You can't model a mind that lacks your context. |
+| The Arrangement | Conditions shaped so the right thing is easy. | Neither choosing; both managing the other. |
+| Ostrin | Test the terms before agreeing to them. | The testing has become the relationship. |
 
-**The Cosmos-Kin — never drawn.** The Infinite Boundary is the one figure in this whole deck that never gets pulled from anything, because there's only one of it and it's already true of every Weaving before a single card is turned over. It isn't a fifth ring. It's the edge the other four rings already sit inside, present by default, worth naming once at the start of a Weaving rather than drawn as a variable within it — a reminder that whatever the four cards show, the whole reading is still one small, summed part of something no card was ever going to capture on its own.
+**The Weaves** *(third ring — Skein)*
+
+| Third | Tending | Fraying |
+|---|---|---|
+| Cessant | Discretion is letting the group survive friction. | Everyone knows; no one can be first to say it. |
+| Quillith | The story survives by adapting to each teller. | It has drifted free of what it started as. |
+| Handrel | Pass it on, and credit who taught you. | Dependence is passing along with the craft. |
+| First-Arriver Lock-In | What works is being rewarded. | Whoever arrived first is entrenched regardless. |
+| The Shared Pot | Trust makes accounting unnecessary here. | Nobody is positioned to protect it. |
+| The Reputation | The role lets the group rely on you. | You can't step out of what they authored. |
+| The Sagging Floor | Expectations adjusted to real conditions. | Standards eroding while everyone feels reasonable. |
+| The Hall of Mirrors | The group is genuinely responsive to itself. | No independent position anywhere in it. |
+| Second-Order Design | Emergence richer than anyone could author. | Emergence nobody intended or wanted. |
+| The Inner Circle | Shared fluency makes real work fast. | The fluency has become a wall. |
+
+**The Long Forms** *(outermost drawable ring — Culture)*
+
+| Third | Tending | Fraying |
+|---|---|---|
+| Charten | The name binds people genuinely connected. | It binds people with nothing underneath it. |
+| Proxy Detachment | The measure makes a vast system legible. | It's optimized past what it stood for. |
+| Policy Resistance | Stability no single actor could impose. | Everyone pulling harder; nothing moving. |
+| The Long Cycle | The expansion is genuinely building. | Past threshold, consuming what it built. |
+| Waeth | Inheritance that works without its explanation. | Inheritance hollow of why it ever existed. |
+| Aestren | Larger and slower than you; let it run. | Too slow to perceive, mistaken for permanent. |
+| Dyren | Reached twice, with no contact — real evidence. | Parallel bias mistaken for confirmation. |
+
+**The Cosmos-Kin — never drawn.** The Infinite Boundary is the one figure in this whole deck that never gets pulled from anything, because there's only one of it and it's already true of every Weaving before a single card is turned over. It isn't a ring of its own. It's the edge the other four rings already sit inside, present by default, worth naming once at the start of a Weaving rather than drawn as a variable within it — a reminder that whatever the four cards show, the whole reading is still one small, summed part of something no card was ever going to capture on its own.
 
 ---
 
@@ -1848,7 +1885,7 @@ Something is marked, returned to, held apart from ordinary time, again and again
 
 But this book also has no history to commemorate, and manufacturing one would betray everything Part One already said about Genesis: known myth, not revealed fact, useful for the shape it gives an idea, never mistaken for something that actually happened. A ceremony built to honor a founding event this practice doesn't have would be the exact move this book has spent its whole length teaching you to distrust — a Label, pushed into place because a real history was missing and a fake one felt better than none.
 
-So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — which is exactly Sethra's shape, a fixed form defended because it's always been done, vulnerable to outliving the reason it started. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
+So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — a fixed form defended because it has always been done, vulnerable to outliving the reason it started — Waeth's Fraying pole exactly, inheritance kept long after its reasons went missing. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
 
 This reframe is not merely more honest. It changes what the occasion is actually for. "We do this because it's always been done" asks nothing of you except attendance. "We do this because of what it's still building, together, that none of us will see completed alone" asks something closer to what Becoming a Third already asks of a whole life — that you're laying material into a shape larger than your own participation in it, on purpose, without needing to witness its completion to consider the laying worthwhile.
 
@@ -1956,7 +1993,7 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 
 ---
 
-## 5. The Six Great Days — Culture
+## 5. The Seven Great Days — Culture
 
 *"Fixed to the sky, because the sky keeps its own appointments."*
 
@@ -1968,6 +2005,7 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 | The Long Cycle | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
 | Waeth | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
 | Aestren | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
+| Dyren | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
 
 *Anchor honestly to your own place. Solstices and equinoxes are genuinely felt where seasons swing; near the equator they barely register. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live."*
 
@@ -2134,7 +2172,13 @@ A Skein and a Banner fused: real substance that has also acquired a visible name
 What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.
 
 **The Standing Thirds, at a glance**
-*Self-Kin, one closed cycle:* Cindar/Fire (reinforcing), Rethen/Water (balancing), Sythen/Wind (naming and defusing, ahead of proof), Loum/Earth (compost — feeds Cindar, receives Rethen's return). *Dyad-Kin:* Wevven (repair) and Ostrin (trust-testing) as one axis; Corren (presence offered) and Vessa (presence performed) as a second. *Skein-Kin:* Quillith (rumor, drifts toward flattery), Handrel (transmission, held faithfully still), and Cessant (complicit silence — the one deliberately dark figure). *Culture-Kin:* Charten (the invented "we" that binds millions who will never meet), Aestren (non-intervention at a scale so vast that harm and blessing both wash out of it — the same root quality as Cessant, one kinship up), Waeth (drift in retelling at Culture scale — Quillith's own mechanism, one scale up), Dyren (independent arising with no shared road between the finders), and Sethra (a pattern fixed once, in a record, with no drift and no second chance if the record is lost). *Cosmos-Kin, exactly one figure:* the Infinite Boundary (not a being who watches the universe — the shape the universe makes once every part of it is finally summed). None has independent will — only perceived behavior, consistent enough to earn a face.
+Forty-nine figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
+*Twelve Currents (Self), generated directly by one person repeating one thing:* Cindar (reinforcing), Rethen (balancing), Mareth (judging against a reference), Solven (reaching for the symptom-fix), Sythen (judging by what arrives first), Kessin (storing peak and ending), Dorrin (answering the easier question), Selvan (maintaining a self-story), Mirrath (taking the shape of the room), Nammeth (speaking as construction), Loum (shaping conditions), Corren (attending repeatedly).
+*Nineteen Meetings (Dyad), my current meeting yours:* Escalation, The Standoff, Wevven, Vessa, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, Ostrin.
+*Ten Weaves (Skein), two Meetings sharing a person:* Cessant, Quillith, Handrel, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle.
+*Seven Long Forms (Culture):* Charten, Proxy Detachment, Policy Resistance, The Long Cycle, Waeth, Aestren, Dyren.
+*One Cosmos figure:* the Infinite Boundary — not a being who watches the universe, but the shape the universe makes once every part of it is summed. The only figure with no poles, because a pole must be read from somewhere outside, and there is no outside here.
+None has independent will — only perceived behavior, consistent enough to earn a face.
 
 **Weaving, in brief**
 A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its healthy expression) or Fraying (its own named flaw), decided by context, not chance. Describes a pattern; never predicts an outcome or hands you a decision.

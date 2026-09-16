@@ -1,0 +1,23 @@
+---
+name: "The Hall of Mirrors"
+epithet: ""
+kinship: "skein"
+order: 38
+personifies: "The Echo and Reading the Room, sharing a person."
+tending: "The group is genuinely responsive to itself."
+fraying: "No independent position anywhere in it."
+fractal: {"type":"carpet","hue":"skein"}
+drawable: true
+relatedThirds: ["the-echo", "reading-the-room", "aestren"]
+relatedNodes: ["ten-weaves"]
+---
+
+**A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+
+**Tending.** A group genuinely responsive to itself.
+
+**Fraying.** A group with no independent position anywhere in it.
+
+**Its Turning.** **The Outsider** — invite someone outside and let them describe what they see. What it builds: an independent position enters the room.
+
+Catalogued in [The Ten Weaves](/node/ten-weaves/), alongside every other figure at this scale.
