@@ -702,26 +702,24 @@ export const NODES = [
 
 // ---- STANDING THIRDS ----
 // The roster itself is generated from Part Five's catalogue tables by split-book.mjs.
-// This map only carries what the book doesn't specify: the glyph each figure is drawn
-// with, and curated links out to chapters. Figures absent here get a glyph by tier.
+// This map only carries what the book doesn't specify: curated links out to chapters.
 export const THIRD_OVERRIDES = {
-  cindar:   { fractal: { type: 'flame', hue: 'fire' },        relatedNodes: ['reading-your-own-cycle'] },
-  rethen:   { fractal: { type: 'delta', hue: 'water' },       relatedNodes: ['reading-your-own-cycle'] },
-  sythen:   { fractal: { type: 'windswept', hue: 'wind' },    relatedNodes: ['naming-and-defusing'] },
-  loum:     { fractal: { type: 'fern', hue: 'earth' },        relatedNodes: ['the-compost-heap', 'going-to-ground'] },
-  corren:   { fractal: { type: 'mandala', hue: 'earth' },     relatedNodes: ['do-i-understand-you', 'weaving-for-another'] },
-  wevven:   { fractal: { type: 'interweave', hue: 'dyad' },   relatedNodes: ['the-second-pass', 'the-dyad'] },
-  ostrin:   { fractal: { type: 'lattice', hue: 'dyad' },      relatedNodes: ['the-trust-triangle'] },
-  vessa:    { fractal: { type: 'hollowMandala', hue: 'dyad' },relatedNodes: ['do-i-understand-you'] },
-  quillith: { fractal: { type: 'spiralBloom', hue: 'skein' }, relatedNodes: ['the-skein', 'belief-systems-built'] },
-  handrel:  { fractal: { type: 'chain', hue: 'skein' },       relatedNodes: ['the-skein'] },
-  cessant:  { fractal: { type: 'carpet', hue: 'skein' },      relatedNodes: ['the-skein', 'fractal-resistance'] },
-  charten:  { fractal: { type: 'chorus', hue: 'culture' },    relatedNodes: ['fractalism-collective', 'grammar-of-pattern'] },
-  aestren:  { fractal: { type: 'ridge', hue: 'culture' },     relatedNodes: ['scale-tagging', 'fractalism-collective'] },
-  waeth:    { fractal: { type: 'driftTree', hue: 'culture' }, relatedNodes: ['belief-systems-built', 'the-fold'] },
-  dyren:    { fractal: { type: 'twinSpires', hue: 'culture' },relatedNodes: ['belief-systems-built', 'going-to-ground'] },
+  cindar:   { relatedNodes: ['reading-your-own-cycle'] },
+  rethen:   { relatedNodes: ['reading-your-own-cycle'] },
+  sythen:   { relatedNodes: ['naming-and-defusing'] },
+  loum:     { relatedNodes: ['the-compost-heap', 'going-to-ground'] },
+  corren:   { relatedNodes: ['do-i-understand-you', 'weaving-for-another'] },
+  wevven:   { relatedNodes: ['the-second-pass', 'the-dyad'] },
+  ostrin:   { relatedNodes: ['the-trust-triangle'] },
+  vessa:    { relatedNodes: ['do-i-understand-you'] },
+  quillith: { relatedNodes: ['the-skein', 'belief-systems-built'] },
+  handrel:  { relatedNodes: ['the-skein'] },
+  cessant:  { relatedNodes: ['the-skein', 'fractal-resistance'] },
+  charten:  { relatedNodes: ['fractalism-collective', 'grammar-of-pattern'] },
+  aestren:  { relatedNodes: ['scale-tagging', 'fractalism-collective'] },
+  waeth:    { relatedNodes: ['belief-systems-built', 'the-fold'] },
+  dyren:    { relatedNodes: ['belief-systems-built', 'going-to-ground'] },
   'infinite-boundary': {
-    fractal: { type: 'boundary', hue: 'cosmos' },
     relatedNodes: ['the-mathematics', 'going-to-ground', 'becoming-a-third', 'systems-theory'],
   },
 };

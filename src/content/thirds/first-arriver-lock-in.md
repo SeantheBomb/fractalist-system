@@ -6,7 +6,6 @@ order: 34
 personifies: "The Rising Bar and Escalation, sharing a person."
 tending: "What works is being rewarded."
 fraying: "Whoever arrived first is entrenched regardless."
-fractal: {"type":"interweave","hue":"skein"}
 drawable: true
 parents: ["the-rising-bar", "escalation"]
 relatedThirds: ["the-rising-bar", "escalation", "the-long-cycle"]

@@ -6,7 +6,6 @@ order: 32
 personifies: "The Naming Contest and Filling the Gap, sharing a person."
 tending: "The story survives by adapting to each teller."
 fraying: "It has drifted free of what it started as."
-fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
 parents: ["the-naming-contest", "filling-the-gap"]
 relatedThirds: ["the-naming-contest", "filling-the-gap", "waeth"]

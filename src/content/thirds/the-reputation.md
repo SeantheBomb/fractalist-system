@@ -6,7 +6,6 @@ order: 36
 personifies: "Typecasting and The Shared Story, sharing a person."
 tending: "The role lets the group rely on you."
 fraying: "You can't step out of what they authored."
-fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
 parents: ["typecasting", "the-shared-story"]
 relatedThirds: ["typecasting", "the-shared-story", "charten"]

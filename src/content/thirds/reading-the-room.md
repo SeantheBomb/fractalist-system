@@ -6,7 +6,6 @@ order: 19
 personifies: "Sythen and Mirrath, meeting in two people."
 tending: "The feeling in the room is real data."
 fraying: "You've mistaken your reaction for their state."
-fractal: {"type":"mandala","hue":"dyad"}
 drawable: true
 parents: ["sythen", "mirrath"]
 relatedThirds: ["sythen", "mirrath", "the-hall-of-mirrors"]

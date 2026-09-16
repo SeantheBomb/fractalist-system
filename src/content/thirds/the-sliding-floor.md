@@ -6,7 +6,6 @@ order: 22
 personifies: "Mareth and Rethen, meeting in two people."
 tending: "The standard adjusted honestly."
 fraying: "It's eroding, every step small enough to miss."
-fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["mareth", "rethen"]
 relatedThirds: ["mareth", "rethen", "the-sagging-floor"]

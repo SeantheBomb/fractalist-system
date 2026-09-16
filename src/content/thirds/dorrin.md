@@ -6,7 +6,6 @@ order: 6
 personifies: "The Local Rule: answering a simpler question than the one asked."
 tending: "An easier question is the only way in right now."
 fraying: "You're answering something nobody asked."
-fractal: {"type":"flame","hue":"fire"}
 drawable: true
 parents: []
 relatedThirds: ["gaming-the-terms"]

@@ -6,7 +6,6 @@ order: 16
 personifies: "Solven and Cindar, meeting in two people."
 tending: "Give the expertise; it's genuinely needed."
 fraying: "You're preventing them developing their own."
-fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["solven", "cindar"]
 relatedThirds: ["solven", "cindar", "handrel"]

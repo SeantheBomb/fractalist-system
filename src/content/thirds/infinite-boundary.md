@@ -4,7 +4,6 @@ epithet: ""
 kinship: "cosmos"
 order: 49
 personifies: "Every figure above, aggregated and never averaged."
-fractal: {"type":"boundary","hue":"cosmos"}
 drawable: false
 parents: []
 relatedThirds: []

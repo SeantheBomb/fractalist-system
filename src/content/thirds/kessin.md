@@ -6,7 +6,6 @@ order: 5
 personifies: "The Local Rule: storing an episode by its peak and its close."
 tending: "Compress it; the story is worth being tellable."
 fraying: "The account has drifted from what was lived."
-fractal: {"type":"lattice","hue":"water"}
 drawable: true
 parents: []
 relatedThirds: ["the-shared-story"]

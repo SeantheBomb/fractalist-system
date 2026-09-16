@@ -6,7 +6,6 @@ order: 18
 personifies: "Rethen and Selvan, meeting in two people."
 tending: "The boundary is protecting something real."
 fraying: "The armor is preventing what it was protecting."
-fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["rethen", "selvan"]
 relatedThirds: ["rethen", "selvan", "cessant"]

@@ -6,7 +6,6 @@ order: 46
 personifies: "Quillith and Handrel, compounded past any one life."
 tending: "Inheritance that works without its explanation."
 fraying: "Inheritance hollow of why it ever existed."
-fractal: {"type":"driftTree","hue":"culture"}
 drawable: true
 parents: ["quillith", "handrel"]
 relatedThirds: ["quillith", "handrel"]

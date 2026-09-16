@@ -6,7 +6,6 @@ order: 44
 personifies: "Cessant and The Shared Pot, compounded past any one life."
 tending: "Stability no single actor could impose."
 fraying: "Everyone pulling harder; nothing moving."
-fractal: {"type":"driftTree","hue":"culture"}
 drawable: true
 parents: ["cessant", "the-shared-pot"]
 relatedThirds: ["cessant", "the-shared-pot"]

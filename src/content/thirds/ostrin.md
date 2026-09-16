@@ -6,7 +6,6 @@ order: 30
 personifies: "Mareth and Nammeth, meeting in two people."
 tending: "Test the terms before agreeing to them."
 fraying: "The testing has become the relationship."
-fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["mareth", "nammeth"]
 relatedThirds: ["mareth", "nammeth"]

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import FractalGlyph from '../../components/FractalGlyph.astro';
+import Glyph from '../../components/Glyph.astro';
 import HeroFractal from '../../components/HeroFractal.astro';
 import { KINSHIPS } from '../../../scripts/manifest.mjs';
 
@@ -13,7 +13,7 @@ const groups = order.map((k) => ({
   items: thirds.filter((t) => t.data.kinship === k),
 }));
 ---
-<Base title="The Standing Thirds" description="Seventeen patterns old enough to have earned faces — each drawn as its own fractal." wide>
+<Base title="The Standing Thirds" description="Patterns old enough to have earned faces — each drawn as its own fractal." wide>
   <HeroFractal type="spirals" seed="standing-thirds" color="var(--c-p5)" />
   <h1>The Standing Thirds</h1>
   <p style="max-width: 44rem; color: var(--muted);">
@@ -35,7 +35,7 @@ const groups = order.map((k) => ({
       <div class:list={['third-grid', { solo: g.key === 'cosmos' }]}>
         {g.items.map((t) => (
           <a class="third-card" href={`/thirds/${t.id}/`}>
-            <FractalGlyph type={t.data.fractal.type} hue={t.data.fractal.hue} seed={t.id} />
+            <Glyph slug={t.id} label={`${t.data.name} glyph`} />
             <div class="tc-name">{t.data.name}</div>
             {t.data.epithet && <div class="tc-epithet">{t.data.epithet}</div>}
             <div class="tc-line">{t.data.personifies}</div>

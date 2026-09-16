@@ -6,7 +6,6 @@ order: 0
 personifies: "The Local Rule: an output becomes the next input."
 tending: "Start it; momentum is available and worth spending."
 fraying: "Burning through something faster than it can be replaced."
-fractal: {"type":"flame","hue":"fire"}
 drawable: true
 parents: []
 relatedThirds: ["escalation", "wevven", "vessa", "answering-for"]

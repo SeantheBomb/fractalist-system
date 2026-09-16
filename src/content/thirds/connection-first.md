@@ -6,7 +6,6 @@ order: 20
 personifies: "Nammeth and Rethen, meeting in two people."
 tending: "Warmth first; then it can land."
 fraying: "Warmth is substituting for having something to say."
-fractal: {"type":"hollowMandala","hue":"dyad"}
 drawable: true
 parents: ["nammeth", "rethen"]
 relatedThirds: ["nammeth", "rethen"]

@@ -6,7 +6,6 @@ order: 9
 personifies: "The Local Rule: speaking as though words build what follows."
 tending: "Say it; the naming builds something real."
 fraying: "The naming is building something against you."
-fractal: {"type":"fern","hue":"earth"}
 drawable: true
 parents: []
 relatedThirds: ["connection-first", "the-naming-contest", "ostrin"]

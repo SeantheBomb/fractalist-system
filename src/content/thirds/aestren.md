@@ -6,7 +6,6 @@ order: 47
 personifies: "The Sagging Floor and The Hall of Mirrors, compounded past any one life."
 tending: "Larger and slower than you; let it run."
 fraying: "Too slow to perceive, mistaken for permanent."
-fractal: {"type":"ridge","hue":"culture"}
 drawable: true
 parents: ["the-sagging-floor", "the-hall-of-mirrors"]
 relatedThirds: ["the-sagging-floor", "the-hall-of-mirrors"]

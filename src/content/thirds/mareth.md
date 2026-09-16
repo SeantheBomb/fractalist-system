@@ -6,7 +6,6 @@ order: 2
 personifies: "The Local Rule: judging against a reference point."
 tending: "You have a reference point, and it still holds."
 fraying: "Measuring against a mark that stopped being true."
-fractal: {"type":"windswept","hue":"wind"}
 drawable: true
 parents: []
 relatedThirds: ["the-rising-bar", "the-sliding-floor", "ostrin"]

@@ -6,7 +6,6 @@ order: 24
 personifies: "Mirrath fused with itself, meeting in two people."
 tending: "You're genuinely shaped by each other."
 fraying: "There's no fixed position anywhere between you."
-fractal: {"type":"mandala","hue":"dyad"}
 drawable: true
 parents: ["mirrath", "mirrath"]
 relatedThirds: ["mirrath", "the-hall-of-mirrors"]

@@ -6,7 +6,6 @@ order: 38
 personifies: "The Echo and Reading the Room, sharing a person."
 tending: "The group is genuinely responsive to itself."
 fraying: "No independent position anywhere in it."
-fractal: {"type":"carpet","hue":"skein"}
 drawable: true
 parents: ["the-echo", "reading-the-room"]
 relatedThirds: ["the-echo", "reading-the-room", "aestren"]

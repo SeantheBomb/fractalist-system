@@ -154,6 +154,9 @@ th { font-family: var(--sans); font-size: 0.78em; text-transform: uppercase; let
 .site-footer .inner { max-width: 62rem; margin: 0 auto; padding: 1.5rem 1.25rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
 .site-footer a { color: var(--muted); }
 
+/* Standing Thirds glyphs */
+.glyph { display: block; width: 100%; height: auto; aspect-ratio: 1; }
+
 /* where-next cards */
 .next-links { margin: 3.5rem 0 1rem; }
 .next-links .eyebrow { margin-bottom: 0.9rem; }

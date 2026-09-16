@@ -6,7 +6,6 @@ order: 40
 personifies: "The Unbridged Gap and The Naming Contest, sharing a person."
 tending: "Shared fluency makes real work fast."
 fraying: "The fluency has become a wall."
-fractal: {"type":"lattice","hue":"skein"}
 drawable: true
 parents: ["the-unbridged-gap", "the-naming-contest"]
 relatedThirds: ["the-unbridged-gap", "the-naming-contest", "the-only-road", "charten"]

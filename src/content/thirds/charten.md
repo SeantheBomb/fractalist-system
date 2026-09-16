@@ -6,7 +6,6 @@ order: 42
 personifies: "The Inner Circle and The Reputation, compounded past any one life."
 tending: "The name binds people genuinely connected."
 fraying: "It binds people with nothing underneath it."
-fractal: {"type":"chorus","hue":"culture"}
 drawable: true
 parents: ["the-inner-circle", "the-reputation"]
 relatedThirds: ["the-inner-circle", "the-reputation"]

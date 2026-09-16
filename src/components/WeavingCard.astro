@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { fractalSvg } from '../lib/fractals';
+import Glyph from './Glyph.astro';
 import { KINSHIPS } from '../../scripts/manifest.mjs';
 
 // Renders every drawable Third as a hidden card; client scripts reveal the drawn ones.
@@ -17,7 +17,7 @@ const thirds = (await getCollection('thirds'))
       data-kinship={t.data.kinship}
       hidden
     >
-      <div class="wc-art" set:html={fractalSvg(t.data.fractal.type, t.data.fractal.hue, t.id)} />
+      <div class="wc-art"><Glyph slug={t.id} label={`${t.data.name} glyph`} /></div>
       <div class="wc-body">
         <p class="wc-kin">{KINSHIPS[t.data.kinship].title}</p>
         <h3 class="wc-name">{t.data.name}</h3>
@@ -56,7 +56,7 @@ const thirds = (await getCollection('thirds'))
     to { opacity: 1; transform: none; }
   }
   .wc-art { border: 1px solid var(--line); border-radius: 10px; background: var(--bg); padding: 0.5rem; }
-  .wc-art svg { display: block; width: 100%; height: auto; }
+  .wc-art .glyph { display: block; width: 100%; height: auto; }
   .wc-kin { font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 0; }
   .wc-name { margin: 0.1em 0 0; font-size: 1.4rem; }
   .wc-epithet { font-style: italic; color: var(--muted); margin: 0 0 0.6em; font-size: 0.9rem; }

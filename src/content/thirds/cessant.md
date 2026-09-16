@@ -6,7 +6,6 @@ order: 31
 personifies: "The Guard and The Standoff, sharing a person."
 tending: "Discretion is letting the group survive friction."
 fraying: "Everyone knows; no one can be first to say it."
-fractal: {"type":"carpet","hue":"skein"}
 drawable: true
 parents: ["the-guard", "the-standoff"]
 relatedThirds: ["the-guard", "the-standoff", "policy-resistance"]

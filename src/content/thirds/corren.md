@@ -6,7 +6,6 @@ order: 11
 personifies: "The Local Rule: attending repeatedly to one thing among many."
 tending: "Attend to it; what you water grows."
 fraying: "So does whatever you keep confirming."
-fractal: {"type":"mandala","hue":"earth"}
 drawable: true
 parents: []
 relatedThirds: ["vessa", "typecasting"]

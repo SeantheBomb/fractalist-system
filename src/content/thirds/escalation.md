@@ -6,7 +6,6 @@ order: 12
 personifies: "Cindar fused with itself, meeting in two people."
 tending: "Both of you are rising; let it run."
 fraying: "An arms race neither chose and neither can exit."
-fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["cindar", "cindar"]
 relatedThirds: ["cindar", "first-arriver-lock-in", "the-shared-pot"]

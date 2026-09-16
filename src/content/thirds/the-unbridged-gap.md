@@ -6,7 +6,6 @@ order: 28
 personifies: "Selvan and Mirrath, meeting in two people."
 tending: "Your fluency comes from real depth."
 fraying: "You can't model a mind that lacks your context."
-fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["selvan", "mirrath"]
 relatedThirds: ["selvan", "mirrath", "the-inner-circle", "the-only-road"]

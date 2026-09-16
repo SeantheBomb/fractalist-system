@@ -6,7 +6,6 @@ order: 48
 personifies: "Second-Order Design fused with itself, compounded past any one life."
 tending: "Reached twice, with no contact — real evidence."
 fraying: "Parallel bias mistaken for confirmation."
-fractal: {"type":"twinSpires","hue":"culture"}
 drawable: true
 parents: ["second-order-design", "second-order-design"]
 relatedThirds: ["second-order-design"]

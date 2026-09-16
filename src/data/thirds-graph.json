@@ -1,0 +1,313 @@
+{
+ "cindar": {
+  "kinship": "self",
+  "parents": []
+ },
+ "rethen": {
+  "kinship": "self",
+  "parents": []
+ },
+ "mareth": {
+  "kinship": "self",
+  "parents": []
+ },
+ "solven": {
+  "kinship": "self",
+  "parents": []
+ },
+ "sythen": {
+  "kinship": "self",
+  "parents": []
+ },
+ "kessin": {
+  "kinship": "self",
+  "parents": []
+ },
+ "dorrin": {
+  "kinship": "self",
+  "parents": []
+ },
+ "selvan": {
+  "kinship": "self",
+  "parents": []
+ },
+ "mirrath": {
+  "kinship": "self",
+  "parents": []
+ },
+ "nammeth": {
+  "kinship": "self",
+  "parents": []
+ },
+ "loum": {
+  "kinship": "self",
+  "parents": []
+ },
+ "corren": {
+  "kinship": "self",
+  "parents": []
+ },
+ "escalation": {
+  "kinship": "dyad",
+  "parents": [
+   "cindar",
+   "cindar"
+  ]
+ },
+ "the-standoff": {
+  "kinship": "dyad",
+  "parents": [
+   "rethen",
+   "rethen"
+  ]
+ },
+ "wevven": {
+  "kinship": "dyad",
+  "parents": [
+   "cindar",
+   "rethen"
+  ]
+ },
+ "vessa": {
+  "kinship": "dyad",
+  "parents": [
+   "corren",
+   "cindar"
+  ]
+ },
+ "answering-for": {
+  "kinship": "dyad",
+  "parents": [
+   "solven",
+   "cindar"
+  ]
+ },
+ "filling-the-gap": {
+  "kinship": "dyad",
+  "parents": [
+   "selvan",
+   "sythen"
+  ]
+ },
+ "the-guard": {
+  "kinship": "dyad",
+  "parents": [
+   "rethen",
+   "selvan"
+  ]
+ },
+ "reading-the-room": {
+  "kinship": "dyad",
+  "parents": [
+   "sythen",
+   "mirrath"
+  ]
+ },
+ "connection-first": {
+  "kinship": "dyad",
+  "parents": [
+   "nammeth",
+   "rethen"
+  ]
+ },
+ "the-rising-bar": {
+  "kinship": "dyad",
+  "parents": [
+   "mareth",
+   "cindar"
+  ]
+ },
+ "the-sliding-floor": {
+  "kinship": "dyad",
+  "parents": [
+   "mareth",
+   "rethen"
+  ]
+ },
+ "the-shared-story": {
+  "kinship": "dyad",
+  "parents": [
+   "kessin",
+   "kessin"
+  ]
+ },
+ "the-echo": {
+  "kinship": "dyad",
+  "parents": [
+   "mirrath",
+   "mirrath"
+  ]
+ },
+ "typecasting": {
+  "kinship": "dyad",
+  "parents": [
+   "corren",
+   "selvan"
+  ]
+ },
+ "gaming-the-terms": {
+  "kinship": "dyad",
+  "parents": [
+   "dorrin",
+   "cindar"
+  ]
+ },
+ "the-naming-contest": {
+  "kinship": "dyad",
+  "parents": [
+   "nammeth",
+   "nammeth"
+  ]
+ },
+ "the-unbridged-gap": {
+  "kinship": "dyad",
+  "parents": [
+   "selvan",
+   "mirrath"
+  ]
+ },
+ "the-arrangement": {
+  "kinship": "dyad",
+  "parents": [
+   "loum",
+   "loum"
+  ]
+ },
+ "ostrin": {
+  "kinship": "dyad",
+  "parents": [
+   "mareth",
+   "nammeth"
+  ]
+ },
+ "cessant": {
+  "kinship": "skein",
+  "parents": [
+   "the-guard",
+   "the-standoff"
+  ]
+ },
+ "quillith": {
+  "kinship": "skein",
+  "parents": [
+   "the-naming-contest",
+   "filling-the-gap"
+  ]
+ },
+ "handrel": {
+  "kinship": "skein",
+  "parents": [
+   "answering-for",
+   "vessa"
+  ]
+ },
+ "first-arriver-lock-in": {
+  "kinship": "skein",
+  "parents": [
+   "the-rising-bar",
+   "escalation"
+  ]
+ },
+ "the-shared-pot": {
+  "kinship": "skein",
+  "parents": [
+   "gaming-the-terms",
+   "escalation"
+  ]
+ },
+ "the-reputation": {
+  "kinship": "skein",
+  "parents": [
+   "typecasting",
+   "the-shared-story"
+  ]
+ },
+ "the-sagging-floor": {
+  "kinship": "skein",
+  "parents": [
+   "the-sliding-floor",
+   "the-standoff"
+  ]
+ },
+ "the-hall-of-mirrors": {
+  "kinship": "skein",
+  "parents": [
+   "the-echo",
+   "reading-the-room"
+  ]
+ },
+ "second-order-design": {
+  "kinship": "skein",
+  "parents": [
+   "the-arrangement",
+   "wevven"
+  ]
+ },
+ "the-inner-circle": {
+  "kinship": "skein",
+  "parents": [
+   "the-unbridged-gap",
+   "the-naming-contest"
+  ]
+ },
+ "the-only-road": {
+  "kinship": "skein",
+  "parents": [
+   "the-inner-circle",
+   "the-unbridged-gap"
+  ]
+ },
+ "charten": {
+  "kinship": "culture",
+  "parents": [
+   "the-inner-circle",
+   "the-reputation"
+  ]
+ },
+ "proxy-detachment": {
+  "kinship": "culture",
+  "parents": [
+   "the-sagging-floor",
+   "gaming-the-terms"
+  ]
+ },
+ "policy-resistance": {
+  "kinship": "culture",
+  "parents": [
+   "cessant",
+   "the-shared-pot"
+  ]
+ },
+ "the-long-cycle": {
+  "kinship": "culture",
+  "parents": [
+   "first-arriver-lock-in",
+   "the-shared-pot"
+  ]
+ },
+ "waeth": {
+  "kinship": "culture",
+  "parents": [
+   "quillith",
+   "handrel"
+  ]
+ },
+ "aestren": {
+  "kinship": "culture",
+  "parents": [
+   "the-sagging-floor",
+   "the-hall-of-mirrors"
+  ]
+ },
+ "dyren": {
+  "kinship": "culture",
+  "parents": [
+   "second-order-design",
+   "second-order-design"
+  ]
+ },
+ "infinite-boundary": {
+  "kinship": "cosmos",
+  "parents": []
+ }
+}

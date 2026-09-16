@@ -1,7 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import FractalGlyph from '../../components/FractalGlyph.astro';
+import Glyph from '../../components/Glyph.astro';
+import { SELF_GLYPHS } from '../../lib/glyphs';
 import NextCards from '../../components/NextCards.astro';
 import { KINSHIPS } from '../../../scripts/manifest.mjs';
 
@@ -13,19 +14,22 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const kin = KINSHIPS[entry.data.kinship];
+const drawnAs = SELF_GLYPHS[entry.id];
 const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
 ---
 <Base title={entry.data.epithet ? `${entry.data.name}, ${entry.data.epithet}` : entry.data.name} description={entry.data.personifies}>
   <article>
     <div class="third-hero">
       <div class="third-art">
-        <FractalGlyph type={entry.data.fractal.type} hue={entry.data.fractal.hue} seed={entry.id} />
+        <Glyph slug={entry.id} label={`${entry.data.name} glyph`} />
       </div>
       <div>
         <p class="eyebrow">{kin?.title} · The Standing Thirds</p>
         <h1 style="margin: 0.15em 0 0.1em;">{entry.data.name}</h1>
         {entry.data.epithet && <p style="font-style: italic; color: var(--muted); margin-top: 0;">{entry.data.epithet}</p>}
         {entry.data.epigraph && <p class="epigraph" style="margin-top: 1.2em;">“{entry.data.epigraph}”</p>}
+        {drawnAs && <p class="drawn-as">Drawn as a <strong>{drawnAs.family}</strong>. {drawnAs.why}</p>}
+        {!drawnAs && entry.data.parents.length > 0 && <p class="drawn-as">Its glyph isn't drawn by hand. It's bred from its parents' fractal rules.</p>}
       </div>
     </div>
 
@@ -80,6 +84,8 @@ const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
     background: var(--bg2);
     padding: 0.8rem;
   }
+  .drawn-as { font-size: 0.9rem; color: var(--muted); margin-top: 1em; max-width: 40ch; }
+  .drawn-as strong { font-weight: 500; color: var(--ink); }
   .readings { margin-top: 3rem; }
   .reading-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0.8rem 0; }
   .reading { border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; background: var(--bg2); }

@@ -6,7 +6,6 @@ order: 8
 personifies: "The Local Rule: taking form from who is present."
 tending: "Let the room shape you; that's real responsiveness."
 fraying: "There's no position of yours left anywhere."
-fractal: {"type":"windswept","hue":"wind"}
 drawable: true
 parents: []
 relatedThirds: ["reading-the-room", "the-echo", "the-unbridged-gap"]

@@ -112,15 +112,6 @@ const TURNING_SECTIONS = [
   '5. The Seven Great Days — Culture',
 ];
 
-// Glyphs the book doesn't specify get one by tier; the generator is seeded per slug,
-// so figures sharing a type still render distinctly.
-const TIER_GLYPHS = {
-  self: [['flame', 'fire'], ['delta', 'water'], ['windswept', 'wind'], ['fern', 'earth'], ['spiralBloom', 'fire'], ['lattice', 'water']],
-  dyad: [['interweave', 'dyad'], ['lattice', 'dyad'], ['mandala', 'dyad'], ['hollowMandala', 'dyad'], ['chain', 'dyad']],
-  skein: [['spiralBloom', 'skein'], ['chain', 'skein'], ['carpet', 'skein'], ['interweave', 'skein'], ['lattice', 'skein']],
-  culture: [['chorus', 'culture'], ['ridge', 'culture'], ['driftTree', 'culture'], ['twinSpires', 'culture'], ['crystal', 'culture'], ['carpet', 'culture'], ['spiralBloom', 'culture']],
-};
-
 const SLUG_FIX = { 'The Infinite Boundary': 'infinite-boundary' };
 const slugify = (n) => SLUG_FIX[n] ?? n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -167,7 +158,6 @@ for (const tier of TIERS) {
       catalogueTitle: tier.catalogueTitle, join: tier.join,
       slug: slugify(name), localRule: tier.join ? null : cells[1],
       parents, tendingLong: cells[2], frayingLong: cells[3],
-      glyph: TIER_GLYPHS[tier.kinship][i % TIER_GLYPHS[tier.kinship].length],
     });
   });
 }
@@ -177,7 +167,7 @@ figures.push({
   name: 'The Infinite Boundary', epithet: '', kinship: 'cosmos', catalogue: 'infinite-boundary-scale',
   catalogueTitle: 'The Infinite Boundary', join: null,
   slug: 'infinite-boundary', localRule: null, parents: [], drawable: false,
-  tendingLong: '', frayingLong: '', glyph: ['boundary', 'cosmos'],
+  tendingLong: '', frayingLong: '',
 });
 
 const bySlug = new Map(figures.map((f) => [f.slug, f]));
@@ -234,7 +224,6 @@ figures.forEach((f, i) => {
     `personifies: ${y(personifies)}`,
     reading.tending ? `tending: ${y(reading.tending)}` : null,
     reading.fraying ? `fraying: ${y(reading.fraying)}` : null,
-    `fractal: ${JSON.stringify(ov.fractal ?? { type: f.glyph[0], hue: f.glyph[1] })}`,
     `drawable: ${f.drawable === false ? 'false' : 'true'}`,
     `parents: [${f.parents.map((n) => y(slugify(n))).join(', ')}]`,
     `relatedThirds: [${related.map(y).join(', ')}]`,
@@ -248,5 +237,11 @@ if (missing.length) {
   console.error('MISSING HEADINGS:\n' + missing.map((m) => `  - ${m}`).join('\n'));
   process.exit(1);
 }
+// The glyph renderer breeds each figure from its parents, so it needs the lineage as data.
+const dataDir = join(root, 'src', 'data');
+mkdirSync(dataDir, { recursive: true });
+writeFileSync(join(dataDir, 'thirds-graph.json'), JSON.stringify(Object.fromEntries(
+  figures.map((f) => [f.slug, { kinship: f.kinship, parents: f.parents.map(slugify) }])), null, 1) + '\n');
+
 const drawable = figures.filter((f) => f.drawable !== false).length;
 console.log(`Wrote ${NODES.length} nodes and ${figures.length} thirds (${drawable} drawable).`);

@@ -6,7 +6,6 @@ order: 7
 personifies: "The Local Rule: maintaining a self-story against evidence."
 tending: "Hold the conviction; it's what makes commitment possible."
 fraying: "You can't see around the story anymore."
-fractal: {"type":"delta","hue":"water"}
 drawable: true
 parents: []
 relatedThirds: ["filling-the-gap", "the-guard", "typecasting", "the-unbridged-gap"]

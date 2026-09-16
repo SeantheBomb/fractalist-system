@@ -6,7 +6,6 @@ order: 17
 personifies: "Selvan and Sythen, meeting in two people."
 tending: "Assume, and act without constant checking."
 fraying: "You're in a relationship with someone who isn't there."
-fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["selvan", "sythen"]
 relatedThirds: ["selvan", "sythen", "quillith"]

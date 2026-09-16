@@ -6,7 +6,6 @@ order: 25
 personifies: "Corren and Selvan, meeting in two people."
 tending: "Seeing them as capable until they become it."
 fraying: "Seeing them as one thing until they can't be another."
-fractal: {"type":"hollowMandala","hue":"dyad"}
 drawable: true
 parents: ["corren", "selvan"]
 relatedThirds: ["corren", "selvan", "the-reputation"]

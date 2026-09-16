@@ -6,7 +6,6 @@ order: 26
 personifies: "Dorrin and Cindar, meeting in two people."
 tending: "You've found real slack in a bad agreement."
 fraying: "The letter is satisfied and the purpose is hollow."
-fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["dorrin", "cindar"]
 relatedThirds: ["dorrin", "cindar", "the-shared-pot", "proxy-detachment"]

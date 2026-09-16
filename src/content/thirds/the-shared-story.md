@@ -6,7 +6,6 @@ order: 23
 personifies: "Kessin fused with itself, meeting in two people."
 tending: "A joint memory binding you to something real."
 fraying: "Neither of you actually had this event."
-fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["kessin", "kessin"]
 relatedThirds: ["kessin", "the-reputation"]

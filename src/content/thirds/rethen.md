@@ -6,7 +6,6 @@ order: 1
 personifies: "The Local Rule: returning toward a setpoint."
 tending: "Pull back. Enough has happened for now."
 fraying: "Stopping something that hadn't finished compounding."
-fractal: {"type":"delta","hue":"water"}
 drawable: true
 parents: []
 relatedThirds: ["the-standoff", "wevven", "the-guard", "connection-first"]

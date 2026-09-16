@@ -6,7 +6,6 @@ order: 41
 personifies: "The Inner Circle and The Unbridged Gap, sharing a person."
 tending: "You are the bridge two worlds actually cross on."
 fraying: "Everything must pass through you, and your absence severs."
-fractal: {"type":"spiralBloom","hue":"skein"}
 drawable: true
 parents: ["the-inner-circle", "the-unbridged-gap"]
 relatedThirds: ["the-inner-circle", "the-unbridged-gap"]

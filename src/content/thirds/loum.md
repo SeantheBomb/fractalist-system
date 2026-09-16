@@ -6,7 +6,6 @@ order: 10
 personifies: "The Local Rule: shaping conditions so one action is easiest."
 tending: "Change the conditions, not the willpower."
 fraying: "You can't act at all once conditions shift."
-fractal: {"type":"fern","hue":"earth"}
 drawable: true
 parents: []
 relatedThirds: ["the-arrangement"]

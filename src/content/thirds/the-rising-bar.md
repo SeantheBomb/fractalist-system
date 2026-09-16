@@ -6,7 +6,6 @@ order: 21
 personifies: "Mareth and Cindar, meeting in two people."
 tending: "The standard rose because you did."
 fraying: "Nothing will ever be sufficient at this rate."
-fractal: {"type":"chain","hue":"dyad"}
 drawable: true
 parents: ["mareth", "cindar"]
 relatedThirds: ["mareth", "cindar", "first-arriver-lock-in"]

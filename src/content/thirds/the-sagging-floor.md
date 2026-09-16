@@ -6,7 +6,6 @@ order: 37
 personifies: "The Sliding Floor and The Standoff, sharing a person."
 tending: "Expectations adjusted to real conditions."
 fraying: "Standards eroding while everyone feels reasonable."
-fractal: {"type":"chain","hue":"skein"}
 drawable: true
 parents: ["the-sliding-floor", "the-standoff"]
 relatedThirds: ["the-sliding-floor", "the-standoff", "proxy-detachment", "aestren"]

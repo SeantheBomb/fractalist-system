@@ -6,7 +6,6 @@ order: 3
 personifies: "The Local Rule: reaching for what relieves the symptom."
 tending: "A stopgap here buys time you genuinely need."
 fraying: "The patch has replaced the capacity it was covering."
-fractal: {"type":"fern","hue":"earth"}
 drawable: true
 parents: []
 relatedThirds: ["answering-for"]

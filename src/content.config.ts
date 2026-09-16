@@ -24,7 +24,6 @@ const thirds = defineCollection({
     personifies: z.string(),
     tending: z.string().optional(),
     fraying: z.string().optional(),
-    fractal: z.object({ type: z.string(), hue: z.string() }),
     drawable: z.boolean().default(true),
     parents: z.array(z.string()).default([]),
     relatedThirds: z.array(z.string()).default([]),

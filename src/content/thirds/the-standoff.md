@@ -6,7 +6,6 @@ order: 13
 personifies: "Rethen fused with itself, meeting in two people."
 tending: "You're giving each other room."
 fraying: "Both waiting, both calling the stalemate patience."
-fractal: {"type":"lattice","hue":"dyad"}
 drawable: true
 parents: ["rethen", "rethen"]
 relatedThirds: ["rethen", "cessant", "the-sagging-floor"]

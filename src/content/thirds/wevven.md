@@ -6,7 +6,6 @@ order: 14
 personifies: "Cindar and Rethen, meeting in two people."
 tending: "One drives, one steadies — a real division."
 fraying: "Each resenting the role the other left them."
-fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["cindar", "rethen"]
 relatedThirds: ["cindar", "rethen", "second-order-design"]

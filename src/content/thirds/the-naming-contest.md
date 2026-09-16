@@ -6,7 +6,6 @@ order: 27
 personifies: "Nammeth fused with itself, meeting in two people."
 tending: "You're building a shared vocabulary."
 fraying: "Naming has replaced resolving."
-fractal: {"type":"interweave","hue":"dyad"}
 drawable: true
 parents: ["nammeth", "nammeth"]
 relatedThirds: ["nammeth", "quillith", "the-inner-circle"]

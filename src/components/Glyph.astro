@@ -1,0 +1,24 @@
+---
+import { glyphHue } from '../lib/glyphs';
+import graph from '../data/thirds-graph.json';
+
+interface Props { slug: string; label: string }
+const { slug, label } = Astro.props;
+const isCosmos = (graph as Record<string, { kinship: string }>)[slug]?.kinship === 'cosmos';
+---
+{isCosmos ? (
+  <svg class="glyph" viewBox="0 0 200 200" role="img" aria-label={label} style="--hue: var(--k-cosmos)">
+    <g stroke="var(--k-cosmos)" fill="none">
+      <circle cx="100" cy="100" r="84" stroke-width="1.6" opacity="0.85" />
+      <circle cx="100" cy="100" r="72" stroke-width="0.6" opacity="0.28" stroke-dasharray="1 6" />
+      <circle cx="100" cy="100" r="1.6" fill="var(--k-cosmos)" stroke="none" />
+    </g>
+  </svg>
+) : (
+  <canvas class="glyph" data-slug={slug} role="img" aria-label={label} style={`--hue: ${glyphHue(slug)}`}></canvas>
+)}
+
+<script>
+  import { initGlyphs } from '../lib/glyphs';
+  initGlyphs();
+</script>

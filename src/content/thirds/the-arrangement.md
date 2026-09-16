@@ -6,7 +6,6 @@ order: 29
 personifies: "Loum fused with itself, meeting in two people."
 tending: "Conditions shaped so the right thing is easy."
 fraying: "Neither choosing; both managing the other."
-fractal: {"type":"mandala","hue":"dyad"}
 drawable: true
 parents: ["loum", "loum"]
 relatedThirds: ["loum", "second-order-design"]

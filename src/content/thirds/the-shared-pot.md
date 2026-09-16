@@ -6,7 +6,6 @@ order: 35
 personifies: "Gaming the Terms and Escalation, sharing a person."
 tending: "Trust makes accounting unnecessary here."
 fraying: "Nobody is positioned to protect it."
-fractal: {"type":"lattice","hue":"skein"}
 drawable: true
 parents: ["gaming-the-terms", "escalation"]
 relatedThirds: ["gaming-the-terms", "escalation", "policy-resistance", "the-long-cycle"]

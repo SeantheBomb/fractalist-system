@@ -6,7 +6,6 @@ order: 39
 personifies: "The Arrangement and Wevven, sharing a person."
 tending: "Emergence richer than anyone could author."
 fraying: "Emergence nobody intended or wanted."
-fractal: {"type":"interweave","hue":"skein"}
 drawable: true
 parents: ["the-arrangement", "wevven"]
 relatedThirds: ["the-arrangement", "wevven", "dyren"]

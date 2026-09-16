@@ -6,7 +6,6 @@ order: 15
 personifies: "Corren and Cindar, meeting in two people."
 tending: "Your attention is growing what's best in them."
 fraying: "It's growing whatever you keep confirming instead."
-fractal: {"type":"hollowMandala","hue":"dyad"}
 drawable: true
 parents: ["corren", "cindar"]
 relatedThirds: ["corren", "cindar", "handrel"]

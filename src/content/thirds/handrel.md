@@ -6,7 +6,6 @@ order: 33
 personifies: "Answering For and Vessa, sharing a person."
 tending: "Pass it on, and credit who taught you."
 fraying: "Dependence is passing along with the craft."
-fractal: {"type":"chain","hue":"skein"}
 drawable: true
 parents: ["answering-for", "vessa"]
 relatedThirds: ["answering-for", "vessa", "waeth"]

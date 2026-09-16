@@ -6,7 +6,6 @@ order: 43
 personifies: "The Sagging Floor and Gaming the Terms, compounded past any one life."
 tending: "The measure makes a vast system legible."
 fraying: "It's optimized past what it stood for."
-fractal: {"type":"ridge","hue":"culture"}
 drawable: true
 parents: ["the-sagging-floor", "gaming-the-terms"]
 relatedThirds: ["the-sagging-floor", "gaming-the-terms"]
