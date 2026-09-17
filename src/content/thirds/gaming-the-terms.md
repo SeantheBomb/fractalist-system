@@ -3,15 +3,15 @@ name: "Gaming the Terms"
 epithet: ""
 kinship: "dyad"
 order: 26
-personifies: "Dorrin and Cindar, meeting in two people."
+personifies: "The Easier Door and The Spark, meeting in two people."
 tending: "You've found real slack in a bad agreement."
 fraying: "The letter is satisfied and the purpose is hollow."
 drawable: true
-parents: ["dorrin", "cindar"]
-relatedThirds: ["dorrin", "cindar", "the-shared-pot", "proxy-detachment"]
+parents: ["the-easier-door", "the-spark"]
+relatedThirds: ["the-easier-door", "the-spark", "the-shared-pot", "proxy-detachment"]
 ---
 
-**A fusion of [Dorrin](/thirds/dorrin/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Easier Door](/thirds/the-easier-door/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Creative compliance finding real slack in a bad agreement.
 

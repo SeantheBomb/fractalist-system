@@ -1,6 +1,6 @@
 ---
-name: "Mirrath"
-epithet: "Who Takes the Shape of the Room"
+name: "The Mirror"
+epithet: ""
 kinship: "self"
 order: 8
 personifies: "The Local Rule: taking form from who is present."

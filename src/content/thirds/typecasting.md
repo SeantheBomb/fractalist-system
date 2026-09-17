@@ -3,15 +3,15 @@ name: "Typecasting"
 epithet: ""
 kinship: "dyad"
 order: 25
-personifies: "Corren and Selvan, meeting in two people."
+personifies: "The Gardener and The Mask, meeting in two people."
 tending: "Seeing them as capable until they become it."
 fraying: "Seeing them as one thing until they can't be another."
 drawable: true
-parents: ["corren", "selvan"]
-relatedThirds: ["corren", "selvan", "the-reputation"]
+parents: ["the-gardener", "the-mask"]
+relatedThirds: ["the-gardener", "the-mask", "the-reputation"]
 ---
 
-**A fusion of [Corren](/thirds/corren/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Gardener](/thirds/the-gardener/) and [The Mask](/thirds/the-mask/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Seeing someone as capable until they become it.
 

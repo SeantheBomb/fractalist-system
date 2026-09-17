@@ -188,7 +188,7 @@ export const NODES = [
     title: 'Naming and Defusing',
     part: 'part-two',
     summary: 'The self-stories that feel like settled fact — "I always quit" — and the practice of catching them as patterns instead of verdicts.',
-    related: ['the-woven-self', 'the-compost-heap', 'psychology-woven-self', 'sythen'],
+    related: ['the-woven-self', 'the-compost-heap', 'psychology-woven-self', 'the-nearest-light'],
   },
   {
     heading: '5. The Compost Heap',
@@ -196,7 +196,7 @@ export const NODES = [
     title: 'The Compost Heap',
     part: 'part-two',
     summary: 'Failure isn\'t waste — it\'s the substrate the next attempt grows out of. How creative work actually gets sustained.',
-    related: ['reading-your-own-cycle', 'loum', 'naming-and-defusing'],
+    related: ['reading-your-own-cycle', 'the-riverbed', 'naming-and-defusing'],
   },
   {
     heading: '6. Reading Your Own Cycle',
@@ -204,7 +204,7 @@ export const NODES = [
     title: 'Reading Your Own Cycle',
     part: 'part-two',
     summary: 'Reinforcing loops amplify; balancing loops correct back toward a middle — and everything that survives runs both at once, like a tide.',
-    related: ['finding-your-leverage-point', 'cindar', 'rethen', 'systems-theory'],
+    related: ['finding-your-leverage-point', 'the-spark', 'the-tide', 'systems-theory'],
   },
   {
     heading: '7. Finding Your Leverage Point',
@@ -236,7 +236,7 @@ export const NODES = [
     title: 'The Fold',
     part: 'part-two',
     summary: 'What goes out through a Nest tends to come back through the Nest — karma without a ledger-keeper, and with real cautions attached.',
-    related: ['the-dyad', 'going-to-ground', 'grammar-of-pattern', 'waeth'],
+    related: ['the-dyad', 'going-to-ground', 'grammar-of-pattern', 'the-received-world'],
   },
   {
     heading: '11. The Dyad',
@@ -244,7 +244,7 @@ export const NODES = [
     title: 'The Dyad',
     part: 'part-two',
     summary: 'A Skein narrowed to exactly two people, woven completely enough to function as a single unit — and why complete doesn\'t automatically mean healthy.',
-    related: ['the-trust-triangle', 'do-i-understand-you', 'wevven', 'the-third-thing'],
+    related: ['the-trust-triangle', 'do-i-understand-you', 'the-pairing', 'the-third-thing'],
   },
   {
     heading: '12. The Trust Triangle',
@@ -252,7 +252,7 @@ export const NODES = [
     title: 'The Trust Triangle',
     part: 'part-two',
     summary: 'Authenticity, empathy, logic — the three legs a two-person weave stands on, and what breaks when one goes missing.',
-    related: ['do-i-understand-you', 'ostrin', 'the-dyad'],
+    related: ['do-i-understand-you', 'the-tested-price', 'the-dyad'],
   },
   {
     heading: '13. Do I Understand You Well Enough?',
@@ -260,7 +260,7 @@ export const NODES = [
     title: 'Do I Understand You Well Enough?',
     part: 'part-two',
     summary: 'The single most practical sentence in the book, meant to be asked out loud before you assume you know what someone needs.',
-    related: ['group-practice', 'corren', 'vessa', 'weaving-for-another'],
+    related: ['group-practice', 'the-gardener', 'watering-another', 'weaving-for-another'],
   },
   {
     heading: '14. Group Practice',
@@ -276,7 +276,7 @@ export const NODES = [
     title: 'The Skein',
     part: 'part-two',
     summary: 'The difference between a community bound by real repeated contact and one bound only by a label — and the test that tells them apart.',
-    related: ['closing-the-loop', 'quillith', 'cessant', 'fractalism-collective'],
+    related: ['closing-the-loop', 'transmission-drift', 'held-silence', 'fractalism-collective'],
   },
   {
     heading: '16. Closing the Loop',
@@ -318,7 +318,7 @@ export const NODES = [
     title: 'Scale-Tagging',
     part: 'part-three',
     summary: 'Most arguments between people who agree are two descriptions of the same pattern at different scales. Name your zoom level before you speak.',
-    related: ['the-second-pass', 'the-spiral-check', 'aestren'],
+    related: ['the-second-pass', 'the-spiral-check', 'the-slow-hand'],
   },
   {
     heading: '5. The Second Pass',
@@ -326,7 +326,7 @@ export const NODES = [
     title: 'The Second Pass',
     part: 'part-three',
     summary: 'Any claim worth making twice is worth making once forward and once as a loop — the habit that turns a villain story into a shared pattern.',
-    related: ['the-spiral-check', 'wevven', 'do-i-understand-you'],
+    related: ['the-spiral-check', 'the-pairing', 'do-i-understand-you'],
   },
   {
     heading: '6. The Spiral Check',
@@ -392,7 +392,7 @@ export const NODES = [
     title: 'Fractalism and the Collective',
     part: 'part-four',
     summary: 'History moves in loops at civilizational scale — and every large "we" is a Third Thing doing work face-to-face familiarity can\'t.',
-    related: ['charten', 'belief-systems-built', 'the-skein', 'fractal-resistance'],
+    related: ['the-shared-name', 'belief-systems-built', 'the-skein', 'fractal-resistance'],
   },
   {
     heading: '6. On Belief Systems That Know They\'re Built',
@@ -400,7 +400,7 @@ export const NODES = [
     title: 'On Belief Systems That Know They\'re Built',
     part: 'part-four',
     summary: 'Every belief system is constructed. The difference is honesty about it — and the difference between infecting someone and inoculating them.',
-    related: ['open-questions', 'a-word-on-belief', 'dyren', 'waeth'],
+    related: ['open-questions', 'a-word-on-belief', 'independent-convergence', 'the-received-world'],
   },
   {
     heading: '7. Open Questions & How to Expand This',
@@ -421,7 +421,7 @@ export const NODES = [
     related: ['self-kin', 'the-third-thing', 'what-a-weaving-is'],
   },
   {
-    heading: '1. The Twelve Currents — Self Scale',
+    heading: '1. The Self-Kin',
     slug: 'self-kin',
     title: 'The Self-Kin',
     part: 'part-five',
@@ -429,7 +429,7 @@ export const NODES = [
     related: ['dyad-kin', 'the-woven-self', 'naming-and-defusing'],
   },
   {
-    heading: '2. The Nineteen Meetings — Dyad Scale',
+    heading: '2. The Dyad-Kin',
     slug: 'dyad-kin',
     title: 'The Dyad-Kin',
     part: 'part-five',
@@ -437,7 +437,7 @@ export const NODES = [
     related: ['skein-kin', 'the-dyad', 'the-trust-triangle'],
   },
   {
-    heading: '3. The Eleven Weaves — Skein Scale',
+    heading: '3. The Skein-Kin',
     slug: 'skein-kin',
     title: 'The Skein-Kin',
     part: 'part-five',
@@ -445,12 +445,12 @@ export const NODES = [
     related: ['culture-kin', 'the-skein', 'group-practice'],
   },
   {
-    heading: '4. The Seven Long Forms — Culture Scale',
+    heading: '4. The Culture-Kin',
     slug: 'culture-kin',
     title: 'The Culture-Kin',
     part: 'part-five',
     summary: 'Seven patterns slow enough that no single life sees one full turn — and, by the catalogue\'s own admission, its most provisional tier.',
-    related: ['infinite-boundary-scale', 'fractalism-collective', 'charten'],
+    related: ['infinite-boundary-scale', 'fractalism-collective', 'the-shared-name'],
   },
   {
     heading: '5. The Infinite Boundary — Cosmos Scale',
@@ -556,7 +556,7 @@ export const NODES = [
     title: 'Weaving for Another',
     part: 'part-six',
     summary: 'Reveal one card at a time, and fold the other person\'s response into how you read the next one — the mechanism that makes a reading personal.',
-    related: ['weaving-together', 'do-i-understand-you', 'corren'],
+    related: ['weaving-together', 'do-i-understand-you', 'the-gardener'],
   },
   {
     heading: '9. Weaving Together',
@@ -646,7 +646,7 @@ export const NODES = [
     title: 'Anchoring to What Already Turns',
     part: 'part-seven',
     summary: 'A ceremony tied to an invented date survives only as long as someone remembers it. One tied to the Earth\'s axial tilt has never missed an appointment.',
-    related: ['someone-elses-calendar', 'finding-your-leverage-point', 'dyren'],
+    related: ['someone-elses-calendar', 'finding-your-leverage-point', 'independent-convergence'],
   },
   {
     heading: '8. Practicing Inside Someone Else\'s Calendar',

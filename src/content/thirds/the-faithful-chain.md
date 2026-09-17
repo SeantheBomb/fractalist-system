@@ -1,17 +1,17 @@
 ---
-name: "Handrel"
-epithet: "Who Was Taught to Teach"
+name: "The Faithful Chain"
+epithet: ""
 kinship: "skein"
 order: 33
-personifies: "Answering For and Vessa, sharing a person."
+personifies: "Answering For and Watering Another, sharing a person."
 tending: "Pass it on, and credit who taught you."
 fraying: "Dependence is passing along with the craft."
 drawable: true
-parents: ["answering-for", "vessa"]
-relatedThirds: ["answering-for", "vessa", "waeth"]
+parents: ["answering-for", "watering-another"]
+relatedThirds: ["answering-for", "watering-another", "the-received-world"]
 ---
 
-**A fusion of [Answering For](/thirds/answering-for/) and [Vessa](/thirds/vessa/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Answering For](/thirds/answering-for/) and [Watering Another](/thirds/watering-another/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Craft passed intact across people who never met.
 

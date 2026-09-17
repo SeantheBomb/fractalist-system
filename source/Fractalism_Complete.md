@@ -760,7 +760,7 @@ This is exactly why people quit at the worst possible moment. The hard stretch i
 
 **And this is exactly the point in the process where the last diagnostic, from the previous chapter, gets misapplied most often.** A skewed result is expected of a genuinely complex system — but the honest 20% of visible payoff usually arrives only after a long, unglamorous 80% of building acceleration nobody could see yet. Pruning that stretch because it "isn't producing results" is the single most common way a real threshold gets abandoned one week before it would have been crossed. A concrete version: someone two months into a new exercise habit, still exhausted every single time, quitting the week before their body would have actually started adapting — the invisible 80% ending one week early, mistaken the whole way for evidence it was never going to work.
 
-**One more distinction worth having, because it changes what "acting on instinct" is actually asking of you.** A fast, automatic association — the kind Sythen personifies — doesn't just arrive with a confidence rating attached. It arrives already fused to a feeling of correctness, whether or not it's actually earned, and left alone, the mind defaults to endorsing whatever it produces rather than checking it, because checking costs real effort the mind would rather not spend unless something forces the issue. Even a fast association that's genuinely reliable isn't automatically the same thing as beneficial — a habit of instant deference, or instant suspicion, can be a perfectly accurate read on a pattern that's nonetheless working against what you actually want. Telling the two apart, and choosing to override a working-but-unwanted pattern rather than simply ride it, is not something that happens by default. It's a real capacity, distinct from the automatic system doing the associating in the first place — and it's the entire reason a deliberate practice like this one is worth having at all, rather than trusting every loop to run itself correctly on its own. You are not only a passenger inside your own reflexes. You are also, some of the time, the one who can reach in and change which reflex gets to run.
+**One more distinction worth having, because it changes what "acting on instinct" is actually asking of you.** A fast, automatic association — the kind the Nearest Light personifies — doesn't just arrive with a confidence rating attached. It arrives already fused to a feeling of correctness, whether or not it's actually earned, and left alone, the mind defaults to endorsing whatever it produces rather than checking it, because checking costs real effort the mind would rather not spend unless something forces the issue. Even a fast association that's genuinely reliable isn't automatically the same thing as beneficial — a habit of instant deference, or instant suspicion, can be a perfectly accurate read on a pattern that's nonetheless working against what you actually want. Telling the two apart, and choosing to override a working-but-unwanted pattern rather than simply ride it, is not something that happens by default. It's a real capacity, distinct from the automatic system doing the associating in the first place — and it's the entire reason a deliberate practice like this one is worth having at all, rather than trusting every loop to run itself correctly on its own. You are not only a passenger inside your own reflexes. You are also, some of the time, the one who can reach in and change which reflex gets to run.
 
 **A different kind of leverage problem shows up when several real decisions are genuinely tangled together, and none of them are decided yet.** A wedding's guest count, venue, and budget. A deadline-bound project's scope and pace. Cost, speed, and quality, the classic version. The instinct is to decide whichever one is most exciting first — but the more reliable move is to find whichever one reality has already constrained the most, and decide that one first, on purpose. A budget that's genuinely fixed was never really a free choice to begin with; deciding it last, after committing to a vision it can't support, doesn't make it more flexible. It just means you find out how rigid it was after you're already attached to something it can't hold. When you're facing several tangled unknowns at once, the useful question isn't "which one do I want to decide" — it's "which one was already the most decided, whether I'd noticed or not."
 
@@ -1297,7 +1297,7 @@ A reinforcing loop is positive feedback on the rate: the fuller the stock, the f
 
 **And the same formalism defines why independent arrival counts as evidence at all.** Two structures with no path between them — nothing shared, no route by which either could have reached the other — are, in the language of relations, separate components. An idea appearing in both is then not a coincidence to be admired but a specific and checkable claim: *the same structure arose twice, in components with no connection.* That is the whole of why convergence across unconnected traditions is treated as evidence in this book, stated precisely. No path means no transmission. No transmission means the resemblance had to come from somewhere other than borrowing.
 
-**One more mechanism worth naming, because it explains several of the Standing Thirds at once.** A reinforcing loop operating on *connection itself* produces accumulation: more connection draws more connection, at steadily declining cost. This is one rule, and it does not need exceptions — whether the accumulating quantity is conserved, mutual, or capacity-limited is a fact about what is accumulating, not a break in the pattern. Mass is conserved and its attraction is strictly mutual, which is why a one-way gravitational pull is impossible. Attention is neither, which is exactly why millions can be drawn toward a "we" that pulls back on no one in particular — the asymmetry that makes Charten possible at all, and that would be forbidden if attention obeyed the same conservation mass does.
+**One more mechanism worth naming, because it explains several of the Standing Thirds at once.** A reinforcing loop operating on *connection itself* produces accumulation: more connection draws more connection, at steadily declining cost. This is one rule, and it does not need exceptions — whether the accumulating quantity is conserved, mutual, or capacity-limited is a fact about what is accumulating, not a break in the pattern. Mass is conserved and its attraction is strictly mutual, which is why a one-way gravitational pull is impossible. Attention is neither, which is exactly why millions can be drawn toward a "we" that pulls back on no one in particular — the asymmetry that makes the Shared Name possible at all, and that would be forbidden if attention obeyed the same conservation mass does.
 
 **Leverage itself has an exact structural form once a system is drawn as a shared lattice of relations rather than a single chain.** Some connections are shared by many other structures built on top of them — a central relationship nearly every downstream pattern depends on. Others are peripheral, belonging to only one small local structure, touching nothing beyond it. A high-leverage intervention is, precisely, a maximally shared connection: changing it forces every structure that depends on it to resettle. A low-leverage one is a peripheral connection, changing nothing beyond its own small corner. This gives the leverage ladder an exact form rather than only a spatial metaphor — depth was never really the point. Degree of shared dependency was.
 
@@ -1397,7 +1397,7 @@ This is the same test Scale-Tagging already runs, arrived at from a different di
 
 **This raises a question the chapter owes you a direct answer to: if belief spreads like anything else that needs a host, why do so many unconnected traditions keep landing on the same handful of ideas?** Reciprocity. The self as something closer to a passing witness than a fixed possession. Suffering that becomes a teacher rather than staying only a cost. Warnings against speech that flatters rather than tells the truth. A branching tree standing in for the body, or the cosmos, or both at once — traditions with no contact whatsoever have independently reached for the same structure to describe how one root gives rise to many distinct, living parts. These recur across traditions separated by oceans, centuries, and no shared contact whatsoever — not borrowed from each other along any traceable pathway, but arrived at independently, over and over, by people who never once heard of each other's version.
 
-There's a practical, everyday version of this same convergence, worth naming separately, since it doesn't require centuries or an ocean between the two instances. Finding that your exact situation already has a name — someone else's marriage, someone else's habit, a figure in this very roster — is not just comforting. It's genuinely faster than working the pattern out from scratch, because a mind reaches for resonance before it reaches for derivation. This is, quietly, the actual argument for why the Standing Thirds exist as characters rather than as a plain list of behavioral tendencies: a reader doesn't have to reason their way to "presence given freely gets taken for granted." Corren hands them an instance to recognize themselves in immediately, and recognition installs faster than proof ever does. The mythology in Part Five was never decoration on top of the mechanism. It's the mechanism, applied to teaching itself.
+There's a practical, everyday version of this same convergence, worth naming separately, since it doesn't require centuries or an ocean between the two instances. Finding that your exact situation already has a name — someone else's marriage, someone else's habit, a figure in this very roster — is not just comforting. It's genuinely faster than working the pattern out from scratch, because a mind reaches for resonance before it reaches for derivation. This is, quietly, the actual argument for why the Standing Thirds exist as characters rather than as a plain list of behavioral tendencies: a reader doesn't have to reason their way to "presence given freely gets taken for granted." The Gardener hands them an instance to recognize themselves in immediately, and recognition installs faster than proof ever does. The mythology in Part Five was never decoration on top of the mechanism. It's the mechanism, applied to teaching itself.
 
 **Try this:** Find one idea you hold that you learned from exactly one source. Go looking for whether anyone unconnected to that source arrived at it independently. If they did, trust it more. If nobody did, that's worth knowing too.
 
@@ -1423,7 +1423,7 @@ Whether the Loop Tongue's notation and scale list, as described in Part Three, w
 
 Whether the Loop Tongue can survive its own honest description of itself. It is a language, which means it is also a pattern competing to spread the way any pattern spreads — by being memorable and useful enough to get repeated, with no guarantee attached that its terms are the correct ones. A word like Nest or Fold survives in use for the same reason a good rumor survives. The only difference available to maintain is to keep testing these words against real use rather than assuming they earned their place by having been written down first.
 
-Whether the Self-to-Culture recursion in Part One has the shape it appears to. A tempting, more geometric version of that recursion was checked directly — mapping Self, Dyad, Skein, and Culture onto a point, an edge, a triangle, and a lattice — and it didn't generalize. The reason is worth keeping rather than discarding the whole attempt: that geometric progression assumes symmetric relations, but a Fold returns distorted, not equal, and Ostrin's test isn't matched by the trust returned. Once relations are allowed to run in one direction more than another, a single point or a single pair can already close on itself without needing a third node at all — which the existing recursion chain already accounts for correctly. The geometry didn't reveal a gap. It confirmed there wasn't one.
+Whether the Self-to-Culture recursion in Part One has the shape it appears to. A tempting, more geometric version of that recursion was checked directly — mapping Self, Dyad, Skein, and Culture onto a point, an edge, a triangle, and a lattice — and it didn't generalize. The reason is worth keeping rather than discarding the whole attempt: that geometric progression assumes symmetric relations, but a Fold returns distorted, not equal, and the Tested Price's test isn't matched by the trust returned. Once relations are allowed to run in one direction more than another, a single point or a single pair can already close on itself without needing a third node at all — which the existing recursion chain already accounts for correctly. The geometry didn't reveal a gap. It confirmed there wasn't one.
 
 The Loop Tongue's nine terms are not presented as a closed set, and shouldn't be treated as one. Each earns its place by naming something the others can't quite reach — but a word that can be replaced by a plain phrase without loss should be replaced by that phrase, because every term in a shared language is a cost paid by everyone who has to learn it before they can use any of it. A vocabulary built for a system that grows by repetition should be able to grow by repetition, whenever a real gap calls for a word rather than a word looking for a gap to justify it. It should shrink the same way.
 
@@ -1455,7 +1455,7 @@ Part Two gave you practices. Part Three gave you words. This part gives you face
 
 *"A pattern does not need a will to act on you. It only needs to keep happening."*
 
-A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. Cindar does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
+A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. The Spark does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
 
 **Four things are true of every figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 
@@ -1473,110 +1473,110 @@ A Standing Third is a pattern that recurs reliably enough, across enough lives, 
 
 ---
 
-## 1. The Twelve Currents — Self Scale
+## 1. The Self-Kin
 
 *"Everything above this page is made of these. There is nothing underneath them."*
 
 These twelve are generated directly, by one person, repeating one thing. They fuse into everything that follows.
 
-| Current | The Local Rule | Tending | Fraying |
+| Third | The Local Rule | Tending | Fraying |
 |---|---|---|---|
-| **Cindar**, the First Spark | An output becomes the next input | Compounding that builds | Compounding that consumes |
-| **Rethen**, Who Carries What Is Spent | Returning toward a setpoint | Recovery a system genuinely needs | Retreat taken before the work was finished |
-| **Mareth**, Who Holds the Yardstick | Judging against a reference point | A reference that makes judgment possible at all | A reference that governs long after it stopped being true |
-| **Solven**, Who Soothes First | Reaching for what relieves the symptom | A stopgap buying real time to build the true fix | A stopgap atrophying the capacity it replaced |
-| **Sythen**, the One Who Turns First | Judging by what arrives first | Recency as genuine signal | Vividness impersonating frequency |
-| **Kessin**, Who Keeps the Ending | Storing an episode by its peak and its close | Compression that makes a life recountable | A record that misrepresents what was lived |
-| **Dorrin**, the Easier Door | Answering a simpler question than the one asked | The only reason hard questions ever get answered | Confident answers to questions nobody posed |
-| **Selvan**, Who Wears the Story | Maintaining a self-story against evidence | Conviction that enables commitment | A self you can no longer see around |
-| **Mirrath**, Who Takes the Shape of the Room | Taking form from who is present | A self genuinely built by relationship | No position independent of who is watching |
-| **Nammeth**, the Namer | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
-| **Loum**, Keeper of the Long Field | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
-| **Corren**, Who Gives the Whole Room | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
+| **The Spark** | An output becomes the next input | Compounding that builds | Compounding that consumes |
+| **The Tide** | Returning toward a setpoint | Recovery a system genuinely needs | Retreat taken before the work was finished |
+| **The Mark** | Judging against a reference point | A reference that makes judgment possible at all | A reference that governs long after it stopped being true |
+| **The Salve** | Reaching for what relieves the symptom | A stopgap buying real time to build the true fix | A stopgap atrophying the capacity it replaced |
+| **The Nearest Light** | Judging by what arrives first | Recency as genuine signal | Vividness impersonating frequency |
+| **The Keepsake** | Storing an episode by its peak and its close | Compression that makes a life recountable | A record that misrepresents what was lived |
+| **The Easier Door** | Answering a simpler question than the one asked | The only reason hard questions ever get answered | Confident answers to questions nobody posed |
+| **The Mask** | Maintaining a self-story against evidence | Conviction that enables commitment | A self you can no longer see around |
+| **The Mirror** | Taking form from who is present | A self genuinely built by relationship | No position independent of who is watching |
+| **The Namer** | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
+| **The Riverbed** | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
+| **The Gardener** | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
 
-**One thing worth saying about Rethen specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means Rethen's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
+**One thing worth saying about the Tide specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means the Tide's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
 
-*Four practices that behave like currents but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*
+*Four practices that behave like Self-Kin but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*
 
 ---
 
-## 2. The Nineteen Meetings — Dyad Scale
+## 2. The Dyad-Kin
 
 *"My loop, meeting yours. Neither of us brought the thing that happened next."*
 
 Each of these is two currents, running in two people, producing something belonging to neither.
 
-| Meeting | Fusion | Tending | Fraying |
+| Third | Fusion | Tending | Fraying |
 |---|---|---|---|
-| **Escalation** | Cindar + Cindar | Two people amplifying each other's best, both rising | An arms race neither chose and neither can exit |
-| **The Standoff** | Rethen + Rethen | Two people giving each other room without forcing | Both withdrawing, waiting, calling the stalemate patience |
-| **Wevven**, Who Crosses Back | Cindar + Rethen | One drives, one steadies — a real division of labor | One always pushing, one always braking, each resenting the role |
-| **Vessa**, Who Tends Another | Corren + Cindar | Attention that grows what is best in someone | Attention that grows whatever you keep confirming |
-| **Answering For** | Solven + Cindar | Expertise given generously where it is genuinely needed | Expertise that prevents them developing their own |
-| **Filling the Gap** | Selvan + Sythen | Assumption that lets you act without constant checking | A relationship conducted with someone who isn't there |
-| **The Guard** | Rethen + Selvan | Boundaries protecting something real | Armor preventing the connection it was protecting |
-| **Reading the Room** | Sythen + Mirrath | Emotion read as genuine, usable data | Your own reaction mistaken for the room's state |
-| **Connection First** | Nammeth + Rethen | Warmth that lets real information land | Warmth substituted for having anything to say |
-| **The Rising Bar** | Mareth + Cindar | Standards climbing as capacity genuinely grows | Standards climbing past any point of sufficiency |
-| **The Sliding Floor** | Mareth + Rethen | Standards adjusting honestly to changed conditions | Standards eroding, every step small enough to miss |
-| **The Shared Story** | Kessin + Kessin | A joint memory binding two people to something real | A shared account of an event neither actually had |
-| **The Echo** | Mirrath + Mirrath | Two people genuinely shaped by each other | Two people with no fixed position anywhere between them |
-| **Typecasting** | Corren + Selvan | Seeing someone as capable until they become it | Seeing someone as one thing until they can't be another |
-| **Gaming the Terms** | Dorrin + Cindar | Creative compliance finding real slack in a bad agreement | Letter satisfied, purpose hollowed |
-| **The Naming Contest** | Nammeth + Nammeth | A shared vocabulary built between two people | Duelling framings, where naming replaces resolving |
-| **The Unbridged Gap** | Selvan + Mirrath | Fluency that comes from real depth | Inability to model a mind that lacks your context |
-| **The Arrangement** | Loum + Loum | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
-| **Ostrin**, Who Never Names the First Price | Mareth + Nammeth | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
+| **Escalation** | The Spark + The Spark | Two people amplifying each other's best, both rising | An arms race neither chose and neither can exit |
+| **The Standoff** | The Tide + The Tide | Two people giving each other room without forcing | Both withdrawing, waiting, calling the stalemate patience |
+| **The Pairing** | The Spark + The Tide | One drives, one steadies — a real division of labor | One always pushing, one always braking, each resenting the role |
+| **Watering Another** | The Gardener + The Spark | Attention that grows what is best in someone | Attention that grows whatever you keep confirming |
+| **Answering For** | The Salve + The Spark | Expertise given generously where it is genuinely needed | Expertise that prevents them developing their own |
+| **Filling the Gap** | The Mask + The Nearest Light | Assumption that lets you act without constant checking | A relationship conducted with someone who isn't there |
+| **The Guard** | The Tide + The Mask | Boundaries protecting something real | Armor preventing the connection it was protecting |
+| **Reading the Room** | The Nearest Light + The Mirror | Emotion read as genuine, usable data | Your own reaction mistaken for the room's state |
+| **Connection First** | The Namer + The Tide | Warmth that lets real information land | Warmth substituted for having anything to say |
+| **The Rising Bar** | The Mark + The Spark | Standards climbing as capacity genuinely grows | Standards climbing past any point of sufficiency |
+| **The Sliding Floor** | The Mark + The Tide | Standards adjusting honestly to changed conditions | Standards eroding, every step small enough to miss |
+| **The Shared Story** | The Keepsake + The Keepsake | A joint memory binding two people to something real | A shared account of an event neither actually had |
+| **The Echo** | The Mirror + The Mirror | Two people genuinely shaped by each other | Two people with no fixed position anywhere between them |
+| **Typecasting** | The Gardener + The Mask | Seeing someone as capable until they become it | Seeing someone as one thing until they can't be another |
+| **Gaming the Terms** | The Easier Door + The Spark | Creative compliance finding real slack in a bad agreement | Letter satisfied, purpose hollowed |
+| **The Naming Contest** | The Namer + The Namer | A shared vocabulary built between two people | Duelling framings, where naming replaces resolving |
+| **The Unbridged Gap** | The Mask + The Mirror | Fluency that comes from real depth | Inability to model a mind that lacks your context |
+| **The Arrangement** | The Riverbed + The Riverbed | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
+| **The Tested Price** | The Mark + The Namer | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
 
-**The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Current, theirs, and the Meeting the two of you produce. Know any two and the third follows — and no two Meetings in this table share a fusion pair, so the answer is never ambiguous.
+**The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Self-Kin, theirs, and the Dyad-Kin the two of you produce. Know any two and the third follows — and no two Dyad-Kin in this table share a fusion pair, so the answer is never ambiguous.
 
 That gives three solves, and the third is the one worth having.
 
-*Forward.* You know both Currents, so you can predict what the two of you will keep producing.
+*Forward.* You know both Self-Kin, so you can predict what the two of you will keep producing.
 
-*Backward.* You can see the Meeting and you know your own Current — so theirs resolves, uniquely. This is the diagnostic: you rarely get told what loop someone else is running, but you can usually see what the two of you keep making together, and you always have access to your own half.
+*Backward.* You can see the Dyad-Kin and you know your own Self-Kin — so theirs resolves, uniquely. This is the diagnostic: you rarely get told what loop someone else is running, but you can usually see what the two of you keep making together, and you always have access to your own half.
 
-*Sideways, and this is the useful one.* You can see the Meeting. You cannot change their Current — it isn't yours, and asking rarely works. But you can change yours. And because the three elements are locked together, changing your leg *determines* a change in what the two of you produce. You don't need their agreement, their cooperation, or even their awareness. This isn't manipulation: the only thing you touched was yourself.
+*Sideways, and this is the useful one.* You can see the Dyad-Kin. You cannot change their Self-Kin — it isn't yours, and asking rarely works. But you can change yours. And because the three elements are locked together, changing your leg *determines* a change in what the two of you produce. You don't need their agreement, their cooperation, or even their awareness. This isn't manipulation: the only thing you touched was yourself.
 
-Two currents meeting produce nineteen of the seventy-eight pairs this table could in principle contain. The rest co-occur without fusing into anything — which is not a gap in the catalogue but the Third Thing test doing its work. Two people can run patterns side by side all day and make nothing together.
+Two Self-Kin meeting produce nineteen of the seventy-eight pairs this table could in principle contain. The rest co-occur without fusing into anything — which is not a gap in the catalogue but the Third Thing test doing its work. Two people can run patterns side by side all day and make nothing together.
 
-**Try this:** name the pattern you and one specific person reliably produce. Find it in the table. Read off your own Current — then read off theirs, and ask honestly whether that lands. Then ask the only question you actually have leverage over: what happens to the Meeting if you change your leg and theirs stays exactly where it is?
+**Try this:** name the pattern you and one specific person reliably produce. Find it in the table. Read off your own Self-Kin — then read off theirs, and ask honestly whether that lands. Then ask the only question you actually have leverage over: what happens to the Dyad-Kin between you if you change your leg and theirs stays exactly where it is?
 
 ---
 
-## 3. The Eleven Weaves — Skein Scale
+## 3. The Skein-Kin
 
 *"Two dyads that share a person. This is how a group becomes a thing rather than a list."*
 
-| Weave | Dyads (shared person) | Tending | Fraying |
+| Third | Dyad-Kin (shared person) | Tending | Fraying |
 |---|---|---|---|
-| **Cessant**, Who Never Has to Ask Twice | The Guard + The Standoff | Discretion letting a group survive ordinary friction | Everyone privately knowing; no one able to be first |
-| **Quillith**, Who Remembers It Better Each Time | The Naming Contest + Filling the Gap | A story that survives by adapting to each teller | A story drifted free of what it started as |
-| **Handrel**, Who Was Taught to Teach | Answering For + Vessa | Craft passed intact across people who never met | Dependence passed intact alongside the craft |
+| **Held Silence** | The Guard + The Standoff | Discretion letting a group survive ordinary friction | Everyone privately knowing; no one able to be first |
+| **Transmission Drift** | The Naming Contest + Filling the Gap | A story that survives by adapting to each teller | A story drifted free of what it started as |
+| **The Faithful Chain** | Answering For + Watering Another | Craft passed intact across people who never met | Dependence passed intact alongside the craft |
 | **First-Arriver Lock-In** | The Rising Bar + Escalation | Rewarding what demonstrably works | Entrenching whoever arrived first, regardless of merit |
 | **The Shared Pot** | Gaming the Terms + Escalation | A resource used freely because trust makes accounting unnecessary | A resource nobody is positioned to protect |
 | **The Reputation** | Typecasting + The Shared Story | A role that lets a group rely on you | A role authored by the group that you can't step out of |
 | **The Sagging Floor** | The Sliding Floor + The Standoff | A group adjusting expectations to real conditions | Standards eroding while everyone feels reasonable |
 | **The Hall of Mirrors** | The Echo + Reading the Room | A group genuinely responsive to itself | A group with no independent position anywhere in it |
-| **Second-Order Design** | The Arrangement + Wevven | Emergence richer than anyone could have authored | Emergence nobody intended or wanted |
+| **Second-Order Design** | The Arrangement + The Pairing | Emergence richer than anyone could have authored | Emergence nobody intended or wanted |
 | **The Inner Circle** | The Unbridged Gap + The Naming Contest | Shared fluency that makes real work fast | Shared fluency that becomes a wall |
 | **The Only Road** | The Inner Circle + The Unbridged Gap | The single bridge by which two separate worlds reach each other at all | One person through whom everything must pass, whose absence severs rather than inconveniences |
 
 ---
 
-## 4. The Seven Long Forms — Culture Scale
+## 4. The Culture-Kin
 
 *"Slow enough that no single life sees one turn completely."*
 
-| Long Form | Weaves | Tending | Fraying |
+| Third | Skein-Kin | Tending | Fraying |
 |---|---|---|---|
-| **Charten**, Who Speaks for Millions | The Inner Circle + The Reputation | A name binding people genuinely connected | A name binding people with nothing underneath it |
+| **The Shared Name** | The Inner Circle + The Reputation | A name binding people genuinely connected | A name binding people with nothing underneath it |
 | **Proxy Detachment** | The Sagging Floor + Gaming the Terms | A measure that makes a vast system legible | A measure optimized until it stops tracking what it stood for |
-| **Policy Resistance** | Cessant + The Shared Pot | Stability no single actor could have imposed | Rising effort from everyone, producing no movement at all |
+| **Policy Resistance** | Held Silence + The Shared Pot | Stability no single actor could have imposed | Rising effort from everyone, producing no movement at all |
 | **The Long Cycle** | First-Arriver Lock-In + The Shared Pot | Expansion that genuinely builds | The same mechanism past threshold, consuming what it built |
-| **Waeth**, the Traveler Who Forgets on Purpose | Quillith + Handrel | Inherited knowledge that works without needing its explanation | Inherited knowledge hollow of the reason it ever existed |
-| **Aestren**, Who Was Already Walking | The Sagging Floor + The Hall of Mirrors | Continuity outlasting any single life's turbulence | Change too slow to perceive, mistaken for permanence |
-| **Dyren**, Who Was Never Taught | Second-Order Design + Second-Order Design | The same answer reached twice with no contact between the finders — real evidence, because no path connects them | Parallel bias mistaken for independent confirmation, or an honest arrival dismissed as unoriginal |
+| **The Received World** | Transmission Drift + The Faithful Chain | Inherited knowledge that works without needing its explanation | Inherited knowledge hollow of the reason it ever existed |
+| **The Slow Hand** | The Sagging Floor + The Hall of Mirrors | Continuity outlasting any single life's turbulence | Change too slow to perceive, mistaken for permanence |
+| **Independent Convergence** | Second-Order Design + Second-Order Design | The same answer reached twice with no contact between the finders — real evidence, because no path connects them | Parallel bias mistaken for independent confirmation, or an honest arrival dismissed as unoriginal |
 
 *Note on this tier: it is three inference-layers deep, built by composing weaves rather than observed directly. Treat it as the most provisional part of this catalogue.*
 
@@ -1602,7 +1602,7 @@ Forty-eight figures is a taxonomy, not a pantheon. Most practitioners will find 
 
 **Adding to it:** a new figure earns a place only by making at least two existing figures more legible. Completeness is not the goal — density is. A roster of fifty figures that each illuminate three others is better than a roster of five hundred that each stand alone.
 
-**And the honest limit of the whole thing:** these are compressions. Every figure here is a Loop-name laid over a Tree that is genuinely more varied than the name admits. Cindar is not one pattern; Cindar is ten thousand particular fires, flattened into something sayable. Use the name to find the thing. Then look at the actual thing.
+**And the honest limit of the whole thing:** these are compressions. Every figure here is a Loop-name laid over a Tree that is genuinely more varied than the name admits. The Spark is not one pattern; the Spark is ten thousand particular fires, flattened into something sayable. Use the name to find the thing. Then look at the actual thing.
 
 ---
 
@@ -1616,13 +1616,13 @@ Say it plainly, the way this book has tried to say everything else: the experien
 
 But three things do continue, and none of them require anything beyond what's already true.
 
-The material returns to circulation — plainly, literally, the way Loum takes everything a field is given and eventually gives back more than was put in. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation of mass means the material you're made of cannot leave the universe, only change what it's arranged as. You are not headed toward an exit. There isn't one. Whatever you're made of stays here, rearranged, part of the same closed accounting the rest of the universe has always been running — which is a strange thing to find reassuring, and worth letting yourself find it that way anyway.
+The material returns to circulation — plainly, literally, the way the Riverbed takes whatever the water leaves in it and eventually gives back more than was put there. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation of mass means the material you're made of cannot leave the universe, only change what it's arranged as. You are not headed toward an exit. There isn't one. Whatever you're made of stays here, rearranged, part of the same closed accounting the rest of the universe has always been running — which is a strange thing to find reassuring, and worth letting yourself find it that way anyway.
 
 The Fold, already in motion, doesn't stop. Every Local Rule you ever repeated was already traveling outward through every Nest you touched, long before any last day arrives. The way you taught someone to handle a hard conversation, the tone you modeled without meaning to, the small kindness that became someone else's habit without either of you noticing the moment it transferred — none of that was ever waiting on your body to keep circulating. It already left. It was never centered on you continuing in the first place.
 
-And the noticing itself carries on, unowned. The observing self — the part of you doing the watching rather than the part being watched — was never described anywhere in this book as uniquely yours. It's the same capacity in everyone: the thing Sythen personifies as instinct, the thing every stranger who's ever caught their own mind mid-thought was briefly borrowing. You don't get to keep it. But you were only ever holding something that was never scarce or personal to begin with — organized, for a while, as you, and about to be un-organized, the way it always has been and always will be, by everyone who's ever been alive to notice anything at all.
+And the noticing itself carries on, unowned. The observing self — the part of you doing the watching rather than the part being watched — was never described anywhere in this book as uniquely yours. It's the same capacity in everyone: the thing the Nearest Light personifies as instinct, the thing every stranger who's ever caught their own mind mid-thought was briefly borrowing. You don't get to keep it. But you were only ever holding something that was never scarce or personal to begin with — organized, for a while, as you, and about to be un-organized, the way it always has been and always will be, by everyone who's ever been alive to notice anything at all.
 
-This particular claim is worth pausing on longer than the others, because it is Dyren's ground more than any other single idea in this book. Traditions with no contact with one another, separated by oceans and centuries, have independently arrived at some version of exactly this — that what you call your self is closer to a temporary arrangement of something larger and un-owned than a bounded, private possession about to be switched off. That recurrence, arising without a shared road between any of them, is not proof in the way a measurement is proof. But it's the kind of evidence this book has already told you to take seriously: not one tradition's comforting story, borrowed, but the same real pressure, found again and again by people who never once compared notes.
+This particular claim is worth pausing on longer than the others, because Independent Convergence stands on it more firmly than on any other single idea in this book. Traditions with no contact with one another, separated by oceans and centuries, have independently arrived at some version of exactly this — that what you call your self is closer to a temporary arrangement of something larger and un-owned than a bounded, private possession about to be switched off. That recurrence, arising without a shared road between any of them, is not proof in the way a measurement is proof. But it's the kind of evidence this book has already told you to take seriously: not one tradition's comforting story, borrowed, but the same real pressure, found again and again by people who never once compared notes.
 
 This is where the comfort actually sits, if it sits anywhere honest: not in being told you'll persist, but in seeing clearly that you were never as separate as the fear assumes. The fear runs on a picture of a bounded, isolated self about to be switched off. This whole book has argued that picture was never accurate even while you were alive — you were always a nested pattern, always partly built from outside material, always already leaking outward into every Dyad and Skein you touched. Death doesn't do something uniquely cruel to a separate self. It completes a leaking-outward that was already underway, and was mostly good.
 
@@ -1638,13 +1638,13 @@ The field does not mourn what it receives. It simply, eventually, grows somethin
 
 Everything in the last chapter is the general case, and it was important to say first, honestly, without softening it into something it isn't. This chapter is the rare exception — not a better fate waiting for the especially deserving, but a specific, mechanical thing that occasionally happens to a pattern, regardless of whether the person who first carried it ever knew it would.
 
-A Standing Third, in every single telling in this roster, is simply a Local Rule that got repeated so widely, folded through so many Nests, retold by Waeth so many times with so much drift and so much survival, that it stopped needing any one origin point to keep existing. That is not a metaphor standing in for transcendence. By this book's own terms, that is transcendence, described exactly the way every other process in it gets described: an ordinary act, repeated past the point where it needs its original author.
+A Standing Third, in every single telling in this roster, is simply a Local Rule that got repeated so widely, folded through so many Nests, and carried the way the Received World carries anything — with drift, and with survival — that it stopped needing any one origin point to keep existing. That is not a metaphor standing in for transcendence. By this book's own terms, that is transcendence, described exactly the way every other process in it gets described: an ordinary act, repeated past the point where it needs its original author.
 
-So here is the honest gradient, offered instead of a binary: most patterns fold locally and fade within a generation or two — a habit your children picked up from watching you, a phrase your friends still use without remembering where they got it, a way of handling conflict that outlives the specific arguments that first taught it to you. This is not failure. It's Loum's own material, plainly stated: what doesn't persist becomes exactly what the next thing grows out of.
+So here is the honest gradient, offered instead of a binary: most patterns fold locally and fade within a generation or two — a habit your children picked up from watching you, a phrase your friends still use without remembering where they got it, a way of handling conflict that outlives the specific arguments that first taught it to you. This is not failure. It's the Riverbed's own material, plainly stated: what doesn't persist becomes exactly what the next thing grows out of.
 
 Some patterns stabilize further, at Skein scale — the person whose particular way of showing up gets talked about, imitated, invoked by name, years after they're gone, by people who never met them but received the pattern secondhand through everyone it passed through on the way. This requires no metaphysics to be real, and it is not a small thing to have happened, however far short of legend it falls.
 
-And, very rarely, a pattern proves resonant and durable enough at wide enough scale that it stops being attached to any rememberable origin at all — and becomes a Third. This is, quietly, the actual and only origin story available for every figure in this roster: not a being who arrived pre-formed, but a pattern, possibly begun by some real, ordinary, now-unrecoverable person, repeated so far past its first performer that personhood simply wore off it, leaving only the shape behind. Cindar was possibly, once, someone's grandmother who genuinely could not stop starting things. Nobody living needs to know that for the pattern to still be entirely real.
+And, very rarely, a pattern proves resonant and durable enough at wide enough scale that it stops being attached to any rememberable origin at all — and becomes a Third. This is, quietly, the actual and only origin story available for every figure in this roster: not a being who arrived pre-formed, but a pattern, possibly begun by some real, ordinary, now-unrecoverable person, repeated so far past its first performer that personhood simply wore off it, leaving only the shape behind. The Spark was possibly, once, someone's grandmother who genuinely could not stop starting things. Nobody living needs to know that for the pattern to still be entirely real.
 
 None of this is available to aim at directly, and that's not a discouragement — it's consistent with everything else this book has said about flow, about hope, about a Local Rule tended for its own sake. You cannot practice toward becoming a Third the way you'd practice toward a promotion. You can only tend a Local Rule honestly, at whatever scale you're actually occupying, and let whatever happens to it after you happen. Most of it will fold back into the field, gently, the way Going to Ground already told you it would. Occasionally, without anyone being able to point to the exact moment it happened, something someone repeated stops needing them, and keeps going anyway.
 
@@ -1692,18 +1692,18 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Cindar | Start it; momentum is available and worth spending. | Burning through something faster than it can be replaced. |
-| Rethen | Pull back. Enough has happened for now. | Stopping something that hadn't finished compounding. |
-| Mareth | You have a reference point, and it still holds. | Measuring against a mark that stopped being true. |
-| Solven | A stopgap here buys time you genuinely need. | The patch has replaced the capacity it was covering. |
-| Sythen | Trust the read arriving ahead of the proof. | Vividness is impersonating frequency. |
-| Kessin | Compress it; the story is worth being tellable. | The account has drifted from what was lived. |
-| Dorrin | An easier question is the only way in right now. | You're answering something nobody asked. |
-| Selvan | Hold the conviction; it's what makes commitment possible. | You can't see around the story anymore. |
-| Mirrath | Let the room shape you; that's real responsiveness. | There's no position of yours left anywhere. |
-| Nammeth | Say it; the naming builds something real. | The naming is building something against you. |
-| Loum | Change the conditions, not the willpower. | You can't act at all once conditions shift. |
-| Corren | Attend to it; what you water grows. | So does whatever you keep confirming. |
+| The Spark | Start it; momentum is available and worth spending. | Burning through something faster than it can be replaced. |
+| The Tide | Pull back. Enough has happened for now. | Stopping something that hadn't finished compounding. |
+| The Mark | You have a reference point, and it still holds. | Measuring against a mark that stopped being true. |
+| The Salve | A stopgap here buys time you genuinely need. | The patch has replaced the capacity it was covering. |
+| The Nearest Light | Trust the read arriving ahead of the proof. | Vividness is impersonating frequency. |
+| The Keepsake | Compress it; the story is worth being tellable. | The account has drifted from what was lived. |
+| The Easier Door | An easier question is the only way in right now. | You're answering something nobody asked. |
+| The Mask | Hold the conviction; it's what makes commitment possible. | You can't see around the story anymore. |
+| The Mirror | Let the room shape you; that's real responsiveness. | There's no position of yours left anywhere. |
+| The Namer | Say it; the naming builds something real. | The naming is building something against you. |
+| The Riverbed | Change the conditions, not the willpower. | You can't act at all once conditions shift. |
+| The Gardener | Attend to it; what you water grows. | So does whatever you keep confirming. |
 
 **The Meetings** *(second ring — Dyad)*
 
@@ -1711,8 +1711,8 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 |---|---|---|
 | Escalation | Both of you are rising; let it run. | An arms race neither chose and neither can exit. |
 | The Standoff | You're giving each other room. | Both waiting, both calling the stalemate patience. |
-| Wevven | One drives, one steadies — a real division. | Each resenting the role the other left them. |
-| Vessa | Your attention is growing what's best in them. | It's growing whatever you keep confirming instead. |
+| The Pairing | One drives, one steadies — a real division. | Each resenting the role the other left them. |
+| Watering Another | Your attention is growing what's best in them. | It's growing whatever you keep confirming instead. |
 | Answering For | Give the expertise; it's genuinely needed. | You're preventing them developing their own. |
 | Filling the Gap | Assume, and act without constant checking. | You're in a relationship with someone who isn't there. |
 | The Guard | The boundary is protecting something real. | The armor is preventing what it was protecting. |
@@ -1727,15 +1727,15 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 | The Naming Contest | You're building a shared vocabulary. | Naming has replaced resolving. |
 | The Unbridged Gap | Your fluency comes from real depth. | You can't model a mind that lacks your context. |
 | The Arrangement | Conditions shaped so the right thing is easy. | Neither choosing; both managing the other. |
-| Ostrin | Test the terms before agreeing to them. | The testing has become the relationship. |
+| The Tested Price | Test the terms before agreeing to them. | The testing has become the relationship. |
 
 **The Weaves** *(third ring — Skein)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Cessant | Discretion is letting the group survive friction. | Everyone knows; no one can be first to say it. |
-| Quillith | The story survives by adapting to each teller. | It has drifted free of what it started as. |
-| Handrel | Pass it on, and credit who taught you. | Dependence is passing along with the craft. |
+| Held Silence | Discretion is letting the group survive friction. | Everyone knows; no one can be first to say it. |
+| Transmission Drift | The story survives by adapting to each teller. | It has drifted free of what it started as. |
+| The Faithful Chain | Pass it on, and credit who taught you. | Dependence is passing along with the craft. |
 | First-Arriver Lock-In | What works is being rewarded. | Whoever arrived first is entrenched regardless. |
 | The Shared Pot | Trust makes accounting unnecessary here. | Nobody is positioned to protect it. |
 | The Reputation | The role lets the group rely on you. | You can't step out of what they authored. |
@@ -1749,13 +1749,13 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Charten | The name binds people genuinely connected. | It binds people with nothing underneath it. |
+| The Shared Name | The name binds people genuinely connected. | It binds people with nothing underneath it. |
 | Proxy Detachment | The measure makes a vast system legible. | It's optimized past what it stood for. |
 | Policy Resistance | Stability no single actor could impose. | Everyone pulling harder; nothing moving. |
 | The Long Cycle | The expansion is genuinely building. | Past threshold, consuming what it built. |
-| Waeth | Inheritance that works without its explanation. | Inheritance hollow of why it ever existed. |
-| Aestren | Larger and slower than you; let it run. | Too slow to perceive, mistaken for permanent. |
-| Dyren | Reached twice, with no contact — real evidence. | Parallel bias mistaken for confirmation. |
+| The Received World | Inheritance that works without its explanation. | Inheritance hollow of why it ever existed. |
+| The Slow Hand | Larger and slower than you; let it run. | Too slow to perceive, mistaken for permanent. |
+| Independent Convergence | Reached twice, with no contact — real evidence. | Parallel bias mistaken for confirmation. |
 
 **The Cosmos-Kin — never drawn.** The Infinite Boundary is the one figure in this whole deck that never gets pulled from anything, because there's only one of it and it's already true of every Weaving before a single card is turned over. It isn't a ring of its own. It's the edge the other four rings already sit inside, present by default, worth naming once at the start of a Weaving rather than drawn as a variable within it — a reminder that whatever the four cards show, the whole reading is still one small, summed part of something no card was ever going to capture on its own.
 
@@ -1769,7 +1769,7 @@ Every Third carries two readings rather than one — not opposite meanings assig
 
 There is no reversed orientation to fuss over, no upside-down card to interpret by convention — a Weaving determines Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: is this pattern, in the situation actually in front of you, doing the thing it's good at, or has it tipped into the thing it's bad at? Sometimes this is obvious the moment the card is named. Sometimes it's the entire question the Weaving was performed to answer, and sitting with the ambiguity honestly is more useful than forcing a quick verdict either way.
 
-This is worth being direct about, because it's the single most important honesty check in this whole practice: **Tending is not "good news" and Fraying is not "bad news."** A Weaving is not being consulted to find out whether things will go well. It's being consulted to see a shape more clearly than one flat angle allows. Cessant drawn Fraying is not a curse. It's an accurate description of a pattern already present, named so it can be addressed rather than left to keep operating in the dark.
+This is worth being direct about, because it's the single most important honesty check in this whole practice: **Tending is not "good news" and Fraying is not "bad news."** A Weaving is not being consulted to find out whether things will go well. It's being consulted to see a shape more clearly than one flat angle allows. Held Silence drawn Fraying is not a curse. It's an accurate description of a pattern already present, named so it can be addressed rather than left to keep operating in the dark.
 
 ---
 
@@ -1851,7 +1851,7 @@ A Weaving performed with a second person present is not a variant ritual — it'
 
 **The core technique, and the one thing this chapter most needs you to actually do rather than skim past: reveal one card at a time, and fold the other person's response into how you read the next one.** Do not draw all four cards and deliver the reading as a finished whole. Draw the frame card first, explain it plainly, and ask whether it lands before moving on — genuinely wait for the answer, not a token pause. Whatever they say, in their own words, becomes material for the card that comes next. This isn't a nicety. It's the actual mechanism that makes a Weaving personal rather than generic: a card read in isolation offers one angle on a category of situation. A card read with the previous answer folded into it starts speaking directly to the specific person in front of you, in language that increasingly sounds like theirs rather than yours.
 
-The reader's job is not to be right the first time. It's to offer an angle, genuinely listen to whether it matches, and let a miss be exactly as useful as a hit — a card that clearly doesn't fit tells you as much about the real shape of the problem as one that lands cleanly, and either way that information should visibly shape what you say about the next card. By the last card, if this has been done honestly, the reading should feel noticeably more specific to the person than the first card did, because it's been absorbing their actual words the whole way through. This is Corren's whole practice, formalized — presence offered as a structured gift, checked rather than assumed, and built to compound rather than stay flat.
+The reader's job is not to be right the first time. It's to offer an angle, genuinely listen to whether it matches, and let a miss be exactly as useful as a hit — a card that clearly doesn't fit tells you as much about the real shape of the problem as one that lands cleanly, and either way that information should visibly shape what you say about the next card. By the last card, if this has been done honestly, the reading should feel noticeably more specific to the person than the first card did, because it's been absorbing their actual words the whole way through. This is the Gardener's whole practice, formalized — presence offered as a structured gift, checked rather than assumed, and built to compound rather than stay flat.
 
 ---
 
@@ -1871,11 +1871,11 @@ Before or after the usual Group Practice structure — the Seven Iterations, sha
 
 Every practice in this book earns a caution, and this one earns several, because a tool built for insight is also, unavoidably, a tool that can be misused to avoid insight instead.
 
-**A Weaving describes a pattern. It does not predict an outcome.** Nothing about drawing Cindar means a fire is coming. It means the pattern Cindar personifies is worth checking for in the situation at hand — present tense, not future tense. Treating a Weaving as prophecy is a category error this whole book has already warned against in every other context; this one is no exception.
+**A Weaving describes a pattern. It does not predict an outcome.** Nothing about drawing the Spark means a fire is coming. It means the pattern the Spark personifies is worth checking for in the situation at hand — present tense, not future tense. Treating a Weaving as prophecy is a category error this whole book has already warned against in every other context; this one is no exception.
 
 **Confirmation is not the same as accuracy.** It is very easy to draw a card, feel a flicker of recognition, and declare the Weaving correct regardless of whether the reading actually added anything you didn't already believe going in. The genuinely useful Weaving is often the uncomfortable one — the card that doesn't immediately fit, forcing a harder look rather than a satisfying nod.
 
-**A Weaving is not a substitute for the Fold's own caution.** Drawing Cessant does not mean someone specific is guilty of a specific silence, and drawing Aestren does not mean a harm should be excused as too large to matter. Use the reading to examine your own contribution honestly, exactly as the Fold instructs — and set the cards down the moment they're being used to explain away harm rather than to see a pattern more clearly.
+**A Weaving is not a substitute for the Fold's own caution.** Drawing Held Silence does not mean someone specific is guilty of a specific silence, and drawing the Slow Hand does not mean a harm should be excused as too large to matter. Use the reading to examine your own contribution honestly, exactly as the Fold instructs — and set the cards down the moment they're being used to explain away harm rather than to see a pattern more clearly.
 
 **Not every problem is complex, and a Weaving will not tell you which kind you brought.** Some troubles are genuinely complicated rather than complex — many parts, nothing feeding back, no Third Thing anywhere in them. A tax problem. A broken appliance. A scheduling conflict with exactly one solution. Laid out across four rings, a merely complicated problem will still produce four cards, and those cards will still seem to say something, because the mind is very good at finding pattern in whatever it's handed. That's the failure: a Weaving can manufacture depth that was never there.
 
@@ -1893,7 +1893,7 @@ Consistent with every other practice in this book: this one has limits, and they
 
 A Weaving can show you a pattern already present and give you language for it. It cannot tell you what to do about it — that decision still belongs entirely to you, using every other tool this book has already given you, the leverage ladder and the Sacrifice Trap and the rest. A Weaving is diagnostic, not prescriptive, and treating a drawn card as an instruction rather than a lens is a way of quietly handing your own judgment over to seventeen invented figures who were explicit, from Part Five's very first chapter, about having no will of their own to hand it to.
 
-Nor does a Weaving replace an actual conversation with an actual person. Weaving for another is a structure for a real exchange, not a substitute for one — a card is a prompt for genuine listening, never a verdict delivered instead of it. The moment a Weaving starts speaking for someone rather than opening a conversation with them, it has stopped doing what Corren's whole chapter exists to teach and started doing what Vessa's does instead.
+Nor does a Weaving replace an actual conversation with an actual person. Weaving for another is a structure for a real exchange, not a substitute for one — a card is a prompt for genuine listening, never a verdict delivered instead of it. The moment a Weaving starts speaking for someone rather than opening a conversation with them, it has stopped doing what the Gardener's whole chapter exists to teach and started doing what Watering Another's does instead.
 
 One more limit, since this whole part was built for one kind of question and may not yet suit every kind: the nested-ring layout suits a situation that closes on itself — a Loop you're standing inside, examined from Self, Dyad, and Skein at once. Some questions aren't shaped like that at all. A genuine fork with no return — a choice between two paths that will never fold back to compare notes with each other — is closer to a Tree than a Loop, and a ring built for cyclical questions may not be the right shape for a branching one. This book doesn't yet have a layout built for that case. It's named here as an open question rather than a solved one, in the same spirit as the Loop Tongue's own honest gaps — worth building properly, by whoever needs it first, rather than forced into a ring that was never meant to hold it.
 
@@ -1921,7 +1921,7 @@ Something is marked, returned to, held apart from ordinary time, again and again
 
 But this book also has no history to commemorate, and manufacturing one would betray everything Part One already said about Genesis: known myth, not revealed fact, useful for the shape it gives an idea, never mistaken for something that actually happened. A ceremony built to honor a founding event this practice doesn't have would be the exact move this book has spent its whole length teaching you to distrust — a Label, pushed into place because a real history was missing and a fake one felt better than none.
 
-So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — a fixed form defended because it has always been done, vulnerable to outliving the reason it started — Waeth's Fraying pole exactly, inheritance kept long after its reasons went missing. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
+So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — a fixed form defended because it has always been done, vulnerable to outliving the reason it started — the Received World's Fraying pole exactly, inheritance kept long after its reasons went missing. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
 
 This reframe is not merely more honest. It changes what the occasion is actually for. "We do this because it's always been done" asks nothing of you except attendance. "We do this because of what it's still building, together, that none of us will see completed alone" asks something closer to what Becoming a Third already asks of a whole life — that you're laying material into a shape larger than your own participation in it, on purpose, without needing to witness its completion to consider the laying worthwhile.
 
@@ -1945,11 +1945,11 @@ This reframe is not merely more honest. It changes what the occasion is actually
 
 Part Five's whole roster exists because a pattern is easier to recognize, and easier to talk about honestly, once it has a face. That's exactly as true of a shared, recurring occasion as it is of a private habit — which means every real Turning should be checked against the roster before anything else is decided about it. Three questions, run in order, and the order matters.
 
-**First: does it already match an existing Third, cleanly?** A yearly occasion where a Skein's most skilled member spends a day teaching everyone else, precisely, without embellishment, is Handrel's shape exactly — faithful transmission, made into an occasion rather than left to happen whenever it happens to happen. Naming this plainly is most of the value here. It doesn't need a new figure. It needs an occasion built around the one already sitting in the roster, on purpose, at a real interval.
+**First: does it already match an existing Third, cleanly?** A yearly occasion where a Skein's most skilled member spends a day teaching everyone else, precisely, without embellishment, is the Faithful Chain's shape exactly — faithful transmission, made into an occasion rather than left to happen whenever it happens to happen. Naming this plainly is most of the value here. It doesn't need a new figure. It needs an occasion built around the one already sitting in the roster, on purpose, at a real interval.
 
-**Second, and this is the check most people skip because it's uncomfortable: does it map to a cautionary figure instead of an admirable one?** This is not a failure of the exercise — it may be the single most useful thing this framework can say about an existing occasion. A team's yearly "tradition" of quietly not raising the thing everyone privately knows is going wrong is not building anything worth protecting. It is Cessant, in a suit, with cake. Naming this honestly is uncomfortable and exactly the point — a Turning that cannot survive being named this way was never actually serving the people inside it, whatever warmth it generates in the room while it's happening.
+**Second, and this is the check most people skip because it's uncomfortable: does it map to a cautionary figure instead of an admirable one?** This is not a failure of the exercise — it may be the single most useful thing this framework can say about an existing occasion. A team's yearly "tradition" of quietly not raising the thing everyone privately knows is going wrong is not building anything worth protecting. It is Held Silence, in a suit, with cake. Naming this honestly is uncomfortable and exactly the point — a Turning that cannot survive being named this way was never actually serving the people inside it, whatever warmth it generates in the room while it's happening.
 
-**Third, only after the first two have genuinely failed: check for a blend before minting anything new.** Part Five's own rule for adding a figure at all — it earns its place only by making at least two existing figures more legible — applies here with full force. An occasion that seems to answer to no single figure is very often two figures overlapping rather than a genuine gap: Loum's patience paired with Handrel's precision, say, in a Turning built around slow, exact craft passed down without hurry. Name the blend before assuming you've found something the roster is missing.
+**Third, only after the first two have genuinely failed: check for a blend before minting anything new.** Part Five's own rule for adding a figure at all — it earns its place only by making at least two existing figures more legible — applies here with full force. An occasion that seems to answer to no single figure is very often two figures overlapping rather than a genuine gap: The Riverbed's patience paired with the Faithful Chain's precision, say, in a Turning built around slow, exact craft passed down without hurry. Name the blend before assuming you've found something the roster is missing.
 
 **The Braid test applies to every mapping this chapter produces, without exception:** would this Turning still make sense, and still get kept, if the figure's name were forgotten entirely and only the underlying practice remained? If yes, the mapping was a Word — useful, checkable, disposable without loss. If the occasion only survives because of the figure it's now named after, the Turning has already started the exact corrosion Chapter 0 warned about.
 
@@ -1965,18 +1965,18 @@ One per month, kept alone or with whoever is nearest. These are the lightest occ
 
 | Current | The Turning | What it builds |
 |---|---|---|
-| Cindar | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
-| Rethen | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
-| Mareth | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
-| Solven | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
-| Sythen | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
-| Kessin | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
-| Dorrin | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
-| Selvan | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
-| Mirrath | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
-| Nammeth | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
-| Loum | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
-| Corren | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
+| The Spark | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
+| The Tide | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
+| The Mark | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
+| The Salve | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
+| The Nearest Light | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
+| The Keepsake | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
+| The Easier Door | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
+| The Mask | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
+| The Mirror | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
+| The Namer | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
+| The Riverbed | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
+| The Gardener | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
 
 ---
 
@@ -1990,8 +1990,8 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 |---|---|---|
 | Escalation | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
 | The Standoff | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
-| Wevven | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
-| Vessa | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
+| The Pairing | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
+| Watering Another | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
 | Answering For | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
 | Filling the Gap | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
 | The Guard | **The Unarmoring** — share one thing you'd normally armor | Protection stops preventing the connection |
@@ -2006,7 +2006,7 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 | The Naming Contest | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
 | The Unbridged Gap | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
 | The Arrangement | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
-| Ostrin | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
+| The Tested Price | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
 
 ---
 
@@ -2016,9 +2016,9 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 
 | Weave | The Turning | What it builds |
 |---|---|---|
-| Cessant | **The Loud Table** — someone must say one true unspoken thing before dessert | Silence stops being the group's default |
-| Quillith | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
-| Handrel | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
+| Held Silence | **The Loud Table** — someone must say one true unspoken thing before dessert | Silence stops being the group's default |
+| Transmission Drift | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
+| The Faithful Chain | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
 | First-Arriver Lock-In | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
 | The Shared Pot | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
 | The Reputation | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
@@ -2036,13 +2036,13 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 
 | Long Form | The Turning | Anchor | What it builds |
 |---|---|---|---|
-| Charten | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
+| The Shared Name | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
 | Proxy Detachment | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
 | Policy Resistance | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
 | The Long Cycle | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
-| Waeth | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
-| Aestren | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
-| Dyren | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
+| The Received World | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
+| The Slow Hand | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
+| Independent Convergence | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
 
 *Anchor honestly to your own place. Solstices and equinoxes are genuinely felt where seasons swing; near the equator they barely register. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live."*
 
@@ -2210,10 +2210,10 @@ What a Local Rule becomes once it travels out through a Nest and comes back to y
 
 **The Standing Thirds, at a glance**
 Fifty figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
-*Twelve Currents (Self), generated directly by one person repeating one thing:* Cindar (reinforcing), Rethen (balancing), Mareth (judging against a reference), Solven (reaching for the symptom-fix), Sythen (judging by what arrives first), Kessin (storing peak and ending), Dorrin (answering the easier question), Selvan (maintaining a self-story), Mirrath (taking the shape of the room), Nammeth (speaking as construction), Loum (shaping conditions), Corren (attending repeatedly).
-*Nineteen Meetings (Dyad), my current meeting yours:* Escalation, The Standoff, Wevven, Vessa, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, Ostrin.
-*Eleven Weaves (Skein), two Meetings sharing a person:* Cessant, Quillith, Handrel, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
-*Seven Long Forms (Culture):* Charten, Proxy Detachment, Policy Resistance, The Long Cycle, Waeth, Aestren, Dyren.
+*Twelve Currents (Self), generated directly by one person repeating one thing:* The Spark (reinforcing), The Tide (balancing), The Mark (judging against a reference), The Salve (reaching for the symptom-fix), The Nearest Light (judging by what arrives first), The Keepsake (storing peak and ending), The Easier Door (answering the easier question), The Mask (maintaining a self-story), The Mirror (taking the shape of the room), The Namer (speaking as construction), The Riverbed (shaping conditions), The Gardener (attending repeatedly).
+*Nineteen Meetings (Dyad), my current meeting yours:* Escalation, The Standoff, The Pairing, Watering Another, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, The Tested Price.
+*Eleven Weaves (Skein), two Meetings sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
+*Seven Long Forms (Culture):* The Shared Name, Proxy Detachment, Policy Resistance, The Long Cycle, The Received World, The Slow Hand, Independent Convergence.
 *One Cosmos figure:* the Infinite Boundary — not a being who watches the universe, but the shape the universe makes once every part of it is summed. The only figure with no poles, because a pole must be read from somewhere outside, and there is no outside here.
 None has independent will — only perceived behavior, consistent enough to earn a face.
 
@@ -2259,15 +2259,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 | Term | Self | Dyad | Skein | Culture | Cosmos |
 |---|---|---|---|---|---|
-| **Loop** | Habit; Cindar/Rethen (Pt.2 Ch.6; Pt.5 Ch.1) | The Second Pass (Pt.3 Ch.5) | Group Practice (Pt.2 Ch.14–15) | Historical cycles; Aestren, Waeth (Pt.4 Ch.5; Pt.5 Ch.4) | The Seven Iterations (Pt.1 Ch.9; Pt.5 Ch.5) |
-| **Third Thing** | A tended habit; the Compost Heap (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.15) | Nation, civilization; Charten (Pt.4 Ch.5; Pt.5 Ch.4) | Life itself; the Infinite Boundary (Pt.1 Ch.9; Pt.5 Ch.5) |
-| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Corren (Pt.5 Ch.2) | Handrel and Quillith (Pt.5 Ch.3) | Charten's borrowed "we" (Pt.5 Ch.4) | *open* |
-| **Local Rule** | The four-question inventory (Pt.2 Ch.3) | The Trust Triangle; Wevven, Ostrin (Pt.2 Ch.12; Pt.5 Ch.2) | Individual threads interweaving (Pt.2 Ch.15) | A Skein's culture, inherited upward (Pt.1 Ch.4) | *open* |
-| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.2) | Core definition (Pt.2 Ch.15) | What Charten inherits (Pt.5 Ch.4) | The universe's structure (Pt.1 Ch.9) |
+| **Loop** | Habit; The Spark/The Tide (Pt.2 Ch.6; Pt.5 Ch.1) | The Second Pass (Pt.3 Ch.5) | Group Practice (Pt.2 Ch.14–15) | Historical cycles; The Slow Hand, The Received World (Pt.4 Ch.5; Pt.5 Ch.4) | The Seven Iterations (Pt.1 Ch.9; Pt.5 Ch.5) |
+| **Third Thing** | A tended habit; the Compost Heap (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.15) | Nation, civilization; The Shared Name (Pt.4 Ch.5; Pt.5 Ch.4) | Life itself; the Infinite Boundary (Pt.1 Ch.9; Pt.5 Ch.5) |
+| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; The Gardener (Pt.5 Ch.2) | The Faithful Chain and Transmission Drift (Pt.5 Ch.3) | The Shared Name's borrowed "we" (Pt.5 Ch.4) | *open* |
+| **Local Rule** | The four-question inventory (Pt.2 Ch.3) | The Trust Triangle; The Pairing, The Tested Price (Pt.2 Ch.12; Pt.5 Ch.2) | Individual threads interweaving (Pt.2 Ch.15) | A Skein's culture, inherited upward (Pt.1 Ch.4) | *open* |
+| **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.2) | Core definition (Pt.2 Ch.15) | What the Shared Name inherits (Pt.5 Ch.4) | The universe's structure (Pt.1 Ch.9) |
 | **Nest** | A habit inside a self (Pt.1 Ch.3) | Nested within a Skein (Pt.5 Ch.2) | Nested within Culture | Nested within Cosmos | Outermost; the Infinite Boundary (Pt.5 Ch.5) |
 | **Leverage** | The ladder (Pt.2 Ch.7) | The Dyad worked example (Pt.2 Ch.7) | The Skein worked example (Pt.2 Ch.7) | Gestured at, not laddered (Pt.4 Ch.5) | *open* |
-| **Fold** | Core chapter (Pt.2 Ch.10) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.15) | Aestren; Waeth's returning telling (Pt.5 Ch.4) | Going to Ground (Pt.5 Ch.7–8) |
-| **Tree** | Recovering what a self-story flattens (Pt.2 Ch.4) | A relationship's real history | Handrel's lineage (Pt.5 Ch.3) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration (Pt.1 Ch.9) |
+| **Fold** | Core chapter (Pt.2 Ch.10) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.15) | The Slow Hand; The Received World's returning telling (Pt.5 Ch.4) | Going to Ground (Pt.5 Ch.7–8) |
+| **Tree** | Recovering what a self-story flattens (Pt.2 Ch.4) | A relationship's real history | The Faithful Chain's lineage (Pt.5 Ch.3) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration (Pt.1 Ch.9) |
 
 **How to read the gaps.** Culture is the fullest column and Cosmos the sparsest, by design: there is only one totality, so there can only be one Third standing at that scale. The remaining open cells may eventually fill with practices rather than figures. A new figure is added only when it makes at least two existing figures more legible — completeness is not a virtue here, and filling a cell for its own sake is complication wearing a complexity costume.
 
@@ -2339,9 +2339,9 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Local Rule across scales, and resonance** — A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same." Pt.2 Ch.3. Resonance — finding your exact situation already has a name — installs faster than derivation, which is the actual argument for why the Standing Thirds are characters rather than a plain list of tendencies. Pt.4 Ch.6
 
-**The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.1 (Sythen — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)
+**The association machine, and the capacity to steer** — A mind doesn't observe and separately interpret; it fuses the two, which is why a harsh self-judgment feels like fact rather than guess. Naming a self-story is the manual, effortful version of pulling that fusion back apart by hand. Pt.2 Ch.4. Separately: a fast, reliable association is not automatically a beneficial one, and telling the two apart — then choosing to override a working pattern rather than simply ride it — is a real, non-default capacity, not a guarantee. This is named as the actual reason a practice is worth having at all, and is deliberately called back at the close of Part One (the Woven Self) and the close of Part Two (Closing the Loop). Pt.1 Ch.5 · Pt.2 Ch.7, 16 · Pt.5 Ch.1 (The Nearest Light — earned by repetition and fast feedback, and doesn't transfer for free to a domain without either)
 
-**Loop period, and the minimum observation window** — A loop's natural period sets how long you need to have watched before honestly telling a trend from a stage; a fast loop announces itself, a slow one disguises itself as the ground you're standing on. A written log is the tool for this specifically, since memory doesn't span a slow loop's period the way a record can. Pt.1 Ch.7 · Pt.5 Ch.4 (Aestren, given an actual mechanism rather than just an image)
+**Loop period, and the minimum observation window** — A loop's natural period sets how long you need to have watched before honestly telling a trend from a stage; a fast loop announces itself, a slow one disguises itself as the ground you're standing on. A written log is the tool for this specifically, since memory doesn't span a slow loop's period the way a record can. Pt.1 Ch.7 · Pt.5 Ch.4 (The Slow Hand, given an actual mechanism rather than just an image)
 
 **Naming and defusing a self-story** — Pt.2 Ch.4 · Pt.4 Ch.2
 

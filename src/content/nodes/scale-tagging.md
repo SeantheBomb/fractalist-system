@@ -4,7 +4,7 @@ part: "part-three"
 order: 30
 epigraph: "When everything is important, nothing is important."
 summary: "Most arguments between people who agree are two descriptions of the same pattern at different scales. Name your zoom level before you speak."
-related: ["the-second-pass", "the-spiral-check", "aestren"]
+related: ["the-second-pass", "the-spiral-check", "the-slow-hand"]
 ---
 
 A large fraction of arguments between two people who actually agree with each other happen because they're describing the same pattern at two different scales and neither one says so.

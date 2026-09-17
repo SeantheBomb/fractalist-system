@@ -4,7 +4,7 @@ part: "part-three"
 order: 31
 epigraph: "There are two sides to every story."
 summary: "Any claim worth making twice is worth making once forward and once as a loop — the habit that turns a villain story into a shared pattern."
-related: ["the-spiral-check", "wevven", "do-i-understand-you"]
+related: ["the-spiral-check", "the-pairing", "do-i-understand-you"]
 ---
 
 Here is the single most useful conversational habit the Loop Tongue teaches, and the one worth learning even if you learn nothing else from this part: **any claim worth making twice is worth making once forward and once as a <a class="concept-link" href="/concept/loop/">Loop</a>.**

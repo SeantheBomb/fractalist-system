@@ -9,12 +9,12 @@ related: ["the-long-visitor", "culture-kin", "anchoring"]
 
 | Long Form | The Turning | Anchor | What it builds |
 |---|---|---|---|
-| <a class="concept-link" href="/thirds/charten/">Charten</a> | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
+| The Shared Name | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
 | Proxy Detachment | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
 | Policy Resistance | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
 | The Long Cycle | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
-| <a class="concept-link" href="/thirds/waeth/">Waeth</a> | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
-| <a class="concept-link" href="/thirds/aestren/">Aestren</a> | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
-| <a class="concept-link" href="/thirds/dyren/">Dyren</a> | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
+| The Received World | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
+| The Slow Hand | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
+| Independent Convergence | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
 
 *Anchor honestly to your own place. Solstices and equinoxes are genuinely felt where seasons swing; near the equator they barely register. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live."*

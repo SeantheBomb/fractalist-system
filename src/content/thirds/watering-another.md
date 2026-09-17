@@ -1,17 +1,17 @@
 ---
-name: "Vessa"
-epithet: "Who Tends Another"
+name: "Watering Another"
+epithet: ""
 kinship: "dyad"
 order: 15
-personifies: "Corren and Cindar, meeting in two people."
+personifies: "The Gardener and The Spark, meeting in two people."
 tending: "Your attention is growing what's best in them."
 fraying: "It's growing whatever you keep confirming instead."
 drawable: true
-parents: ["corren", "cindar"]
-relatedThirds: ["corren", "cindar", "handrel"]
+parents: ["the-gardener", "the-spark"]
+relatedThirds: ["the-gardener", "the-spark", "the-faithful-chain"]
 ---
 
-**A fusion of [Corren](/thirds/corren/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Gardener](/thirds/the-gardener/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Attention that grows what is best in someone.
 

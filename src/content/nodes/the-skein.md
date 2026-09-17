@@ -4,7 +4,7 @@ part: "part-two"
 order: 25
 epigraph: "If you want others to help you, help them."
 summary: "The difference between a community bound by real repeated contact and one bound only by a label — and the test that tells them apart."
-related: ["closing-the-loop", "quillith", "cessant", "fractalism-collective"]
+related: ["closing-the-loop", "transmission-drift", "held-silence", "fractalism-collective"]
 ---
 
 Group Practice works. It also raises the next honest question, the moment you've tried it once: *how do you actually build this with people, over time, rather than just running one good session and letting it fade?*

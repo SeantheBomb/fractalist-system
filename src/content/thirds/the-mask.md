@@ -1,6 +1,6 @@
 ---
-name: "Selvan"
-epithet: "Who Wears the Story"
+name: "The Mask"
+epithet: ""
 kinship: "self"
 order: 7
 personifies: "The Local Rule: maintaining a self-story against evidence."

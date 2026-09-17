@@ -4,7 +4,7 @@ part: "part-two"
 order: 20
 epigraph: "Karma: the simple science of putting others first."
 summary: "What goes out through a Nest tends to come back through the Nest — karma without a ledger-keeper, and with real cautions attached."
-related: ["the-dyad", "going-to-ground", "grammar-of-pattern", "waeth"]
+related: ["the-dyad", "going-to-ground", "grammar-of-pattern", "the-received-world"]
 ---
 
 Most traditions that use a word like karma describe something external to you — a cosmic ledger, a moral force that tracks your actions and eventually balances the books, sometimes across more than one lifetime. Fractalism can't quite borrow that version, because it already committed to something else in the Genesis chapter: the universe doesn't hand down judgment. It's indifferent. Meaning is what the noticing self reads into the pattern, not something owed to you from outside it.

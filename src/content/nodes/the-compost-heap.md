@@ -4,7 +4,7 @@ part: "part-two"
 order: 15
 epigraph: "Genius is 1% inspiration, 99% perspiration. — Thomas Edison"
 summary: "Failure isn't waste — it's the substrate the next attempt grows out of. How creative work actually gets sustained."
-related: ["reading-your-own-cycle", "loum", "naming-and-defusing"]
+related: ["reading-your-own-cycle", "the-riverbed", "naming-and-defusing"]
 ---
 
 Sooner or later, tending your <a class="concept-link" href="/concept/local-rule/">Local Rule</a> turns into making something — a project, a piece of writing, a piece of work you actually care about — and this is where the practice tends to get abandoned fastest, because creative effort feels less like a clean habit loop and more like wading into a mess. This chapter treats that mess as material, not as a problem to eliminate before the real work can start.

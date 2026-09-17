@@ -1,6 +1,6 @@
 ---
-name: "Rethen"
-epithet: "Who Carries What Is Spent"
+name: "The Tide"
+epithet: ""
 kinship: "self"
 order: 1
 personifies: "The Local Rule: returning toward a setpoint."
@@ -8,7 +8,7 @@ tending: "Pull back. Enough has happened for now."
 fraying: "Stopping something that hadn't finished compounding."
 drawable: true
 parents: []
-relatedThirds: ["the-standoff", "wevven", "the-guard", "connection-first"]
+relatedThirds: ["the-standoff", "the-pairing", "the-guard", "connection-first"]
 ---
 
 **The Local Rule.** Returning toward a setpoint. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

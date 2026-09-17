@@ -3,15 +3,15 @@ name: "Second-Order Design"
 epithet: ""
 kinship: "skein"
 order: 39
-personifies: "The Arrangement and Wevven, sharing a person."
+personifies: "The Arrangement and The Pairing, sharing a person."
 tending: "Emergence richer than anyone could author."
 fraying: "Emergence nobody intended or wanted."
 drawable: true
-parents: ["the-arrangement", "wevven"]
-relatedThirds: ["the-arrangement", "wevven", "dyren"]
+parents: ["the-arrangement", "the-pairing"]
+relatedThirds: ["the-arrangement", "the-pairing", "independent-convergence"]
 ---
 
-**A fusion of [The Arrangement](/thirds/the-arrangement/) and [Wevven](/thirds/wevven/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Arrangement](/thirds/the-arrangement/) and [The Pairing](/thirds/the-pairing/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Emergence richer than anyone could have authored.
 

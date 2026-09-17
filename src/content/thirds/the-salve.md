@@ -1,6 +1,6 @@
 ---
-name: "Solven"
-epithet: "Who Soothes First"
+name: "The Salve"
+epithet: ""
 kinship: "self"
 order: 3
 personifies: "The Local Rule: reaching for what relieves the symptom."

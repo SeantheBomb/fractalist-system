@@ -1,6 +1,6 @@
 ---
-name: "Loum"
-epithet: "Keeper of the Long Field"
+name: "The Riverbed"
+epithet: ""
 kinship: "self"
 order: 10
 personifies: "The Local Rule: shaping conditions so one action is easiest."

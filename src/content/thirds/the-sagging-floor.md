@@ -8,7 +8,7 @@ tending: "Expectations adjusted to real conditions."
 fraying: "Standards eroding while everyone feels reasonable."
 drawable: true
 parents: ["the-sliding-floor", "the-standoff"]
-relatedThirds: ["the-sliding-floor", "the-standoff", "proxy-detachment", "aestren"]
+relatedThirds: ["the-sliding-floor", "the-standoff", "proxy-detachment", "the-slow-hand"]
 ---
 
 **A fusion of [The Sliding Floor](/thirds/the-sliding-floor/) and [The Standoff](/thirds/the-standoff/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

@@ -4,7 +4,7 @@ part: "part-two"
 order: 22
 epigraph: "Don't trust what they say, trust what they do."
 summary: "Authenticity, empathy, logic — the three legs a two-person weave stands on, and what breaks when one goes missing."
-related: ["do-i-understand-you", "ostrin", "the-dyad"]
+related: ["do-i-understand-you", "the-tested-price", "the-dyad"]
 ---
 
 Not every two-person <a class="concept-link" href="/concept/local-rule/">Local Rule</a> holds weight equally. A simple diagnostic, borrowed and adapted, gives you a way to actually check whether a Dyad is standing on all three legs it needs:

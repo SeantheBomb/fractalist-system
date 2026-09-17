@@ -3,15 +3,15 @@ name: "Connection First"
 epithet: ""
 kinship: "dyad"
 order: 20
-personifies: "Nammeth and Rethen, meeting in two people."
+personifies: "The Namer and The Tide, meeting in two people."
 tending: "Warmth first; then it can land."
 fraying: "Warmth is substituting for having something to say."
 drawable: true
-parents: ["nammeth", "rethen"]
-relatedThirds: ["nammeth", "rethen"]
+parents: ["the-namer", "the-tide"]
+relatedThirds: ["the-namer", "the-tide"]
 ---
 
-**A fusion of [Nammeth](/thirds/nammeth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Namer](/thirds/the-namer/) and [The Tide](/thirds/the-tide/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Warmth that lets real information land.
 

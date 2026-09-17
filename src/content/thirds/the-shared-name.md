@@ -1,6 +1,6 @@
 ---
-name: "Charten"
-epithet: "Who Speaks for Millions"
+name: "The Shared Name"
+epithet: ""
 kinship: "culture"
 order: 42
 personifies: "The Inner Circle and The Reputation, compounded past any one life."

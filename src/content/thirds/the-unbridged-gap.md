@@ -3,15 +3,15 @@ name: "The Unbridged Gap"
 epithet: ""
 kinship: "dyad"
 order: 28
-personifies: "Selvan and Mirrath, meeting in two people."
+personifies: "The Mask and The Mirror, meeting in two people."
 tending: "Your fluency comes from real depth."
 fraying: "You can't model a mind that lacks your context."
 drawable: true
-parents: ["selvan", "mirrath"]
-relatedThirds: ["selvan", "mirrath", "the-inner-circle", "the-only-road"]
+parents: ["the-mask", "the-mirror"]
+relatedThirds: ["the-mask", "the-mirror", "the-inner-circle", "the-only-road"]
 ---
 
-**A fusion of [Selvan](/thirds/selvan/) and [Mirrath](/thirds/mirrath/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Mask](/thirds/the-mask/) and [The Mirror](/thirds/the-mirror/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Fluency that comes from real depth.
 

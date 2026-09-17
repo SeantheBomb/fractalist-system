@@ -1,6 +1,6 @@
 ---
-name: "Cindar"
-epithet: "the First Spark"
+name: "The Spark"
+epithet: ""
 kinship: "self"
 order: 0
 personifies: "The Local Rule: an output becomes the next input."
@@ -8,7 +8,7 @@ tending: "Start it; momentum is available and worth spending."
 fraying: "Burning through something faster than it can be replaced."
 drawable: true
 parents: []
-relatedThirds: ["escalation", "wevven", "vessa", "answering-for"]
+relatedThirds: ["escalation", "the-pairing", "watering-another", "answering-for"]
 ---
 
 **The Local Rule.** An output becomes the next input. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

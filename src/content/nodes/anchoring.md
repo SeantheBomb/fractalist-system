@@ -4,7 +4,7 @@ part: "part-seven"
 order: 70
 epigraph: "The solstice does not need anyone to remember it. That is exactly what makes it worth building on."
 summary: "A ceremony tied to an invented date survives only as long as someone remembers it. One tied to the Earth's axial tilt has never missed an appointment."
-related: ["someone-elses-calendar", "finding-your-leverage-point", "dyren"]
+related: ["someone-elses-calendar", "finding-your-leverage-point", "independent-convergence"]
 ---
 
 Worth stating the mechanism behind the Turning of the Tide plainly, since it generalizes past that one example. A ceremony anchored to a date someone invented depends entirely on cultural memory to survive — someone has to remember it, someone has to transmit it, and if that chain ever breaks, the occasion simply stops existing. A ceremony anchored to a solstice depends on nothing but the Earth's axial tilt, which has never once missed an appointment. In the vocabulary Part Four already built, the solstice is about as maximally shared an edge as exists anywhere — touching every human being on the planet, simultaneously, with zero maintenance required. Anchoring a fragile human tradition to it is close to the highest-leverage design decision available for making that tradition actually last.

@@ -3,15 +3,15 @@ name: "The Arrangement"
 epithet: ""
 kinship: "dyad"
 order: 29
-personifies: "Loum fused with itself, meeting in two people."
+personifies: "The Riverbed fused with itself, meeting in two people."
 tending: "Conditions shaped so the right thing is easy."
 fraying: "Neither choosing; both managing the other."
 drawable: true
-parents: ["loum", "loum"]
-relatedThirds: ["loum", "second-order-design"]
+parents: ["the-riverbed", "the-riverbed"]
+relatedThirds: ["the-riverbed", "second-order-design"]
 ---
 
-**[Loum](/thirds/loum/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**[The Riverbed](/thirds/the-riverbed/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Conditions shaped so the right thing is the easy thing.
 

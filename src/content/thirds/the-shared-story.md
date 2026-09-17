@@ -3,15 +3,15 @@ name: "The Shared Story"
 epithet: ""
 kinship: "dyad"
 order: 23
-personifies: "Kessin fused with itself, meeting in two people."
+personifies: "The Keepsake fused with itself, meeting in two people."
 tending: "A joint memory binding you to something real."
 fraying: "Neither of you actually had this event."
 drawable: true
-parents: ["kessin", "kessin"]
-relatedThirds: ["kessin", "the-reputation"]
+parents: ["the-keepsake", "the-keepsake"]
+relatedThirds: ["the-keepsake", "the-reputation"]
 ---
 
-**[Kessin](/thirds/kessin/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**[The Keepsake](/thirds/the-keepsake/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** A joint memory binding two people to something real.
 

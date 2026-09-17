@@ -1,17 +1,17 @@
 ---
-name: "Wevven"
-epithet: "Who Crosses Back"
+name: "The Pairing"
+epithet: ""
 kinship: "dyad"
 order: 14
-personifies: "Cindar and Rethen, meeting in two people."
+personifies: "The Spark and The Tide, meeting in two people."
 tending: "One drives, one steadies — a real division."
 fraying: "Each resenting the role the other left them."
 drawable: true
-parents: ["cindar", "rethen"]
-relatedThirds: ["cindar", "rethen", "second-order-design"]
+parents: ["the-spark", "the-tide"]
+relatedThirds: ["the-spark", "the-tide", "second-order-design"]
 ---
 
-**A fusion of [Cindar](/thirds/cindar/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Spark](/thirds/the-spark/) and [The Tide](/thirds/the-tide/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** One drives, one steadies — a real division of labor.
 

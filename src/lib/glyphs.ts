@@ -15,35 +15,35 @@ const sc = (s: number, e: number, f: number, p: number): Map6 => [s, 0, 0, s, e,
 export interface SelfGlyph { hue: string; family: string; why: string; maps: Map6[] }
 
 export const SELF_GLYPHS: Record<string, SelfGlyph> = {
-  cindar: { hue: 'fire', family: 'Golden spiral', why: 'Each turn feeds the next at a fixed ratio — compounding, drawn.',
+  'the-spark': { hue: 'fire', family: 'Golden spiral', why: 'Each turn feeds the next at a fixed ratio — compounding, drawn.',
     maps: [rs(0.88, 0.35, 0, 0, 0.82), rs(0.3, 0, 1, 0, 0.18)] },
-  rethen: { hue: 'water', family: 'Vicsek cross', why: 'Every arm returns to the same center.',
+  'the-tide': { hue: 'water', family: 'Vicsek cross', why: 'Every arm returns to the same center.',
     maps: [[0, 0], [-2 / 3, 0], [2 / 3, 0], [0, -2 / 3], [0, 2 / 3]].map(([e, f]) => sc(1 / 3, e, f, 0.2)) },
-  mareth: { hue: 'wind', family: 'Koch curve', why: 'Its length depends entirely on the yardstick you measure it with.',
+  'the-mark': { hue: 'wind', family: 'Koch curve', why: 'Its length depends entirely on the yardstick you measure it with.',
     maps: [rs(1 / 3, 0, 0, 0, 0.25), rs(1 / 3, Math.PI / 3, 1 / 3, 0, 0.25), rs(1 / 3, -Math.PI / 3, 0.5, Math.sqrt(3) / 6, 0.25), rs(1 / 3, 0, 2 / 3, 0, 0.25)] },
-  solven: { hue: 'wind', family: 'Sierpinski carpet', why: 'Remove the middle and the hole recurs at every scale.',
+  'the-salve': { hue: 'wind', family: 'Sierpinski carpet', why: 'Remove the middle and the hole recurs at every scale.',
     maps: [0, 1, 2].flatMap((i) => [0, 1, 2].filter((j) => !(i === 1 && j === 1)).map((j) => sc(1 / 3, i / 3, j / 3, 1 / 8))) },
-  sythen: { hue: 'wind', family: 'Sierpinski triangle', why: 'Drawn by the chaos game: the first dots are noise, and only frequency reveals the form.',
+  'the-nearest-light': { hue: 'wind', family: 'Sierpinski triangle', why: 'Drawn by the chaos game: the first dots are noise, and only frequency reveals the form.',
     maps: [sc(0.5, 0, 0, 1 / 3), sc(0.5, 0.5, 0, 1 / 3), sc(0.5, 0.25, Math.sqrt(3) / 4, 1 / 3)] },
-  kessin: { hue: 'water', family: 'Cantor dust', why: 'Keep the ends, discard the middle, and repeat.',
+  'the-keepsake': { hue: 'water', family: 'Cantor dust', why: 'Keep the ends, discard the middle, and repeat.',
     maps: [[0, 0], [2 / 3, 0], [0, 2 / 3], [2 / 3, 2 / 3]].map(([e, f]) => sc(1 / 3, e, f, 0.25)) },
-  dorrin: { hue: 'fire', family: 'Heighway dragon', why: 'The hardest shape here, built from the easiest question: fold it in half.',
+  'the-easier-door': { hue: 'fire', family: 'Heighway dragon', why: 'The hardest shape here, built from the easiest question: fold it in half.',
     maps: [[0.5, -0.5, 0.5, 0.5, 0, 0, 0.5], [-0.5, -0.5, 0.5, -0.5, 1, 0, 0.5]] },
-  selvan: { hue: 'earth', family: 'Pentaflake', why: 'A self made entirely of copies of its own outline.',
+  'the-mask': { hue: 'earth', family: 'Pentaflake', why: 'A self made entirely of copies of its own outline.',
     maps: (() => {
       const r = (3 - Math.sqrt(5)) / 2;
       return [...[0, 1, 2, 3, 4].map((k) => { const a = Math.PI / 2 + (k * 2 * Math.PI) / 5; return sc(r, (1 - r) * Math.cos(a), (1 - r) * Math.sin(a), 1 / 6); }), rs(r, Math.PI / 5, 0, 0, 1 / 6)];
     })() },
-  mirrath: { hue: 'water', family: 'Mirror kaleidoscope', why: 'An asymmetric rule, given its whole shape by the mirrors around it.',
+  'the-mirror': { hue: 'water', family: 'Mirror kaleidoscope', why: 'An asymmetric rule, given its whole shape by the mirrors around it.',
     maps: (() => {
       const [a, b, c, d, e, f] = rs(0.46, 0.4, 0.5, 0.5, 0);
       return [[a, b, c, d, e, f, 0.25], [-a, -b, c, d, -e, f, 0.25], [a, b, -c, -d, e, -f, 0.25], [-a, -b, -c, -d, -e, -f, 0.25]] as Map6[];
     })() },
-  nammeth: { hue: 'fire', family: 'Lévy C curve', why: 'The classic L-system: a sentence rewritten until it becomes a shape.',
+  'the-namer': { hue: 'fire', family: 'Lévy C curve', why: 'The classic L-system: a sentence rewritten until it becomes a shape.',
     maps: [[0.5, 0.5, -0.5, 0.5, 0, 0, 0.5], [0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5]] },
-  loum: { hue: 'earth', family: 'Barnsley fern', why: 'Change the odds on four rules and the whole fern changes.',
+  'the-riverbed': { hue: 'earth', family: 'Barnsley fern', why: 'Change the odds on four rules and the whole fern changes.',
     maps: [[0, 0, 0, 0.16, 0, 0, 0.01], [0.85, 0.04, -0.04, 0.85, 0, 1.6, 0.85], [0.2, -0.26, 0.23, 0.22, 0, 1.6, 0.07], [-0.15, 0.28, 0.26, 0.24, 0, 0.44, 0.07]] },
-  corren: { hue: 'earth', family: 'Gosper island', why: 'Seven copies of itself that fill the whole room, brightest where attention lands.',
+  'the-gardener': { hue: 'earth', family: 'Gosper island', why: 'Seven copies of itself that fill the whole room, brightest where attention lands.',
     maps: (() => {
       const s = 1 / Math.sqrt(7), th = Math.atan(Math.sqrt(3) / 5), d = Math.sqrt(3) / Math.sqrt(7);
       return [rs(s, th, 0, 0, 0.4), ...[0, 1, 2, 3, 4, 5].map((k) => rs(s, th, d * Math.cos(th + (k * Math.PI) / 3), d * Math.sin(th + (k * Math.PI) / 3), 0.1))];

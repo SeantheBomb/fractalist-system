@@ -1,6 +1,6 @@
 ---
-name: "Aestren"
-epithet: "Who Was Already Walking"
+name: "The Slow Hand"
+epithet: ""
 kinship: "culture"
 order: 47
 personifies: "The Sagging Floor and The Hall of Mirrors, compounded past any one life."

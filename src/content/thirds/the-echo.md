@@ -3,15 +3,15 @@ name: "The Echo"
 epithet: ""
 kinship: "dyad"
 order: 24
-personifies: "Mirrath fused with itself, meeting in two people."
+personifies: "The Mirror fused with itself, meeting in two people."
 tending: "You're genuinely shaped by each other."
 fraying: "There's no fixed position anywhere between you."
 drawable: true
-parents: ["mirrath", "mirrath"]
-relatedThirds: ["mirrath", "the-hall-of-mirrors"]
+parents: ["the-mirror", "the-mirror"]
+relatedThirds: ["the-mirror", "the-hall-of-mirrors"]
 ---
 
-**[Mirrath](/thirds/mirrath/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**[The Mirror](/thirds/the-mirror/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Two people genuinely shaped by each other.
 

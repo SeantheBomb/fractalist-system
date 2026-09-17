@@ -3,15 +3,15 @@ name: "Filling the Gap"
 epithet: ""
 kinship: "dyad"
 order: 17
-personifies: "Selvan and Sythen, meeting in two people."
+personifies: "The Mask and The Nearest Light, meeting in two people."
 tending: "Assume, and act without constant checking."
 fraying: "You're in a relationship with someone who isn't there."
 drawable: true
-parents: ["selvan", "sythen"]
-relatedThirds: ["selvan", "sythen", "quillith"]
+parents: ["the-mask", "the-nearest-light"]
+relatedThirds: ["the-mask", "the-nearest-light", "transmission-drift"]
 ---
 
-**A fusion of [Selvan](/thirds/selvan/) and [Sythen](/thirds/sythen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Mask](/thirds/the-mask/) and [The Nearest Light](/thirds/the-nearest-light/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Assumption that lets you act without constant checking.
 

@@ -13,18 +13,18 @@ const CORE_COMPANIONS = ['infinite-boundary'];
 
 // Proposed: the idea each Self-Kin figure personifies. Meant to move into the book.
 export const SELF_KIN_PERSONIFIES = {
-  cindar: 'reinforcing-balancing',
-  rethen: 'balance-is-a-wave',
-  mareth: 'open-and-closed-boundaries',
-  solven: 'leverage',
-  sythen: 'association-machine',
-  kessin: 'woven-self',
-  dorrin: 'complicated-vs-complex',
-  selvan: 'naming-and-defusing',
-  mirrath: 'company-you-keep',
-  nammeth: 'word-vs-label',
-  loum: 'creative-work-as-compost',
-  corren: 'seed',
+  'the-spark': 'reinforcing-balancing',
+  'the-tide': 'balance-is-a-wave',
+  'the-mark': 'open-and-closed-boundaries',
+  'the-salve': 'leverage',
+  'the-nearest-light': 'association-machine',
+  'the-keepsake': 'woven-self',
+  'the-easier-door': 'complicated-vs-complex',
+  'the-mask': 'naming-and-defusing',
+  'the-mirror': 'company-you-keep',
+  'the-namer': 'word-vs-label',
+  'the-riverbed': 'creative-work-as-compost',
+  'the-gardener': 'seed',
 };
 
 // Proposed top-level topic names. A computed topic takes the name of the highest-ranked key

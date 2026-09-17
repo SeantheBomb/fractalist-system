@@ -8,7 +8,7 @@ tending: "The role lets the group rely on you."
 fraying: "You can't step out of what they authored."
 drawable: true
 parents: ["typecasting", "the-shared-story"]
-relatedThirds: ["typecasting", "the-shared-story", "charten"]
+relatedThirds: ["typecasting", "the-shared-story", "the-shared-name"]
 ---
 
 **A fusion of [Typecasting](/thirds/typecasting/) and [The Shared Story](/thirds/the-shared-story/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

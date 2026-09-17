@@ -3,15 +3,15 @@ name: "The Rising Bar"
 epithet: ""
 kinship: "dyad"
 order: 21
-personifies: "Mareth and Cindar, meeting in two people."
+personifies: "The Mark and The Spark, meeting in two people."
 tending: "The standard rose because you did."
 fraying: "Nothing will ever be sufficient at this rate."
 drawable: true
-parents: ["mareth", "cindar"]
-relatedThirds: ["mareth", "cindar", "first-arriver-lock-in"]
+parents: ["the-mark", "the-spark"]
+relatedThirds: ["the-mark", "the-spark", "first-arriver-lock-in"]
 ---
 
-**A fusion of [Mareth](/thirds/mareth/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Mark](/thirds/the-mark/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Standards climbing as capacity genuinely grows.
 

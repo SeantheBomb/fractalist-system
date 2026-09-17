@@ -4,7 +4,7 @@ part: "part-two"
 order: 14
 epigraph: "Accept the things you can not change, and change the things you can not accept."
 summary: "The self-stories that feel like settled fact — \"I always quit\" — and the practice of catching them as patterns instead of verdicts."
-related: ["the-woven-self", "the-compost-heap", "psychology-woven-self", "sythen"]
+related: ["the-woven-self", "the-compost-heap", "psychology-woven-self", "the-nearest-light"]
 ---
 
 The <a class="concept-link" href="/concept/woven-self/">Woven Self</a>, from Part One, carries a promise: what was built by repetition can be revised by repetition. This chapter is where that promise gets tested against the hardest material it ever runs into — the stories you tell about yourself, especially the unflattering ones that feel less like opinions and more like facts.

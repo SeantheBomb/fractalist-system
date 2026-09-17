@@ -103,10 +103,10 @@ NODES.forEach((n, i) => {
 // so the fusion column doubles as the related-figure graph.
 
 const TIERS = [
-  { heading: '1. The Twelve Currents — Self Scale', kinship: 'self', catalogue: 'self-kin', catalogueTitle: 'The Self-Kin', join: null },
-  { heading: '2. The Nineteen Meetings — Dyad Scale', kinship: 'dyad', catalogue: 'dyad-kin', catalogueTitle: 'The Dyad-Kin', join: 'meeting in two people' },
-  { heading: '3. The Eleven Weaves — Skein Scale', kinship: 'skein', catalogue: 'skein-kin', catalogueTitle: 'The Skein-Kin', join: 'sharing a person' },
-  { heading: '4. The Seven Long Forms — Culture Scale', kinship: 'culture', catalogue: 'culture-kin', catalogueTitle: 'The Culture-Kin', join: 'compounded past any one life' },
+  { heading: '1. The Self-Kin', kinship: 'self', catalogue: 'self-kin', catalogueTitle: 'The Self-Kin', join: null },
+  { heading: '2. The Dyad-Kin', kinship: 'dyad', catalogue: 'dyad-kin', catalogueTitle: 'The Dyad-Kin', join: 'meeting in two people' },
+  { heading: '3. The Skein-Kin', kinship: 'skein', catalogue: 'skein-kin', catalogueTitle: 'The Skein-Kin', join: 'sharing a person' },
+  { heading: '4. The Culture-Kin', kinship: 'culture', catalogue: 'culture-kin', catalogueTitle: 'The Culture-Kin', join: 'compounded past any one life' },
 ];
 
 // Turning tables in Part Seven, keyed by the figure they belong to.

@@ -1,6 +1,6 @@
 ---
-name: "Cessant"
-epithet: "Who Never Has to Ask Twice"
+name: "Held Silence"
+epithet: ""
 kinship: "skein"
 order: 31
 personifies: "The Guard and The Standoff, sharing a person."

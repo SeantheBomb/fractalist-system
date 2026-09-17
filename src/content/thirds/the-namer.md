@@ -1,6 +1,6 @@
 ---
-name: "Nammeth"
-epithet: "the Namer"
+name: "The Namer"
+epithet: ""
 kinship: "self"
 order: 9
 personifies: "The Local Rule: speaking as though words build what follows."
@@ -8,7 +8,7 @@ tending: "Say it; the naming builds something real."
 fraying: "The naming is building something against you."
 drawable: true
 parents: []
-relatedThirds: ["connection-first", "the-naming-contest", "ostrin"]
+relatedThirds: ["connection-first", "the-naming-contest", "the-tested-price"]
 ---
 
 **The Local Rule.** Speaking as though words build what follows. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

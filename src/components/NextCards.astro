@@ -29,7 +29,7 @@ const cards = related
     const t = thirds.find((x) => x.id === slug);
     if (t) return {
       href: `/thirds/${t.id}/`,
-      title: `${t.data.name}, ${t.data.epithet}`,
+      title: t.data.epithet ? `${t.data.name}, ${t.data.epithet}` : t.data.name,
       summary: t.data.personifies,
       label: 'A Standing Third',
       color: 'var(--c-p5)',

@@ -1,17 +1,17 @@
 ---
-name: "Ostrin"
-epithet: "Who Never Names the First Price"
+name: "The Tested Price"
+epithet: ""
 kinship: "dyad"
 order: 30
-personifies: "Mareth and Nammeth, meeting in two people."
+personifies: "The Mark and The Namer, meeting in two people."
 tending: "Test the terms before agreeing to them."
 fraying: "The testing has become the relationship."
 drawable: true
-parents: ["mareth", "nammeth"]
-relatedThirds: ["mareth", "nammeth"]
+parents: ["the-mark", "the-namer"]
+relatedThirds: ["the-mark", "the-namer"]
 ---
 
-**A fusion of [Mareth](/thirds/mareth/) and [Nammeth](/thirds/nammeth/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Mark](/thirds/the-mark/) and [The Namer](/thirds/the-namer/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Terms named and checked before agreement.
 

@@ -4,7 +4,7 @@ part: "part-four"
 order: 39
 epigraph: "People only need three things to do well: mastery, purpose, and autonomy."
 summary: "History moves in loops at civilizational scale — and every large \"we\" is a Third Thing doing work face-to-face familiarity can't."
-related: ["charten", "belief-systems-built", "the-skein", "fractal-resistance"]
+related: ["the-shared-name", "belief-systems-built", "the-skein", "fractal-resistance"]
 ---
 
 Part Two's <a class="concept-link" href="/concept/fractal-resistance/">Fractal Resistance</a> chapter drew a distinction between structures organized around individual identity and structures organized around collective identity, and asked you not to treat every rigid hierarchy as automatically the enemy of the practice. This chapter expands why.

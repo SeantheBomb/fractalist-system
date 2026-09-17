@@ -9,9 +9,9 @@ related: ["great-days", "skein-kin", "group-practice"]
 
 | Weave | The Turning | What it builds |
 |---|---|---|
-| <a class="concept-link" href="/thirds/cessant/">Cessant</a> | **The Loud Table** — someone must say one true unspoken thing before dessert | Silence stops being the group's default |
-| <a class="concept-link" href="/thirds/quillith/">Quillith</a> | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
-| <a class="concept-link" href="/thirds/handrel/">Handrel</a> | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
+| Held Silence | **The Loud Table** — someone must say one true unspoken thing before dessert | Silence stops being the group's default |
+| Transmission Drift | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
+| The Faithful Chain | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
 | First-Arriver Lock-In | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
 | The Shared Pot | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
 | The Reputation | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |

@@ -3,15 +3,15 @@ name: "The Guard"
 epithet: ""
 kinship: "dyad"
 order: 18
-personifies: "Rethen and Selvan, meeting in two people."
+personifies: "The Tide and The Mask, meeting in two people."
 tending: "The boundary is protecting something real."
 fraying: "The armor is preventing what it was protecting."
 drawable: true
-parents: ["rethen", "selvan"]
-relatedThirds: ["rethen", "selvan", "cessant"]
+parents: ["the-tide", "the-mask"]
+relatedThirds: ["the-tide", "the-mask", "held-silence"]
 ---
 
-**A fusion of [Rethen](/thirds/rethen/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Tide](/thirds/the-tide/) and [The Mask](/thirds/the-mask/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Boundaries protecting something real.
 

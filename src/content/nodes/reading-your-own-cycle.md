@@ -4,7 +4,7 @@ part: "part-two"
 order: 16
 epigraph: "Step repeats, form emerges."
 summary: "Reinforcing loops amplify; balancing loops correct back toward a middle — and everything that survives runs both at once, like a tide."
-related: ["finding-your-leverage-point", "cindar", "rethen", "systems-theory"]
+related: ["finding-your-leverage-point", "the-spark", "the-tide", "systems-theory"]
 ---
 
 Not every loop behaves the same way, and one specific distinction is worth learning to feel in your own daily rhythm before you try to apply it anywhere more complicated: the difference between a **reinforcing loop**, which amplifies whatever direction it's already moving in, and a **balancing loop**, which corrects back toward some middle point.

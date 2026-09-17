@@ -1,6 +1,6 @@
 ---
-name: "Corren"
-epithet: "Who Gives the Whole Room"
+name: "The Gardener"
+epithet: ""
 kinship: "self"
 order: 11
 personifies: "The Local Rule: attending repeatedly to one thing among many."
@@ -8,7 +8,7 @@ tending: "Attend to it; what you water grows."
 fraying: "So does whatever you keep confirming."
 drawable: true
 parents: []
-relatedThirds: ["vessa", "typecasting"]
+relatedThirds: ["watering-another", "typecasting"]
 ---
 
 **The Local Rule.** Attending repeatedly to one thing among many. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

@@ -3,15 +3,15 @@ name: "The Sliding Floor"
 epithet: ""
 kinship: "dyad"
 order: 22
-personifies: "Mareth and Rethen, meeting in two people."
+personifies: "The Mark and The Tide, meeting in two people."
 tending: "The standard adjusted honestly."
 fraying: "It's eroding, every step small enough to miss."
 drawable: true
-parents: ["mareth", "rethen"]
-relatedThirds: ["mareth", "rethen", "the-sagging-floor"]
+parents: ["the-mark", "the-tide"]
+relatedThirds: ["the-mark", "the-tide", "the-sagging-floor"]
 ---
 
-**A fusion of [Mareth](/thirds/mareth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Mark](/thirds/the-mark/) and [The Tide](/thirds/the-tide/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Standards adjusting honestly to changed conditions.
 

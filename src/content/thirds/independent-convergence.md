@@ -1,6 +1,6 @@
 ---
-name: "Dyren"
-epithet: "Who Was Never Taught"
+name: "Independent Convergence"
+epithet: ""
 kinship: "culture"
 order: 48
 personifies: "Second-Order Design fused with itself, compounded past any one life."

@@ -8,7 +8,7 @@ tending: "Shared fluency makes real work fast."
 fraying: "The fluency has become a wall."
 drawable: true
 parents: ["the-unbridged-gap", "the-naming-contest"]
-relatedThirds: ["the-unbridged-gap", "the-naming-contest", "the-only-road", "charten"]
+relatedThirds: ["the-unbridged-gap", "the-naming-contest", "the-only-road", "the-shared-name"]
 ---
 
 **A fusion of [The Unbridged Gap](/thirds/the-unbridged-gap/) and [The Naming Contest](/thirds/the-naming-contest/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

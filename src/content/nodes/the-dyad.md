@@ -4,7 +4,7 @@ part: "part-two"
 order: 21
 epigraph: "It takes two to tango."
 summary: "A Skein narrowed to exactly two people, woven completely enough to function as a single unit — and why complete doesn't automatically mean healthy."
-related: ["the-trust-triangle", "do-i-understand-you", "wevven", "the-third-thing"]
+related: ["the-trust-triangle", "do-i-understand-you", "the-pairing", "the-third-thing"]
 ---
 
 There's a special case that behaves differently enough from a larger Skein that the same advice doesn't quite fit it. This is simply a **Dyad** — the same word already used as a scale tag in the Loop Tongue, reused here on purpose rather than by accident, because the phenomenon happens to sit exactly at the scale the tag names: a Skein narrowed down to exactly two people, whose interweaving has become so complete that it functions as a single unit rather than a pair of individuals in close contact. Most often this is a marriage or a long-term partnership, but it isn't defined by romance or legal status — it's defined by the completeness of the weave. You'd recognize one by a specific texture: the two people involved often seem slightly self-sufficient in a way that mildly excludes everyone else, not out of unkindness, but because the loop between them has genuinely closed. Something is being built there that doesn't especially need a third person's <a class="concept-link" href="/concept/local-rule/">Local Rule</a> folded in to keep running.

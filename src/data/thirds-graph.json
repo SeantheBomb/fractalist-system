@@ -1,204 +1,204 @@
 {
- "cindar": {
+ "the-spark": {
   "kinship": "self",
   "parents": []
  },
- "rethen": {
+ "the-tide": {
   "kinship": "self",
   "parents": []
  },
- "mareth": {
+ "the-mark": {
   "kinship": "self",
   "parents": []
  },
- "solven": {
+ "the-salve": {
   "kinship": "self",
   "parents": []
  },
- "sythen": {
+ "the-nearest-light": {
   "kinship": "self",
   "parents": []
  },
- "kessin": {
+ "the-keepsake": {
   "kinship": "self",
   "parents": []
  },
- "dorrin": {
+ "the-easier-door": {
   "kinship": "self",
   "parents": []
  },
- "selvan": {
+ "the-mask": {
   "kinship": "self",
   "parents": []
  },
- "mirrath": {
+ "the-mirror": {
   "kinship": "self",
   "parents": []
  },
- "nammeth": {
+ "the-namer": {
   "kinship": "self",
   "parents": []
  },
- "loum": {
+ "the-riverbed": {
   "kinship": "self",
   "parents": []
  },
- "corren": {
+ "the-gardener": {
   "kinship": "self",
   "parents": []
  },
  "escalation": {
   "kinship": "dyad",
   "parents": [
-   "cindar",
-   "cindar"
+   "the-spark",
+   "the-spark"
   ]
  },
  "the-standoff": {
   "kinship": "dyad",
   "parents": [
-   "rethen",
-   "rethen"
+   "the-tide",
+   "the-tide"
   ]
  },
- "wevven": {
+ "the-pairing": {
   "kinship": "dyad",
   "parents": [
-   "cindar",
-   "rethen"
+   "the-spark",
+   "the-tide"
   ]
  },
- "vessa": {
+ "watering-another": {
   "kinship": "dyad",
   "parents": [
-   "corren",
-   "cindar"
+   "the-gardener",
+   "the-spark"
   ]
  },
  "answering-for": {
   "kinship": "dyad",
   "parents": [
-   "solven",
-   "cindar"
+   "the-salve",
+   "the-spark"
   ]
  },
  "filling-the-gap": {
   "kinship": "dyad",
   "parents": [
-   "selvan",
-   "sythen"
+   "the-mask",
+   "the-nearest-light"
   ]
  },
  "the-guard": {
   "kinship": "dyad",
   "parents": [
-   "rethen",
-   "selvan"
+   "the-tide",
+   "the-mask"
   ]
  },
  "reading-the-room": {
   "kinship": "dyad",
   "parents": [
-   "sythen",
-   "mirrath"
+   "the-nearest-light",
+   "the-mirror"
   ]
  },
  "connection-first": {
   "kinship": "dyad",
   "parents": [
-   "nammeth",
-   "rethen"
+   "the-namer",
+   "the-tide"
   ]
  },
  "the-rising-bar": {
   "kinship": "dyad",
   "parents": [
-   "mareth",
-   "cindar"
+   "the-mark",
+   "the-spark"
   ]
  },
  "the-sliding-floor": {
   "kinship": "dyad",
   "parents": [
-   "mareth",
-   "rethen"
+   "the-mark",
+   "the-tide"
   ]
  },
  "the-shared-story": {
   "kinship": "dyad",
   "parents": [
-   "kessin",
-   "kessin"
+   "the-keepsake",
+   "the-keepsake"
   ]
  },
  "the-echo": {
   "kinship": "dyad",
   "parents": [
-   "mirrath",
-   "mirrath"
+   "the-mirror",
+   "the-mirror"
   ]
  },
  "typecasting": {
   "kinship": "dyad",
   "parents": [
-   "corren",
-   "selvan"
+   "the-gardener",
+   "the-mask"
   ]
  },
  "gaming-the-terms": {
   "kinship": "dyad",
   "parents": [
-   "dorrin",
-   "cindar"
+   "the-easier-door",
+   "the-spark"
   ]
  },
  "the-naming-contest": {
   "kinship": "dyad",
   "parents": [
-   "nammeth",
-   "nammeth"
+   "the-namer",
+   "the-namer"
   ]
  },
  "the-unbridged-gap": {
   "kinship": "dyad",
   "parents": [
-   "selvan",
-   "mirrath"
+   "the-mask",
+   "the-mirror"
   ]
  },
  "the-arrangement": {
   "kinship": "dyad",
   "parents": [
-   "loum",
-   "loum"
+   "the-riverbed",
+   "the-riverbed"
   ]
  },
- "ostrin": {
+ "the-tested-price": {
   "kinship": "dyad",
   "parents": [
-   "mareth",
-   "nammeth"
+   "the-mark",
+   "the-namer"
   ]
  },
- "cessant": {
+ "held-silence": {
   "kinship": "skein",
   "parents": [
    "the-guard",
    "the-standoff"
   ]
  },
- "quillith": {
+ "transmission-drift": {
   "kinship": "skein",
   "parents": [
    "the-naming-contest",
    "filling-the-gap"
   ]
  },
- "handrel": {
+ "the-faithful-chain": {
   "kinship": "skein",
   "parents": [
    "answering-for",
-   "vessa"
+   "watering-another"
   ]
  },
  "first-arriver-lock-in": {
@@ -240,7 +240,7 @@
   "kinship": "skein",
   "parents": [
    "the-arrangement",
-   "wevven"
+   "the-pairing"
   ]
  },
  "the-inner-circle": {
@@ -257,7 +257,7 @@
    "the-unbridged-gap"
   ]
  },
- "charten": {
+ "the-shared-name": {
   "kinship": "culture",
   "parents": [
    "the-inner-circle",
@@ -274,7 +274,7 @@
  "policy-resistance": {
   "kinship": "culture",
   "parents": [
-   "cessant",
+   "held-silence",
    "the-shared-pot"
   ]
  },
@@ -285,21 +285,21 @@
    "the-shared-pot"
   ]
  },
- "waeth": {
+ "the-received-world": {
   "kinship": "culture",
   "parents": [
-   "quillith",
-   "handrel"
+   "transmission-drift",
+   "the-faithful-chain"
   ]
  },
- "aestren": {
+ "the-slow-hand": {
   "kinship": "culture",
   "parents": [
    "the-sagging-floor",
    "the-hall-of-mirrors"
   ]
  },
- "dyren": {
+ "independent-convergence": {
   "kinship": "culture",
   "parents": [
    "second-order-design",

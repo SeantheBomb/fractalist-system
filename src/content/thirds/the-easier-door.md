@@ -1,6 +1,6 @@
 ---
-name: "Dorrin"
-epithet: "the Easier Door"
+name: "The Easier Door"
+epithet: ""
 kinship: "self"
 order: 6
 personifies: "The Local Rule: answering a simpler question than the one asked."

@@ -1,6 +1,6 @@
 ---
-name: "Sythen"
-epithet: "the One Who Turns First"
+name: "The Nearest Light"
+epithet: ""
 kinship: "self"
 order: 4
 personifies: "The Local Rule: judging by what arrives first."

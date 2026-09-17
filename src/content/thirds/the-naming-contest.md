@@ -3,15 +3,15 @@ name: "The Naming Contest"
 epithet: ""
 kinship: "dyad"
 order: 27
-personifies: "Nammeth fused with itself, meeting in two people."
+personifies: "The Namer fused with itself, meeting in two people."
 tending: "You're building a shared vocabulary."
 fraying: "Naming has replaced resolving."
 drawable: true
-parents: ["nammeth", "nammeth"]
-relatedThirds: ["nammeth", "quillith", "the-inner-circle"]
+parents: ["the-namer", "the-namer"]
+relatedThirds: ["the-namer", "transmission-drift", "the-inner-circle"]
 ---
 
-**[Nammeth](/thirds/nammeth/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
+**[The Namer](/thirds/the-namer/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** A shared vocabulary built between two people.
 

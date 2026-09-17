@@ -1,6 +1,6 @@
 ---
-name: "Kessin"
-epithet: "Who Keeps the Ending"
+name: "The Keepsake"
+epithet: ""
 kinship: "self"
 order: 5
 personifies: "The Local Rule: storing an episode by its peak and its close."

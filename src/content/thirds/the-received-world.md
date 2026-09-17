@@ -1,17 +1,17 @@
 ---
-name: "Waeth"
-epithet: "the Traveler Who Forgets on Purpose"
+name: "The Received World"
+epithet: ""
 kinship: "culture"
 order: 46
-personifies: "Quillith and Handrel, compounded past any one life."
+personifies: "Transmission Drift and The Faithful Chain, compounded past any one life."
 tending: "Inheritance that works without its explanation."
 fraying: "Inheritance hollow of why it ever existed."
 drawable: true
-parents: ["quillith", "handrel"]
-relatedThirds: ["quillith", "handrel"]
+parents: ["transmission-drift", "the-faithful-chain"]
+relatedThirds: ["transmission-drift", "the-faithful-chain"]
 ---
 
-**A fusion of [Quillith](/thirds/quillith/) and [Handrel](/thirds/handrel/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Transmission Drift](/thirds/transmission-drift/) and [The Faithful Chain](/thirds/the-faithful-chain/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Inherited knowledge that works without needing its explanation.
 
