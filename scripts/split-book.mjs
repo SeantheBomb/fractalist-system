@@ -6,7 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { NODES } from './manifest.mjs';
+import { NODES, THIRD_BLURBS } from './manifest.mjs';
 import { buildConcepts, linkConcepts } from './concepts.mjs';
 import { buildGalaxy } from './galaxy.mjs';
 
@@ -176,6 +176,16 @@ figures.push({
 });
 
 const bySlug = new Map(figures.map((f) => [f.slug, f]));
+{
+  const unwritten = figures.filter((f) => !THIRD_BLURBS[f.slug]).map((f) => f.slug);
+  const orphaned = Object.keys(THIRD_BLURBS).filter((s) => !bySlug.has(s));
+  if (unwritten.length || orphaned.length) {
+    throw new Error(`THIRD_BLURBS out of step with Part Five.
+  no blurb: ${unwritten.join(', ') || 'none'}
+  no such figure: ${orphaned.join(', ') || 'none'}`);
+  }
+  for (const f of figures) f.blurb = THIRD_BLURBS[f.slug];
+}
 const childrenOf = new Map();
 for (const f of figures) {
   for (const p of f.parents) {
@@ -226,6 +236,7 @@ figures.forEach((f, i) => {
     `kinship: ${y(f.kinship)}`,
     `order: ${i}`,
     `personifies: ${y(personifies)}`,
+    `blurb: ${y(f.blurb)}`,
     reading.tending ? `tending: ${y(reading.tending)}` : null,
     reading.fraying ? `fraying: ${y(reading.fraying)}` : null,
     `drawable: ${f.drawable === false ? 'false' : 'true'}`,

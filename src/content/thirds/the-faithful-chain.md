@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 33
 personifies: "Answering For and Watering Another, sharing a person."
+blurb: "A craft handed from person to person, each taught by someone who was taught. Skill kept intact across people who never met, and dependence kept intact with it."
 tending: "Pass it on, and credit who taught you."
 fraying: "Dependence is passing along with the craft."
 drawable: true

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 27
 personifies: "The Namer fused with itself, meeting in two people."
+blurb: "Two people each trying to name what is happening between them. A vocabulary built together, or a duel of framings where naming replaces resolving."
 tending: "You're building a shared vocabulary."
 fraying: "Naming has replaced resolving."
 drawable: true

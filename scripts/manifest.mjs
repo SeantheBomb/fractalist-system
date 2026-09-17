@@ -40,9 +40,9 @@ export const PARTS = {
   'part-five': {
     title: 'Part Five — The Standing Thirds', color: 'var(--c-p5)',
     guide: {
-      purpose: 'Giving a face to patterns you already recognize, so they\'re easier to spot and easier to name to someone else.',
-      outcome: 'Run a diagnostic question against your own situation for each figure, and use the roster as the deck Part Six draws from.',
-      shortcut: 'Read Chapter 0, then the question at the end of each figure\'s chapter. The stories are there to make the questions memorable, not the other way around.',
+      purpose: 'A complete catalogue of the patterns this practice has found, each given a face, each carrying both of its poles.',
+      outcome: 'Name what is running in a situation, at any scale, and say honestly which way it is currently pointed.',
+      shortcut: 'Chapter 1, then whichever tier matches the scale of your problem.',
     },
   },
   'part-six': {
@@ -417,7 +417,7 @@ export const NODES = [
     slug: 'what-a-third-is',
     title: 'What a Third Is, and What It Isn\'t',
     part: 'part-five',
-    summary: 'A pattern repeated widely enough, for long enough, can be given a face. One rule governs everything that follows: a Third has no will of its own.',
+    summary: 'A pattern that recurs reliably enough to be worth naming, with no will of its own. The four tests every figure has to pass, and why a tier measures what a Third is made of rather than its rank.',
     related: ['self-kin', 'the-third-thing', 'what-a-weaving-is'],
   },
   {
@@ -425,7 +425,7 @@ export const NODES = [
     slug: 'self-kin',
     title: 'The Self-Kin',
     part: 'part-five',
-    summary: 'Twelve patterns one person generates alone, each with its Local Rule, its healthy expression, and its documented failure. Everything larger in the book is built by fusing these.',
+    summary: 'Twelve patterns one person generates alone, each with its Local Rule and both of its poles. Nothing sits underneath them, and every larger figure is built by fusing these.',
     related: ['dyad-kin', 'the-woven-self', 'naming-and-defusing'],
   },
   {
@@ -433,7 +433,7 @@ export const NODES = [
     slug: 'dyad-kin',
     title: 'The Dyad-Kin',
     part: 'part-five',
-    summary: 'Nineteen two-person patterns, each one two Self-Kin meeting: my loop against yours, producing something neither of us brought.',
+    summary: 'Nineteen two-person patterns, each one two Self-Kin meeting. Know any two of the three and the third follows, which means changing your own leg changes what the two of you make.',
     related: ['skein-kin', 'the-dyad', 'the-trust-triangle'],
   },
   {
@@ -726,4 +726,64 @@ export const KINSHIPS = {
     ring: 'Never drawn — the boundary the other four rings already sit inside.',
     intro: 'A kinship of exactly one, and meant to stay that way. It is the only figure here with no Tending and no Fraying pole, and the exemption is structural rather than convenient: a pole has to be read from somewhere, and there is nowhere outside this one to stand.',
   },
+};
+
+// What each Standing Third is, in a sentence or two: the thing it does, then both of its poles.
+// The book's tables give the Local Rule and the poles; these put them in plain words for cards.
+// split-book throws if a catalogued figure has no entry here, or an entry names no figure.
+export const THIRD_BLURBS = {
+  'the-spark': 'What comes out feeds what goes in next. Momentum that compounds, whether it is building something or burning it down.',
+  'the-tide': 'The pull back toward a setpoint. It gives a system the recovery it needs, and it can also call the retreat before the work is done.',
+  'the-mark': "Judging everything against a reference point. Without one you can't judge at all; kept too long, it rules a world that has moved on.",
+  'the-salve': 'Reaching first for whatever eases the symptom. A good stopgap buys time to build the real fix; a permanent one wears away the ability it replaced.',
+  'the-nearest-light': 'Trusting whatever reaches you first. Sometimes the latest signal really is the truest; sometimes the most vivid thing only feels the most common.',
+  'the-keepsake': "Remembering an experience by its peak and its ending. It makes a life tellable as a story, at the cost of a record that doesn't match what was lived.",
+  'the-easier-door': "Quietly swapping a hard question for an easier one. It's how hard questions get answered at all, and how confident answers get given to questions nobody asked.",
+  'the-mask': "Holding to a story about yourself even against the evidence. That conviction makes commitment possible, until it becomes a self you can't see around.",
+  'the-mirror': 'Taking your shape from whoever is in the room. A self truly built through relationship, or no position of your own once the audience changes.',
+  'the-namer': 'Speaking as though the words will build what follows, because they do. Language that makes something real, sometimes something real that works against you.',
+  'the-riverbed': 'Shaping your surroundings so one action becomes the easy one. It takes willpower out of the equation, and leaves you stranded when the surroundings change.',
+  'the-gardener': 'Returning your attention, again and again, to one thing among many. Whatever you attend to grows, including whatever you keep confirming.',
+
+  'escalation': 'Two people each answering the other with a little more. It can lift both to their best, or lock them in an arms race neither chose and neither can leave.',
+  'the-standoff': 'Two people each easing back and waiting on the other. Room given without forcing, or a stalemate both of them call patience.',
+  'the-pairing': 'One person drives while the other steadies. A real division of labor, or a standing resentment between the accelerator and the brake.',
+  'watering-another': "Attention that keeps returning to someone, and grows what it lands on. It can grow the best in them, or whatever you've already decided they are.",
+  'answering-for': 'One person keeps supplying what the other needs to know. Expertise given generously, or help that stops them ever developing their own.',
+  'filling-the-gap': "Supplying what someone else thinks and feels from your own assumptions. It saves checking every time, until you're relating to someone who isn't there.",
+  'the-guard': 'A boundary held between two people. It protects something real, or hardens into armor that blocks the connection it was protecting.',
+  'reading-the-room': "Reading another person's state from what they stir in you. Emotion used as honest information, or your own reaction mistaken for theirs.",
+  'connection-first': 'Leading with warmth before any content. Warmth that lets hard information land, or warmth standing in for having anything to say.',
+  'the-rising-bar': 'Standards between two people that keep ratcheting up. They climb as real capacity grows, or climb past the point where anything is ever enough.',
+  'the-sliding-floor': 'Standards between two people that keep easing down. An honest adjustment to changed conditions, or erosion in steps too small to notice.',
+  'the-shared-story': 'A memory two people build and keep together. It binds them to something real, or to an account of an event neither of them actually had.',
+  'the-echo': 'Two people each taking their shape from the other. Genuinely formed by each other, or a pair with no fixed position anywhere between them.',
+  'typecasting': 'Seeing someone as one kind of person until they become it. It can call real capability out of them, or lock them into a single role.',
+  'gaming-the-terms': 'Keeping to the letter of an agreement while finding the easy way through it. Creative slack in a bad deal, or its purpose quietly hollowed out.',
+  'the-naming-contest': 'Two people each trying to name what is happening between them. A vocabulary built together, or a duel of framings where naming replaces resolving.',
+  'the-unbridged-gap': "Deep fluency on one side that the other side can't reach. Skill that comes from real depth, or an inability to picture a mind without your context.",
+  'the-arrangement': "Each person shaping the other's surroundings instead of asking directly. The right thing made easy, or two people quietly managing each other.",
+  'the-tested-price': 'Naming the terms and checking them before agreeing. A deal both sides can trust, or terms accepted untested, or testing that never ends.',
+
+  'held-silence': "A group that knows something and doesn't say it. Discretion that lets it survive ordinary friction, or a truth nobody can be the first to name.",
+  'transmission-drift': 'A story that changes a little with every teller. It survives by adapting to each one, or drifts free of what it started as.',
+  'the-faithful-chain': 'A craft handed from person to person, each taught by someone who was taught. Skill kept intact across people who never met, and dependence kept intact with it.',
+  'first-arriver-lock-in': 'A group rewarding whatever already works, so the early winners keep winning. Merit rewarded, or whoever arrived first entrenched regardless of it.',
+  'the-shared-pot': 'A resource a whole group draws on freely. Trust that makes keeping accounts unnecessary, or a common that nobody is placed to protect.',
+  'the-reputation': 'The role a group comes to count on you to play. It lets them rely on you, and because they wrote it, it can be hard to step out of.',
+  'the-sagging-floor': "A group's expectations lowering together, one reasonable step at a time. A sensible adjustment to real conditions, or standards eroding while everyone feels fine.",
+  'the-hall-of-mirrors': 'A group where everyone takes their shape from everyone else. Real responsiveness to itself, or no independent position left anywhere in it.',
+  'second-order-design': 'A group shaping the conditions that shape its members. Outcomes richer than anyone could have authored, or ones nobody intended or wanted.',
+  'the-inner-circle': 'A group whose shared language makes its work fast. The same fluency can become a wall against everyone outside it.',
+  'the-only-road': 'One person who is the only bridge between two groups. They connect worlds that would otherwise never meet, and losing them cuts those worlds apart.',
+
+  'the-shared-name': 'A name that gathers vast numbers of people into a "we". It can bind people who are genuinely connected, or people with nothing underneath the name.',
+  'proxy-detachment': 'A measure standing in for something too large to see directly. It makes a vast system legible, until it is optimized so hard it stops tracking what it measured.',
+  'policy-resistance': 'A whole system pushing back against every push. Stability no single actor could have imposed, or everyone straining harder while nothing moves.',
+  'the-long-cycle': 'Growth that compounds across generations. It builds for a long time, and past a threshold the same mechanism consumes what it built.',
+  'the-received-world': 'What a culture hands down without the reasons attached. Knowledge that works without needing explaining, or practice hollowed of why it ever existed.',
+  'the-slow-hand': 'Change too slow for any single life to watch. Continuity that outlasts every turbulence, or a slow shift mistaken for permanence.',
+  'independent-convergence': 'The same answer found twice by people with no contact. Real evidence when no path connects them, or shared bias mistaken for confirmation.',
+
+  'infinite-boundary': 'Every pattern at once, summed and never averaged. The one figure with no poles, because there is nowhere outside it to stand and read one.',
 };

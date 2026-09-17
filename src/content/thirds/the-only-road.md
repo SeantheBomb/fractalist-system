@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 41
 personifies: "The Inner Circle and The Unbridged Gap, sharing a person."
+blurb: "One person who is the only bridge between two groups. They connect worlds that would otherwise never meet, and losing them cuts those worlds apart."
 tending: "You are the bridge two worlds actually cross on."
 fraying: "Everything must pass through you, and your absence severs."
 drawable: true

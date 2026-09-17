@@ -3,11 +3,11 @@ title: "What a Third Is, and What It Isn't"
 part: "part-five"
 order: 42
 epigraph: "A pattern does not need a will to act on you. It only needs to keep happening."
-summary: "A pattern repeated widely enough, for long enough, can be given a face. One rule governs everything that follows: a Third has no will of its own."
+summary: "A pattern that recurs reliably enough to be worth naming, with no will of its own. The four tests every figure has to pass, and why a tier measures what a Third is made of rather than its rank."
 related: ["self-kin", "the-third-thing", "what-a-weaving-is"]
 ---
 
-A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. The Spark does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
+A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. <a class="concept-link" href="/thirds/the-spark/">The Spark</a> does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
 
 **Four things are true of every figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 

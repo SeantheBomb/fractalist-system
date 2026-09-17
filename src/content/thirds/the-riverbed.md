@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 10
 personifies: "The Local Rule: shaping conditions so one action is easiest."
+blurb: "Shaping your surroundings so one action becomes the easy one. It takes willpower out of the equation, and leaves you stranded when the surroundings change."
 tending: "Change the conditions, not the willpower."
 fraying: "You can't act at all once conditions shift."
 drawable: true

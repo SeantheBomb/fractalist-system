@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 18
 personifies: "The Tide and The Mask, meeting in two people."
+blurb: "A boundary held between two people. It protects something real, or hardens into armor that blocks the connection it was protecting."
 tending: "The boundary is protecting something real."
 fraying: "The armor is preventing what it was protecting."
 drawable: true

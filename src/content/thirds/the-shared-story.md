@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 23
 personifies: "The Keepsake fused with itself, meeting in two people."
+blurb: "A memory two people build and keep together. It binds them to something real, or to an account of an event neither of them actually had."
 tending: "A joint memory binding you to something real."
 fraying: "Neither of you actually had this event."
 drawable: true

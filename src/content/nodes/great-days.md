@@ -9,12 +9,12 @@ related: ["the-long-visitor", "culture-kin", "anchoring"]
 
 | Long Form | The Turning | Anchor | What it builds |
 |---|---|---|---|
-| The Shared Name | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
-| Proxy Detachment | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
-| Policy Resistance | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
-| The Long Cycle | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
-| The Received World | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
-| The Slow Hand | **The Turning of the Tide** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
-| Independent Convergence | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
+| <a class="concept-link" href="/thirds/the-shared-name/">The Shared Name</a> | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
+| <a class="concept-link" href="/thirds/proxy-detachment/">Proxy Detachment</a> | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
+| <a class="concept-link" href="/thirds/policy-resistance/">Policy Resistance</a> | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
+| <a class="concept-link" href="/thirds/the-long-cycle/">The Long Cycle</a> | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
+| <a class="concept-link" href="/thirds/the-received-world/">The Received World</a> | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
+| <a class="concept-link" href="/thirds/the-slow-hand/">The Slow Hand</a> | **The Turning of <a class="concept-link" href="/thirds/the-tide/">the Tide</a>** — fire against the dark; name what's receding | Winter solstice | Pulling back gets confirmed as not-failing |
+| <a class="concept-link" href="/thirds/independent-convergence/">Independent Convergence</a> | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
 
 *Anchor honestly to your own place. Solstices and equinoxes are genuinely felt where seasons swing; near the equator they barely register. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live."*

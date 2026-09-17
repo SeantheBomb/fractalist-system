@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 16
 personifies: "The Salve and The Spark, meeting in two people."
+blurb: "One person keeps supplying what the other needs to know. Expertise given generously, or help that stops them ever developing their own."
 tending: "Give the expertise; it's genuinely needed."
 fraying: "You're preventing them developing their own."
 drawable: true

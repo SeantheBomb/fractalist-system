@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 42
 personifies: "The Inner Circle and The Reputation, compounded past any one life."
+blurb: "A name that gathers vast numbers of people into a \"we\". It can bind people who are genuinely connected, or people with nothing underneath the name."
 tending: "The name binds people genuinely connected."
 fraying: "It binds people with nothing underneath it."
 drawable: true

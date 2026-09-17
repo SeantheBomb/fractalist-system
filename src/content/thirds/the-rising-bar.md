@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 21
 personifies: "The Mark and The Spark, meeting in two people."
+blurb: "Standards between two people that keep ratcheting up. They climb as real capacity grows, or climb past the point where anything is ever enough."
 tending: "The standard rose because you did."
 fraying: "Nothing will ever be sufficient at this rate."
 drawable: true

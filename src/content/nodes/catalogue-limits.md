@@ -11,4 +11,4 @@ Forty-eight figures is a taxonomy, not a pantheon. Most practitioners will find 
 
 **Adding to it:** a new figure earns a place only by making at least two existing figures more legible. Completeness is not the goal — density is. A roster of fifty figures that each illuminate three others is better than a roster of five hundred that each stand alone.
 
-**And the honest limit of the whole thing:** these are compressions. Every figure here is a Loop-name laid over a Tree that is genuinely more varied than the name admits. The Spark is not one pattern; the Spark is ten thousand particular fires, flattened into something sayable. Use the name to find the thing. Then look at the actual thing.
+**And the honest limit of the whole thing:** these are compressions. Every figure here is a Loop-name laid over a Tree that is genuinely more varied than the name admits. <a class="concept-link" href="/thirds/the-spark/">The Spark</a> is not one pattern; the Spark is ten thousand particular fires, flattened into something sayable. Use the name to find the thing. Then look at the actual thing.

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 13
 personifies: "The Tide fused with itself, meeting in two people."
+blurb: "Two people each easing back and waiting on the other. Room given without forcing, or a stalemate both of them call patience."
 tending: "You're giving each other room."
 fraying: "Both waiting, both calling the stalemate patience."
 drawable: true

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 20
 personifies: "The Namer and The Tide, meeting in two people."
+blurb: "Leading with warmth before any content. Warmth that lets hard information land, or warmth standing in for having anything to say."
 tending: "Warmth first; then it can land."
 fraying: "Warmth is substituting for having something to say."
 drawable: true

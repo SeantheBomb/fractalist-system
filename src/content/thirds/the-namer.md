@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 9
 personifies: "The Local Rule: speaking as though words build what follows."
+blurb: "Speaking as though the words will build what follows, because they do. Language that makes something real, sometimes something real that works against you."
 tending: "Say it; the naming builds something real."
 fraying: "The naming is building something against you."
 drawable: true

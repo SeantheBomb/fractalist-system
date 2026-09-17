@@ -30,7 +30,7 @@ const cards = related
     if (t) return {
       href: `/thirds/${t.id}/`,
       title: t.data.epithet ? `${t.data.name}, ${t.data.epithet}` : t.data.name,
-      summary: t.data.personifies,
+      summary: t.data.blurb,
       label: 'A Standing Third',
       color: 'var(--c-p5)',
       shares: [] as string[],

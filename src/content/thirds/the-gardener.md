@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 11
 personifies: "The Local Rule: attending repeatedly to one thing among many."
+blurb: "Returning your attention, again and again, to one thing among many. Whatever you attend to grows, including whatever you keep confirming."
 tending: "Attend to it; what you water grows."
 fraying: "So does whatever you keep confirming."
 drawable: true

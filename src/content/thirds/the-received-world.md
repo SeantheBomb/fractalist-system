@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 46
 personifies: "Transmission Drift and The Faithful Chain, compounded past any one life."
+blurb: "What a culture hands down without the reasons attached. Knowledge that works without needing explaining, or practice hollowed of why it ever existed."
 tending: "Inheritance that works without its explanation."
 fraying: "Inheritance hollow of why it ever existed."
 drawable: true

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 38
 personifies: "The Echo and Reading the Room, sharing a person."
+blurb: "A group where everyone takes their shape from everyone else. Real responsiveness to itself, or no independent position left anywhere in it."
 tending: "The group is genuinely responsive to itself."
 fraying: "No independent position anywhere in it."
 drawable: true

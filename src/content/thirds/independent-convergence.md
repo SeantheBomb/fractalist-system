@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 48
 personifies: "Second-Order Design fused with itself, compounded past any one life."
+blurb: "The same answer found twice by people with no contact. Real evidence when no path connects them, or shared bias mistaken for confirmation."
 tending: "Reached twice, with no contact — real evidence."
 fraying: "Parallel bias mistaken for confirmation."
 drawable: true

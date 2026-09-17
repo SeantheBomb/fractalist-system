@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 40
 personifies: "The Unbridged Gap and The Naming Contest, sharing a person."
+blurb: "A group whose shared language makes its work fast. The same fluency can become a wall against everyone outside it."
 tending: "Shared fluency makes real work fast."
 fraying: "The fluency has become a wall."
 drawable: true

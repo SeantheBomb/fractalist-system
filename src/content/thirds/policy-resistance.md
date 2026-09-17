@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 44
 personifies: "Held Silence and The Shared Pot, compounded past any one life."
+blurb: "A whole system pushing back against every push. Stability no single actor could have imposed, or everyone straining harder while nothing moves."
 tending: "Stability no single actor could impose."
 fraying: "Everyone pulling harder; nothing moving."
 drawable: true

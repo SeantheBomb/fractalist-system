@@ -3,7 +3,7 @@ title: "The Dyad-Kin"
 part: "part-five"
 order: 44
 epigraph: "My loop, meeting yours. Neither of us brought the thing that happened next."
-summary: "Nineteen two-person patterns, each one two Self-Kin meeting: my loop against yours, producing something neither of us brought."
+summary: "Nineteen two-person patterns, each one two Self-Kin meeting. Know any two of the three and the third follows, which means changing your own leg changes what the two of you make."
 related: ["skein-kin", "the-dyad", "the-trust-triangle"]
 ---
 
@@ -11,25 +11,25 @@ Each of these is two currents, running in two people, producing something belong
 
 | Third | Fusion | Tending | Fraying |
 |---|---|---|---|
-| **Escalation** | The Spark + The Spark | Two people amplifying each other's best, both rising | An arms race neither chose and neither can exit |
-| **The Standoff** | The Tide + The Tide | Two people giving each other room without forcing | Both withdrawing, waiting, calling the stalemate patience |
-| **The Pairing** | The Spark + The Tide | One drives, one steadies — a real division of labor | One always pushing, one always braking, each resenting the role |
-| **Watering Another** | The Gardener + The Spark | Attention that grows what is best in someone | Attention that grows whatever you keep confirming |
-| **Answering For** | The Salve + The Spark | Expertise given generously where it is genuinely needed | Expertise that prevents them developing their own |
-| **Filling the Gap** | The Mask + The Nearest Light | Assumption that lets you act without constant checking | A relationship conducted with someone who isn't there |
-| **The Guard** | The Tide + The Mask | Boundaries protecting something real | Armor preventing the connection it was protecting |
-| **Reading the Room** | The Nearest Light + The Mirror | Emotion read as genuine, usable data | Your own reaction mistaken for the room's state |
-| **Connection First** | The Namer + The Tide | Warmth that lets real information land | Warmth substituted for having anything to say |
-| **The Rising Bar** | The Mark + The Spark | Standards climbing as capacity genuinely grows | Standards climbing past any point of sufficiency |
-| **The Sliding Floor** | The Mark + The Tide | Standards adjusting honestly to changed conditions | Standards eroding, every step small enough to miss |
-| **The Shared Story** | The Keepsake + The Keepsake | A joint memory binding two people to something real | A shared account of an event neither actually had |
-| **The Echo** | The Mirror + The Mirror | Two people genuinely shaped by each other | Two people with no fixed position anywhere between them |
+| **Escalation** | <a class="concept-link" href="/thirds/the-spark/">The Spark</a> + The Spark | Two people amplifying each other's best, both rising | An arms race neither chose and neither can exit |
+| **<a class="concept-link" href="/thirds/the-standoff/">The Standoff</a>** | <a class="concept-link" href="/thirds/the-tide/">The Tide</a> + The Tide | Two people giving each other room without forcing | Both withdrawing, waiting, calling the stalemate patience |
+| **<a class="concept-link" href="/thirds/the-pairing/">The Pairing</a>** | The Spark + The Tide | One drives, one steadies — a real division of labor | One always pushing, one always braking, each resenting the role |
+| **<a class="concept-link" href="/thirds/watering-another/">Watering Another</a>** | <a class="concept-link" href="/thirds/the-gardener/">The Gardener</a> + The Spark | Attention that grows what is best in someone | Attention that grows whatever you keep confirming |
+| **<a class="concept-link" href="/thirds/answering-for/">Answering For</a>** | <a class="concept-link" href="/thirds/the-salve/">The Salve</a> + The Spark | Expertise given generously where it is genuinely needed | Expertise that prevents them developing their own |
+| **<a class="concept-link" href="/thirds/filling-the-gap/">Filling the Gap</a>** | <a class="concept-link" href="/thirds/the-mask/">The Mask</a> + <a class="concept-link" href="/thirds/the-nearest-light/">The Nearest Light</a> | Assumption that lets you act without constant checking | A relationship conducted with someone who isn't there |
+| **<a class="concept-link" href="/thirds/the-guard/">The Guard</a>** | The Tide + The Mask | Boundaries protecting something real | Armor preventing the connection it was protecting |
+| **<a class="concept-link" href="/thirds/reading-the-room/">Reading the Room</a>** | The Nearest Light + <a class="concept-link" href="/thirds/the-mirror/">The Mirror</a> | Emotion read as genuine, usable data | Your own reaction mistaken for the room's state |
+| **<a class="concept-link" href="/thirds/connection-first/">Connection First</a>** | <a class="concept-link" href="/thirds/the-namer/">The Namer</a> + The Tide | Warmth that lets real information land | Warmth substituted for having anything to say |
+| **<a class="concept-link" href="/thirds/the-rising-bar/">The Rising Bar</a>** | <a class="concept-link" href="/thirds/the-mark/">The Mark</a> + The Spark | Standards climbing as capacity genuinely grows | Standards climbing past any point of sufficiency |
+| **<a class="concept-link" href="/thirds/the-sliding-floor/">The Sliding Floor</a>** | The Mark + The Tide | Standards adjusting honestly to changed conditions | Standards eroding, every step small enough to miss |
+| **<a class="concept-link" href="/thirds/the-shared-story/">The Shared Story</a>** | <a class="concept-link" href="/thirds/the-keepsake/">The Keepsake</a> + The Keepsake | A joint memory binding two people to something real | A shared account of an event neither actually had |
+| **<a class="concept-link" href="/thirds/the-echo/">The Echo</a>** | The Mirror + The Mirror | Two people genuinely shaped by each other | Two people with no fixed position anywhere between them |
 | **Typecasting** | The Gardener + The Mask | Seeing someone as capable until they become it | Seeing someone as one thing until they can't be another |
-| **Gaming the Terms** | The Easier Door + The Spark | Creative compliance finding real slack in a bad agreement | Letter satisfied, purpose hollowed |
-| **The Naming Contest** | The Namer + The Namer | A shared vocabulary built between two people | Duelling framings, where naming replaces resolving |
-| **The Unbridged Gap** | The Mask + The Mirror | Fluency that comes from real depth | Inability to model a mind that lacks your context |
-| **The Arrangement** | The Riverbed + The Riverbed | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
-| **The Tested Price** | The Mark + The Namer | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
+| **<a class="concept-link" href="/thirds/gaming-the-terms/">Gaming the Terms</a>** | <a class="concept-link" href="/thirds/the-easier-door/">The Easier Door</a> + The Spark | Creative compliance finding real slack in a bad agreement | Letter satisfied, purpose hollowed |
+| **<a class="concept-link" href="/thirds/the-naming-contest/">The Naming Contest</a>** | The Namer + The Namer | A shared vocabulary built between two people | Duelling framings, where naming replaces resolving |
+| **<a class="concept-link" href="/thirds/the-unbridged-gap/">The Unbridged Gap</a>** | The Mask + The Mirror | Fluency that comes from real depth | Inability to model a mind that lacks your context |
+| **<a class="concept-link" href="/thirds/the-arrangement/">The Arrangement</a>** | <a class="concept-link" href="/thirds/the-riverbed/">The Riverbed</a> + The Riverbed | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
+| **<a class="concept-link" href="/thirds/the-tested-price/">The Tested Price</a>** | The Mark + The Namer | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
 
 **The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Self-Kin, theirs, and the Dyad-Kin the two of you produce. Know any two and the third follows — and no two Dyad-Kin in this table share a fusion pair, so the answer is never ambiguous.
 

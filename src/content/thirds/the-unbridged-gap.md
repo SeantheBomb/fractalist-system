@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 28
 personifies: "The Mask and The Mirror, meeting in two people."
+blurb: "Deep fluency on one side that the other side can't reach. Skill that comes from real depth, or an inability to picture a mind without your context."
 tending: "Your fluency comes from real depth."
 fraying: "You can't model a mind that lacks your context."
 drawable: true

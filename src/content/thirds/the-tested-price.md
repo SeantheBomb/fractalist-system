@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 30
 personifies: "The Mark and The Namer, meeting in two people."
+blurb: "Naming the terms and checking them before agreeing. A deal both sides can trust, or terms accepted untested, or testing that never ends."
 tending: "Test the terms before agreeing to them."
 fraying: "The testing has become the relationship."
 drawable: true

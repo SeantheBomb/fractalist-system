@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 34
 personifies: "The Rising Bar and Escalation, sharing a person."
+blurb: "A group rewarding whatever already works, so the early winners keep winning. Merit rewarded, or whoever arrived first entrenched regardless of it."
 tending: "What works is being rewarded."
 fraying: "Whoever arrived first is entrenched regardless."
 drawable: true

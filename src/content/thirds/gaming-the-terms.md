@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 26
 personifies: "The Easier Door and The Spark, meeting in two people."
+blurb: "Keeping to the letter of an agreement while finding the easy way through it. Creative slack in a bad deal, or its purpose quietly hollowed out."
 tending: "You've found real slack in a bad agreement."
 fraying: "The letter is satisfied and the purpose is hollow."
 drawable: true

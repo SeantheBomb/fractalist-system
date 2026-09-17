@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 39
 personifies: "The Arrangement and The Pairing, sharing a person."
+blurb: "A group shaping the conditions that shape its members. Outcomes richer than anyone could have authored, or ones nobody intended or wanted."
 tending: "Emergence richer than anyone could author."
 fraying: "Emergence nobody intended or wanted."
 drawable: true

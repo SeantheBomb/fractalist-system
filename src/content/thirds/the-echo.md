@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 24
 personifies: "The Mirror fused with itself, meeting in two people."
+blurb: "Two people each taking their shape from the other. Genuinely formed by each other, or a pair with no fixed position anywhere between them."
 tending: "You're genuinely shaped by each other."
 fraying: "There's no fixed position anywhere between you."
 drawable: true

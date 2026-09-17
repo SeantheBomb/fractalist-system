@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 15
 personifies: "The Gardener and The Spark, meeting in two people."
+blurb: "Attention that keeps returning to someone, and grows what it lands on. It can grow the best in them, or whatever you've already decided they are."
 tending: "Your attention is growing what's best in them."
 fraying: "It's growing whatever you keep confirming instead."
 drawable: true

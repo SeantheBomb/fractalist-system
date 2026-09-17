@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 7
 personifies: "The Local Rule: maintaining a self-story against evidence."
+blurb: "Holding to a story about yourself even against the evidence. That conviction makes commitment possible, until it becomes a self you can't see around."
 tending: "Hold the conviction; it's what makes commitment possible."
 fraying: "You can't see around the story anymore."
 drawable: true

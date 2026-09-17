@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 36
 personifies: "Typecasting and The Shared Story, sharing a person."
+blurb: "The role a group comes to count on you to play. It lets them rely on you, and because they wrote it, it can be hard to step out of."
 tending: "The role lets the group rely on you."
 fraying: "You can't step out of what they authored."
 drawable: true

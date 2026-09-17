@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 1
 personifies: "The Local Rule: returning toward a setpoint."
+blurb: "The pull back toward a setpoint. It gives a system the recovery it needs, and it can also call the retreat before the work is done."
 tending: "Pull back. Enough has happened for now."
 fraying: "Stopping something that hadn't finished compounding."
 drawable: true

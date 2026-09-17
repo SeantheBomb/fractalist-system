@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 32
 personifies: "The Naming Contest and Filling the Gap, sharing a person."
+blurb: "A story that changes a little with every teller. It survives by adapting to each one, or drifts free of what it started as."
 tending: "The story survives by adapting to each teller."
 fraying: "It has drifted free of what it started as."
 drawable: true

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 47
 personifies: "The Sagging Floor and The Hall of Mirrors, compounded past any one life."
+blurb: "Change too slow for any single life to watch. Continuity that outlasts every turbulence, or a slow shift mistaken for permanence."
 tending: "Larger and slower than you; let it run."
 fraying: "Too slow to perceive, mistaken for permanent."
 drawable: true

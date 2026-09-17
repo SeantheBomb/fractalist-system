@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 4
 personifies: "The Local Rule: judging by what arrives first."
+blurb: "Trusting whatever reaches you first. Sometimes the latest signal really is the truest; sometimes the most vivid thing only feels the most common."
 tending: "Trust the read arriving ahead of the proof."
 fraying: "Vividness is impersonating frequency."
 drawable: true

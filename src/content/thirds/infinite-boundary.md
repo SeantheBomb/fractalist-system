@@ -4,6 +4,7 @@ epithet: ""
 kinship: "cosmos"
 order: 49
 personifies: "Every figure above, aggregated and never averaged."
+blurb: "Every pattern at once, summed and never averaged. The one figure with no poles, because there is nowhere outside it to stand and read one."
 drawable: false
 parents: []
 relatedThirds: []

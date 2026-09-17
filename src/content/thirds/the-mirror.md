@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 8
 personifies: "The Local Rule: taking form from who is present."
+blurb: "Taking your shape from whoever is in the room. A self truly built through relationship, or no position of your own once the audience changes."
 tending: "Let the room shape you; that's real responsiveness."
 fraying: "There's no position of yours left anywhere."
 drawable: true

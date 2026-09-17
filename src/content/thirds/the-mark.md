@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 2
 personifies: "The Local Rule: judging against a reference point."
+blurb: "Judging everything against a reference point. Without one you can't judge at all; kept too long, it rules a world that has moved on."
 tending: "You have a reference point, and it still holds."
 fraying: "Measuring against a mark that stopped being true."
 drawable: true

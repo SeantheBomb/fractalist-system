@@ -22,6 +22,7 @@ const thirds = defineCollection({
     order: z.number(),
     epigraph: z.string().optional(),
     personifies: z.string(),
+    blurb: z.string(),
     tending: z.string().optional(),
     fraying: z.string().optional(),
     drawable: z.boolean().default(true),

@@ -22,7 +22,7 @@ const thirds = (await getCollection('thirds'))
         <p class="wc-kin">{KINSHIPS[t.data.kinship].title}</p>
         <h3 class="wc-name">{t.data.name}</h3>
         {t.data.epithet && <p class="wc-epithet">{t.data.epithet}</p>}
-        <p class="wc-personifies">{t.data.personifies}</p>
+        <p class="wc-personifies">{t.data.blurb}</p>
         <div class="wc-readings">
           <button class="wc-reading" data-mode="tending" type="button">
             <span class="wc-rlabel">Tending</span>

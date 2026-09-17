@@ -4,6 +4,7 @@ epithet: ""
 kinship: "culture"
 order: 45
 personifies: "First-Arriver Lock-In and The Shared Pot, compounded past any one life."
+blurb: "Growth that compounds across generations. It builds for a long time, and past a threshold the same mechanism consumes what it built."
 tending: "The expansion is genuinely building."
 fraying: "Past threshold, consuming what it built."
 drawable: true

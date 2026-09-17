@@ -20,7 +20,7 @@ const figure = concept(entry.id);
 const pages = figure ? [...figure.treatedIn, ...figure.mentionedIn] : [];
 const related = [...entry.data.relatedThirds, ...pages.slice(0, 4)];
 ---
-<Base title={entry.data.epithet ? `${entry.data.name}, ${entry.data.epithet}` : entry.data.name} description={entry.data.personifies}>
+<Base title={entry.data.epithet ? `${entry.data.name}, ${entry.data.epithet}` : entry.data.name} description={entry.data.blurb}>
   <article>
     <div class="third-hero">
       <div class="third-art">

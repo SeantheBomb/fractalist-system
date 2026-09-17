@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 22
 personifies: "The Mark and The Tide, meeting in two people."
+blurb: "Standards between two people that keep easing down. An honest adjustment to changed conditions, or erosion in steps too small to notice."
 tending: "The standard adjusted honestly."
 fraying: "It's eroding, every step small enough to miss."
 drawable: true

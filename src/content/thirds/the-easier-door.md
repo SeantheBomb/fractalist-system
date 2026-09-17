@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 6
 personifies: "The Local Rule: answering a simpler question than the one asked."
+blurb: "Quietly swapping a hard question for an easier one. It's how hard questions get answered at all, and how confident answers get given to questions nobody asked."
 tending: "An easier question is the only way in right now."
 fraying: "You're answering something nobody asked."
 drawable: true

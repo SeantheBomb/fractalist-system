@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 5
 personifies: "The Local Rule: storing an episode by its peak and its close."
+blurb: "Remembering an experience by its peak and its ending. It makes a life tellable as a story, at the cost of a record that doesn't match what was lived."
 tending: "Compress it; the story is worth being tellable."
 fraying: "The account has drifted from what was lived."
 drawable: true

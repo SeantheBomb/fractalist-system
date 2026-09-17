@@ -282,8 +282,8 @@ export function buildConcepts({ sections, NODES, figures }) {
     if (f.drawable !== false) appears.push('the-deck');
     add({
       slug: f.slug, name: f.name, kind: 'figure', epithet: f.epithet, scale: f.kinship,
-      blurb: f.localRule ? `The Local Rule: ${f.localRule.charAt(0).toLowerCase()}${f.localRule.slice(1)}.`
-        : f.parents.length ? `${[...new Set(f.parents)].join(' and ')}, fused.` : 'Every figure, aggregated and never averaged.',
+      blurb: f.blurb ?? (f.localRule ? `The Local Rule: ${f.localRule.charAt(0).toLowerCase()}${f.localRule.slice(1)}.`
+        : f.parents.length ? `${[...new Set(f.parents)].join(' and ')}, fused.` : 'Every figure, aggregated and never averaged.'),
       appearsOn: appears.filter((s) => NODES.some((n) => n.slug === s)),
       fusionOf: f.parentSlugs,
     });
@@ -308,7 +308,12 @@ export function buildConcepts({ sections, NODES, figures }) {
   // ---- figures appear wherever the text names them; flag uncited uses of other terms ----
   const bodies = new Map(NODES.map((n) => [n.slug, n.body ?? '']));
   for (const c of concepts.values()) {
-    const figureName = c.kind === 'figure' && c.epithet ? `\\b${c.name}\\b` : null;
+    // Figure names are capitalised phrases ("the Spark", "Held Silence"), so matching them
+    // case-sensitively finds the figure, not the everyday word. One-word names ("Escalation")
+    // can't be told apart from a sentence opening, so they're left to their citations.
+    const figureName = c.kind === 'figure' && c.name.includes(' ')
+      ? `\\b${c.name.replace(/^The /, '[Tt]he ').replace(/[.*+?^${}()|\\]/g, (ch) => (ch === ' ' ? ch : `\\${ch}`))}\\b`
+      : null;
     const pattern = figureName ?? (ALIASES[c.slug] ? `\\b(?:${ALIASES[c.slug]})\\b` : null);
     if (!pattern) continue;
     c.aliases = [pattern];

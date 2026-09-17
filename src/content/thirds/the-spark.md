@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 0
 personifies: "The Local Rule: an output becomes the next input."
+blurb: "What comes out feeds what goes in next. Momentum that compounds, whether it is building something or burning it down."
 tending: "Start it; momentum is available and worth spending."
 fraying: "Burning through something faster than it can be replaced."
 drawable: true

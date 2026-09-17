@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 19
 personifies: "The Nearest Light and The Mirror, meeting in two people."
+blurb: "Reading another person's state from what they stir in you. Emotion used as honest information, or your own reaction mistaken for theirs."
 tending: "The feeling in the room is real data."
 fraying: "You've mistaken your reaction for their state."
 drawable: true

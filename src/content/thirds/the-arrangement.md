@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 29
 personifies: "The Riverbed fused with itself, meeting in two people."
+blurb: "Each person shaping the other's surroundings instead of asking directly. The right thing made easy, or two people quietly managing each other."
 tending: "Conditions shaped so the right thing is easy."
 fraying: "Neither choosing; both managing the other."
 drawable: true

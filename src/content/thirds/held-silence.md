@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 31
 personifies: "The Guard and The Standoff, sharing a person."
+blurb: "A group that knows something and doesn't say it. Discretion that lets it survive ordinary friction, or a truth nobody can be the first to name."
 tending: "Discretion is letting the group survive friction."
 fraying: "Everyone knows; no one can be first to say it."
 drawable: true

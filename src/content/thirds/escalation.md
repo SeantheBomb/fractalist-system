@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 12
 personifies: "The Spark fused with itself, meeting in two people."
+blurb: "Two people each answering the other with a little more. It can lift both to their best, or lock them in an arms race neither chose and neither can leave."
 tending: "Both of you are rising; let it run."
 fraying: "An arms race neither chose and neither can exit."
 drawable: true

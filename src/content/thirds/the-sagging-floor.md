@@ -4,6 +4,7 @@ epithet: ""
 kinship: "skein"
 order: 37
 personifies: "The Sliding Floor and The Standoff, sharing a person."
+blurb: "A group's expectations lowering together, one reasonable step at a time. A sensible adjustment to real conditions, or standards eroding while everyone feels fine."
 tending: "Expectations adjusted to real conditions."
 fraying: "Standards eroding while everyone feels reasonable."
 drawable: true

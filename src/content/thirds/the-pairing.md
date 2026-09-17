@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 14
 personifies: "The Spark and The Tide, meeting in two people."
+blurb: "One person drives while the other steadies. A real division of labor, or a standing resentment between the accelerator and the brake."
 tending: "One drives, one steadies — a real division."
 fraying: "Each resenting the role the other left them."
 drawable: true

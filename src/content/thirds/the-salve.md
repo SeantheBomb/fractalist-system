@@ -4,6 +4,7 @@ epithet: ""
 kinship: "self"
 order: 3
 personifies: "The Local Rule: reaching for what relieves the symptom."
+blurb: "Reaching first for whatever eases the symptom. A good stopgap buys time to build the real fix; a permanent one wears away the ability it replaced."
 tending: "A stopgap here buys time you genuinely need."
 fraying: "The patch has replaced the capacity it was covering."
 drawable: true

@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 17
 personifies: "The Mask and The Nearest Light, meeting in two people."
+blurb: "Supplying what someone else thinks and feels from your own assumptions. It saves checking every time, until you're relating to someone who isn't there."
 tending: "Assume, and act without constant checking."
 fraying: "You're in a relationship with someone who isn't there."
 drawable: true

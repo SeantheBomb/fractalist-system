@@ -4,6 +4,7 @@ epithet: ""
 kinship: "dyad"
 order: 25
 personifies: "The Gardener and The Mask, meeting in two people."
+blurb: "Seeing someone as one kind of person until they become it. It can call real capability out of them, or lock them into a single role."
 tending: "Seeing them as capable until they become it."
 fraying: "Seeing them as one thing until they can't be another."
 drawable: true
