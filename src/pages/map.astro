@@ -2,593 +2,574 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { PARTS } from '../../scripts/manifest.mjs';
-import graphJson from '../data/concepts.json';
+import galaxy from '../data/galaxy.json';
 
-const nodesC = await getCollection('nodes');
+// The hierarchy — core, topics, clusters, bodies, bridges — is built from the concept graph
+// by scripts/galaxy.mjs. This page only adds what the map needs to draw it.
+const nodes = await getCollection('nodes');
+const partOf = Object.fromEntries(nodes.map((n) => [n.id, n.data.part]));
 
-// ---- concepts: the map's real bodies ----
-// Every concept already knows its scale (where the book gives one), its lineage (what it
-// grows out of or fuses), and which concepts it shares pages with, weighted. None of that
-// is computed here — it comes straight from src/data/concepts.json.
-const RING_ORDER = ['core', 'self', 'dyad', 'skein', 'culture', 'cosmos'] as const;
-type Ring = (typeof RING_ORDER)[number];
-const ringOf = (scale: string | null): Ring => (scale && scale !== 'every' ? (scale as Ring) : 'core');
+const TOPIC_HUES = ['var(--c-p1)', 'var(--c-p3)', 'var(--c-p5)', 'var(--c-p2)', 'var(--c-p7)', 'var(--c-p4)', 'var(--c-p6)', 'var(--k-culture)', 'var(--k-water)', 'var(--k-earth)'];
 
-interface ConceptItem {
-  id: string; kind: 'concept'; conceptKind: string; href: string; title: string; blurb: string;
-  ring: Ring; scale: string | null; mass: number; appearsOn: string[];
-}
-const concepts: ConceptItem[] = graphJson.concepts.map((c) => ({
-  id: c.slug, kind: 'concept', conceptKind: c.kind, href: c.href, title: c.name, blurb: c.blurb,
-  ring: ringOf(c.scale), scale: c.scale,
-  mass: c.appearsOn.length + c.growsInto.length + c.stemsFrom.length + c.fusionOf.length,
-  appearsOn: c.appearsOn,
-}));
-const conceptIds = new Set(concepts.map((c) => c.id));
-
-// concept ↔ concept, weighted by how many pages they share — the map's gravity
-const sharesEdges: { a: string; b: string; weight: number }[] = [];
-{
-  const seen = new Set<string>();
-  for (const c of graphJson.concepts) for (const r of c.related) {
-    if (!conceptIds.has(r.slug)) continue;
-    const key = [c.slug, r.slug].sort().join('|');
-    if (seen.has(key)) continue;
-    seen.add(key);
-    sharesEdges.push({ a: c.slug, b: r.slug, weight: r.weight });
-  }
-}
-
-// concept → concept, directional — what it grows out of or fuses. Fewer, and structural
-// rather than incidental, so they're drawn as a distinct kind of line.
-const lineageEdges: { from: string; to: string; kind: 'stem' | 'fusion' }[] = [];
-for (const c of graphJson.concepts) {
-  for (const p of c.stemsFrom) if (conceptIds.has(p)) lineageEdges.push({ from: p, to: c.slug, kind: 'stem' });
-  for (const p of c.fusionOf) if (conceptIds.has(p)) lineageEdges.push({ from: p, to: c.slug, kind: 'fusion' });
-}
-
-// ---- pages: satellites, not simulated bodies. A page's place is the pages it keeps
-// company with — the centroid of the concepts it holds — recomputed every physics tick. ----
-interface PageItem {
-  id: string; kind: 'page'; href: string; title: string; summary: string; part: string; color: string; concepts: string[];
-}
-const pages: PageItem[] = nodesC.map((n) => ({
-  id: n.id, kind: 'page', href: `/node/${n.id}/`, title: n.data.title, summary: n.data.summary,
-  part: n.data.part, color: PARTS[n.data.part]?.color ?? 'var(--muted)',
-  concepts: (graphJson.pageConcepts as Record<string, string[]>)[n.id] ?? [],
-}));
-
-const RING_META: Record<Ring, { label: string; color: string }> = {
-  core: { label: 'Foundational', color: 'var(--k-core)' },
-  self: { label: 'Self', color: 'var(--k-self)' },
-  dyad: { label: 'Dyad', color: 'var(--k-dyad)' },
-  skein: { label: 'Skein', color: 'var(--k-skein)' },
-  culture: { label: 'Culture', color: 'var(--k-culture)' },
-  cosmos: { label: 'Cosmos', color: 'var(--k-cosmos)' },
+const pageColor = (id: string) => (id.startsWith('p:') ? PARTS[partOf[id.slice(2)]]?.color ?? 'var(--muted)' : null);
+const data = {
+  core: { ...galaxy.core, color: pageColor(galaxy.core.id) },
+  topics: galaxy.topics.map((t, i) => ({ ...t, hue: TOPIC_HUES[i % TOPIC_HUES.length] })),
+  bodies: Object.fromEntries(Object.entries(galaxy.bodies).map(([id, b]) => [id, { ...b, partColor: pageColor(id) }])),
+  bridges: galaxy.bridges,
+  dyads: galaxy.dyads,
 };
-
-const graphData = { concepts, pages, sharesEdges, lineageEdges, rings: RING_ORDER.map((r) => ({ id: r, ...RING_META[r] })) };
 ---
-<Base title="The Map" description="Every concept in Fractalism and how they actually relate — what each grows out of, what pages hold it, and where its scale sits it." wide>
+<Base title="The Map" description="Fractalism as a galaxy: a handful of topics orbiting what you already know, each made of clusters, each cluster made of the concepts and chapters that belong together." wide>
   <h1>The Map</h1>
-  <p style="max-width: 44rem; color: var(--muted);">
-    This is the shape of the ideas, not the pages. Each star is one concept — a Loop Tongue word,
-    an idea from the Loom, or a Standing Third — sized by how widely it's used and how much grows
-    out of it. Foundational concepts sit at the center; the rest sit in the scale the book gives
-    them, Self to Cosmos, outward. The dim points drifting near a cluster of concepts are the
-    chapters that hold them. Bright spokes are lineage — what a concept grows out of, or fuses.
+  <p class="map-intro">
+    Everything here orbits one center: what you already know. From the whole Cosmos you'll see a
+    handful of topics. Zoom into one to find the clusters it's made of, then into a cluster to find
+    its concepts and chapters, the Dyads between them drawn as threads. Standing Thirds whose
+    ancestry spans two topics drift in the space between them.
   </p>
 
   <div class="crumb-bar" id="crumb-bar" role="navigation" aria-label="Where you are"></div>
 
   <div class="map-frame">
-    <svg id="graph" viewBox="0 0 1100 860" xmlns="http://www.w3.org/2000/svg">
+    <svg id="graph" viewBox="0 0 1100 860" xmlns="http://www.w3.org/2000/svg" role="application" aria-label="The Fractalism galaxy map">
       <defs>
-        <filter id="nebula-soft" x="-60%" y="-60%" width="220%" height="220%">
-          <feGaussianBlur stdDeviation="30" />
-        </filter>
-        <marker id="lineage-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-          <path d="M0,0 L8,4 L0,8 Z" />
-        </marker>
+        <radialGradient id="halo-grad">
+          <stop offset="0%" stop-color="currentColor" stop-opacity="0.22" />
+          <stop offset="60%" stop-color="currentColor" stop-opacity="0.08" />
+          <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
+        </radialGradient>
       </defs>
       <g id="camera">
         <g id="dust"></g>
-        <g id="ringHulls"></g>
-        <g id="pageLayer"></g>
-        <g id="shareLayer"></g>
-        <g id="lineageLayer"></g>
-        <g id="conceptLayer"></g>
-        <g id="ringLabels"></g>
+        <g id="topicHalos"></g>
+        <g id="clusterHalos"></g>
+        <g id="orbits"></g>
+        <g id="clusters"></g>
+        <g id="bridgeLayer"></g>
+        <g id="coreLayer"></g>
+        <g id="clusterLabels"></g>
+        <g id="topicLabels"></g>
       </g>
     </svg>
     <div class="vignette" aria-hidden="true"></div>
     <div class="map-controls">
       <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
       <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
-      <button id="zoom-reset" type="button" aria-label="Back to the whole map">⟲</button>
+      <button id="zoom-reset" type="button" aria-label="Back to the whole Cosmos">⟲</button>
     </div>
     <div id="node-card" class="node-card" hidden></div>
   </div>
 
   <p class="map-legend">
     <span id="thread-count"></span>
-    Drag to pan, scroll or pinch to zoom, click anything to fly to it. When a star or a page is
-    close enough to read, clicking it opens it.
-    Prefer a list? <a href="/concepts/">Every concept</a> in reading order, or
-    <a href="/book/">The Book</a> in printed order.
+    Drag to pan, scroll or pinch to zoom, click a topic or cluster to fly in. Filled stars are
+    concepts, rings are chapters. Click one to bring it close, then again to open it.
+    Prefer a list? <a href="/concepts/">Every concept</a>, or <a href="/book/">the Book</a> in order.
   </p>
 
-  <script type="application/json" id="graph-data" set:html={JSON.stringify(graphData).replace(/</g, '\\u003c')} />
+  <script type="application/json" id="galaxy-data" set:html={JSON.stringify(data).replace(/</g, '\\u003c')} />
 </Base>
 
 <style is:global>
+  .map-intro { max-width: 44rem; color: var(--muted); }
   .crumb-bar {
     display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
     margin-top: 1.5rem; font-family: var(--sans); font-size: 0.85rem; min-height: 1.6rem;
   }
-  .crumb-bar button {
-    font: inherit; background: none; border: none; color: var(--muted); cursor: pointer;
-    padding: 0.15rem 0.3rem; border-radius: 6px;
-  }
-  .crumb-bar button:hover { color: var(--accent); background: var(--bg2); }
+  .crumb-bar button { font: inherit; background: none; border: none; color: var(--muted); cursor: pointer; padding: 0.15rem 0.3rem; border-radius: 6px; }
+  .crumb-bar button:hover, .crumb-bar button:focus-visible { color: var(--accent); background: var(--bg2); }
   .crumb-bar .crumb-current { color: var(--ink); font-weight: 600; padding: 0.15rem 0.3rem; }
   .crumb-bar .crumb-sep { color: var(--line); }
 
-  .map-frame {
-    position: relative; border: 1px solid var(--line); border-radius: 14px;
-    background: var(--bg2); margin-top: 0.75rem; overflow: hidden;
-  }
-  #graph { display: block; width: 100%; height: min(78vh, 720px); touch-action: none; cursor: grab; }
+  .map-frame { position: relative; border: 1px solid var(--line); border-radius: 14px; background: var(--bg2); margin-top: 0.75rem; overflow: hidden; }
+  #graph { display: block; width: 100%; height: min(78vh, 720px); touch-action: none; cursor: grab; user-select: none; }
   #graph.dragging { cursor: grabbing; }
-  .vignette {
-    position: absolute; inset: 0; pointer-events: none;
-    background: radial-gradient(ellipse at center, transparent 52%, color-mix(in srgb, var(--ink) 10%, transparent) 100%);
-  }
+  .vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 55%, color-mix(in srgb, var(--ink) 9%, transparent) 100%); }
 
   #dust circle { fill: var(--muted); }
   #dust circle.tw { animation: dust-twinkle 5s ease-in-out infinite; }
   @keyframes dust-twinkle { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
 
-  #ringHulls circle { fill: none; stroke-opacity: 0.4; stroke-dasharray: 1 9; stroke-linecap: round; transition: stroke-opacity 0.2s ease; }
-  #ringHulls circle.hot { stroke-opacity: 0.75 !important; }
+  .topic-halo { fill: url(#halo-grad); cursor: pointer; }
+  .topic-halo.hot { filter: brightness(1.15); }
+  .cluster-halo { fill-opacity: 0.07; stroke-opacity: 0.35; stroke-dasharray: 2 5; cursor: pointer; transition: fill-opacity 0.15s ease; }
+  .cluster-halo.hot { fill-opacity: 0.16; stroke-opacity: 0.7; }
+  #orbits circle { fill: none; stroke: var(--muted); stroke-opacity: 0.18; stroke-dasharray: 1 6; }
 
-  /* shared-page edges: the map's gravity, faint until close */
-  #shareLayer .share { stroke: var(--muted); vector-effect: non-scaling-stroke; transition: opacity 0.12s ease, stroke 0.12s ease; }
-  #shareLayer .share-hit { stroke: transparent; stroke-width: 14; vector-effect: non-scaling-stroke; cursor: pointer; }
-  #shareLayer .share.hot { stroke: var(--accent); opacity: 1 !important; }
-  #shareLayer .share.dim { opacity: 0.04 !important; }
-
-  /* lineage: fewer, structural, visible further out */
-  #lineageLayer .lineage { fill: none; vector-effect: non-scaling-stroke; marker-end: url(#lineage-arrow); transition: opacity 0.12s ease; }
-  #lineageLayer .lineage.stem { stroke: var(--accent); stroke-opacity: 0.55; }
-  #lineageLayer .lineage.fusion { stroke: var(--gold); stroke-opacity: 0.6; stroke-dasharray: 1 4; }
-  #lineageLayer .lineage.hot { stroke-opacity: 1 !important; stroke-width: 2.2; }
-  #lineageLayer .lineage.dim { opacity: 0.08; }
-  #lineageLayer path { fill: var(--accent); }
-
-  /* concepts: the stars */
-  .cnode { cursor: pointer; }
-  .cnode circle { stroke: var(--bg2); transition: opacity 0.15s ease; }
-  .cnode.visited circle { filter: drop-shadow(0 0 3px currentColor); }
-  .cnode text {
+  .body { cursor: pointer; }
+  .body circle, .body rect { transition: opacity 0.15s ease; }
+  .body .page { fill: var(--bg2); }
+  .body .mark { transform-box: view-box; transform-origin: 0 0; transform: scale(var(--ms, 1)); }
+  .body rect.mark { transform: scale(var(--ms, 1)) rotate(45deg); }
+  .body text { dominant-baseline: hanging; transform: translateY(calc(var(--r) * var(--ms, 1) * 1px + 0.35em)); }
+  .body text {
     font-family: var(--sans); fill: var(--ink); text-anchor: middle; pointer-events: none;
-    paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round;
-    opacity: var(--lbl, 0); transition: opacity 0.15s ease;
+    paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round; opacity: var(--lbl, 0);
   }
-  .cnode.hot circle { opacity: 1 !important; filter: drop-shadow(0 0 5px currentColor); }
-  .cnode.hot text { opacity: 1; font-weight: 600; }
-  .cnode.dim circle { opacity: 0.1 !important; }
-  .cnode.dim text { opacity: 0 !important; }
-  .cnode.word circle { stroke-width: 2; }
+  .body.visited .mark { filter: drop-shadow(0 0 2px currentColor); }
+  .body.hot .mark { filter: drop-shadow(0 0 4px currentColor); }
+  .body.hot text, .body.focus text { opacity: 1; font-weight: 600; }
+  .body.dim { opacity: 0.18; }
+  .dyad { stroke: var(--muted); stroke-opacity: 0.35; vector-effect: non-scaling-stroke; }
+  .dyad.stems, .dyad.fuses, .dyad.personifies { stroke: var(--accent); stroke-opacity: 0.5; }
+  .dyad.fuses, .dyad.personifies { stroke-dasharray: 3 3; }
+  .dyad.hot { stroke-opacity: 1; stroke-width: 2; }
 
-  /* pages: dim satellites */
-  .pnode { cursor: pointer; }
-  .pnode circle { fill: var(--muted); transition: opacity 0.15s ease; }
-  .pnode text {
-    font-family: var(--sans); fill: var(--ink); text-anchor: middle; pointer-events: none;
-    paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round;
-    opacity: var(--plbl, 0); transition: opacity 0.15s ease;
-  }
-  .pnode.hot circle { fill: var(--accent); opacity: 1 !important; }
-  .pnode.hot text { opacity: 1; font-weight: 600; }
-  .pnode.dim circle { opacity: 0.08 !important; }
-  .pnode.dim text { opacity: 0 !important; }
+  .bridge { cursor: pointer; }
+  .bridge text { font-family: var(--sans); fill: var(--ink); text-anchor: middle; pointer-events: none; paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round; opacity: var(--blbl, 0); }
+  .bridge.hot text { opacity: 1; }
 
-  #ringLabels text {
+  #coreLayer .core-glow { fill: url(#halo-grad); color: var(--gold); pointer-events: none; }
+  #coreLayer text { font-family: var(--sans); text-anchor: middle; fill: var(--ink); paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round; pointer-events: none; }
+
+  #topicLabels text, #clusterLabels text {
     font-family: var(--sans); text-anchor: middle; pointer-events: none;
     paint-order: stroke; stroke: var(--bg2); stroke-linejoin: round; fill: var(--ink);
-    font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
   }
+  #topicLabels text { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+  #topicLabels text .sub { font-weight: 400; letter-spacing: 0.02em; text-transform: none; font-size: 0.72em; fill: var(--muted); }
+  #clusterLabels text { font-weight: 500; }
 
   .map-controls { position: absolute; right: 0.75rem; bottom: 0.75rem; display: flex; flex-direction: column; gap: 0.35rem; }
-  .map-controls button {
-    width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line);
-    background: var(--bg); color: var(--ink); font-size: 1rem; line-height: 1; cursor: pointer;
-  }
-  .map-controls button:hover { border-color: var(--accent); }
+  .map-controls button { width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font-size: 1rem; line-height: 1; cursor: pointer; }
+  .map-controls button:hover, .map-controls button:focus-visible { border-color: var(--accent); }
 
   .node-card {
-    position: absolute; left: 0.85rem; top: 0.85rem; max-width: 17rem;
+    position: absolute; left: 0.85rem; top: 0.85rem; max-width: 18rem;
     background: var(--bg); border: 1px solid var(--line); border-radius: 10px;
-    padding: 0.6rem 0.8rem; font-family: var(--sans); font-size: 0.78rem; pointer-events: none;
+    padding: 0.65rem 0.85rem; font-family: var(--sans); font-size: 0.78rem; pointer-events: none;
   }
+  .node-card.pinned { pointer-events: auto; }
   .node-card .nc-part { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
-  .node-card .nc-title { font-family: var(--serif); font-size: 1rem; margin-top: 0.15rem; color: var(--ink); }
-  .node-card .nc-sub { margin-top: 0.3rem; color: var(--muted); }
+  .node-card .nc-title { font-family: var(--serif); font-size: 1.05rem; margin-top: 0.15rem; color: var(--ink); }
+  .node-card .nc-sub { margin-top: 0.35rem; color: var(--muted); line-height: 1.45; }
+  .node-card .nc-open { display: inline-block; margin-top: 0.55rem; font-weight: 600; }
 
   .map-legend { font-family: var(--sans); font-size: 0.85rem; color: var(--muted); margin-top: 1rem; }
-
   @media (prefers-reduced-motion: reduce) { #dust circle.tw { animation: none; } }
 </style>
 
 <script>
-  import { forceSimulation, forceManyBody, forceLink, forceCollide, forceRadial, forceX, forceY } from 'd3-force';
-
-  interface Concept { id: string; kind: 'concept'; conceptKind: string; href: string; title: string; blurb: string; ring: string; scale: string | null; mass: number; appearsOn: string[]; r: number; x?: number; y?: number; }
-  interface PageRaw { id: string; kind: 'page'; href: string; title: string; summary: string; part: string; color: string; concepts: string[]; }
-  interface PagePos extends PageRaw { x: number; y: number; r: number; }
-  interface RingMeta { id: string; label: string; color: string }
-
-  const data = JSON.parse(document.getElementById('graph-data')!.textContent || '{}') as {
-    concepts: Omit<Concept, 'r'>[]; pages: PageRaw[];
-    sharesEdges: { a: string; b: string; weight: number }[];
-    lineageEdges: { from: string; to: string; kind: 'stem' | 'fusion' }[];
-    rings: RingMeta[];
-  };
-
-  const RING_RADIUS: Record<string, number> = { core: 0, self: 230, dyad: 380, skein: 530, culture: 680, cosmos: 830 };
-  const ringMeta = new Map(data.rings.map((r) => [r.id, r]));
-
-  const concepts: Concept[] = data.concepts.map((c) => ({ ...c, r: 3.2 + Math.min(11, Math.sqrt(c.mass) * 2.6) }));
-  const conceptById = new Map(concepts.map((c) => [c.id, c]));
-  // a deterministic seed per page so identical concept-sets don't stack exactly
-  const seed = (s: string) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967296; };
-  const pages: PagePos[] = data.pages.map((p) => ({ ...p, x: 0, y: 0, r: 2.4 }));
-  const pageById = new Map(pages.map((p) => [p.id, p]));
-
-  const svg = document.getElementById('graph') as unknown as SVGSVGElement;
-  const camera = document.getElementById('camera')!;
-  const dustG = document.getElementById('dust')!;
-  const ringHullG = document.getElementById('ringHulls')!;
-  const pageG = document.getElementById('pageLayer')!;
-  const shareG = document.getElementById('shareLayer')!;
-  const lineageG = document.getElementById('lineageLayer')!;
-  const conceptG = document.getElementById('conceptLayer')!;
-  const ringLabelG = document.getElementById('ringLabels')!;
-  const nodeCard = document.getElementById('node-card') as HTMLDivElement;
-  const crumbBar = document.getElementById('crumb-bar')!;
-  const NS = 'http://www.w3.org/2000/svg';
-  let VW = 1100, VH = 860;
-  function syncViewBox() {
-    const r = svg.getBoundingClientRect();
-    if (r.width > 0 && r.height > 0) VH = Math.round(VW * (r.height / r.width));
-    svg.setAttribute('viewBox', `0 0 ${VW} ${VH}`);
+  type Kind = 'idea' | 'word' | 'figure' | 'page';
+  interface BodyData { kind: Kind; title: string; href: string; blurb: string; topic?: string; cluster?: string; weight: number; bridge?: [string, string]; partColor: string | null }
+  interface ClusterData { id: string; name: string; anchor: string; bodies: string[] }
+  interface TopicData { id: string; name: string; anchor: string; hue: string; clusters: ClusterData[] }
+  interface Galaxy {
+    core: { id: string; title: string; href: string; blurb: string; color: string | null; companions: { id: string; title: string; href: string; blurb: string; kind: Kind }[] };
+    topics: TopicData[]; bodies: Record<string, BodyData>; bridges: string[]; dyads: [string, string, string][];
   }
-  syncViewBox();
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const G = JSON.parse(document.getElementById('galaxy-data')!.textContent || '{}') as Galaxy;
 
+  const NS = 'http://www.w3.org/2000/svg';
+  const $ = (id: string) => document.getElementById(id)!;
+  const svg = $('graph') as unknown as SVGSVGElement;
+  const camera = $('camera');
+  const nodeCard = $('node-card') as HTMLDivElement;
+  const crumbBar = $('crumb-bar');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const el = <K extends keyof SVGElementTagNameMap>(tag: K, attrs: Record<string, string | number> = {}, parent?: Element) => {
+    const e = document.createElementNS(NS, tag);
+    for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, String(v));
+    parent?.appendChild(e);
+    return e;
+  };
+  const hash = (s: string) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967296; };
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
   const band = (v: number, a: number, b: number) => { if (v <= a) return 0; if (v >= b) return 1; const t = (v - a) / (b - a); return t * t * (3 - 2 * t); };
 
-  // ---- physics ----
-  // Concepts settle by two forces at once: shared pages pull related ideas together, and a
-  // radial force keeps each concept in the ring its scale actually belongs to — the same
-  // Self→Cosmos nesting the Weaving already uses, now literal rather than decorative.
-  const sim = forceSimulation(concepts as any)
-    .force('charge', forceManyBody().strength((d: any) => -40 - d.mass * 5))
-    .force('share', forceLink(data.sharesEdges.map((e) => ({ source: e.a, target: e.b, weight: e.weight })) as any)
-      .id((d: any) => d.id).distance((d: any) => 20 + (d.source.r ?? 5) + (d.target.r ?? 5))
-      .strength((d: any) => Math.min(0.22, 0.04 + d.weight * 0.03)))
-    .force('lineage', forceLink(data.lineageEdges.map((e) => ({ source: e.from, target: e.to })) as any)
-      .id((d: any) => d.id).distance(40).strength(0.08))
-    .force('radial', forceRadial((d: any) => RING_RADIUS[d.ring] ?? 0, 0, 0).strength((d: any) => (d.ring === 'core' ? 0.55 : 0.6)))
-    .force('collide', forceCollide().radius((d: any) => d.r + 5).strength(0.85).iterations(2))
-    .alphaDecay(reduced ? 1 : 0.02);
+  // ---- layout: every system is sized by what it holds, bottom-up ----
+  const bodyR = (b: BodyData) => 2.4 + Math.min(3.6, Math.sqrt(b.weight) * 0.85);
+  interface Orbit { radius: number; phase: number; speed: number }
+  interface ClusterSys { data: ClusterData; topic: TopicSys; size: number; orbit: Orbit; x: number; y: number; bodyOrbits: Map<string, Orbit> }
+  interface TopicSys { data: TopicData; size: number; clusterRing: number; orbit: Orbit; clusters: ClusterSys[]; x: number; y: number; count: number }
+
+  // Inner orbits turn faster, as a real system's would. Radians per second.
+  const SPEED = { body: 0.05, cluster: 0.014, topic: 0.0035, core: 0.03 };
+  const topics: TopicSys[] = G.topics.map((t) => {
+    const clusters: ClusterSys[] = t.clusters.map((c) => {
+      const n = c.bodies.length;
+      const inner = Math.min(n, 6), outer = n - inner;
+      const r1 = Math.max(13, (inner * 17) / (2 * Math.PI));
+      const r2 = r1 + 15;
+      const bodyOrbits = new Map<string, Orbit>();
+      c.bodies.forEach((b, i) => {
+        const onInner = i < inner;
+        const k = onInner ? i : i - inner, of = onInner ? inner : outer;
+        bodyOrbits.set(b, { radius: onInner ? r1 : r2, phase: (k / of) * Math.PI * 2 + hash(c.id) * 6.28, speed: SPEED.body * (onInner ? 1 : 0.7) });
+      });
+      return { data: c, topic: null as unknown as TopicSys, size: (outer ? r2 : r1) + 8, orbit: { radius: 0, phase: 0, speed: 0 }, x: 0, y: 0, bodyOrbits };
+    });
+    const sum = clusters.reduce((s, c) => s + c.size * 2.3, 0);
+    const clusterRing = clusters.length === 1 ? 0 : Math.max(Math.max(...clusters.map((c) => c.size)) * 1.3, sum / (2 * Math.PI));
+    let acc = 0;
+    clusters.forEach((c) => { const share = (c.size * 2.3) / sum; c.orbit = { radius: clusterRing, phase: (acc + share / 2) * Math.PI * 2, speed: SPEED.cluster }; acc += share; });
+    const size = clusterRing + Math.max(...clusters.map((c) => c.size)) + 14;
+    const t2: TopicSys = { data: t, size, clusterRing, orbit: { radius: 0, phase: 0, speed: 0 }, clusters, x: 0, y: 0, count: t.clusters.reduce((s, c) => s + c.bodies.length, 0) };
+    clusters.forEach((c) => (c.topic = t2));
+    return t2;
+  });
+  const topicSum = topics.reduce((s, t) => s + t.size * 3.1, 0);
+  const topicRing = Math.max(topicSum / (2 * Math.PI), Math.max(...topics.map((t) => t.size)) + 120);
+  {
+    let acc = 0;
+    topics.forEach((t) => { const share = (t.size * 3.1) / topicSum; t.orbit = { radius: topicRing, phase: (acc + share / 2) * Math.PI * 2 - Math.PI / 2, speed: SPEED.topic }; acc += share; });
+  }
+  const galaxyRadius = topicRing + Math.max(...topics.map((t) => t.size));
+  const topicById = new Map(topics.map((t) => [t.data.id, t]));
+  const clusterById = new Map(topics.flatMap((t) => t.clusters.map((c) => [c.data.id, c] as const)));
+  const clusterOfBody = new Map<string, ClusterSys>();
+  for (const c of clusterById.values()) for (const b of c.data.bodies) clusterOfBody.set(b, c);
+
+  // ---- viewBox follows the frame so tall screens don't letterbox ----
+  let VW = 1100, VH = 860;
+  const syncViewBox = () => { const r = svg.getBoundingClientRect(); if (r.width && r.height) VH = Math.round(VW * (r.height / r.width)); svg.setAttribute('viewBox', `0 0 ${VW} ${VH}`); };
+  syncViewBox();
 
   // ---- background dust ----
-  (function seedDust() {
+  {
     let s = 20260917;
     const rnd = () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; };
-    for (let i = 0; i < 520; i++) {
-      const ang = rnd() * Math.PI * 2;
-      const rad = 120 + Math.pow(rnd(), 0.6) * 1100;
-      const c = document.createElementNS(NS, 'circle');
-      c.setAttribute('cx', (Math.cos(ang) * rad).toFixed(1));
-      c.setAttribute('cy', (Math.sin(ang) * rad * 0.85).toFixed(1));
-      c.setAttribute('r', (0.5 + rnd() * 0.9).toFixed(2));
-      c.setAttribute('opacity', (0.12 + rnd() * 0.22).toFixed(2));
-      if (rnd() < 0.22) { c.setAttribute('class', 'tw'); c.style.animationDelay = `${(rnd() * 5).toFixed(2)}s`; }
-      dustG.appendChild(c);
+    const dust = $('dust');
+    for (let i = 0; i < 700; i++) {
+      const a = rnd() * Math.PI * 2, rad = Math.pow(rnd(), 0.55) * galaxyRadius * 1.8;
+      const c = el('circle', { cx: (Math.cos(a) * rad).toFixed(1), cy: (Math.sin(a) * rad).toFixed(1), r: (0.6 + rnd() * 1.1).toFixed(2), opacity: (0.1 + rnd() * 0.22).toFixed(2) }, dust);
+      if (rnd() < 0.2) { c.setAttribute('class', 'tw'); (c as SVGElement).style.animationDelay = `${(rnd() * 5).toFixed(2)}s`; }
     }
-  })();
-
-  // ---- ring nebulae: concentric and fixed, largest drawn first so smaller rings paint
-  // on top of them and stay visible ----
-  const ringEls = new Map([...data.rings].reverse().map((r) => {
-    const circle = document.createElementNS(NS, 'circle');
-    circle.setAttribute('style', `stroke:${r.color}`);
-    circle.dataset.id = r.id;
-    ringHullG.appendChild(circle);
-    const text = document.createElementNS(NS, 'text');
-    text.textContent = r.label;
-    ringLabelG.appendChild(text);
-    return [r.id, { circle, text }];
-  }));
-
-  // ---- DOM: concepts ----
-  const conceptEls = new Map<string, { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement }>();
-  for (const c of concepts) {
-    const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
-    g.setAttribute('href', c.href);
-    g.setAttribute('class', `cnode${c.conceptKind === 'word' ? ' word' : ''}`);
-    g.dataset.id = c.id;
-    const circ = document.createElementNS(NS, 'circle');
-    circ.setAttribute('style', `fill:${ringMeta.get(c.ring)?.color ?? 'var(--muted)'}`);
-    const t = document.createElementNS(NS, 'text');
-    t.textContent = c.title;
-    g.appendChild(circ); g.appendChild(t);
-    conceptG.appendChild(g);
-    conceptEls.set(c.id, { g, c: circ, t });
   }
 
-  // ---- DOM: page satellites ----
-  const pageEls = new Map<string, { g: SVGAElement; c: SVGCircleElement; t: SVGTextElement }>();
-  for (const p of pages) {
-    const g = document.createElementNS(NS, 'a') as unknown as SVGAElement;
-    g.setAttribute('href', p.href); g.setAttribute('class', 'pnode'); g.dataset.id = p.id;
-    const circ = document.createElementNS(NS, 'circle');
-    const t = document.createElementNS(NS, 'text');
-    t.textContent = p.title;
-    g.appendChild(circ); g.appendChild(t);
-    pageG.appendChild(g);
-    pageEls.set(p.id, { g, c: circ, t });
+  // ---- DOM ----
+  const KIND_LABEL: Record<Kind, string> = { idea: 'Concept', word: 'Loop Tongue word', figure: 'Standing Third', page: 'Chapter' };
+  let visited = new Set<string>();
+  try { visited = new Set((JSON.parse(localStorage.getItem('fractalism-thread') || '[]') as string[]).map((t) => t.split(':')[1])); } catch {}
+
+  function makeBody(id: string, b: { kind: Kind; title: string; href: string }, color: string, parent: Element, stroke?: string) {
+    const a = el('a', { href: b.href, class: 'body' }, parent) as unknown as SVGAElement;
+    a.dataset.id = id;
+    const r = 'weight' in b ? bodyR(b as BodyData) : 4;
+    if (b.kind === 'page') el('circle', { r, class: 'mark page', style: `stroke:${color}; color:${color}`, 'stroke-width': 1.6 }, a);
+    else if (b.kind === 'figure') el('rect', { x: -r * 0.8, y: -r * 0.8, width: r * 1.6, height: r * 1.6, class: 'mark', style: `fill:${color}; color:${color}${stroke ? `; stroke:${stroke}; stroke-width:1.4` : ''}` }, a);
+    else el('circle', { r, class: 'mark', style: `fill:${color}; color:${color}` }, a);
+    const t = el('text', { style: `--r:${r}` }, a);
+    t.textContent = b.title;
+    if (visited.has(id.slice(2))) a.classList.add('visited');
+    return a;
   }
 
-  // ---- DOM: edges ----
-  const shareEls = data.sharesEdges.map((e) => {
-    const vis = document.createElementNS(NS, 'line'); vis.setAttribute('class', 'share');
-    const hit = document.createElementNS(NS, 'line'); hit.setAttribute('class', 'share-hit');
-    shareG.appendChild(vis); shareG.appendChild(hit);
-    return { vis, hit, a: e.a, b: e.b, weight: e.weight };
-  });
-  const lineageEls = data.lineageEdges.map((e) => {
-    const path = document.createElementNS(NS, 'path'); path.setAttribute('class', `lineage ${e.kind}`);
-    lineageG.appendChild(path);
-    return { path, from: e.from, to: e.to, kind: e.kind };
-  });
-
-  // ---- visited thread ----
-  let thread: string[] = [];
-  try { thread = JSON.parse(localStorage.getItem('fractalism-thread') || '[]'); } catch {}
-  const visited = new Set(thread.map((t) => t.split(':')[1]));
-  let visitedCount = 0;
-  for (const [id, { g }] of conceptEls) if (visited.has(id)) { g.classList.add('visited'); visitedCount++; }
-  const tc = document.getElementById('thread-count');
-  if (tc && visitedCount > 0) tc.textContent = `Your thread so far: ${visitedCount} of ${concepts.length} concepts lit. `;
-
-  // ---- geometry helpers ----
-  function boundsOfConcepts(ids: string[]) {
-    const pts = ids.map((id) => conceptById.get(id)!).filter(Boolean);
-    if (!pts.length) return null;
-    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-    for (const p of pts) {
-      x0 = Math.min(x0, (p.x ?? 0) - p.r); x1 = Math.max(x1, (p.x ?? 0) + p.r);
-      y0 = Math.min(y0, (p.y ?? 0) - p.r); y1 = Math.max(y1, (p.y ?? 0) + p.r);
+  const topicEls = new Map<string, { halo: SVGCircleElement; label: SVGTextElement }>();
+  for (const t of topics) {
+    const halo = el('circle', { r: t.size, class: 'topic-halo', style: `color:${t.data.hue}` }, $('topicHalos'));
+    halo.dataset.id = t.data.id;
+    const label = el('text', {}, $('topicLabels'));
+    const l1 = el('tspan', { x: 0 }, label); l1.textContent = t.data.name;
+    const l2 = el('tspan', { x: 0, dy: '1.4em', class: 'sub' }, label); l2.textContent = `${t.clusters.length} clusters · ${t.count} bodies`;
+    topicEls.set(t.data.id, { halo, label });
+  }
+  const topicOrbit = el('circle', { r: topicRing }, $('orbits'));
+  const clusterEls = new Map<string, { halo: SVGCircleElement; label: SVGTextElement; group: SVGGElement; bodies: Map<string, SVGAElement>; dyads: { line: SVGLineElement; a: string; b: string }[] }>();
+  for (const c of clusterById.values()) {
+    const halo = el('circle', { r: c.size, class: 'cluster-halo', style: `fill:${c.topic.data.hue}; stroke:${c.topic.data.hue}` }, $('clusterHalos'));
+    halo.dataset.id = c.data.id;
+    const label = el('text', {}, $('clusterLabels'));
+    label.textContent = c.data.name;
+    const group = el('g', {}, $('clusters'));
+    const dyadG = el('g', {}, group);
+    const bodies = new Map<string, SVGAElement>();
+    for (const id of c.data.bodies) {
+      const b = G.bodies[id];
+      bodies.set(id, makeBody(id, b, b.kind === 'page' ? (b.partColor ?? c.topic.data.hue) : c.topic.data.hue, group));
     }
-    return { x0, y0, x1, y1 };
+    const dyads = G.dyads.filter(([a, b]) => bodies.has(a) && bodies.has(b)).map(([a, b, kind]) => ({ line: el('line', { class: `dyad ${kind}` }, dyadG), a, b }));
+    clusterEls.set(c.data.id, { halo, label, group, bodies, dyads });
   }
-  function boundsOfRing(ring: string) {
-    return boundsOfConcepts(concepts.filter((c) => c.ring === ring).map((c) => c.id));
+  const bridgeEls = new Map<string, SVGAElement>();
+  for (const id of G.bridges) {
+    const b = G.bodies[id];
+    const [ta, tb] = b.bridge!.map((t) => topicById.get(t)!);
+    const a = makeBody(id, b, ta.data.hue, $('bridgeLayer'), tb.data.hue);
+    a.setAttribute('class', 'body bridge');
+    bridgeEls.set(id, a);
+  }
+  const coreG = $('coreLayer');
+  el('circle', { r: 60, class: 'core-glow' }, coreG);
+  const coreBody = makeBody(G.core.id, { kind: 'page', title: G.core.title, href: G.core.href }, 'var(--gold)', coreG);
+  coreBody.querySelector('circle')!.setAttribute('r', '9');
+  coreBody.querySelector('text')!.style.setProperty('--r', '9');
+  const companionEls = G.core.companions.map((c) => ({ data: c, a: makeBody(c.id, { kind: 'figure', title: c.title, href: c.href }, 'var(--k-cosmos)', coreG) }));
+
+  // ---- the orbit clock. It stops while you're reading anything. ----
+  let clock = 0, lastNow = performance.now(), paused = false;
+  const orbitPos = (o: Orbit, cx: number, cy: number) => { const a = o.phase + o.speed * clock; return [cx + Math.cos(a) * o.radius, cy + Math.sin(a) * o.radius] as const; };
+  const bodyPos = new Map<string, [number, number]>();
+
+  function place() {
+    for (const t of topics) {
+      [t.x, t.y] = orbitPos(t.orbit, 0, 0);
+      for (const c of t.clusters) {
+        [c.x, c.y] = orbitPos(c.orbit, t.x, t.y);
+        for (const [id, o] of c.bodyOrbits) bodyPos.set(id, orbitPos(o, c.x, c.y) as [number, number]);
+      }
+    }
+    for (const id of G.bridges) {
+      const b = G.bodies[id];
+      const [ta, tb] = b.bridge!.map((t) => topicById.get(t)!);
+      // along the gap between the two topics, at a steady but individual spot
+      const along = 0.5 + (hash(id) - 0.5) * 0.44;
+      const dx = tb.x - ta.x, dy = tb.y - ta.y, len = Math.hypot(dx, dy) || 1;
+      const side = (hash(id + '/') - 0.5) * 70;
+      bodyPos.set(id, [ta.x + dx * along - (dy / len) * side, ta.y + dy * along + (dx / len) * side]);
+    }
+    G.core.companions.forEach((c, i) => bodyPos.set(c.id, orbitPos({ radius: 30, phase: i * 2.4, speed: SPEED.core }, 0, 0) as [number, number]));
+    bodyPos.set(G.core.id, [0, 0]);
   }
 
   // ---- camera ----
   let camX = VW / 2, camY = VH / 2, camK = 1, k0 = 1;
-  let autoFit = true;
-  const unitsPerPx = () => VW / svg.getBoundingClientRect().width;
-  const frameWidth = () => svg.getBoundingClientRect().width;
-  const padFor = (p: number) => Math.min(p, frameWidth() * 0.14);
+  type Focus = { kind: 'cosmos' } | { kind: 'topic'; id: string } | { kind: 'cluster'; id: string } | { kind: 'body'; id: string } | null;
+  let focus: Focus = { kind: 'cosmos' };
+  let flight: { from: [number, number, number]; to: () => [number, number]; k: number; start: number } | null = null;
+  const unitsPerPx = () => VW / Math.max(1, svg.getBoundingClientRect().width);
+  const screenR = (worldR: number) => (worldR * camK) / unitsPerPx();
+  const frameMin = () => { const r = svg.getBoundingClientRect(); return Math.min(r.width, r.height) || 600; };
 
-  function applyCamera() {
-    camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(4)})`);
-    updateLOD();
+  const focusTarget = (f: Focus): { at: () => [number, number]; radius: number } => {
+    if (!f || f.kind === 'cosmos') return { at: () => [0, 0], radius: galaxyRadius };
+    if (f.kind === 'topic') { const t = topicById.get(f.id)!; return { at: () => [t.x, t.y], radius: t.size * 1.25 }; }
+    if (f.kind === 'cluster') { const c = clusterById.get(f.id)!; return { at: () => [c.x, c.y], radius: c.size * 1.35 }; }
+    return { at: () => bodyPos.get(f.id) ?? [0, 0], radius: 34 };
+  };
+  const kFor = (radius: number) => { const r = svg.getBoundingClientRect(); const pxR = Math.min(r.width, r.height) * 0.46; return (pxR * unitsPerPx()) / radius; };
+
+  function flyTo(f: Focus) {
+    focus = f;
+    const { at, radius } = focusTarget(f);
+    const k = kFor(radius);
+    const cx = (VW / 2 - camX) / camK, cy = (VH / 2 - camY) / camK;
+    if (reduced) { const [x, y] = at(); camK = k; camX = VW / 2 - x * k; camY = VH / 2 - y * k; flight = null; return; }
+    flight = { from: [cx, cy, camK], to: at, k, start: performance.now() };
+  }
+
+  // ---- LOD, from how big each system is on screen right now ----
+  function applyLOD() {
+    const fm = frameMin();
+    const px = (n: number) => (n * unitsPerPx()) / camK;
+    camera.setAttribute('transform', `translate(${camX.toFixed(2)},${camY.toFixed(2)}) scale(${camK.toFixed(5)})`);
+
+    $('topicLabels').style.fontSize = `${px(13)}px`;
+    $('topicLabels').style.strokeWidth = `${px(4)}px`;
+    $('clusterLabels').style.fontSize = `${px(11.5)}px`;
+    $('clusterLabels').style.strokeWidth = `${px(3.5)}px`;
+    $('clusters').style.fontSize = `${px(10)}px`;
+    $('clusters').style.strokeWidth = `${px(3)}px`;
+    const ms = String(Math.min(1, px(2.2)));
+    for (const g of ['clusters', 'bridgeLayer', 'coreLayer']) $(g).style.setProperty('--ms', ms);
+    $('bridgeLayer').style.fontSize = `${px(9.5)}px`;
+    $('bridgeLayer').style.strokeWidth = `${px(3)}px`;
+    $('coreLayer').style.fontSize = `${px(11)}px`;
+    $('coreLayer').style.strokeWidth = `${px(3.5)}px`;
+    topicOrbit.setAttribute('stroke-width', String(px(1)));
+
+    for (const t of topics) {
+      const sr = screenR(t.size);
+      const { halo, label } = topicEls.get(t.data.id)!;
+      halo.setAttribute('cx', t.x.toFixed(1)); halo.setAttribute('cy', t.y.toFixed(1));
+      const inside = band(sr, fm * 0.22, fm * 0.4);
+      halo.style.opacity = String(1 - 0.75 * inside);
+      halo.style.pointerEvents = inside < 0.5 ? '' : 'none';
+      label.setAttribute('transform', `translate(${t.x.toFixed(1)},${t.y.toFixed(1)})`);
+      label.style.opacity = String(1 - inside);
+      for (const c of t.clusters) {
+        const cr = screenR(c.size);
+        const { halo: ch, label: cl, group, bodies, dyads } = clusterEls.get(c.data.id)!;
+        const shown = band(sr, fm * 0.16, fm * 0.3);
+        const within = band(cr, fm * 0.2, fm * 0.36);
+        ch.setAttribute('cx', c.x.toFixed(1)); ch.setAttribute('cy', c.y.toFixed(1));
+        ch.style.opacity = String(shown * (1 - 0.6 * within));
+        ch.style.pointerEvents = shown > 0.5 && within < 0.5 ? '' : 'none';
+        cl.setAttribute('x', c.x.toFixed(1)); cl.setAttribute('y', (c.y - c.size - px(6)).toFixed(1));
+        cl.style.opacity = String(shown * (1 - within));
+        // bodies are faint texture from afar, then resolve into stars inside their cluster
+        group.style.opacity = String(0.25 + 0.75 * band(cr, 20, 70));
+        group.style.pointerEvents = cr > 60 ? '' : 'none';
+        group.style.setProperty('--lbl', String(band(cr, fm * 0.18, fm * 0.3)));
+        const dyadVis = band(cr, 50, 130);
+        for (const [id, a] of bodies) { const p = bodyPos.get(id)!; a.setAttribute('transform', `translate(${p[0].toFixed(2)},${p[1].toFixed(2)})`); }
+        if (dyadVis > 0) for (const d of dyads) {
+          const p = bodyPos.get(d.a)!, q = bodyPos.get(d.b)!;
+          d.line.setAttribute('x1', p[0].toFixed(2)); d.line.setAttribute('y1', p[1].toFixed(2));
+          d.line.setAttribute('x2', q[0].toFixed(2)); d.line.setAttribute('y2', q[1].toFixed(2));
+        }
+        (dyads[0]?.line.parentNode as SVGGElement | undefined)?.style.setProperty('opacity', String(dyadVis));
+      }
+    }
+    const nearTopics = Math.max(...topics.map((t) => screenR(t.size)));
+    const bridgeVis = 0.35 + 0.65 * band(nearTopics, fm * 0.2, fm * 0.4);
+    $('bridgeLayer').style.opacity = String(bridgeVis);
+    $('bridgeLayer').style.setProperty('--blbl', String(band(nearTopics, fm * 0.5, fm * 0.9)));
+    for (const [id, a] of bridgeEls) { const p = bodyPos.get(id)!; a.setAttribute('transform', `translate(${p[0].toFixed(2)},${p[1].toFixed(2)})`); }
+    for (const { data, a } of companionEls) { const p = bodyPos.get(data.id)!; a.setAttribute('transform', `translate(${p[0].toFixed(2)},${p[1].toFixed(2)})`); }
+    coreG.style.setProperty('--lbl', String(band(screenR(40), 30, 80)));
+    (coreBody as unknown as SVGElement).style.setProperty('--lbl', '1');
+    $('dust').style.opacity = String(1 - band(screenR(galaxyRadius), fm * 1.5, fm * 4));
     updateCrumbs();
   }
-  function fitK(b: { x0: number; y0: number; x1: number; y1: number }, padPx: number) {
-    const upp = unitsPerPx();
-    const w = Math.max(40, b.x1 - b.x0) + padPx * upp * 2;
-    const h = Math.max(40, b.y1 - b.y0) + padPx * upp * 2;
-    return Math.min(VW / w, VH / h);
-  }
-  let animFrame = 0;
-  function fitTo(b: { x0: number; y0: number; x1: number; y1: number } | null, animate = !reduced, padPx = 60, kMax = Infinity, kMin = 0) {
-    if (!b) return;
-    const k = Math.max(kMin, Math.min(kMax, fitK(b, padPx)));
-    const cx = (b.x0 + b.x1) / 2, cy = (b.y0 + b.y1) / 2;
-    const tx = VW / 2 - cx * k, ty = VH / 2 - cy * k;
-    cancelAnimationFrame(animFrame);
-    if (!animate) { camX = tx; camY = ty; camK = k; applyCamera(); return; }
-    const sx = camX, sy = camY, sk = camK, dur = 780, start = performance.now();
-    function step(now: number) {
-      const t = Math.min(1, (now - start) / dur);
+
+  // ---- the frame loop ----
+  function frame(now: number) {
+    const dt = Math.min(0.1, (now - lastNow) / 1000);
+    lastNow = now;
+    if (!paused && !reduced) clock += dt;
+    place();
+    if (flight) {
+      const t = Math.min(1, (now - flight.start) / 900);
       const e = t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
-      camX = sx + (tx - sx) * e; camY = sy + (ty - sy) * e;
-      camK = Math.exp(Math.log(sk) + (Math.log(k) - Math.log(sk)) * e);
-      applyCamera();
-      if (t < 1) animFrame = requestAnimationFrame(step);
+      const [tx, ty] = flight.to();
+      const x = flight.from[0] + (tx - flight.from[0]) * e, y = flight.from[1] + (ty - flight.from[1]) * e;
+      camK = Math.exp(Math.log(flight.from[2]) + (Math.log(flight.k) - Math.log(flight.from[2])) * e);
+      camX = VW / 2 - x * camK; camY = VH / 2 - y * camK;
+      if (t >= 1) flight = null;
+    } else if (focus && focus.kind !== 'cosmos') {
+      // follow what you flew to, so it doesn't drift out from under you
+      const [x, y] = focusTarget(focus).at();
+      camX = VW / 2 - x * camK; camY = VH / 2 - y * camK;
     }
-    animFrame = requestAnimationFrame(step);
+    applyLOD();
+    requestAnimationFrame(frame);
   }
-  function fitAll(animate: boolean) {
-    const b = boundsOfConcepts(concepts.map((c) => c.id));
-    if (!b) return;
-    k0 = fitK(b, padFor(80));
-    fitTo(b, animate, padFor(80));
-  }
-  const flyToRing = (ring: string) => { autoFit = false; fitTo(boundsOfRing(ring), true, padFor(80), k0 * 5, k0 * 1.4); };
-  new ResizeObserver(() => { syncViewBox(); if (autoFit) fitAll(false); else applyCamera(); }).observe(svg);
-  const flyHome = () => { autoFit = false; fitAll(true); };
-
-  // ---- LOD ----
-  function updateLOD() {
-    const z = camK / k0;
-    const upp = unitsPerPx();
-    const px = (n: number) => (n * upp) / camK;
-    const narrow = frameWidth() < 600;
-    const close = band(z, 1.0, 3.2);
-
-    for (const c of concepts) {
-      const el = conceptEls.get(c.id)!;
-      el.c.setAttribute('r', px(c.r * (0.5 + 0.8 * close)).toFixed(2));
-      el.t.setAttribute('y', px(c.r * (0.5 + 0.8 * close) + 11).toFixed(2));
-    }
-    conceptG.style.opacity = String(0.5 + 0.5 * close);
-    conceptG.style.setProperty('--lbl', String(band(z, 1.6, 3.0)));
-    conceptG.style.fontSize = `${px(narrow ? 9 : 10)}px`;
-    conceptG.style.strokeWidth = `${px(2.4)}px`;
-
-    const pageVis = band(z, 2.6, 4.2);
-    for (const p of pages) { const el = pageEls.get(p.id)!; el.c.setAttribute('r', px(2.4).toFixed(2)); el.t.setAttribute('y', px(11).toFixed(2)); }
-    pageG.style.opacity = String(pageVis);
-    pageG.style.pointerEvents = z >= 2.6 ? '' : 'none';
-    pageG.style.setProperty('--plbl', String(band(z, 4.0, 5.6)));
-    pageG.style.fontSize = `${px(narrow ? 8 : 9)}px`;
-    pageG.style.strokeWidth = `${px(2)}px`;
-
-    shareG.style.opacity = String(band(z, 1.9, 3.4));
-    shareG.style.pointerEvents = z >= 2.2 ? '' : 'none';
-    lineageG.style.opacity = String(1 - 0.55 * band(z, 1.0, 2.4));
-    lineageG.style.strokeWidth = `${px(1.4)}px`;
-
-    ringLabelG.style.opacity = String(1 - band(z, 1.3, 2.4));
-    ringLabelG.style.fontSize = `${px(narrow ? 12 : 15)}px`;
-    ringLabelG.style.strokeWidth = `${px(4)}px`;
-    ringHullG.style.pointerEvents = z < 1.8 ? '' : 'none';
-    for (const { circle } of ringEls.values()) circle.setAttribute('stroke-width', px(3).toFixed(1));
-
-    dustG.style.opacity = String(1 - band(z, 2.0, 3.4));
-  }
-
-  // ---- render: geometry only, runs on physics ticks ----
-  function render() {
-    for (const c of concepts) conceptEls.get(c.id)!.g.setAttribute('transform', `translate(${(c.x ?? 0).toFixed(1)},${(c.y ?? 0).toFixed(1)})`);
-    for (const e of shareEls) {
-      const a = conceptById.get(e.a), b = conceptById.get(e.b);
-      if (!a || !b) continue;
-      for (const line of [e.vis, e.hit]) {
-        line.setAttribute('x1', (a.x ?? 0).toFixed(1)); line.setAttribute('y1', (a.y ?? 0).toFixed(1));
-        line.setAttribute('x2', (b.x ?? 0).toFixed(1)); line.setAttribute('y2', (b.y ?? 0).toFixed(1));
-      }
-      e.vis.setAttribute('stroke-width', String(Math.min(2.5, 0.5 + e.weight * 0.7)));
-      e.vis.setAttribute('opacity', String(Math.min(0.7, 0.15 + e.weight * 0.2)));
-    }
-    for (const e of lineageEls) {
-      const a = conceptById.get(e.from), b = conceptById.get(e.to);
-      if (!a || !b) continue;
-      e.path.setAttribute('d', `M${(a.x ?? 0).toFixed(1)},${(a.y ?? 0).toFixed(1)} L${(b.x ?? 0).toFixed(1)},${(b.y ?? 0).toFixed(1)}`);
-    }
-    // pages drift to the centroid of the concepts they hold, with a small stable offset
-    // so pages sharing an identical concept-set don't sit exactly on top of each other
-    for (const p of pages) {
-      const holds = p.concepts.map((id) => conceptById.get(id)).filter(Boolean) as Concept[];
-      if (holds.length) {
-        let sx = 0, sy = 0; for (const c of holds) { sx += c.x ?? 0; sy += c.y ?? 0; }
-        const jitter = seed(p.id) * Math.PI * 2, jr = 10 + seed(p.id + '.') * 22;
-        p.x = sx / holds.length + Math.cos(jitter) * jr;
-        p.y = sy / holds.length + Math.sin(jitter) * jr;
-      }
-      pageEls.get(p.id)!.g.setAttribute('transform', `translate(${p.x.toFixed(1)},${p.y.toFixed(1)})`);
-    }
-    // Rings are literal and fixed at the center — the same nesting the Weaving already draws
-    // by hand — so the scale structure reads even while concepts settle inside it.
-    for (const [ring, radius] of Object.entries(RING_RADIUS)) {
-      const el = ringEls.get(ring)!;
-      const rad = ring === 'core' ? Math.max(90, RING_RADIUS.self * 0.55) : radius + 90;
-      el.circle.setAttribute('cx', '0'); el.circle.setAttribute('cy', '0'); el.circle.setAttribute('r', rad.toFixed(1));
-      el.text.setAttribute('x', '0'); el.text.setAttribute('y', (-rad + 22).toFixed(1));
-    }
-    if (autoFit) fitAll(false);
-  }
-  if (reduced) { for (let i = 0; i < 300; i++) sim.tick(); render(); }
-  else sim.on('tick', render);
-  sim.on('end', () => { if (autoFit) fitAll(false); });
 
   // ---- where you are ----
-  function nearestRing(): string {
-    const cx = (VW / 2 - camX) / camK, cy = (VH / 2 - camY) / camK;
-    let best = 'core', bd = Infinity;
-    for (const r of data.rings) {
-      const b = boundsOfRing(r.id); if (!b) continue;
-      const rcx = (b.x0 + b.x1) / 2, rcy = (b.y0 + b.y1) / 2;
-      const d = Math.hypot(rcx - cx, rcy - cy);
-      if (d < bd) { bd = d; best = r.id; }
-    }
-    return best;
-  }
-  let lastCrumbKey = '';
+  let lastCrumbs = '';
   function updateCrumbs() {
-    const z = camK / k0;
-    const parts: { label: string; go?: () => void }[] = [{ label: 'The Map', go: flyHome }];
-    if (z >= 1.35) {
-      const ring = nearestRing();
-      const meta = ringMeta.get(ring)!;
-      parts.push({ label: meta.label, go: () => flyToRing(ring) });
+    const cx = (VW / 2 - camX) / camK, cy = (VH / 2 - camY) / camK, fm = frameMin();
+    const parts: { label: string; go: () => void }[] = [{ label: 'Cosmos', go: () => { unpin(); flyTo({ kind: 'cosmos' }); } }];
+    const nearest = <T extends { x: number; y: number }>(list: T[]) => list.reduce((b, t) => (Math.hypot(t.x - cx, t.y - cy) < Math.hypot(b.x - cx, b.y - cy) ? t : b));
+    const t = nearest(topics);
+    if (screenR(t.size) > fm * 0.3) {
+      parts.push({ label: t.data.name, go: () => { unpin(); flyTo({ kind: 'topic', id: t.data.id }); } });
+      const c = nearest(t.clusters);
+      if (screenR(c.size) > fm * 0.25) {
+        parts.push({ label: c.data.name, go: () => { unpin(); flyTo({ kind: 'cluster', id: c.data.id }); } });
+        if (focus?.kind === 'body' && clusterOfBody.get(focus.id) === c) {
+          const id = focus.id;
+          parts.push({ label: G.bodies[id].title, go: () => flyTo({ kind: 'body', id }) });
+        }
+      }
     }
     const key = parts.map((p) => p.label).join('|');
-    if (key === lastCrumbKey) return;
-    lastCrumbKey = key;
+    if (key === lastCrumbs) return;
+    lastCrumbs = key;
     crumbBar.replaceChildren();
     parts.forEach((p, i) => {
-      if (i > 0) { const sep = document.createElement('span'); sep.className = 'crumb-sep'; sep.textContent = '›'; crumbBar.appendChild(sep); }
-      if (i === parts.length - 1) { const span = document.createElement('span'); span.className = 'crumb-current'; span.textContent = p.label; crumbBar.appendChild(span); }
-      else { const btn = document.createElement('button'); btn.type = 'button'; btn.textContent = p.label; btn.addEventListener('click', p.go!); crumbBar.appendChild(btn); }
+      if (i) { const s = document.createElement('span'); s.className = 'crumb-sep'; s.textContent = '›'; crumbBar.appendChild(s); }
+      if (i === parts.length - 1) { const s = document.createElement('span'); s.className = 'crumb-current'; s.textContent = p.label; crumbBar.appendChild(s); }
+      else { const b = document.createElement('button'); b.type = 'button'; b.textContent = p.label; b.addEventListener('click', p.go); crumbBar.appendChild(b); }
     });
   }
 
-  // ---- pan, wheel zoom, pinch zoom ----
+  // ---- cards: hovering pauses the orbits; a focused body keeps its card pinned ----
+  let pinned: string | null = null;
+  const show = (html: string) => { if (pinned) return; nodeCard.hidden = false; nodeCard.innerHTML = html; };
+  const hide = () => { if (pinned) return; nodeCard.hidden = true; paused = false; };
+  function unpin() { pinned = null; nodeCard.classList.remove('pinned'); nodeCard.hidden = true; document.querySelectorAll('.body.focus').forEach((b) => b.classList.remove('focus')); paused = false; }
+  const topicName = (id?: string) => (id ? topicById.get(id)?.data.name : '') ?? '';
+  function bodyCard(id: string, b: { kind: Kind; title: string; blurb: string; bridge?: [string, string]; topic?: string }, withOpen: boolean) {
+    const where = b.bridge ? `Between ${esc(topicName(b.bridge[0]))} and ${esc(topicName(b.bridge[1]))}` : b.topic ? esc(topicName(b.topic)) : 'The center';
+    return `<div class="nc-part">${KIND_LABEL[b.kind]} · ${where}</div><div class="nc-title">${esc(b.title)}</div>${b.blurb ? `<div class="nc-sub">${esc(b.blurb)}</div>` : ''}${withOpen ? `<a class="nc-open" href="${esc((G.bodies[id] ?? { href: '' }).href || (id === G.core.id ? G.core.href : G.core.companions.find((c) => c.id === id)?.href ?? ''))}">Open →</a>` : ''}`;
+  }
+
+  let dragMoved = false;
+  for (const t of topics) {
+    const { halo } = topicEls.get(t.data.id)!;
+    halo.addEventListener('pointerenter', () => {
+      paused = true; halo.classList.add('hot');
+      show(`<div class="nc-part">Topic · ${t.clusters.length} clusters · ${t.count} bodies</div><div class="nc-title">${esc(t.data.name)}</div><div class="nc-sub">${t.clusters.slice(0, 5).map((c) => esc(c.data.name)).join(' · ')}</div>`);
+    });
+    halo.addEventListener('pointerleave', () => { halo.classList.remove('hot'); hide(); });
+    halo.addEventListener('click', () => { if (!dragMoved) { unpin(); flyTo({ kind: 'topic', id: t.data.id }); } });
+  }
+  for (const c of clusterById.values()) {
+    const { halo, bodies } = clusterEls.get(c.data.id)!;
+    halo.addEventListener('pointerenter', () => {
+      paused = true; halo.classList.add('hot');
+      const titles = c.data.bodies.slice(0, 6).map((b) => esc(G.bodies[b].title)).join(' · ');
+      show(`<div class="nc-part">Cluster in ${esc(c.topic.data.name)} · ${c.data.bodies.length} bodies</div><div class="nc-title">${esc(c.data.name)}</div><div class="nc-sub">${titles}${c.data.bodies.length > 6 ? ' …' : ''}</div>`);
+    });
+    halo.addEventListener('pointerleave', () => { halo.classList.remove('hot'); hide(); });
+    halo.addEventListener('click', () => { if (!dragMoved) { unpin(); flyTo({ kind: 'cluster', id: c.data.id }); } });
+    for (const [id, a] of bodies) wireBody(id, a, () => G.bodies[id]);
+  }
+  for (const [id, a] of bridgeEls) wireBody(id, a, () => G.bodies[id]);
+  wireBody(G.core.id, coreBody, () => ({ kind: 'page' as Kind, title: G.core.title, blurb: G.core.blurb }));
+  for (const { data, a } of companionEls) wireBody(data.id, a, () => ({ kind: data.kind, title: data.title, blurb: data.blurb }));
+
+  function wireBody(id: string, a: SVGAElement, info: () => { kind: Kind; title: string; blurb: string; bridge?: [string, string]; topic?: string }) {
+    a.addEventListener('pointerenter', () => {
+      paused = true; a.classList.add('hot');
+      const cl = clusterOfBody.get(id);
+      if (cl) for (const d of clusterEls.get(cl.data.id)!.dyads) d.line.classList.toggle('hot', d.a === id || d.b === id);
+      show(bodyCard(id, info(), false));
+    });
+    a.addEventListener('pointerleave', () => {
+      a.classList.remove('hot');
+      const cl = clusterOfBody.get(id);
+      if (cl) for (const d of clusterEls.get(cl.data.id)!.dyads) d.line.classList.remove('hot');
+      hide();
+      if (pinned) paused = true;
+    });
+    a.addEventListener('click', (e) => {
+      if (dragMoved) { e.preventDefault(); return; }
+      if (pinned === id) return; // second click follows the link
+      e.preventDefault();
+      unpin();
+      pinned = id;
+      a.classList.add('focus');
+      paused = true;
+      nodeCard.hidden = false;
+      nodeCard.classList.add('pinned');
+      nodeCard.innerHTML = bodyCard(id, info(), true);
+      flyTo({ kind: 'body', id });
+    });
+  }
+
+  // ---- pan, wheel, pinch ----
   const pointers = new Map<number, { x: number; y: number }>();
-  let pinchDist = 0, dragMoved = false;
+  let pinch = 0;
+  const breakFollow = () => { flight = null; if (focus && focus.kind !== 'cosmos') focus = null; };
   svg.addEventListener('pointerdown', (e) => {
     pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     dragMoved = false;
-    if (pointers.size === 2) { const [a, b] = Array.from(pointers.values()); pinchDist = Math.hypot(a.x - b.x, a.y - b.y); }
+    if (pointers.size === 2) { const [p, q] = [...pointers.values()]; pinch = Math.hypot(p.x - q.x, p.y - q.y); }
     svg.classList.add('dragging');
-    (e.target as Element).setPointerCapture?.(e.pointerId);
   });
   svg.addEventListener('pointermove', (e) => {
-    if (!pointers.has(e.pointerId)) return;
-    const prev = pointers.get(e.pointerId)!;
+    const prev = pointers.get(e.pointerId);
+    if (!prev) return;
     pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (pointers.size === 2) {
-      const [a, b] = Array.from(pointers.values());
-      const d = Math.hypot(a.x - b.x, a.y - b.y);
-      if (pinchDist > 0) zoomAt((a.x + b.x) / 2, (a.y + b.y) / 2, d / pinchDist);
-      pinchDist = d;
+      const [p, q] = [...pointers.values()];
+      const d = Math.hypot(p.x - q.x, p.y - q.y);
+      if (pinch) zoomAt((p.x + q.x) / 2, (p.y + q.y) / 2, d / pinch);
+      pinch = d;
       return;
     }
-    const upp = unitsPerPx();
     const dx = e.clientX - prev.x, dy = e.clientY - prev.y;
-    if (Math.abs(dx) + Math.abs(dy) > 2) dragMoved = true;
-    camX += dx * upp; camY += dy * upp;
-    autoFit = false;
-    cancelAnimationFrame(animFrame);
-    applyCamera();
+    if (Math.abs(dx) + Math.abs(dy) > 3) {
+      if (!dragMoved) { svg.setPointerCapture(e.pointerId); breakFollow(); }
+      dragMoved = true;
+    }
+    if (dragMoved) { const u = unitsPerPx(); camX += dx * u; camY += dy * u; }
   });
-  const endPointer = (e: PointerEvent) => { pointers.delete(e.pointerId); if (pointers.size < 2) pinchDist = 0; if (!pointers.size) svg.classList.remove('dragging'); };
+  const endPointer = (e: PointerEvent) => { pointers.delete(e.pointerId); if (pointers.size < 2) pinch = 0; if (!pointers.size) svg.classList.remove('dragging'); };
   svg.addEventListener('pointerup', endPointer);
   svg.addEventListener('pointercancel', endPointer);
-  svg.addEventListener('pointerleave', endPointer);
 
   function zoomAt(clientX: number, clientY: number, factor: number) {
     const rect = svg.getBoundingClientRect();
-    const mx = (clientX - rect.left) * (VW / rect.width);
-    const my = (clientY - rect.top) * (VH / rect.height);
-    const nk = Math.max(k0 * 0.5, Math.min(k0 * 12, camK * factor));
+    const mx = (clientX - rect.left) * (VW / rect.width), my = (clientY - rect.top) * (VH / rect.height);
+    const nk = Math.max(k0 * 0.6, Math.min(k0 * 90, camK * factor));
     const f = nk / camK;
-    camX = mx * (1 - f) + camX * f;
-    camY = my * (1 - f) + camY * f;
-    camK = nk;
-    autoFit = false;
-    cancelAnimationFrame(animFrame);
-    applyCamera();
+    breakFollow();
+    camX = mx * (1 - f) + camX * f; camY = my * (1 - f) + camY * f; camK = nk;
   }
   svg.addEventListener('wheel', (e) => {
     e.preventDefault();
@@ -596,83 +577,24 @@ const graphData = { concepts, pages, sharesEdges, lineageEdges, rings: RING_ORDE
     zoomAt(e.clientX, e.clientY, Math.max(0.75, Math.min(1.33, Math.exp(-dy * 0.0018))));
   }, { passive: false });
   const centerZoom = (f: number) => { const r = svg.getBoundingClientRect(); zoomAt(r.left + r.width / 2, r.top + r.height / 2, f); };
-  document.getElementById('zoom-in')!.addEventListener('click', () => centerZoom(1.3));
-  document.getElementById('zoom-out')!.addEventListener('click', () => centerZoom(1 / 1.3));
-  document.getElementById('zoom-reset')!.addEventListener('click', flyHome);
+  $('zoom-in').addEventListener('click', () => centerZoom(1.4));
+  $('zoom-out').addEventListener('click', () => centerZoom(1 / 1.4));
+  $('zoom-reset').addEventListener('click', () => { unpin(); flyTo({ kind: 'cosmos' }); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && pinned) unpin(); });
 
-  // ---- hover: highlight + card. Never moves the camera. ----
-  function clearHot() {
-    for (const el of conceptEls.values()) el.g.classList.remove('hot', 'dim');
-    for (const el of pageEls.values()) el.g.classList.remove('hot', 'dim');
-    for (const e of shareEls) e.vis.classList.remove('hot', 'dim');
-    for (const e of lineageEls) e.path.classList.remove('hot', 'dim');
-    for (const { circle } of ringEls.values()) circle.classList.remove('hot');
-    nodeCard.hidden = true;
-  }
-  const showCard = (html: string) => { nodeCard.hidden = false; nodeCard.innerHTML = html; };
-  const KIND_LABEL: Record<string, string> = { word: 'Loop Tongue word', idea: 'Concept', figure: 'Standing Third' };
+  // ---- start at the whole Cosmos ----
+  place();
+  k0 = kFor(galaxyRadius);
+  camK = k0; camX = VW / 2; camY = VH / 2;
+  new ResizeObserver(() => {
+    const cx = (VW / 2 - camX) / camK, cy = (VH / 2 - camY) / camK;
+    const ratio = camK / k0;
+    syncViewBox();
+    k0 = kFor(galaxyRadius);
+    camK = k0 * ratio; camX = VW / 2 - cx * camK; camY = VH / 2 - cy * camK;
+  }).observe(svg);
 
-  for (const r of data.rings) {
-    const { circle } = ringEls.get(r.id)!;
-    circle.addEventListener('pointerenter', () => {
-      circle.classList.add('hot');
-      const n = concepts.filter((c) => c.ring === r.id).length;
-      showCard(`<div class="nc-part">A scale · ${n} concept${n === 1 ? '' : 's'}</div><div class="nc-title">${r.label}</div>`);
-    });
-    circle.addEventListener('pointerleave', clearHot);
-    circle.addEventListener('click', () => { if (!dragMoved) flyToRing(r.id); });
-  }
-  for (const c of concepts) {
-    const { g } = conceptEls.get(c.id)!;
-    g.addEventListener('pointerenter', () => {
-      g.classList.add('hot');
-      const linked = new Set([c.id]);
-      for (const e of shareEls) {
-        const hot = e.a === c.id || e.b === c.id;
-        e.vis.classList.toggle('hot', hot); e.vis.classList.toggle('dim', !hot);
-        if (hot) { linked.add(e.a); linked.add(e.b); }
-      }
-      for (const e of lineageEls) {
-        const hot = e.from === c.id || e.to === c.id;
-        e.path.classList.toggle('hot', hot); e.path.classList.toggle('dim', !hot);
-        if (hot) { linked.add(e.from); linked.add(e.to); }
-      }
-      if (camK / k0 >= 1.6) for (const [cid, el] of conceptEls) el.g.classList.toggle('dim', !linked.has(cid));
-      showCard(`<div class="nc-part">${KIND_LABEL[c.conceptKind] ?? 'Concept'} · ${ringMeta.get(c.ring)?.label} · on ${c.appearsOn.length} page${c.appearsOn.length === 1 ? '' : 's'}</div><div class="nc-title">${c.title}</div><div class="nc-sub">${c.blurb}</div>`);
-    });
-    g.addEventListener('pointerleave', clearHot);
-    g.addEventListener('click', (e) => {
-      if (dragMoved) { e.preventDefault(); return; }
-      if (camK / k0 < 2.0) { e.preventDefault(); flyToRing(c.ring); }
-    });
-  }
-  for (const p of pages) {
-    const { g } = pageEls.get(p.id)!;
-    g.addEventListener('pointerenter', () => {
-      g.classList.add('hot');
-      showCard(`<div class="nc-part">Chapter · holds ${p.concepts.length} concept${p.concepts.length === 1 ? '' : 's'}</div><div class="nc-title">${p.title}</div><div class="nc-sub">${p.summary}</div>`);
-    });
-    g.addEventListener('pointerleave', clearHot);
-  }
-  for (const e of shareEls) {
-    e.hit.addEventListener('pointerenter', () => {
-      e.vis.classList.add('hot');
-      const a = conceptById.get(e.a)!, b = conceptById.get(e.b)!;
-      conceptEls.get(e.a)!.g.classList.add('hot'); conceptEls.get(e.b)!.g.classList.add('hot');
-      showCard(`<div class="nc-part">Shares pages</div><div class="nc-title">${a.title} ↔ ${b.title}</div>`);
-    });
-    e.hit.addEventListener('pointerleave', clearHot);
-  }
-  for (const e of lineageEls) {
-    e.path.addEventListener('pointerenter', () => {
-      e.path.classList.add('hot');
-      const a = conceptById.get(e.from)!, b = conceptById.get(e.to)!;
-      conceptEls.get(e.from)!.g.classList.add('hot'); conceptEls.get(e.to)!.g.classList.add('hot');
-      showCard(`<div class="nc-part">${e.kind === 'fusion' ? 'Fuses into' : 'Grows into'}</div><div class="nc-title">${a.title} → ${b.title}</div>`);
-    });
-    e.path.addEventListener('pointerleave', clearHot);
-    e.path.style.pointerEvents = 'stroke';
-  }
-
-  applyCamera();
+  const lit = [...visited].filter((s) => G.bodies[`c:${s}`] || G.bodies[`p:${s}`]).length;
+  if (lit) $('thread-count').textContent = `Your thread so far: ${lit} lit. `;
+  requestAnimationFrame(frame);
 </script>

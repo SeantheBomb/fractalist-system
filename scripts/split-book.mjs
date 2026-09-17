@@ -8,6 +8,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { NODES } from './manifest.mjs';
 import { buildConcepts, linkConcepts } from './concepts.mjs';
+import { buildGalaxy } from './galaxy.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const src = readFileSync(join(root, 'source', 'Fractalism_Complete.md'), 'utf8');
@@ -253,6 +254,14 @@ const graphOut = buildConcepts({
 writeFileSync(join(dataDir, 'concepts.json'), JSON.stringify({
   concepts: graphOut.concepts, pageConcepts: graphOut.pageConcepts, pageRelated: graphOut.pageRelated,
 }) + '\n');
+
+// The map's nested galaxy, built from the concept graph.
+const galaxy = buildGalaxy({
+  concepts: graphOut.concepts,
+  pageTitles: Object.fromEntries(NODES.map((n) => [n.slug, n.title])),
+  pageSummaries: Object.fromEntries(NODES.map((n) => [n.slug, n.summary])),
+});
+writeFileSync(join(dataDir, 'galaxy.json'), JSON.stringify(galaxy) + '\n');
 
 // Chapters are written last: the graph is built from their plain text, then each one gets
 // links to the concepts it holds.
