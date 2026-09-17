@@ -23,10 +23,12 @@
   --k-water: #3d7fa6;
   --k-wind: #6c9c8a;
   --k-earth: #6f8f45;
+  --k-self: #a8781f;
   --k-dyad: #38827a;
   --k-skein: #7d5ba6;
   --k-culture: #b5651d;
   --k-cosmos: #33364a;
+  --k-core: #6b7062;
 
   --serif: 'Newsreader', Georgia, 'Times New Roman', serif;
   --sans: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
@@ -59,10 +61,12 @@
     --k-water: #64a9cf;
     --k-wind: #8fc4af;
     --k-earth: #9cbd68;
+    --k-self: #d9a441;
     --k-dyad: #5fb8ae;
     --k-skein: #ab8ad4;
     --k-culture: #e0954f;
     --k-cosmos: #9095b8;
+    --k-core: #9a9c8c;
   }
 }
 
