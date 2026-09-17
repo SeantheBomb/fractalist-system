@@ -9,7 +9,6 @@ fraying: "You've mistaken your reaction for their state."
 drawable: true
 parents: ["sythen", "mirrath"]
 relatedThirds: ["sythen", "mirrath", "the-hall-of-mirrors"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Sythen](/thirds/sythen/) and [Mirrath](/thirds/mirrath/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

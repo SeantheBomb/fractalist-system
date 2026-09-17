@@ -9,7 +9,6 @@ fraying: "The naming is building something against you."
 drawable: true
 parents: []
 relatedThirds: ["connection-first", "the-naming-contest", "ostrin"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Speaking as though words build what follows. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

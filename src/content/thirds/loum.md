@@ -9,7 +9,6 @@ fraying: "You can't act at all once conditions shift."
 drawable: true
 parents: []
 relatedThirds: ["the-arrangement"]
-relatedNodes: ["the-compost-heap", "going-to-ground"]
 ---
 
 **The Local Rule.** Shaping conditions so one action is easiest. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

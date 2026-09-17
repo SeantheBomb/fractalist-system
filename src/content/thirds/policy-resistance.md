@@ -9,7 +9,6 @@ fraying: "Everyone pulling harder; nothing moving."
 drawable: true
 parents: ["cessant", "the-shared-pot"]
 relatedThirds: ["cessant", "the-shared-pot"]
-relatedNodes: ["culture-kin"]
 ---
 
 **A fusion of [Cessant](/thirds/cessant/) and [The Shared Pot](/thirds/the-shared-pot/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

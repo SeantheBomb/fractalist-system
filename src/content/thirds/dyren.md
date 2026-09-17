@@ -9,7 +9,6 @@ fraying: "Parallel bias mistaken for confirmation."
 drawable: true
 parents: ["second-order-design", "second-order-design"]
 relatedThirds: ["second-order-design"]
-relatedNodes: ["belief-systems-built", "going-to-ground"]
 ---
 
 **[Second-Order Design](/thirds/second-order-design/), fused with itself** — the same pattern running on both sides, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

@@ -9,7 +9,6 @@ fraying: "The testing has become the relationship."
 drawable: true
 parents: ["mareth", "nammeth"]
 relatedThirds: ["mareth", "nammeth"]
-relatedNodes: ["the-trust-triangle"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Nammeth](/thirds/nammeth/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

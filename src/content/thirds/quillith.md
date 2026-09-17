@@ -9,7 +9,6 @@ fraying: "It has drifted free of what it started as."
 drawable: true
 parents: ["the-naming-contest", "filling-the-gap"]
 relatedThirds: ["the-naming-contest", "filling-the-gap", "waeth"]
-relatedNodes: ["the-skein", "belief-systems-built"]
 ---
 
 **A fusion of [The Naming Contest](/thirds/the-naming-contest/) and [Filling the Gap](/thirds/filling-the-gap/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

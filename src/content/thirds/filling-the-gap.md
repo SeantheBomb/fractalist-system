@@ -9,7 +9,6 @@ fraying: "You're in a relationship with someone who isn't there."
 drawable: true
 parents: ["selvan", "sythen"]
 relatedThirds: ["selvan", "sythen", "quillith"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Selvan](/thirds/selvan/) and [Sythen](/thirds/sythen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

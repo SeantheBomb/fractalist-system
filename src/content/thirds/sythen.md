@@ -9,7 +9,6 @@ fraying: "Vividness is impersonating frequency."
 drawable: true
 parents: []
 relatedThirds: ["filling-the-gap", "reading-the-room"]
-relatedNodes: ["naming-and-defusing"]
 ---
 
 **The Local Rule.** Judging by what arrives first. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

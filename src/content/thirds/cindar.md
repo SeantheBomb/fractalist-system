@@ -9,7 +9,6 @@ fraying: "Burning through something faster than it can be replaced."
 drawable: true
 parents: []
 relatedThirds: ["escalation", "wevven", "vessa", "answering-for"]
-relatedNodes: ["reading-your-own-cycle"]
 ---
 
 **The Local Rule.** An output becomes the next input. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

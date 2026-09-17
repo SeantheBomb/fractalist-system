@@ -9,7 +9,6 @@ fraying: "Naming has replaced resolving."
 drawable: true
 parents: ["nammeth", "nammeth"]
 relatedThirds: ["nammeth", "quillith", "the-inner-circle"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **[Nammeth](/thirds/nammeth/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

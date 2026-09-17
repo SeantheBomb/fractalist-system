@@ -13,7 +13,7 @@ Do not try to adopt everything in this part at once. That would be the exact mis
 Pick one habit loop you already have — something small and low-stakes: the order you do things in the morning, what you reach for when you're bored, what you say when someone asks how you're doing. For one full day, just notice it happening. Don't try to interrupt it or improve it. You're not ready to intervene yet, and trying to before you can actually see the loop clearly tends to just produce guilt instead of change. Today's only job is: catch it, in the moment, at least three times.
 
 **Day 2 — The breath.**
-Learn the Local Step / Global Form breath (in the next chapter) and use it once, at any point today, when you notice yourself swept into a loop you didn't choose — a spiral of worry, a doom-scroll, a flash of irritation. You don't need a big moment for this. A small one is a better teacher.
+Learn the Local Step / <a class="concept-link" href="/concept/global-form/">Global Form</a> breath (in the next chapter) and use it once, at any point today, when you notice yourself swept into a loop you didn't choose — a spiral of worry, a doom-scroll, a flash of irritation. You don't need a big moment for this. A small one is a better teacher.
 
 **Day 3 — Look at something that branches.**
 Find a tree, a river on a map, the veins in a leaf, cracks in pavement — anything with a repeating branching structure — and spend three unhurried minutes with it, using the Tree-Gazing practice below. This day exists to train your eyes, not your willpower.
@@ -25,7 +25,7 @@ Return to the habit you noticed on Day 1. This time, when you catch it, silently
 Choose one interaction today — a text, a conversation, a note to yourself — and before you speak or write, ask: is this a seed of fear, or a seed of care? Choose the second one on purpose, once, even in something small.
 
 **Day 6 — Ask the four questions.**
-Spend fifteen minutes with the self-inventory in "Finding Your Local Rule" below. Don't overthink your answers. First instincts are usually more honest than polished ones.
+Spend fifteen minutes with the self-inventory in "Finding Your <a class="concept-link" href="/concept/local-rule/">Local Rule</a>" below. Don't overthink your answers. First instincts are usually more honest than polished ones.
 
 **Day 7 — Choose one thing to keep.**
 Look back over the week. Pick exactly one practice — the breath, the naming, the seeding, the tree-gazing — and commit to carrying just that one forward for the next month, before adding anything else. This is the whole method in miniature: not everything, not at once, just one small local rule, repeated past the point where it starts building something you can see.

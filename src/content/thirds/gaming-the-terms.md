@@ -9,7 +9,6 @@ fraying: "The letter is satisfied and the purpose is hollow."
 drawable: true
 parents: ["dorrin", "cindar"]
 relatedThirds: ["dorrin", "cindar", "the-shared-pot", "proxy-detachment"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Dorrin](/thirds/dorrin/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

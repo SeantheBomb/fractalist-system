@@ -9,7 +9,6 @@ fraying: "Warmth is substituting for having something to say."
 drawable: true
 parents: ["nammeth", "rethen"]
 relatedThirds: ["nammeth", "rethen"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Nammeth](/thirds/nammeth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

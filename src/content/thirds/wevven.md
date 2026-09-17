@@ -9,7 +9,6 @@ fraying: "Each resenting the role the other left them."
 drawable: true
 parents: ["cindar", "rethen"]
 relatedThirds: ["cindar", "rethen", "second-order-design"]
-relatedNodes: ["the-second-pass", "the-dyad"]
 ---
 
 **A fusion of [Cindar](/thirds/cindar/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

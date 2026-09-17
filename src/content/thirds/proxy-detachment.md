@@ -9,7 +9,6 @@ fraying: "It's optimized past what it stood for."
 drawable: true
 parents: ["the-sagging-floor", "gaming-the-terms"]
 relatedThirds: ["the-sagging-floor", "gaming-the-terms"]
-relatedNodes: ["culture-kin"]
 ---
 
 **A fusion of [The Sagging Floor](/thirds/the-sagging-floor/) and [Gaming the Terms](/thirds/gaming-the-terms/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

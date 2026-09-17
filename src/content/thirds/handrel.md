@@ -9,7 +9,6 @@ fraying: "Dependence is passing along with the craft."
 drawable: true
 parents: ["answering-for", "vessa"]
 relatedThirds: ["answering-for", "vessa", "waeth"]
-relatedNodes: ["the-skein"]
 ---
 
 **A fusion of [Answering For](/thirds/answering-for/) and [Vessa](/thirds/vessa/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

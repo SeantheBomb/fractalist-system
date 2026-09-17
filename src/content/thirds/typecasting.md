@@ -9,7 +9,6 @@ fraying: "Seeing them as one thing until they can't be another."
 drawable: true
 parents: ["corren", "selvan"]
 relatedThirds: ["corren", "selvan", "the-reputation"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Corren](/thirds/corren/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

@@ -9,7 +9,6 @@ fraying: "You can't model a mind that lacks your context."
 drawable: true
 parents: ["selvan", "mirrath"]
 relatedThirds: ["selvan", "mirrath", "the-inner-circle", "the-only-road"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Selvan](/thirds/selvan/) and [Mirrath](/thirds/mirrath/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

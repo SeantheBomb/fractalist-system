@@ -9,7 +9,6 @@ fraying: "The armor is preventing what it was protecting."
 drawable: true
 parents: ["rethen", "selvan"]
 relatedThirds: ["rethen", "selvan", "cessant"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Rethen](/thirds/rethen/) and [Selvan](/thirds/selvan/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

@@ -9,7 +9,6 @@ fraying: "An arms race neither chose and neither can exit."
 drawable: true
 parents: ["cindar", "cindar"]
 relatedThirds: ["cindar", "first-arriver-lock-in", "the-shared-pot"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **[Cindar](/thirds/cindar/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

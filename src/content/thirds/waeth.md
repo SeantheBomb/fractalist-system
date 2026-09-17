@@ -9,7 +9,6 @@ fraying: "Inheritance hollow of why it ever existed."
 drawable: true
 parents: ["quillith", "handrel"]
 relatedThirds: ["quillith", "handrel"]
-relatedNodes: ["belief-systems-built", "the-fold"]
 ---
 
 **A fusion of [Quillith](/thirds/quillith/) and [Handrel](/thirds/handrel/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

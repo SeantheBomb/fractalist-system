@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import { concepts, SCALE_LABEL, firstSentence, type Scale } from '../../lib/concepts';
+
+const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name);
+const words = concepts.filter((c) => c.kind === 'word');
+const ideas = concepts.filter((c) => c.kind === 'idea');
+const figureCount = concepts.filter((c) => c.kind === 'figure').length;
+const groups: [string, typeof ideas][] = [
+  ...(['self', 'dyad', 'skein', 'culture', 'cosmos', 'every'] as Scale[]).map((s) =>
+    [s === 'every' ? 'At every scale' : `${SCALE_LABEL[s]} scale`, ideas.filter((c) => c.scale === s).sort(byName)] as [string, typeof ideas]),
+  ['Across the book', ideas.filter((c) => !c.scale).sort(byName)],
+].filter(([, list]) => list.length > 0);
+---
+<Base title="Concepts" description="Every discrete idea in Fractalism, each on its own page, linked to every chapter that uses it.">
+  <p class="eyebrow">Concepts</p>
+  <h1 style="margin-top: 0.2em;">Every idea, on its own page</h1>
+  <p class="intro">
+    Each concept below has one page. That page lists every chapter that treats it or mentions it,
+    the concepts it shares those chapters with, and what it grows out of. Chapters link back the
+    same way, so you can move from an idea to where it's used and on to its neighbors.
+  </p>
+
+  <section class="group">
+    <h2>The nine words</h2>
+    <ul class="list">
+      {words.map((c) => (<li><a href={c.href}>{c.name}</a><span>{firstSentence(c.blurb)}</span></li>))}
+    </ul>
+  </section>
+
+  {groups.map(([label, list]) => (
+    <section class="group">
+      <h2>{label}</h2>
+      <ul class="list">
+        {list.map((c) => (<li><a href={c.href}>{c.name}</a><span>{firstSentence(c.blurb)}</span></li>))}
+      </ul>
+    </section>
+  ))}
+
+  <section class="group">
+    <h2>The Standing Thirds</h2>
+    <p class="intro">{figureCount} figures, each one a concept on the same graph. They have their own <a href="/thirds/">gallery</a>.</p>
+  </section>
+</Base>
+
+<style>
+  .intro { color: var(--muted); max-width: 38em; }
+  .group { margin-top: 2.6rem; }
+  .group h2 { font-size: 1.15rem; margin: 0 0 0.8rem; }
+  .list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.7rem; }
+  .list li { display: grid; gap: 0.05rem; }
+  .list a { font-weight: 600; text-decoration: none; }
+  .list a:hover { text-decoration: underline; }
+  .list span { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+</style>

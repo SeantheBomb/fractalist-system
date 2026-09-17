@@ -7,7 +7,7 @@ summary: "Authenticity, empathy, logic — the three legs a two-person weave sta
 related: ["do-i-understand-you", "ostrin", "the-dyad"]
 ---
 
-Not every two-person Local Rule holds weight equally. A simple diagnostic, borrowed and adapted, gives you a way to actually check whether a Dyad is standing on all three legs it needs:
+Not every two-person <a class="concept-link" href="/concept/local-rule/">Local Rule</a> holds weight equally. A simple diagnostic, borrowed and adapted, gives you a way to actually check whether a Dyad is standing on all three legs it needs:
 
 **Authenticity** — are you actually being yourself, or a managed, performed version of yourself, inside this relationship? A Dyad built on a performance can look stable for a long time before it collapses under the weight of the gap between the performance and the person underneath it.
 

@@ -9,7 +9,6 @@ fraying: "So does whatever you keep confirming."
 drawable: true
 parents: []
 relatedThirds: ["vessa", "typecasting"]
-relatedNodes: ["do-i-understand-you", "weaving-for-another"]
 ---
 
 **The Local Rule.** Attending repeatedly to one thing among many. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

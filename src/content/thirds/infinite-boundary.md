@@ -7,7 +7,6 @@ personifies: "Every figure above, aggregated and never averaged."
 drawable: false
 parents: []
 relatedThirds: []
-relatedNodes: ["the-mathematics", "going-to-ground", "becoming-a-third", "systems-theory"]
 ---
 
 **The Infinite Boundary** is every figure above, aggregated and never averaged — the only entry in this catalogue with no Tending and no Fraying pole. This is not an exemption granted for convenience. It follows directly from the rules already in play: a pole is read from a vantage, every vantage sits at some scale, and the recursion chain terminates here. There is no scale above this one, therefore no vantage, therefore no pole. Mathematics has a name for an object every other object maps into, uniquely, with nothing beyond it to map onward to — a terminal object, and the word is doing exact work rather than decorative work. What terminates has no outside.

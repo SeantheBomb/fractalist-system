@@ -9,7 +9,6 @@ fraying: "Neither choosing; both managing the other."
 drawable: true
 parents: ["loum", "loum"]
 relatedThirds: ["loum", "second-order-design"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **[Loum](/thirds/loum/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

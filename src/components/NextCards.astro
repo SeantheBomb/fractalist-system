@@ -1,12 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import { PARTS } from '../../scripts/manifest.mjs';
+import { concept } from '../lib/concepts';
 
 interface Props {
   related: string[];
+  /** For each related page, the concepts it shares with this one. */
+  shared?: Record<string, string[]>;
   nextInPart?: { id: string; data: { title: string; summary: string; part: string } } | null;
 }
-const { related, nextInPart = null } = Astro.props;
+const { related, shared = {}, nextInPart = null } = Astro.props;
 
 const nodes = await getCollection('nodes');
 const thirds = await getCollection('thirds');
@@ -21,6 +24,7 @@ const cards = related
       summary: n.data.summary,
       label: PARTS[n.data.part]?.title ?? '',
       color: PARTS[n.data.part]?.color ?? 'var(--muted)',
+      shares: (shared[slug] ?? []).map((s) => concept(s)?.name).filter(Boolean).slice(0, 3),
     };
     const t = thirds.find((x) => x.id === slug);
     if (t) return {
@@ -29,6 +33,7 @@ const cards = related
       summary: t.data.personifies,
       label: 'A Standing Third',
       color: 'var(--c-p5)',
+      shares: [] as string[],
     };
     return null;
   })
@@ -53,6 +58,7 @@ const cards = related
         <div class="nc-part" style={`color: ${c.color}`}>{c.label}</div>
         <div class="nc-title">{c.title}</div>
         <div class="nc-summary">{c.summary}</div>
+        {c.shares.length > 0 && <div class="nc-shares">Shares {c.shares.join(', ')}</div>}
       </a>
     ))}
   </section>

@@ -9,7 +9,6 @@ fraying: "It's eroding, every step small enough to miss."
 drawable: true
 parents: ["mareth", "rethen"]
 relatedThirds: ["mareth", "rethen", "the-sagging-floor"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Rethen](/thirds/rethen/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

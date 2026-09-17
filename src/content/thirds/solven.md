@@ -9,7 +9,6 @@ fraying: "The patch has replaced the capacity it was covering."
 drawable: true
 parents: []
 relatedThirds: ["answering-for"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Reaching for what relieves the symptom. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

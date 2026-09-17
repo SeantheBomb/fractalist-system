@@ -7,11 +7,11 @@ summary: "A simple structure for practicing with witnesses: share one loop, offe
 related: ["the-skein", "the-spiral-check", "weaving-together"]
 ---
 
-Everything above works alone, and much of Movement II works between two people. It works better still with more than two, because a loop witnessed by several people tends to hold its shape better than a loop kept private — which is really just the Third Thing pillar, applied to the practice itself.
+Everything above works alone, and much of Movement II works between two people. It works better still with more than two, because a loop witnessed by several people tends to hold its shape better than a loop kept private — which is really just the <a class="concept-link" href="/concept/third-thing/">Third Thing</a> pillar, applied to the practice itself.
 
 A simple structure for a small gathering, monthly or whenever it's useful:
 
-**Open with the Seven Iterations**, read aloud, one person per iteration if the group is large enough, ending together on the closing line: *from difference, shape; from shape, motion; from motion, what persisted; from what persisted, a self that noticed; and from noticing — everything we choose to build next.*
+**Open with the <a class="concept-link" href="/concept/seven-iterations/">Seven Iterations</a>**, read aloud, one person per iteration if the group is large enough, ending together on the closing line: *from difference, shape; from shape, motion; from motion, what persisted; from what persisted, a self that noticed; and from noticing — everything we choose to build next.*
 
 **Share one loop.** Go around once. Each person names one loop they've caught themselves in since the last gathering — a habit, a self-story, a pattern in a relationship. No advice yet. Just naming, out loud, with witnesses. This alone tends to do most of the work; a loop that's been said aloud to other people is harder to keep running on autopilot.
 

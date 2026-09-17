@@ -9,7 +9,6 @@ fraying: "Too slow to perceive, mistaken for permanent."
 drawable: true
 parents: ["the-sagging-floor", "the-hall-of-mirrors"]
 relatedThirds: ["the-sagging-floor", "the-hall-of-mirrors"]
-relatedNodes: ["scale-tagging", "fractalism-collective"]
 ---
 
 **A fusion of [The Sagging Floor](/thirds/the-sagging-floor/) and [The Hall of Mirrors](/thirds/the-hall-of-mirrors/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

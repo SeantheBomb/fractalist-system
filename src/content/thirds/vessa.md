@@ -9,7 +9,6 @@ fraying: "It's growing whatever you keep confirming instead."
 drawable: true
 parents: ["corren", "cindar"]
 relatedThirds: ["corren", "cindar", "handrel"]
-relatedNodes: ["do-i-understand-you"]
 ---
 
 **A fusion of [Corren](/thirds/corren/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

@@ -7,7 +7,7 @@ summary: "Any claim worth making twice is worth making once forward and once as 
 related: ["the-spiral-check", "wevven", "do-i-understand-you"]
 ---
 
-Here is the single most useful conversational habit the Loop Tongue teaches, and the one worth learning even if you learn nothing else from this part: **any claim worth making twice is worth making once forward and once as a Loop.**
+Here is the single most useful conversational habit the Loop Tongue teaches, and the one worth learning even if you learn nothing else from this part: **any claim worth making twice is worth making once forward and once as a <a class="concept-link" href="/concept/loop/">Loop</a>.**
 
 The first pass is ordinary cause-and-effect language — the sentence anyone would say without thinking about it. *"I got defensive because you raised your voice."*
 

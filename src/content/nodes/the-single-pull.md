@@ -9,4 +9,4 @@ related: ["the-four-point-weaving", "daily-practices", "tending-and-fraying"]
 
 The lightest form, requiring no ring layout at all — a daily practice, not a consultation.
 
-Draw one Third at random, from the full deck, without specifying a ring in advance. Read it for the day ahead: is this pattern one to tend today, or one to watch for signs of fraying? Carry the reading loosely. This is closer to the daily mantras in Part Two than to a formal Weaving, and it requires no other ritual — a single card, a moment of attention, and then the day proceeds.
+Draw one Third at random, from the full deck, without specifying a ring in advance. Read it for the day ahead: is this pattern one to tend today, or one to watch for signs of fraying? Carry the reading loosely. This is closer to the daily mantras in Part Two than to a formal <a class="concept-link" href="/concept/weaving/">Weaving</a>, and it requires no other ritual — a single card, a moment of attention, and then the day proceeds.

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Glyph from '../../components/Glyph.astro';
 import { SELF_GLYPHS } from '../../lib/glyphs';
+import { concept } from '../../lib/concepts';
 import NextCards from '../../components/NextCards.astro';
 import { KINSHIPS } from '../../../scripts/manifest.mjs';
 
@@ -15,7 +16,9 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const kin = KINSHIPS[entry.data.kinship];
 const drawnAs = SELF_GLYPHS[entry.id];
-const related = [...entry.data.relatedThirds, ...entry.data.relatedNodes];
+const figure = concept(entry.id);
+const pages = figure ? [...figure.treatedIn, ...figure.mentionedIn] : [];
+const related = [...entry.data.relatedThirds, ...pages.slice(0, 4)];
 ---
 <Base title={entry.data.epithet ? `${entry.data.name}, ${entry.data.epithet}` : entry.data.name} description={entry.data.personifies}>
   <article>

@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { concepts, concept, SCALE_LABEL, KIND_LABEL } from '../../lib/concepts';
+import { PARTS } from '../../../scripts/manifest.mjs';
+
+export function getStaticPaths() {
+  return concepts.filter((c) => c.kind !== 'figure').map((c) => ({ params: { slug: c.slug } }));
+}
+
+const c = concept(Astro.params.slug!)!;
+const nodes = new Map((await getCollection('nodes')).map((n) => [n.id, n]));
+const refs = (slugs: string[]) => slugs.map((s) => concept(s)).filter(Boolean);
+const lineage = [
+  ['Grows out of', refs(c.stemsFrom)],
+  ['Made by combining', refs(c.fusionOf)],
+  ['Grows into', refs(c.growsInto)],
+] as const;
+const hasLineage = lineage.some(([, list]) => list.length);
+const SCALES = ['self', 'dyad', 'skein', 'culture', 'cosmos'] as const;
+const treated = c.treatedIn.map((s) => nodes.get(s)).filter(Boolean);
+const mentioned = c.mentionedIn.map((s) => nodes.get(s)).filter(Boolean);
+const related = c.related.slice(0, 8).map((r) => ({ ...r, concept: concept(r.slug)! }));
+---
+<Base title={c.name} description={c.blurb}>
+  <article>
+    <p class="eyebrow">
+      {KIND_LABEL[c.kind]}{c.scale && <> · {SCALE_LABEL[c.scale]}</>}
+    </p>
+    <h1 style="margin-top: 0.2em;">{c.name}</h1>
+    <p class="concept-blurb">{c.blurb}</p>
+
+    {c.perScale && (
+      <section class="block">
+        <h2>At every scale</h2>
+        <dl class="scale-grid">
+          {SCALES.map((s) => (
+            <>
+              <dt>{SCALE_LABEL[s]}</dt>
+              <dd class:list={{ open: !c.perScale![s] }}>{c.perScale![s] ?? 'Open — nothing here yet'}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {hasLineage && (
+      <section class="block">
+        <h2>Lineage</h2>
+        <dl class="lineage">
+          {lineage.filter(([, list]) => list.length).map(([label, list]) => (
+            <>
+              <dt>{label}</dt>
+              <dd>{list.map((r, i) => (<>{i > 0 && ' · '}<a href={r!.href}>{r!.name}</a></>))}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    <section class="block">
+      <h2>Where it appears</h2>
+      {treated.length > 0 && (
+        <>
+          <p class="sub">Treated in</p>
+          <ul class="page-list">
+            {treated.map((n) => (
+              <li>
+                <span class="pl-part" style={`color: ${PARTS[n!.data.part]?.color}`}>{PARTS[n!.data.part]?.title}</span>
+                <a href={`/node/${n!.id}/`}>{n!.data.title}</a>
+                <span class="pl-summary">{n!.data.summary}</span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      {mentioned.length > 0 && (
+        <>
+          <p class="sub">Also mentioned in</p>
+          <p class="mention-list">{mentioned.map((n, i) => (<>{i > 0 && ' · '}<a href={`/node/${n!.id}/`}>{n!.data.title}</a></>))}</p>
+        </>
+      )}
+    </section>
+
+    {related.length > 0 && (
+      <section class="block">
+        <h2>Shares pages with</h2>
+        <ul class="related">
+          {related.map((r) => (
+            <li>
+              <a href={r.concept.href}>{r.concept.name}</a>
+              <span class="shared">on {r.shared.slice(0, 3).map((s) => nodes.get(s)?.data.title).filter(Boolean).join(', ')}{r.shared.length > 3 && ` and ${r.shared.length - 3} more`}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="back"><a href="/concepts/">All concepts</a> · <a href="/map/">The map</a></p>
+  </article>
+</Base>
+
+<style>
+  .concept-blurb { font-size: 1.12rem; line-height: 1.6; max-width: 38em; }
+  .block { margin-top: 2.6rem; }
+  .block h2 { font-size: 1.15rem; margin: 0 0 0.8rem; }
+  .sub { font-family: var(--sans); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 1rem 0 0.4rem; }
+  .scale-grid, .lineage { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.5rem 1rem; margin: 0; }
+  .scale-grid dt, .lineage dt { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding-top: 0.2rem; }
+  .scale-grid dd, .lineage dd { margin: 0; font-size: 0.95rem; }
+  .scale-grid dd.open { color: var(--muted); font-style: italic; }
+  .page-list, .related { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.9rem; }
+  .page-list li { display: grid; gap: 0.1rem; }
+  .pl-part { font-family: var(--sans); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.1em; }
+  .page-list a { font-weight: 600; text-decoration: none; }
+  .pl-summary { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+  .mention-list { margin: 0; font-size: 0.93rem; line-height: 1.7; }
+  .related li { display: grid; gap: 0.05rem; }
+  .related a { font-weight: 600; text-decoration: none; }
+  .shared { color: var(--muted); font-size: 0.86rem; }
+  .back { margin-top: 3rem; font-family: var(--sans); font-size: 0.85rem; }
+  @media (max-width: 520px) {
+    .scale-grid, .lineage { grid-template-columns: 1fr; gap: 0.1rem; }
+    .scale-grid dd, .lineage dd { margin-bottom: 0.6rem; }
+  }
+</style>

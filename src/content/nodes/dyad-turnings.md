@@ -13,8 +13,8 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 |---|---|---|
 | Escalation | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
 | The Standoff | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
-| Wevven | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
-| Vessa | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
+| <a class="concept-link" href="/thirds/wevven/">Wevven</a> | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
+| <a class="concept-link" href="/thirds/vessa/">Vessa</a> | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
 | Answering For | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
 | Filling the Gap | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
 | The Guard | **The Unarmoring** — share one thing you'd normally armor | Protection stops preventing the connection |
@@ -29,4 +29,4 @@ Triggered by circumstance rather than calendar — which is also why nineteen of
 | The Naming Contest | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
 | The Unbridged Gap | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
 | The Arrangement | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
-| Ostrin | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
+| <a class="concept-link" href="/thirds/ostrin/">Ostrin</a> | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |

@@ -9,7 +9,6 @@ fraying: "Stopping something that hadn't finished compounding."
 drawable: true
 parents: []
 relatedThirds: ["the-standoff", "wevven", "the-guard", "connection-first"]
-relatedNodes: ["reading-your-own-cycle"]
 ---
 
 **The Local Rule.** Returning toward a setpoint. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

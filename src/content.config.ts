@@ -27,7 +27,6 @@ const thirds = defineCollection({
     drawable: z.boolean().default(true),
     parents: z.array(z.string()).default([]),
     relatedThirds: z.array(z.string()).default([]),
-    relatedNodes: z.array(z.string()).default([]),
   }),
 });
 

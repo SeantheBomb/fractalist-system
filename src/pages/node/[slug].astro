@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import NextCards from '../../components/NextCards.astro';
+import ConceptPanel from '../../components/ConceptPanel.astro';
+import { pagesSharingConcepts } from '../../lib/concepts';
 import HeroFractal from '../../components/HeroFractal.astro';
 import { PARTS } from '../../../scripts/manifest.mjs';
 
@@ -40,6 +42,8 @@ const nodes = await getCollection('nodes');
 const inOrder = nodes.sort((a, b) => a.data.order - b.data.order);
 const idx = inOrder.findIndex((n) => n.id === entry.id);
 const nextInPart = idx >= 0 && idx < inOrder.length - 1 ? inOrder[idx + 1] : null;
+// Threads follow shared concepts; the next chapter already has its own card.
+const threads = pagesSharingConcepts(entry.id).filter((r) => r.slug !== nextInPart?.id).slice(0, 3);
 ---
 <Base title={entry.data.title} description={entry.data.summary}>
   <article>
@@ -56,5 +60,7 @@ const nextInPart = idx >= 0 && idx < inOrder.length - 1 ? inOrder[idx + 1] : nul
     </div>
   </article>
 
-  <NextCards related={entry.data.related} nextInPart={nextInPart} />
+  <ConceptPanel page={entry.id} />
+
+  <NextCards related={threads.map((r) => r.slug)} shared={Object.fromEntries(threads.map((r) => [r.slug, r.shared]))} nextInPart={nextInPart} />
 </Base>

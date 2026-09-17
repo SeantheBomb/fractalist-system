@@ -700,31 +700,6 @@ export const NODES = [
   },
 ];
 
-// ---- STANDING THIRDS ----
-// The roster itself is generated from Part Five's catalogue tables by split-book.mjs.
-// This map only carries what the book doesn't specify: curated links out to chapters.
-export const THIRD_OVERRIDES = {
-  cindar:   { relatedNodes: ['reading-your-own-cycle'] },
-  rethen:   { relatedNodes: ['reading-your-own-cycle'] },
-  sythen:   { relatedNodes: ['naming-and-defusing'] },
-  loum:     { relatedNodes: ['the-compost-heap', 'going-to-ground'] },
-  corren:   { relatedNodes: ['do-i-understand-you', 'weaving-for-another'] },
-  wevven:   { relatedNodes: ['the-second-pass', 'the-dyad'] },
-  ostrin:   { relatedNodes: ['the-trust-triangle'] },
-  vessa:    { relatedNodes: ['do-i-understand-you'] },
-  quillith: { relatedNodes: ['the-skein', 'belief-systems-built'] },
-  handrel:  { relatedNodes: ['the-skein'] },
-  cessant:  { relatedNodes: ['the-skein', 'fractal-resistance'] },
-  charten:  { relatedNodes: ['fractalism-collective', 'grammar-of-pattern'] },
-  aestren:  { relatedNodes: ['scale-tagging', 'fractalism-collective'] },
-  waeth:    { relatedNodes: ['belief-systems-built', 'the-fold'] },
-  dyren:    { relatedNodes: ['belief-systems-built', 'going-to-ground'] },
-  'infinite-boundary': {
-    relatedNodes: ['the-mathematics', 'going-to-ground', 'becoming-a-third', 'systems-theory'],
-  },
-};
-
-
 export const KINSHIPS = {
   self: {
     title: 'The Self-Kin',

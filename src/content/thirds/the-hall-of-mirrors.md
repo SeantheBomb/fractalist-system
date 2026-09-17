@@ -9,7 +9,6 @@ fraying: "No independent position anywhere in it."
 drawable: true
 parents: ["the-echo", "reading-the-room"]
 relatedThirds: ["the-echo", "reading-the-room", "aestren"]
-relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

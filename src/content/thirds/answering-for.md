@@ -9,7 +9,6 @@ fraying: "You're preventing them developing their own."
 drawable: true
 parents: ["solven", "cindar"]
 relatedThirds: ["solven", "cindar", "handrel"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Solven](/thirds/solven/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

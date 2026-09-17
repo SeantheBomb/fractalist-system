@@ -9,7 +9,6 @@ fraying: "Nothing will ever be sufficient at this rate."
 drawable: true
 parents: ["mareth", "cindar"]
 relatedThirds: ["mareth", "cindar", "first-arriver-lock-in"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **A fusion of [Mareth](/thirds/mareth/) and [Cindar](/thirds/cindar/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

@@ -175,6 +175,9 @@ th { font-family: var(--sans); font-size: 0.78em; text-transform: uppercase; let
 .next-card.featured { border-left: 3px solid var(--accent); }
 .next-card .nc-title { font-weight: 600; font-size: 1.02rem; }
 .next-card .nc-part { font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.15rem; }
+.next-card .nc-shares { font-family: var(--sans); font-size: 0.72rem; color: var(--muted); margin-top: 0.35rem; }
+.concept-link { color: inherit; text-decoration: underline dotted; text-decoration-color: color-mix(in srgb, var(--accent) 70%, transparent); text-underline-offset: 3px; }
+.concept-link:hover { color: var(--accent); text-decoration-style: solid; }
 .next-card .nc-summary { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; line-height: 1.5; }
 .next-card.visited .nc-title::after { content: ' ·'; color: var(--accent); }
 

@@ -9,7 +9,6 @@ fraying: "Nobody is positioned to protect it."
 drawable: true
 parents: ["gaming-the-terms", "escalation"]
 relatedThirds: ["gaming-the-terms", "escalation", "policy-resistance", "the-long-cycle"]
-relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [Gaming the Terms](/thirds/gaming-the-terms/) and [Escalation](/thirds/escalation/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

@@ -9,7 +9,6 @@ fraying: "You're answering something nobody asked."
 drawable: true
 parents: []
 relatedThirds: ["gaming-the-terms"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Answering a simpler question than the one asked. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

@@ -6,7 +6,8 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { NODES, THIRD_OVERRIDES } from './manifest.mjs';
+import { NODES } from './manifest.mjs';
+import { buildConcepts, linkConcepts } from './concepts.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const src = readFileSync(join(root, 'source', 'Fractalism_Complete.md'), 'utf8');
@@ -75,6 +76,8 @@ mkdirSync(nodesDir, { recursive: true });
 mkdirSync(thirdsDir, { recursive: true });
 
 let missing = [];
+const bodies = new Map();
+const frontmatters = new Map();
 
 NODES.forEach((n, i) => {
   const raw = sections.get(n.heading);
@@ -90,7 +93,8 @@ NODES.forEach((n, i) => {
     `related: [${n.related.map(y).join(', ')}]`,
     '---',
   ].filter(Boolean).join('\n');
-  writeFileSync(join(nodesDir, `${n.slug}.md`), `${fm}\n\n${body}\n`);
+  frontmatters.set(n.slug, fm);
+  bodies.set(n.slug, body);
 });
 
 // ---- STANDING THIRDS ----
@@ -181,7 +185,6 @@ for (const f of figures) {
 }
 
 figures.forEach((f, i) => {
-  const ov = THIRD_OVERRIDES[f.slug] ?? {};
   const reading = deckReadings.get(f.name) ?? {};
   const turning = turnings.get(f.name);
   const parentSlugs = [...new Set(f.parents.map(slugify))].filter((s) => bySlug.has(s));
@@ -227,7 +230,6 @@ figures.forEach((f, i) => {
     `drawable: ${f.drawable === false ? 'false' : 'true'}`,
     `parents: [${f.parents.map((n) => y(slugify(n))).join(', ')}]`,
     `relatedThirds: [${related.map(y).join(', ')}]`,
-    `relatedNodes: [${(ov.relatedNodes ?? [f.catalogue]).map(y).join(', ')}]`,
     '---',
   ].filter(Boolean).join('\n');
   writeFileSync(join(thirdsDir, `${f.slug}.md`), `${fm}\n\n${lines.join('\n\n')}\n`);
@@ -243,5 +245,34 @@ mkdirSync(dataDir, { recursive: true });
 writeFileSync(join(dataDir, 'thirds-graph.json'), JSON.stringify(Object.fromEntries(
   figures.map((f) => [f.slug, { kinship: f.kinship, parents: f.parents.map(slugify) }])), null, 1) + '\n');
 
+const graphOut = buildConcepts({
+  sections,
+  NODES: NODES.map((n) => ({ ...n, body: bodies.get(n.slug) })),
+  figures: figures.map((f) => ({ ...f, parentSlugs: [...new Set(f.parents.map(slugify))] })),
+});
+writeFileSync(join(dataDir, 'concepts.json'), JSON.stringify({
+  concepts: graphOut.concepts, pageConcepts: graphOut.pageConcepts, pageRelated: graphOut.pageRelated,
+}) + '\n');
+
+// Chapters are written last: the graph is built from their plain text, then each one gets
+// links to the concepts it holds.
+for (const [slug, fm] of frontmatters) {
+  writeFileSync(join(nodesDir, `${slug}.md`), `${fm}\n\n${linkConcepts(bodies.get(slug), slug, graphOut)}\n`);
+}
+
+// For the author: concepts the text uses on a page the Loom doesn't cite, and citations
+// that point at chapters which don't exist.
+const reportDir = join(root, 'reports');
+mkdirSync(reportDir, { recursive: true });
+const { uncited, unresolved } = graphOut.report;
+writeFileSync(join(reportDir, 'concept-coverage.md'), [
+  '# Concept coverage', '',
+  `## Used but not cited (${uncited.length})`, '',
+  ...uncited.map((u) => `- **${u.concept}** appears in \`${u.page}\``), '',
+  `## Citations that don't resolve (${unresolved.length})`, '',
+  ...unresolved.map((u) => `- ${u}`), '',
+].join('\n'));
+
 const drawable = figures.filter((f) => f.drawable !== false).length;
 console.log(`Wrote ${NODES.length} nodes and ${figures.length} thirds (${drawable} drawable).`);
+console.log(`Concept graph: ${graphOut.concepts.length} concepts; ${uncited.length} uncited uses and ${unresolved.length} unresolved citations in reports/concept-coverage.md.`);

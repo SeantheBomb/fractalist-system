@@ -9,7 +9,6 @@ fraying: "You can't see around the story anymore."
 drawable: true
 parents: []
 relatedThirds: ["filling-the-gap", "the-guard", "typecasting", "the-unbridged-gap"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Maintaining a self-story against evidence. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

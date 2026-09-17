@@ -9,7 +9,6 @@ fraying: "Measuring against a mark that stopped being true."
 drawable: true
 parents: []
 relatedThirds: ["the-rising-bar", "the-sliding-floor", "ostrin"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Judging against a reference point. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

@@ -9,7 +9,6 @@ fraying: "Whoever arrived first is entrenched regardless."
 drawable: true
 parents: ["the-rising-bar", "escalation"]
 relatedThirds: ["the-rising-bar", "escalation", "the-long-cycle"]
-relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Rising Bar](/thirds/the-rising-bar/) and [Escalation](/thirds/escalation/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

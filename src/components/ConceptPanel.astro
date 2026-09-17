@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import { conceptsOnPage, firstSentence } from '../lib/concepts';
+
+interface Props { page: string }
+const { page } = Astro.props;
+
+const titles = new Map((await getCollection('nodes')).map((n) => [n.id, n.data.title]));
+const held = conceptsOnPage(page);
+const ideas = held
+  .filter((c) => c.kind !== 'figure')
+  .sort((a, b) => Number(!a.treatedIn.includes(page)) - Number(!b.treatedIn.includes(page)) || a.name.localeCompare(b.name));
+const figures = held.filter((c) => c.kind === 'figure');
+const elsewhere = (pages: string[]) => pages.filter((p) => p !== page && titles.has(p));
+---
+{held.length > 0 && (
+  <section class="concepts-here" aria-labelledby="concepts-here-title">
+    <p class="eyebrow" id="concepts-here-title">Concepts on this page</p>
+
+    {ideas.length > 0 && (
+      <ul class="concept-rows">
+        {ideas.map((c) => {
+          const others = elsewhere(c.appearsOn);
+          return (
+            <li class="concept-row">
+              <div class="cr-head">
+                <a class="cr-name" href={c.href}>{c.name}</a>
+                {!c.treatedIn.includes(page) && <span class="cr-tag">mentioned</span>}
+              </div>
+              <p class="cr-blurb">{firstSentence(c.blurb)}</p>
+              {others.length > 0 && (
+                <p class="cr-also">
+                  <span class="cr-also-label">Also on</span>
+                  {others.slice(0, 4).map((p, i) => (<>{i > 0 && ' · '}<a href={`/node/${p}/`}>{titles.get(p)}</a></>))}
+                  {others.length > 4 && <> · <a href={c.href}>{others.length - 4} more</a></>}
+                </p>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    )}
+
+    {figures.length > 0 && (
+      <div class="figure-row">
+        <span class="cr-also-label">Standing Thirds on this page</span>
+        <p>{figures.map((c, i) => (<>{i > 0 && ' · '}<a href={c.href}>{c.name}</a></>))}</p>
+      </div>
+    )}
+  </section>
+)}
+
+<style>
+  .concepts-here { margin-top: 3.2rem; border-top: 1px solid var(--line); padding-top: 1.4rem; }
+  .concept-rows { list-style: none; padding: 0; margin: 0.9rem 0 0; display: grid; gap: 1rem; }
+  .cr-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+  .cr-name { font-weight: 600; text-decoration: none; }
+  .cr-name:hover { text-decoration: underline; }
+  .cr-tag { font-family: var(--sans); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+  .cr-blurb { margin: 0.15rem 0 0; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+  .cr-also { margin: 0.3rem 0 0; font-size: 0.85rem; line-height: 1.5; }
+  .cr-also-label { font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-right: 0.5rem; }
+  .figure-row { margin-top: 1.2rem; }
+  .figure-row p { margin: 0.3rem 0 0; font-size: 0.92rem; line-height: 1.6; }
+</style>

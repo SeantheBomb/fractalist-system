@@ -19,7 +19,7 @@ const items: MapNode[] = [
   ...thirdsC.map((t) => ({
     id: t.id, href: `/thirds/${t.id}/`, title: t.data.name, group: 'thirds',
     color: 'var(--c-p5)',
-    related: [...t.data.relatedThirds, ...t.data.relatedNodes],
+    related: [...t.data.relatedThirds],
   })),
 ];
 

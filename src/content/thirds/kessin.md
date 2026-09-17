@@ -9,7 +9,6 @@ fraying: "The account has drifted from what was lived."
 drawable: true
 parents: []
 relatedThirds: ["the-shared-story"]
-relatedNodes: ["self-kin"]
 ---
 
 **The Local Rule.** Storing an episode by its peak and its close. This is a Self-Kin figure: one person, repeating one thing. Everything further out in the catalogue is built by fusing figures like this one together.

@@ -9,7 +9,6 @@ fraying: "Everyone knows; no one can be first to say it."
 drawable: true
 parents: ["the-guard", "the-standoff"]
 relatedThirds: ["the-guard", "the-standoff", "policy-resistance"]
-relatedNodes: ["the-skein", "fractal-resistance"]
 ---
 
 **A fusion of [The Guard](/thirds/the-guard/) and [The Standoff](/thirds/the-standoff/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

@@ -9,7 +9,6 @@ fraying: "It binds people with nothing underneath it."
 drawable: true
 parents: ["the-inner-circle", "the-reputation"]
 relatedThirds: ["the-inner-circle", "the-reputation"]
-relatedNodes: ["fractalism-collective", "grammar-of-pattern"]
 ---
 
 **A fusion of [The Inner Circle](/thirds/the-inner-circle/) and [The Reputation](/thirds/the-reputation/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

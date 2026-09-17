@@ -9,7 +9,6 @@ fraying: "Everything must pass through you, and your absence severs."
 drawable: true
 parents: ["the-inner-circle", "the-unbridged-gap"]
 relatedThirds: ["the-inner-circle", "the-unbridged-gap"]
-relatedNodes: ["skein-kin"]
 ---
 
 **A fusion of [The Inner Circle](/thirds/the-inner-circle/) and [The Unbridged Gap](/thirds/the-unbridged-gap/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

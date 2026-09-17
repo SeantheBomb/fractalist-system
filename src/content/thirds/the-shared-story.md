@@ -9,7 +9,6 @@ fraying: "Neither of you actually had this event."
 drawable: true
 parents: ["kessin", "kessin"]
 relatedThirds: ["kessin", "the-reputation"]
-relatedNodes: ["dyad-kin"]
 ---
 
 **[Kessin](/thirds/kessin/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
