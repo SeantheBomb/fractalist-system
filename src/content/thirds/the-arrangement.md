@@ -9,7 +9,7 @@ tending: "Conditions shaped so the right thing is easy."
 fraying: "Neither choosing; both managing the other."
 drawable: true
 parents: ["the-riverbed", "the-riverbed"]
-relatedThirds: ["the-riverbed", "second-order-design"]
+relatedThirds: ["the-riverbed"]
 ---
 
 **[The Riverbed](/thirds/the-riverbed/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

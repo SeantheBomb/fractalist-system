@@ -9,7 +9,7 @@ tending: "One drives, one steadies — a real division."
 fraying: "Each resenting the role the other left them."
 drawable: true
 parents: ["the-spark", "the-tide"]
-relatedThirds: ["the-spark", "the-tide", "second-order-design"]
+relatedThirds: ["the-spark", "the-tide"]
 ---
 
 **A fusion of [The Spark](/thirds/the-spark/) and [The Tide](/thirds/the-tide/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

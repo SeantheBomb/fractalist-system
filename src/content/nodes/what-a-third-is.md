@@ -1,7 +1,7 @@
 ---
 title: "What a Third Is, and What It Isn't"
 part: "part-five"
-order: 42
+order: 47
 epigraph: "A pattern does not need a will to act on you. It only needs to keep happening."
 summary: "A pattern that recurs reliably enough to be worth naming, with no will of its own. The four tests every figure has to pass, and why a tier measures what a Third is made of rather than its rank."
 related: ["self-kin", "the-third-thing", "what-a-weaving-is"]
@@ -17,8 +17,10 @@ A Standing Third is a pattern that recurs reliably enough, across enough lives, 
 
 **It has two poles, and neither is good or evil.** This is the rule most easily broken and the one that matters most. Every pattern here can serve a life or corrode one, depending on context, dosage, and timing. A figure you can only see one side of is not a figure — it is one expression of a figure you have not finished looking at. **If you cannot find the other pole, you are zoomed in too far.** Widen until both appear.
 
+**One stated limit on the two-pole rule, because it is the rule most often applied where it doesn't reach.** Tending and Fraying describe the *direction of a running pattern*. A pattern that has stopped is neither — it has no motion, therefore no direction, therefore no pole. So when you go looking for a figure's second side and find nothing at all, there are two possibilities, not one. You may be zoomed in too far, which the rule above already tells you to fix by widening. Or the thing you are examining may not be running, in which case there was never a pole there to find and the question to ask is a different one entirely.
+
 **It can be wielded.** There is somewhere to push. A pattern with no intervention point is weather, not a Third.
 
-**The tiers are not a ranking.** They are fusion depth: a Third's scale is simply what it is made of. Two people each running a self-scale pattern produce a dyad-scale Third that neither of them contains. Two dyads sharing a person produce a skein. Nothing here was assigned a scale — scale is a consequence of composition, the same way a <a class="concept-link" href="/concept/global-form/">Global Form</a> is a consequence of a Local Rule.
+**The tiers are not a ranking.** They are fusion depth: a Third's scale is simply what it is made of. The chain runs the same rule at every step and stops when the rule stops producing anything — which is a result rather than a decision. Two people each running a self-scale pattern produce a dyad-scale Third that neither of them contains. Two dyads sharing a person produce a skein. Nothing here was assigned a scale — scale is a consequence of composition, the same way a <a class="concept-link" href="/concept/global-form/">Global Form</a> is a consequence of a Local Rule.
 
 **On reading the tables:** Tending is the pole that builds. Fraying is the pole that corrodes. The same figure, the same mechanism, pointed two ways.

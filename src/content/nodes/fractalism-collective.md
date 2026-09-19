@@ -1,7 +1,7 @@
 ---
 title: "Fractalism and the Collective"
 part: "part-four"
-order: 39
+order: 44
 epigraph: "People only need three things to do well: mastery, purpose, and autonomy."
 summary: "History moves in loops at civilizational scale — and every large \"we\" is a Third Thing doing work face-to-face familiarity can't."
 related: ["the-shared-name", "belief-systems-built", "the-skein", "fractal-resistance"]

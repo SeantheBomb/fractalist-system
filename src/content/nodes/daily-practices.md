@@ -1,7 +1,7 @@
 ---
 title: "The Daily Practices"
 part: "part-two"
-order: 12
+order: 13
 epigraph: "It's easier to iterate than generate."
 summary: "Four short practices that carry the daily weight: the breath, Tree-Gazing, Naming the Loop, and Seeding — each with the mechanism explained."
 related: ["finding-your-local-rule", "flow-reward", "naming-and-defusing", "mantras"]
@@ -27,6 +27,10 @@ Find any branching thing. Follow one branch to where it splits. Notice: the smal
 *Use the moment you catch yourself mid-habit.*
 
 Pause. Silently name the four beats as they're happening: *cue... craving... response... reward.* You don't have to stop the loop. Just naming it while it runs is enough to shift you out of pure autopilot and into awareness — which is the only place a loop can actually be changed from.
+
+**One thing about where in a loop you can actually reach, since the four beats are not equally available.** A cue arrives whether you like it or not. A response is most of the way to automatic before you notice it. A reward is a fact about your nervous system. But the step between cue and craving is different in kind — the craving is not produced by the cue, it is produced by the *meaning you assign* to the cue. That is the one interpretive beat in an otherwise mechanical sequence, and therefore the only one naming can touch.
+
+It also tells you what success looks like here, which is easy to practice for months without picturing. It is not the absence of cues. It is noticing one arrive and finding that nothing follows — that you registered the thing and simply did not want to change anything about where you were. There is no drama in that state at all, which is why most people walk straight past it.
 
 **What it's actually doing:** the fast, automatic part of your mind and the slower, deliberate part of your mind trade off control based on how much attention a task demands. Naming something forces the slower system online, even briefly. It's a small tax on the automatic loop, paid in exactly the currency — attention — that automatic loops are designed to avoid spending.
 

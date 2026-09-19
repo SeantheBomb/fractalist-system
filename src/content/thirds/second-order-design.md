@@ -3,16 +3,16 @@ name: "Second-Order Design"
 epithet: ""
 kinship: "skein"
 order: 39
-personifies: "The Arrangement and The Pairing, sharing a person."
+personifies: "Gaming the Terms and The Rising Bar, sharing a person."
 blurb: "A group shaping the conditions that shape its members. Outcomes richer than anyone could have authored, or ones nobody intended or wanted."
 tending: "Emergence richer than anyone could author."
 fraying: "Emergence nobody intended or wanted."
 drawable: true
-parents: ["the-arrangement", "the-pairing"]
-relatedThirds: ["the-arrangement", "the-pairing", "independent-convergence"]
+parents: ["gaming-the-terms", "the-rising-bar"]
+relatedThirds: ["gaming-the-terms", "the-rising-bar", "proxy-detachment", "the-slow-hand"]
 ---
 
-**A fusion of [The Arrangement](/thirds/the-arrangement/) and [The Pairing](/thirds/the-pairing/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Gaming the Terms](/thirds/gaming-the-terms/) and [The Rising Bar](/thirds/the-rising-bar/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Emergence richer than anyone could have authored.
 

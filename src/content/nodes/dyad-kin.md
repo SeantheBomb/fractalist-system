@@ -1,7 +1,7 @@
 ---
 title: "The Dyad-Kin"
 part: "part-five"
-order: 44
+order: 49
 epigraph: "My loop, meeting yours. Neither of us brought the thing that happened next."
 summary: "Nineteen two-person patterns, each one two Self-Kin meeting. Know any two of the three and the third follows, which means changing your own leg changes what the two of you make."
 related: ["skein-kin", "the-dyad", "the-trust-triangle"]

@@ -1,7 +1,7 @@
 ---
 title: "Becoming a Third"
 part: "part-five"
-order: 50
+order: 56
 epigraph: "We build the world by repeating what we cannot see."
 summary: "Very rarely, a repeated pattern outlives its origin entirely, and personhood simply wears off it, leaving only the shape behind."
 related: ["what-a-weaving-is", "going-to-ground", "catalogue-limits"]

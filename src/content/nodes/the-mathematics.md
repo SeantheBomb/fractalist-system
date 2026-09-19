@@ -1,7 +1,7 @@
 ---
 title: "The Mathematics"
 part: "part-four"
-order: 35
+order: 40
 epigraph: "To perceive generalization will not merely be a new result, but a new force."
 summary: "The chaos game, done properly: randomness and determinism converging on the identical structure, checkable with a pencil."
 related: ["systems-theory", "the-third-thing", "where-it-comes-from"]
@@ -23,6 +23,6 @@ What both examples share, and what makes them the mathematical foundation of thi
 
 **Try this:** Actually run the chaos game. Paper, pencil, a coin flipped twice. Fifty points is enough to see nothing. Two hundred is enough to watch it start. You will not believe this the same way after doing it by hand as you do after reading about it.
 
-**Complexity can emerge from a rule with a single random bit added to it.** Take an iterative rule that would otherwise be entirely deterministic — repeat the same fixed operation on a starting value, over and over — and introduce exactly one small element of chance into each step, such as randomly flipping a sign before applying the rule. The result is not a small variation on the deterministic pattern. It's an entirely different category of object: an intricate, self-similar boundary structure, riddled with fine detail at every scale, that the purely deterministic version never produces at all. This is worth sitting with because it cuts against a common intuition — that adding randomness to a system should make it messier or less structured. Here, a single well-placed bit of chance is exactly what turns a flat, predictable rule into something with genuine depth. It's the same shape as the Fourth Iteration in the Genesis story: chance folded into a rule doesn't destroy structure, it's frequently what makes richer structure possible in the first place.
+**Complexity can emerge from a rule with a single random bit added to it.** Take an iterative rule that would otherwise be entirely deterministic — repeat the same fixed operation on a starting value, over and over — and introduce exactly one small element of chance into each step, such as randomly flipping a sign before applying the rule. The result is not a small variation on the deterministic pattern. It is the same category of object arrived at from the opposite direction — an intricate, self-similar structure with fine detail at every scale, reached by chance rather than by construction. This is worth sitting with because it cuts against a common intuition — that adding randomness to a system should make it messier or less structured. Here, a single well-placed bit of chance is exactly what turns a flat, predictable rule into something with genuine depth. It's the same shape as the Fourth Iteration in the Genesis story: chance folded into a rule doesn't destroy structure, it's frequently what makes richer structure possible in the first place.
 
 **Try this:** Find one routine you've kept perfectly stable and introduce a single small variation into it this week — one different route, one different order, one unplanned conversation. Not to improve it. Just to see what the variation surfaces that the stable version never did.

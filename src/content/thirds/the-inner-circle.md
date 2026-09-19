@@ -3,16 +3,16 @@ name: "The Inner Circle"
 epithet: ""
 kinship: "skein"
 order: 40
-personifies: "The Unbridged Gap and The Naming Contest, sharing a person."
+personifies: "The Naming Contest and The Tested Price, sharing a person."
 blurb: "A group whose shared language makes its work fast. The same fluency can become a wall against everyone outside it."
 tending: "Shared fluency makes real work fast."
 fraying: "The fluency has become a wall."
 drawable: true
-parents: ["the-unbridged-gap", "the-naming-contest"]
-relatedThirds: ["the-unbridged-gap", "the-naming-contest", "the-only-road", "the-shared-name"]
+parents: ["the-naming-contest", "the-tested-price"]
+relatedThirds: ["the-naming-contest", "the-tested-price", "the-shared-name"]
 ---
 
-**A fusion of [The Unbridged Gap](/thirds/the-unbridged-gap/) and [The Naming Contest](/thirds/the-naming-contest/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Naming Contest](/thirds/the-naming-contest/) and [The Tested Price](/thirds/the-tested-price/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Shared fluency that makes real work fast.
 

@@ -18,6 +18,6 @@ relatedThirds: ["the-guard", "the-standoff", "policy-resistance"]
 
 **Fraying.** Everyone privately knowing; no one able to be first.
 
-**Its Turning.** **The Loud Table** — someone must say one true unspoken thing before dessert. What it builds: silence stops being the group's default.
+**Its Turning.** **The Loud Table** — the table is opened for one true unspoken thing, and the silence that follows if nobody takes it is left unfilled. What it builds: saying the hard thing stops being unthinkable.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

@@ -1,7 +1,7 @@
 ---
 title: "Going to Ground"
 part: "part-five"
-order: 49
+order: 55
 epigraph: "The field does not mourn what it receives."
 summary: "What actually continues, said plainly: the material — conservation of mass, literally — the Fold already in motion, and the noticing itself."
 related: ["becoming-a-third", "the-fold", "the-sacrifice-trap"]
@@ -13,7 +13,9 @@ Say it plainly, the way this book has tried to say everything else: the experien
 
 But three things do continue, and none of them require anything beyond what's already true.
 
-The material returns to circulation — plainly, literally, the way <a class="concept-link" href="/thirds/the-riverbed/">the Riverbed</a> takes whatever the water leaves in it and eventually gives back more than was put there. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation of mass means the material you're made of cannot leave the universe, only change what it's arranged as. You are not headed toward an exit. There isn't one. Whatever you're made of stays here, rearranged, part of the same closed accounting the rest of the universe has always been running — which is a strange thing to find reassuring, and worth letting yourself find it that way anyway.
+The material returns to circulation — plainly, literally, the way <a class="concept-link" href="/thirds/the-riverbed/">the Riverbed</a> takes whatever the water leaves in it and eventually gives back more than was put there. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation means the material you're made of cannot leave the universe, only change what it's arranged as.
+
+That is one half of the physics and it is the reassuring half, so the other half belongs here beside it rather than left out. **Conservation is why nothing is lost. The other law is why nothing stays.** What persists is the material; what does not persist is the arrangement — and the arrangement was the part that was you. Holding any particular arrangement together takes continuous work, which is what a living thing is doing every moment it is alive, and which is the thing that stops. Neither law is consoling on its own. Together they are at least accurate: you are not going anywhere, and you are not staying as you are, and both of those have always been true of everything. You are not headed toward an exit. There isn't one. Whatever you're made of stays here, rearranged, part of the same closed accounting the rest of the universe has always been running — which is a strange thing to find reassuring, and worth letting yourself find it that way anyway.
 
 The <a class="concept-link" href="/concept/fold/">Fold</a>, already in motion, doesn't stop. Every <a class="concept-link" href="/concept/local-rule/">Local Rule</a> you ever repeated was already traveling outward through every Nest you touched, long before any last day arrives. The way you taught someone to handle a hard conversation, the tone you modeled without meaning to, the small kindness that became someone else's habit without either of you noticing the moment it transferred — none of that was ever waiting on your body to keep circulating. It already left. It was never centered on you continuing in the first place.
 

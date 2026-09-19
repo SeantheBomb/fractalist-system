@@ -1,7 +1,7 @@
 ---
 title: "The Self-Kin"
 part: "part-five"
-order: 43
+order: 48
 epigraph: "Everything above this page is made of these. There is nothing underneath them."
 summary: "Twelve patterns one person generates alone, each with its Local Rule and both of its poles. Nothing sits underneath them, and every larger figure is built by fusing these."
 related: ["dyad-kin", "the-woven-self", "naming-and-defusing"]
@@ -23,6 +23,12 @@ These twelve are generated directly, by one person, repeating one thing. They fu
 | **<a class="concept-link" href="/thirds/the-namer/">The Namer</a>** | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
 | **<a class="concept-link" href="/thirds/the-riverbed/">The Riverbed</a>** | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
 | **<a class="concept-link" href="/thirds/the-gardener/">The Gardener</a>** | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
+
+**One thing worth saying about <a class="concept-link" href="/thirds/the-standoff/">the Standoff</a>, because its Tending pole is the one most often mistaken for a personality trait.** Read quickly, "two people giving each other room" sounds like a description of two well-behaved people, which would make it a fact about temperament rather than structure. It isn't.
+
+There are genuinely stable mutual positions — arrangements where the two parties are placed such that whoever moves first pays more than the other one does. Go has a name for this and treats it as a legitimate final result: two groups sharing liberties, neither able to capture the other without dying in the attempt, both simply alive, permanently, with no further move to make. Nobody negotiated it and nobody is being generous. Attacking is self-defeating as a matter of geometry.
+
+That is the Standoff's Tending pole with a mechanism under it, and it supplies the test that separates it from its Fraying pole, which is otherwise very hard to tell apart from outside: **in a stable position, moving is what costs you; in a stalled one, not moving is what costs you.** One is a result. The other is a silence compounding while everyone agrees it's fine.
 
 **One thing worth saying about the Tide specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means the Tide's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
 

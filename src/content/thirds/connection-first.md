@@ -9,7 +9,7 @@ tending: "Warmth first; then it can land."
 fraying: "Warmth is substituting for having something to say."
 drawable: true
 parents: ["the-namer", "the-tide"]
-relatedThirds: ["the-namer", "the-tide"]
+relatedThirds: ["the-namer", "the-tide", "transmission-drift"]
 ---
 
 **A fusion of [The Namer](/thirds/the-namer/) and [The Tide](/thirds/the-tide/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

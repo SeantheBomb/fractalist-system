@@ -18,7 +18,7 @@ const thirds = defineCollection({
   schema: z.object({
     name: z.string(),
     epithet: z.string(),
-    kinship: z.enum(['self', 'dyad', 'skein', 'culture', 'cosmos']),
+    kinship: z.enum(['self', 'dyad', 'skein', 'culture', 'world', 'cosmos']),
     order: z.number(),
     epigraph: z.string().optional(),
     personifies: z.string(),

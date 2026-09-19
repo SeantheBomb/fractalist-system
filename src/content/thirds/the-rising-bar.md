@@ -9,7 +9,7 @@ tending: "The standard rose because you did."
 fraying: "Nothing will ever be sufficient at this rate."
 drawable: true
 parents: ["the-mark", "the-spark"]
-relatedThirds: ["the-mark", "the-spark", "first-arriver-lock-in"]
+relatedThirds: ["the-mark", "the-spark", "first-arriver-lock-in", "second-order-design"]
 ---
 
 **A fusion of [The Mark](/thirds/the-mark/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

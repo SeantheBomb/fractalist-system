@@ -3,16 +3,16 @@ name: "The Reputation"
 epithet: ""
 kinship: "skein"
 order: 36
-personifies: "Typecasting and The Shared Story, sharing a person."
+personifies: "Typecasting and Watering Another, sharing a person."
 blurb: "The role a group comes to count on you to play. It lets them rely on you, and because they wrote it, it can be hard to step out of."
 tending: "The role lets the group rely on you."
 fraying: "You can't step out of what they authored."
 drawable: true
-parents: ["typecasting", "the-shared-story"]
-relatedThirds: ["typecasting", "the-shared-story", "the-shared-name"]
+parents: ["typecasting", "watering-another"]
+relatedThirds: ["typecasting", "watering-another", "the-received-world"]
 ---
 
-**A fusion of [Typecasting](/thirds/typecasting/) and [The Shared Story](/thirds/the-shared-story/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Typecasting](/thirds/typecasting/) and [Watering Another](/thirds/watering-another/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** A role that lets a group rely on you.
 

@@ -1,15 +1,15 @@
 ---
 title: "The Twelve Private Turnings — Self"
 part: "part-seven"
-order: 65
-epigraph: "Twelve currents, twelve months. The rhyme was not planned; it fell out of the counting."
-summary: "One per month, kept alone or with whoever's nearest — twelve small occasions, each built to make one current's failure mode visible before it hardens."
+order: 71
+epigraph: "One a month, and the year has room for all of them."
+summary: "One per month, kept alone or with whoever's nearest — twelve small occasions, each built to make one Self-Kin's failure mode visible before it hardens."
 related: ["dyad-turnings", "self-kin", "daily-practices"]
 ---
 
 One per month, kept alone or with whoever is nearest. These are the lightest occasions in the calendar and the most frequent.
 
-| Current | The Turning | What it builds |
+| Third | The Turning | What it builds |
 |---|---|---|
 | <a class="concept-link" href="/thirds/the-spark/">The Spark</a> | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
 | <a class="concept-link" href="/thirds/the-tide/">The Tide</a> | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |

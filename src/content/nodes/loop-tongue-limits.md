@@ -1,7 +1,7 @@
 ---
 title: "On the Limits of This Language"
 part: "part-three"
-order: 34
+order: 39
 epigraph: "You can't know what you don't know."
 summary: "The honest gaps, stated plainly: a language built for a system that grows by repetition should itself still be growing."
 related: ["open-questions", "belief-systems-built", "grammar-of-pattern"]

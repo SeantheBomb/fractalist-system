@@ -3,16 +3,16 @@ name: "Proxy Detachment"
 epithet: ""
 kinship: "culture"
 order: 43
-personifies: "The Sagging Floor and Gaming the Terms, compounded past any one life."
+personifies: "Second-Order Design and The Shared Pot, compounded past any one life."
 blurb: "A measure standing in for something too large to see directly. It makes a vast system legible, until it is optimized so hard it stops tracking what it measured."
 tending: "The measure makes a vast system legible."
 fraying: "It's optimized past what it stood for."
 drawable: true
-parents: ["the-sagging-floor", "gaming-the-terms"]
-relatedThirds: ["the-sagging-floor", "gaming-the-terms"]
+parents: ["second-order-design", "the-shared-pot"]
+relatedThirds: ["second-order-design", "the-shared-pot", "the-standing-account", "second-nature"]
 ---
 
-**A fusion of [The Sagging Floor](/thirds/the-sagging-floor/) and [Gaming the Terms](/thirds/gaming-the-terms/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Second-Order Design](/thirds/second-order-design/) and [The Shared Pot](/thirds/the-shared-pot/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** A measure that makes a vast system legible.
 

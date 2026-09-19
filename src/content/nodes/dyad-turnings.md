@@ -1,15 +1,15 @@
 ---
 title: "The Nineteen Dyad Turnings"
 part: "part-seven"
-order: 66
+order: 72
 epigraph: "These have no dates. The relationship supplies the occasion."
 summary: "Nineteen two-person occasions with no dates attached at all. The relationship supplies the occasion."
 related: ["skein-gatherings", "dyad-kin", "do-i-understand-you"]
 ---
 
-Triggered by circumstance rather than calendar — which is also why nineteen of them fit a year without dividing into anything.
+Triggered by circumstance rather than calendar. A Turning still counts as recurring when what recurs is the *situation* rather than the date — the occasion arrives every time the pattern does, which for most relationships is more reliably than any anniversary.
 
-| Meeting | The Turning | What it builds |
+| Third | The Turning | What it builds |
 |---|---|---|
 | Escalation | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
 | <a class="concept-link" href="/thirds/the-standoff/">The Standoff</a> | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |

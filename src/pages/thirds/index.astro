@@ -6,7 +6,7 @@ import HeroFractal from '../../components/HeroFractal.astro';
 import { KINSHIPS } from '../../../scripts/manifest.mjs';
 
 const thirds = (await getCollection('thirds')).sort((a, b) => a.data.order - b.data.order);
-const order = ['self', 'dyad', 'skein', 'culture', 'cosmos'];
+const order = ['self', 'dyad', 'skein', 'culture', 'world', 'cosmos'];
 const groups = order.map((k) => ({
   key: k,
   meta: KINSHIPS[k],
@@ -21,9 +21,9 @@ const groups = order.map((k) => ({
     a face is easier to name than one with a definition. Each figure here recurs reliably enough,
     across enough lives, to be worth naming, and <strong>none of them has intentions.</strong>
     Every one passes the same four tests: a Local Rule generates it, it's a Third Thing, it has
-    two poles with neither one good or evil, and there is somewhere to push. The five kinships
+    two poles with neither one good or evil, and there is somewhere to push. The six kinships
     aren't ranks. Each figure sits at the scale of what it's made of: Self, Dyad, Skein, Culture,
-    or Cosmos.
+    World, or Cosmos.
     <a href="/node/what-a-third-is/">The full framing is here.</a>
   </p>
 

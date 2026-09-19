@@ -1,7 +1,7 @@
 ---
 title: "Reading Honestly"
 part: "part-six"
-order: 61
+order: 67
 epigraph: "The cards describe. They do not decide."
 summary: "A Weaving describes a pattern; it does not predict an outcome. The genuinely useful reading is often the uncomfortable one."
 related: ["weaving-limits", "tending-and-fraying", "the-fold"]
@@ -19,4 +19,4 @@ Every practice in this book earns a caution, and this one earns several, because
 
 Ask Part One's first question before you draw. Does anything in this situation feed back into itself? If nothing does, put the cards away and go fix the part. A Weaving is a tool for seeing a shape you're standing inside of, and there's no shape to see in a pile — the same gate that decides whether reading a system's acceleration is worth doing decides whether a Weaving is.
 
-**A Weaving that only ever confirms what the querent already wanted to hear has stopped being a Weaving and become a mirror with extra steps.** If every reading, over time, seems to agree with whatever the person weaving already believed, the practice has quietly failed — not because the cards are wrong, but because the honest, uncomfortable angle is the entire reason to weave in the first place, and a practice that never produces one isn't doing its job.
+**A Weaving that only ever confirms what the person already wanted to hear has stopped being a Weaving and become a mirror with extra steps.** If every reading, over time, seems to agree with whatever the person weaving already believed, the practice has quietly failed — not because the cards are wrong, but because the honest, uncomfortable angle is the entire reason to weave in the first place, and a practice that never produces one isn't doing its job.

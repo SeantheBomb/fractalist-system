@@ -9,7 +9,7 @@ tending: "A joint memory binding you to something real."
 fraying: "Neither of you actually had this event."
 drawable: true
 parents: ["the-keepsake", "the-keepsake"]
-relatedThirds: ["the-keepsake", "the-reputation"]
+relatedThirds: ["the-keepsake"]
 ---
 
 **[The Keepsake](/thirds/the-keepsake/), fused with itself** — the same pattern running on both sides, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

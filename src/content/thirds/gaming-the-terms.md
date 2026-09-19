@@ -9,7 +9,7 @@ tending: "You've found real slack in a bad agreement."
 fraying: "The letter is satisfied and the purpose is hollow."
 drawable: true
 parents: ["the-easier-door", "the-spark"]
-relatedThirds: ["the-easier-door", "the-spark", "the-shared-pot", "proxy-detachment"]
+relatedThirds: ["the-easier-door", "the-spark", "the-shared-pot", "second-order-design"]
 ---
 
 **A fusion of [The Easier Door](/thirds/the-easier-door/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

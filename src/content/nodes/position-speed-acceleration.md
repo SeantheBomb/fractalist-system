@@ -1,7 +1,7 @@
 ---
 title: "Position, Speed, Acceleration"
 part: "part-one"
-order: 7
+order: 9
 epigraph: "A ship in harbor is safe, but that is not what ships are built for."
 summary: "The same three orders that describe motion describe a habit, a Dyad, or a Skein — and why real leverage often looks like nothing happening yet."
 related: ["youve-met-this-before", "finding-your-leverage-point", "systems-theory", "the-sacrifice-trap"]
@@ -40,6 +40,22 @@ It also explains something you will otherwise experience as failure. A change in
 This is where a written record earns its place as more than a nice habit. Your own memory doesn't span a slow loop's period, and no amount of attentiveness fixes that — attention only ever covers the time you were actually there for it. A log does something memory structurally cannot: hold two points far enough apart in time to let you see the shape actually moving between them, rather than trusting a single, recent impression to stand in for the whole cycle. This is a personal, Self-scale version of exactly what a fixed record is built for — kept specifically because the pattern it's tracking outlasts what any one sitting could perceive on its own.
 
 **Try this:** Before calling something a fixed truth about your life, your relationship, or your work, ask what its natural period might be if it turns out to be a loop rather than a fact. If you've only been watching for a fraction of that period, withhold the verdict — not because the trend isn't real, but because you don't yet have enough of the cycle in view to tell a trend from a stage.
+
+**There's an everyday version of this that almost nobody recognizes as an acceleration problem, because it arrives disguised as a scheduling one.**
+
+The last chapter's arithmetic about rules is also arithmetic about a life. Commitments do not add either — each one has to be carried *in the presence of* every other one, so the cost sits in the pairs rather than the count. Every pair is real: a conflict to resolve, a context to switch, a promise that has to stay true while a different promise is being kept.
+
+Which is why the felt experience is never *I have too many things.* It is: **I only added one thing, and somehow everything got harder.**
+
+That gap — between what you added and what it actually cost — is where the sense of losing control lives. Not in the size of the load. In the load being unaccountable, arriving from a decision you can no longer point at.
+
+And it's an acceleration problem exactly as this chapter describes one. The moment a load is set and the moment it is felt are different moments, and the first one is cheap. Saying yes costs nothing on the day you say it. The interactions arrive later, all at once, long after the decision that caused them has stopped being visible. You were applying a force. Time did the rest, quietly, the way it always does.
+
+**The practical form is a single question, asked before agreeing to anything: what will this have to be true alongside?** Count the relationships, not the items.
+
+**One number, because a chapter that tells you to read acceleration and then offers no arithmetic is asking for faith.** Anything growing at a steady percentage doubles in roughly seventy divided by that percentage. Three percent a month doubles in about two years. Ten percent doubles in seven.
+
+That single division turns *be patient, it's compounding* into a date you can hold the thing against. It is not the same instrument as the natural period a moment ago, and both are worth having: the period tells you how long before a trend is **readable** at all; doubling time tells you how long before it becomes **visible in position** — before the number on the outside finally moves. A practice can be exactly on schedule and show nothing, and now you can say roughly how long nothing should last.
 
 ### Knowing when to stop
 

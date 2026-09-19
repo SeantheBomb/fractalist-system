@@ -42,6 +42,7 @@ export const TOPIC_NAMES = [
   ['third-thing', 'The Third Thing'],
   ['reinforcing-balancing', 'Rhythm'],
   ['the-dyad', 'The Dyad'],
+  ['why-practices-work', 'Why It Works'],
 ];
 
 // Pages that list nearly everything, or nothing, aren't placed.

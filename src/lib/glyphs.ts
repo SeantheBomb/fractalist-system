@@ -50,7 +50,7 @@ export const SELF_GLYPHS: Record<string, SelfGlyph> = {
     })() },
 };
 
-const METHOD: Record<string, 'union' | 'thin' | 'morph'> = { dyad: 'union', skein: 'thin', culture: 'morph' };
+const METHOD: Record<string, 'union' | 'thin' | 'morph'> = { dyad: 'union', skein: 'thin', culture: 'morph', world: 'morph' };
 
 export function glyphHue(slug: string): string {
   const g = graph as Graph;

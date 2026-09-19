@@ -1,10 +1,10 @@
 ---
 title: "Do I Understand You Well Enough?"
 part: "part-two"
-order: 23
+order: 26
 epigraph: "Eyes connect to the brain. Ears connect to the heart."
 summary: "The single most practical sentence in the book, meant to be asked out loud before you assume you know what someone needs."
-related: ["group-practice", "the-gardener", "watering-another", "weaving-for-another"]
+related: ["presence", "the-gardener", "watering-another", "weaving-for-another"]
 ---
 
 The single most practical sentence this book has for Dyad-scale practice is a question, meant to be asked honestly and out loud before you offer support, give advice, or assume you know what someone close to you needs: *do I understand you well enough?*

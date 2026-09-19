@@ -1,7 +1,7 @@
 ---
 title: "The Dyad"
 part: "part-two"
-order: 21
+order: 24
 epigraph: "It takes two to tango."
 summary: "A Skein narrowed to exactly two people, woven completely enough to function as a single unit — and why complete doesn't automatically mean healthy."
 related: ["the-trust-triangle", "do-i-understand-you", "the-pairing", "the-third-thing"]
@@ -13,7 +13,7 @@ This is the Dyad scale tag from the Loop Tongue, made as concrete as it gets: a 
 
 A few honest notes on recognizing and living inside one:
 
-**You likely can't manufacture a Dyad on purpose.** Unlike a Skein, which can be tended deliberately through repeated shared practice, a Dyad tends to be discovered already partway built, the same way a habit is noticed already running. If you're trying to force this level of completeness with someone, that effort is itself a signal it isn't there yet — and pushing usually produces something closer to a <a class="concept-link" href="/concept/the-banner/">Banner</a> wearing intimacy as its label.
+**You likely can't manufacture a Dyad on purpose.** Like a Skein, it tends to be discovered already partway built, the same way a habit is noticed already running — but a Skein can at least be *tended* deliberately once found, through repeated shared practice, and a Dyad's completeness is not something repetition reliably produces. The reason is a threshold, not an exemption: completeness is a phase change rather than an accumulation, so repetition moves you toward the conditions for it without ever guaranteeing the crossing. Reachable by repetition. Not produced by it. If you're trying to force this level of completeness with someone, that effort is itself a signal it isn't there yet — and pushing usually produces something closer to a <a class="concept-link" href="/concept/the-banner/">Banner</a> wearing intimacy as its label.
 
 **A Dyad is not automatically healthy just because it's complete.** A closed, self-sufficient loop between two people can be a durable, real Third Thing and still be an unhealthy one — the usual caution against romanticizing any strong, stable pattern applies here specifically. Completeness and health are different axes; a Dyad worth having is one that's also, separately, good for both people inside it.
 

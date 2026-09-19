@@ -1,7 +1,7 @@
 import data from '../data/concepts.json';
 
 export type ConceptKind = 'word' | 'idea' | 'figure';
-export type Scale = 'self' | 'dyad' | 'skein' | 'culture' | 'cosmos' | 'every';
+export type Scale = 'self' | 'dyad' | 'skein' | 'culture' | 'world' | 'cosmos' | 'every';
 
 export interface Concept {
   slug: string;
@@ -33,7 +33,7 @@ export const pagesSharingConcepts = (page: string) =>
   ((data.pageRelated as Record<string, { slug: string; shared: string[] }[]>)[page] ?? []);
 
 export const SCALE_LABEL: Record<Scale, string> = {
-  self: 'Self', dyad: 'Dyad', skein: 'Skein', culture: 'Culture', cosmos: 'Cosmos', every: 'Every scale',
+  self: 'Self', dyad: 'Dyad', skein: 'Skein', culture: 'Culture', world: 'World', cosmos: 'Cosmos', every: 'Every scale',
 };
 
 export const KIND_LABEL: Record<ConceptKind, string> = {

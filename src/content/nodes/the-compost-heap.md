@@ -1,7 +1,7 @@
 ---
 title: "The Compost Heap"
 part: "part-two"
-order: 15
+order: 16
 epigraph: "Genius is 1% inspiration, 99% perspiration. — Thomas Edison"
 summary: "Failure isn't waste — it's the substrate the next attempt grows out of. How creative work actually gets sustained."
 related: ["reading-your-own-cycle", "the-riverbed", "naming-and-defusing"]

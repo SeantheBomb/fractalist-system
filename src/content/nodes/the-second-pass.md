@@ -1,7 +1,7 @@
 ---
 title: "The Second Pass"
 part: "part-three"
-order: 31
+order: 36
 epigraph: "There are two sides to every story."
 summary: "Any claim worth making twice is worth making once forward and once as a loop — the habit that turns a villain story into a shared pattern."
 related: ["the-spiral-check", "the-pairing", "do-i-understand-you"]

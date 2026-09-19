@@ -9,7 +9,7 @@ tending: "The expansion is genuinely building."
 fraying: "Past threshold, consuming what it built."
 drawable: true
 parents: ["first-arriver-lock-in", "the-shared-pot"]
-relatedThirds: ["first-arriver-lock-in", "the-shared-pot"]
+relatedThirds: ["first-arriver-lock-in", "the-shared-pot", "the-standing-account", "the-set-course"]
 ---
 
 **A fusion of [First-Arriver Lock-In](/thirds/first-arriver-lock-in/) and [The Shared Pot](/thirds/the-shared-pot/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.

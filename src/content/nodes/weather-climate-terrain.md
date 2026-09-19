@@ -1,13 +1,13 @@
 ---
 title: "Weather, Climate, Terrain"
 part: "part-six"
-order: 55
+order: 61
 epigraph: "The same card, read at three speeds, answers three different questions."
 summary: "A ring tells you how many people a pattern runs through. It doesn't tell you how long it's been running — so every card gets asked a second question, at three speeds."
 related: ["the-single-pull", "the-rings", "position-speed-acceleration"]
 ---
 
-A ring tells you *how many people* a figure is running through. It does not tell you *how long it has been running* — and those are genuinely different questions. A pattern can be a Self-scale current with a lifetime's period, or a Culture-scale Long Form that burns out inside a month. The mismatches are where the interesting readings live.
+A ring tells you *how many people* a figure is running through. It does not tell you *how long it has been running* — and those are genuinely different questions. A pattern can be a Self-Kin figure with a lifetime's period, or a Culture-Kin figure that burns out inside a month. The mismatches are where the interesting readings live.
 
 So every card carries a second question, asked after you have placed it in its ring: **at what speed am I looking at this?**
 

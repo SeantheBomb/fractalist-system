@@ -9,7 +9,7 @@ tending: "Assume, and act without constant checking."
 fraying: "You're in a relationship with someone who isn't there."
 drawable: true
 parents: ["the-mask", "the-nearest-light"]
-relatedThirds: ["the-mask", "the-nearest-light", "transmission-drift"]
+relatedThirds: ["the-mask", "the-nearest-light", "the-only-road"]
 ---
 
 **A fusion of [The Mask](/thirds/the-mask/) and [The Nearest Light](/thirds/the-nearest-light/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

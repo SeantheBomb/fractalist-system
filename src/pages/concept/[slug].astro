@@ -17,7 +17,7 @@ const lineage = [
   ['Grows into', refs(c.growsInto)],
 ] as const;
 const hasLineage = lineage.some(([, list]) => list.length);
-const SCALES = ['self', 'dyad', 'skein', 'culture', 'cosmos'] as const;
+const SCALES = ['self', 'dyad', 'skein', 'culture', 'world', 'cosmos'] as const;
 const treated = c.treatedIn.map((s) => nodes.get(s)).filter(Boolean);
 const mentioned = c.mentionedIn.map((s) => nodes.get(s)).filter(Boolean);
 const related = c.related.slice(0, 8).map((r) => ({ ...r, concept: concept(r.slug)! }));

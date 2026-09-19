@@ -107,12 +107,14 @@ const TIERS = [
   { heading: '2. The Dyad-Kin', kinship: 'dyad', catalogue: 'dyad-kin', catalogueTitle: 'The Dyad-Kin', join: 'meeting in two people' },
   { heading: '3. The Skein-Kin', kinship: 'skein', catalogue: 'skein-kin', catalogueTitle: 'The Skein-Kin', join: 'sharing a person' },
   { heading: '4. The Culture-Kin', kinship: 'culture', catalogue: 'culture-kin', catalogueTitle: 'The Culture-Kin', join: 'compounded past any one life' },
+  { heading: '5. The World-Kin', kinship: 'world', catalogue: 'world-kin', catalogueTitle: 'The World-Kin', join: 'sharing a Skein-Kin' },
 ];
 
-// Turning tables in Part Seven, keyed by the figure they belong to.
+// Turning tables in Part Seven, keyed by the figure they belong to. The World-Kin has no
+// Turning of its own — the book gives it no calendar occasion, only the four scales below it.
 const TURNING_SECTIONS = [
   '2. The Twelve Private Turnings — Self',
-  '3. The Nineteen Meetings — Dyad',
+  '3. The Dyad Turnings',
   '4. The Eleven Gatherings — Skein',
   '5. The Seven Great Days — Culture',
 ];
@@ -155,8 +157,10 @@ for (const tier of TIERS) {
   if (raw === undefined) { missing.push(tier.heading); continue; }
   tableRows(raw).forEach((cells, i) => {
     const { name, epithet } = splitName(cells[0]);
+    // A fusion cell is normally just "X + Y", but one row (Independent Convergence) adds
+    // a trailing note after a comma ("X + X, sharing nothing") — strip it before slugifying.
     const parents = tier.join
-      ? cells[1].split('+').map((s) => s.replace(/\*\*/g, '').trim()).filter(Boolean)
+      ? cells[1].split('+').map((s) => s.replace(/\*\*/g, '').split(',')[0].trim()).filter(Boolean)
       : [];
     figures.push({
       name, epithet, kinship: tier.kinship, catalogue: tier.catalogue,

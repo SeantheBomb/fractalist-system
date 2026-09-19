@@ -58,7 +58,7 @@ const INDEX_OVERRIDES = {
   'The origin story (the Seven Iterations)': { name: 'The Seven Iterations', slug: 'seven-iterations' },
   'Belief, language, and code as one category': { name: 'Belief, language, and code', slug: 'belief-language-code' },
   'Not self-help, not organization-building': { name: 'Not self-help', slug: 'not-self-help' },
-  'The Standing Thirds': { slug: 'standing-thirds', cites: 'Pt.5 Ch.0–5', blurb: 'Patterns given faces. Five kinships, one per scale, no exceptions.' },
+  'The Standing Thirds': { slug: 'standing-thirds', cites: 'Pt.5 Ch.0–6', blurb: 'Patterns given faces. Six kinships, one per scale, no exceptions.' },
   'Weaving': { slug: 'weaving', blurb: 'Reading a situation from four distances. Progressive reveal is the core technique.' },
   'Going to Ground; conservation of mass; becoming a Third': [
     { name: 'Going to Ground', slug: 'going-to-ground', cites: 'Pt.5 Ch.7' },
@@ -68,7 +68,7 @@ const INDEX_OVERRIDES = {
   'The Infinite Boundary': { mergeInto: 'infinite-boundary' },
 };
 
-const SCALES = ['self', 'dyad', 'skein', 'culture', 'cosmos'];
+const SCALES = ['self', 'dyad', 'skein', 'culture', 'world', 'cosmos'];
 
 // Proposed scale for index concepts. "every" means the book applies it at every scale.
 const PROPOSED_SCALE = {

@@ -191,7 +191,7 @@
   "kinship": "skein",
   "parents": [
    "the-naming-contest",
-   "filling-the-gap"
+   "connection-first"
   ]
  },
  "the-faithful-chain": {
@@ -219,7 +219,7 @@
   "kinship": "skein",
   "parents": [
    "typecasting",
-   "the-shared-story"
+   "watering-another"
   ]
  },
  "the-sagging-floor": {
@@ -239,43 +239,43 @@
  "second-order-design": {
   "kinship": "skein",
   "parents": [
-   "the-arrangement",
-   "the-pairing"
+   "gaming-the-terms",
+   "the-rising-bar"
   ]
  },
  "the-inner-circle": {
   "kinship": "skein",
   "parents": [
-   "the-unbridged-gap",
-   "the-naming-contest"
+   "the-naming-contest",
+   "the-tested-price"
   ]
  },
  "the-only-road": {
   "kinship": "skein",
   "parents": [
-   "the-inner-circle",
-   "the-unbridged-gap"
+   "the-unbridged-gap",
+   "filling-the-gap"
   ]
  },
  "the-shared-name": {
   "kinship": "culture",
   "parents": [
    "the-inner-circle",
-   "the-reputation"
+   "transmission-drift"
   ]
  },
  "proxy-detachment": {
   "kinship": "culture",
   "parents": [
-   "the-sagging-floor",
-   "gaming-the-terms"
+   "second-order-design",
+   "the-shared-pot"
   ]
  },
  "policy-resistance": {
   "kinship": "culture",
   "parents": [
    "held-silence",
-   "the-shared-pot"
+   "the-sagging-floor"
   ]
  },
  "the-long-cycle": {
@@ -288,15 +288,15 @@
  "the-received-world": {
   "kinship": "culture",
   "parents": [
-   "transmission-drift",
-   "the-faithful-chain"
+   "the-faithful-chain",
+   "the-reputation"
   ]
  },
  "the-slow-hand": {
   "kinship": "culture",
   "parents": [
-   "the-sagging-floor",
-   "the-hall-of-mirrors"
+   "first-arriver-lock-in",
+   "second-order-design"
   ]
  },
  "independent-convergence": {
@@ -304,6 +304,27 @@
   "parents": [
    "second-order-design",
    "second-order-design"
+  ]
+ },
+ "the-standing-account": {
+  "kinship": "world",
+  "parents": [
+   "proxy-detachment",
+   "the-long-cycle"
+  ]
+ },
+ "second-nature": {
+  "kinship": "world",
+  "parents": [
+   "proxy-detachment",
+   "the-slow-hand"
+  ]
+ },
+ "the-set-course": {
+  "kinship": "world",
+  "parents": [
+   "the-long-cycle",
+   "the-slow-hand"
   ]
  },
  "infinite-boundary": {

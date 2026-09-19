@@ -9,7 +9,7 @@ tending: "Your fluency comes from real depth."
 fraying: "You can't model a mind that lacks your context."
 drawable: true
 parents: ["the-mask", "the-mirror"]
-relatedThirds: ["the-mask", "the-mirror", "the-inner-circle", "the-only-road"]
+relatedThirds: ["the-mask", "the-mirror", "the-only-road"]
 ---
 
 **A fusion of [The Mask](/thirds/the-mask/) and [The Mirror](/thirds/the-mirror/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.

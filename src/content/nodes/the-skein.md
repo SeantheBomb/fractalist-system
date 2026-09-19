@@ -1,7 +1,7 @@
 ---
 title: "The Skein"
 part: "part-two"
-order: 25
+order: 30
 epigraph: "If you want others to help you, help them."
 summary: "The difference between a community bound by real repeated contact and one bound only by a label — and the test that tells them apart."
 related: ["closing-the-loop", "transmission-drift", "held-silence", "fractalism-collective"]

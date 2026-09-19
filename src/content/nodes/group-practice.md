@@ -1,7 +1,7 @@
 ---
 title: "Group Practice"
 part: "part-two"
-order: 24
+order: 29
 epigraph: "Many hands make light work."
 summary: "A simple structure for practicing with witnesses: share one loop, offer one leverage point, close with a seed."
 related: ["the-skein", "the-spiral-check", "weaving-together"]
@@ -20,3 +20,7 @@ A simple structure for a small gathering, monthly or whenever it's useful:
 **Close with a seeding prayer**, spoken together: *"What we did today becomes what we do tomorrow. Let today's small step be worth repeating — for each of us, and for what we're building between us."*
 
 That closing line is doing double duty on purpose. It's asking about you, and it's naming the group itself as its own Third Thing — built the same way everything else in this book is built, and just as real.
+
+---
+
+**Where a group's leverage actually sits, since the step above says to offer one and doesn't say how to find it.** the *numbers* fix is "we should message more often" — reliably ignored within a month. The *buffer* is more goodwill built up during the good stretches, so a bad month doesn't end the group — better than nothing, still not the actual lever. The *rule* is a standing structure — a recurring Group Practice date, not left to spontaneous scheduling. *Information flow* is whether people actually know when someone's struggling, or only find out much later. The *goal* question is sharper than it looks: is this Skein organized around convenience, or around real mutual commitment? And the *paradigm* underneath — often something like "reaching out first is needy" — is usually the actual reason contact quietly died in the first place, and no amount of scheduling fixes it until that assumption gets named and questioned directly.

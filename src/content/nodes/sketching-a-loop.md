@@ -1,7 +1,7 @@
 ---
 title: "Sketching a Loop"
 part: "part-three"
-order: 29
+order: 34
 epigraph: "A picture is worth a thousand words."
 summary: "Four marks, learnable in under a minute, sketchable on a napkin mid-conversation: →, ↻, ⤸, and [ ]."
 related: ["scale-tagging", "reading-your-own-cycle", "grammar-of-pattern"]

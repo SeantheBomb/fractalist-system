@@ -6,10 +6,10 @@ order: 38
 personifies: "The Echo and Reading the Room, sharing a person."
 blurb: "A group where everyone takes their shape from everyone else. Real responsiveness to itself, or no independent position left anywhere in it."
 tending: "The group is genuinely responsive to itself."
-fraying: "No independent position anywhere in it."
+fraying: "Everyone is reading the room and nobody is furnishing it."
 drawable: true
 parents: ["the-echo", "reading-the-room"]
-relatedThirds: ["the-echo", "reading-the-room", "the-slow-hand"]
+relatedThirds: ["the-echo", "reading-the-room"]
 ---
 
 **A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.

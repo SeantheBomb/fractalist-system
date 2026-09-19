@@ -1,7 +1,7 @@
 ---
 title: "Quick Reference Card"
 part: "appendix"
-order: 74
+order: 80
 epigraph: "One page. Print it, carry it, hand it to someone new."
 summary: "One page. The whole practice at a glance — print it, carry it, hand it to someone new."
 related: ["onboarding", "mantras", "the-loom"]
@@ -66,10 +66,12 @@ What a Local Rule becomes once it travels out through a Nest and comes back to y
 
 **The Standing Thirds, at a glance**
 Fifty figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
-*Twelve Currents (Self), generated directly by one person repeating one thing:* The Spark (reinforcing), The Tide (balancing), The Mark (judging against a reference), The Salve (reaching for the symptom-fix), The Nearest Light (judging by what arrives first), The Keepsake (storing peak and ending), The Easier Door (answering the easier question), The Mask (maintaining a self-story), The Mirror (taking the shape of the room), The Namer (speaking as construction), The Riverbed (shaping conditions), The Gardener (attending repeatedly).
-*Nineteen Meetings (Dyad), my current meeting yours:* Escalation, The Standoff, The Pairing, Watering Another, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, The Tested Price.
-*Eleven Weaves (Skein), two Meetings sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
-*Seven Long Forms (Culture):* The Shared Name, Proxy Detachment, Policy Resistance, The Long Cycle, The Received World, The Slow Hand, Independent Convergence.
+*The Self-Kin — twelve figures, generated directly by one person repeating one thing:* The Spark (reinforcing), The Tide (balancing), The Mark (judging against a reference), The Salve (reaching for the symptom-fix), The Nearest Light (judging by what arrives first), The Keepsake (storing peak and ending), The Easier Door (answering the easier question), The Mask (maintaining a self-story), The Mirror (taking the shape of the room), The Namer (speaking as construction), The Riverbed (shaping conditions), The Gardener (attending repeatedly).
+*The Dyad-Kin — nineteen figures, my pattern meeting yours:* Escalation, The Standoff, The Pairing, Watering Another, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, The Tested Price.
+*The Skein-Kin — eleven figures, two Dyad-Kin sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
+*The Culture-Kin — seven figures:* The Shared Name, Proxy Detachment, Policy Resistance, The Long Cycle, The Received World, The Slow Hand, Independent Convergence.
+
+*The World-Kin — three figures, two Culture-Kin sharing a Skein-Kin:* The Standing Account, Second Nature, The Set Course.
 *One Cosmos figure:* the Infinite Boundary — not a being who watches the universe, but the shape the universe makes once every part of it is summed. The only figure with no poles, because a pole must be read from somewhere outside, and there is no outside here.
 None has independent will — only perceived behavior, consistent enough to earn a face.
 

@@ -3,16 +3,16 @@ name: "Policy Resistance"
 epithet: ""
 kinship: "culture"
 order: 44
-personifies: "Held Silence and The Shared Pot, compounded past any one life."
+personifies: "Held Silence and The Sagging Floor, compounded past any one life."
 blurb: "A whole system pushing back against every push. Stability no single actor could have imposed, or everyone straining harder while nothing moves."
 tending: "Stability no single actor could impose."
 fraying: "Everyone pulling harder; nothing moving."
 drawable: true
-parents: ["held-silence", "the-shared-pot"]
-relatedThirds: ["held-silence", "the-shared-pot"]
+parents: ["held-silence", "the-sagging-floor"]
+relatedThirds: ["held-silence", "the-sagging-floor"]
 ---
 
-**A fusion of [Held Silence](/thirds/held-silence/) and [The Shared Pot](/thirds/the-shared-pot/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [Held Silence](/thirds/held-silence/) and [The Sagging Floor](/thirds/the-sagging-floor/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** Stability no single actor could have imposed.
 

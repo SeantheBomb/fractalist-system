@@ -1,7 +1,7 @@
 ---
 title: "Naming and Defusing"
 part: "part-two"
-order: 14
+order: 15
 epigraph: "Accept the things you can not change, and change the things you can not accept."
 summary: "The self-stories that feel like settled fact — \"I always quit\" — and the practice of catching them as patterns instead of verdicts."
 related: ["the-woven-self", "the-compost-heap", "psychology-woven-self", "the-nearest-light"]
@@ -40,6 +40,12 @@ A short, useful question sits underneath all of this, worth asking directly the 
 This is not the same as forcing positivity or refusing to acknowledge real limitations. Some things you're bad at are actually just things you're bad at, for now, and pretending otherwise isn't defusion, it's denial. The practice isn't "believe something nicer." The practice is "notice that a repeated thought and a permanent fact are not the same category of thing," and let the noticing do its own quiet work.
 
 **The history attached to a self-story is usually not the only honest one.** "I always quit" never arrives alone. It comes with a tidy chain of past attempts, each apparently leading to the next, the whole thing feeling settled and single. That feeling of inevitability is not evidence. Run any process forward and each step produces exactly one next step, no ambiguity. Run the same process backward — given where things ended up, where did they come from? — and the same endpoint usually admits several genuinely honest accounts, because the rule folded and stretched the path rather than simply moving along it. Forward, your life looks like one determined line. Backward, it almost always allows more than one true telling, and the tidy single-cause version got picked because a clean story is easier to hold than an accurate ambiguous one.
+
+**One story-shape worth naming on its own, because it is unusually convincing and this book already contains its disproof.** It runs forward in steps: if this, then that, then the next thing, ending somewhere unbearable. Every individual link is plausible, which is exactly what makes the whole feel inevitable.
+
+The error is not in any link. It is that a chain of conditional steps **multiplies** rather than adds — each carries its own probability, and a run of individually likely steps arrives somewhere far less likely than any step in it. Part Four walks this arithmetic through a long chain of conditions about other civilizations and shows how fast a plausible sequence compounds down to almost nothing. Your worst chain works identically, and feels different only because you are standing inside it.
+
+So the move here is specific rather than reassuring: don't argue with the ending. **Count the links, and ask what each one would actually have to require.** The story rarely survives being made to show its work.
 
 **Try this:** Take one story you tell about how you became the way you are. Write the version you usually tell. Then write two other accounts of the same history that are equally true and equally supported — not nicer ones, just other true ones. The point isn't to pick a better story. It's to feel the story stop being the only one.
 

@@ -3,16 +3,16 @@ name: "The Shared Name"
 epithet: ""
 kinship: "culture"
 order: 42
-personifies: "The Inner Circle and The Reputation, compounded past any one life."
+personifies: "The Inner Circle and Transmission Drift, compounded past any one life."
 blurb: "A name that gathers vast numbers of people into a \"we\". It can bind people who are genuinely connected, or people with nothing underneath the name."
 tending: "The name binds people genuinely connected."
 fraying: "It binds people with nothing underneath it."
 drawable: true
-parents: ["the-inner-circle", "the-reputation"]
-relatedThirds: ["the-inner-circle", "the-reputation"]
+parents: ["the-inner-circle", "transmission-drift"]
+relatedThirds: ["the-inner-circle", "transmission-drift"]
 ---
 
-**A fusion of [The Inner Circle](/thirds/the-inner-circle/) and [The Reputation](/thirds/the-reputation/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
+**A fusion of [The Inner Circle](/thirds/the-inner-circle/) and [Transmission Drift](/thirds/transmission-drift/)**, compounded past any one life. A figure's tier is what it's made of, not a rank it was given.
 
 **Tending.** A name binding people genuinely connected.
 

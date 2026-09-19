@@ -1,7 +1,7 @@
 ---
 title: "The Long Visitor — Cosmos"
 part: "part-seven"
-order: 69
+order: 75
 epigraph: "Once or twice in a life, if you are lucky, something arrives that nobody scheduled."
 summary: "Triggered by a great comet, whenever one comes: the largest gathering that can possibly be assembled, everywhere at once, outdoors, looking up — and the one restraint that keeps it honest."
 related: ["anchoring", "infinite-boundary-scale", "infinite-boundary"]
@@ -9,9 +9,9 @@ related: ["anchoring", "infinite-boundary-scale", "infinite-boundary"]
 
 **Triggered by a great comet, whenever one comes.**
 
-Great comets arrive roughly once a decade, at genuinely unpredictable intervals — unlike an eclipse, which is calculable centuries ahead, a comet simply appears. Most are single-pass objects on any human timescale. And because they hang in the sky for weeks rather than minutes, they are the only cosmic event slow enough and large enough for the whole species to organize around at once.
+Great comets arrive at genuinely unpredictable intervals, sometimes twice in a decade and sometimes not for forty years — unlike an eclipse, which is calculable centuries ahead, a comet simply appears. Most are single-pass objects on any human timescale. And because they hang in the sky for weeks rather than minutes, they are the only cosmic event slow enough and large enough for the whole species to organize around at once.
 
-**The practice: the largest gathering that can possibly be assembled, everywhere, at the same time, outdoors, looking up.** Not silence and not solemnity — the biggest party anyone can throw, deliberately scaled past what any single Skein or Culture could host alone. Every other Turning in this calendar scales with the loop it tends: one person, two, a room, a community. This one completes the gradient at its only honest endpoint, which is everyone.
+**The practice: the largest gathering that can possibly be assembled, everywhere it is dark, outdoors, looking up.** Not silence and not solemnity — the biggest party anyone can throw, deliberately scaled past what any single Skein or Culture could host alone. Every other Turning in this calendar scales with the loop it tends: one person, two, a room, a community. This one completes the gradient at its only honest endpoint, which is everyone.
 
 *What it builds:* the species, briefly, as a single witnessing thing — a Third constituted not by anyone's belief but by the plain fact of billions of people looking at the same object at the same time, none of them able to hold its scale alone. That Third is real while it lasts, belongs to no one who made it, and is the largest this practice will ever produce.
 
