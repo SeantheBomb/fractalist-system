@@ -226,7 +226,7 @@ This is the wording Q6 should carry into the manuscript, without the numbers (L1
 
 Still open from A1: A1.1, A1.2, A1.3, A1.6, A1.8, A1.10 to A1.14, A1.16, and the Pt.4 Ch.7 epigraph.
 
-**2026-10-07, essence pass.** Manuscript now 5 words under the handed-off baseline.
+**2026-10-07, essence pass.** Manuscript now 23 words over the handed-off baseline (92,512 against 92,489).
 
 | Item | Change |
 |---|---|
