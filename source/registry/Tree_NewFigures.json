@@ -1,0 +1,605 @@
+[
+ {
+  "name": "Getting Used To It",
+  "parts": [
+   "The Gardener",
+   "The Tide"
+  ],
+  "tending": "Noticing fades faster as a change grows old, so mood swings back to its usual place sooner and more surely.",
+  "fraying": "Noticing fades slower, so mood stays away from its usual level longer, or never comes back.",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "for some time after the event, accident victims think of little else. But over time, with few exceptions, attention is withdrawn from a new situation as it becomes more familiar.",
+    "role": "A"
+   },
+   {
+    "book": "KAHN",
+    "quote": "paraplegics are in a fairly good mood more than half of the time as early as one month following their accident—though their mood is certainly somber when they think about their situation.",
+    "role": "B"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Adaptation to a new situation, whether good or bad, consists in large part of thinking less and less about it. In that sense, most long-term circumstances of life, including paraplegia and marriage, are part-time states that one inhabits only when one at",
+    "role": "interlock"
+   },
+   {
+    "book": "KAHN",
+    "quote": "we can expect the experienced well-being of paraplegics to be near normal much of the time.",
+    "role": "T"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Brickman and Campbell’s (1971) concept of the hedonic treadmill suggests the radical hypothesis that rapid adaptation will cause the effects of any objective improvement to be short-lived.",
+    "role": "F"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Pain and noise are biologically set to be signals that attract attention, and depression involves a self-reinforcing cycle of miserable thoughts. There is therefore no adaptation to these conditions.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "Attention drifts off a new condition as it becomes familiar, and as attention withdraws mood returns toward its usual level, so even a crippling loss becomes a part-time state and ordinary life resumes.",
+   "fraying": "The same withdrawal of attention returns mood to its usual level after a gain, so any objective improvement stops being felt; and where the condition keeps pulling attention (pain, noise, depression) the return never comes."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 1
+  }
+ },
+ {
+  "name": "Stories Tuned to Listeners",
+  "parts": [
+   "The Keepsake",
+   "The Mirror"
+  ],
+  "tending": "The teller tracks each laugh or gasp more closely, so each telling pulls tighter toward what the crowd likes.",
+  "fraying": "The teller follows the reactions less, so the telling drifts and holds less to what the listeners want.",
+  "quotes": [
+   {
+    "book": "BERNS",
+    "quote": "children quickly learn what makes a good story: a premise that captures a listener ’s imagination and that also has an element of suspense, which makes them want to know what happened next.",
+    "role": "A"
+   },
+   {
+    "book": "BERNS",
+    "quote": "Peers respond to events they find interesting",
+    "role": "B"
+   },
+   {
+    "book": "BERNS",
+    "quote": "They try them on like outfits, looking to parents and peers for feedback as to which ones fit the best.",
+    "role": "interlock"
+   },
+   {
+    "book": "BERNS",
+    "quote": "The social sharing of memories provides crucial feedback.",
+    "role": "interlock"
+   },
+   {
+    "book": "BERNS",
+    "quote": "As Reese’ s results showed, the degree to which families tell these stories has a direct impact on the number and density of memories from this period in a child’ s life.",
+    "role": "T"
+   },
+   {
+    "book": "BERNS",
+    "quote": "the memory itself has been told and retold so often that it may have more in common with the feast’ s leftovers: a distorted version of the original, better in some ways and worse in others, but definitely not the same.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "B",
+  "loop_type_votes": "BBR",
+  "old_poles": {
+   "tending": "Tellers keep the version of an episode that listeners respond to, so memories become dense, well-shaped stories that a child learns to tell and that the family and peers help hold.",
+   "fraying": "Tellers keep the version listeners reward, so each retelling moves the stored episode toward the good story and away from what happened."
+  },
+  "pole_marks": {
+   "T": 0,
+   "F": 2
+  }
+ },
+ {
+  "name": "The Pass Mark",
+  "parts": [
+   "The Learning Gradient",
+   "The Line"
+  ],
+  "tending": "Clearing the bar moves effort on faster, and growing skill raises the bar higher on the old thing.",
+  "fraying": "Clearing the bar moves effort on less, or the bar stops rising, so practice stays longer at the same line.",
+  "quotes": [
+   {
+    "book": "SCHELL_G",
+    "quote": "If you get a “D” or “F,” you must repeat the level, but if you get a “C” or better, you can continue.",
+    "role": "A"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "skilled players will blow through easy levels, quickly getting to a challenge that is more interesting to them, while less skilled players will be challenged by the early levels.",
+    "role": "B"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "Novice players are thrilled to get a “C” and unlock the next level. As they gain experience and have unlocked all the levels, they may set themselves a new challenge—to earn an “A” (or even “A+”!) on earlier levels.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "This lets every player quickly get to the part of the game that is a challenge.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Many runners work hard for months, but as soon as they cross the finish line, they stop training. The race is no longer there to motivate them.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "A pass mark lets learners stop attending to what they have passed and move to what still teaches; as skill grows, they set themselves a higher mark on the same material.",
+   "fraying": "Once the mark is passed, nothing remains to push attention forward, so practice stops at the line though the skill was still worth building."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 1
+  }
+ },
+ {
+  "name": "In Plain View",
+  "parts": [
+   "The Gardener",
+   "The Riverbed"
+  ],
+  "tending": "What stays in sight draws the eye back more often, and each look keeps it tended more closely.",
+  "fraying": "What stays in sight draws the eye back less often, so it drifts further between looks and goes less tended.",
+  "quotes": [
+   {
+    "book": "TNHLO",
+    "quote": "We can organize our life in such a way that the good seeds can be touched and watered several times a day.",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "the meter in the front hall where people passed, the little wheel turning around, adding up the monthly electricity bill many times a day.",
+    "role": "B"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "When their energy use was obvious and easy to track, people changed their behavior.",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "creating obvious visual cues can draw your attention toward a desired habit.",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "the homes with the meters located in the main hallway used less electricity.",
+    "role": "T"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "The families with high electricity use were the ones with the meter in the basement, where people rarely saw it.",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "It’s easy not to practice the guitar when it’s tucked away in the closet. It’s easy not to read a book when the bookshelf is in the corner of the guest room.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "Conditions arranged so a thing stays in sight keep attention returning to it, and the returning attention tends it: the hallway meter watched many times a day brings usage down, and a life organized so good seeds are watered several times a day grows them.",
+   "fraying": "Whatever the arrangement puts out of sight drops out of repeated attention and goes untended, however much it matters: the basement meter nobody sees, the guitar in the closet."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 2
+  }
+ },
+ {
+  "name": "Chasing the Readout",
+  "parts": [
+   "The Nearest Light",
+   "The Tide"
+  ],
+  "tending": "Each fix pulls harder and faster toward where things should be, answering each late report more strongly.",
+  "fraying": "Each fix pulls back more softly and slowly, so things drift further from where they should be before they return.",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "The dealer monitors sales (perceived sales), and if, for example, they seem to be rising, she adjusts orders to the factory to bring inventory up to her new desired inventory",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Inventory at a car dealership is kept steady by two competing balancing loops, one through sales and one through deliveries.",
+    "role": "B"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "She now sees her mistake, and cuts back, but there are still high past orders coming in, so she orders even less. In fact, almost inevitably, since she still can't be sure of what is going to happen next, she orders too little. Inventory gets too low again. And so forth, through a series of oscillations around the new desired inventory level.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The temperature rises in the morning to the level for which the thermostat is set—and overshoots it. It always does. The temperature then falls back to the setting—and undershoots it.",
+    "role": "interlock"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "As Figure 36 shows, the oscillations are greatly damped with this change, and the system finds its new equilibrium fairly efficiently.",
+    "role": "T"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Acting faster makes the oscillations worse! Part of the problem here is that the car dealer has been reacting not too slowly, but too quickly.",
+    "role": "F"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Delays that are too short cause overreaction, \"chasing your tail,\" oscillations amplified by the jumpiness of the response.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "The corrector answers each new reading as it comes in and pulls the stock back toward its target; with the response paced to the system's delays, the swings die out and the stock settles at its new level.",
+   "fraying": "The corrector answers each new reading as it comes in, but the readings and the corrections both arrive late, so each correction answers a state that has already passed; the stock overshoots and undershoots, and reacting faster makes the swings bigger."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 1
+  }
+ },
+ {
+  "name": "The Illusion of Skill",
+  "parts": [
+   "The Easier Door",
+   "The Mask"
+  ],
+  "tending": "Each quick sense feels surer, and the story of one's skill holds more firmly, even through more misses.",
+  "fraying": "Each quick sense feels less sure, and the story of one's skill loosens, so misses weigh more.",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Our expectations for the soldiers' future performance were a clear instance of substitution, and of the representativeness heuristic in particular.",
+    "role": "A"
+   },
+   {
+    "book": "KAHN",
+    "quote": "The global evidence of our previous failure should have shaken our confidence in our judgments of the candidates, but it did not.",
+    "role": "B"
+   },
+   {
+    "book": "KAHN",
+    "quote": "We knew as a general fact that our predictions were little better than random guesses, but we continued to feel and act as if each of our specific predictions was valid.",
+    "role": "interlock"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Considering how little we know, the confidence we have in our beliefs is preposterous—and it is also essential.",
+    "role": "T"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Because of confidence by coherence, the subjective confidence we have in our opinions reflects the coherence of the story that System 1 and System 2 have constructed. The amount of evidence and its quality do not count for much, because poor evidence can make a very good story.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "R",
+  "loop_type_votes": "RRR",
+  "old_poles": {
+   "tending": "Each hard judgment gets answered by an easier, coherent impression, and the judge's standing story of competence lets him act on it instead of freezing; the confidence is what makes decisions under ignorance possible.",
+   "fraying": "Each substituted impression feels valid because the judge's story of his own skill is intact, and the story stays intact because each new impression feels valid, so known failure never lowers confidence."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 2
+  }
+ },
+ {
+  "name": "The Grind",
+  "parts": [
+   "The Easier Door",
+   "The Learning Gradient"
+  ],
+  "tending": "Each easy swap drains the task faster, so the hunt for the next shortcut comes sooner and harder.",
+  "fraying": "Each easy swap drains the task less, so the hunt for shortcuts slows and the task keeps more to teach.",
+  "quotes": [
+   {
+    "book": "KOSTER",
+    "quote": "Once a player looks at a game and ascertains the pattern and the ultimate goal, they'll try to find the optimal path to getting there.",
+    "role": "A"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "That extended moment when tic-tac-toe ceased to interest them was a moment of great fascination to me.",
+    "role": "B"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "So players often intentionally suck the fun out of a game in hopes they can learn something new (in other words, find something fun) once they complete the task.",
+    "role": "interlock"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "Players running an easy level two hundred times to build up enough lives so that they can cruise through the rest of the game with little risk is the equivalent of stockpiling food for winter: it's just the smart thing to do .",
+    "role": "T"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "the destiny of games is to become boring, not to be fun . Those of us who want games to be fun are fighting a losing battle against the human brain because fun is a process and routine is its destination.",
+    "role": "F"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "They must keep in mind that players are always trying to reduce the difficulty of a task. The easiest way to do that is to not play .",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [],
+  "loop_type": "R",
+  "loop_type_votes": "RRR",
+  "old_poles": {
+   "tending": "The player swaps the risky open question for a predictable easier one (farm the easy level, take on weak opponents), banks safety, and uses it to get through to new material where learning resumes.",
+   "fraying": "Every easy substitute drains what is left to learn, so attention leaves; the player reaches for the next shortcut to find something new, and the game is ground into routine or abandoned."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 2
+  }
+ },
+ {
+  "name": "Blending Back In",
+  "parts": [
+   "The Mirror",
+   "The Tide"
+  ],
+  "tending": "Anyone who drifts from the usual way slides back faster and closer, so the usual holds tighter.",
+  "fraying": "The pull to match loosens, so drifters go further from the usual way and some stay away.",
+  "quotes": [
+   {
+    "book": "DUCK",
+    "quote": "Because, inevitably, the way we do things around here becomes the way you do things, too.",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "you are strongly inclined to copy the most common trait—the majority or the plurality",
+    "role": "A"
+   },
+   {
+    "book": "DUCK",
+    "quote": "the body mass index of both parents and children drifted — either up or down — toward the average BMI of the county to which they moved. The longer the families lived there, the stronger this association grew.",
+    "role": "B"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "social norms will tend to remain stable even when they help neither the group nor the individual.",
+    "role": "B"
+   },
+   {
+    "book": "DUCK",
+    "quote": "everybody wants what everybody [around them] wants, and nobody wants what nobody [around them] wants.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Because cultural learning influences how we judge others, it can create self- reinforcing stable patterns of social behavior—social norms.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "If everybody expects everybody to pass on the right, that’ s the side to pass on.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In these places, settlers intermixed with English, German, French, and Dutch settlers and lost their culture of honor.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In the South, the early dominance of Scotch- Irish in the founding populations has permitted a culture of honor to persist",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Your culture sets your expectation for what is “normal.” Surround yourself with people who have the habits you want to have yourself. You’ll rise together.",
+    "role": "T"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "conformist transmission can help learners aggregate the information that is distributed across a group.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "when a chimpanzee learns an effective way to crack nuts open as a member of one group and then switches to a new group that uses a less effective strategy, it will avoid using the superior nut cracking method just to blend in with the rest of the chimps.",
+    "role": "F"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In fact, cultural evolution can produce sticky social norms that are bad for everyone.",
+    "role": "F"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "a tradition that separates the women from the men or the whites from the blacks, the students from the faculty or the officers from the enlisted men, may be strongly self-enforcing even though one or both of the two groups deplore the tradition",
+    "role": "F"
+   },
+   {
+    "book": "DUCK",
+    "quote": "Any behavior — however aberrant or self-destructive — seems “natural” when it’s what everyone else is doing.",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "We pick up habits from the people around us.",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "you are strongly inclined to copy the most common trait—the majority or the plurality",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "deviations from these shared standards are penalized or sanctioned in some way",
+    "role": "B"
+   },
+   {
+    "book": "GNEEZY",
+    "quote": "Education may convince the occasional mother to save her daughter from being cut, but that family then risks being ostracized by the community.",
+    "role": "B"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Groups of individuals who engage in social in- teractions and learn from each other using cues like success and prestige often end up sharing similar behaviors, strategies, expectations, or pref - erences, and deviations from these shared standards are penalized or sanctioned in some way.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "the resulting be - havioral patterns are stable in the sense that they tend to endure and resist efforts by one or a few individuals to change them",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Weak conformist transmission can stabilize costly enforcement of norms in cooperative dilem-mas.",
+    "role": "interlock"
+   },
+   {
+    "book": "LOWERY",
+    "quote": "communities that through collective action establish and police boundaries, mint new practitioners, and maintain these structures",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "if you use conformist transmission in acquiring your beliefs about John, you would take input from many people in the community, most of whom would not be John’s rival. This would allow you to discard Steve’s disin-formation",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "when a chimpanzee learns an effective way to crack nuts open as a member of one group and then switches to a new group that uses a less effective strategy, it will avoid using the superior nut cracking method just to blend in with the rest of the chimps",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "The normal behavior of the tribe often overpowers the desired behavior of the individual.",
+    "role": "F"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "social norms will tend to remain stable even when they help neither the group nor the individual. In fact, cultural evolution can pro - duce sticky social norms that are bad for everyone.",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [
+   "The Local Average",
+   "Blending Back In"
+  ],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "Newcomers and drifters take form from the people around them, so they return to the group's usual level, and their return is what keeps that level in place. When the usual is sound, people carried to it rise together and a group's hard-won knowledge holds without anyone teaching it.",
+   "fraying": "The same return holds whatever the usual is. People drop a better way to match the room, a local average of weight or habit pulls newcomers up or down to it, and norms that help nobody stay stable because everyone keeps copying everyone else back into them."
+  },
+  "pole_marks": {
+   "T": 2,
+   "F": 1
+  }
+ },
+ {
+  "name": "The Rebound",
+  "parts": [
+   "The Outfall",
+   "The Tide"
+  ],
+  "tending": "The free gift pulls each side's effort away faster, and when trouble comes back it sends both back harder.",
+  "fraying": "Effort drifts away further, and when trouble comes back it sends both sides back less surely and more slowly.",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "Shortly, most infants were vaccinated, and the unvaccinated were too few to sustain an epidemic. For more than a year there was no measles.",
+    "role": "A"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Measles vaccination shares some crucial features with the thermostat system",
+    "role": "B"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "By then there was a new population of unvaccinated infants, large enough to sustain an epidemic. The epidemic killed some children, immunized others, and scared mothers, who then brought their infants long distances to be vaccinated. It was another year before the disease was forgotten and the mothers stopped coming, and still another year before the new unvaccinated population invited the next epidemic.",
+    "role": "interlock"
+   },
+   {
+    "book": "CHATER",
+    "quote": "If green-oriented Country A reduces fossil fuel use, the oil price falls; but then unscrupulous Country B, which has no such concerns, has an incentive to use more fossil fuels, as they are now cheaper; and, there is a net transfer of wealth from Country A to Country B.",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "They can indeed be marvels of self-correction, as prices vary to moderate supply and demand and keep them in balance.",
+    "role": "B"
+   },
+   {
+    "book": "CHATER",
+    "quote": "Now that flying is cheaper, consumers (whether socially conscious or not) will fly slightly more than they would have done (everyone is sensitive to price to some degree, after all). Worse, to the extent that they understand this, a fully rational consumer would be less liable to \"do the right thing\" in the first place, since they would take account of the fact that their own restraint will duly be dampened.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The epidemic killed some children, immunized others, and scared mothers, who then brought their infants long distances to be vaccinated.",
+    "role": "T"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "negative feedback keeps things at a steady state as outside influences push it to change.",
+    "role": "T"
+   },
+   {
+    "book": "CHATER",
+    "quote": "those who are happy to use polluting energy are likely to use more of it—so the use of brown energy remains largely unaffected. Thus, the impact of an individual's green choice is \"dampened\" by the operation of the market.",
+    "role": "F"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "carbon emissions completely rebounded the following year",
+    "role": "F"
+   }
+  ],
+  "also_found_as": [
+   "The Complacency Cycle (independent searcher; failed on poles)"
+  ],
+  "loop_type": "B",
+  "loop_type_votes": "BBB",
+  "old_poles": {
+   "tending": "When people who skip a protection pile up unbilled risk for everyone, the shared level swings back: the outbreak or price shock they helped cause brings people back to the protection, which closes the gap again. Schelling's mothers carried infants long distances to be vaccinated after an epidemic.",
+   "fraying": "One person's good act on their own account leaves an unbilled gift for others: herd protection, or a cheaper fuel. That gift removes the others' reason to act, so the shared level slides back to where it was. The green choice is 'dampened' by the market, mothers stop coming once measles is forgotten, and a rational actor who sees this coming restrains less in the first place."
+  },
+  "pole_marks": {
+   "T": 1,
+   "F": 1
+  }
+ }
+]

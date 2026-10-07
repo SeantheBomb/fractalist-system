@@ -1,0 +1,26 @@
+# CANON — what is currently true in the manuscript (for consistency checking)
+
+- **The Nest runs BOTH directions.** A Global Form at one scale is a Local Rule at the next, going down as well as up. Culture descends into your day. (Pt.1 Ch.4)
+- **Two gates.** The leverage ladder is gated by POSITION. The Nest is gated by CONNECTION. Both are gates; the Nest is not free. Every scale above Self is built out of dyads, so zero dyads = outside the Nest. (Pt.2 Ch.10)
+- **Reach is composable.** "Unreachable" is a relation between a rung and whoever reaches; the actor's scale is a variable. (Pt.2 Ch.10)
+- **The Fold is the Nest seen up close.** Distance governs three things together: fidelity, aimability, and how much is yours to answer for. Cautions are DISTANCE-DEPENDENT, not flat — at one edge you CAN aim. Closes at two speeds. You tend the ground, not your return. (Pt.2 Ch.12)
+- **The ledger error runs both directions**: "I tended so good is owed" and "bad happened so something was frayed."
+- **Vision is the Sacrifice Trap's Tending read as a lifeline** (the grind is the same Tending read as a snare). Not a destination — a direction you check acceleration against; a falsifiable hypothesis about what this Local Rule would produce. (Pt.2 Ch.11)
+- **Three returns:** Brush (today, did the ground answer), Tree (the season, is direction holding), Forest (beyond a life, not yours to watch). **A disturbance moves what shares its timescale.** (Pt.2 Ch.11)
+- **The rate pole:** planting faster than you can tend; commitments multiply; compensatory control drives the spiral; fix is a rule-level standing limit.
+- **Compost is a stock**, not consolation. (Pt.2 Ch.5)
+- **Four daily practices are four moves of one activity:** look, plant, tend, thin. Tree-Gazing trains for the Loop Tongue's Tree. Seeding has a second beat (go back and look). (Pt.2 Ch.2)
+- **"A pattern with no intervention point is a CLOUD, not a Third."** Not "weather" — Part One says you ARE closer to weather. (Pt.5 Ch.0)
+- **The self extends to where your actions close a loop** (the car; "he hit me"). (Pt.4 Ch.2)
+- **Latency:** a fast clean return registers as "I did that"; slow or scrambled registers as "that happened," even when you feed it.
+- **Participant vs recipient:** ask who is feeding and who is absorbing. Complementarity (control axis) produces fitted OPPOSITE rules, so Dyad halves are often not comparable.
+- **Agency is not responsibility.** Absent motivation is not evidence of unwillingness; values persist beneath inaction.
+- **Sixth instrument: measured / modelled / offered.** (Pt.4 Ch.8)
+- **Admission criterion:** a figure must predict, compress, or enable. **Parsimony rule:** simplest sufficient reading; test is whether the extra figure changes what you'd do.
+- **Catalogue is 52 drawable figures across five tiers** (Self 12, Dyad 19, Skein 11, Culture 7, World 3) plus the Infinite Boundary, never drawn.
+- **Second-Order Design** turns on the RETURN PATH (is what the rules produced visible to whoever can change them), not on good-vs-bad emergence.
+- **Belonging is a need** (isolation → hunger-like craving); replace the function, don't refute the content.
+- **Elegance = maximum complexity from minimum complication. Count the patches.**
+- **No exceptions or concessions** — widen the existing rule instead.
+- **Poles (2026-10-01):** Tending = the loop strengthening; Fraying = the loop weakening. Neither is good or bad: a rope pulled tight can be a lifeline or a snare, and a fraying one a bond giving way or a trap letting go. A vicious cycle running hard is Tending. (Pt.5 Ch.0; harness/poles/GUIDE.md)
+- **Two-pole rule:** every running figure has Tending and Fraying; a stopped pattern has neither, and the Infinite Boundary has none; one visible pole means you're zoomed in too far.

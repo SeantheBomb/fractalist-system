@@ -1,0 +1,5222 @@
+{
+ "The Spark": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 74507,
+    "quote": "Reinforcing feedback loops are self-enhancing, leading to exponential growth or to runaway collapses over time. They are found whenever a stock has the capacity to reinforce or reproduce itself."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 25344,
+    "quote": "The same way that money multiplies through compound interest, the effects of your habits multiply as you repeat them."
+   }
+  ],
+  "T": [
+   {
+    "book": "MEADOWS",
+    "offset": 10898,
+    "quote": "Reinforcing feedback loops are self-enhancing, leading to exponential growth"
+   },
+   {
+    "book": "CLEAR",
+    "offset": 29232,
+    "quote": "Good habits make time your ally."
+   },
+   {
+    "book": "HOPSON",
+    "offset": 165908,
+    "quote": "creating a virtuous cycle of success. In this paradigm, a business should be organized around a cycle of actions where each step has a positive impact on the next step",
+    "note": "Hopson reporting Collins (not in corpus); counts with Hopson"
+   }
+  ],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 10975,
+    "quote": "or to runaway collapses over time"
+   },
+   {
+    "book": "CLEAR",
+    "offset": 29331,
+    "quote": "Bad habits can cut you down just as easily as good habits can build you up"
+   },
+   {
+    "book": "SELLERS",
+    "offset": 197457,
+    "quote": "Note that while all the effects are negative, this is a reinforcing loop, not a balancing loop—one that is sometimes known as a vicious cycle"
+   }
+  ],
+  "flags": []
+ },
+ "The Tide": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 68330,
+    "quote": "Balancing feedback loops are goal-seeking or stability-seeking. Each tries to keep a stock at a given value or within a range of values."
+   }
+  ],
+  "T": [
+   {
+    "book": "MEADOWS",
+    "offset": 138407,
+    "quote": "Resilience arises from a rich structure of many feedback loops that can work in different ways to restore a system even after a large perturbation. A single balancing loop brings a system stock back to its desired state."
+   }
+  ],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 10717,
+    "quote": "w to change the stock. Balancing feedback loops are equilibrating or goal-seeking structures in systems and are both sources of stability and sources of resistance to change. Reinforcing feedbac"
+   }
+  ],
+  "flags": []
+ },
+ "The Mark": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 596249,
+    "quote": "This reference dependence is ubiquitous in sensation and perception. The same sound will be experienced as very loud or quite faint, depending on whether it was preceded by a whisper or by a roar."
+   },
+   {
+    "book": "ISBISTER",
+    "offset": 317067,
+    "quote": "Speed in a video game only has meaning relative to the number, place-ment and nature of the objects around it."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "ISBISTER",
+    "offset": 317178,
+    "quote": "Without at least one object to compare it to, the speed at which something moves in a game has no meaning."
+   },
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 596446,
+    "quote": "To predict the subjective experience of loudness, it is not enough to know its absolute energy"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BERGER",
+    "offset": 269183,
+    "quote": "They have different reference points. They remember the days when a movie ticket was forty cents and steak was ninety-five cents a pound"
+   }
+  ],
+  "flags": []
+ },
+ "The Salve": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 17519,
+    "quote": "Shifting the burden, dependence, and addiction arise when a solution to a systemic problem reduces (or disguises) the symptoms, but does nothing to solve the underlying problem."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 40294,
+    "quote": "You treated a symptom without addressing the cause."
+   },
+   {
+    "book": "HARRIS",
+    "offset": 39396,
+    "quote": "Humans find an almost infinite number of ways to try to avoid or get rid of unpleasant feelings"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "HARRIS",
+    "offset": 161863,
+    "quote": "The answer is nothing, if: you use them only in moderation you use them only in situations where they can work using them doesn’t stop you from doing the things you value."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "HARRIS",
+    "offset": 42249,
+    "quote": "But the more habitual that avoidance becomes, the more we start to suffer in the long run."
+   },
+   {
+    "element": "F",
+    "book": "HARRIS",
+    "offset": 157822,
+    "quote": "In the short term, alcohol reduces her anxiety. But the next day she feels hung-over and tired"
+   },
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 218081,
+    "quote": "numbing vulnerability also dulls our experiences of love, joy, belonging, creativity, and empathy"
+   },
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 218184,
+    "quote": "We can’t selectively numb emotion. Numb the dark and you numb the light."
+   }
+  ],
+  "flags": []
+ },
+ "The Nearest Light": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 12252,
+    "quote": "we judged the size of categories by the ease with which instances came to mind. We called this reliance on the ease of memory search the availability heuristic."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 172141,
+    "quote": "The rules of the betting are intelligent: recent events and the current context have the most weight in determining an interpretation."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 279258,
+    "quote": "Personal experiences, pictures, and vivid examples are more available than incidents that happened to others, or mere words, or statistics."
+   }
+  ],
+  "flags": []
+ },
+ "The Keepsake": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 825907,
+    "quote": "Peak-end rule: The global retrospective rating was well predicted by the average of the level of pain reported at the worst moment of the experience and at its end."
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 841604,
+    "quote": "This is how the remembering self works: it composes stories and keeps them for future reference."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 829024,
+    "quote": "he reported that the bad ending “ruined the whole experience.” But the experience was not actually ruined, only the memory of it."
+   }
+  ],
+  "flags": []
+ },
+ "The Easier Door": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 211134,
+    "quote": "If a satisfactory answer to a hard question is"
+   },
+   {
+    "book": "KAHN",
+    "offset": 211210,
+    "quote": "System 1 will find a related question that is easier and will answer it. I call the operation of answering one question in place of another substitution"
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 211533,
+    "quote": "The technical definition of heuristic is a simple procedure that helps find adequate, though often imperfect, answers to difficult questions."
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 216261,
+    "quote": "you may not even notice that you did not answer the question you were asked. Furthermore, you may not realize that the target question was difficult, because an intuitive answer to it came readily to mind."
+   }
+  ],
+  "flags": []
+ },
+ "The Mask": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 54627,
+    "quote": "There is internal pressure to maintain your self-image and behave in a way that is consistent with your beliefs. You find whatever way you can to avoid contradicting yourself."
+   },
+   {
+    "book": "KAHN",
+    "offset": 577472,
+    "quote": "an “optimistic explanation style” contributes to resilience by defending one’s self-image. In essence, the optimistic style involves taking credit for successes but little blame for failures."
+   },
+   {
+    "book": "HOLIDAY",
+    "offset": 159719,
+    "quote": "convinced of our own intelligence, we stay in a comfort zone that ensures that we never feel stupid (and are never challenged to learn or reconsider what we know)."
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 560709,
+    "quote": "One of the benefits of an optimistic temperament is that it encourages persistence in the face of obstacles."
+   }
+  ],
+  "F": [
+   {
+    "book": "HOLIDAY",
+    "offset": 159883,
+    "quote": "It obscures from view various weaknesses in our understanding, until eventually it’s too late to change course."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 55417,
+    "quote": "Over the long run, however, the real reason you fail to stick with habits is that your self-image gets in the way."
+   }
+  ],
+  "flags": []
+ },
+ "The Mirror": {
+  "C": [
+   {
+    "book": "LOWERY",
+    "offset": 45358,
+    "quote": "Charles Cooley asserted that a person’s self, at least in part, is constructed by how they think other people see them"
+   },
+   {
+    "book": "BROWN",
+    "offset": 373611,
+    "quote": "Fitting in is about assessing a situation and becoming who you need to be in order to be accepted."
+   }
+  ],
+  "T": [
+   {
+    "book": "LOWERY",
+    "offset": 9241,
+    "quote": "Maybe you’d ask yourself what best serves your community, knowing that it makes and remakes you every day?"
+   }
+  ],
+  "F": [
+   {
+    "book": "BROWN",
+    "offset": 373611,
+    "quote": "Fitting in is about assessing a situation and becoming who you need to be in order to be accepted."
+   },
+   {
+    "book": "EPLEY",
+    "offset": 40996,
+    "quote": "considered self-esteem a “barometric self-concept” that would rise and fall in respo nse to our sense of how others evaluate us."
+   }
+  ],
+  "flags": []
+ },
+ "The Namer": {
+  "C": [
+   {
+    "book": "TNHF",
+    "offset": 71169,
+    "quote": "Knowing that words can create happiness or suf fering"
+   },
+   {
+    "book": "CHENG",
+    "offset": 143508,
+    "quote": "A society can make things appear by naming them."
+   },
+   {
+    "book": "BROWN",
+    "offset": 109128,
+    "quote": "How we experience these dif ferent emotions comes down to self-talk."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "TNHF",
+    "offset": 71224,
+    "quote": "I am committed to speaking truthfully using words that inspire confidence, joy, and hope."
+   },
+   {
+    "element": "T",
+    "book": "CHENG",
+    "offset": 143557,
+    "quote": "The concept of a nation state is as much conjured out of language as it is by geography or a collection of people."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHENG",
+    "offset": 142977,
+    "quote": "Instead of saying ‘I am sad’, which seems to identify you in a rigid formula equating you with sadness"
+   },
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 109553,
+    "quote": "Guilt = I did something bad. Shame = I am bad."
+   }
+  ],
+  "flags": []
+ },
+ "The Riverbed": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 116342,
+    "quote": "Environment is the invisible hand that shapes human behavior."
+   },
+   {
+    "book": "DUCK",
+    "offset": 46261,
+    "quote": "By changing your situation, you automatically change your thoughts"
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 134095,
+    "quote": "“ disciplined” people are better at structuring their lives in a way that does not require heroic willpower and self-control."
+   },
+   {
+    "book": "DUCK",
+    "offset": 52561,
+    "quote": "both adolescents and adults rated situational strategies"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 115919,
+    "quote": "If I walk into the kitchen and see a plate of cookies on the counter, I’ll pick up half a dozen and start eating, even if I hadn’t been thinking about them beforehand"
+   },
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 116260,
+    "quote": "Your habits change depending on the room you are in and the cues in front of you."
+   }
+  ],
+  "flags": []
+ },
+ "The Gardener": {
+  "C": [
+   {
+    "book": "TNHLI",
+    "offset": 11454,
+    "quote": "When we focus our mind on a wholesome object, we water the beautiful and wholesome seeds in us."
+   }
+  ],
+  "T": [
+   {
+    "book": "TNHLI",
+    "offset": 11356,
+    "quote": "focusing on what is good and wholesome, and water the seeds of peace, joy , and liberation in us."
+   }
+  ],
+  "F": [
+   {
+    "book": "TNHF",
+    "offset": 19908,
+    "quote": "You may be rehearsing your anger and making it stronger instead of releasing it."
+   },
+   {
+    "book": "TNHF",
+    "offset": 20069,
+    "quote": "doing this will water the seed of anger in your unconscious mind."
+   }
+  ],
+  "flags": []
+ },
+ "Escalation": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 243066,
+    "quote": "Each actor takes its desired state from the other’s perceived system state—and ups it!",
+    "supports": "C: Mark referenced to the other"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 237841,
+    "quote": "has, as usual, a performance goal or desired system state that is compared to the actual state. If there is a discrepancy, action is taken. So far, that is an ordinary balancing feedback loop",
+    "supports": "C: the same desired-state/action vocabulary is the goal-seeking loop (Tide) of the drift structure; escalation's desired state is set the same way, from the other"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 242366,
+    "quote": "The goal of one part of the system or one actor is not absolute, like the temperature of a room thermostat being set at 18°C (65°F), but is related to the state of another part of the system, another actor.",
+    "supports": "C: goal-seeking with a moving goal taken from the other"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 216341,
+    "quote": "Consider the people who want to tip a little above average, to arrive a little ahead of the crowd, to pay slightly higher wages than their competitors, to grade their students above but only slightly above the average grade",
+    "supports": "C: target set from others plus a margin (Mark)"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 217003,
+    "quote": "everybody will make allowance for everybody else’ s bias and adjust his own performance further , aggravating the displacement.",
+    "supports": "C: each moves own performance to the target (Tide); each output shifts the others' reference"
+   },
+   {
+    "book": "CHATER",
+    "offset": 693137,
+    "quote": "what really matters is not the size of my car, but the size of my car in comparison with everyone else’s",
+    "supports": "C: Mark referenced to others (Chater reporting Frank; one arrival)"
+   },
+   {
+    "book": "CHATER",
+    "offset": 693243,
+    "quote": "This can lead to a costly and futile “arms race” in which people compete to have more, and more luxurious, goods than others; but overall, no one is better off.",
+    "supports": "C/F: the act toward the moving reference"
+   },
+   {
+    "book": "DALIO",
+    "offset": 376349,
+    "quote": "Tit-for-tat escalations are dangerous in that they require each side to escalate or lose what the enemy captured in the last move",
+    "supports": "C arguable / F"
+   },
+   {
+    "book": "BROWNST",
+    "offset": 215347,
+    "quote": "as the US and the Soviet Union strove to outdo each other with bigger and better ways to blow up the world",
+    "supports": "C arguable (Brownstein does not cite Meadows)"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "MEADOWS",
+    "offset": 242653,
+    "quote": "If the competition is about some desirable goal, like a more efficient computer or a cure for AIDS, it can hasten the whole system toward the goal."
+   },
+   {
+    "element": "T",
+    "book": "MEADOWS",
+    "offset": 245156,
+    "quote": "Escalation also could be about peacefulness, civility, efficiency, subtlety, quality."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 242904,
+    "quote": "The most common and awful examples are arms races"
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 693243,
+    "quote": "This can lead to a costly and futile “arms race” in which people compete to have more, and more luxurious, goods than others; but overall, no one is better off."
+   },
+   {
+    "element": "F",
+    "book": "DALIO",
+    "offset": 376349,
+    "quote": "Tit-for-tat escalations are dangerous in that they require each side to escalate or lose what the enemy captured in the last move"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "MEADOWS",
+    "offset": 245984,
+    "quote": "One way out of the escalation trap is unilateral disarmament—deliberately reducing your own system state to induce reductions in your competitor’s state."
+   },
+   {
+    "element": "push",
+    "book": "MEADOWS",
+    "offset": 246336,
+    "quote": "The only other graceful way out of the escalation system is to negotiate a disarmament."
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 243066,
+    "quote": "Each actor takes its desired state from the other’s perceived system state—and ups it!",
+    "supports": "C: Mark referenced to the other"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 237841,
+    "quote": "has, as usual, a performance goal or desired system state that is compared to the actual state. If there is a discrepancy, action is taken. So far, that is an ordinary balancing feedback loop",
+    "supports": "C: the same desired-state/action vocabulary is the goal-seeking loop (Tide) of the drift structure; escalation's desired state is set the same way, from the other"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 242366,
+    "quote": "The goal of one part of the system or one actor is not absolute, like the temperature of a room thermostat being set at 18°C (65°F), but is related to the state of another part of the system, another actor.",
+    "supports": "C: goal-seeking with a moving goal taken from the other"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 216341,
+    "quote": "Consider the people who want to tip a little above average, to arrive a little ahead of the crowd, to pay slightly higher wages than their competitors, to grade their students above but only slightly above the average grade",
+    "supports": "C: target set from others plus a margin (Mark)"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 217003,
+    "quote": "everybody will make allowance for everybody else’ s bias and adjust his own performance further , aggravating the displacement.",
+    "supports": "C: each moves own performance to the target (Tide); each output shifts the others' reference"
+   },
+   {
+    "book": "CHATER",
+    "offset": 693137,
+    "quote": "what really matters is not the size of my car, but the size of my car in comparison with everyone else’s",
+    "supports": "C: Mark referenced to others (Chater reporting Frank; one arrival)"
+   },
+   {
+    "book": "CHATER",
+    "offset": 693243,
+    "quote": "This can lead to a costly and futile “arms race” in which people compete to have more, and more luxurious, goods than others; but overall, no one is better off.",
+    "supports": "C/F: the act toward the moving reference"
+   },
+   {
+    "book": "DALIO",
+    "offset": 376349,
+    "quote": "Tit-for-tat escalations are dangerous in that they require each side to escalate or lose what the enemy captured in the last move",
+    "supports": "C arguable / F"
+   },
+   {
+    "book": "BROWNST",
+    "offset": 215347,
+    "quote": "as the US and the Soviet Union strove to outdo each other with bigger and better ways to blow up the world",
+    "supports": "C arguable (Brownstein does not cite Meadows)"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 245984,
+    "quote": "One way out of the escalation trap is unilateral disarmament—deliberately reducing your own system state to induce reductions in your competitor’s state.",
+    "supports": "push"
+   }
+  ]
+ },
+ "The Standoff": {
+  "C": [
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 217278,
+    "quote": "Each actor monitors the state of the system with regard to some important variable"
+   },
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 217464,
+    "quote": "If there is a discrepancy, each actor does something to correct the situation."
+   },
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 218659,
+    "quote": "Together, the countermoves produce a standoff, the stock is not much different from before, and that is not what anybody wants."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "LOWERY",
+    "offset": 248344,
+    "quote": "imagine two people competing for the upper hand or two people waiting for the other to take charge: these situations are less likely to go well than when one person plays high and the other plays relatively low status."
+   }
+  ],
+  "flags": []
+ },
+ "The Pairing": {
+  "C": [
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 89982,
+    "quote": "What happens when a reinforcing and a balancing loop are both pulling on the same stock? This is one of the most common and important system structures."
+   },
+   {
+    "element": "C",
+    "book": "SELLERS",
+    "offset": 659420,
+    "quote": "balancing loops can be used to either help those lagging behind or slow those who are getting too far ahead"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "MEADOWS",
+    "offset": 93461,
+    "quote": "Finally, it exactly equals the strength of the balancing loop of mortality. At that point neither loop dominates, and we have dynamic equilibrium."
+   },
+   {
+    "element": "T",
+    "book": "SELLERS",
+    "offset": 659839,
+    "quote": "to keep the game going"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "SELLERS",
+    "offset": 641709,
+    "quote": "If the regulation of the player’s resources is too severe, such that it overcomes the main reinforcing loop in a boosting engine or an economic system, the player will soon have insufficient resources to act in the game."
+   },
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 90982,
+    "quote": "Fertility was higher than mortality, so the reinforcing loop dominated the system."
+   }
+  ],
+  "flags": []
+ },
+ "Watering Another": {
+  "C": [
+   {
+    "book": "TNHLI",
+    "offset": 29866,
+    "quote": "The longer a beneficial seed stays in our mind consciousness, the stronger it will become. If the seeds of happiness and love have become strong, they will manifest by themselves"
+   }
+  ],
+  "T": [
+   {
+    "book": "TNHLI",
+    "offset": 18908,
+    "quote": "You only need to let the words enter you; the soil and the seeds themselves will do the rest of the work."
+   }
+  ],
+  "F": [
+   {
+    "book": "TNHF",
+    "offset": 12782,
+    "quote": "sily . If you get angry every day , your seed of anger will grow bigger and bigger , and it will be much more dif ficult"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "TNHLO",
+    "offset": 54858,
+    "quote": "Selective watering is the process of watering the good seeds and giving the healthy and positive elements in our consciousness a chance to manifest."
+   },
+   {
+    "element": "push",
+    "book": "TNHF",
+    "offset": 12789,
+    "quote": "If you get angry every day, your seed of anger will grow bigger and bigger"
+   },
+   {
+    "element": "push",
+    "book": "TNHF",
+    "offset": 12789,
+    "quote": "If you get angry every day , your seed of anger will grow bigger and bigger , and it will be much more dif ficult"
+   },
+   {
+    "element": "push",
+    "book": "TNHLI",
+    "offset": 29957,
+    "quote": "If the seeds of happiness and love have become strong, they will manifest by themselves"
+   }
+  ]
+ },
+ "Answering For": {
+  "C": [
+   {
+    "book": "STANIER",
+    "offset": 14400,
+    "quote": "The more you help your people, the more they seem to need your help. The more they need your help, the more time you spend helping them."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 14028,
+    "quote": "you’ve trained your people to become excessively reliant on you, a situation that turns out to be disempowering for them and frustrating for you."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 48411,
+    "quote": "giving it feels more comfortable than the ambiguity of asking a question"
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 14400,
+    "quote": "The more you help your people, the more they seem to need your help."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 14028,
+    "quote": "you’ve trained your people to become excessively reliant on you"
+   }
+  ]
+ },
+ "Filling the Gap": {
+  "C": [
+   {
+    "book": "VOSS",
+    "offset": 43258,
+    "quote": "Using what they’ve heard or their own biases, they often make assumptions about others even before meeting them. They even ignore their own perceptions to make them conform to foregone conclusions.",
+    "supports": "C"
+   },
+   {
+    "book": "VOSS",
+    "offset": 43065,
+    "quote": "really smart people often have trouble being negotiators—they’re so smart they think they don’t have anything to discover.",
+    "supports": "C: Mask leg (self-story)"
+   },
+   {
+    "book": "EIJK",
+    "offset": 92786,
+    "quote": "Assuming feels good, because admitting that I don’t have all the information suggests that I’m not in control. Also, blaming others feels protective: “See, I’m not the one making mistakes.”",
+    "supports": "C arguable: Mask leg"
+   }
+  ],
+  "T": [
+   {
+    "book": "LOWERY",
+    "offset": 137747,
+    "quote": "We make assumptions, based on our limited knowledge, to help us simplify and navigate the social world. These assumptions provide a structure that we can use, but sometimes they lead us astray."
+   },
+   {
+    "book": "KAHN",
+    "offset": 170115,
+    "quote": "Jumping to conclusions is efficient if the conclusions are likely to be correct and the costs of an occasional mistake acceptable, and if the jump saves much time and effort."
+   }
+  ],
+  "F": [
+   {
+    "book": "VOSS",
+    "offset": 43374,
+    "quote": "y even ignore their own perceptions to make them conform to foregone conclusions. These assumptions muck up our perceptual windows onto the world, showing us an unchanging—often flawed—version of the situation. Great negotiators a"
+   },
+   {
+    "book": "VOSS",
+    "offset": 43456,
+    "quote": "These assumptions muck up our perceptual windows onto the world, showing us an unchanging—often flawed—version of the situation.",
+    "supports": "F"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "book": "VOSS",
+    "offset": 43065,
+    "quote": "really smart people often have trouble being negotiators—they’re so smart they think they don’t have anything to discover.",
+    "supports": "C: Mask leg (self-story)"
+   },
+   {
+    "book": "EIJK",
+    "offset": 92786,
+    "quote": "Assuming feels good, because admitting that I don’t have all the information suggests that I’m not in control. Also, blaming others feels protective: “See, I’m not the one making mistakes.”",
+    "supports": "C arguable: Mask leg"
+   },
+   {
+    "book": "KAHN",
+    "offset": 177457,
+    "quote": "Real evidence of generosity is missing in the story of Joan, and the gap is filled by a guess that fits one’s emotional response to her. In other situations, evidence accumulates gradually and the interpretation is shaped by the emotion attached to the first impression.",
+    "supports": "alternative Easier Door+NL (arguable)"
+   }
+  ]
+ },
+ "The Guard": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWN",
+    "offset": 69805,
+    "quote": "sharing appropriately , with boundaries, means sharing with people with whom we’ve d eveloped relationships that can bear the weight of our story"
+   },
+   {
+    "element": "T",
+    "book": "BROWN",
+    "offset": 69027,
+    "quote": "Vulnerability is based on mutuality and requires boundaries and trust."
+   },
+   {
+    "element": "T",
+    "book": "BROWN",
+    "offset": 69366,
+    "quote": "Being vulnerable and open is mutual and an integral part of the trust-building process."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 178079,
+    "quote": "The irony is that when we ’re standing across from someone who is hidden or shielded by masks and armor , we feel frustrated and disconnected."
+   },
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 15018,
+    "quote": "All of my stages were dif ferent suits of armor that kept me from becoming too engaged and too vulnerable."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "BROWN",
+    "offset": 258240,
+    "quote": "sharing our stories with people who have earned the right to hear them —people with whom we’ve cultivated relationships that can bear the weight of our story"
+   },
+   {
+    "element": "push",
+    "book": "BROWN",
+    "offset": 178097,
+    "quote": "when we ’re standing across from someone who is hidden or shielded by masks and armor , we feel frustrated and disconnected."
+   }
+  ]
+ },
+ "Reading the Room": {
+  "C": [],
+  "T": [
+   {
+    "book": "VOSS",
+    "offset": 91402,
+    "quote": "Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is behind those feelings so you increase your influence in all the moments that follow."
+   }
+  ],
+  "F": [
+   {
+    "book": "EIJK",
+    "offset": 151022,
+    "quote": "people tend to overestimate how much other people think the same way as we do. Even though others have different beliefs and preferenc es, we are inclined to think that they agree with our way of thinking."
+   }
+  ],
+  "flags": []
+ },
+ "The Sliding Floor": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 238930,
+    "quote": "The lower the perceived system state, the lower the desired state. The lower the desired state, the less discrepancy, and the less corrective action is taken."
+   },
+   {
+    "book": "KAHN",
+    "offset": 1018852,
+    "quote": "Brickman and Campbell’s (1971) concept of the hedonic treadmill suggests the radical hypothesis that rapid adaptation will cause the effects of any objective improvement to be short-lived."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "MEADOWS",
+    "offset": 240626,
+    "quote": "The better things get, the harder I’m going to work to make them even better"
+   }
+  ],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 239822,
+    "quote": "But if it drifts down slowly enough to erase the memory of (or belief in) how much better things used to be, everyone is lulled into lower and lower expectations, lower effort, lower performance."
+   },
+   {
+    "element": "F",
+    "book": "MCG",
+    "offset": 93027,
+    "quote": "We build up a tolerance for our favorite things and start to want more. It takes bigger and better rewards just to trigger the same level of satisfaction and pleasure."
+   }
+  ],
+  "flags": []
+ },
+ "The Shared Story": {
+  "C": [
+   {
+    "book": "CONNERTON",
+    "offset": 119787,
+    "quote": "if 1recall something that is because others incite me to recall it, because theirmemory comes to the aid of mine and mine finds support in theirs",
+    "supports": "C: two memory runs, each the other's input (Connerton reporting Halbwachs; one arrival)"
+   },
+   {
+    "book": "BERNS",
+    "offset": 31318,
+    "quote": "When we gather with friends and family to reminisce about the past, it’s often the case of the blind leading the blind.",
+    "supports": "C/F"
+   },
+   {
+    "book": "BERNS",
+    "offset": 31536,
+    "quote": "Your cousin is just as likely as you to misremember events from your childhood. But that doesn’ t stop us from filling in the holes in our memories with whatever source is available.",
+    "supports": "C/F: both stores lossy, each filled from the other"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 119816,
+    "quote": "because others incite me to recall it, because theirmemory comes to the aid of mine and mine finds support in theirs"
+   },
+   {
+    "element": "T",
+    "book": "SCHELL_G",
+    "offset": 1177116,
+    "quote": "showing us what we have in common, and creating shared memories. This combination of factors makes games a great tool to help build and maintain relationships"
+   },
+   {
+    "book": "CONNERTON",
+    "offset": 11797,
+    "quote": "participants in any social order must presuppose a shared memory",
+    "supports": "T"
+   }
+  ],
+  "F": [
+   {
+    "book": "BERNS",
+    "offset": 31318,
+    "quote": "When we gather with friends and family to reminisce about the past, it’s often the case of the blind leading the blind. Who’ s to say what really happened at that Thanksgiving dinner"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "BERNS",
+    "offset": 31002,
+    "quote": "Recordings are snapshots in time and have the advantage of being relatively immutable."
+   },
+   {
+    "element": "push",
+    "book": "BERNS",
+    "offset": 31318,
+    "quote": "When we gather with friends and family to reminisce about the past, it’s often the case of the blind leading the blind."
+   },
+   {
+    "element": "push",
+    "book": "BERNS",
+    "offset": 31536,
+    "quote": "Your cousin is just as likely as you to misremember events from your childhood."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 184134,
+    "quote": "Witnesses who exchange their experiences will tend to make similar errors in their testimony, reducing the total value of the information they provide."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 183887,
+    "quote": "When there are multiple witnesses to an event, they are not allowed to discuss it before giving their testimony."
+   },
+   {
+    "book": "CONNERTON",
+    "offset": 119787,
+    "quote": "if 1recall something that is because others incite me to recall it, because theirmemory comes to the aid of mine and mine finds support in theirs",
+    "supports": "C: two memory runs, each the other's input (Connerton reporting Halbwachs; one arrival)"
+   },
+   {
+    "book": "BERNS",
+    "offset": 31318,
+    "quote": "When we gather with friends and family to reminisce about the past, it’s often the case of the blind leading the blind.",
+    "supports": "C/F"
+   },
+   {
+    "book": "BERNS",
+    "offset": 31536,
+    "quote": "Your cousin is just as likely as you to misremember events from your childhood. But that doesn’ t stop us from filling in the holes in our memories with whatever source is available.",
+    "supports": "C/F: both stores lossy, each filled from the other"
+   },
+   {
+    "book": "BERNS",
+    "offset": 31002,
+    "quote": "Recordings are snapshots in time and have the advantage of being relatively immutable.",
+    "supports": "push"
+   }
+  ]
+ },
+ "The Echo": {
+  "C": [
+   {
+    "book": "HENRICH",
+    "offset": 314002,
+    "quote": "when two people are having a positive conversational experience, getting to know one another, they will be unconsciously mimicking each other"
+   },
+   {
+    "book": "LOWERY",
+    "offset": 241429,
+    "quote": "We all co-construct the reality that constitutes the play of our lives, and in doing so we continually make and remake the selves, including our own, that are the players."
+   }
+  ],
+  "T": [
+   {
+    "book": "HENRICH",
+    "offset": 314096,
+    "quote": "they will be unconsciously mimicking each other, in their body positions, vocal frequencies, movements, and facial expressions"
+   },
+   {
+    "book": "LOWERY",
+    "offset": 241242,
+    "quote": "And who you become in this new relationship will also affect who you are in your existing relationships."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "LOWERY",
+    "offset": 242134,
+    "quote": "They read their lines and I read mine."
+   },
+   {
+    "element": "F",
+    "book": "LOWERY",
+    "offset": 242591,
+    "quote": "The interaction diminished possibilities of what I could be in that moment as well as what I could be in the future."
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 210171,
+    "quote": "But they must have been unfriendly partly because we were afraid and not friendly to them."
+   }
+  ],
+  "flags": []
+ },
+ "Gaming the Terms": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 269098,
+    "quote": "In the 1970s, the state of Vermont adopted a land-use law called Act 250 that requires a complex approval process for subdivisions that create lots of ten acres or less. Now Vermont has an extraordinary number of lots just a little over ten acres.",
+    "supports": "C: threshold (Line) and follower on own account (Outfall)"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 268278,
+    "quote": "Rule beating means evasive action to get around the intent of a system’s rules—abiding by the letter, but not the spirit, of the law.",
+    "supports": "C/F"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 270679,
+    "quote": "One is to try to stamp out the self-organizing response by strengthening the rules or their enforcement—usually giving rise to still greater system distortion. That’s the way further into the trap. The way out of the trap, the opportunity, is to understand rule beating as useful feedback, and to revise, improve, rescind, or better explain the rules.",
+    "supports": "C: return to the rule-maker / push"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 180991,
+    "quote": "nearly half of the houses magically just happened to have the tax-eﬃ cient number of windows: nine, fourteen, or nineteen.",
+    "supports": "C: bands (Line) and landing on the passing side (Outfall)"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 181542,
+    "quote": "Th e Window Tax was eventually abolished in 1851, after years of com- plaints that lack of windows created environments in which disease and health issues could run rampant.",
+    "supports": "C: off-account cost and return to the rule-maker / F"
+   },
+   {
+    "book": "MCG",
+    "offset": 38992,
+    "quote": "If I say that you’re gaming the system, what I mean is that you’re exploiting it for your own personal gain. Sure, you’re technically following the rules, but you’re playing in ways you’re not meant to play .",
+    "supports": "Outfall leg / F"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "MEADOWS",
+    "offset": 270488,
+    "quote": "Rule beating is usually a response of the lower levels in a hierarchy to overrigid, deleterious, unworkable, or ill-defined rules from above"
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 181150,
+    "quote": "the creativity of citizens when it comes to finding loopholes around bad tax incentives"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 270288,
+    "quote": "The “letter of the law” is met, the spirit of the law is not"
+   },
+   {
+    "element": "F",
+    "book": "MCG",
+    "offset": 39107,
+    "quote": "you’re technically following the rules, but you’re playing in ways you’re not meant to play"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "book": "MEADOWS",
+    "offset": 269098,
+    "quote": "In the 1970s, the state of Vermont adopted a land-use law called Act 250 that requires a complex approval process for subdivisions that create lots of ten acres or less. Now Vermont has an extraordinary number of lots just a little over ten acres.",
+    "supports": "C: threshold (Line) and follower on own account (Outfall)"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 268278,
+    "quote": "Rule beating means evasive action to get around the intent of a system’s rules—abiding by the letter, but not the spirit, of the law.",
+    "supports": "C/F"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 270679,
+    "quote": "One is to try to stamp out the self-organizing response by strengthening the rules or their enforcement—usually giving rise to still greater system distortion. That’s the way further into the trap. The way out of the trap, the opportunity, is to understand rule beating as useful feedback, and to revise, improve, rescind, or better explain the rules.",
+    "supports": "C: return to the rule-maker / push"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 180991,
+    "quote": "nearly half of the houses magically just happened to have the tax-eﬃ cient number of windows: nine, fourteen, or nineteen.",
+    "supports": "C: bands (Line) and landing on the passing side (Outfall)"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 181542,
+    "quote": "Th e Window Tax was eventually abolished in 1851, after years of com- plaints that lack of windows created environments in which disease and health issues could run rampant.",
+    "supports": "C: off-account cost and return to the rule-maker / F"
+   },
+   {
+    "book": "MCG",
+    "offset": 38992,
+    "quote": "If I say that you’re gaming the system, what I mean is that you’re exploiting it for your own personal gain. Sure, you’re technically following the rules, but you’re playing in ways you’re not meant to play .",
+    "supports": "Outfall leg / F"
+   }
+  ]
+ },
+ "The Naming Contest": {
+  "C": [],
+  "T": [
+   {
+    "book": "KOSTER",
+    "offset": 8496,
+    "quote": "A shared language is developing, allowing both sides to speak about games"
+   },
+   {
+    "book": "LEMAR",
+    "offset": 124263,
+    "quote": "What you call graybox I might call blockmesh. That’s why I try to avoid using jargon until I’m sure that the person I’m talking to understands a particular term."
+   }
+  ],
+  "F": [],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "LEMAR",
+    "offset": 124263,
+    "quote": "What you call graybox I might call blockmesh. That’s why I try to avoid using jargon until I’m sure that the person I’m talking to understands a particular term"
+   }
+  ]
+ },
+ "The Arrangement": {
+  "C": [],
+  "T": [],
+  "F": [],
+  "flags": []
+ },
+ "The Tested Price": {
+  "C": [
+   {
+    "book": "VOSS",
+    "offset": 227448,
+    "quote": "If the other guy’s a pro, a shark, he’s going to go for an extreme anchor in order to bend your reality."
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 446829,
+    "quote": "anchoring and insuﬃ cient adjustment"
+   }
+  ],
+  "T": [
+   {
+    "book": "VOSS",
+    "offset": 226688,
+    "quote": "The real issue is that neither side has perfect information going to the table."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "VOSS",
+    "offset": 226499,
+    "quote": "It was only after he started that he realized that the firm had started everybody else in his program at $125,000"
+   }
+  ],
+  "flags": []
+ },
+ "Held Silence": {
+  "C": [
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 405614,
+    "quote": "People can get trapped at an inef ficient equilibrium, everyone waiting for the others to switch, nobody willing to be the first unless he has confidence that enough others will switch to make it worthwhile."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "LOWERY",
+    "offset": 59750,
+    "quote": "you also don’t talk to strangers and generally try to mind your own business. These unspoken rules help minimize uncomfortable situations and disruptions of our daily commutes."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 117566,
+    "quote": "At the extreme there may be no one willing to be the youngest or the shortest or the poorest, or to be the first—to stand up, to start clapping, to speak out, or to swim naked."
+   },
+   {
+    "element": "F",
+    "book": "BROWNST",
+    "offset": 564520,
+    "quote": "If you don’ t know whether your neighbors will join you in the streets because you don’ t know what they know , it’s also likely terrifying enough to keep you home."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 405614,
+    "quote": "People can get trapped at an inef ficient equilibrium, everyone waiting for the others to switch, nobody willing to be the first unless he has confidence that e"
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 405712,
+    "quote": "nobody willing to be the first unless he has confidence that enough others will switch to make it worthwhile"
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 405389,
+    "quote": "If an inefficient Left choice has become established, no individual will choose Right unless he expects others to do so; this condition will require some organized switch"
+   }
+  ]
+ },
+ "Transmission Drift": {
+  "C": [
+   {
+    "book": "BERNS",
+    "offset": 42302,
+    "quote": "the memory itself has been told and retold so often that it may have more in common with the feast’ s leftovers: a distorted version of the original"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "BERNS",
+    "offset": 42522,
+    "quote": "True or not, this memory is a touchstone for my past-self"
+   },
+   {
+    "element": "T",
+    "book": "LOWERY",
+    "offset": 424818,
+    "quote": "When we need to make sense of the world we tell a story about ourselves"
+   }
+  ],
+  "F": [
+   {
+    "book": "BERNS",
+    "offset": 33663,
+    "quote": "inaccurate memories were more likely to be repeated than corrected, further ingraining them into people’ s brains."
+   }
+  ],
+  "flags": []
+ },
+ "The Faithful Chain": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 298871,
+    "quote": "are willing to pay deference to those models in order to gain their cooperation"
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 274647,
+    "quote": "people are more likely to copy irrelevant actions when the model is older and higher in prestige."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 272352,
+    "quote": "faith in one’s cultural inheritance often favors greater survival and reproduction."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 118667,
+    "quote": "learners automatically and unconsciously imitate their chosen models"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "HENRICH",
+    "offset": 271807,
+    "quote": "Crucial to making cultural adaptations like manioc, corn, or nardoo processing work is not only faithfully copying all the steps"
+   },
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 223867,
+    "quote": "the characteristics of each king atthe time of his death were handed down orally and mimetically"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 274398,
+    "quote": "People even copy the irrelevant actions when they are"
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 54272,
+    "quote": "humans are prolific, spontaneous, and automatic imitators, even willing to copy seemingly unnecessary or purely stylistic steps."
+   }
+  ],
+  "flags": []
+ },
+ "First-Arriver Lock-In": {
+  "C": [
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 248311,
+    "quote": "This system trap is found whenever the winners of a competition receive, as part of the reward, the means to compete even more effectively in the future."
+   },
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 249190,
+    "quote": "The family that won the first year spent the $100 on more Christmas lights."
+   },
+   {
+    "element": "C",
+    "book": "MEADOWS",
+    "offset": 248712,
+    "quote": "The ones who manage to be first at building “hotels” on their property are able to extract “rent” from the other players—which they can then use to buy more hotels."
+   },
+   {
+    "element": "C",
+    "book": "KOSTER",
+    "offset": 231204,
+    "quote": "It is an expression of iterative zero-sum games—games in which the winner ends up in a better position than the loser ."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "KOSTER",
+    "offset": 231472,
+    "quote": "This is not in itself a problem—it simply leads to victory"
+   },
+   {
+    "element": "T",
+    "book": "SELLERS",
+    "offset": 591567,
+    "quote": "This creates a divergence between players that can be useful but can also destroy the engagement"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 250627,
+    "quote": "One will gain a slight advantage, through greater efficiency or smarter investment or better technology or bigger bribes, or whatever."
+   },
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 249500,
+    "quote": "If the winning takes place in a limited environment, such that everything the winner wins is extracted from the losers, the losers are gradually bankrupted, or forced out, or starved."
+   },
+   {
+    "element": "F",
+    "book": "KOSTER",
+    "offset": 231533,
+    "quote": "The problem arises when a novice coming to the game cannot possibly succeed."
+   }
+  ],
+  "flags": []
+ },
+ "The Shared Pot": {
+  "C": [
+   {
+    "book": "OSTROM",
+    "offset": 307415,
+    "quote": "What an operator does not withdraw today will be withdrawn, at least in part, by rival"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 307658,
+    "quote": "The two incentives reinforce one another to aggravate the intensity of the pumping race"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 205019,
+    "quote": "only those who use the common are af fected by the way it is used, and they are af fected in proportion to how much they use it"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 200513,
+    "quote": "the one in which two people hurt each other more than they help themselves in making self-serving choices"
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 228236,
+    "quote": "In fact, the knowledge that Germany is discussing that possibility is all the more reason to hurry to Germany"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 319208,
+    "quote": "each producer had prescribed against all of the others"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 89537,
+    "quote": "situations in which the users can substantially harm one another, but not situations in which participants can produce major external harm for others"
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 414119,
+    "quote": "you benefit from the use of insecticides by others; the value of your own insecticides is dissipated unless some neighbors use insecticides, too"
+   }
+  ],
+  "F": [
+   {
+    "book": "OSTROM",
+    "offset": 306860,
+    "quote": "each person's withdrawals increase the pumping costs for others. No one bears the full cost of personal actions"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 205703,
+    "quote": "the common pool of petroleum into which dozens of independent oil companies drill their wells, pumping as fast as they can without regard to conservation because what each gets belongs to him and what he leaves is up for grabs"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 231233,
+    "quote": "But he pays ten seconds for his own look and nine minutes, fifty seconds for the curiosity of the drivers ahead of him"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 25850,
+    "quote": "Each herder is motivated to add more and more animals because he receives the direct benefit of his own animals and bears only a share of the costs resulting from overgrazing"
+   }
+  ],
+  "flags": []
+ },
+ "The Hall of Mirrors": {
+  "C": [
+   {
+    "book": "BERGER",
+    "offset": 389212,
+    "quote": "most people in a group privately reject a norm (such as drinking a lot) but incorrectly assume that others accept it, in part because they can see others’ behavior but not their thoughts."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "BERGER",
+    "offset": 389167,
+    "quote": "Pluralistic ignorance refers to a case where most people in a group privately reject a norm (such as drinking a lot) but incorrectly assume that others accept it"
+   },
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 184824,
+    "quote": "The standard practice of open discussion gives too much weight to the opinions of those who speak early and assertively, causing others to line up behind them."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 184601,
+    "quote": "before an issue is discussed, all members of the committee should be asked to write a very brief summary of their position."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 184824,
+    "quote": "The standard practice of open discussion gives too much weight to the opinions of those who speak early and assertively, causing others to line up behind them."
+   },
+   {
+    "element": "push",
+    "book": "BERGER",
+    "offset": 389330,
+    "quote": "in part because they can see others’ behavior but not their thoughts"
+   }
+  ]
+ },
+ "The Inner Circle": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 275971,
+    "quote": "Your coworkers will talk about their work in a shorthand that is pretty impenetrable to anyone who isn’t a gamer."
+   },
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 275751,
+    "quote": "To be effective, a researcher has to get the jokes, use the right code words, and show that they’re part of the in-group."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "LEMAR",
+    "offset": 124556,
+    "quote": "these are all useful shortcut terms that we can use on a team when we’ve agreed that we know what they mean."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL_G",
+    "offset": 1160433,
+    "quote": "If you can speak it as well as they do, they will make a place for you at the table."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "LEMAR",
+    "offset": 124766,
+    "quote": "it keeps people with useful ideas out of the conversation if they happen not to have heard a term before."
+   },
+   {
+    "element": "F",
+    "book": "KOSTER",
+    "offset": 118946,
+    "quote": "Priesthoods develop, terms enter common usage, and soon only the educated few can hack it."
+   },
+   {
+    "element": "F",
+    "book": "HOPSON",
+    "offset": 276166,
+    "quote": "you won’t want to mark yourself as an outsider by having to ask for an explanation"
+   }
+  ],
+  "flags": []
+ },
+ "Proxy Detachment": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 277521,
+    "quote": "In short, we optimize for what we measure."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CLEAR",
+    "offset": 277812,
+    "quote": "Measurement is only useful when it guides you and adds context to a larger picture"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 277344,
+    "quote": "We care more about getting ten thousand steps than we do about being healthy."
+   },
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 273992,
+    "quote": "These examples confuse effort with result, one of the most common mistakes in designing systems around the wrong goal."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CLEAR",
+    "offset": 276590,
+    "quote": "it may be more effective to track how many customers finish their meal"
+   },
+   {
+    "element": "push",
+    "book": "CLEAR",
+    "offset": 277812,
+    "quote": "Measurement is only useful when it guides you and adds context to a larger picture, not when it consumes you."
+   },
+   {
+    "element": "push",
+    "book": "CLEAR",
+    "offset": 278623,
+    "quote": "sometimes it helps to shift your focus to something entirely different"
+   }
+  ]
+ },
+ "The Slow Hand": {
+  "C": [
+   {
+    "book": "DUCK",
+    "offset": 115370,
+    "quote": "I f w e don ’ t follow the script o f a behavior setting , h e said , the setting coerces u s into compliance . Through social norms a n d sometimes physical obsta cl e s"
+   }
+  ],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 111929,
+    "quote": "What worries m e i s how rarely w e seek strength i n our situations ."
+   }
+  ],
+  "F": [
+   {
+    "book": "DUCK",
+    "offset": 115643,
+    "quote": "And i f you don ’ t fall i n line , Barker warned , then the setting vetoe s you ."
+   },
+   {
+    "book": "DUCK",
+    "offset": 115302,
+    "quote": "w e must train our e y e o n the place , not the person ."
+   }
+  ],
+  "flags": []
+ },
+ "The Outfall": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 231621,
+    "quote": "they are at the mercy of a decentralized accounting system according to which no driver suf fers the losses that he imposes on the people behind him."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 359990,
+    "quote": "cases in which Person A’s free actions may damage Person B"
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 233593,
+    "quote": "People do things, or abstain from doing things, that af fect others, beneficially or adversely ."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 151111,
+    "quote": "Shortly , most infants were vaccinated, and the unvaccinated were too few to sustain an epidemic."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 186188,
+    "quote": "If you try to solve a sewage problem by throwing the waste into a river, the towns downstream make it clear that the boundary for thinking about sewage has to include the whole river."
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 206959,
+    "quote": "my exhaust emissions will contribute to the eye and lung irritation of people who live nearby and do not use the turnpik"
+   }
+  ],
+  "flags": []
+ },
+ "The Line": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 438470,
+    "quote": "these qualitative all-or -none kinds of thresholds are often susceptible to undermining."
+   },
+   {
+    "book": "BROWNST",
+    "offset": 226978,
+    "quote": "people tend to have an all-or - nothing bias in their perception of change."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 274458,
+    "quote": "the problem is thinking that if you can’t do something perfectly, then you shouldn’t do it at all."
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 438313,
+    "quote": "even he could not have proposed that penetrating just “a little bit” into China proper wouldn’ t have mattered much because it was only a little bit."
+   }
+  ],
+  "F": [
+   {
+    "book": "BROWNST",
+    "offset": 227492,
+    "quote": "People tend to check out when they see all failures as the same. They become disenchanted and stop trying."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 274360,
+    "quote": "Too often, we fall into an all-or- nothing cycle with our habits. The problem is not slipping up; the problem is thinking that if you can’t do something perfectly, then you shouldn’t do it at all."
+   }
+  ],
+  "flags": []
+ },
+ "The Learning Gradient": {
+  "C": [
+   {
+    "book": "KOSTER",
+    "offset": 41901,
+    "quote": "When a game stops teaching us, we feel bored. Boredom is the brain casting about for new information. It is the feeling you get when there are no new patterns to absorb."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 319551,
+    "quote": "the more you practice something, the more boring and routine it becomes. Once the beginner gains have been made and we learn what to expect, our interest starts to fade."
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 315964,
+    "quote": "The Goldilocks Rule states that humans experience peak motivation when working on tasks that are right on the edge of their current abilities."
+   },
+   {
+    "book": "MCG",
+    "offset": 49677,
+    "quote": "in a good computer or video game you’re always playing on the very edge of your skill level"
+   }
+  ],
+  "F": [
+   {
+    "book": "CLEAR",
+    "offset": 320391,
+    "quote": "As soon as we experience the slightest dip in motivation, we begin seeking a new strategy —even if the old one was still working."
+   }
+  ],
+  "flags": []
+ },
+ "The Cascade": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 304752,
+    "quote": "An availability cascade is a self-sustaining chain of events, which may start from media reports of a relatively minor event and lead up to public panic and large-scale government action."
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 311888,
+    "quote": "availability cascades may have a long-term benefit by calling attention to classes of risks"
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 305867,
+    "quote": "The availability cascade has now reset priorities. Other risks, and other ways that resources could be applied for the public good, all have faded into the background."
+   }
+  ],
+  "flags": []
+ },
+ "The Flywheel": {
+  "C": [
+   {
+    "book": "DUCK",
+    "offset": 453398,
+    "quote": "situational advantage begets situational advantage"
+   }
+  ],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 485087,
+    "quote": "not only will you be your best self more often, your best self will get better"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 135757,
+    "quote": "If you’re not careful about cues, you can cause the very behavior you want to stop. Bad habits are autocatalytic: the process feeds itself."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "DUCK",
+    "offset": 453474,
+    "quote": "a seemingly trivia l initial advantage multiplies , growing larger and larger with each revolution o f the situation - thoughts - response cycle"
+   },
+   {
+    "element": "push",
+    "book": "DUCK",
+    "offset": 484864,
+    "quote": "We ’ r e not very good a t predi ct ing how a certain nudge will play out until w e try i t"
+   }
+  ]
+ },
+ "The Agenda": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 15879,
+    "quote": "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory—and this is largely determined by the extent of coverage in the media. Frequently mentioned topics populate the mind even as others slip away from awareness. In turn, what the media choose to report corresponds to their view of what is currently on the public’s mind."
+   },
+   {
+    "book": "HENRICH",
+    "offset": 317238,
+    "quote": "the media continues to cover those who people want to know more about, and a celebrity is born—seemingly from nothing. This process got started because the initial media coverage caused some people to mistakenly infer that others were attending to a particular person."
+   }
+  ],
+  "T": [
+   {
+    "book": "BROWNST",
+    "offset": 90264,
+    "quote": "Media coverage of alcohol-impaired driving shot up in the ’80s, often featuring representatives from MADD."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 16060,
+    "quote": "Frequently mentioned topics populate the mind even as others slip away from awareness."
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 317390,
+    "quote": "the initial media coverage caused some people to mistakenly infer that others were attending to a particular person."
+   }
+  ],
+  "flags": []
+ },
+ "The Contagion": {
+  "C": [
+   {
+    "book": "EPLEY",
+    "offset": 159418,
+    "quote": "Both the surprising ly positive pleasure of connecting and the pain of being avoided are contagious."
+   },
+   {
+    "book": "BROWN",
+    "offset": 84269,
+    "quote": "this act of vulnerability is predicta bly perceived as courageous by team membe rs and inspires others to follow suit."
+   }
+  ],
+  "T": [
+   {
+    "book": "EPLEY",
+    "offset": 377171,
+    "quote": "leading the recipient of our kindness to “pay it forward” by being kinder to someone else down the line."
+   },
+   {
+    "book": "BROWN",
+    "offset": 83717,
+    "quote": "V ulnerability begets vulnerability; courage is contagious."
+   }
+  ],
+  "F": [
+   {
+    "book": "EPLEY",
+    "offset": 159286,
+    "quote": "people who were ignored in the waiting room by the other person felt just as mediocre as the people we asked to keep to themselves. Both the surprising ly positive pleasure of connecting and the pain of being avoided are contagious."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "EPLEY",
+    "offset": 377171,
+    "quote": "leading the recipient of our kindness to “pay it forward” by being kinder to someone else down the line."
+   }
+  ]
+ },
+ "The Frame": {
+  "C": [
+   {
+    "book": "BERNS",
+    "offset": 371309,
+    "quote": "by making it easy to adopt others’ points of view , ToM provides a back door into our brains, and if we are not vigilant, all sorts of bogus facts can get intermixed with ongoing streams of information, hijacking our narratives."
+   }
+  ],
+  "T": [
+   {
+    "book": "VOSS",
+    "offset": 96120,
+    "quote": "We spotted their feelings, turned them into words, and then very calmly and respectfully repeated their emotions back to them. In a negotiation, that’s called labeling."
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 802790,
+    "quote": "most of us passively accept decision problems as they are framed and therefore rarely have an opportunity to discover the extent to which our preferences are frame- bound rather than reality-bound"
+   },
+   {
+    "book": "BERNS",
+    "offset": 371851,
+    "quote": "Surround yourself with people who tell fantastical stories of alien abductions and CIA cover -ups, and you will begin to see the world that way."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 802132,
+    "quote": "simplify their task by adopting a common frame, perhaps by translating the LOSE amount into its KEEP equivalent"
+   },
+   {
+    "element": "push",
+    "book": "BERNS",
+    "offset": 371407,
+    "quote": "if we are not vigilant, all sorts of bogus facts can get inter"
+   }
+  ]
+ },
+ "The Rising Peak": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 31544,
+    "quote": "When people later choose which episode to repeat, they are, naturally, guided by their remembering self"
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 848283,
+    "quote": "people choose by memory when they decide whether or not to repeat an experience."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 832910,
+    "quote": "Fully 80% of the participants who reported that their pain diminished during the final phase of the longer episode opted to repeat it, thereby declaring themselves willing to suffer 30 seconds of needless pain"
+   }
+  ],
+  "flags": []
+ },
+ "Identity Ratchet": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 62792,
+    "quote": "Your habits shape your identity, and your identity shapes your habits. It’s a two-way street."
+   },
+   {
+    "book": "EIJK",
+    "offset": 60959,
+    "quote": "Repeating this behavior over and over makes your beliefs (and thus, algorithms) adjust too."
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 59047,
+    "quote": "Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity."
+   },
+   {
+    "book": "EIJK",
+    "offset": 60857,
+    "quote": "When you choose a desirab le behavior , your brain will tell you that this is indeed the best choice."
+   }
+  ],
+  "F": [
+   {
+    "book": "CLEAR",
+    "offset": 54803,
+    "quote": "The more deeply a thought or action is tied to your identity, the more difficult it is to change it."
+   }
+  ],
+  "flags": []
+ },
+ "The Norm Cascade": {
+  "C": [
+   {
+    "book": "BROWNST",
+    "offset": 187514,
+    "quote": "Telling readers how “more and more” people are reducing meat consu mption can be a more powerf ul driver of norm change than describing the stats as static"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 188345,
+    "quote": "Even just learning about an emer ging norm can galvanize action."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BERGER",
+    "offset": 251505,
+    "quote": "But by providing social proof that others were stealing, the message had a perverse effect, almost doubling the number of people taking wood!"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "BERGER",
+    "offset": 250904,
+    "quote": "Rather than making the private public, preventing a behavior requires the opposite: making the public private."
+   },
+   {
+    "element": "push",
+    "book": "BERGER",
+    "offset": 251902,
+    "quote": "By focusing on the positive effects of not taking the wood, rather than on what others were doing, the park service was able to reduce theft."
+   }
+  ]
+ },
+ "Perverse Feedback": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 378710,
+    "quote": "The instructor had attached a causal interpretation to the inevitable fluctuations of a random process."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 377890,
+    "quote": "occasions on which he praised a performance were likely to be followed by a disappointing performance, and punishments were typically followed by an improvement."
+   }
+  ],
+  "flags": []
+ },
+ "The Anchor": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 252746,
+    "quote": "It occurs when people consider a particular value for an unknown quantity before estimating that quantity. What happens is one of the most reliable and robust results of experimental psychology: the estimates stay close to the number that people considered"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 254813,
+    "quote": "start from an anchoring number, assess whether it is too high or too low, and gradually adjust your estimate by mentally “moving” from the anchor."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 252307,
+    "quote": "The spin of a wheel of fortune—even one that is not rigged—cannot possibly yield useful information about anything, and the participants in our experiment should simply have ignored it. But they did not ignore it."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 270786,
+    "quote": "They instructed negotiators to focus their attention and search their memory for arguments against the anchor."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 271184,
+    "quote": "a strategy of deliberately “thinking the opposite” may be a good defense against anchoring effects"
+   }
+  ]
+ },
+ "Borrowed Faith": {
+  "C": [
+   {
+    "book": "DUCK",
+    "offset": 262266,
+    "quote": "You believe i n yourself because someone else you respect and admire believes i n you ."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "DUCK",
+    "offset": 262266,
+    "quote": "You believe in yourself because someone else you respect and admire believes in you."
+   },
+   {
+    "element": "T",
+    "book": "DUCK",
+    "offset": 265013,
+    "quote": "the inner voice that says, “I can do this!” begins with an outer voice"
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Presenting Problem": {
+  "C": [
+   {
+    "book": "STANIER",
+    "offset": 60282,
+    "quote": "as soon as you start hearing what a doctor might call “the presenting challenge,” every fibre of your body is twitching with a desire to fix it, solve it, offer a solution to it."
+   },
+   {
+    "book": "STANIER",
+    "offset": 61274,
+    "quote": "They could be describing any number of things: a symptom, a secondary issue, a ghost of a previous problem which is comfortably familiar"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "STANIER",
+    "offset": 73014,
+    "quote": "When someone pops his head around the door and asks, “Do you know where the folder is?” tell him where the folder is."
+   }
+  ],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 60568,
+    "quote": "coming up with decent solutions to problems that just don’t matter, and why the real challenges often go unaddressed."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 66202,
+    "quote": "The only question is where to start: with the first challenge mentioned, or with the one for which you’re most confident about providing the answer."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 46134,
+    "quote": "the first answer someone gives you is almost never the only answer, and it’s rarely the best answer."
+   }
+  ]
+ },
+ "The Rescue": {
+  "C": [
+   {
+    "book": "STANIER",
+    "offset": 100456,
+    "quote": "Rescuer The core belief : “Don’t fight, don’t worry, let me jump in and take it on and fix it.”"
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 100769,
+    "quote": "You create Victims and perpetuate the Drama Triangle."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 104745,
+    "quote": "asking the Lazy Question—“How can I help?”—to pull yourself out of the triangle faster."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 104911,
+    "quote": "First, you’re forcing your colleague to make a direct and clear request."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 100645,
+    "quote": "You feel morally superior; you believe you’re indispensable."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 99586,
+    "quote": "You have no responsibility for fixing anything; you get to complain; you attract Rescuers."
+   }
+  ]
+ },
+ "Crowd-Out": {
+  "C": [
+   {
+    "book": "CHATER",
+    "offset": 70304,
+    "quote": "The green-ener gy nudge gives people the false hope that the problem of climate change can be addressed without imposing costlier , but immeasurably more effective, policies."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 196059,
+    "quote": "Studies like this give reason to think that personal behavior changes don’t necessarily crowd out actions focused on structural change. They can crowd them in too."
+   },
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 194624,
+    "quote": "In these examples of positive spillover , the values expressed in one decision carry forward and posit ively reinforce decisions about other things in the future."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 42799,
+    "quote": "They “crowd out” support for (and indeed attention to) much needed, more effective conventional system-changing policies."
+   },
+   {
+    "element": "F",
+    "book": "BROWNST",
+    "offset": 35274,
+    "quote": "Another study found that framing solutions in terms of individual consumer choic es decreases people’ s willingness to take other forms of action to fight climate change."
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 76956,
+    "quote": "when the carbon tax was framed as costly to individuals, the authors observed “crowding out”"
+   },
+   {
+    "element": "F",
+    "book": "BROWNST",
+    "offset": 193816,
+    "quote": "the whole impetus behind corporate campaigns against littering and for carbon footprint monitoring has been to keep the public complacent and distracted"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 42799,
+    "quote": "They “crowd out” support for (and indeed attention to) much needed, more effective conventional system-changing policies."
+   },
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 70304,
+    "quote": "The green-ener gy nudge gives people the false hope that the problem of climate change can be addressed without imposing costlier , but immeasurably more effective, policies."
+   }
+  ]
+ },
+ "Choice Architecture": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 905417,
+    "quote": "the framing of the individual’s decision—Thaler and Sunstein call it choice architecture —has a huge effect on the outcome. The nudge is based on sound psychology, which I described earlier. The default option is naturally perceived as the normal choice."
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 114631,
+    "quote": "Thorndike and her colleagues designed a six-month study to alter the “choice architecture” of the hospital cafeteria."
+   },
+   {
+    "book": "CLEAR",
+    "offset": 114452,
+    "quote": "eating habits of thousands of hospital staff and visitors without changing their willpower or motivation in the slightest way"
+   }
+  ],
+  "F": [
+   {
+    "book": "CHATER",
+    "offset": 662365,
+    "quote": "Sunstein and Thaler refer to the use of nudges against citizens’ interests for purposes of exploitation and manipulation as “sludge”—e.g., defaulting consu mers into products they are unlikely to want"
+   },
+   {
+    "book": "KAHN",
+    "offset": 790260,
+    "quote": "Salespeople quickly learn that manipulation of the context in which customers see a good can profoundly influence preferences."
+   }
+  ],
+  "flags": []
+ },
+ "The Focusing Illusion": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 878534,
+    "quote": "System 1 readily substitutes a small part of it for the whole of it. Any aspect of life to which attention is directed will loom"
+   },
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 569251,
+    "quote": "entrepreneurs naturally focus on what they know best—their plans and actions and the most immediate threats and opportunities"
+   },
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 569845,
+    "quote": "If you only think about your own business, you think, “I’ve got a good story department, I’ve got a good marketing department, we’re going to go out and do this.” And you don’t think that everybody else is thinking the same way."
+   },
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 570304,
+    "quote": "The competition is simply not part of the decision, in which a difficult question has again been replaced by an easier one."
+   },
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 570720,
+    "quote": "The familiar System 1 processes of WY SIATI and substitution produce both competition neglect and the above-average effect."
+   },
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 570539,
+    "quote": "The question the studio executives considered is simpler and refers to knowledge that is most easily available to them: Do we have a good film and a good organization to market it?"
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 878803,
+    "quote": "Nothing in life is as important as you think it is when you are thinking about it."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 889098,
+    "quote": "you will eventually pay little attention to the car as you drive it, but you will always attend to the social interaction to which you committed yourself."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 878803,
+    "quote": "Nothing in life is as important as you think it is when you are thinking about it."
+   }
+  ]
+ },
+ "Each Other's Situation": {
+  "C": [
+   {
+    "book": "BROWNST",
+    "offset": 179858,
+    "quote": "We are each other ’s situations."
+   },
+   {
+    "book": "DUCK",
+    "offset": 14781,
+    "quote": "keep you accountable , inspire you , and , most of all , enable you to do the same for them"
+   }
+  ],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 14781,
+    "quote": "keep you accountable , inspire you , and , most of all , enable you to do the same for them"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BROWNST",
+    "offset": 180216,
+    "quote": "The fact that smokers help make other smokers shows how we’re all social influencers."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "BROWNST",
+    "offset": 180596,
+    "quote": "Individuals who cultivate it influence others by shaping their shared situations. Confucian ethics sweats the small stuff. It directs people to pay meticulous attention to their mannerisms, tone of voice, posture, and expressions."
+   },
+   {
+    "element": "push",
+    "book": "DUCK",
+    "offset": 14687,
+    "quote": "You can also pick your peers — ideally a group of like-minded people who will keep you accountable, inspire you, and, most of all, enable you to do the same for them."
+   }
+  ]
+ },
+ "Flower Watering": {
+  "C": [
+   {
+    "book": "TNHF",
+    "offset": 11910,
+    "quote": "If something triggers one of the seeds—for example if someone says something unkind that waters your seed of anger—the seed of anger will come up and manifest in the upper level of consciousness"
+   },
+   {
+    "book": "TNHLO",
+    "offset": 55114,
+    "quote": "We are the gardeners who identify, water, and cultivate the best seeds in ourselves and in others."
+   }
+  ],
+  "T": [
+   {
+    "book": "TNHF",
+    "offset": 61782,
+    "quote": "“flower watering” (expressing our appreciation)"
+   },
+   {
+    "book": "TNHF",
+    "offset": 61914,
+    "quote": "We look deeply to see the positive qualities in the other person and express our appreciation for them."
+   }
+  ],
+  "F": [
+   {
+    "book": "TNHF",
+    "offset": 11964,
+    "quote": "someone says something unkind that waters your seed of anger"
+   },
+   {
+    "book": "TNHF",
+    "offset": 12116,
+    "quote": "Loving speech requires that we notice when we’re watering unwholesome seeds such as envy, anger"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "TNHF",
+    "offset": 61914,
+    "quote": "We look deeply to see the positive qualities in the other person and express our appreciation for them."
+   }
+  ]
+ },
+ "The Held Commitment": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 285464,
+    "quote": "A habit contract is a verbal or written agreement in which you state your commitment to a particular habit and the punishment that will occur if you don’t follow through."
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 325165,
+    "quote": "Willing participants pledged that t",
+    "note": "Gneezy reporting Royer, Stehr & Sydnor"
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 144122,
+    "quote": "The mixed signal happens when you set individual incentives but emphasize the importance of team eﬀ ort."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 144272,
+    "quote": "Do they follow the talking points or the money? Th ey follow the money."
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 285635,
+    "quote": "Then you find one or two people to act as your accountability partners and sign off on the contract with you."
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 331071,
+    "quote": "you know your friend is waiting for you, and you don’t want to disappoint them."
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 121351,
+    "quote": "Don’t tell your team to take risks and then punish them for failure"
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 144735,
+    "quote": "When you want to encourage teamwork, you need to use team incen- tives"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 324702,
+    "quote": "People who had gone to the gym before reverted to their previous level of gym attendance after the incentives were removed."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "GNEEZY",
+    "offset": 326392,
+    "quote": "the group that took up the commitment contract retained half of their incentive-induced increase in exercising."
+   },
+   {
+    "element": "push",
+    "book": "GNEEZY",
+    "offset": 324702,
+    "quote": "People who had gone to the gym before reverted to their previous level of gym attendance after the incentives were removed."
+   }
+  ]
+ },
+ "Dual Entitlement": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 667866,
+    "quote": "We described the rules as defining dual entitlements to the firm and to individuals with whom it interacts."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 669848,
+    "quote": "Employers who violate rules of fairness are punished by reduced productivity"
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "Coaching the Ghost": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 67742,
+    "quote": "A solid forty-five minutes talking about John. And no doubt it’s a thoroughly entertaining conversation, at the end of which you both feel much better"
+   },
+   {
+    "book": "STANIER",
+    "offset": 68237,
+    "quote": "you can coach only the person in front of you."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 63987,
+    "quote": "The “for you” is what pins the question to the person you’re talking to."
+   },
+   {
+    "element": "push",
+    "book": "STANIER",
+    "offset": 68237,
+    "quote": "you can coach only the person in front of you."
+   }
+  ]
+ },
+ "The Commemoration": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 518,
+    "quote": "images of the past and recollected knowledge of the past are conveyed and sustained by ritual performances and that performative memory is bodily."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CONNERTON",
+    "offset": 332686,
+    "quote": "practices therefore contain a measure of insurance against the process of cumulative questioning entailed in all discursive practices."
+   }
+  ],
+  "flags": []
+ },
+ "Mutual Monitoring": {
+  "C": [
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 176279,
+    "quote": "monitoring produces private benefits for the monitor as well as joint benefits for others"
+   }
+  ],
+  "T": [
+   {
+    "book": "OSTROM",
+    "offset": 276067,
+    "quote": "The individual who finds a rule­ infractor gains status and prestige for being a good protector of the com­ mons."
+   },
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 276517,
+    "quote": "In the Spanish huertas, a portion of the fines is kept by the guards; the Japanese detectives also keep the sake they collect from infractors."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 458601,
+    "quote": "Several administrative secretaries indicated when interviewed that they did not file official actions against irrigators for water poaching even though they \"regularly file cases in the event of non-payment of the acreage taxes upon which they depend for their remuneration\""
+   },
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 458079,
+    "quote": "Although 200 reports of water poaching had been submitted, none had been officially pursued."
+   }
+  ],
+  "flags": []
+ },
+ "Critical Mass": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 170648,
+    "quote": "What all of the critical-mass models involve is some activity that is self-sustaining once the measure of that activity passes a certain minimum level."
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 166211,
+    "quote": "If enough clap, the whole class may break into applause"
+   }
+  ],
+  "F": [
+   {
+    "book": "SCHELL",
+    "offset": 175218,
+    "quote": "when they drop out, another two or three find it not lar ge enough and when they drop out, another two or three."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 406470,
+    "quote": "if it achieves the lar ger number corresponding to the intersection, it can induce everybody else to shift."
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 407506,
+    "quote": "without enough people to carry themselves over the hump"
+   }
+  ]
+ },
+ "The Tradition of Non-Use": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 441398,
+    "quote": "That the Soviets had absorbed this nuclear inhibition was dramatically demonstrated during their protracted campaign in Afghanistan."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 442026,
+    "quote": "nineteen-year nuclear silence had stretched into a fourth and then a fifth decade"
+   }
+  ],
+  "F": [
+   {
+    "book": "TANN",
+    "offset": 56568,
+    "quote": "A tradition, he suggests, depends heavily on precedent and is easily disrupted by a violation, whereas a taboo is more robust."
+   }
+  ],
+  "flags": []
+ },
+ "Tipping": {
+  "C": [
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 281157,
+    "quote": "Everyone is concerned about the color ratio within the neighborhood but not with the arrangement of colors within the neighborhood."
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 283925,
+    "quote": "People in the area move out if the ratio is not within their color limit; people outside move in if they see that it meets their demands."
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 289056,
+    "quote": "A similar rule governs entry and departure of blacks."
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 289330,
+    "quote": "Within the white curve but outside the black curve, whites will be coming into the area and blacks departing"
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 182911,
+    "quote": "Their departure left openings, so more members of the minority could enter; the increase in new residents induced more of the old to leave, and so forth in the familiar process."
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 184437,
+    "quote": "The tipping model is a special case—a broad class of special cases—of critical-mass phenomena."
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 184754,
+    "quote": "the critical numbers relate to two or more distinct groups, and each group may be separately tipping out or tipping in"
+   },
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 289940,
+    "quote": "when this movement brings one of the colors within its own curve, continued departure of the other color will improve the ratio for the color within its own curve; those who left will begin to return, and the other color will evacuate completely"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 292874,
+    "quote": "As long as half or more of both colors are present—actually, slightly over 40 percent of both colors—the dynamics of entry and departure will lead to the stable mixture of 80 blacks and 80 whites."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 293544,
+    "quote": "Thus each of the three equilibria—the all-white, the all-black, and the 80–80 mixture—is stable against fairly large perturbations."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 292976,
+    "quote": "the dynamics of entry and departure will lead to the stable mixture of 80 blacks and 80 whites"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 291031,
+    "quote": "The difficulty is that any such mixture attracts outsiders, more of one color or both colors, eventually more of just one color, so that one color begins to dominate numerically"
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 291214,
+    "quote": "A few individuals of the opposite color then leave; as they do, they further reduce the numerical status of those of their own color who stay behind"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 293946,
+    "quote": "Restricting entry can sometimes produce a stable mixture."
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 294685,
+    "quote": "Thus it is not the case that “greater tolerance” always increases the likelihood of a stable mixture"
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 294556,
+    "quote": "it is their absence that keeps the whites from overwhelming the blacks by their numbers, and makes the stable mixture possible."
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 293946,
+    "quote": "Restricting entry can sometimes produce a stable mixture."
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 294685,
+    "quote": "Thus it is not the case that “greater tolerance” always increases the likelihood of a stable mixture"
+   },
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 297045,
+    "quote": "The analysis is pertinent to the study of the way that numerical or ratio quotas or limits on numbers may affect the likelihood of a mixed stable equilibrium."
+   }
+  ]
+ },
+ "The Rising Sawtooth": {
+  "C": [
+   {
+    "book": "LEMAR",
+    "offset": 421309,
+    "quote": "Designers create sequences of successive setups to gradually increase and decrease the difficulty of gameplay over time, creating the “rising sawtooth” pattern"
+   }
+  ],
+  "T": [
+   {
+    "book": "LEMAR",
+    "offset": 421589,
+    "quote": "Start each game level at a perceived difficulty somewhat lower than that at which the preceding level ended, and increase the difficulty during the course of each level as well",
+    "note": "Lemarchand reporting Adams"
+   },
+   {
+    "book": "SCHELL_G",
+    "offset": 361058,
+    "quote": "Flow activities must manage to stay in the narrow margin of challenge that lies between boredom and frustration",
+    "note": "Schell reporting Csikszentmihalyi (Sellers reports the same flow channel: same arrival)"
+   }
+  ],
+  "F": [
+   {
+    "book": "LEMAR",
+    "offset": 421943,
+    "quote": "Because we’re so familiar with the elements of our game’s design, and so skilled at playing our own game, we have a tendency to jump ahead to setups with a degree of complexity beyond what our players can handle."
+   },
+   {
+    "book": "HOPSON",
+    "offset": 28614,
+    "quote": "Our skilled professionals generally didn’t allow the Grunts to survive long or let them get into abandoned vehicles. The bug created an unintentional difficulty spike that only really punished inexperienced players."
+   }
+  ],
+  "flags": []
+ },
+ "The Mastery Problem": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 315569,
+    "quote": "Now consider playing tennis against someone who is your equal. As the game progresses, you win a few points and you lose a few."
+   }
+  ],
+  "T": [
+   {
+    "book": "CLEAR",
+    "offset": 315697,
+    "quote": "You have a good chance of winning, but only if you really try. Your focus narrows, distractions fade away, and you find yourself fully invested in the task at hand."
+   },
+   {
+    "book": "SCHELL_G",
+    "offset": 943841,
+    "quote": "Provides us with a worthy opponent"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 315407,
+    "quote": "In contrast, if you play a professional tennis player like Roger Federer or Serena Williams, you will quickly lose motivation because the match is too difficult."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "SCHELL_G",
+    "offset": 505040,
+    "quote": "a golf handicap, for instance, lets players of different levels compete at the challenge levels they will both enjoy."
+   },
+   {
+    "element": "push",
+    "book": "CLEAR",
+    "offset": 315996,
+    "quote": "humans experience peak motivation when working on tasks that are right on the edge of their current abilities."
+   }
+  ]
+ },
+ "The Content Treadmill": {
+  "C": [
+   {
+    "book": "SELLERS",
+    "offset": 302169,
+    "quote": "players can consume new content faster than the developers can create it, and adding new content becomes an increasingly expensive proposition. This is sometimes known as the “content treadmill” in game development."
+   },
+   {
+    "book": "KOSTER",
+    "offset": 109812,
+    "quote": "Game designers are caught in the Red Queen’ s Race because challenges are meant to be surmounted. The result is that modern game designers have often taken the approach of piling more and more dif ferent types of challenges into one game."
+   }
+  ],
+  "T": [
+   {
+    "book": "SELLERS",
+    "offset": 302386,
+    "quote": "Being on this treadmill makes for a more predictable development process (an important factor to game development companies)"
+   }
+  ],
+  "F": [
+   {
+    "book": "SELLERS",
+    "offset": 302689,
+    "quote": "when new content does not add to or change the underlying tokens and rules (the parts, states, and behaviors possible in the game), players quickly realize that there is little novel in the new content and become bored with the game."
+   },
+   {
+    "book": "KOSTER",
+    "offset": 109812,
+    "quote": "Game designers are caught in the Red Queen’ s Race because challenges are meant to be surmounted."
+   }
+  ],
+  "flags": []
+ },
+ "The Branded Line": {
+  "C": [
+   {
+    "book": "TANN",
+    "offset": 53370,
+    "quote": "The most obvious evidence for the taboo lies in discourse – the way people talk and think about nuclear weapons"
+   }
+  ],
+  "T": [
+   {
+    "book": "TANN",
+    "offset": 60563,
+    "quote": "In contrast, in the case of a taboo, violation by one party does not necessarily constitute permission for violations by others."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "TANN",
+    "offset": 151383,
+    "quote": "permissive effect of the nuclear taboo may be to shield non-nuclear weapons from normative opprobrium."
+   },
+   {
+    "element": "F",
+    "book": "TANN",
+    "offset": 151723,
+    "quote": "They are defined in relation to the categories constituted by the norm or taboo"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "TANN",
+    "offset": 60600,
+    "quote": "violation by one party does not necessarily constitute permission for violations by others."
+   }
+  ]
+ },
+ "The Imagined Public": {
+  "C": [],
+  "T": [],
+  "F": [],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "EIJK",
+    "offset": 151299,
+    "quote": "Many people think in a way that’s vastly different from your way of thinking."
+   }
+  ]
+ },
+ "The Closed Circuit": {
+  "C": [
+   {
+    "book": "BROWNST",
+    "offset": 209115,
+    "quote": "A change in the system—public representations of gay people—pushes other elements of the system to change—people’ s attitudes—which in turn creates more change in that first element"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 209115,
+    "quote": "A change in the system—public representations of gay people—pushes other elements of the system to change—people’s attitudes—which in turn creates more change in that first element"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BROWNST",
+    "offset": 48189,
+    "quote": "Inferior jobs, inferior housing, inferior education which in turn again leads to inferior jobs"
+   }
+  ],
+  "flags": []
+ },
+ "The Two Hands": {
+  "C": [
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 26280,
+    "quote": "While publicly advocating the i-frame , corporations spend substantial resources on lobbying, funding think tanks, and sponsoring academic researc h to ensure that the game is, and remains, rigged in their favor . This is the corporate sleight of hand: point to the i-frame act on the s-frame"
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 73375,
+    "quote": "This is the sleight of hand in action— focusing our attention on the i-frame (purportedly helping individual investors wanting to invest sustainably) while lobbying at the s-frame to ensure that real progress toward sustainability remains logjam med."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 73630,
+    "quote": "The main problem Fancy identi fies is, in our terms, “crowding out” the political pressure"
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 22781,
+    "quote": "Corporations and whole industries that benefit from the status quo have figured out that they can effectively deflect pressure for systemic change that might threaten their business models— policy changes that might adversely affect their bottom line— by refra ming problems from the s-frame to the i-frame ."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 80654,
+    "quote": "focusing on i-frame solutions almost inevitably squee zes out consideration of the s-frame . And that is surely what the corporations promoting the i-frame to the public and politicians are hoping to achi eve."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 318624,
+    "quote": "While advancing the i-frame perspec tive to the media and government, when it came to its own efforts Purdue focused on the s-frame relentlessly , lobbying heavil y to oppose regulation to limit opioid prescribi ng."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CHATER",
+    "offset": 424507,
+    "quote": "an i-frame measure, such as adding health warnings to cigarette packets, or engaging in antismoking public information campaigns, may serve to increase public support for s-frame measures"
+   },
+   {
+    "element": "T",
+    "book": "CHATER",
+    "offset": 322507,
+    "quote": "many potential s-frame policies to address these problems could be reinforced with i-frame elemen ts. For instance, casinos could be required to offer gamblers “self-precommitment strategi es,”"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 5765,
+    "quote": "the oil giant BP cynically marketing the concep t of the “individual carbon footprint” as it fights any and all measures to curb emissions caused by fossil f uels."
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 132971,
+    "quote": "So the industry quietly works to manipulate the rules governing the food system to enhance its sales and profits, even as it loudly and publicly proclaims the primacy of individual responsibi lity."
+   }
+  ],
+  "flags": []
+ },
+ "The Peopled Street": {
+  "C": [
+   {
+    "book": "BERMAN",
+    "offset": 434355,
+    "quote": "She came up with the concept of “eyes on the street,” referring to the importance of a vibrant community street life to neighborhood safety."
+   }
+  ],
+  "T": [
+   {
+    "book": "BERMAN",
+    "offset": 329753,
+    "quote": "having more people out and about on the street (related to a concept called “eyes on the street”"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 172740,
+    "quote": "you can walk home every evening after dark if enough other people do"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 172810,
+    "quote": "and quit if it appears that not enough others are out walking"
+   }
+  ],
+  "flags": []
+ },
+ "The Unseen Veto": {
+  "C": [
+   {
+    "element": "C",
+    "book": "VOSS",
+    "offset": 300344,
+    "quote": "we didn't care until too late because we convinced ourselves that we were on the phone with the only decision makers that mattered."
+   },
+   {
+    "element": "C",
+    "book": "VOSS",
+    "offset": 299899,
+    "quote": "It turns out that the head of the division that needed the training killed the deal."
+   },
+   {
+    "element": "C",
+    "book": "VOSS",
+    "offset": 300134,
+    "quote": "A surprisingly high percentage of negotiations hinge on something outside dollars and cents, often having more to do with self-esteem, status, and other nonfinancial needs."
+   },
+   {
+    "element": "C",
+    "book": "VOSS",
+    "offset": 300780,
+    "quote": "If we had asked questions like that, the CEO and HR head would have checked with this guy, maybe even brought him into the conversation."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "VOSS",
+    "offset": 298690,
+    "quote": "parties that are not directly involved but who can help implement agreements they like"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "VOSS",
+    "offset": 298919,
+    "quote": "At the end of the day, the deal killers often are more important than the deal makers."
+   },
+   {
+    "element": "F",
+    "book": "VOSS",
+    "offset": 299227,
+    "quote": "It only takes one bit player to screw up a deal."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "VOSS",
+    "offset": 298535,
+    "quote": "it's just stupid to consider only the interests of those at the negotiation table."
+   },
+   {
+    "element": "push",
+    "book": "VOSS",
+    "offset": 298140,
+    "quote": "How does this affect the rest of your team?"
+   }
+  ]
+ },
+ "The Authorized Version": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 126097,
+    "quote": "It is necessary also that the older members of the group should not neglect to transmit these representations to the younger members of the group"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BUDDHA",
+    "offset": 121801,
+    "quote": "refused to submit to the consensus agreed on by the senior monastics as to what Gotama taught"
+   },
+   {
+    "element": "F",
+    "book": "BUDDHA",
+    "offset": 121905,
+    "quote": "Purana’s Gotama has not come down to us"
+   }
+  ],
+  "flags": []
+ },
+ "The Organized Few": {
+  "C": [
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 28758,
+    "quote": "According to Olson's logic, it is very much in the interests of large corporations in a sector to band together and oppose such policies."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 29090,
+    "quote": "spread across millions and sometimes billions of people, none of whom individually has a strong incentive to push for change, or the resources or organizational support to help them do so."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 29854,
+    "quote": "But when businesses can shape the rules of the game to their own benefit— as they will, of course, attempt to do— the result will often not be innovation for the benefit of all, but the extraction of profit at the expense of the public good."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CHATER",
+    "offset": 29770,
+    "quote": "Innovations that make money for their creators often provide huge social benefits."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 28090,
+    "quote": "a highly asymmetric battle between the concentrated interests of a small but well-organized and well-funded few who stand to benefit (or suffer) substantially from a particular government policy and the diffuse interests of the relatively unorganized many, each of whom may be impacted only slightly by that policy."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "SCHELL",
+    "offset": 386732,
+    "quote": "This is the minimum-sized coalition that makes sense all by itself."
+   }
+  ]
+ },
+ "The Declared Interest": {
+  "C": [
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 208847,
+    "quote": "since the clients had been warned about the conflict, advisers no longer felt it was their responsibility to give impartial advice."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 208330,
+    "quote": "when advisers disclose their conflicts, they expect their clients to take the advice with a grain of salt, so they compensate by being even more biased."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CHATER",
+    "offset": 209364,
+    "quote": "it does decrease trust in that physician and their recommendation."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 208631,
+    "quote": "Once the advisers had disclosed their conflicting incentive, they became unmoored from ethical concerns that might have, in the absence of disclosure, led them to rein in their tendency to favor their own interests"
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 208113,
+    "quote": "the advisers give even more misleading advice when advisees are informed about their conflict."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 207567,
+    "quote": "Disclosure— fessing up to conflicts of interest— is no panacea; indeed, as we'll see, it is more than likely to backfire, leading to more biased advice and worse decisions by advice recipients."
+   }
+  ]
+ },
+ "The Tipped Hand": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 580734,
+    "quote": "As a team converges on a decision—and especially when the leader tips her hand—public doubts about the wisdom of the planned move are gradually suppressed"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "SCHELL_G",
+    "offset": 1012709,
+    "quote": "We can’t always agree on the best path, but we can come to agreement on what we are going to do right now. Team members need to sometimes be able to agree to go down a path they don’t agree with for the sake of team unity."
+   },
+   {
+    "element": "T",
+    "book": "SELLERS",
+    "offset": 980649,
+    "quote": "there is great power in setting aside your own opinions once a decision has been made and supporting it with your actions. This means contributing wholeheartedly to the direc-tion the group has decided on, even if you disagree."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL_G",
+    "offset": 1013092,
+    "quote": "one team member who does not buy into the design slows the efforts of everyone on the team"
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 580893,
+    "quote": "eventually come to be treated as evidence of flawed loyalty to the team and its leaders."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 580126,
+    "quote": "The outcome was a disaster. Please take 5 to 10 minutes to write a brief history of that disaster."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 580549,
+    "quote": "it overcomes the groupthink that affects many teams once a decision appears to have been made"
+   }
+  ]
+ },
+ "The Split Ledger": {
+  "C": [
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 144504,
+    "quote": "Individual incentives encourage people to focus on their own performance and not on that of the team."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 145738,
+    "quote": "the new employee they're training could be a future competitor."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 145393,
+    "quote": "the experienced employees would be less enthusiastic to spend their valuable time showing new employees the ropes."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 143733,
+    "quote": "they motivate people to work harder because the payoﬀ is di-rectly associated with their own performance"
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 146781,
+    "quote": "Individual incentives make sense here"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 144606,
+    "quote": "It can lead to competitive-ness and even sabotage in order to boost relative performance, which is detrimental to collaboration."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "GNEEZY",
+    "offset": 144735,
+    "quote": "When you want to encourage teamwork, you need to use team incen- tives"
+   }
+  ]
+ },
+ "Never Enough": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 44020,
+    "quote": "comparing our lives, our marriages, our families, and our communities to unattainable, media-driven visions of perfection"
+   }
+  ],
+  "flags": []
+ },
+ "The Standing Rite": {
+  "C": [
+   {
+    "book": "CONNERTON",
+    "offset": 18062,
+    "quote": "commemorati ve ceremoni es pro ve to be commemorati veonly in so far as they are performative"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 18157,
+    "quote": "performativity cann ot be thoughtwithout a concept of habit; and habit cannot be thought without a notion ofbodily automatisms."
+   }
+  ],
+  "F": [
+   {
+    "book": "CONNERTON",
+    "offset": 132730,
+    "quote": "T he calendric al litur gy of t he Nation al Sociali st Par ty w as regulat edand total"
+   },
+   {
+    "element": "F",
+    "book": "CONNERTON",
+    "offset": 132132,
+    "quote": "the subjects of the Third Reich were constantly reminded of the National Socialist Party and its ideology by a series of commemorative ceremonies."
+   },
+   {
+    "element": "F",
+    "book": "CONNERTON",
+    "offset": 132468,
+    "quote": "The impact of this newly-invented canonic sequence pervaded all spheres of life"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CONNERTON",
+    "offset": 18062,
+    "quote": "commemorati ve ceremoni es pro ve to be commemorati veonly in so far as they are performative"
+   },
+   {
+    "element": "push",
+    "book": "CONNERTON",
+    "offset": 46922,
+    "quote": "Whena large power wants to deprive a small country of its national conscious-ness it uses the method of organised forgetting."
+   },
+   {
+    "element": "push",
+    "book": "CONNERTON",
+    "offset": 18062,
+    "quote": "commemorative ceremonies prove to be commemorative only in so far as they are performative"
+   }
+  ]
+ },
+ "The Enacted Telling": {
+  "C": [
+   {
+    "book": "CONNERTON",
+    "offset": 210749,
+    "quote": "we might call them calendrical, verbal and gestural re-enactment."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CONNERTON",
+    "offset": 145593,
+    "quote": "do so by ritually re-enacting a narrative of events held to have taken place at some past time"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CONNERTON",
+    "offset": 137030,
+    "quote": "The narrative tells of historical events - but of historical events transfigured by mythicisation into unchanging and unchangeable substances. The contents of the myth are represented as being not subject to any kind of change."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CONNERTON",
+    "offset": 137174,
+    "quote": "The contents of the myth are represented as being not subject to any kind of change."
+   },
+   {
+    "element": "push",
+    "book": "CONNERTON",
+    "offset": 19311,
+    "quote": "inaugurating a new calendar"
+   }
+  ]
+ },
+ "The Contingent Commitment": {
+  "C": [
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 279286,
+    "quote": "The appropriator-monitor who watches how water is distributed to other appropriators not only provides a public good for all but also obtains information needed to make future strategic decisions."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 279487,
+    "quote": "By monitoring the behavior of others, the appropriator-monitor learns about the level of quasi-voluntary compliance in the CPR."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 279758,
+    "quote": "It is then safe for the appropriator-monitor to continue to follow a strategy of quasi-voluntary compliance."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 522524,
+    "quote": "individuals are also motivated to monitor each other to obtain the information they need to pursue this contingent strategy"
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 287192,
+    "quote": "Once appropriators have made contingent self-commitments, they are then motivated to monitor other people's behaviors"
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 273586,
+    "quote": "CPR appropriators create their own internal enforcement to (1) deter those who are tempted to break rules and thereby (2) assure quasi­ voluntary compliers that others also comply."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 272178,
+    "quote": "Taxpayers are strategic actors who will cooperate only when they can expect others to cooperate as well. The compliance of each depends on the compliance of the others."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 287426,
+    "quote": "Contingent self-commitments and mutual monitoring reinforce one another, especially when appropriators have devised rules that tend to reduce monitoring costs."
+   },
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 273243,
+    "quote": "As long as they are confident that others are cooperating and the ruler provides joint benefits, they comply willingly to tax laws."
+   },
+   {
+    "element": "T",
+    "book": "BERNS",
+    "offset": 214062,
+    "quote": "it may be mutua lly advantageous to adhere to a common set of rules to augm ent each individual’ s well-being."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 521682,
+    "quote": "Unless monitoring efforts are increased to reverse this trend, rule compliance will cascade downward."
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 240301,
+    "quote": "The frustration is complete when a homeowner, stepping onto his back porch at night, cocks his head and hears the swish of invisible lawn sprinkers in the darkness up and down the block."
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 243802,
+    "quote": "people who are willing to do their part as long as everybody else does, living by a commonly shared golden rule, enjoying perhaps the sheer participation in a common preference for selflessness, may have a limited tolerance to the evidence or to the mere suspicion that others are cheating on the social contract"
+   },
+   {
+    "element": "F",
+    "book": "BERNS",
+    "offset": 216509,
+    "quote": "Even though everyone might agree that it’s the best thing to do, each individual has to trust that the other will do the right thing."
+   },
+   {
+    "element": "F",
+    "book": "BERNS",
+    "offset": 216744,
+    "quote": "The mistrust of each other leads individuals to forgo the best outcomes in exchange for a sure thing."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 287426,
+    "quote": "Contingent self-commitments and mutual monitoring reinforce one another, especially when appropriators have devised rules that tend to reduce monitoring costs."
+   }
+  ]
+ },
+ "The Social Tipping Point": {
+  "C": [
+   {
+    "element": "C",
+    "book": "BROWNST",
+    "offset": 187864,
+    "quote": "Political scientists have documented many cases of tipping points and “norm cascades,” when early uptake of a new norm is slow but then a critical mass of support is reached, triggering a sudden and rapid spread."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 187743,
+    "quote": "This kind of messaging is particularly helpful for promoting new norms when they haven’ t yet managed to go mainstream."
+   }
+  ],
+  "F": [
+   {
+    "offset": 217121,
+    "quote": "Without a clear point of reference, even small increments of improvement can seem inconsequential, making it dispiriting to “settle” for them.",
+    "book": "BROWNST"
+   },
+   {
+    "offset": 220648,
+    "quote": "unlike water , we rarely know where the tipping points in the social world are.",
+    "book": "BROWNST"
+   },
+   {
+    "offset": 188078,
+    "quote": "(An unparalleled pandemic example from the beginning of the COVID-19 years: “masks on!” Then, “masks off!”)",
+    "book": "BROWNST"
+   }
+  ],
+  "flags": []
+ },
+ "The Matched Edge": {
+  "C": [
+   {
+    "book": "HOPSON",
+    "offset": 195008,
+    "quote": "Bungie would choose the map, gametype, and the opponents."
+   }
+  ],
+  "T": [
+   {
+    "book": "HOPSON",
+    "offset": 199332,
+    "quote": "an unknown experience (fair and accurate online matchmaking in a large online population)"
+   },
+   {
+    "book": "HOPSON",
+    "offset": 197579,
+    "quote": "Players loved the new system, and it became the gold standard for online gameplay."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KOSTER",
+    "offset": 112824,
+    "quote": "Players hate to lose. If you fail to match them up with an opponent who is very precisely of their skill level, they’ll quit."
+   },
+   {
+    "element": "F",
+    "book": "KOSTER",
+    "offset": 231324,
+    "quote": "If a high-level player can reinforce their position by repeatedly defeating easy targets, then eventually their position will become unassailable. This is not in itself a problem—it simply leads to victory. The problem arises when a novice coming to the game cannot possibly succeed."
+   }
+  ],
+  "flags": []
+ },
+ "Players as Content": {
+  "C": [
+   {
+    "book": "KOSTER",
+    "offset": 112634,
+    "quote": "Placing players head-to-head is also a common tactic, on the grounds that other players are an endless source of new content. This is accurate, but the Mastery Problem rears its ugly head."
+   }
+  ],
+  "T": [
+   {
+    "book": "KOSTER",
+    "offset": 107732,
+    "quote": "It’ s the easiest way to constantly provide a new flow of challenges and content."
+   }
+  ],
+  "F": [
+   {
+    "book": "KOSTER",
+    "offset": 112846,
+    "quote": "If you fail to match them up with an opponent who is very precisely of their skill level, they’ll quit."
+   },
+   {
+    "book": "KOSTER",
+    "offset": 107829,
+    "quote": "competitive game-playing of all sorts has tended to squeeze out the people who most need to learn the skills it provides"
+   }
+  ],
+  "flags": []
+ },
+ "The Emerging Taboo": {
+  "C": [
+   {
+    "book": "TANN",
+    "offset": 51426,
+    "quote": "Political and military leaders themselves began to use the term to refer to this normative perception starting in the early 1950s, even when, objectively, a tradition of non-use hardly existed yet."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "TANN",
+    "offset": 54230,
+    "quote": "As the inhibition on use has developed over time, however, it has taken on more “taboo”-like qualities – unthinkingness, taken-for-grantedness."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "TANN",
+    "offset": 59043,
+    "quote": "The harder case would be deliberate, “rational” use by one of the major nuclear powers, such as the United States."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "TANN",
+    "offset": 58456,
+    "quote": "whether such use disrupted the taboo would depend on the circumstances of its use and how other nations responded to the violation."
+   },
+   {
+    "element": "push",
+    "book": "TANN",
+    "offset": 58811,
+    "quote": "A violation of this sort would likely spur new measures to strengthen the taboo."
+   }
+  ]
+ },
+ "The Inherited Ground": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "DUCK",
+    "offset": 371243,
+    "quote": "The good fortune of growing up in a better neighborhood predicted higher SAT scores, higher rates of college enrollment, and higher salaries in early adulthood"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "DUCK",
+    "offset": 371702,
+    "quote": "poverty begets poverty"
+   }
+  ],
+  "flags": []
+ },
+ "The Priced Tradition": {
+  "C": [
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 429398,
+    "quote": "A bride is “worth” more in the marriage market if she is cut; the parents get a larger dowry (more cows) for her, and the girl can find a higher-status husband."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 440897,
+    "quote": "Maasai men prefer a circumcised wife mainly because they want her to be an accepted member of the community."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 438492,
+    "quote": "In the current environment, in which the majority of women are cut, being an uncut woman is hard."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 361938,
+    "quote": "Groups of individuals who engage in social interactions and learn from each other using cues like success and prestige often end up sharing similar behaviors, strategies, expectations, or preferences, and deviations from these shared standards are penalized or sanctioned in some way."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 363719,
+    "quote": "any behaviors, underpinned by certain beliefs, strategies, or motivations, that call for individuals to pay personal costs, such as not eating a tasty type of food (e.g., bacon) or not having sex with an attractive distant cousin, can be sustained by cultural evolution, for example, through reputational damage."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 419435,
+    "quote": "Gradually, many warriors have begun to apply for the Simba Scout positions, understanding that this duty is now the role of a warrior, both making a decent living and preserving tradition."
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 400391,
+    "quote": "The inclusion of these other animals under the compensation plan is important for solidifying the norm of not chasing predators"
+   },
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 219890,
+    "quote": "these conventions that coerce via expectations can be exceedingly helpful"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 428813,
+    "quote": "Education may convince the occasional mother to save her daughter from being cut, but that family then risks being ostracized by the community."
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 362395,
+    "quote": "the resulting behavioral patterns are stable in the sense that they tend to endure and resist efforts by one or a few individuals to change them."
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 364189,
+    "quote": "social norms will tend to remain stable even when they help neither the group nor the individual."
+   },
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 220026,
+    "quote": "But people can be trapped into self-enforcing rules that misdirect behavior. A bad system of one-way street signs is likely to be as self-enforcing as a good one."
+   }
+  ],
+  "flags": []
+ },
+ "The Covered Loss": {
+  "C": [
+   {
+    "book": "GNEEZY",
+    "offset": 411240,
+    "quote": "Luca and Samson initially feared that if the livestock were insured, the elders would have less incentive to work hard to protect them"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 411916,
+    "quote": "the prospect of carelessness is undesirable because it could lead to compensation for carelessness or neglect"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 413287,
+    "quote": "the elder is not fully com-pensated, in order to keep some incentives in place for him to avoid such incidents"
+   }
+  ],
+  "T": [
+   {
+    "book": "GNEEZY",
+    "offset": 399194,
+    "quote": "Although this response doesn’t compensate the elder for the dead cow, it does succeed in preventing future attacks on livestock by that lion"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 413613,
+    "quote": "insurance reduces the incentive to be careful"
+   },
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 409687,
+    "quote": "they have less of an incentive to keep it safe"
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 365326,
+    "quote": "allowed firms to take wild risks (and reap wild profits)"
+   }
+  ],
+  "flags": []
+ },
+ "The Clean Conscience": {
+  "C": [
+   {
+    "book": "HOPSON",
+    "offset": 252288,
+    "quote": "They were ways for the player to still think of themselves as a good person who had just happened to do a bad thing for reasons"
+   },
+   {
+    "book": "HOPSON",
+    "offset": 251142,
+    "quote": "They were improving their own odds but lowering the odds of other players"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 297833,
+    "quote": "how people can give selfish advice based on their own incentives while still believing that they have behaved ethically"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 297025,
+    "quote": "Th e trick for successful self-deception is to have room for ambiguity or subjectivity in the recommendation"
+   }
+  ],
+  "T": [
+   {
+    "book": "GNEEZY",
+    "offset": 17069,
+    "quote": "In all likelihood, her trip to the recycling center also serves as a positive self-signal; she could have placed the cans in the trash"
+   }
+  ],
+  "F": [
+   {
+    "book": "HOPSON",
+    "offset": 252417,
+    "quote": "They separated the good person from the bad action, letting them keep both their self-image and their ill-gotten loot"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 297580,
+    "quote": "salvaging their otherwise-damaged self-image"
+   }
+  ],
+  "flags": []
+ },
+ "The Credited Result": {
+  "C": [
+   {
+    "book": "CHATER",
+    "offset": 430494,
+    "quote": "policymakers will favor policies that produce not only positive outcomes, but positive outcomes that people notice, so they can receive credit for them"
+   }
+  ],
+  "T": [
+   {
+    "book": "CHATER",
+    "offset": 430647,
+    "quote": "If credit were proportionate to the magnitude of positive outcom es achieved, even crudely , all would be fine"
+   }
+  ],
+  "F": [
+   {
+    "book": "CHATER",
+    "offset": 430799,
+    "quote": "many of the most valuable policy interventions (e.g., childhood vaccination programs) produce outcomes that are virtually invisible"
+   }
+  ],
+  "flags": []
+ },
+ "The Unbroken Chain": {
+  "C": [
+   {
+    "book": "CLEAR",
+    "offset": 266692,
+    "quote": "he is not focused on how good or bad a particular joke is or how inspired he feels. He is simply focused on showing up and adding to his streak"
+   },
+   {
+    "book": "DUCK",
+    "offset": 199635,
+    "quote": "The calendar both reminds him"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "CLEAR",
+    "offset": 266692,
+    "quote": "he is not focused on how good or bad a particular joke is or how inspired he feels. He is simply focused on showing up and adding to his streak"
+   },
+   {
+    "element": "T",
+    "book": "DUCK",
+    "offset": 199635,
+    "quote": "The calendar both reminds him to write jokes and rewards him for keeping up his streak"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 273794,
+    "quote": "The first mistake is never the one that ruins you. It is the spiral of repeated mistakes that follows"
+   },
+   {
+    "element": "F",
+    "book": "CLEAR",
+    "offset": 273898,
+    "quote": "Missing once is an accident. Missing twice is the start of a new habit"
+   }
+  ],
+  "flags": []
+ },
+ "The Settled Expert": {
+  "C": [
+   {
+    "book": "HOLIDAY",
+    "offset": 157959,
+    "quote": "each victory and advancement that made Khan smarter also bumped him against new situations"
+   },
+   {
+    "book": "HOLIDAY",
+    "offset": 158284,
+    "quote": "With accomplishment comes a growing pressure to pretend that we know more than we do"
+   },
+   {
+    "book": "CLEAR",
+    "offset": 325727,
+    "quote": "as a habit becomes automatic, you become less sensitive to feedback. You fall into mindless repetition. It becomes easier to let mistakes slide. When you can do it “good enough” on autopilot, you stop thinking about how to do it better. The upside of habits is that we can do things without thinking. The downside of habits is that you get used to doing things a certain way and stop paying attention"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "HOLIDAY",
+    "offset": 67862,
+    "quote": "despite joining his dream group and quite literally turning professional, Kirk insisted that he needed more instruction—that he was still a student."
+   }
+  ],
+  "F": [
+   {
+    "book": "HOLIDAY",
+    "offset": 158476,
+    "quote": "thinking that we’re set and secure, when in reality understanding and mastery is a fluid, continual process"
+   },
+   {
+    "book": "HOLIDAY",
+    "offset": 158765,
+    "quote": "Humility engenders learning because it beats back the arrogance that puts blinders on"
+   }
+  ],
+  "flags": []
+ },
+ "The Shifted Burden": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 258796,
+    "quote": "The stock is maintained by an actor adjusting a balancing feedback loop—either altering the in-flows or out-flows.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 261498,
+    "quote": "A corrective feedback process within the system is doing a poor (or even so-so) job of maintaining the state of the system.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 262000,
+    "quote": "So the intervenor applies more of the “solution,” disguising the real state of the system again, and thereby failing to act on the problem.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 262353,
+    "quote": "If that capability atrophies, then more of the intervention is needed to achieve the desired effect.",
+    "filled_from_offset": true
+   }
+  ],
+  "T": [
+   {
+    "book": "MEADOWS",
+    "offset": 261093,
+    "quote": "Shifting a burden to an intervenor can be a good thing.",
+    "filled_from_offset": true
+   }
+  ],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 260218,
+    "quote": "Care of the aged used to be carried on by families, not always easily.",
+    "filled_from_offset": true
+   },
+   {
+    "element": "F",
+    "book": "MEADOWS",
+    "offset": 18156,
+    "quote": "system will become more and more dependent on the intervention and less and less able to maintain its own desired state."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "MEADOWS",
+    "offset": 18541,
+    "quote": "If you are the intervenor, work in such a way as to restore or enhance the system’s own ability to solve its problems, then remove yourself."
+   },
+   {
+    "element": "push",
+    "book": "MEADOWS",
+    "offset": 261093,
+    "quote": "Shifting a burden to an intervenor can be a good thing."
+   }
+  ]
+ },
+ "The Sure Voice": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 575873,
+    "quote": "Here again, expert overconfidence is encouraged by their clients: “Generally, it is considered a weakness and a sign of vulnerability for clinicians to appear unsure.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "KAHN",
+    "offset": 576157,
+    "quote": "Experts who acknowledge the full extent of their ignorance may expect to be replaced by more confident competitors, who are better able to gain the trust of clients.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "KAHN",
+    "offset": 474210,
+    "quote": "They are also especially reluctant to admit error.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "KAHN",
+    "offset": 453915,
+    "quote": "Confidence is a feeling, which reflects the coherence of the information and the cognitive ease of processing it.",
+    "filled_from_offset": true
+   }
+  ],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 576445,
+    "quote": "Extreme uncertainty is paralyzing under dangerous circumstances, and the admission that one is merely guessing is especially unacceptable when the stakes are high.",
+    "filled_from_offset": true
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 575775,
+    "quote": "clinicians who were ‘completely certain’ of the diagnosis antemortem were wrong 40% of the time.” Here again, expert overconfidence is encouraged by their clients: “Generally, it is considered a weakness and a sign of vulnerability for clinicians to appear unsure.",
+    "filled_from_offset": true
+   }
+  ],
+  "flags": []
+ },
+ "The Spent Margin": {
+  "C": [
+   {
+    "book": "GNEEZY",
+    "offset": 173346,
+    "quote": "We often take more risks than necessary, and the safer we feel, the more risks we are willing to take.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 173986,
+    "quote": "Drivers might have taken more risks because seat belts reduced the likelihood of severe or fatal injuries in the case of a crash.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 175345,
+    "quote": "you might consider installing a long, sharp nail to the steering wheel of the car, such that your driver will be abundantly clear on the consequences of an acci-dent.",
+    "filled_from_offset": true
+   },
+   {
+    "book": "CHATER",
+    "offset": 652558,
+    "quote": "systematic reviews have found little to no evide nce of risk compensation in domains as diverse as helmet-wearing in cycling and skiing, and sexual behavior and mask-wearing to reduce the spread of COVID-19 .",
+    "filled_from_offset": true
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 524191,
+    "quote": "People do take more risks once safety measures are introduced, but this psychological impact is smaller than the technological improvement in safety."
+   },
+   {
+    "element": "T",
+    "book": "CHATER",
+    "offset": 652450,
+    "quote": "risk compensation” can somewhat offset safety measur es may apply to a limited degree in some contexts"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 174117,
+    "quote": "The new regula- tions weakened the incentive to drive safely by signaling to people that even if they were involved in an accident, they would be ﬁ ne."
+   },
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 174559,
+    "quote": "people ﬁ nd it less threatening and take more risks, such as having unprotected sex, thereby increasing the number of infected people."
+   }
+  ],
+  "flags": []
+ },
+ "The Living Witness": {
+  "C": [
+   {
+    "book": "CONNERTON",
+    "offset": 138688,
+    "quote": "This narrative was more than a story told - it was a cult enacted. It was a rite fixed and performed."
+   },
+   {
+    "book": "TANN",
+    "offset": 1160403,
+    "quote": "This “sanctification of Hiroshima” further reinforces the nuclear taboo and, by associating it with religious practices, grounds it in deeper cultural meanings and our identities."
+   },
+   {
+    "element": "C",
+    "book": "CONNERTON",
+    "offset": 135336,
+    "quote": "The survivors of the Putsch, decorated with their 'Blood Order', met for the traditional gathering in the Munich Biirgerbraukeller on 8 November, there to listen to Hitler's memorial address dedicated to 'the sixteen martyrs of the National Socialist movement'. On the following day the 'old fighters' marched from the Burgerbraukeller to the Feldherrnhalle, ritually repeating the march of 1923"
+   },
+   {
+    "element": "C",
+    "book": "TANN",
+    "offset": 1159109,
+    "quote": "The memory of Hiroshima and Nagasaki is being “sanctified” in practices (pilgrimages, ceremonies, Hiroshima Day) and commemorative monuments and markers (the Peace Park in Hiroshima, the Bell at Oak Ridge National Laboratory) that preserve the immediacy of the atomic bombings and reinforce the creed of"
+   },
+   {
+    "element": "C",
+    "book": "TANN",
+    "offset": 1160227,
+    "quote": "“never again.”"
+   }
+  ],
+  "T": [
+   {
+    "book": "CONNERTON",
+    "offset": 335568,
+    "quote": "it is possible to imagine a future in which ceremonies at the Cenotaph no longer take place because there is no generation still alive who can pass on the living memory it recalls"
+   }
+  ],
+  "F": [
+   {
+    "book": "CONNERTON",
+    "offset": 137847,
+    "quote": "The political fiasco of 1923 is in this way re-interpreted and re-presented as neither a defeat nor meaningless nor futile. The mortal fate of those who fell in it is to be interpreted not as a senseless death but as a sacrificial death."
+   }
+  ],
+  "flags": []
+ },
+ "The Rival Watch": {
+  "C": [
+   {
+    "book": "OSTROM",
+    "offset": 274550,
+    "quote": "Irrigation rotation systems, for example, usually place the two actors most concerned with cheating in direct contact with one another."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 274935,
+    "quote": "The presence of the first irrigator deters the second from an early start, the presence of the second irrigator deters the first from a late ending."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 238297,
+    "quote": "Within the family we can save hot water on Friday night by taking brief showers, rather than racing to be first in the shower and use it all up. But that may be because within the family we care about each other, or have to pretend we do, or can watch each other and have to account for the time we stand enjoying the hot water."
+   },
+   {
+    "book": "HENRICH",
+    "offset": 398775,
+    "quote": "since your violations will re - sult in hunting failures that will reduce my meat intake, I’m going to make sure you don’t violate any taboos. Thus, everyone in the band (be - lieves) they have direct and personal incentives to monitor and sanction taboo violators."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 238629,
+    "quote": "It is harder to care about, or to be brought to account by, the people who can wash their cars more effectively if I let my lawn burn, or who can keep their lawns greener if I leave my car dirty."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 457625,
+    "quote": "Farmers who benefited from unofficial channel blockage were not cen­sored by their neighbors who were adversely affected"
+   }
+  ],
+  "T": [
+   {
+    "book": "OSTROM",
+    "offset": 275086,
+    "quote": "Neither has to invest additional resources in monitoring activities. Monitoring is a by-product of their own strong motivations to use their water rotation turns to the fullest extent."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 275383,
+    "quote": "cheaters can be observed at low cost by those who most want to deter cheaters at that particular time and location"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 238297,
+    "quote": "Within the family we can save hot water on Friday night by taking brief showers"
+   },
+   {
+    "book": "HENRICH",
+    "offset": 398098,
+    "quote": "These taboos virtually guaranteed that large prey had to be widely distributed across the band."
+   }
+  ],
+  "F": [
+   {
+    "book": "OSTROM",
+    "offset": 216382,
+    "quote": "Given that everyone is watching everyone else, there is considerable potential for violence among irrigators and between irrigators and their agents."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 216645,
+    "quote": "were willing to fight in an instant if they felt that their water supply was jeopardized in any way"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 216768,
+    "quote": "The actual violence never approached the potential."
+   }
+  ],
+  "flags": []
+ },
+ "The Limelight": {
+  "C": [
+   {
+    "book": "KAHN",
+    "offset": 472629,
+    "quote": "the person who acquires more knowledge develops an enhanced illusion of her skill and becomes unrealistically overconfident"
+   },
+   {
+    "book": "KAHN",
+    "offset": 472475,
+    "quote": "Those who know more forecast very slightly better than those who know less. But those with the most knowledge are often less reliable."
+   },
+   {
+    "book": "KAHN",
+    "offset": 473190,
+    "quote": "The more famous the forecaster, Tetlock discovered, the more flamboyant the forecasts."
+   },
+   {
+    "book": "KAHN",
+    "offset": 473310,
+    "quote": "were more overconfident than their colleagues who eked out existences far from the limelight"
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 473405,
+    "quote": "Tetlock also found that experts resisted admitting that they had been wrong"
+   },
+   {
+    "book": "KAHN",
+    "offset": 472755,
+    "quote": "We reach the point of diminishing marginal predictive returns for knowledge disconcertingly quickly"
+   }
+  ],
+  "flags": []
+ },
+ "The Watched Promise": {
+  "C": [
+   {
+    "book": "OSTROM",
+    "offset": 286649,
+    "quote": "the commitment and monitoring problem are solved in an interrelated manner."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 279869,
+    "quote": "If the appropriator-monitor discovers a rule infraction, it is possible to learn about the particular circumstances surrounding the infraction, to participate in deciding the appropriate level of sanctioning, and then to decide whether or not to continue compliance."
+   }
+  ],
+  "T": [
+   {
+    "book": "OSTROM",
+    "offset": 280482,
+    "quote": "The appropriator-monitor may want to impose only a modest sanction in this circumstance. A small penalty may be sufficient to remind the infractor of the importance of compliance. The appropriator-monitor might be in a similar situation in the future and would want some understanding at that time."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 285144,
+    "quote": "Inspectors or other witnesses who saw violations maintained silence out of sympathy for the violators' desperation and out of confidence that the problem was temporary and could not really hurt the commons."
+   }
+  ],
+  "F": [
+   {
+    "book": "OSTROM",
+    "offset": 281286,
+    "quote": "A real threat to the continuance of quasi-voluntary compliance can occur, however, if an appropriator-monitor discovers individuals who break the rules repeatedly. If this occurs, one can expect the appropriator-monitor to escalate the imposed sanctions in an effort to halt future rule-breaking by such offenders and any others who might start to follow suit."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 282691,
+    "quote": "A large monetary fine imposed on a person facing an unusual problem may produce resentment and unwillingness to conform to the rules in the future."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 522998,
+    "quote": "Adding the capacity to use graduated sanctions initially for their informational value and eventually for their deterrence value"
+   },
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 276810,
+    "quote": "Because the appropriators tend to continue monitoring the guards, as well as each other, some redundancy is built into the monitoring and sanctioning system."
+   },
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 280664,
+    "quote": "The appropriator-monitor might be in a similar situation in the future and would want some understanding at that time."
+   }
+  ]
+ },
+ "The Counteroffer": {
+  "C": [
+   {
+    "element": "C",
+    "book": "KAHN",
+    "offset": 661492,
+    "quote": "Many of the messages that negotiators exchange in the course of bargaining are attempts to communicate a reference point and provide an anchor to the other side."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 452473,
+    "quote": "If you start with a high number, Jennifer’s estimate will be biased toward that high number, thereby making her counteroﬀers higher."
+   },
+   {
+    "element": "C",
+    "book": "GNEEZY",
+    "offset": 453147,
+    "quote": "Your ﬁrst oﬀer will aﬀect the counteroﬀer."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 472946,
+    "quote": "you’ve ensured that all subsequent oﬀers will be compared and contrasted with the $875,000. Jennifer counters your initial oﬀer with a much-lower oﬀer."
+   },
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 473786,
+    "quote": "This give-and-take is considered “fair” in negotiations: I make a concession and then you make a concession."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "KAHN",
+    "offset": 270260,
+    "quote": "if you think the other side has made an outrageous proposal, you should not come back with an equally outrageous counteroffer, creating a gap that will be difficult to bridge in further negotiations."
+   },
+   {
+    "element": "F",
+    "book": "VOSS",
+    "offset": 346971,
+    "quote": "when you feel you’re being pulled into the compromise trap"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 270529,
+    "quote": "make it clear—to yourself as well as to the other side—that you will not continue the negotiation with that number on the table."
+   }
+  ]
+ },
+ "The Leaking Border": {
+  "C": [
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 360255,
+    "quote": "Once water producers in West Basin reduced their pumping levels, while water producers in Central Basin continued heavy production, water from West Basin began to flow eastward into Central Basin, instead of westward from Central Basin into West Basin."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 360511,
+    "quote": "That change in the direction of the \"natural\" water flow led producers in both basins to recognize how closely interconnected their two basins were."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 353482,
+    "quote": "each pumper knows what everyone else is doing, and each knows that his or her own groundwater extractions will be known by all others."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 351752,
+    "quote": "They were prodded into action by their downstream neighbors, who feared that lack of action in Central Basin might eventually negate the benefits of conservation in West Basin."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 360906,
+    "quote": "Water spread at that location could raise water levels in Central Basin, which, combined with a cutback in production in Central Basin, would increase the flow of water into West Basin."
+   },
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 370180,
+    "quote": "a curtailment of pumping in Central Basin to insure continued ground water flow into West Basin"
+   },
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 387437,
+    "quote": "Sufficient overlap existed among participants across basins to ensure communication about results."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 346293,
+    "quote": "it is protected from the ocean on its western border by its downstream neighbor, West Basin. Thus, water producers in Central Basin are able to draw down their water levels farther than are those in West Basin without immediate adverse consequences."
+   },
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 367266,
+    "quote": "In 1955, West Basin producers had signed the interim agreement and had limited their production to 60,000 acre-feet per year, whereas Central Basin producers were pumping 110,000 acre-feet and still increasing their annual rates of withdrawal."
+   }
+  ],
+  "flags": []
+ },
+ "The Long Line": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 316528,
+    "quote": "An initial media exposure, accidental or by design, creates attention cues that cause people to unconsciously perceive someone as a worthy model."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 317190,
+    "quote": "This shift can then create a feed-back loop, as the media continues to cover those who people want to know more about, and a celebrity is born—seemingly from nothing."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 321139,
+    "quote": "Public displays of deference are particularly effective since they generate more prestige for their recipient."
+   },
+   {
+    "element": "C",
+    "book": "BERGER",
+    "offset": 214198,
+    "quote": "But the same owners operate an almost identical food cart called Halal Guys right across the street. Same food, same packaging, basically an identical product. But there is no line."
+   },
+   {
+    "element": "C",
+    "book": "BERGER",
+    "offset": 214484,
+    "quote": "People assume that the longer the line, the better the food must be."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "HENRICH",
+    "offset": 119043,
+    "quote": "We use these prestige cues to help us rapidly zero in on whom to learn from"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 300369,
+    "quote": "even if they turn out not to be very knowledgeable or skilled"
+   },
+   {
+    "element": "F",
+    "book": "BERGER",
+    "offset": 213428,
+    "quote": "Thousands of patients turn down kidneys they should have accepted"
+   },
+   {
+    "element": "F",
+    "book": "BERGER",
+    "offset": 214358,
+    "quote": "But there is no line"
+   }
+  ],
+  "flags": []
+ },
+ "The Firebreak": {
+  "C": [
+   {
+    "element": "C",
+    "book": "SCHELL",
+    "offset": 433533,
+    "quote": "It was that it was important not to blur the distinction—the firebreak, as it was called—between nuclear and conventional weapons; and either because of its low yield or because of its “benign” kind of lethality it was feared, and it was argued, that there would be a strong temptation to use this weapon where nuclears were otherwise not allowed"
+   },
+   {
+    "element": "C",
+    "book": "TANN",
+    "offset": 201162,
+    "quote": "who faced continuing strong incentives to blur the line to make nuclear weapons more usable – suggests that the development of a moral category of “weapons of mass destruction” played a key role in getting the line drawn and maintained where it was and not elsewhere."
+   },
+   {
+    "element": "C",
+    "book": "TANN",
+    "offset": 531200,
+    "quote": "Thus Dulles was arguing that tactical nuclear weapons should no longer be categorized as weapons of mass destruction."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "TANN",
+    "offset": 797476,
+    "quote": "Two additional developments in the 1970s contributed to the consolidation of the taboo: the demise of the notion of “peaceful nuclear explosions” and the political defeat of the neutron bomb."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 434861,
+    "quote": "I have seen this idea unanimously dismissed without argument, as if the objections were too obvious to require articulation."
+   },
+   {
+    "element": "T",
+    "book": "SCHELL",
+    "offset": 435011,
+    "quote": "the objection was always that even “good” thermonuclear explosions were bad and should be kept that way"
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "SCHELL",
+    "offset": 433891,
+    "quote": "the use of this weapon would erode the threshold, blur the firebreak, pave the way by incremental steps for nuclear escalation."
+   },
+   {
+    "element": "F",
+    "book": "TANN",
+    "offset": 198352,
+    "quote": "The contemporary development of very small, accurate “mini-nukes” which could meet these criteria should give this line of reasoning even more relevance today (and has already become a source of pressure on the norm)."
+   }
+  ],
+  "flags": []
+ },
+ "It Was Allowed": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 250615,
+    "quote": "“If we weren’t supposed to do it, it shouldn’t have been possible to do it from the game UI.”"
+   },
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 252882,
+    "quote": "they saw themselves as good people who had sufficient reasons for technically breaking the rules and were more than happy to explain to us why they were completely justified"
+   },
+   {
+    "element": "C",
+    "book": "KOSTER",
+    "offset": 99485,
+    "quote": "This is also why they often think that it’ s unfair when sticklers for the rules tell them that what they did is not allowed. Their logic goes something like “if the game permits it, then it’ s legal.”"
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "LEMAR",
+    "offset": 731743,
+    "quote": "An unexpected possibility in an eSports game that at first seems like an exploit might be embraced by the player community as a legitimate feature of the game."
+   },
+   {
+    "element": "T",
+    "book": "KOSTER",
+    "offset": 99356,
+    "quote": "Unsurprisingly , exploiters are often the most expert players of a game. They see the places where the rules don’ t quite jibe."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "HOPSON",
+    "offset": 251474,
+    "quote": "the people who were banned in this case had done many times"
+   },
+   {
+    "element": "F",
+    "book": "KOSTER",
+    "offset": 99771,
+    "quote": "while a bad design may allow the player to circumvent the challenge, we resent it because it’s circumvention."
+   }
+  ],
+  "flags": []
+ },
+ "The Endorsement": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 301532,
+    "quote": "A naïve learner can’t tell all the causal links between an individual’s prac-tices and his success (see chapter 7). As a consequence, learners often copy their chosen models broadly across many domains."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 302019,
+    "quote": "This “if in doubt, copy it” heuristic is one of the reasons why success in one domain con-verts to influence across a broad range of domains."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 316894,
+    "quote": "These attention cues can cause our prestige psychology to automatically infer that these individuals are worthy of our imitation, respect, and admiration. This nonconscious inference also causes increased emulation and mimicry in this group, as they seek physical, or at least social, proximity."
+   },
+   {
+    "element": "C",
+    "book": "HENRICH",
+    "offset": 119769,
+    "quote": "This effect occurs even when the prestige of a person comes from a domain, like golf, that is far removed from the issue they are commenting on (like automobile quality)."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "HENRICH",
+    "offset": 302740,
+    "quote": "while new medical findings and public educa-tional campaigns only gradually influence women’s approach to pre - ventive medicine, Angelina Jolie’s single op- ed in the New York Times, describing her decision to get a preventive double mastectomy after learning she had the “faulty” BRCA1 gene, flooded clinics from the U.K. to New Zealand with women seeking genetic screenings for breast can-cer."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 302270,
+    "quote": "the NBA star LeBron James, who went directly from high school to the pros, gets paid millions to endorse State Farm Insurance. Though a stunning basketball talent, it’s unclear why Mr. James is qualified to recommend insurance companies."
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 135203,
+    "quote": "committing suicide is prestige biased: when celebrities commit suicide there is a spike in suicide rates"
+   },
+   {
+    "element": "F",
+    "book": "HENRICH",
+    "offset": 135770,
+    "quote": "We know that people are imitating because they copy not only the act of suicide itself but also the specific methods used, such as throwing oneself in front of a train."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "HENRICH",
+    "offset": 303139,
+    "quote": "Thus, an unwanted evolutionary side effect, the influence of pres- tige across many domains, turns out to be worth millions and represents a powerful and underutilized public health tool."
+   }
+  ]
+ },
+ "The Shared Alibi": {
+  "C": [
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 249483,
+    "quote": "Part of what made this strategy so interesting from a moral perspective is that the entire team had to do it more or less simultaneously. Once one player on a team quit, the others were faced with the choice of either quitting as well or staying in the match."
+   },
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 251282,
+    "quote": "The group nature of this particular kind of queue dodging led to a lot of players using a displacement of responsibility strategy."
+   },
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 251217,
+    "quote": "“Once my friend quit, I had to either quit or lose the game.”"
+   },
+   {
+    "element": "C",
+    "book": "HOPSON",
+    "offset": 251844,
+    "quote": "“We saw another team doing it first, so we just tried it to see what would happen.” - Similar to the “I was just following my friends” strategy, the diffusion of responsibility approach tried to spread the blame around."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "element": "F",
+    "book": "HOPSON",
+    "offset": 248123,
+    "quote": "20% of the banned players agreed that “People cannot be blamed for doing things that are technically wrong when all their friends are doing it too”, with only 8% of the non-banned players agreeing"
+   },
+   {
+    "element": "F",
+    "book": "HOPSON",
+    "offset": 249827,
+    "quote": "This introduced a strong element of peer pressure and helped a lot of players go along with something they might not have done if they were playing alone"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "HOPSON",
+    "offset": 252067,
+    "quote": "The thing is, we didn’t ban anyone who tried it once; we banned people who had an ongoing pattern of queue dodging."
+   }
+  ]
+ },
+ "The Revolving Door": {
+  "C": [
+   {
+    "element": "C",
+    "book": "DALIO",
+    "offset": 57766,
+    "quote": "In order to maintain or increase their wealth, they work with the people who have the political power, who are in a symbiotic relationship with them, to set and enforce the rules."
+   },
+   {
+    "element": "C",
+    "book": "DALIO",
+    "offset": 174015,
+    "quote": "Because those with wealth can influence those with power and because those with power can influence those with wealth, these ruling classes or elites have alliances among themselves and want to maintain the existing order with everyone following its dictums and laws, even as the system increases the gaps between those with power and wealth and those without them."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 474266,
+    "quote": "there is the notorious “revolving door” in which individual s who staff government regulatory agencies leave to take lucrative positions in the industries they were responsible for regulating— in some cases making repeated back-and -forth switches."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 319617,
+    "quote": "two of the principal FDA reviewers who originally approved Purdue’ s oxycodone application for uses beyond cancer patients took positions at Purdue after leaving the agency"
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 460075,
+    "quote": "For the large landowners, keeping active political contacts with national leaders is one method of ensuring some protection for illegal practices. Politicians, for their part, interfere with irrigation procedures in order to provide \"spoils\" for those who support them."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 319014,
+    "quote": "Purdue and other opioid manufacturers managed to effectively infilt rate the Food and Drug Administration to obtain rulings favorable to their business."
+   },
+   {
+    "element": "F",
+    "book": "DALIO",
+    "offset": 58608,
+    "quote": "this dynamic leads to a very small percentage of the population gaining and controlling exceptionally large percentages of the total wealth and power"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 319792,
+    "quote": "another “revolving door” problem that is largely unregulated (but easily fixed with an s-frame policy cha nge)"
+   },
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 474710,
+    "quote": "In many governments across the world there are, quite rightly , rules to combat the power of networks of influence crossing from the private to the public sector. But these rules are often weakest where they matter the most —at the very most senior levels of government and the judiciary ."
+   }
+  ]
+ },
+ "The Largest Taker": {
+  "C": [
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 313474,
+    "quote": "Pasadena thus approached, but did not reach, the position of a dominant actor in a privileged group (Olson 1965). According to Olson's model, if the Raymond Basin producers had been a privileged group, the city of Pasadena would have borne all of the costs associated with stopping the pumping race."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 314607,
+    "quote": "During the 1930s, however, the city of Pasadena was no longer willing to undertake independent actions that were substantially benefiting others who were not contributing to the costs."
+   },
+   {
+    "element": "C",
+    "book": "OSTROM",
+    "offset": 314991,
+    "quote": "In 1937 Pasadena initiated legal proceedings against the city of Alhambra and 30 other producers."
+   }
+  ],
+  "T": [
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 314020,
+    "quote": "From 1914 to 1923, for example, the city replenished the basin by capturing floodwaters and spreading them on the gravel areas located at the feet of the San Gabriel Mountains. The water that percolated into the basin was then available for capture by the city of Pasadena as well as by other groundwater producers."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 456545,
+    "quote": "Large landowners frequently captured the major positions on some of the Cultivation Committees for Kirindi Oya and obtained special privileges related to water distribution"
+   },
+   {
+    "element": "F",
+    "book": "OSTROM",
+    "offset": 459824,
+    "quote": "For the individual farmers, the only reasonable strategy to follow in a system in which others steal water with impunity (and use it for weed control) is to flood their own fields as much as possible, using whatever means are necessary to do SO."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 315796,
+    "quote": "The parties then shared a single, authoritative \"image\" of the problem they faced."
+   },
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 478781,
+    "quote": "Because of the nonpartisan nature of the organizations and the bypassing of those who had been the elite, many powerful farmers in the area had originally opposed the organization of farmers at GOLB."
+   },
+   {
+    "element": "push",
+    "book": "OSTROM",
+    "offset": 314607,
+    "quote": "During the 1930s, however, the city of Pasadena was no longer willing to undertake independent actions that were substantially benefiting others who were not contributing to the costs."
+   }
+  ]
+ },
+ "The Insider's Objection": {
+  "C": [
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 211964,
+    "quote": "These doctors were fighting against “changing the game” and saw themselves as backed by reason, not mere self-interest —even if their ar guments seemed highly questionable, at least to an outs ider."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 214053,
+    "quote": "the physicians hated the policy proposals aimed at avoiding conflicts of interests for doctors; the Times readers had a much more positive view toward the policy . Not only that: The physicians rated every objection to the policy as more reasonable than did the Times readers."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 213904,
+    "quote": "The two groups had similarly positive views on the policies aimed at avoiding conflicts of interest among financial planners."
+   }
+  ]
+ },
+ "The Untouched Judgment": {
+  "C": [
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 475265,
+    "quote": "commensurately underestimate the influence of relationships, favors, revolving doors, promotions, or campaign donations"
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 475386,
+    "quote": "it also helps those in position s of power to convince themselves that their own decisions are unbiased and unaffected by the incentives they face; participants in networks of influence can all too easily maintain a clear consci ence."
+   },
+   {
+    "element": "C",
+    "book": "CHATER",
+    "offset": 475621,
+    "quote": "For those interested in hacking democracy , it will be important to maintain these networks of influence, of course. Thus, we should expect any reform to meet with substantial opposition"
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 475932,
+    "quote": "The most senior figures, with the most powerful networks of influence, will be especially well-placed to block such oversight— and incentivized to do so."
+   },
+   {
+    "element": "F",
+    "book": "CHATER",
+    "offset": 476411,
+    "quote": "All parties can deny that their judgment is corrupted by such networks (and some may believe this to be true), but what we know about human nature tells us the very oppo site."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 476329,
+    "quote": "a first priority should be exposing and breaking up these networks of influence."
+   },
+   {
+    "element": "push",
+    "book": "CHATER",
+    "offset": 475932,
+    "quote": "The most senior figures, with the most powerful networks of influence, will be especially well-placed to block such oversight"
+   }
+  ]
+ },
+ "The Fuelled Spiral": {
+  "C": [
+   {
+    "book": "DALIO",
+    "offset": 257102,
+    "quote": "At times when the central bank faces the choice between allowing real interest rates (i.e., the rate of interest minus the rate of inflation) to rise to the detriment of the economy (and the anger of most of the public) or preventing real interest rates from rising by printing money and buying those cash and debt assets, they will choose the second path. This reinforces the bad returns of holding cash and those debt assets."
+   },
+   {
+    "book": "DALIO",
+    "offset": 166865,
+    "quote": "After bubbles burst and deleveragings occur, private debts grow, while private sector spending, asset values, and net worths decline in a self-reinforcing negative cycle. To compensate, government debt and government deficits grow, and central bank “printing” of money typically increases. Central banks and governments cut real interest rates and increase nominal GDP growth so that it is comfortably above nominal interest rates in order to ease debt burdens."
+   }
+  ],
+  "T": [
+   {
+    "book": "DALIO",
+    "offset": 229688,
+    "quote": "The key at this stage is to create enough money and devaluation to offset the deflationary depression but not so much as to produce an inflationary spiral. When this is done well, I call it a “beautiful deleveraging,”"
+   },
+   {
+    "book": "DALIO",
+    "offset": 256567,
+    "quote": "In cases in which debt relief facilitates the flow of this money and credit into productivity and profits for companies, real stock prices (i.e., the value of stocks after adjusting for inflation) rise."
+   }
+  ],
+  "F": [
+   {
+    "book": "DALIO",
+    "offset": 256773,
+    "quote": "When the creation of money sufficiently hurts the actual and prospective returns of cash and debt assets, it drives flows out of those assets and into inflation-hedge assets like gold, commodities, inflation-indexed bonds, and other currencies (including digital). This leads to a self-reinforcing decline in the value of money."
+   },
+   {
+    "book": "DALIO",
+    "offset": 278360,
+    "quote": "and there are large and growing debts monetized by the central bank printing money and buying government debt. This leads to a weakening of the currency in a self-reinforcing run that can’t be stopped because the fiscal and balance of payments deficits are too great for any cutbacks to close."
+   }
+  ]
+ },
+ "The New Normal": {
+  "C": [
+   {
+    "book": "CHATER",
+    "offset": 498070,
+    "quote": "But in a\nremarkably short period of time people have come to prefer a smoke-free\nenvironment. Smoking bans are now popular even among smokers\nthemselves.8 And this public  acceptance has in turn increased support for\neven more restrictive measures against smoking, including the UK’s\nproposed “rollin g” age ban (now  in limbo after a change of gove rnment and\nfurious behind-the -scenes tobacco industry lobbying), which would\neffectively outlaw the sale of cigarettes to anyone born after 2 009.9"
+   }
+  ],
+  "T": [
+   {
+    "book": "CHATER",
+    "offset": 499733,
+    "quote": "Initially , there was strong public opposition to the policy , but\npublic support increased drama tically once the policy was in place, which\nhelped lead to its permanent implementation, after which support increased\neven more.11"
+   },
+   {
+    "book": "CHATER",
+    "offset": 500915,
+    "quote": "But when the positive effects of the\ncharge were experienced in playing the game, many embraced the very s-\nframe  reform they had previously resis ted.13"
+   }
+  ],
+  "F": [
+   {
+    "book": "CHATER",
+    "offset": 497572,
+    "quote": "This can lead policy experts and politicians to be so\ndaunted by initial resistance that they rule out potentially beneficial changes\nas politi cally impossible, fearin g that “people will never stand for it!”"
+   },
+   {
+    "book": "CHATER",
+    "offset": 496817,
+    "quote": "Citizens come to view the status quo as a given, and\nunderstandably focus on improving their own situation while operating\nwithin the constraints of existing policy ."
+   },
+   {
+    "book": "KAHN",
+    "offset": 662871,
+    "quote": "If the affected parties have any political influence, however,\npotential losers will be more active and determined than potential winners;\nthe outcome will be biased in their favor and inevitably more expensive\nand less effective than initially planned."
+   }
+  ]
+ }
+}

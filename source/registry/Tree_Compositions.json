@@ -1,0 +1,6251 @@
+[
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Sliding Floor",
+   "The Sliding Floor"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mark",
+   "The Sliding Floor",
+   "The Tide"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "audit": "repart:The Sliding Floor>The Mark"
+ },
+ {
+  "figure": "The Standoff",
+  "parts": [
+   "The Tide",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Tide"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "tide",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Pairing",
+  "parts": [
+   "The Spark",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "tide"
+  ]
+ },
+ {
+  "figure": "Watering Another",
+  "parts": [
+   "The Gardener",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "spark"
+  ]
+ },
+ {
+  "figure": "Answering For",
+  "parts": [
+   "The Salve",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Salve"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "salve"
+  ]
+ },
+ {
+  "figure": "Filling the Gap",
+  "parts": [
+   "The Mask",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Guard",
+  "parts": [
+   "The Mask",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "story",
+   "tide"
+  ]
+ },
+ {
+  "figure": "Reading the Room",
+  "parts": [
+   "The Mirror",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Sliding Floor",
+  "parts": [
+   "The Mark",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Shared Story",
+  "parts": [
+   "The Keepsake",
+   "The Keepsake"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Keepsake"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "story",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Echo",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "Gaming the Terms",
+  "parts": [
+   "The Line",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "outfall"
+  ]
+ },
+ {
+  "figure": "The Naming Contest",
+  "parts": [
+   "The Namer",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Namer"
+  ],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "story",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Arrangement",
+  "parts": [
+   "The Riverbed",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "riverbed",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Tested Price",
+  "parts": [
+   "The Mark",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "story"
+  ]
+ },
+ {
+  "figure": "Held Silence",
+  "parts": [
+   "The Guard",
+   "The Standoff"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Tide"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Faithful Chain",
+  "parts": [
+   "Borrowed Faith",
+   "The Contagion"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "First-Arriver Lock-In",
+  "parts": [
+   "The Mark",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Hall of Mirrors",
+  "parts": [
+   "Reading the Room",
+   "The Echo"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Inner Circle",
+  "parts": [
+   "The Frame",
+   "The Naming Contest"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Namer"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Nearest Light",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Flywheel",
+  "parts": [
+   "The Riverbed",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "riverbed",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Agenda",
+  "parts": [
+   "The Namer",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Contagion",
+  "parts": [
+   "The Mirror",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mirror",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Frame",
+  "parts": [
+   "The Mirror",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mirror",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Rising Peak",
+  "parts": [
+   "The Keepsake",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "spark",
+   "story"
+  ]
+ },
+ {
+  "figure": "Identity Ratchet",
+  "parts": [
+   "The Mask",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Norm Cascade",
+  "parts": [
+   "The Namer",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "spark",
+   "story"
+  ]
+ },
+ {
+  "figure": "Perverse Feedback",
+  "parts": [
+   "The Nearest Light",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Anchor",
+  "parts": [
+   "The Mark",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "mark"
+  ]
+ },
+ {
+  "figure": "Borrowed Faith",
+  "parts": [
+   "The Mark",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Presenting Problem",
+  "parts": [
+   "The Easier Door",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "salve",
+   "salve"
+  ]
+ },
+ {
+  "figure": "The Rescue",
+  "parts": [
+   "The Mask",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "salve",
+   "story"
+  ]
+ },
+ {
+  "figure": "Crowd-Out",
+  "parts": [
+   "The Riverbed",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "riverbed",
+   "salve"
+  ]
+ },
+ {
+  "figure": "Choice Architecture",
+  "parts": [
+   "The Nearest Light",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Focusing Illusion",
+  "parts": [
+   "The Easier Door",
+   "The Gardener"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "salve"
+  ]
+ },
+ {
+  "figure": "Each Other's Situation",
+  "parts": [
+   "The Mirror",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "Flower Watering",
+  "parts": [
+   "The Gardener",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Held Commitment",
+  "parts": [
+   "The Namer",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "riverbed",
+   "story"
+  ]
+ },
+ {
+  "figure": "Dual Entitlement",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "mark"
+  ]
+ },
+ {
+  "figure": "Coaching the Ghost",
+  "parts": [
+   "The Easier Door",
+   "The Easier Door"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Easier Door"
+  ],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "salve",
+   "salve"
+  ]
+ },
+ {
+  "figure": "The Commemoration",
+  "parts": [
+   "The Keepsake",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "riverbed",
+   "story"
+  ]
+ },
+ {
+  "figure": "Mutual Monitoring",
+  "parts": [
+   "The Gardener",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "outfall"
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Line",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Tradition of Non-Use",
+  "parts": [
+   "The Line",
+   "The Line"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Line"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ]
+ },
+ {
+  "figure": "The Rising Sawtooth",
+  "parts": [
+   "The Learning Gradient",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Mastery Problem",
+  "parts": [
+   "The Learning Gradient",
+   "The Learning Gradient"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Learning Gradient"
+  ],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "gardener"
+  ]
+ },
+ {
+  "figure": "The Content Treadmill",
+  "parts": [
+   "The Learning Gradient",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "salve"
+  ]
+ },
+ {
+  "figure": "The Branded Line",
+  "parts": [
+   "The Line",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Imagined Public",
+  "parts": [
+   "Filling the Gap",
+   "Reading the Room"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Nearest Light"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Closed Circuit",
+  "parts": [
+   "Each Other's Situation",
+   "The Flywheel"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Two Hands",
+  "parts": [
+   "Crowd-Out",
+   "The Organized Few"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Peopled Street",
+  "parts": [
+   "Each Other's Situation",
+   "The Arrangement"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Unseen Veto",
+  "parts": [
+   "Filling the Gap",
+   "The Guard"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mask"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Authorized Version",
+  "parts": [
+   "The Shared Story",
+   "Transmission Drift"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Keepsake"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Organized Few",
+  "parts": [
+   "The Outfall",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "outfall",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Declared Interest",
+  "parts": [
+   "The Namer",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "outfall",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Tipped Hand",
+  "parts": [
+   "The Agenda",
+   "The Norm Cascade"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Namer"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Split Ledger",
+  "parts": [
+   "The Mark",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "mark",
+   "outfall"
+  ]
+ },
+ {
+  "figure": "Never Enough",
+  "parts": [
+   "The Anchor",
+   "The Sliding Floor"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Standing Rite",
+  "parts": [
+   "The Commemoration",
+   "The Shared Story"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Keepsake"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Enacted Telling",
+  "parts": [
+   "The Commemoration",
+   "Transmission Drift"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Keepsake"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Contingent Commitment",
+  "parts": [
+   "Mutual Monitoring",
+   "Mutual Monitoring"
+  ],
+  "depth": 3,
+  "shared": [
+   "Mutual Monitoring",
+   "The Gardener",
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Social Tipping Point",
+  "parts": [
+   "Critical Mass",
+   "The Norm Cascade"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Spark"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Matched Edge",
+  "parts": [
+   "The Mastery Problem",
+   "The Rising Sawtooth"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Learning Gradient"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "Players as Content",
+  "parts": [
+   "The Content Treadmill",
+   "The Mastery Problem"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Learning Gradient"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Emerging Taboo",
+  "parts": [
+   "The Branded Line",
+   "The Tradition of Non-Use"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Line"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Inherited Ground",
+  "parts": [
+   "The Closed Circuit",
+   "The Slow Hand"
+  ],
+  "depth": 4,
+  "shared": [
+   "Each Other's Situation",
+   "The Mirror",
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Priced Tradition",
+  "parts": [
+   "Each Other's Situation",
+   "The Held Commitment"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Covered Loss",
+  "parts": [
+   "The Outfall",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "outfall",
+   "salve"
+  ]
+ },
+ {
+  "figure": "The Clean Conscience",
+  "parts": [
+   "The Mask",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "outfall",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Credited Result",
+  "parts": [
+   "The Nearest Light",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "outfall"
+  ]
+ },
+ {
+  "figure": "The Unbroken Chain",
+  "parts": [
+   "The Gardener",
+   "The Line"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "mark"
+  ]
+ },
+ {
+  "figure": "The Settled Expert",
+  "parts": [
+   "The Learning Gradient",
+   "The Mask"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Shifted Burden",
+  "parts": [
+   "The Salve",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Sure Voice",
+  "parts": [
+   "The Easier Door",
+   "The Mask"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "salve",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Spent Margin",
+  "parts": [
+   "The Riverbed",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "riverbed",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Living Witness",
+  "parts": [
+   "The Enacted Telling",
+   "The Standing Rite"
+  ],
+  "depth": 4,
+  "shared": [
+   "The Commemoration",
+   "The Keepsake",
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Rival Watch",
+  "parts": [
+   "Mutual Monitoring",
+   "The Shared Pot"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Limelight",
+  "parts": [
+   "The Settled Expert",
+   "The Sure Voice"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mask"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Watched Promise",
+  "parts": [
+   "The Contingent Commitment",
+   "The Rival Watch"
+  ],
+  "depth": 4,
+  "shared": [
+   "Mutual Monitoring",
+   "The Gardener",
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "Critical Mass",
+   "Critical Mass"
+  ],
+  "depth": 3,
+  "shared": [
+   "Critical Mass",
+   "The Line",
+   "The Spark"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Counteroffer",
+  "parts": [
+   "The Tested Price",
+   "The Tested Price"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mark",
+   "The Namer",
+   "The Tested Price"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Leaking Border",
+  "parts": [
+   "The Rival Watch",
+   "The Rival Watch"
+  ],
+  "depth": 4,
+  "shared": [
+   "Mutual Monitoring",
+   "The Gardener",
+   "The Outfall",
+   "The Rival Watch",
+   "The Shared Pot"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "First-Arriver Lock-In",
+   "The Contagion"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Spark"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Firebreak",
+  "parts": [
+   "Gaming the Terms",
+   "The Branded Line"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Line"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "It Was Allowed",
+  "parts": [
+   "Gaming the Terms",
+   "The Clean Conscience"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Shared Pot",
+  "parts": [
+   "The Outfall",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "outfall",
+   "outfall"
+  ]
+ },
+ {
+  "figure": "Proxy Detachment",
+  "parts": [
+   "The Gardener",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "gardener",
+   "mark"
+  ]
+ },
+ {
+  "figure": "The Slow Hand",
+  "parts": [
+   "Choice Architecture",
+   "Each Other's Situation"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "Transmission Drift",
+  "parts": [
+   "The Keepsake",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "implied",
+  "cards": [
+   "story",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Endorsement",
+  "parts": [
+   "The Faithful Chain",
+   "The Long Line"
+  ],
+  "depth": 4,
+  "shared": [
+   "The Contagion",
+   "The Mark",
+   "The Mirror",
+   "The Spark"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Shared Alibi",
+  "parts": [
+   "It Was Allowed",
+   "It Was Allowed"
+  ],
+  "depth": 4,
+  "shared": [
+   "Gaming the Terms",
+   "It Was Allowed",
+   "The Clean Conscience",
+   "The Line",
+   "The Mask",
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Revolving Door",
+  "parts": [
+   "The Arrangement",
+   "The Organized Few"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Largest Taker",
+  "parts": [
+   "The Organized Few",
+   "The Shared Pot"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Insider's Objection",
+  "parts": [
+   "The Clean Conscience",
+   "The Organized Few"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "registry",
+  "link": "implied"
+ },
+ {
+  "figure": "The Untouched Judgment",
+  "parts": [
+   "The Insider's Objection",
+   "The Revolving Door"
+  ],
+  "depth": 4,
+  "shared": [
+   "The Organized Few",
+   "The Outfall",
+   "The Riverbed"
+  ],
+  "source": "registry",
+  "link": "shown"
+ },
+ {
+  "figure": "The Fuelled Spiral",
+  "parts": [
+   "The Salve",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The New Normal",
+  "parts": [
+   "The Mark",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "registry",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "Filling the Gap",
+   "Filling the Gap"
+  ],
+  "depth": 3,
+  "shared": [
+   "Filling the Gap",
+   "The Mask",
+   "The Nearest Light"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "BERGER",
+    "quote": "If so many others have refused this kidney, people assume it must not be very good. They infer it is low quality and are more likely to turn it down."
+   },
+   {
+    "role": "B",
+    "book": "HENRICH",
+    "quote": "This occurs even if most of those who come to respect the person cannot\u2014or do not\u2014directly evaluate the person\u2019s success, knowledge, or skill themselves."
+   },
+   {
+    "role": "interlock",
+    "book": "BERGER",
+    "quote": "People aren\u2019t sure what career to choose, so they look to others. And it snowballs."
+   },
+   {
+    "role": "interlock",
+    "book": "BERGER",
+    "quote": "A few people see that 20 percent and switch. A few more see those people switch, and they follow along. Soon the number is 30 percent. Which makes other people even more likely to switch."
+   },
+   {
+    "role": "interlock",
+    "book": "HENRICH",
+    "quote": "Individuals become increasingly prestigious as other members of their community come to believe they are worthy of respect, deference, and admiration."
+   }
+  ]
+ },
+ {
+  "figure": "The Contingent Commitment",
+  "parts": [
+   "Mutual Monitoring",
+   "The Tradition of Non-Use"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "OSTROM",
+    "quote": "By monitoring the behavior of others, the appropriator-monitor learns about the level of quasi-voluntary compliance in the CPR. If no one is discovered breaking the rules, the appropriator-monitor learns that others comply and that no one is being taken for a sucker."
+   },
+   {
+    "role": "B",
+    "book": "OSTROM",
+    "quote": "The compliance of each depends on the compliance of the others."
+   },
+   {
+    "role": "interlock",
+    "book": "OSTROM",
+    "quote": "Once appropriators have made contingent self-commitments, they are then motivated to monitor other people's behaviors, at least from time to time, in order to assure themselves that others are following the rules most of the time. Contingent self-commitments and mutual monitoring reinforce one another"
+   },
+   {
+    "role": "interlock",
+    "book": "OSTROM",
+    "quote": "as undetected rule infractions become more frequent and CPR conditions become worse, the higher will be the probability that other individuals will increase their rates of rule-breaking behavior. Unless monitoring efforts are increased to reverse this trend, rule compliance will cascade downward."
+   }
+  ]
+ },
+ {
+  "figure": "Flower Watering",
+  "parts": [
+   "The Gardener",
+   "The Gardener"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Gardener"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "gardener"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "TNHLO",
+    "quote": "We are the gardeners who identify, water, and cultivate the best seeds in ourselves and in others."
+   },
+   {
+    "role": "B",
+    "book": "TNHLO",
+    "quote": "When we succeed in touching our positive seeds once, we will know how to touch them again and again, and they will strengthen."
+   },
+   {
+    "role": "interlock",
+    "book": "TNHLO",
+    "quote": "When we practice the art of mindful living, we water the positive elements in ourselves and each other."
+   },
+   {
+    "role": "interlock",
+    "book": "TNHF",
+    "quote": "how the other person\u2019 s suf fering, which waters the seed of my anger , is the secondary cause."
+   },
+   {
+    "role": "interlock",
+    "book": "TNHF",
+    "quote": "Our words water the wholesome seeds in us and in the other person."
+   }
+  ]
+ },
+ {
+  "figure": "The Guard",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "EPLEY",
+    "quote": "when you open up to another person, they tend to open up in return"
+   },
+   {
+    "role": "B",
+    "book": "BROWN",
+    "quote": "Is there trust? Is there mutual empathy? Is there reciprocal sharing?"
+   },
+   {
+    "role": "interlock",
+    "book": "BROWN",
+    "quote": "We need to feel trust to be vulnerable and we need to be vulnerable in order to trust."
+   },
+   {
+    "role": "interlock",
+    "book": "BROWN",
+    "quote": "Being vulnerable and open is mutual and an integral part of the trust-building process."
+   },
+   {
+    "role": "interlock",
+    "book": "BROWN",
+    "quote": "sharing appropriately, with boundaries, means sharing with people with whom we\u2019ve developed relationships that can bear the weight of our story"
+   }
+  ]
+ },
+ {
+  "figure": "The Counteroffer",
+  "parts": [
+   "The Anchor",
+   "The Anchor"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Anchor",
+   "The Mark",
+   "The Nearest Light"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "GNEEZY",
+    "quote": "you\u2019ve anchored her, you\u2019ve signaled that you consider your house to be of high quality, and you\u2019ve ensured that all subsequent o\ufb00ers will be compared and contrasted with the $875,000."
+   },
+   {
+    "role": "B",
+    "book": "VOSS",
+    "quote": "Research shows that people who hear extreme anchors unconsciously adjust their expectations in the direction of the opening number."
+   },
+   {
+    "role": "interlock",
+    "book": "KAHN",
+    "quote": "if you think the other side has made an outrageous proposal, you should not come back with an equally outrageous counteroffer, creating a gap that will be difficult to bridge in further negotiations."
+   },
+   {
+    "role": "interlock",
+    "book": "VOSS",
+    "quote": "Again, the kidnapper dropped his demand, to $25,000. Now that we had him in our sights, we had the nephew make his first offer, an extreme low anchor of $3,000."
+   }
+  ]
+ },
+ {
+  "figure": "The Rescue",
+  "parts": [
+   "The Mask",
+   "The Mask"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mask"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "story",
+   "story"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "STANIER",
+    "quote": "Rescuer The core belief : \u201cDon\u2019t fight, don\u2019t worry, let me jump in and take it on and fix it.\u201d The dynamic : \u201cIt\u2019s my fault/responsibility (not yours).\u201d The benefits of playing the role : You feel morally superior; you believe you\u2019re indispensable."
+   },
+   {
+    "role": "B",
+    "book": "STANIER",
+    "quote": "Victim The core belief : \u201cMy life is so hard; my life is so unfair. \u2018Poor me.\u2019\u201d The dynamic : \u201cIt\u2019s not my fault (it\u2019s theirs).\u201d"
+   },
+   {
+    "role": "interlock",
+    "book": "STANIER",
+    "quote": "You create Victims and perpetuate the Drama Triangle."
+   },
+   {
+    "role": "interlock",
+    "book": "STANIER",
+    "quote": "More provocatively, you might be coming to understand that Rescuers create Victims, though we want to believe that it\u2019s the other way around (which is also true, but not only true)."
+   }
+  ]
+ },
+ {
+  "figure": "The Counteroffer",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "KAHN",
+    "quote": "The existing terms define reference points, and a proposed change in any aspect of the agreement is inevitably viewed as a concession that one side makes to the other."
+   },
+   {
+    "role": "B",
+    "book": "KAHN",
+    "quote": "The concessions you make to me are my gains, but they are your losses; they cause you much more pain than they give me pleasure."
+   },
+   {
+    "role": "interlock",
+    "book": "KAHN",
+    "quote": "Because negotiators are influenced by a norm of reciprocity, a concession that is presented as painful calls for an equally painful (and perhaps equally inauthentic) concession from the other side."
+   },
+   {
+    "role": "interlock",
+    "book": "GNEEZY",
+    "quote": "This give-and-take is considered \u201cfair\u201d in negotiations: I make a concession and then you make a concession."
+   }
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "SCHELL",
+    "quote": "Everybody has his own definition of how many is \u201cenough.\u201d"
+   },
+   {
+    "role": "B",
+    "book": "SCHELL",
+    "quote": "the minimum attendance that will just induce this person to attend"
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "as they leave, white pupils be come fewer so that even those who didn\u2019 t mind yesterday\u2019 s ratio will leave at today\u2019 s ratio, leaving behind still fewer , who may leave tomorrow"
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "two or three find it not lar ge enough; when they drop out, another two or three find it not lar ge enough and when they drop out, another two or three."
+   }
+  ]
+ },
+ {
+  "figure": "Watering Another",
+  "parts": [
+   "Flower Watering",
+   "The Spark"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "TNHLO",
+    "quote": "Our practice is to water the flower in our loved one, and not bring them more garbage."
+   },
+   {
+    "role": "A",
+    "book": "TNHF",
+    "quote": "you can water the seed of faithfulness in yourself and in your partner every day ."
+   },
+   {
+    "role": "B",
+    "book": "TNHLI",
+    "quote": "When a seed manifests in mind consciousness and stays there for a long time, the seed grows stronger at the base."
+   },
+   {
+    "role": "interlock",
+    "book": "TNHF",
+    "quote": "If something triggers one of the seeds\u2014for example if someone says something unkind that waters your seed of anger\u2014the seed of anger will come up and manifest in the upper level of consciousness, our mind."
+   },
+   {
+    "role": "interlock",
+    "book": "TNHF",
+    "quote": "And if you allow anger to stay there for a long time, then the seed of anger will be strengthened in the lower level of consciousness. It will become more important and will arise more easily ."
+   }
+  ]
+ },
+ {
+  "figure": "The Unbroken Chain",
+  "parts": [
+   "The Line",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "CLEAR",
+    "quote": "his goal is simply to \u201cnever break the chain\u201d of writing jokes every day"
+   },
+   {
+    "role": "A",
+    "book": "CLEAR",
+    "quote": "Missing once is an accident. Missing twice is the start of a new habit."
+   },
+   {
+    "role": "B",
+    "book": "CLEAR",
+    "quote": "Recording your last action creates a trigger that can initiate your next one."
+   },
+   {
+    "role": "interlock",
+    "book": "CLEAR",
+    "quote": "When you look at the calendar and see your streak, you\u2019ll be reminded to act again."
+   },
+   {
+    "role": "interlock",
+    "book": "CLEAR",
+    "quote": "the empty square you see each morning can motivate you to get started because you don\u2019t want to lose your progress by breaking the streak"
+   },
+   {
+    "role": "interlock",
+    "book": "DUCK",
+    "quote": "For each day that he writes a joke, Seinfeld marks the day's box with a big, red X. The calendar both reminds him to write jokes and rewards him for keeping up his streak."
+   }
+  ]
+ },
+ {
+  "figure": "The Leaking Border",
+  "parts": [
+   "The Contingent Commitment",
+   "The Contingent Commitment"
+  ],
+  "depth": 4,
+  "shared": [
+   "Mutual Monitoring",
+   "The Contingent Commitment",
+   "The Gardener",
+   "The Outfall"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "OSTROM",
+    "quote": "A signatory was committed to undertaking this \"cooperative action\" only if most of the other large water producers were also committed to the action."
+   },
+   {
+    "role": "B",
+    "book": "OSTROM",
+    "quote": "The producers agreed to cut back production on a proportional basis by 20% and to establish a set of working rules modeled on the West Basin agreement, but also reflecting the particular circumstance in Central Basin. Watermaster services were initiated in October 1962."
+   },
+   {
+    "role": "interlock",
+    "book": "OSTROM",
+    "quote": "They were prodded into action by their downstream neighbors, who feared that lack of action in Central Basin might eventually negate the benefits of conservation in West Basin."
+   },
+   {
+    "role": "interlock",
+    "book": "OSTROM",
+    "quote": "a curtailment of pumping in Central Basin to insure continued ground water flow into West Basin"
+   },
+   {
+    "role": "interlock",
+    "book": "OSTROM",
+    "quote": "Sufficient overlap existed among participants across basins to ensure communication about results."
+   }
+  ]
+ },
+ {
+  "figure": "The Hall of Mirrors",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "BERGER",
+    "quote": "You\u2019d witness your peers drinking and seeming happy about it, so you\u2019d assume that you are the outlier and that everyone else likes drinking more than you do. So you\u2019d have another drink."
+   },
+   {
+    "role": "B",
+    "book": "BERGER",
+    "quote": "But what students don\u2019t realize is that everyone is having similar thoughts. Their peers are having the same experience."
+   },
+   {
+    "role": "interlock",
+    "book": "BERGER",
+    "quote": "They see others drinking, so they drink, too. And the cycle continues because people can\u2019t read one another\u2019s thoughts."
+   }
+  ]
+ },
+ {
+  "figure": "The Priced Tradition",
+  "parts": [
+   "Each Other's Situation",
+   "Each Other's Situation"
+  ],
+  "depth": 3,
+  "shared": [
+   "Each Other's Situation",
+   "The Mirror",
+   "The Riverbed"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "GNEEZY",
+    "quote": "hence the mother would choose to cut her daughter, as the large majority of Maasai mothers currently do."
+   },
+   {
+    "role": "B",
+    "book": "GNEEZY",
+    "quote": "Maasai men prefer a circumcised wife mainly because they want her to be an accepted member of the community."
+   },
+   {
+    "role": "interlock",
+    "book": "GNEEZY",
+    "quote": "For this reason, the ma-jority of Maasai men have grown to prefer marrying a woman who is cut, because she has a higher social status and is accepted by the community."
+   },
+   {
+    "role": "interlock",
+    "book": "GNEEZY",
+    "quote": "Education may convince the occasional mother to save her daughter from being cut, but that family then risks being ostracized by the community."
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "a tradition that separates the women from the men or the whites from the blacks, the students from the faculty or the of ficers from the enlisted men, may be strongly self-enforcing even though one or both of the two groups deplore the tradition"
+   }
+  ]
+ },
+ {
+  "figure": "The Echo",
+  "parts": [
+   "Filling the Gap",
+   "The Mirror"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "SCHELL",
+    "quote": "There is the unilateral process of believing something about people, behaving toward them in accordance with those beliefs, and causing the beliefs to be confirmed."
+   },
+   {
+    "role": "B",
+    "book": "LOWERY",
+    "quote": "Every relationship makes a demand of you; they demand that you play your part."
+   },
+   {
+    "role": "interlock",
+    "book": "LOWERY",
+    "quote": "The police saw me as a potential lawbreaker, which required something of them\u2014that they treat me with suspicion and some degree of fear because they didn\u2019t trust me to behave as a law-abiding citizen. Once I understood this view, I engaged with them as unjust authorities, which required something of me."
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "the reciprocated expectations generate reciprocated attitudes and behaviors in accordance with those expectations"
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "But they must have been unfriendly partly because we were afraid and not friendly to them."
+   }
+  ]
+ },
+ {
+  "figure": "The Contagion",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "EPLEY",
+    "quote": "Our conversation was contagious. Once we started talking, others seemed to recognize that they could have a conversation, too, and pretty soon the whole line had come alive."
+   },
+   {
+    "role": "B",
+    "book": "BROWN",
+    "quote": "The snowball starts rolling when a leader is willing to be vulnerable with his or her subo rdinates. Their research shows that this act of vulnerability is predicta bly perceived as courageous by team members and inspires others to follow suit."
+   },
+   {
+    "role": "interlock",
+    "book": "EPLEY",
+    "quote": "Each of those are little moments where I could brighten someone\u2019 s mood, and throu gh that moment of connection brighten my mood as well."
+   },
+   {
+    "role": "interlock",
+    "book": "EPLEY",
+    "quote": "people who were ignored in the waiting room by the other person felt just as mediocre as the people we asked to keep to themselves. Both the surprising ly positive pleasure of connecting and the pain of being avoided are contagious."
+   }
+  ]
+ },
+ {
+  "figure": "The Norm Cascade",
+  "parts": [
+   "The Mirror",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "story"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "BROWNST",
+    "quote": "Telling readers how \u201cmore and more\u201d people are reducing meat consu mption can be a more powerf ul driver of norm change than describing the stats as static"
+   },
+   {
+    "role": "A",
+    "book": "BROWNST",
+    "quote": "In conspicuously supporting a norm in public, people help spread it through the community . They become norm entrepreneurs."
+   },
+   {
+    "role": "B",
+    "book": "BROWNST",
+    "quote": "It can be pretty tempting to join in when \u201ceveryone\u2019 s doing it,\u201d whatever \u201cit\u201d is. This pull drives social change."
+   },
+   {
+    "role": "B",
+    "book": "BERGER",
+    "quote": "It\u2019s been said that when people are free to do as they please, they usually imitate one another."
+   },
+   {
+    "role": "interlock",
+    "book": "BROWNST",
+    "quote": "A change in the system\u2014public representations of gay people\u2014pushes other elements of the system to change\u2014people\u2019 s attitudes\u2014which in turn creates more change in that first element\u2014public representation."
+   },
+   {
+    "role": "interlock",
+    "book": "BERGER",
+    "quote": "But by providing social proof that others were stealing, the message had a perverse effect, almost doubling the number of people taking wood!"
+   }
+  ]
+ },
+ {
+  "figure": "Held Silence",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "BERGER",
+    "quote": "They see others drinking, so they drink, too. And the cycle continues because people can\u2019t read one another\u2019s thoughts."
+   },
+   {
+    "role": "B",
+    "book": "BERGER",
+    "quote": "The others were probably just as bewildered as you were. But while they would have liked to raise their hands, they didn\u2019t because each one is worried that he or she is the only person who didn\u2019t understand."
+   },
+   {
+    "role": "interlock",
+    "book": "BERGER",
+    "quote": "Why? Because no one else was asking questions. No one saw any public signal that others were confused so everyone keeps his doubts to him- or herself. Because behavior is public and thoughts are private."
+   }
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "SCHELL",
+    "quote": "I walk across the lawn if that seems to be what others are doing; I sometimes double-park if it looks as though everybody is double-parked."
+   },
+   {
+    "role": "B",
+    "book": "SCHELL",
+    "quote": "Nearly everybody , if asked, alleges that he\u2019d have continued attending pretty regularly if enough others had cared enough to attend regularly enough to make it worthwhile."
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "At some point several appear to decide that the flow of pedestrians is lar ge enough to be safe and they joi n it, enlar ging it further and making it safe for a few who were still waiting and who now join."
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "they are deteriorating because the people who keep their homes attractive are leaving; they are leaving because the neighborhood is deteriorating because people like them are leaving"
+   },
+   {
+    "role": "interlock",
+    "book": "SCHELL",
+    "quote": "What is common to all of these examples is the way people\u2019 s behavior depends on how many are behaving a particular way"
+   }
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Namer",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "recursion test",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "story"
+  ],
+  "quotes": [
+   {
+    "role": "A",
+    "book": "KAHN",
+    "quote": "The cycle is sometimes sped along deliberately by \u201cavailability entrepreneurs,\u201d individuals or organizations who work to ensure a continuous flow of worrying news."
+   },
+   {
+    "role": "B",
+    "book": "KAHN",
+    "quote": "the importance of an idea is often judged by the fluency (and emotional charge) with which that idea comes to mind."
+   },
+   {
+    "role": "B",
+    "book": "KAHN",
+    "quote": "Gruesome images, endlessly repeated in the media, cause everyone to be on edge."
+   },
+   {
+    "role": "interlock",
+    "book": "KAHN",
+    "quote": "On some occasions, a media story about a risk catches the attention of a segment of the public, which becomes aroused and worried. This emotional reaction becomes a story in itself, prompting additional coverage in the media, which in turn produces greater concern and involvement."
+   },
+   {
+    "role": "interlock",
+    "book": "KAHN",
+    "quote": "The stories understandably frightened the public, and those fears encouraged more media coverage, the basic mechanism of an availability cascade."
+   }
+  ]
+ },
+ {
+  "figure": "Held Silence",
+  "parts": [
+   "Filling the Gap",
+   "Filling the Gap"
+  ],
+  "depth": 3,
+  "shared": [
+   "Filling the Gap",
+   "The Mask",
+   "The Nearest Light"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "EPLEY",
+    "quote": "If someone sitting right next to you isn\u2019t talking to you, then it\u2019s pretty simple to infer that they don\u2019t want to talk to you."
+   },
+   {
+    "role": "B",
+    "book": "EPLEY",
+    "quote": "you might also sit in silence even when you\u2019d be happy to talk because you think others aren\u2019 t interest ed in connecting with you."
+   },
+   {
+    "role": "interlock",
+    "book": "EPLEY",
+    "quote": "Indeed, our bus and train riders in Chicago were overwhelmingly of the latter type: happy to talk but reluctant to start. If everyone on the bus held those beliefs, or even if just most people did, then you would end up with an entire bus full of people who are happy to talk with their neighbors but never say a word."
+   }
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "Filling the Gap",
+   "The Agenda"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Nearest Light"
+  ],
+  "source": "recursion test",
+  "link": "shown",
+  "quotes": [
+   {
+    "role": "A",
+    "book": "HENRICH",
+    "quote": "The nature of our media means that, without trying, many people end up attending to whomever the popular media is covering."
+   },
+   {
+    "role": "B",
+    "book": "HENRICH",
+    "quote": "An initial media exposure, accidental or by design, creates attention cues that cause people to unconsciously perceive someone as a worthy model."
+   },
+   {
+    "role": "interlock",
+    "book": "HENRICH",
+    "quote": "This shift can then create a feed-back loop, as the media continues to cover those who people want to know more about, and a celebrity is born\u2014seemingly from nothing. This process got started because the initial media coverage caused some people to mistakenly infer that others were attending to a particular person."
+   }
+  ]
+ },
+ {
+  "figure": "The Firebreak",
+  "parts": [
+   "Gaming the Terms",
+   "The Line"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Line"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "TANN",
+    "quote": "Nevertheless, proponents of the neutron bomb tried again in the early 1970s, continuing to argue the moral and military advantages of having a more discriminating weapon."
+   },
+   {
+    "book": "TANN",
+    "quote": "it represented an attempt to construct a category of \u201cpeaceful nuclear explosions,\u201d an effort that was ultimately rejected."
+   },
+   {
+    "book": "TANN",
+    "quote": "In this view, certain uses of nuclear weapons would be banned (say, use on cities and civilians) while others might be permitted (use on naval ships at sea or on isolated troops in the desert)."
+   },
+   {
+    "book": "TANN",
+    "quote": "With conventional (non-taboo) norms, violations tend to be judged in terms of relative degrees of severity. Thus the use of one bomb, ten bombs, or 100 (conventional) bombs would represent an increasingly severe violation of a \u201cregular\u201d norm against their use. But in the case of a taboo, use of even one nuclear bomb moves one irrevocably to a new world"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "But it is important not to think that nuclear weapons alone have this character of being generically different, and independently of quantity or size."
+   },
+   {
+    "book": "TANN",
+    "quote": "ACDA opposed this on the grounds that there was little distinction between nuclear explosions for military and peaceful purposes"
+   },
+   {
+    "book": "TANN",
+    "quote": "These two cases provide illuminating windows into the operation of the taboo, showing how the line between conventional and nuclear weapons was challenged and then preserved. The defeat of these two notions helped to consolidate the taboo around a total, as opposed to selective, prohibition on use of nuclear weapons and dealt a death blow to competing norms of \u201cuse.\u201d"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "had been the subject of even more intense debate fifteen years earlier, and it was there that the argument was honed that was ready to be used again in the 1970s."
+   },
+   {
+    "book": "TANN",
+    "quote": "Then it had to be maintained \u2013 sometimes precariously \u2013 in the face of repeated challenges made possible by advancing technology and the development of smaller, less destructive nuclear weapons."
+   },
+   {
+    "book": "TANN",
+    "quote": "Ten years after the Korean War, despite the development in the interim of all manner of small, low-yield, more \u201cusable\u201d nuclear weapons, they were less usable than ever."
+   }
+  ]
+ },
+ {
+  "figure": "The New Normal",
+  "parts": [
+   "The Riverbed",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "riverbed",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "the resulting institutional infrastructure that had been created represented a major investment that dramatically changed the incentives and behaviors of participants and the resulting outcomes."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "intermediate benefits from the initial investments were realized before anyone needed to make larger investments."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Each institutional change became the foundation for the next change."
+   },
+   {
+    "book": "CHATER",
+    "quote": "Smoking bans are now popular even among smokers themselves.8 And this public acceptance has in turn increased support for even more restrictive measures against smoking"
+   }
+  ]
+ },
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Spark",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Spark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "its own weapons development started a process that was sure to require still more weapons development in the future"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Each weapons increase on one side caused a scramble to surpass it on the other side."
+   },
+   {
+    "book": "SELLERS",
+    "quote": "all players quickly escalating the number and types of units they purchase with greater and greater investment"
+   },
+   {
+    "book": "SELLERS",
+    "quote": "The latter situation can make for exciting escalating gameplay if players are balancing each other\u2019s progress"
+   }
+  ]
+ },
+ {
+  "figure": "Proxy Detachment",
+  "parts": [
+   "The Mark",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "the goal is the direction-setter of the system, the definer of discrepancies that require action, the indicator of compliance, failure, or success toward which balancing feedback loops work."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "But governments around the world respond to a signal of faltering GNP by taking numerous actions to keep it growing. Many of those actions are simply wasteful, stimulating inefficient production of things no one particularly wants."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Systems, like the three wishes in the traditional fairy tale, have a terrible tendency to produce exactly and only what you ask them to produce."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "In the early days of family planning in India, program goals were defined in terms of the number of IUDs implanted. So doctors, in their eagerness to meet their targets, put loops into women without patient approval."
+   }
+  ]
+ },
+ {
+  "figure": "The Limelight",
+  "parts": [
+   "The Mask",
+   "The Sure Voice"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mask"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Tetlock also found that experts resisted admitting that they had been wrong, and when they were compelled to admit error, they had a large collection of excuses: they had been wrong only in their timing, an unforeseeable event had intervened, or they had been wrong but for the right reasons."
+   },
+   {
+    "book": "KAHN",
+    "quote": "Experts who acknowledge the full extent of their ignorance may expect to be replaced by more confident competitors, who are better able to gain the trust of clients."
+   },
+   {
+    "book": "KAHN",
+    "quote": "Here again, expert overconfidence is encouraged by their clients: \u201cGenerally, it is considered a weakness and a sign of vulnerability for clinicians to appear unsure."
+   },
+   {
+    "book": "KAHN",
+    "quote": "\u201cExperts in demand,\u201d he writes, \u201cwere more overconfident than their colleagues who eked out existences far from the limelight.\u201d"
+   }
+  ]
+ },
+ {
+  "figure": "The Emerging Taboo",
+  "parts": [
+   "Identity Ratchet",
+   "The Tradition of Non-Use"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "TANN",
+    "quote": "Upholding the norm becomes part of validating an identity. \"We can't drop bombs because . . .\" (of who we are, what our values are, \"we just don't do things like this,\""
+   },
+   {
+    "book": "TANN",
+    "quote": "The non-use of nuclear weapons in the Vietnam War helped to further reinforce the taboo and the tradition of non-use."
+   },
+   {
+    "book": "TANN",
+    "quote": "Actors conform to, and reproduce, norms in order to validate social identities; it is in the process of validating identities that interests are constituted."
+   },
+   {
+    "book": "TANN",
+    "quote": "arguments that using nuclear weapons would violate the United States' conception of itself as a moral, civilized nation. Upholding the taboo was essential to validating this identity. The taboo was no longer simply a \"constraint\" but had itself become a foreign policy goal for a \"civilized\" state."
+   },
+   {
+    "book": "TANN",
+    "quote": "It is no longer attached only to third parties who hold it, thereby appearing to decisionmakers primarily as an appeasement of others' views. Rather, it has become more internalized."
+   }
+  ]
+ },
+ {
+  "figure": "The Emerging Taboo",
+  "parts": [
+   "The Namer",
+   "The Tradition of Non-Use"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "TANN",
+    "quote": "it is a taboo because people believe it to be such. Political and military leaders themselves began to use the term to refer to this normative perception starting in the early 1950s, even when, objectively, a tradition of non-use hardly existed yet."
+   },
+   {
+    "book": "TANN",
+    "quote": "Thus his own behavior contributed to the emerging tradition of non-use."
+   },
+   {
+    "book": "TANN",
+    "quote": "this time officials themselves were leading articulators of the importance of the taboo and of the disastrous military, political, and moral consequences that would attend any violation of the, by now, long tradition of non-use."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Taboos are not easily dispelled by pronouncing them extinct, even in the mind of one who does the pronouncing."
+   }
+  ]
+ },
+ {
+  "figure": "The Two Hands",
+  "parts": [
+   "The Organized Few",
+   "The Salve"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "BROWNST",
+    "quote": "After acknowledging that climate change exists, the company makes you feel responsible for it. And then they give you something to do that helps you feel like you\u2019re part of the solutio n."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "Meanwhile, BP continues pumping away , enjoying massive federal subsidies and outlandish profits while avoiding any new , restrictive regulations."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "So long as everyone is busy with anti-litter campaigns, the Ad Council accurately predicted, we won\u2019 t bother passing restrictive laws."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "The strategy they adopted was to steer people away from lobbying their state representatives to ban single- use containers. Instead, they aimed to convince people to take personal responsibility for the problem."
+   }
+  ]
+ },
+ {
+  "figure": "First-Arriver Lock-In",
+  "parts": [
+   "The Spark",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Spark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "Its reinforcing feedback loop of capital accumulation will be able to turn faster than that of the other firm, enabling it to produce still more and earn still more."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "With few marketable skills, they qualify only for low-paying jobs, perpetuating their poverty."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "They must pay part of their crops to the landowner for the privilege of work ing the land, and so never are able to buy land of their own. The landowner uses the income from tenants to buy more land."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Even when interest rates are reasonable, the poor pay them, the rich collect them."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "It will win a larger share of the resource, which will give it the ability to multiply more and keep winning. It will not only dominate the niche, it will drive the losing competitor to extinction."
+   }
+  ]
+ },
+ {
+  "figure": "The Organized Few",
+  "parts": [
+   "The Riverbed",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "riverbed",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "Wealth gaps are self-reinforcing because rich people use their greater resources to expand their powers. They also influence the political system to their advantage"
+   },
+   {
+    "book": "CHATER",
+    "quote": "The concentrated interests that might benefit from being able to manipulate politics to their advantage will, of course, work hard to maintain and increase their p ower ."
+   },
+   {
+    "book": "CHATER",
+    "quote": "The rich and powerf ul have had every incentive to consolidate and enhance their wealth and power , by skewing the tax system in their favor"
+   }
+  ]
+ },
+ {
+  "figure": "The Held Commitment",
+  "parts": [
+   "The Riverbed",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "riverbed",
+   "riverbed"
+  ],
+  "quotes": [
+   {
+    "book": "GNEEZY",
+    "quote": "each team was only eligible for the incentive if both teammates met the required goal."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "She does the \u201csong a day\u201d challenge with a friend, which helps them both stay accountable."
+   },
+   {
+    "book": "GNEEZY",
+    "quote": "you know your friend is waiting for you, and you don\u2019t want to disappoint them."
+   }
+  ]
+ },
+ {
+  "figure": "The Contingent Commitment",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "He wants the ban enforced; but if it is not enforced he intends to water his lawn, especially if everybody else is doing it."
+   },
+   {
+    "book": "BERNS",
+    "quote": "eventually he came to realize that other people tended to behave in a similar manner toward him"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "The compliance of each depends on the compliance of the others."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "If some individuals are allowed to free-ride by sending less able workers to a required labor day, others will consider themselves to be suckers if they send their strongest workers"
+   },
+   {
+    "book": "BERNS",
+    "quote": "The best course of action depends on what the other person does."
+   }
+  ]
+ },
+ {
+  "figure": "The Matched Edge",
+  "parts": [
+   "Gaming the Terms",
+   "The Tide"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL_G",
+    "quote": "if the game is too easy or too difficult for a player, the game will detect this and change the difficulty until it is at the right level of challenge for the player."
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "If players know the game will get easier when they play badly, they may choose to play badly just to make an upcoming part of the game easy to get through, completely defeating the purpose of the self-balancing system."
+   }
+  ]
+ },
+ {
+  "figure": "Coaching the Ghost",
+  "parts": [
+   "The Salve",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Salve"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "EIJK",
+    "quote": "It feels relaxing. Our elephant feels better after pushing away the responsibility."
+   },
+   {
+    "book": "EIJK",
+    "quote": "Another colleague agrees, \u201cWay too many meetings indeed. Also, I\u2019m getting so tired of all the emails.\u201d"
+   },
+   {
+    "book": "EIJK",
+    "quote": "He complains to his colleagues during lunch and gossips about the person who sets up many"
+   },
+   {
+    "book": "STANIER",
+    "quote": "at the end of which you both feel much better thanks to your inherent superiority over John and all his many flaws"
+   }
+  ]
+ },
+ {
+  "figure": "The Emerging Taboo",
+  "parts": [
+   "The Line",
+   "The Unbroken Chain"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Line"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "I am particularly impressed by the \"nineteen peril-filled years.\" Johnson implied that for nineteen years the United States had resisted the temptation to do what Dulles had wanted the United States to be free to do where nuclear weapons were concerned."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "This argument emphasized bright lines, slippery slopes, well-defined boundaries, and the stuff of which traditions and implicit conventions are made. (The analogy to \"one little drink\" for a recovering alcoholic was sometimes heard.)"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "\"Make no mistake. There is no such thing as a conventional nuclear weapon. For nineteen peril-filled years no nation has loosed the atom against another. To do so now is a political decision of the highest order.\""
+   },
+   {
+    "book": "TANN",
+    "quote": "the longer nuclear weapons go unused, the greater the bright line threshold."
+   }
+  ]
+ },
+ {
+  "figure": "The Counteroffer",
+  "parts": [
+   "The Anchor",
+   "The Mark"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "GNEEZY",
+    "quote": "Say you start with $875,000. You don\u2019t really expect her to accept, but you\u2019ve set the stage"
+   },
+   {
+    "book": "VOSS",
+    "quote": "Just like people are more likely to send Christmas cards to people who first send cards to them, they are more likely to make bargaining concessions to those who have made compromises in their direction."
+   },
+   {
+    "book": "GNEEZY",
+    "quote": "you\u2019ve ensured that all subsequent o\ufb00ers will be compared and contrasted with the $875,000. Jennifer counters your initial o\ufb00er with a much-lower o\ufb00er."
+   },
+   {
+    "book": "GNEEZY",
+    "quote": "This give-and-take is considered \u201cfair\u201d in negotiations: I make a concession and then you make a concession."
+   },
+   {
+    "book": "VOSS",
+    "quote": "Second, the diminishing size of the increases\u2014notice that they decrease by half each time\u2014convinces your counterpart that he\u2019s squeezing you to the point of breaking."
+   }
+  ]
+ },
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "CHATER",
+    "quote": "what really matters is not the size of my car, but the size of my car in comparison with everyone else\u2019s"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "to grade their students above but only slightly above the average grade"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Each actor takes its desired state from the other\u2019s perceived system state\u2014and ups it!"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "if everybody not only shares this motivation but suspects everybody else does too, everybody will make allowance for everybody else\u2019s bias and adjust his own performance further, aggravating the displacement"
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "your ego and their accomplishments make you feel like nothing\u2014 just as others make them feel the same way. It\u2019s a cycle that goes on ad infinitum"
+   },
+   {
+    "book": "MCG",
+    "quote": "I can see how I measure up to others and compare avatar strengths"
+   },
+   {
+    "book": "MCG",
+    "quote": "Now the guys are obsessed with beating each other!"
+   }
+  ]
+ },
+ {
+  "figure": "The Sliding Floor",
+  "parts": [
+   "The Mark",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "Allowing performance standards to be influenced by past performance"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "sets up a reinforcing feedback loop of eroding goals that sets a system drifting toward low performance."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "if one takes the best results as a standard, and the worst results only as a temporary setback, then the same system structure can pull the system up to better and better performance. The reinforcing loop going downward, which said \u201cthe worse things get, the worse I\u2019m going to let them get,\u201d becomes a reinforcing loop going upward"
+   }
+  ]
+ },
+ {
+  "figure": "The Contagion",
+  "parts": [
+   "The Salve",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Salve"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "BROWN",
+    "quote": "W e\u2019 re so desperate to get out and st ay out of shame that we\u2019re constantly se rving up the people around us as more deserving prey ."
+   },
+   {
+    "book": "BROWN",
+    "quote": "W e\u2019re hard on each other because we\u2019re using each other as a launching pa d out of our own perceived shaming deficiency . It\u2019 s hurtful and inef fective, and if you look at the m ean-girl culture in middle schools and h igh schools, it\u2019 s also contagious."
+   },
+   {
+    "book": "TNHF",
+    "quote": "When we don\u2019t know how to handle our suf fering, we continue to suf fer, and we can make other people around us suf fer. When someone hurts us, our first reaction is to want to punish or hurt them."
+   }
+  ]
+ },
+ {
+  "figure": "The Rising Sawtooth",
+  "parts": [
+   "The Learning Gradient",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "MCG",
+    "quote": "It only gets harder when you\u2019re playing well, creating a perfect balance between hard challenge and achievability ."
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "We grow either bored or frustrated, and then the desire to enjoy ourselves again pushes us to stretch our skills, or to discover new opportunities for using them."
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "You can see how keeping someone in the flow channel is a delicate balance, for a player\u2019s skill level seldom stays in one place. As their skill increases, you must present them with commensurate challenges."
+   },
+   {
+    "book": "MCG",
+    "quote": "in a good computer or video game you\u2019re always playing on the very edge of your skill level, always on the brink of falling of f. When you do fall of f, you feel the ur ge to climb back on."
+   }
+  ]
+ },
+ {
+  "figure": "The Closed Circuit",
+  "parts": [
+   "The Flywheel",
+   "The Line"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "BROWNST",
+    "quote": "many employers can, and sometimes must (by law), ask all applicants to \u201ccheck a box\u201d if they have a criminal record."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "As a result, formerly incarcerated people have a very hard time finding employment, which in turn makes them more likely to become desperate to make ends meet, re- offend, and then end up back in prison."
+   }
+  ]
+ },
+ {
+  "figure": "The Imagined Public",
+  "parts": [
+   "The Mirror",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "riverbed"
+  ],
+  "quotes": [
+   {
+    "book": "LOWERY",
+    "quote": "When faced with an overwhelming number of choices it makes sense to choose what people like you choose. When you don\u2019t know what to believe, it makes sense to believe what people like you believe."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "Here again predictive algorithms serve to help us find what we want, and often what we want is to see an image of the world that fits our existing worldview."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "What we got instead was a stream of constant reminders of who we are: content curated based on our biases, tighter ties to people like us, and an inability to turn off or turn away from it all."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "these technologies supercharged people\u2019s ability to indulge these tendencies."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "The beliefs and behavior of the people in your neighborhood tell you how the world works."
+   }
+  ]
+ },
+ {
+  "figure": "The Priced Tradition",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "greatly af fected by custom and by expectations of what others expect and what others may send, by cards received (and not received) last year and already received this year"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "People sometimes send cards only because, cards having been sent for several years, cessation might signal something."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "People feel obliged to send cards to peopl e from whom they expect to receive them, often knowing that they will receive them only because the senders expect to receive cards in return."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "My casual inquiry suggests widespread if not unanimous opinion that the system has some of the characteristics of a trap."
+   }
+  ]
+ },
+ {
+  "figure": "The Hall of Mirrors",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "they didn't because each one is worried that he or she is the only person who didn't understand. Why? Because no one else was asking questions."
+   },
+   {
+    "book": "BERGER",
+    "quote": "No one saw any public signal that others were confused so everyone keeps his doubts to him- or herself."
+   },
+   {
+    "book": "BERGER",
+    "quote": "Pluralistic ignorance refers to a case where most people in a group privately reject a norm (such as drinking a lot) but incorrectly assume that others accept it, in part because they can see others' behavior but not their thoughts."
+   }
+  ]
+ },
+ {
+  "figure": "The Rival Watch",
+  "parts": [
+   "The Outfall",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "outfall",
+   "outfall"
+  ],
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "The irrigator who nears the end of a rotation turn would like to extend the time of his turn (and thus the amount of water obtained)."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "The next irrigator in the rotation system waits nearby for him to finish, and would even like to start early."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "The presence of the first irrigator deters the second from an early start, the presence of the second irrigator deters the first from a late ending."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Monitoring is a by-product of their own strong motivations to use their water rotation turns to the fullest extent."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "rather than racing to be first in the shower and use it all up"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "can watch each other and have to account for the time we stand enjoying the hot water"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "If one fisher occupies a good fishing site, a second fisher arriving at the same location must invest more resources to travel to another site, or else fight for the first site."
+   }
+  ]
+ },
+ {
+  "figure": "The Standoff",
+  "parts": [
+   "The Spark",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "If any one actor gains an advantage and moves the system stock (drug supply) in one direction (enforcement agencies manage to cut drug imports at the border), the others double their efforts to pull it back"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "higher prices bring more profits, suppliers use the profits to buy planes and boats to evade the border patrols"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "In fact, this system structure can operate in a ratchet mode: Intensification of anyone\u2019s effort leads to intensification of everyone else\u2019s."
+   }
+  ]
+ },
+ {
+  "figure": "The Flywheel",
+  "parts": [
+   "The Mirror",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "riverbed"
+  ],
+  "quotes": [
+   {
+    "book": "DUCK",
+    "quote": "He proactively attracts mentors, cultivates lasting friendships with peers he respects and admires, and moves into spaces and places that bring out his best."
+   },
+   {
+    "book": "DUCK",
+    "quote": "Young Cody, for example, had an older brother who improved an otherwise dismal (Box One) situation. The result? More optimistic (Box Two) thoughts, particularly about his intellectual potential"
+   },
+   {
+    "book": "DUCK",
+    "quote": "in the form of small wins, including improved report card grades and an enthusiasm for learning that attracted attention from teachers like Chantel and Norm. Suddenly, Cody was in an even better situation. Now, instead of one supportive and challenging mentor, Cody had three."
+   }
+  ]
+ },
+ {
+  "figure": "Each Other's Situation",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "When you look around, you\u2019d see a lot of drinking."
+   },
+   {
+    "book": "BERGER",
+    "quote": "But what students don\u2019t realize is that everyone is having similar thoughts. Their peers are having the same experience."
+   },
+   {
+    "book": "BERGER",
+    "quote": "They see others drinking, so they drink, too. And the cycle continues because people can\u2019t read one another\u2019s thoughts."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Another study found that if one person in a relationship lost weight, the other partner would also slim down about one third of the time."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Surround yourself with people who have the habits you want to have yourself. You\u2019ll rise together."
+   }
+  ]
+ },
+ {
+  "figure": "The Hall of Mirrors",
+  "parts": [
+   "Critical Mass",
+   "The Mirror"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "Critical mass is provided by the people whose behavior does not depend on numbers, and the chain reaction takes care of the rest."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "it may be that everybody actually prefers pass-fail but feels uneasy about it unless enough others also choose it."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The observed outcome may be one that everybody prefers, it may be one that nobody prefers, or it may be one that some prefer and others deplore."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "If everybody is on daylight saving or the metric system, or if everybody addresses women as Ms. or teachers by their first names, or everybody waits for the green light to cross at the intersection, I'll go along; if everybody feels the way I do, we'll all go along. But unless we smile or frown an observer cannot tell whether we go along joyfully or reluctantly ."
+   }
+  ]
+ },
+ {
+  "figure": "The Closed Circuit",
+  "parts": [
+   "The Mirror",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "BROWNST",
+    "quote": "As gay people gained visibility in culture, politics, and media, more and more gay people came out of the closet."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "One result of this was that more and more American s came to understand that they already knew and loved people who were gay. More and more people\u2019 s attitudes changed"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "A change in the system\u2014public representations of gay people\u2014pushes other elements of the system to change\u2014people\u2019 s attitudes\u2014which in turn creates more change in that first element"
+   }
+  ]
+ },
+ {
+  "figure": "The Split Ledger",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "DUCK",
+    "quote": "all twenty swimmers \u201c think they can win it all . \u201d"
+   },
+   {
+    "book": "DUCK",
+    "quote": "There's someone in each stroke that can push me. We push each other every day in practice and in competition, too."
+   },
+   {
+    "book": "MCG",
+    "quote": "If my husband, Kiyash, thinks I'm going to scrub the tub on Saturday morning, he'll wake up early , tiptoe out of the bedroom and silently beat me to it."
+   },
+   {
+    "book": "MCG",
+    "quote": "But I've lived in this alternate reality long enough to have developed a highly ef fective counterstrategy: I clean the bathroom at odd hours in the middle of the week, when he's least expecting it. The more random the hour, the more likely I am to complete the chore before he does."
+   },
+   {
+    "book": "MCG",
+    "quote": "Why exactly are we competing with each other to do the dirty work?"
+   }
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Line",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "The question is not how much anyone does but how many make the one choice or the other ."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "if everybody will stay if enough others do, and the total number is more than \u201cenough,\u201d everybody will stay; and everybody will go if not enough are present."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Everybody has his own definition of how many is \u201cenough.\u201d"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "In our dying seminar it could be that for any number present, two or three find it not lar ge enough; when they drop out, another two or three find it not lar ge enough and when they drop out, another two or three."
+   }
+  ]
+ },
+ {
+  "figure": "The Leaking Border",
+  "parts": [
+   "The Outfall",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "outfall",
+   "outfall"
+  ],
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "Once water producers in West Basin reduced their pumping levels, while water producers in Central Basin continued heavy production, water from West Basin began to flow eastward into Central Basin"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Extensive recharge of Central Basin might contribute free water to West Basin"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Water spread at that location could raise water levels in Central Basin, which, combined with a cutback in production in Central Basin, would increase the flow of water into West Basin."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "led producers in both basins to recognize how closely interconnected their two basins were"
+   }
+  ]
+ },
+ {
+  "figure": "The Shifted Burden",
+  "parts": [
+   "Answering For",
+   "The Salve"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Salve"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "STANIER",
+    "quote": "you\u2019ve trained your people to become excessively reliant on you, a situation that turns out to be disempowering for them and frustrating for you."
+   },
+   {
+    "book": "STANIER",
+    "quote": "Any time there\u2019s a problem, rather than trying to figure it out themselves, they now come to you for the answer. It feels (at times at least) as if it\u2019s easier that way for you and for them"
+   },
+   {
+    "book": "STANIER",
+    "quote": "The more you help your people, the more they seem to need your help. The more they need your help, the more time you spend helping them."
+   },
+   {
+    "book": "STANIER",
+    "quote": "Your team has trained you well to do their work for them."
+   }
+  ]
+ },
+ {
+  "figure": "The Arrangement",
+  "parts": [
+   "The Held Commitment",
+   "The Held Commitment"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Held Commitment",
+   "The Namer",
+   "The Riverbed"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "DUCK",
+    "quote": "Each partner looks the other i n the eye and reads their card aloud , ending with \u201c This I commit t o you . \u201d"
+   },
+   {
+    "book": "DUCK",
+    "quote": "The following week , e a ch student has two tasks : take action o n your own goa l and ch e ck whether your partner i s doing the same ."
+   },
+   {
+    "book": "DUCK",
+    "quote": "your best self emerges when accountability i s mutual \u2014w hen your partner hold s you accountable t o your goals a t the very same time a s you , i n turn , hold the m accountable t o theirs ."
+   },
+   {
+    "book": "DUCK",
+    "quote": "when I publicly commit t o you and you publi cl y commit t o m e , w e \u2019 r e each motivated t o b e our very best ."
+   }
+  ]
+ },
+ {
+  "figure": "The Branded Line",
+  "parts": [
+   "The Line",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "riverbed"
+  ],
+  "quotes": [
+   {
+    "book": "TANN",
+    "quote": "In contrast, a taboo is an absolute prohibition that is not necessarily disrupted by a violation, and does not permit reciprocal behavior in response to a violation."
+   },
+   {
+    "book": "TANN",
+    "quote": "US leaders added more conventional forces to make nuclear weapons seem unnecessary."
+   },
+   {
+    "book": "TANN",
+    "quote": "As Thomas Schelling has argued, however, this kind of subtle avoidance behavior \u2013 ensuring there will be conventional alternatives \u2013 itself is powerful evidence of a taboo."
+   },
+   {
+    "book": "TANN",
+    "quote": "(this would be made easier by the fact that the United States possesses adequate conventional alternatives)"
+   }
+  ]
+ },
+ {
+  "figure": "Filling the Gap",
+  "parts": [
+   "The Easier Door",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "LOWERY",
+    "quote": "To make sense of other people we augment limited information with stories. We put people in groups and extend information about some members to all members."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "if a particular minority is considered incapable of holding responsible positions, they will not be hired for responsible positions; they will have no opportunity for experience in responsible positions; and, lacking any such experience, they may indeed be incapable."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "There is the unilateral process of believing something about people, behaving toward them in accordance with those beliefs, and causing the beliefs to be confirmed."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "What you believe about me affects the way you interact with me; your beliefs and actions, in turn, affect the nature of my self."
+   }
+  ]
+ },
+ {
+  "figure": "Flower Watering",
+  "parts": [
+   "The Gardener",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "TNHF",
+    "quote": "You feel that if you can express your anger , if you can make them suf fer, you will get relief."
+   },
+   {
+    "book": "TNHF",
+    "quote": "how the other person\u2019 s suf fering, which waters the seed of my anger , is the secondary cause."
+   },
+   {
+    "book": "TNHF",
+    "quote": "When we don\u2019t know how to handle our suf fering, we continue to suf fer, and we can make other people around us suf fer. When someone hurts us, our first reaction is to want to punish or hurt them."
+   },
+   {
+    "book": "TNHF",
+    "quote": "how the other person is only seeking relief from his or her own suf fering."
+   }
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "The Agenda",
+   "The Gardener"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "The nature of our media means that, without trying, many people end up attending to whomever the popular media is covering."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This nonconscious inference also causes increased emulation and mimicry in this group, as they seek physical, or at least social, proximity."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This shift can then create a feed-back loop, as the media continues to cover those who people want to know more about, and a celebrity is born\u2014seemingly from nothing."
+   }
+  ]
+ },
+ {
+  "figure": "The Shared Pot",
+  "parts": [
+   "Critical Mass",
+   "The Outfall"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "you benefit from the use of insecticides by others; the value of your own insecticides is dissipated unless some neighbors use insecticides, too"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "with moderate usage by others, it becomes cost-ef fective to apply your own"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "If hardly anyone has citizen\u2019 s-band radio, there is nobody to talk to; the externality benefits more the people who have sets than those who do not, though the latter get some benefits from the communication system; if enough people have sets, others are induced to procure them as a nearly universal means of communication"
+   }
+  ]
+ },
+ {
+  "figure": "The Pairing",
+  "parts": [
+   "First-Arriver Lock-In",
+   "The Tide"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "This system trap is found whenever the winners of a competition receive, as part of the reward, the means to compete even more effectively in the future."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Most industrial societies have some combination of checks like these on the workings of the success-to-the-successful trap, in order to keep everyone in the game."
+   },
+   {
+    "book": "SELLERS",
+    "quote": "balancing loops can be used to either help those lagging behind or slow those who are getting too far ahead."
+   },
+   {
+    "book": "SELLERS",
+    "quote": "as it does not affect a lagging player nearly as much as it affects one who is winning and owns many properties."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Antipoverty programs are weak balancing loops that try to counter these strong reinforcing ones."
+   }
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Easier Door",
+   "The Easier Door"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Easier Door"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "People assume that the longer the line, the better the food must be."
+   },
+   {
+    "book": "BERGER",
+    "quote": "People aren't sure what career to choose, so they look to others. And it snowballs."
+   },
+   {
+    "book": "BERGER",
+    "quote": "A few people see that 20 percent and switch. A few more see those people switch, and they follow along. Soon the number is 30 percent. Which makes other people even more likely to switch."
+   },
+   {
+    "book": "BERGER",
+    "quote": "So through social influence this initially small advantage gets magnified."
+   }
+  ]
+ },
+ {
+  "figure": "The Norm Cascade",
+  "parts": [
+   "The Mark",
+   "The Namer"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "BROWNST",
+    "quote": "According to some estimates, nothing moves us to get involved more than comparing our choices to others\u2019 choices."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "Telling readers how \u201cmore and more\u201d people are reducing meat consu mption can be a more powerf ul driver of norm change than describing the stats as static"
+   },
+   {
+    "book": "BERGER",
+    "quote": "But by providing social proof that others were stealing, the message had a perverse effect, almost doubling the number of people taking wood!"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "A change in the system\u2014public representations of gay people\u2014pushes other elements of the system to change\u2014people\u2019 s attitudes\u2014which in turn creates more change in that first element\u2014public representation."
+   }
+  ]
+ },
+ {
+  "figure": "The Closed Circuit",
+  "parts": [
+   "The Outfall",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Outfall"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "outfall",
+   "outfall"
+  ],
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "since one entity\u2019s spending is another\u2019s income, when one entity cuts its expenses, that will hurt not just that entity, but it will also hurt others who depend on that spending to earn income."
+   },
+   {
+    "book": "DALIO",
+    "quote": "since one entity\u2019s debts are another\u2019s assets, an entity that defaults reduces other entities\u2019 assets, which requires them to cut their spending."
+   },
+   {
+    "book": "DALIO",
+    "quote": "This dynamic produces a self-reinforcing downward debt and economic contraction"
+   }
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Tide",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Tide"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "tide",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "If not all whites present are content, some will leave; they will leave in order of their discontent, so that those remaining are the most tolerant; when their number in relation to the number of blacks is such that the whites rema ining are all content, no more of them leave. A similar rule governs entry and departure of blacks."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Thus each of the three equilibria\u2014the all-white, the all-black, and the 80\u201380 mixture\u2014is stable against fairly lar ge perturbations."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "W ithin the overlapping portion of the two curves, the numbers of blacks and whites present will both be increasing."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "the two colors will conver ge on the 80\u201380 mixture"
+   }
+  ]
+ },
+ {
+  "figure": "The Shifted Burden",
+  "parts": [
+   "The Salve",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "salve",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "HARRIS",
+    "quote": "He doesn\u2019t want those feelings of anxiety, so he avoids socialising whenever possible."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "If the intervention designed to correct the problem causes the self-maintaining capacity of the original system to atrophy or erode, then a destructive reinforcing feedback loop is set in motion."
+   },
+   {
+    "book": "HARRIS",
+    "quote": "This means that on the rare occasion when he does socialise, he\u2019s more anxious than ever because he\u2019s so out of practice."
+   },
+   {
+    "book": "HARRIS",
+    "quote": "Many strategies that decrease unpleasant feelings in the short-term actually lower our quality of life over the long term. These unwanted outcomes lead to more unpleasant feelings, and thus even more attempts to control them."
+   }
+  ]
+ },
+ {
+  "figure": "Mutual Monitoring",
+  "parts": [
+   "The Namer",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "outfall",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "Despite the small size of these communities, the perpetrators of these actions often remain anonymous and get direct benefits in the form of stolen food and tools as well as the advantages of bringing down a competitor or dispensing revenge for past grievances."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Rather, observers of the violation spread the word about what happened, and this gossip has negative consequences downstream, for some later interaction."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "discovered by a local guard (who will eventually tell everyone) or another appropriator (who also is likely to tell everyone)"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Despite their selfish motivations, these actions sustain social norms, including coop - erative ones, because\u2014crucially\u2014perpetrators can only get away with such actions when they target a norm violator, a person with his reputa-tional shield down."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Were they to do this to someone with a good reputa-tion, the perpetrator would himself become a norm violator and dam-age his or her reputation, thereby opening themselves up to gossip, thefts and property damage."
+   }
+  ]
+ },
+ {
+  "figure": "The Social Tipping Point",
+  "parts": [
+   "The Mirror",
+   "The Outfall"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "outfall"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "Every time current Hotmail customers sent an e-mail, they also sent prospective customers a bit of social proof\u2014an implicit endorsement for this previously unknown service."
+   },
+   {
+    "book": "BERGER",
+    "quote": "It\u2019s been said that when people are free to do as they please, they usually imitate one another."
+   },
+   {
+    "book": "BERGER",
+    "quote": "A product, idea, or behavior advertises itself when people consume it. When people wear certain clothes, attend a rally, or use a website, they make it more likely that their friends, coworkers, and neighbors will see what they are doing and imitate it."
+   },
+   {
+    "book": "BERGER",
+    "quote": "Next year there were more than 9,000 participants. The following year, more than 50,000."
+   }
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Gardener",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "gardener"
+  ],
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Gruesome images, endlessly repeated in the media, cause everyone to be on edge."
+   },
+   {
+    "book": "KAHN",
+    "quote": "Frightening thoughts and images occur to us with particular ease"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Frightening thoughts and images occur to us with particular ease, and thoughts of danger that are fluent and vivid exacerbate fear."
+   },
+   {
+    "book": "KAHN",
+    "quote": "those fears encouraged more media coverage, the basic mechanism of an availability cascade"
+   }
+  ]
+ },
+ {
+  "figure": "The Rescue",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "STANIER",
+    "quote": "Often, we\u2019ll cycle through all of the roles in a single exchange with someone, lurching from Victim to Rescuer to Persecutor and back again."
+   },
+   {
+    "book": "STANIER",
+    "quote": "They are roles we end up playing when we\u2019ve been triggered and, in that state, find a less-than- effective version of ourselves playing out."
+   },
+   {
+    "book": "STANIER",
+    "quote": "Client [whiny]: I sent the setup sheet to the logistics people, but it\u2019s really hard to get them to respond and I\u2019ve had to organize this whole conference by myself without any support and\u2026 (Victim) Me [resigned]: Look, don\u2019t worry about it, I\u2019ll just rearrange the room by myself and get the tech set up. And I\u2019ll cook eggs for everyone. (Rescuer) Client [frustrated]: This is just typical of prima donna speakers like you; we\u2019re paying you too much already and you have to have everything \u201cjust so\u201d and then you take over any time you\u2019re not happy. (Persecutor)"
+   }
+  ]
+ },
+ {
+  "figure": "The Settled Expert",
+  "parts": [
+   "The Learning Gradient",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "CLEAR",
+    "quote": "Each habit unlocks the next level of performance. It\u2019s an endless cycle."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "It is precisely at the moment when you begin to feel like you have mastered a skill\u2014 right when things are starting to feel automatic and you are becoming comfortable\u2014that you must avoid slipping into the trap of complacency."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Mastery is the process of narrowing your focus to a tiny element of success, repeating it until you have internalized the skill, and then using this new habit as the foundation to advance to the next frontier of your development."
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "as our island of knowledge grows, so does the shore of our ignorance."
+   }
+  ]
+ },
+ {
+  "figure": "The Peopled Street",
+  "parts": [
+   "Critical Mass",
+   "The Riverbed"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "ALEX",
+    "quote": "It is damaging because it robs the streets of people. Most of the moving about which people do is indoors\u2014hence lost to the street; the street becomes abandoned and dangerous."
+   },
+   {
+    "book": "ALEX",
+    "quote": "streets which are so unattractive to stay in, that they almost force people into their houses"
+   },
+   {
+    "book": "ALEX",
+    "quote": "This happens partly because the cars have taken over streets, and made them uninhabitable, and partly because the corridors, which have been built in response, encourage the same process."
+   }
+  ]
+ },
+ {
+  "figure": "The Echo",
+  "parts": [
+   "Filling the Gap",
+   "Filling the Gap"
+  ],
+  "depth": 3,
+  "shared": [
+   "Filling the Gap",
+   "The Mask",
+   "The Nearest Light"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "LOWERY",
+    "quote": "The police saw me as a potential lawbreaker, which required something of them\u2014that they treat me with suspicion and some degree of fear because they didn\u2019t trust me to behave as a law-abiding citizen."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "Once I understood this view, I engaged with them as unjust authorities, which required something of me. It required that I resist their requests."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "In this situation, they and I had clarity about our selves. We played out a tragedy in our shared reality. They read their lines and I read mine."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "In every relationship we define each other."
+   }
+  ]
+ },
+ {
+  "figure": "The Hall of Mirrors",
+  "parts": [
+   "The Mark",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "You'd witness your peers drinking and seeming happy about it, so you'd assume that you are the outlier and that everyone else likes drinking more than you do."
+   },
+   {
+    "book": "BERGER",
+    "quote": "So you'd have another drink."
+   },
+   {
+    "book": "BERGER",
+    "quote": "But what students don't realize is that everyone is having similar thoughts. Their peers are having the same experience. They see others drinking, so they drink, too."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "by expectations of what others expect and what others may send, by cards received (and not received) last year and already received this year"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Students send cards to teachers believing that other students do."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "People feel obliged to send cards to people from whom they expect to receive them, often knowing that they will receive them only because the senders expect to receive cards in return."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "There is no mechanism that would induce people to stop sending cards mere ly because everybody , like everybody else, deplored the system and wished it would disappear ."
+   }
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "Lower- status individuals preferentially attend to (watch and listen to) and imitate prestigious individuals but not dominant ones. This atten- tion and imitation is usually automatic and unconscious."
+   },
+   {
+    "book": "BERGER",
+    "quote": "People aren\u2019t sure what career to choose, so they look to others."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This works because others are watching for cues to who is being copied, so substantial mimicry can effectively boost the prestige of the person mimicked."
+   },
+   {
+    "book": "BERGER",
+    "quote": "A few people see that 20 percent and switch. A few more see those people switch, and they follow along."
+   }
+  ]
+ },
+ {
+  "figure": "The Fuelled Spiral",
+  "parts": [
+   "The Mark",
+   "The Salve"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "salve"
+  ],
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "preventing real interest rates from rising by printing money and buying those cash and debt assets, they will choose the second path."
+   },
+   {
+    "book": "DALIO",
+    "quote": "this happens when holders of debt don\u2019t believe they are going to get adequate returns from it relative to other storeholds of wealth and the costs of goods and services."
+   },
+   {
+    "book": "DALIO",
+    "quote": "the level of real interest rates that is low enough to save debtors from bankruptcy is below the level required for creditors to hold the debt as a viable storehold of wealth"
+   },
+   {
+    "book": "DALIO",
+    "quote": "The bank, regardless of whether it is a private bank or a central bank, is then faced with the choice of allowing that flow of money out of the debt asset, which will raise interest rates and cause the debt and economic problems to worsen, or of printing money, in the form of issuing bonds and buying enough of the bonds to prevent interest rates from rising and hopefully reverse the run out of them."
+   }
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Mirror",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "estimates of causes of death are warped by media coverage"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Editors cannot ignore the public\u2019s demands that certain topics and viewpoints receive extensive coverage."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The media do not just shape what the public is interested in, but also are shaped by it."
+   },
+   {
+    "book": "KAHN",
+    "quote": "Lawmakers and regulators may be overly responsive to the irrational concerns of citizens"
+   }
+  ]
+ },
+ {
+  "figure": "The Tradition of Non-Use",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "TANN",
+    "quote": "a use by the United States of nuclear weapons would set a precedent, and down the road, other nucleararmed states might feel free to use them"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Had T ruman used nuclear weapons during the Chinese onslaught in Korea, would Nixon have been as impressed in 1970 by the nineteen-year hiatus as Johnson was in 1964?"
+   },
+   {
+    "book": "TANN",
+    "quote": "As each successive crisis comes and goes and nuclear weapons remain unused, expectations are created about behavior in future crises."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Taxpayers are strategic actors who will cooperate only when they can expect others to cooperate as well. The compliance of each depends on the compliance of the others."
+   }
+  ]
+ },
+ {
+  "figure": "The Rising Peak",
+  "parts": [
+   "The Keepsake",
+   "The Riverbed"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "riverbed",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "But the automatic formation of memories\u2014 a feature of System 1\u2014has its rules, which we can exploit so that the worse episode leaves a better memory."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The photographer does not view the scene as a moment to be savored but as a future memory to be designed."
+   },
+   {
+    "book": "STANIER",
+    "quote": "In short, how we're evaluating an experience is disproportionately influenced by the peak (or the trough) of the experience and by the ending moments."
+   },
+   {
+    "book": "KAHN",
+    "quote": "storing memories is often an important goal, which shapes both the plans for the vacation and the experience of it."
+   },
+   {
+    "book": "STANIER",
+    "quote": "Patients whose colonoscopies were extended by approximately one minute but who experienced less pain in the final moments report remembering 10 percent less pain overall and rank the procedure as less unpleasant compared with a list of other aversive experiences. These patients were also 10 percent more likely to return for a follow-up procedure."
+   }
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Line",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "A few individuals of the opposite color then leave; as they do, they further reduce the numerical status of those of their own color who stay behind. A few more are dissatisfied, and they leave; the minority becomes even smaller , and cumulatively the process causes evacuation of them all."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "by withdrawing they only aggravate the situation that induced them to withdraw"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "whites continue to enter as long as all present are content, and some outside would be content if present."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "when this movement brings one of the colors within its own curve, continued departure of the other color will improve the ratio for the color within its own curve; those who left will begin to return, and the other color will evacuate completely"
+   }
+  ]
+ },
+ {
+  "figure": "Never Enough",
+  "parts": [
+   "The Mark",
+   "The Spark"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "spark"
+  ],
+  "quotes": [
+   {
+    "book": "EPLEY",
+    "quote": "No matter how well you\u2019re doing in life, there\u2019 s almost always someone, somewhere, on some dimension who\u2019 s doing better . You might get a raise, but someone else\u2019s is bigger . You move into a nicer neighborhood, but your neighbor has a nicer house."
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "So we unconsciously pick up the pace to keep up with others."
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "The farther you travel down that path of accomplishment, whatever it may be, the more often you meet other successful people who make you feel insignificant."
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "Grant had accomplished so much, but to him, it wasn\u2019t enough."
+   }
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Line",
+   "The Line"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Line"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "He will live in it unless the percentage of residents of opposite color exceeds some limit. Each person, black or white, has his own limit."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "If a person\u2019 s limit is exceeded in this area he will go someplace else"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Their departure left openings, so more members of the minority could enter; the increase in new residents induced more of the old to leave, and so forth in the familiar process."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Everybody who selects a new environment af fects the environments of those he leaves and those he moves among. There is a chain reaction."
+   }
+  ]
+ },
+ {
+  "figure": "Each Other's Situation",
+  "parts": [
+   "The Mark",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "BERGER",
+    "quote": "You\u2019d witness your peers drinking and seeming happy about it, so you\u2019d assume that you are the outlier and that everyone else likes drinking more than you do."
+   },
+   {
+    "book": "BERGER",
+    "quote": "So you\u2019d have another drink."
+   },
+   {
+    "book": "BERGER",
+    "quote": "College students may personally be against binge drinking, but they binge because that is what they observe others doing."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Your culture sets your expectation for what is \u201cnormal.\u201d"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "In grasping norms\u2014int ernalizing a community\u2019 s unwri tten rules\u2014 we become motivated to follow them. We also become ready to enforce them and to accept it when others enforce them on us."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "You may not always realize it, but you\u2019re doing the same to them ."
+   }
+  ]
+ },
+ {
+  "figure": "The Endorsement",
+  "parts": [
+   "The Long Line",
+   "The Mirror"
+  ],
+  "depth": 4,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "learners automatically and unconsciously imitate their chosen models, including by matching their speech patterns"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "we figure out who to learn from by inferring from the behavior of others who they think are worthy of learning from"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "a young or na\u00efve learner can watch other more expe - rienced individuals to see who they pay attention to, defer to, and mimic."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "speaking well of them in public (thus broadcasting their prestige)"
+   }
+  ]
+ },
+ {
+  "figure": "The Agenda",
+  "parts": [
+   "The Mirror",
+   "The Nearest Light"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Editors cannot ignore the public\u2019s demands that certain topics and viewpoints receive extensive coverage."
+   },
+   {
+    "book": "KAHN",
+    "quote": "In turn, what the media choose to report corresponds to their view of what is currently on the public\u2019s mind."
+   },
+   {
+    "book": "KAHN",
+    "quote": "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory\u2014and this is largely determined by the extent of coverage in the media."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The media do not just shape what the public is interested in, but also are shaped by it."
+   }
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "Everybody wants to be in the dining hall in which the average age is nearest his own."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "\u201cTolerance,\u201d it should be noticed, is a comparative measure."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Now everybody under 40 wants to move; the departure of more young people than old has raised the average."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "People aged 40 to 50 will have joined, causing younger people to depart, only to leave in their turn as their presence attracts older members whom they cannot abide."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Thus the intermediate ages dispossess the younger and are in turn dispossessed by the people they attract!"
+   }
+  ]
+ },
+ {
+  "figure": "The Peopled Street",
+  "parts": [
+   "The Line",
+   "The Line"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Line"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "most people will attend if, but only if, enough others do. Everybody has his own definition of how many is \u201cenough.\u201d And it can mean either enough to make it interesting or enough to make it imprudent to be absent."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "you can walk home every evening after dark if enough other people do, and quit if it appears that not enough others are out walking"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "At some point several appear to decide that the flow of pedestrians is lar ge enough to be safe and they joi n it, enlar ging it further and making it safe for a few who were still waiting and who now join. Soon, even the timid join what has become a crowd."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "are leaving because they find themselves too few for safety and comfort, and as they leave they aggravate the fewness for those they leave behind"
+   }
+  ]
+ },
+ {
+  "figure": "The Limelight",
+  "parts": [
+   "The Mirror",
+   "The Sure Voice"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "The more famous the forecaster, Tetlock discovered, the more flamboyant the forecasts."
+   },
+   {
+    "book": "KAHN",
+    "quote": "They are opinionated and clear, which is exactly what television producers love to see on programs."
+   },
+   {
+    "book": "KAHN",
+    "quote": "\u201cExperts in demand,\u201d he writes, \u201cwere more overconfident than their colleagues who eked out existences far from the limelight.\u201d"
+   }
+  ]
+ },
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Tide",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Tide"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "tide",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "The goal of one part of the system or one actor is not absolute, like the temperature of a room thermostat"
+   },
+   {
+    "book": "BIGBANG",
+    "quote": "the Alephites are quick to match it with a second defense laser of their own. The two sides are still tied in an even contest."
+   },
+   {
+    "book": "BIGBANG",
+    "quote": "Two lasers each lead to three, then four, then five, and so on."
+   },
+   {
+    "book": "DALIO",
+    "quote": "it will usually lead others to feel threatened and build their own threatening powers, which will lead to a mutual escalation that threatens both"
+   }
+  ]
+ },
+ {
+  "figure": "The Two Hands",
+  "parts": [
+   "Crowd-Out",
+   "The New Normal"
+  ],
+  "depth": 3,
+  "shared": [
+   "The Riverbed"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "CHATER",
+    "quote": "an i-frame measure, such as adding health warnings to cigarette packets, or engaging in antismoking public information campaigns, may serve to increase public support for s-frame measures such as banning cigarette advertising and banning smoking in public places."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "Newly passed and enforced laws then fed back into and reinforced evolving perceptions and norms around drunk driving."
+   },
+   {
+    "book": "CHATER",
+    "quote": "i-frame and s-frame initiatives have been mutually reinforcing\u2014 e.g., public health messages may increase support for tough legislation, and tough legislation may reinforce our collective sense that smoking is a \u201cbad thing\u201d for ourselves and our loved ones."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "These successful efforts to change widespread perceptions and norms around drunk driving were in turn integral to getting all those bills passed."
+   },
+   {
+    "book": "BROWNST",
+    "quote": "While the Ad Council and Keep America Beautiful invoked personal responsibility to block structural change, Lightner \u2019s appeal to personal responsibility brought structural change."
+   }
+  ]
+ },
+ {
+  "figure": "First-Arriver Lock-In",
+  "parts": [
+   "The Mastery Problem",
+   "The Spark"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KOSTER",
+    "quote": "If a high-level player can reinforce their position by repeatedly defeating easy tar gets, then eventually their position will become unassailable."
+   },
+   {
+    "book": "KOSTER",
+    "quote": "competitive game-playing of all sorts has tended to squeeze out the people who most need to learn the skills it provides, simply because they aren\u2019 t up to the competition and they are eliminated in their first match."
+   },
+   {
+    "book": "KOSTER",
+    "quote": "where a player will intentionally take on weaker opponents under the sensible logic that a bunch of sure wins is a better strategy than gambling it all"
+   },
+   {
+    "book": "SELLERS",
+    "quote": "for those winning, as the gap widens, they have to attend less and less carefully to the game to keep winning. For the losers, they have fewer and fewer options that will enable them to win."
+   }
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Agenda",
+   "The Mirror"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Frequently mentioned topics populate the mind even as others slip away from awareness."
+   },
+   {
+    "book": "KAHN",
+    "quote": "what the media choose to report corresponds to their view of what is currently on the public\u2019s mind"
+   },
+   {
+    "book": "KAHN",
+    "quote": "People tend to assess the relative importance of issues by the ease with which they are retrieved from memory\u2014and this is largely determined by the extent of coverage in the media. Frequently mentioned topics populate the mind even as others slip away from awareness. In turn, what the media choose to report corresponds to their view of what is currently on the public\u2019s mind."
+   }
+  ]
+ },
+ {
+  "figure": "The Contingent Commitment",
+  "parts": [
+   "The Spark",
+   "The Tide"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "spark",
+   "tide"
+  ],
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "as undetected rule infractions become more frequent and CPR conditions become worse, the higher will be the probability that other individuals will increase their rates of rule-breaking behavior"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Continued rule infractions, however, will lead to an increase in the severity of sanctions."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Unless monitoring efforts are increased to reverse this trend, rule compliance will cascade downward."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "The imposition of some sanctions reassures the rule-breaker that deviations by others are also likely to be discovered."
+   }
+  ]
+ },
+ {
+  "figure": "The Shared Story",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "mirror"
+  ],
+  "quotes": [
+   {
+    "book": "CONNERTON",
+    "quote": "we appeal to our memory in order to reply to questions which others put to us, or which we imagine that they could ask us"
+   },
+   {
+    "book": "CONNERTON",
+    "quote": "in order to reply to them, we envisage ourselves as forming part of the same group or groups as they do"
+   },
+   {
+    "book": "CONNERTON",
+    "quote": "because others incite me to recall it, because their memory comes to the aid of mine and mine finds support in theirs"
+   }
+  ]
+ },
+ {
+  "figure": "Players as Content",
+  "parts": [
+   "The Learning Gradient",
+   "The Learning Gradient"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Learning Gradient"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "gardener",
+   "gardener"
+  ],
+  "quotes": [
+   {
+    "book": "SCHELL_G",
+    "quote": "As their skill increases, you must present them with commensurate challenges. For traditional games, this challenge primarily comes from seeking out more challenging opponents."
+   },
+   {
+    "book": "KOSTER",
+    "quote": "In a game like chess, the variable feedback is your opponent\u2019 s response to your move."
+   },
+   {
+    "book": "MCG",
+    "quote": "The teams got faster and faster as they developed better teamwork and tried out more and more complex strategies."
+   },
+   {
+    "book": "MCG",
+    "quote": "Collectively , the lost-sport athletes worldwide egged each other on, improving their best times"
+   }
+  ]
+ },
+ {
+  "figure": "The Rescue",
+  "parts": [
+   "The Mask",
+   "The Mirror"
+  ],
+  "depth": 2,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mirror",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "STANIER",
+    "quote": "you believe you\u2019re indispensable"
+   },
+   {
+    "book": "ALEX",
+    "quote": "very often people who simply need a little help cooking and cleaning are put into rest homes which provide total nursing care, at huge expense to them, their families, and the community. It is a psychologically de- bilitating situation, and they turn frail and helpless because that is the way they are treated."
+   },
+   {
+    "book": "STANIER",
+    "quote": "you\u2019ve trained your people to become excessively reliant on you, a situation that turns out to be disempowering for them and frustrating for you."
+   },
+   {
+    "book": "STANIER",
+    "quote": "Rescuers create Victims, though we want to believe that it\u2019s the other way around (which is also true, but not only true)."
+   }
+  ]
+ },
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Mask",
+   "The Mask"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mask"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "story",
+   "story"
+  ],
+  "quotes": [
+   {
+    "book": "HOPSON",
+    "quote": "They see themselves as responding to a provocation or an unnecessary loss and lash out."
+   },
+   {
+    "book": "HOPSON",
+    "quote": "They didn\u2019t start the fight, the other player did by provoking them or letting them down."
+   },
+   {
+    "book": "HOPSON",
+    "quote": "average players striking back against provocations real and imagined"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Although each side blamed the other for the escalation, it would be more systematic to say that each side was escalating itself"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "The United States and the Soviet Union for years exaggerated their reports of each other\u2019s armaments in order to justify more armaments of their own."
+   }
+  ]
+ },
+ {
+  "figure": "The Contingent Commitment",
+  "parts": [
+   "Mutual Monitoring",
+   "The Held Commitment"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "if the rest of those affected make a similar commitment and act accordingly"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Once appropriators have made contingent self-commitments, they are then motivated to monitor other people's behaviors, at least from time to time"
+   },
+   {
+    "book": "OSTROM",
+    "quote": "Adopting contingent strategies enhances the likelihood of monitoring. Monitoring enhances the probability of adopting contingent strategies."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "If no one is discovered breaking the rules, the appropriator-monitor learns that others comply and that no one is being taken for a sucker. It is then safe for the appropriator-monitor to continue to follow a strategy of quasi"
+   }
+  ]
+ },
+ {
+  "figure": "First-Arriver Lock-In",
+  "parts": [
+   "The Organized Few",
+   "The Spark"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "Wealth gaps are self-reinforcing because rich people use their greater resources to expand their powers."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Because they are often unorganized and inarticulate, a disproportionately small part of government expenditure is allocated to their needs."
+   },
+   {
+    "book": "DALIO",
+    "quote": "They also influence the political system to their advantage and give greater privileges to their children"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "If the wealthy can influence government to weaken, rather than strengthen, those measures, then the government itself shifts from a balancing structure to one that reinforces success to the successful!"
+   }
+  ]
+ },
+ {
+  "figure": "Never Enough",
+  "parts": [
+   "The Mark",
+   "The Mark"
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mark"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "cards": [
+   "mark",
+   "mark"
+  ],
+  "quotes": [
+   {
+    "book": "HOLIDAY",
+    "quote": "Far too often, we look at other people and make their approval the standard we feel compelled to meet"
+   },
+   {
+    "book": "CHATER",
+    "quote": "what really matters is not the size of my car, but the size of my car in comparison with everyone else\u2019s"
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "It doesn\u2019t matter how well you\u2019re doing; your ego and their accomplishments make you feel like nothing\u2014 just as others make them feel the same way. It\u2019s a cycle that goes on ad infinitum"
+   },
+   {
+    "book": "CHATER",
+    "quote": "This can lead to a costly and futile \u201carms race\u201d in which people compete to have more, and more luxurious, goods than others; but overall, no one is better off."
+   }
+  ]
+ },
+ {
+  "figure": "The Faithful Chain",
+  "parts": [
+   "The Long Line",
+   "The Mirror"
+  ],
+  "depth": 4,
+  "shared": [
+   "The Mirror"
+  ],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "By observing whom others watch, listen to, defer to, hang- around, and imitate, learners can more effectively figure out from whom to learn."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "humans are prolific, spontaneous, and automatic imitators, even willing to copy seemingly unnecessary or purely stylistic steps."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Individuals who receive this kind of attention, imita-tion, and deference are prestigious, even if they turn out not to be very knowledgeable or skilled."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "people are more likely to copy irrelevant actions when the model is older and higher in prestige."
+   }
+  ]
+ },
+ {
+  "figure": "The Revolving Door",
+  "parts": [
+   "First-Arriver Lock-In",
+   "The Arrangement"
+  ],
+  "depth": 3,
+  "shared": [],
+  "source": "sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "Because those with wealth can influence those with power and because those with power can influence those with wealth, these ruling classes or elites have alliances among themselves"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "With that advantage, the firm will have more income to invest in productive facilities or newer technologies or advertising or bribes."
+   },
+   {
+    "book": "DALIO",
+    "quote": "land became concentrated in fewer and fewer families, who could evade taxes (via bribery, using official influence, and finding other ways to hide/shelter their wealth from taxation)\u2014which in turn allowed them to build their wealth further"
+   }
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Gardener",
+   "The Gardener"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "a media story about a risk catches the attention of a segment of the public, which becomes aroused and worried."
+   },
+   {
+    "book": "KAHN",
+    "quote": "This emotional reaction becomes a story in itself, prompting additional coverage in the media, which in turn produces greater concern and involvement."
+   },
+   {
+    "book": "KAHN",
+    "quote": "An availability cascade is a self-sustaining chain of events, which may start from media reports of a relatively minor event and lead up to public panic and large-scale government action."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The availability cascade has now reset priorities. Other risks, and other ways that resources could be applied for the public good, all have faded into the background."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Gardener"
+  ],
+  "cards": [
+   "gardener",
+   "gardener"
+  ]
+ },
+ {
+  "figure": "Critical Mass",
+  "parts": [
+   "The Mirror",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "Any number in excess of 40 not only can be satisfied but will attract more, who raise the number and attract still more, until all 85 are attending."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Any number less than 40 will contain some who are disappointed and drop out, lowering attendance so that others drop out, successively until nobody\u2019 s left."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mirror",
+   "spark"
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Line",
+   "The Mirror"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "his concern takes the form of an upper limit to the other color that can occur in this area without his choosing to go elsewhere."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "People in the area move out if the ratio is not within their color limit; people outside move in if they see that it meets their demands."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Their departure left openings, so more members of the minority could enter; the increase in new residents induced more of the old to leave, and so forth in the familiar process."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mark",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "The Nearest Light",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "An initial media exposure, accidental or by design, creates attention cues that cause people to unconsciously perceive someone as a worthy model."
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This shift can then create a feed-back loop, as the media continues to cover those who people want to know more about, and a celebrity is born"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This process got started because the initial media coverage caused some people to mistakenly infer that others were attending to a particular person."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "spark"
+  ]
+ },
+ {
+  "figure": "Never Enough",
+  "parts": [
+   "The Mark",
+   "The Mirror"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HARRIS",
+    "quote": "these days we can open any newspaper or magazine, switch on any television, tune in to any radio, and instantly find a whole host of people who are smarter, richer, taller, slimmer, sexier, stronger, more powerful, more famous, more successful, or more admired than we are"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Once we fit in, we start looking for ways to stand out. This is one reason we care so much about the habits of highly effective people. We try to copy the behavior of successful people because we desire success ourselves."
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "The farther you travel down that path of accomplishment, whatever it may be, the more often you meet other successful people who make you feel insignificant. It doesn't matter how well you're doing; your ego and their accomplishments make you feel like nothing\u2014 just as others make them feel the same way. It's a cycle that goes on ad infinitum"
+   },
+   {
+    "book": "HOLIDAY",
+    "quote": "So we unconsciously pick up the pace to keep up with others."
+   },
+   {
+    "book": "EPLEY",
+    "quote": "You might get a raise, but someone else's is bigger . You move into a nicer neighborhood, but your neighbor has a nicer house."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mark",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "Escalation",
+  "parts": [
+   "The Mark",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "When the state of one stock is determined by trying to surpass the state of another stock"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "The escalation is exponential and can lead to extremes surprisingly quickly"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "\u2014and vice versa\u2014then there is a reinforcing feedback loop carrying the system into an arms race, a wealth race, a smear campaign, escalating loudness, escalating violence"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "If nothing is done, the spiral will be stopped by someone\u2019s collapse"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mark",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Sliding Floor",
+  "parts": [
+   "The Nearest Light",
+   "The Tide"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "The actor tends to believe bad news more than good news . As actual performance varies, the best results are dismissed as aberrations, the worst results stay in the memory."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "a performance goal or desired system state that is compared to the actual state. If there is a discrepancy, action is taken. So far, that is an ordinary balancing feedback loop that should keep performance at the desired level."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "the desired state of the system is influenced by the perceived state . Standards aren't absolute. When perceived performance slips, the goal is allowed to slip."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "The lower the perceived system state, the lower the desired state. The lower the desired state, the less discrepancy, and the less corrective action is tak"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "If perceived performance has an upbeat bias instead of a downbeat one, if one takes the best results as a standard, and the worst results only as a temporary setback, then the same system structure can pull the system up to better and better performance."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Echo",
+  "parts": [
+   "The Mirror",
+   "The Nearest Light"
+  ],
+  "source": "pass2 audit fix",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "VOSS",
+    "quote": "Using what they\u2019ve heard or their own biases, they often make assumptions about others even before meeting them."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "W e had reason to be: they were unfriendly . But they must have been unfriendly partly because we were afraid and not friendly to them."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The beliefs could lead to white behavior which would be conducive to black behavior which would then conform with the beliefs."
+   },
+   {
+    "book": "EPLEY",
+    "quote": "Your beliefs about other people can also affect how other people treat you, further confirming pessimi stic expectations even if they are somewhat mistaken."
+   },
+   {
+    "book": "LOWERY",
+    "quote": "What you believe about me affects the way you interact with me; your beliefs and actions, in turn, affect the nature of my self."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Long Line",
+  "parts": [
+   "The Gardener",
+   "The Mirror"
+  ],
+  "source": "pass2 audit fix",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "HENRICH",
+    "quote": "many people end up attending to whomever the popular media is covering"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "the media continues to cover those who people want to know more about"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "This shift can then create a feed-back loop, as the media continues to cover those who people want to know more about, and a celebrity is born\u2014seemingly from nothing."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Unbroken Chain",
+  "parts": [
+   "The Line",
+   "The Mark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "CLEAR",
+    "quote": "he is not focused on how good or bad a particular joke is or how inspired he feels. He is simply focused on showing up and adding to his streak."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "When you look at the calendar and see your streak, you\u2019ll be reminded to act again."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "the empty square you see each morning can motivate you to get started because you don\u2019t want to lose your progress by breaking the streak."
+   },
+   {
+    "book": "CLEAR",
+    "quote": "The first mistake is never the one that ruins you. It is the spiral of repeated mistakes that follows. Missing once is an accident. Missing twice is the start of a new habit."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mark",
+   "mark"
+  ]
+ },
+ {
+  "figure": "The Standoff",
+  "parts": [
+   "The Riverbed",
+   "The Tide"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "In 1967, the Romanian government decided that Romania needed more people and that the way to get them was to make abortions for women under age forty-five illegal. Abortions were abruptly banned. Shortly thereafter, the birth rate tripled."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Although contraceptives and abortions remained illegal, the birth rate slowly came back down nearly to its previous level."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Any new policy, especially if it's effective, just pulls the system state farther from the goals of other actors and produces additional resistance, with a result that no one likes, but that everyone expends considerable effort in maintaining."
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "In fact, this system structure can operate in a ratchet mode: Intensification of anyone's effort leads to intensification of everyone else's."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "riverbed",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The New Normal",
+  "parts": [
+   "The Mark",
+   "The Tide"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "The hedonic reference point is largely determined by the objective status quo, but it is also affected by expectations and social comparisons."
+   },
+   {
+    "book": "CHATER",
+    "quote": "most people have a natural \u201chappiness set-point \u201d that they ultimately return to."
+   },
+   {
+    "book": "CHATER",
+    "quote": "people tend to be negative toward the congestion charges at first, but, consistent with adaptation, opposition diminishes and support increases once people experience the benefits and get used to the changed circumstances."
+   },
+   {
+    "book": "CHATER",
+    "quote": "Smoking bans are now popular even among smokers themselves.8 And this public acceptance has in turn increased support for even more restrictive measures against smoking"
+   },
+   {
+    "book": "CHATER",
+    "quote": "One important consequence of underpredicting how well we will adapt to change is that we often becom e excessively resistant to it."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mark",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Spark",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "a media story about a risk catches the attention of a segment of the public, which becomes aroused and worried."
+   },
+   {
+    "book": "KAHN",
+    "quote": "This emotional reaction becomes a story in itself, prompting additional coverage in the media, which in turn produces greater concern and involvement."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The availability cascade has now reset priorities. Other risks, and other ways that resources could be applied for the public good, all have faded into the background."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Spark"
+  ],
+  "cards": [
+   "spark",
+   "spark"
+  ]
+ },
+ {
+  "figure": "Answering For",
+  "parts": [
+   "The Riverbed",
+   "The Riverbed"
+  ],
+  "source": "pass2 audit fix",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "STANIER",
+    "quote": "Your team has trained you well to do their work for them."
+   },
+   {
+    "book": "STANIER",
+    "quote": "First, you\u2019ve trained your people to become excessively reliant on you"
+   },
+   {
+    "book": "STANIER",
+    "quote": "It feels (at times at least) as if it\u2019s easier that way for you and for them"
+   },
+   {
+    "book": "STANIER",
+    "quote": "The more you help your people, the more they seem to need your help. The more they need your help, the more time you spend helping them."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Riverbed"
+  ],
+  "cards": [
+   "riverbed",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "The Guard",
+  "parts": [
+   "The Mask",
+   "The Mask"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "BROWN",
+    "quote": "All of my stages were different suits of armor that kept me from becoming too engaged and too vulnerable. Each strategy was built on the same premise: Keep everyone at a safe distance and always have an exit strategy."
+   },
+   {
+    "book": "BROWN",
+    "quote": "We love seeing raw truth and openness in other people, but we're afraid to let them see it in us."
+   },
+   {
+    "book": "BROWN",
+    "quote": "when we're standing across from someone who is hidden or shielded by masks and armor, we feel frustrated and disconnected. That's the paradox here: Vulnerability is the last thing I want you to see in me, but the first thing I look for in you."
+   },
+   {
+    "book": "BROWN",
+    "quote": "We need to feel trust to be vulnerable and we need to be vulnerable in order to trust."
+   },
+   {
+    "book": "BROWN",
+    "quote": "Vulnerability begets vulnerability; courage is contagious."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mask"
+  ],
+  "cards": [
+   "story",
+   "story"
+  ]
+ },
+ {
+  "figure": "Tipping",
+  "parts": [
+   "The Mirror",
+   "The Mirror"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "It was observed that the entrance of a few members of a minority into a neighborhood often caused some among the formerly homogeneous population to leave, or to show signs of leaving."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "minorities themselves would be more attracted the lar ger the minority colony and the faster its growth"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Their departure left openings, so more members of the minority could enter;"
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Mirror"
+  ],
+  "cards": [
+   "mirror",
+   "mirror"
+  ]
+ },
+ {
+  "figure": "The Cascade",
+  "parts": [
+   "The Nearest Light",
+   "The Nearest Light"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "the importance of an idea is often judged by the fluency (and emotional charge) with which that idea comes to mind."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The danger is increasingly exaggerated as the media compete for attention- grabbing headlines."
+   },
+   {
+    "book": "KAHN",
+    "quote": "On some occasions, a media story about a risk catches the attention of a segment of the public, which becomes aroused and worried. This emotional reaction becomes a story in itself, prompting additional coverage in the media, which in turn produces greater concern and involvement."
+   },
+   {
+    "book": "KAHN",
+    "quote": "The availability cascade has now reset priorities. Other risks, and other ways that resources could be applied for the public good, all have faded into the background."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Nearest Light"
+  ],
+  "cards": [
+   "gardener",
+   "gardener"
+  ]
+ },
+ {
+  "figure": "The Echo",
+  "parts": [
+   "Reading the Room",
+   "Reading the Room"
+  ],
+  "source": "pass2 audit fix",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "EIJK",
+    "quote": "she misread my social cues and made the wrong assumptions"
+   },
+   {
+    "book": "EIJK",
+    "quote": "I am making assumptions and paying attention to the destructive thoughts in my head."
+   },
+   {
+    "book": "EIJK",
+    "quote": "Talisa starts talking more, I act more distracted, Talisa starts talking even more, and before I know it, we are in a painful vicious cycle."
+   },
+   {
+    "book": "EIJK",
+    "quote": "Both Talisa and I are in a situation that neither of us enjoy."
+   }
+  ],
+  "depth": 3,
+  "shared": [
+   "Reading the Room",
+   "The Mirror",
+   "The Nearest Light"
+  ]
+ },
+ {
+  "figure": "The Shifted Burden",
+  "parts": [
+   "The Gardener",
+   "The Salve"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "RETRAIN",
+    "quote": "\u201cI\u2019m usually checking to see how I\u2019m doing,\u201d she said."
+   },
+   {
+    "book": "RETRAIN",
+    "quote": "Self-focus can be thought of as a type of safety behavior. Like other safety behaviors, it probably doesn\u2019t help us and likely makes things worse."
+   },
+   {
+    "book": "RETRAIN",
+    "quote": "Julie realized focusing on herself only increases her anxiety, which makes her more self-conscious, which leads to even greater anxiety."
+   },
+   {
+    "book": "RETRAIN",
+    "quote": "In this way, we prevent ourselves from learning that we can face our fears without additional props."
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "salve"
+  ]
+ },
+ {
+  "figure": "The Shared Pot",
+  "parts": [
+   "The Outfall",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "OSTROM",
+    "quote": "Pumping costs increase as the pumping lift increases, because of falling water levels, and therefore each person's withdrawals increase the pumping costs for others. No one bears the full cost of personal actions."
+   },
+   {
+    "book": "OSTROM",
+    "quote": "What an operator does not withdraw today will be withdrawn, at least in part, by rival[s]. The fear that [pumpers] cannot capture tomorrow what they do not pump today undermines their incentive to forgo current pumping for future pumping. The two incentives reinforce one another to aggravate the intensity of the pumping race."
+   },
+   {
+    "book": "SCHELL",
+    "quote": "you benefit from the use of insecticides by others; the value of your own insecticides is dissipated unless some neighbors use insecticides, too; with moderate usage by others, it becomes cost-ef fective to apply your own"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "outfall",
+   "spark"
+  ]
+ },
+ {
+  "figure": "The Closed Circuit",
+  "parts": [
+   "The Spark",
+   "The Spark"
+  ],
+  "source": "pass2 pair sweep",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "DALIO",
+    "quote": "since one entity's debts are another's assets, an entity that defaults reduces other entities' assets, which requires them to cut their spending."
+   },
+   {
+    "book": "DALIO",
+    "quote": "since one entity's spending is another's income, when one entity cuts its expenses, that will hurt not just that entity, but it will also hurt others who depend on that spending to earn income."
+   },
+   {
+    "book": "DALIO",
+    "quote": "This dynamic produces a self-reinforcing downward debt and economic contraction"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "Inferior jobs, inferior housing, inferio r education which in turn again leads to inferio r jobs. We spend a lifetime in this vicious circle."
+   }
+  ],
+  "depth": 2,
+  "shared": [
+   "The Spark"
+  ],
+  "cards": [
+   "spark",
+   "spark"
+  ]
+ },
+ {
+  "figure": "Getting Used To It",
+  "parts": [
+   "The Gardener",
+   "The Tide"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "for some time after the event, accident victims think of little else. But over time, with few exceptions, attention is withdrawn from a new situation as it becomes more familiar.",
+    "role": "A"
+   },
+   {
+    "book": "KAHN",
+    "quote": "paraplegics are in a fairly good mood more than half of the time as early as one month following their accident\u2014though their mood is certainly somber when they think about their situation.",
+    "role": "B"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Adaptation to a new situation, whether good or bad, consists in large part of thinking less and less about it. In that sense, most long-term circumstances of life, including paraplegia and marriage, are part-time states that one inhabits only when one at",
+    "role": "interlock"
+   },
+   {
+    "book": "KAHN",
+    "quote": "we can expect the experienced well-being of paraplegics to be near normal much of the time.",
+    "role": "T"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Brickman and Campbell\u2019s (1971) concept of the hedonic treadmill suggests the radical hypothesis that rapid adaptation will cause the effects of any objective improvement to be short-lived.",
+    "role": "F"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Pain and noise are biologically set to be signals that attract attention, and depression involves a self-reinforcing cycle of miserable thoughts. There is therefore no adaptation to these conditions.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "tide"
+  ]
+ },
+ {
+  "figure": "Stories Tuned to Listeners",
+  "parts": [
+   "The Keepsake",
+   "The Mirror"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "BERNS",
+    "quote": "children quickly learn what makes a good story: a premise that captures a listener \u2019s imagination and that also has an element of suspense, which makes them want to know what happened next.",
+    "role": "A"
+   },
+   {
+    "book": "BERNS",
+    "quote": "Peers respond to events they find interesting",
+    "role": "B"
+   },
+   {
+    "book": "BERNS",
+    "quote": "They try them on like outfits, looking to parents and peers for feedback as to which ones fit the best.",
+    "role": "interlock"
+   },
+   {
+    "book": "BERNS",
+    "quote": "The social sharing of memories provides crucial feedback.",
+    "role": "interlock"
+   },
+   {
+    "book": "BERNS",
+    "quote": "As Reese\u2019 s results showed, the degree to which families tell these stories has a direct impact on the number and density of memories from this period in a child\u2019 s life.",
+    "role": "T"
+   },
+   {
+    "book": "BERNS",
+    "quote": "the memory itself has been told and retold so often that it may have more in common with the feast\u2019 s leftovers: a distorted version of the original, better in some ways and worse in others, but definitely not the same.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mirror",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Pass Mark",
+  "parts": [
+   "The Learning Gradient",
+   "The Line"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL_G",
+    "quote": "If you get a \u201cD\u201d or \u201cF,\u201d you must repeat the level, but if you get a \u201cC\u201d or better, you can continue.",
+    "role": "A"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "skilled players will blow through easy levels, quickly getting to a challenge that is more interesting to them, while less skilled players will be challenged by the early levels.",
+    "role": "B"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "Novice players are thrilled to get a \u201cC\u201d and unlock the next level. As they gain experience and have unlocked all the levels, they may set themselves a new challenge\u2014to earn an \u201cA\u201d (or even \u201cA+\u201d!) on earlier levels.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL_G",
+    "quote": "This lets every player quickly get to the part of the game that is a challenge.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Many runners work hard for months, but as soon as they cross the finish line, they stop training. The race is no longer there to motivate them.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "mark"
+  ]
+ },
+ {
+  "figure": "In Plain View",
+  "parts": [
+   "The Gardener",
+   "The Riverbed"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "TNHLO",
+    "quote": "We can organize our life in such a way that the good seeds can be touched and watered several times a day.",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "the meter in the front hall where people passed, the little wheel turning around, adding up the monthly electricity bill many times a day.",
+    "role": "B"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "When their energy use was obvious and easy to track, people changed their behavior.",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "creating obvious visual cues can draw your attention toward a desired habit.",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "the homes with the meters located in the main hallway used less electricity.",
+    "role": "T"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "The families with high electricity use were the ones with the meter in the basement, where people rarely saw it.",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "It\u2019s easy not to practice the guitar when it\u2019s tucked away in the closet. It\u2019s easy not to read a book when the bookshelf is in the corner of the guest room.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "riverbed"
+  ]
+ },
+ {
+  "figure": "Chasing the Readout",
+  "parts": [
+   "The Nearest Light",
+   "The Tide"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "MEADOWS",
+    "quote": "The dealer monitors sales (perceived sales), and if, for example, they seem to be rising, she adjusts orders to the factory to bring inventory up to her new desired inventory",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Inventory at a car dealership is kept steady by two competing balancing loops, one through sales and one through deliveries.",
+    "role": "B"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "She now sees her mistake, and cuts back, but there are still high past orders coming in, so she orders even less. In fact, almost inevitably, since she still can't be sure of what is going to happen next, she orders too little. Inventory gets too low again. And so forth, through a series of oscillations around the new desired inventory level.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The temperature rises in the morning to the level for which the thermostat is set\u2014and overshoots it. It always does. The temperature then falls back to the setting\u2014and undershoots it.",
+    "role": "interlock"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "As Figure 36 shows, the oscillations are greatly damped with this change, and the system finds its new equilibrium fairly efficiently.",
+    "role": "T"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Acting faster makes the oscillations worse! Part of the problem here is that the car dealer has been reacting not too slowly, but too quickly.",
+    "role": "F"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "Delays that are too short cause overreaction, \"chasing your tail,\" oscillations amplified by the jumpiness of the response.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Illusion of Skill",
+  "parts": [
+   "The Easier Door",
+   "The Mask"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KAHN",
+    "quote": "Our expectations for the soldiers' future performance were a clear instance of substitution, and of the representativeness heuristic in particular.",
+    "role": "A"
+   },
+   {
+    "book": "KAHN",
+    "quote": "The global evidence of our previous failure should have shaken our confidence in our judgments of the candidates, but it did not.",
+    "role": "B"
+   },
+   {
+    "book": "KAHN",
+    "quote": "We knew as a general fact that our predictions were little better than random guesses, but we continued to feel and act as if each of our specific predictions was valid.",
+    "role": "interlock"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Considering how little we know, the confidence we have in our beliefs is preposterous\u2014and it is also essential.",
+    "role": "T"
+   },
+   {
+    "book": "KAHN",
+    "quote": "Because of confidence by coherence, the subjective confidence we have in our opinions reflects the coherence of the story that System 1 and System 2 have constructed. The amount of evidence and its quality do not count for much, because poor evidence can make a very good story.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "salve",
+   "story"
+  ]
+ },
+ {
+  "figure": "The Grind",
+  "parts": [
+   "The Easier Door",
+   "The Learning Gradient"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "KOSTER",
+    "quote": "Once a player looks at a game and ascertains the pattern and the ultimate goal, they'll try to find the optimal path to getting there.",
+    "role": "A"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "That extended moment when tic-tac-toe ceased to interest them was a moment of great fascination to me.",
+    "role": "B"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "So players often intentionally suck the fun out of a game in hopes they can learn something new (in other words, find something fun) once they complete the task.",
+    "role": "interlock"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "Players running an easy level two hundred times to build up enough lives so that they can cruise through the rest of the game with little risk is the equivalent of stockpiling food for winter: it's just the smart thing to do .",
+    "role": "T"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "the destiny of games is to become boring, not to be fun . Those of us who want games to be fun are fighting a losing battle against the human brain because fun is a process and routine is its destination.",
+    "role": "F"
+   },
+   {
+    "book": "KOSTER",
+    "quote": "They must keep in mind that players are always trying to reduce the difficulty of a task. The easiest way to do that is to not play .",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "gardener",
+   "salve"
+  ]
+ },
+ {
+  "figure": "Blending Back In",
+  "parts": [
+   "The Mirror",
+   "The Tide"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "DUCK",
+    "quote": "Because, inevitably, the way we do things around here becomes the way you do things, too.",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "you are strongly inclined to copy the most common trait\u2014the majority or the plurality",
+    "role": "A"
+   },
+   {
+    "book": "DUCK",
+    "quote": "the body mass index of both parents and children drifted \u2014 either up or down \u2014 toward the average BMI of the county to which they moved. The longer the families lived there, the stronger this association grew.",
+    "role": "B"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "social norms will tend to remain stable even when they help neither the group nor the individual.",
+    "role": "B"
+   },
+   {
+    "book": "DUCK",
+    "quote": "everybody wants what everybody [around them] wants, and nobody wants what nobody [around them] wants.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Because cultural learning influences how we judge others, it can create self- reinforcing stable patterns of social behavior\u2014social norms.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "If everybody expects everybody to pass on the right, that\u2019 s the side to pass on.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In these places, settlers intermixed with English, German, French, and Dutch settlers and lost their culture of honor.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In the South, the early dominance of Scotch- Irish in the founding populations has permitted a culture of honor to persist",
+    "role": "interlock"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "Your culture sets your expectation for what is \u201cnormal.\u201d Surround yourself with people who have the habits you want to have yourself. You\u2019ll rise together.",
+    "role": "T"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "conformist transmission can help learners aggregate the information that is distributed across a group.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "when a chimpanzee learns an effective way to crack nuts open as a member of one group and then switches to a new group that uses a less effective strategy, it will avoid using the superior nut cracking method just to blend in with the rest of the chimps.",
+    "role": "F"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "In fact, cultural evolution can produce sticky social norms that are bad for everyone.",
+    "role": "F"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "a tradition that separates the women from the men or the whites from the blacks, the students from the faculty or the officers from the enlisted men, may be strongly self-enforcing even though one or both of the two groups deplore the tradition",
+    "role": "F"
+   },
+   {
+    "book": "DUCK",
+    "quote": "Any behavior \u2014 however aberrant or self-destructive \u2014 seems \u201cnatural\u201d when it\u2019s what everyone else is doing.",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "We pick up habits from the people around us.",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "you are strongly inclined to copy the most common trait\u2014the majority or the plurality",
+    "role": "A"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "deviations from these shared standards are penalized or sanctioned in some way",
+    "role": "B"
+   },
+   {
+    "book": "GNEEZY",
+    "quote": "Education may convince the occasional mother to save her daughter from being cut, but that family then risks being ostracized by the community.",
+    "role": "B"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Groups of individuals who engage in social in- teractions and learn from each other using cues like success and prestige often end up sharing similar behaviors, strategies, expectations, or pref - erences, and deviations from these shared standards are penalized or sanctioned in some way.",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "the resulting be - havioral patterns are stable in the sense that they tend to endure and resist efforts by one or a few individuals to change them",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "Weak conformist transmission can stabilize costly enforcement of norms in cooperative dilem-mas.",
+    "role": "interlock"
+   },
+   {
+    "book": "LOWERY",
+    "quote": "communities that through collective action establish and police boundaries, mint new practitioners, and maintain these structures",
+    "role": "interlock"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "if you use conformist transmission in acquiring your beliefs about John, you would take input from many people in the community, most of whom would not be John\u2019s rival. This would allow you to discard Steve\u2019s disin-formation",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "One of the most effective things you can do to build better habits is to join a culture where your desired behavior is the normal behavior.",
+    "role": "T"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "when a chimpanzee learns an effective way to crack nuts open as a member of one group and then switches to a new group that uses a less effective strategy, it will avoid using the superior nut cracking method just to blend in with the rest of the chimps",
+    "role": "F"
+   },
+   {
+    "book": "CLEAR",
+    "quote": "The normal behavior of the tribe often overpowers the desired behavior of the individual.",
+    "role": "F"
+   },
+   {
+    "book": "HENRICH",
+    "quote": "social norms will tend to remain stable even when they help neither the group nor the individual. In fact, cultural evolution can pro - duce sticky social norms that are bad for everyone.",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "mirror",
+   "tide"
+  ]
+ },
+ {
+  "figure": "The Rebound",
+  "parts": [
+   "The Outfall",
+   "The Tide"
+  ],
+  "source": "pass2 new figure",
+  "link": "shown",
+  "quotes": [
+   {
+    "book": "SCHELL",
+    "quote": "Shortly, most infants were vaccinated, and the unvaccinated were too few to sustain an epidemic. For more than a year there was no measles.",
+    "role": "A"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "Measles vaccination shares some crucial features with the thermostat system",
+    "role": "B"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "By then there was a new population of unvaccinated infants, large enough to sustain an epidemic. The epidemic killed some children, immunized others, and scared mothers, who then brought their infants long distances to be vaccinated. It was another year before the disease was forgotten and the mothers stopped coming, and still another year before the new unvaccinated population invited the next epidemic.",
+    "role": "interlock"
+   },
+   {
+    "book": "CHATER",
+    "quote": "If green-oriented Country A reduces fossil fuel use, the oil price falls; but then unscrupulous Country B, which has no such concerns, has an incentive to use more fossil fuels, as they are now cheaper; and, there is a net transfer of wealth from Country A to Country B.",
+    "role": "A"
+   },
+   {
+    "book": "MEADOWS",
+    "quote": "They can indeed be marvels of self-correction, as prices vary to moderate supply and demand and keep them in balance.",
+    "role": "B"
+   },
+   {
+    "book": "CHATER",
+    "quote": "Now that flying is cheaper, consumers (whether socially conscious or not) will fly slightly more than they would have done (everyone is sensitive to price to some degree, after all). Worse, to the extent that they understand this, a fully rational consumer would be less liable to \"do the right thing\" in the first place, since they would take account of the fact that their own restraint will duly be dampened.",
+    "role": "interlock"
+   },
+   {
+    "book": "SCHELL",
+    "quote": "The epidemic killed some children, immunized others, and scared mothers, who then brought their infants long distances to be vaccinated.",
+    "role": "T"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "negative feedback keeps things at a steady state as outside influences push it to change.",
+    "role": "T"
+   },
+   {
+    "book": "CHATER",
+    "quote": "those who are happy to use polluting energy are likely to use more of it\u2014so the use of brown energy remains largely unaffected. Thus, the impact of an individual's green choice is \"dampened\" by the operation of the market.",
+    "role": "F"
+   },
+   {
+    "book": "BROWNST",
+    "quote": "carbon emissions completely rebounded the following year",
+    "role": "F"
+   }
+  ],
+  "depth": 2,
+  "shared": [],
+  "cards": [
+   "outfall",
+   "tide"
+  ]
+ }
+]

@@ -225,3 +225,19 @@ This is the wording Q6 should carry into the manuscript, without the numbers (L1
 | A1.15 | Pt.1 Ch.2 and its Appendix entry: "real as structure" and "real as occurrence" replace the two realism terms. |
 
 Still open from A1: A1.1, A1.2, A1.3, A1.6, A1.8, A1.10 to A1.14, A1.16, and the Pt.4 Ch.7 epigraph.
+
+**2026-10-07, essence pass.** Manuscript now 5 words under the handed-off baseline.
+
+| Item | Change |
+|---|---|
+| Q6 | Pt.1 Ch.4, Pillar III: "the same operation running at every scale"; whether the shapes repeat is a further claim, shown each time. |
+| Q6, A2.1 | Pt.4 Ch.3, the isomorphism paragraph: the claim holds often and not always; most larger patterns are mixtures. |
+| Q10 | Pt.1 Ch.8: the two strong-emergence paragraphs became one on "produced by the parts is not traceable from them". The weak and strong terms remain in Pt.4 Ch.3, where they are already called unsettled. |
+| Consequence 2 | Pt.4 Ch.7: new paragraph, a named rule is a hypothesis because several rules can fit one form (Schelling #25158). Epigraph now "You can find a rule that fits. You cannot run it forward." |
+| A2.2 | Pt.4 Ch.7: how loops are joined can be read; which way the combined pattern runs cannot (Meadows #8057, #8058, #8043). |
+| A1.12 | Trimmed three repeats (Open Questions restating Part Three twice; Tree-Gazing restating onboarding Day 2), the "first place the book says it plainly" clause, and one of two examples in the system definition. |
+| Cut | Pt.4 Ch.3: the market-equilibrium aside. Nothing referred to it. |
+
+Kept on purpose: onboarding repeats later chapters because it promises to be self-contained, and Closing the Loop reprises Seeding as the end of Part Two.
+
+**Registry.** `source/registry/` now holds the registry files, CANON and the ledger. The harness and playtest files stay out of the repo.
