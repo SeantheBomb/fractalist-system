@@ -1,6 +1,6 @@
 # Fractalism: reconciliation and staging
 
-*Written 2026-10-07. Nothing here is applied to the manuscript. Line numbers refer to `source/Fractalism_Complete.md` at commit 2fe6d85 (the handed-off build).*
+*Written 2026-10-07. Nothing here is applied to the manuscript unless section 7 says so. Line numbers refer to `source/Fractalism_Complete.md` at commit 2fe6d85 (the handed-off build).*
 
 Inputs: the handoff (`Fractalism_Handoff_Outstanding.md`), the handed-off manuscript, the Loop Tongue episode 1 and 2 transcripts, and the Librarian shelf "Fractal Systems Belief" (37 books).
 
@@ -107,14 +107,27 @@ Accept all sixteen. They are errors, not additions.
 | Four Noble Truths spine | Leave to the companion. |
 | Four Labels as open questions | Keep only the fourth (does the Third Thing smuggle back an essence?). The other three are questions about the Buddhist mapping, which the manuscript does not claim. |
 
-### B, held for the Standing Thirds
+### B, the Standing Thirds
 
-Held, as the handoff says. I cannot rule on T1 to T7 yet: the registry, ledger and staging files the handoff cites (`registry/Tree_Registry.json`, `harness/recon/LEDGER.md`, `Staging_Index.md`, Staging KK) are not in this repo and I did not find them under Documents or Downloads.
+Ruled 2026-10-07 after reading the bundle (CANON, the ledger, Staging Z, GG, KK and the registry) and running the two tests Staging KK left open. See section 6 for the test.
 
-My leaning, to be confirmed once I can read them: the manuscript carries a small teaching set chosen for reach, and the full catalogue is a generated appendix. B3 already points this way. Two items are worth doing regardless of T1:
+| ID | Ruling |
+|---|---|
+| **T1** | The registry is the catalogue. The manuscript stops stating a figure count: the count has been 52, 112, 114, 125 and 143 in different files, and a number that keeps moving is not a claim the book should carry. Part Five teaches the nine Self faces, the three composition rules (L3), and a few teaching compositions per scale. The full table is a generated Appendix E. |
+| **T2** | Independent Convergence is the evidence rule, not a figure. The World-Kin chapter shrinks to the finding: no source describes an interlock at that depth. |
+| **T3** | The Infinite Boundary is the ceiling, as the Local Rule is the floor (Staging Z, rule 7). It is not a figure, has no poles, and is not an "exemption". This matches Pt.4 Ch.7: there is no vantage above the last scale. |
+| **T4** | Narrow the claim. No World Turnings. Part Seven states the principle, not a count. Detail waits until I have read Part Seven closely. |
+| **T5** | Three rings: you, what's close, the world. It is simpler than four, it is what the published Weaving already uses, and "the Nest is gated by connection" gives it a mechanism. The manuscript's scale words (Self, Dyad, Skein, Culture) stay as scale tags; rings are where a reading stands. |
+| **T6** | New wording: each figure is sourced; the names and the arrangement are the book's. Carries Q9. |
+| **T7** | Companion work. Out of scope for the manuscript. |
 
-- **B4's honesty line** ("well-supported readings and weak derivations. That is what a lens is.") belongs in Pt.5 Ch.7 whatever the count is.
-- **B5's asymmetry check** (line 2669) is a real defect and the same finding as Q4 and Q5.
+**One correction to the playtest.** Staging KK describes each rank as "one loop at every size". The test does not support that as a rule. Kin stay where the registry shows the larger figure is the same rank run by two parties, and are shown as mixtures elsewhere. Six of the sixteen kin names do not trace to their own rank alone: The Contagion, The Social Tipping Point, The Priced Tradition, The Enacted Telling, The Two Hands and The Slow Hand.
+
+**From Section B, apply regardless of the above:**
+- B4's honesty line ("well-supported readings and weak derivations. That is what a lens is.") goes in Pt.5 Ch.7.
+- B5's asymmetry check (line 2669) is a real defect and the same finding as Q4 and Q5.
+- B2's retired names: follow the registry's fates.
+- B7's seventeen unsourced poles stay marked unsourced.
 
 ### C and D
 
@@ -157,11 +170,58 @@ Re-checked against the handed-off build. Several were already done there.
 2. The essence edits: Q6, Q10, consequence 2, A2.2 merged into Ch.7.
 3. Q1, Q3, Q4 with A2.3 and A2.5.
 4. A3's two edits; remaining A2 items; A2.9.
-5. T1, then Section B.
+5. Section B: Part Five with a generated Appendix E, then Part Seven, then Part Six on three rings, then the Appendix and contents.
 6. Re-seed the site from the manuscript once the text settles.
 
-## 5. Decisions needed
+## 5. Decisions
 
-1. **Where are the registry, ledger and staging files?** Section B is blocked until I can read them.
-2. **The site.** The nodes under `src/content` now trail the manuscript, and re-seeding overwrites any node-only edits. Are there node edits to preserve?
-3. **Simon.** Add to the Librarian shelf?
+- **Registry files:** received 2026-10-07 (`fractalism_thirds_bundle.zip`). They should be committed under `source/` so the Appendix can be generated from them; not done yet.
+- **The site:** safe to re-seed. Re-seeding the previous commit from its own manuscript changed nothing in `src/content` apart from line endings, so the nodes hold no edits the manuscript lacks.
+- **Simon:** not on the shelf; deferred. The current sources are enough.
+
+## 6. The bet, tested
+
+Staging KK left two tests unrun. Both can be computed from `registry/Tree_Compositions.json` (232 compositions, 108 composed figures), so I ran them.
+
+**Count test: how often is a composition one part run twice?**
+
+| Depth | Same part twice | Share | If parts were paired at random |
+|---|---|---|---|
+| Dyad | 54 of 157 | 34% | about 7% |
+| Skein | 11 of 65 | 17% | about 1% |
+| Culture | 3 of 10 | 30% | about 3% |
+| All | 68 of 232 | 29% | |
+
+**Merge test: does the catalogue reduce to the nine ranks?** Each figure was traced down to its Self patterns, and those were grouped into the nine ranks using the mapping in the handoff (B3).
+
+| Result | Figures |
+|---|---|
+| Has at least one composition that traces to a single rank | 43 of 108 (40%) |
+| Traces to a single rank in every composition | 9 of 108 (8%) |
+| Needs two ranks at minimum | 57 |
+| Needs three | 8 |
+
+**Reading.** A larger pattern is the same smaller pattern run by two parties far more often than chance, and still only in a minority of cases. Most larger figures are mixtures. So:
+
+- The operation recurs at every scale. That holds throughout the registry.
+- A figure recurring at a larger scale is common, not general.
+
+This is the wording Q6 should carry into the manuscript, without the numbers (L12).
+
+**Limits.** Every composition was proposed and verified by Claude agents. The sweeps deliberately checked every same-twice slot, which inflates that count; Staging GG itself warns that same-card pairs are crowded. The tracing takes each figure's most favourable composition. The grouping of fifteen Self patterns into nine ranks is the handoff's, applied by me.
+
+## 7. Applied to the manuscript
+
+**2026-10-07, first repair batch.** Net +73 words; the dedupe pass (A1.12) is expected to recover that.
+
+| Item | Change |
+|---|---|
+| Defect | Pt.1 Ch.7: removed the duplicated sentence. |
+| Defect | Pt.1 Ch.8: the concentration paragraph now comes before its exit. |
+| A1.9 | Pt.1 Ch.9: "Ten percent a month doubles in seven months." |
+| A1.5 | Pt.2, the canopy: it takes the light without aiming it, and shades out some things you would have wanted. |
+| A1.4 | Pt.4 Ch.4 and its Appendix entry: exponential growth is break-even for feeling; felt gain decays once growth slows. |
+| A1.7 | Pt.4 Ch.7 and Pt.2 Ch.11: a Global Form is not a direct object of action; it is a direction. |
+| A1.15 | Pt.1 Ch.2 and its Appendix entry: "real as structure" and "real as occurrence" replace the two realism terms. |
+
+Still open from A1: A1.1, A1.2, A1.3, A1.6, A1.8, A1.10 to A1.14, A1.16, and the Pt.4 Ch.7 epigraph.
