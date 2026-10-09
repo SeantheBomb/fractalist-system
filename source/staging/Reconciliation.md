@@ -251,3 +251,145 @@ Add a section of working mantras beside the devotional ones: W, A, B, L, M, T, R
 
 - Pillars trimmed to three (Sean, 2026-10-09): Loop, Third Thing, Nest. Not yet applied to the manuscript, where "The Four Pillars" is a chapter title and sits on the Quick Reference Card. Sean wants the relationship between the pillars and the pair (Leverage, Perspective) made clear through the pillar metaphor before anything is rewritten. Proposal on the table: the three pillars hold up a place to stand; Leverage and Perspective are what any one position on it gives you, reach and view.
 - Standpoint accepted as the working name for Leverage and Perspective (Sean, 2026-10-09). Proposal on the table for Chance and Worth: they are the two things the pillars leave open, one from each side. The world brings chance; you bring worth. In loop terms the Standpoint is a loop between a person and the pattern, with Perspective as its inbound arrow, Leverage as its outbound arrow, Worth as what it is aimed at, and Chance as what disturbs it.
+
+---
+
+## D. State of the refactor (2026-10-09)
+
+Everything agreed or proposed so far, in one place. The manuscript is unchanged. The map (`source/Derivation_Map.json`) holds items 1 to 5.
+
+### Decided by Sean
+
+1. **What the system is of:** taking part in patterns you cannot see whole. The system is a lens; each mapping onto physics, biology or a life is a separate, testable claim.
+2. **Work as a map of relations**, keyed on slugs and phrases, never chapter numbers. The site reconciles the map with the manuscript on every build.
+3. **Three pillars:** Loop, Third Thing, Nest.
+4. **Chance is an axiom** (the Fourth Iteration). Worth is the value axiom (the Seventh).
+5. **The Standpoint** (working name): Leverage and Perspective, derived from the three pillars. "Perspective" replaces "Frames are private".
+6. **The Standing Thirds are still in development.** Do not treat the catalogue as settled.
+
+### Proposed, not yet accepted
+
+7. **The picture.** Three pillars hold up a place to stand. The pillars are true with nobody there. Leverage and Perspective are what one position gives: reach and view.
+8. **The open sides** (placeholder name). Chance and Worth are what the pillars leave open, one from each side: the world brings chance, you bring worth.
+
+   | | From the world to you | From you to the world |
+   |---|---|---|
+   | Set by the pillars | Perspective | Leverage |
+   | Left open | Chance | Worth |
+
+9. **One polarity, one state.** Every pattern has two poles. Held together, it tends. Split, it frays. "Pole" would name the paired ends; Tending and Fraying would be called directions, the manuscript's own word. Avoid "positive/negative": Sketching a Loop already uses plus and minus for link signs, and the words read as good and bad.
+
+   | Held alone | Becomes |
+   |---|---|
+   | Leverage without Perspective | Forcing |
+   | Perspective without Leverage | Watching |
+   | Worth without Chance | Entitlement |
+   | Chance without Worth | Fatalism |
+
+10. **Nine working mantras**, each with a blind spot, in two levels: Watch it run and Make it worth repeating are about the system; the other six are inside it; Find the other pole is the guard.
+
+### Open
+
+- Whether a theorem with Leverage's standing (Perspective) is ever called a pillar. Currently no.
+- A name for the open sides.
+- Whether "fraying is a split pair" holds across the catalogue. Four of six Self-Kin pairs fit on a first look (Spark and Tide, Mask and Mirror, Mark and Nearest Light, Salve and Riverbed).
+- Four chapters are only partly accounted for: The Compost Heap, Fractal Resistance, What a Weaving Cannot Show, Anchoring to What Already Turns.
+- What a Turning Is exempts designed things from two poles; the guard applies two poles to the mantras.
+- The cost of keeping order is still a candidate axiom with thin shelf support.
+- Unverified: the *It's on You* challenge to "Tend the act".
+
+### What the manuscript would have to change
+
+Not started. Listed so the size is visible.
+
+- "The Four Pillars": chapter title, Quick Reference Card, and every "four pillars" reference. Leverage stays one of the nine words.
+- "Tending pole" and "Fraying pole" throughout Parts Five, Six and Seven, if item 9 is accepted.
+- Part Three (the alphabet) sits after the practices written in it.
+- Every practice would carry its trace.
+- `scripts/concepts.mjs` cites by chapter number and is already stale in places.
+
+---
+
+## E. The Standing Thirds as a formal system (2026-10-09)
+
+**Status:** analysis and proposal. Nothing in Part Five is changed.
+
+### What the catalogue already is
+
+A small formal system: twelve Self-Kin as givens, one production rule (fuse), forty derived figures. Run mechanically against the site's own data, counting a figure fused with itself as allowed:
+
+| Tier | Figures | Pairs the rule allows | Share used |
+|---|---|---|---|
+| Dyad | 19 | 78 | 24% |
+| Skein | 11 | 61 (two Dyad-Kin sharing a Self-Kin) | 18% |
+| Culture | 7 | 17 | 41% |
+| World | 3 | 12 (5 if a figure cannot fuse with itself) | 25% |
+
+### Where it falls short of one
+
+1. **No rule says which fusions fail.** The manuscript says the unused pairs fail "the Third Thing test". That test is a judgment. So the rule lists candidates and a person picks the figures.
+2. **The givens have nothing under them.** Self-Kin are introduced with "there is nothing underneath them". The map now puts axioms, three pillars, the Standpoint and the open sides underneath everything else.
+3. **Derived is being read as real.** Culture-Kin and World-Kin are flagged as three and four inference-layers deep. Being producible by the rule and being observed in the world are separate claims, and the catalogue records only the first.
+4. **Poles are authored per figure.** A fused figure's Tending and Fraying are written by hand, not derived from its parents'.
+5. **The rule is stated unevenly.** Self-fusion is allowed at Dyad tier (Spark with Spark) and used once at Culture tier (Independent Convergence) but nowhere else. The World-Kin chapter says the rule "produces three results and no others"; that holds only if Independent Convergence is excluded, which the text does not say. With it, five pairs share a Skein-Kin.
+6. **Use is lopsided.** The Spark is in six Dyad fusions; The Salve, The Easier Door, The Riverbed and The Keepsake are in one each.
+
+### Proposed reshaping
+
+1. **Derive the Self-Kin.** Each should be a theorem of the axioms: one way a single person's loop with the pattern runs. The four parts of the Standpoint loop (Perspective, Leverage, Worth, Chance) are the place to start.
+2. **Build the tier in pairs.** If fraying is a split pair, every Self-Kin has a partner whose absence is its Fraying. Then poles are derived, not authored, and the two-pole test becomes "name the partner".
+3. **Two marks on every figure:** derived (the rule produces it) and observed (a source or a life shows it). Derived and unobserved is a prediction, the only kind of result that can test the system. Observed and underivable is an orphan, which points at a missing rule.
+4. **State the whole rule,** including self-fusion and what "sharing a component" means, so anyone can list every candidate.
+5. **Keep the judgment and say where it is.** Listing candidates can be mechanical. Deciding which are real cannot. The four tests stay as that filter.
+6. **Keep the faces.** A name is a chunk: it installs faster than a derivation. The derivation sits underneath it.
+
+### Order of work this implies
+
+Poles vocabulary (D.9) first, then Self-Kin pairs, then the rule, then regenerate the upper tiers and compare with the fifty-two.
+
+---
+
+## F. Weavings, reworked through GEB (2026-10-09)
+
+**Status:** proposal. Assumption: no record of an earlier redesign exists in this repo or in past sessions, so the open problem is taken from the manuscript itself: What a Weaving Cannot Show says there is no layout for a one-way choice, and the deck depends on a catalogue that is still moving.
+
+### The reading
+
+GEB describes a canon as one theme copied with changes that keep all its information: moved in pitch, slowed or sped up, turned upside down, played backward. A fugue brings one subject in voice by voice.
+
+| Canon move | Weaving already has |
+|---|---|
+| Change of pitch | The ring: the same pattern at another scale |
+| Change of speed | Weather, Climate, Terrain |
+| Inversion | Tending and Fraying |
+| Backward | Nothing yet |
+| One subject, many voices | The Full Unravelling |
+
+### What this exposes
+
+- **The Four-Point is not one theme in four voices.** Its four cards are drawn independently, so the rings are four unrelated subjects. The Full Unravelling is the true fugue: one subject, each further voice derived.
+- **The two spreads do different jobs,** and the Standpoint names them. Independent draws force positions you would not have chosen: that is Perspective. Derived draws show a small thing becoming a large one, step by step: that is Leverage.
+- **The rings are a stack.** GEB's push and pop: go down a level without losing your place, and come back. The Full Unravelling only goes up.
+- **A miss narrows; it does not decide.** GEB's figure and ground: knowing what something is not does not always tell you what it is.
+
+### Proposed forms
+
+| Form | How it is drawn | What it is for |
+|---|---|---|
+| The Single Pull | One card | Unchanged |
+| The Four-Point | Four independent cards, one per ring | More positions (Perspective) |
+| The Full Unravelling | Two Self-Kin drawn, the rest derived upward | Where a small thing becomes large (Leverage) |
+| **The Tracing** (new) | One large figure chosen, then walked down through its parents to a Self-Kin | Which act of mine feeds this. Tracing the Fold, as a spread |
+| **The Fork** (new) | One root, two candidate rules, each derived up through the scales side by side | A one-way choice. Fills the gap the manuscript names |
+
+### Proposed reading moves, usable on any card
+
+- **Change the ring:** what is this at the next scale up or down?
+- **Change the speed:** Weather, Climate or Terrain?
+- **Name the partner:** which pole is missing? (Replaces deciding Tending or Fraying "by context".)
+- **Read it backward:** how does the other person tell this? The Second Pass, as a move.
+- **Close the ring:** how does the outermost card set the conditions for the innermost? The rings are nested; this makes them a loop.
+
+### Depends on
+
+Section E. The Tracing and the Fork both need the fusion rule stated in full, and "name the partner" needs the Self-Kin pairs.
