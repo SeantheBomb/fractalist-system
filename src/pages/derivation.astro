@@ -1,0 +1,233 @@
+---
+import Base from '../layouts/Base.astro';
+import data from '../data/derivation.json';
+
+// Written by scripts/reconcile.mjs from source/Derivation_Map.json and the manuscript.
+const { system, axioms, theorems, mantras, traces, untraced, parkedNodes, parked, candidates, report } = data;
+
+const axiomName = Object.fromEntries([...axioms, ...theorems].map((a) => [a.id, a.name]));
+const mantraName = Object.fromEntries(mantras.map((m) => [m.id, m.name]));
+const nameOf: Record<string, string> = { ...axiomName, ...mantraName };
+const traceTitle = Object.fromEntries(traces.map((t) => [t.node, t.title]));
+const partLabel = (p: string | null) =>
+  !p ? '' : p === 'front' ? 'Front Matter' : p.replace(/(^|-)(\w)/g, (_, d, c) => (d ? ' ' : '') + c.toUpperCase());
+
+const levels: [string, string][] = [
+  ['outside', 'About the system'],
+  ['inside', 'Inside the system'],
+  ['guard', 'The guard'],
+];
+const kinds: [string, string, string][] = [
+  ['foundation', 'Foundations', 'Chapters that state the axioms.'],
+  ['alphabet', 'The alphabet', 'Chapters that define the words and marks everything else is written in.'],
+  ['interpretation', 'Interpretations', 'Chapters that argue the system maps onto something: stories, mathematics, psychology, society.'],
+  ['practice', 'Practices', 'Chapters that tell you what to do. Each is traced to the mantras it comes from.'],
+];
+const kindOf = (v: string) => (['derived', 'partial', 'orphan'].includes(v) ? 'practice' : v);
+const untracedByPart = [...new Set(untraced.map((n) => n.part))].map(
+  (p) => [partLabel(p), untraced.filter((n) => n.part === p)] as const,
+);
+const attention = [
+  ...report.stale.map((s) => `${s}: the chapter is gone`),
+  ...report.drifted.map((s) => `${traceTitle[s] ?? s}: an anchor phrase is no longer in the text`),
+  ...report.changed.map((s) => `${traceTitle[s] ?? s}: the text has changed since its trace was accepted`),
+  ...report.thinAxioms.map((s) => `${axiomName[s]}: sourced from fewer than three books`),
+  ...report.unstatedAxioms.map((s) => `${axiomName[s]}: not found where the map says it is stated`),
+  ...report.unusedMantras.map((s) => `${mantraName[s]}: no chapter is traced to it`),
+  ...report.errors,
+];
+---
+<Base title="Derivation" description="What every practice in Fractalism is derived from: the axioms, the two things they make unavoidable, the mantras, and every chapter traced back to them.">
+  <p class="eyebrow">Derivation · {data.status}</p>
+  <h1 style="margin-top: 0.2em;">What everything is derived from</h1>
+  <p class="intro">
+    Fractalism is a system of one thing: <strong>{system.of.replace(/\.$/, '').toLowerCase()}</strong>.{' '}
+    {system.note}
+  </p>
+  <p class="intro">
+    This page is a map, not a reading order. It records what comes from what, and it is checked
+    against the manuscript every time the site is built.
+  </p>
+
+  <ul class="tally">
+    <li><strong>{axioms.length}</strong> axioms</li>
+    <li><strong>{theorems.length}</strong> theorems</li>
+    <li><strong>{mantras.length}</strong> mantras</li>
+    <li><strong>{report.traced}</strong> of {report.chapters} chapters traced</li>
+    <li><strong>{report.verdicts.partial + report.verdicts.orphan}</strong> not fully accounted for</li>
+    {report.untraced > 0 && <li><strong>{report.untraced}</strong> still to trace</li>}
+  </ul>
+
+  <section class="group">
+    <h2>The axioms</h2>
+    <p class="note">All but one say how anything built by repetition behaves. The last says what makes a repetition worth keeping.</p>
+    <ol class="cards">
+      {axioms.map((a) => (
+        <li id={a.id}>
+          <h3>{a.name} <span class="tag">{a.kind === 'value' ? 'value' : a.pillar ?? 'not yet a pillar'}</span></h3>
+          <p>{a.statement}</p>
+          <p class="meta">
+            Gives: {[...a.theorems, ...a.mantras].map((m, i) => (<>{i > 0 && ', '}<a href={`#${m}`}>{nameOf[m]}</a></>))}
+          </p>
+          {a.foundations.length > 0 && (
+            <p class="meta">
+              Stated in: {a.foundations.map((n, i) => (<>{i > 0 && ', '}<a href={`/node/${n}/`}>{traceTitle[n]}</a></>))}
+            </p>
+          )}
+          {a.note && <p class="meta">{a.note}</p>}
+          <details>
+            <summary>{a.sources.length} passages from {a.books} books</summary>
+            <ul class="sources">
+              {a.sources.map((s) => (<li><em>{s.book}</em>: {s.says}</li>))}
+              {a.tensions.map((s) => (<li class="tension"><em>{s.book}</em> pulls the other way: {s.says}</li>))}
+            </ul>
+          </details>
+        </li>
+      ))}
+    </ol>
+    {candidates.length > 0 && (
+      <details class="aside">
+        <summary>{candidates.length} candidates not yet admitted</summary>
+        <ul class="sources">
+          {candidates.map((c) => (<li><strong>{c.name}.</strong> {c.statement} {c.note}</li>))}
+        </ul>
+      </details>
+    )}
+  </section>
+
+  <section class="group">
+    <h2>The Standpoint</h2>
+    <p class="note">
+      What the three pillars make unavoidable for anyone standing inside them. The pillars are true with nobody there;
+      these two are not. One is your reach and one is your view.
+    </p>
+    <ul class="cards">
+      {theorems.map((t) => (
+        <li id={t.id}>
+          <h3>{t.name}</h3>
+          <p><strong>{t.faces}</strong> {t.statement}</p>
+          <p class="meta">Why it follows: {t.derivation}</p>
+          <p class="meta">
+            From: {t.from.map((f, i) => (<>{i > 0 && ', '}<a href={`#${f}`}>{axiomName[f]}</a></>))}
+            {' · '}Gives: {t.mantras.map((m, i) => (<>{i > 0 && ', '}<a href={`#${m}`}>{mantraName[m]}</a></>))}
+          </p>
+          {t.foundations.length > 0 && (
+            <p class="meta">
+              Stated in: {t.foundations.map((n, i) => (<>{i > 0 && ', '}<a href={`/node/${n}/`}>{traceTitle[n]}</a></>))}
+            </p>
+          )}
+          {t.note && <p class="meta">{t.note}</p>}
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="group">
+    <h2>The mantras</h2>
+    <p class="note">The shortest theorems. Each one names its own blind spot.</p>
+    {levels.map(([level, label]) => (
+      <>
+        <h3 class="level">{label}</h3>
+        <ul class="cards">
+          {mantras.filter((m) => m.level === level).map((m) => (
+            <li id={m.id}>
+              <h3>{m.name}</h3>
+              <p>{m.instruction}</p>
+              <p class="meta">Blind spot: {m.blindSpot}</p>
+              <p class="meta">
+                From: {m.from.map((f, i) => (<>{i > 0 && ', '}<a href={`#${f}`}>{axiomName[f]}</a></>))}
+                {m.nodes.length > 0 && (<> · Used in: {m.nodes.map((n, i) => (<>{i > 0 && ', '}<a href={`/node/${n}/`}>{traceTitle[n]}</a></>))}</>)}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </section>
+
+  <section class="group">
+    <h2>The chapters, traced</h2>
+    {kinds.map(([kind, label, note]) => (
+      <>
+        <h3 class="level">{label}</h3>
+        <p class="note">{note}</p>
+        <ul class="traces">
+          {traces.filter((t) => kindOf(t.verdict) === kind).map((t) => (
+            <li>
+              <a href={t.href}>{t.title}</a>
+              {kind === 'practice' && t.verdict !== 'derived' && <span class:list={['tag', t.verdict]}>{t.verdict}</span>}
+              {(t.states ?? []).length > 0 && (
+                <span class="from">States: {(t.states ?? []).map((f, i) => (<>{i > 0 && ', '}<a href={`#${f}`}>{axiomName[f]}</a></>))}</span>
+              )}
+              {t.from.length > 0 && (
+                <span class="from">{kind === 'practice' ? 'From' : 'Uses'}: {t.from.map((f, i) => (<>{i > 0 && ', '}<a href={`#${f}`}>{mantraName[f]}</a></>))}</span>
+              )}
+              {t.leftover && <span class="leftover">Left over: {t.leftover}</span>}
+            </li>
+          ))}
+        </ul>
+      </>
+    ))}
+  </section>
+
+  <section class="group">
+    <h2>Not yet traced</h2>
+    <p class="note">
+      {report.untraced === 0 ? 'Every chapter that can be traced has been.' : `${report.untraced} chapters have no trace yet.`}
+      {parkedNodes.length > 0 && ` ${parkedNodes.length} are set aside. ${parked.reason}`}
+    </p>
+    {parkedNodes.length > 0 && (
+      <details>
+        <summary>Set aside ({parkedNodes.length})</summary>
+        <ul class="plain">{parkedNodes.map((n) => (<li><a href={n.href}>{n.title}</a></li>))}</ul>
+      </details>
+    )}
+    {untracedByPart.map(([label, list]) => (
+      <details>
+        <summary>{label} ({list.length})</summary>
+        <ul class="plain">{list.map((n) => (<li><a href={n.href}>{n.title}</a></li>))}</ul>
+      </details>
+    ))}
+  </section>
+
+  <section class="group">
+    <h2>Where the map and the manuscript disagree</h2>
+    {attention.length === 0
+      ? <p class="note">Nowhere. Every trace points at a chapter that exists and still says what the trace relies on.</p>
+      : <ul class="plain">{attention.map((a) => (<li>{a}</li>))}</ul>}
+  </section>
+</Base>
+
+<style>
+  .intro { color: var(--muted); max-width: 38em; }
+  .intro strong { color: var(--ink); }
+  .tally { list-style: none; padding: 0; margin: 1.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; font-family: var(--sans); font-size: 0.9rem; color: var(--muted); }
+  .tally strong { color: var(--ink); font-size: 1.15rem; }
+  .group { margin-top: 2.8rem; }
+  .group > h2 { font-size: 1.15rem; margin: 0 0 0.4rem; }
+  .note { color: var(--muted); font-size: 0.92rem; margin: 0 0 1rem; max-width: 38em; }
+  .level { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 1.6rem 0 0.6rem; }
+  .cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.8rem; }
+  .cards > li { border: 1px solid var(--line); border-radius: 6px; padding: 0.9rem 1rem; background: var(--bg2); scroll-margin-top: 5rem; }
+  .cards > li:target { border-color: var(--accent); }
+  .cards h3 { font-size: 1.02rem; margin: 0 0 0.25rem; }
+  .cards p { margin: 0; line-height: 1.5; }
+  .meta { color: var(--muted); font-size: 0.86rem; margin-top: 0.35rem !important; }
+  .tag { font-family: var(--sans); font-size: 0.68rem; font-weight: 500; letter-spacing: 0.04em; color: var(--muted); border: 1px solid var(--line); border-radius: 99px; padding: 0.05rem 0.5rem; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }
+  .tag.partial { color: var(--gold); border-color: var(--gold); }
+  .tag.orphan { color: var(--c-p7); border-color: var(--c-p7); }
+  details { margin-top: 0.55rem; }
+  summary { cursor: pointer; font-family: var(--sans); font-size: 0.82rem; color: var(--muted); }
+  .sources, .plain { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.88rem; line-height: 1.5; color: var(--muted); display: grid; gap: 0.3rem; }
+  .sources em { color: var(--ink); }
+  .tension { color: var(--gold); }
+  .aside { margin-top: 1rem; }
+  .traces { list-style: none; padding: 0; margin: 0; }
+  .traces li { padding: 0.6rem 0; border-top: 1px solid var(--line); display: grid; gap: 0.15rem; }
+  .traces li > a { font-weight: 600; text-decoration: none; }
+  .traces + .level { margin-top: 2rem; }
+  .traces li > a:hover { text-decoration: underline; }
+  .traces .tag { justify-self: start; margin-left: 0; }
+  .from, .leftover { font-size: 0.88rem; color: var(--muted); }
+  .leftover { color: var(--gold); }
+</style>

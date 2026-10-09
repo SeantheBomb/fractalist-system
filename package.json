@@ -7,6 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "reconcile": "node scripts/reconcile.mjs",
+    "prebuild": "node scripts/reconcile.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
