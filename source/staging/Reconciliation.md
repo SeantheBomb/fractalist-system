@@ -393,3 +393,49 @@ GEB describes a canon as one theme copied with changes that keep all its informa
 ### Depends on
 
 Section E. The Tracing and the Fork both need the fusion rule stated in full, and "name the partner" needs the Self-Kin pairs.
+
+---
+
+## G. Reconciled with the handoff recap (2026-10-09)
+
+**Status:** proposal. Source: `Fractalism_Handoff_Recap.md`, supplied by Sean as breadcrumbs, not law. None of its bundle (`registry/`, `harness/`, `LEDGER.md`, weave6) is in this repo, so its numbers are reported, not checked.
+
+### A gap to settle first
+
+The recap describes a manuscript of about 91,000 words. The copy in this repo is about 76,800. The repo copy still has the jet engine example the recap says was replaced, and none of the recap's pole wording. The map's 63 traces are against the repo copy. Sean set the repo copy as the source of truth on 2026-10-07; whether to bring the bundle's text in is his call. If it comes in, `npm run reconcile` will flag every chapter that changed.
+
+### What the recap corrects in sections D to F
+
+| Earlier proposal | Recap | Now |
+|---|---|---|
+| D.9: Tending is a pair held together, Fraying is a pair split | L1: Tending is the loop strengthening, Fraying is the loop weakening; neither is good or bad | **Adopt L1. Withdraw D.9 as a definition of the poles.** L1 is mechanical and checkable, and it keeps value out of the mechanism |
+| E.2 and E.4: derive a fused figure's poles from its parents | L3: a composite's direction cannot be derived from its parts; dominance decides | **Withdraw.** The rule gives the possible outcomes; which one leads is observed |
+| E: one pair makes one figure; "exactly one" in the Full Unravelling | Recursion test: several valid compositions; the unique-pair rule is gone | **Withdraw the uniqueness assumption.** The counts in E describe the 52-figure catalogue only |
+| E.1: derive the twelve Self-Kin from the axioms | Sean's pitch: nine scale-free ranks, each with kin at Self, Close and World | **Derive the ranks, not the twelve** |
+| E.3: mark each figure derived and observed | The Iceberg already marks composition and both poles by independent sources | **Use the Iceberg's marks as "observed".** Add only "derived" |
+| F: the Tracing and the Fork as new spreads | weave6 routes patterns up and down through what is close, and offers stay or turn | **Withdraw both as spreads.** weave6 already does the work |
+
+### What survives from D to F, and why
+
+- **Three ideas, three words.** Direction (Tending or Fraying, per L1). Balance (when two patterns meet: tightens, loosens or held, per L4). Worth (whether it is a lifeline or a snare). The table in D.9 (forcing, watching, entitlement, fatalism) describes balance, not Fraying. Value comes from the Worth axiom, which is why the rope can be either.
+- **The generators are the canon; the figures are a library.** On T1: neither 52 nor 125 should be canonical as a list. Canon is the ranks, the sizes and the composition rules. Named figures are what those produce, kept with their evidence marks. This is the elegance standard applied to the catalogue.
+- **Two routes to the ranks.** The recap's merge test would reduce the catalogue to ranks from the bottom up. Deriving ranks from the axioms comes from the top down. Where the two agree is the strongest result available, by the manuscript's own standard for independent arrival.
+- **Predictions and orphans.** A first sketch maps the nine ranks onto the axioms: Spark and Tide to the two loop types, Story, Gardener and Mirror to Perspective, Salve and Riverbed to Leverage, Mark to Worth, Spillover to the Nest. Nothing maps to Chance. Either a rank is missing or chance is not a pattern a person runs. Unverified.
+- **The canon test for kin.** GEB: every copy of a theme must let you recover the theme. A rank's kin at another size should be recognisable as that rank by a blind reader. Mark and Gardener have no World kin; either those are gaps to fill or those two are not scale-free.
+- **Three rings (T5).** GEB notes the number of levels is a choice of resolution. Three is the fewest that shows the Nest and its gate: you and the world meet only through what is close. The book can keep finer scales.
+- **A missing step in weave6.** Its steps cover chance (the deal), Perspective (how it stands), composition (where they meet) and Leverage (where to go). Nothing asks whether the pattern is worth repeating.
+
+### Constraints taken from the recap
+
+- L7: widen the rule instead of adding an exemption. This bears on the Turning exemption flagged in D.
+- L12: the manuscript never refers to its own iterations or revisions.
+- L8: a Weaving describes; it never predicts or assigns blame.
+
+### Revised order of work
+
+1. Settle which manuscript text is the base.
+2. Poles: adopt L1 wording; name balance and worth as separate ideas.
+3. Ranks: derive from the axioms; run the merge test from the registry; compare.
+4. Composition: state the rule (L3, L4) as outcomes plus an observed leader.
+5. Marks: Iceberg's observed marks plus "derived".
+6. Weaving: keep weave6 as the base; add the Worth step; apply the canon test to the kin.
