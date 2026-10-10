@@ -487,3 +487,64 @@ Reached separately, from the same shelf. That is weaker than independent arrival
 4. **Part Five is still parked.** Its text changed heavily in the merge and was not re-read.
 5. **The site is behind the manuscript.** `src/content` has not been re-seeded, so the new chapter has no page and `/derivation/` links to one that does not exist yet. The earlier reconciliation judged a re-seed safe; it has not been done.
 6. **Do not push without a decision on the registry.** `source/registry/` holds about 1,100 verbatim quotations (about 30,000 words) from the source books, each short and attributed. The repo is public and its text is licensed CC BY-SA. The earlier branch was never pushed.
+
+---
+
+## I. The formal system, in its four slots (2026-10-09)
+
+**Status:** applied to the map (version 2). The manuscript is unchanged. Sean, same day: the formal system is still the backbone; the pillars are not its axioms.
+
+### The correction
+
+Sections B to G called the descriptive claims "axioms" and the instructions "theorems". In a formal system axioms and theorems are the same kind of thing: a theorem is whatever the rules produce from the axioms. If the theorems are practices, the axioms have to be moves. The descriptive claims were never axioms. They are what the system means.
+
+### The slots
+
+| Slot | Holds |
+|---|---|
+| Alphabet | The Loop Tongue: chains of arrows, closed into loops, bracketed when they hold, tagged with a scale |
+| Axioms | Four moves: **look, plant, tend, thin** |
+| Rules | At a scale. With another. In order (look first) |
+| Theorems | The practices: every chapter that tells you what to do |
+| Ground (the meaning) | The one operation, the three pillars, the Standpoint, direction, chance and worth |
+| Guides | The former nine mantras: advice about which move to make |
+
+The four moves are the manuscript's own. The Daily Practices: "Look, plant, tend, thin. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room." That sentence already states axioms and two rules of production. They also cover every change that can be made to a loop: read it, add one, raise its strength, lower it.
+
+### The test
+
+Every practice chapter was traced to the moves it is made of. Part Five and the tables keyed to it stay parked.
+
+| | |
+|---|---|
+| Practice chapters | 49 |
+| Fully made of the four moves | 47 |
+| Partly | 2 (Receiving; Fractal Resistance) |
+
+| Move | Practices using it | Self | Dyad | Skein | Culture |
+|---|---|---|---|---|---|
+| Look | 44 | 29 | 13 | 10 | 1 |
+| Plant | 16 | 6 | 5 | 6 | 0 |
+| Tend | 12 | 6 | 3 | 5 | 1 |
+| Thin | 8 | 6 | 1 | 1 | 0 |
+
+### What the test shows
+
+1. **The book mostly teaches looking.** 24 of 49 practices are made of Look alone. All of Part Three and all of Part Six are Look.
+2. **Thin is nearly absent beyond the self.** One practice at dyad scale, one at skein. The book says how to start and sustain things with other people and almost never how to weaken or end one.
+3. **Culture scale has almost no practice.** Two entries, and one is a comet.
+4. **One thing is not a move: deliberately not moving.** Receiving lists "doing nothing" among its six responses. Fractal Resistance has "accept". Onboarding Day 1 is "change nothing". It recurs, the manuscript treats it as a skill, and none of the four covers it. Either it is a fifth axiom or it is what Look is when nothing follows.
+5. **Worth is not a move.** "Would I repeat exactly this?" is a judgment the system does not produce. That is expected: it is the meaning read into the system from outside.
+
+### Limits
+
+- One rater, who chose the four moves and then scored against them. Short verbs stretch.
+- Chapters are large. A chapter marked "look, plant" contains several practices; the trace is per chapter, not per practice.
+- Thin has the weakest shelf support of the four: three books, one passage each, and one of those is shared with Tend.
+
+### Open
+
+- A fifth move for not moving, or not.
+- Whether to trace per practice instead of per chapter.
+- The guides overlap the moves (Watch it run is Look). They may reduce to a short list of cautions.
+- Part Five: under this structure the figures are not theorems. They are named patterns, which is to say words in the alphabet. That changes what the catalogue is for and needs its own pass.
