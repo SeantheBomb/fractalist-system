@@ -3,6 +3,8 @@
 
 ---
 
+---
+
 ## Table of Contents
 
 **Front Matter**
@@ -71,7 +73,8 @@
 - 4. Flow, Reward, and Why Practice Works
 - 5. Fractalism and the Collective
 - 6. On Belief Systems That Know They're Built
-- 7. Open Questions & How to Expand This
+- 7. The Limits of Running It Forward
+- 8. Open Questions & How to Expand This
 
 **Part Five — The Standing Thirds**
 *A complete catalogue of the patterns this practice has found, each with a face and both its poles.*
@@ -192,7 +195,7 @@ Every Part opens by stating plainly what it's for, what you'll be able to do aft
 
 Three routes, depending on what you actually want:
 
-**The practice path.** Part One, Chapters 4, 6, and 7 → all of Part Two → Part Three, Chapters 4 through 6. Roughly a quarter of the book, and everything you need to actually do this. Nothing you skip on this route is required for anything on it.
+**The practice path.** Part One, Chapters 4, 5, 8, and 9 → all of Part Two → Part Three, Chapters 4 through 6. Roughly a quarter of the book, and everything you need to actually do this. Nothing you skip on this route is required for anything on it.
 
 **The full path.** Front to back, in order, as described above. Slower, and the only route that delivers the second-reading effect this chapter opened with.
 
@@ -270,7 +273,7 @@ Worth saying what this does *not* mean, because the wrong inference is common an
 
 A living example carries this even further than a chair can, because it's not just structurally real — it's functionally real, actively used. A flower's electric field isn't a fixed property sitting in the flower alone. Every bee that visits measurably alters it, and other bees can detect that alteration and read it as information — whether this particular bloom has already been drained — that exists nowhere in the bee alone and nowhere in the flower alone. It's a relational field, evolved specifically to carry meaning between two parties, updating in something close to real time. If a chair convinces you relationships can be structurally real, a flower should convince you they can be functionally real too — genuinely doing work, genuinely carrying information, with no single party holding it alone.
 
-**This is worth pausing on, because "real" is doing real work in this chapter and deserves to be pinned down precisely rather than left to mean one vague thing.** There are two different, non-competing senses of it running through everything above, and keeping them separate matters. The first is **structural realism** — a Third Thing is real because it's a genuine, causally effective pattern, independent of whether anyone is currently perceiving it or feeling anything about it. The chair's solidity and the flower's field are both this kind of real: true whether or not you ever think about either one. The second is **experiential realism** — the sheer *occurrence* of a thought or feeling is real simply because it's happening to you, regardless of whether its *content* turns out to be accurate. These are claims about two different kinds of object, and collapsing them into one is where a great deal of unnecessary suffering actually comes from: a fear's occurrence is always real, the instant it arrives. Whether what the fear is telling you — that you're actually in danger, that you're actually worthless — is *true* is a completely separate question, exactly as checkable as any other claim in this book, and no more settled by the fear's intensity than a Label's confidence settles whether it's a Word.
+**This is worth pausing on, because "real" is doing real work in this chapter and deserves to be pinned down precisely rather than left to mean one vague thing.** There are two different, non-competing senses of it running through everything above, and keeping them separate matters. The first is **real as structure** — a Third Thing is real because it's a genuine, causally effective pattern, independent of whether anyone is currently perceiving it or feeling anything about it. The chair's solidity and the flower's field are both this kind of real: true whether or not you ever think about either one. The second is **real as occurrence** — the sheer *occurrence* of a thought or feeling is real simply because it's happening to you, regardless of whether its *content* turns out to be accurate. These are claims about two different kinds of object, and collapsing them into one is where a great deal of unnecessary suffering actually comes from: a fear's occurrence is always real, the instant it arrives. Whether what the fear is telling you — that you're actually in danger, that you're actually worthless — is *true* is a completely separate question, exactly as checkable as any other claim in this book, and no more settled by the fear's intensity than a Label's confidence settles whether it's a Word.
 
 **There is a name for the habit this chapter argues against, and it is worth having, because you cannot put down a default you have never seen.** The reflex is to explain what a thing does by what it *is* — some unobservable essence inside it, producing its behavior from within. Water is wet because of something water-ish in it. A person is difficult because of something difficult in them.
 
@@ -314,13 +317,17 @@ Everything above compresses into four pillars. You'll see all four again, expand
 
 **II. The Third Thing.** *What repeats together becomes something new — and that new thing is real.* Relationships, selves, cultures, and marriages are not illusions layered on top of "realer" physical stuff. They are what emergence actually *is*. Learning to perceive the Third Thing is learning to see the true shape of your life instead of only its ingredients — including, closest to home, the shape of the self doing the perceiving, which the next chapter takes up directly.
 
-**III. The Nest.** *A Global Form at one scale is a Local Rule at the next — nothing repeats at only one size.* Your habit, fully tended, becomes a Local Rule you bring into a Dyad. A Dyad's pattern becomes a thread your Skein weaves from. A Skein's culture becomes one input feeding whatever Culture-scale pattern sits above it. Nobody designed this recursion. It's simply what "the same shape at every scale" has to mean, taken literally instead of left as a nice phrase — and it's the actual reason the word "fractal" belongs in this book's name at all, not a decoration sitting on top of the other pillars but the claim that nothing they describe ever stays contained to the scale it started at.
+**III. The Nest.** *A Global Form at one scale is a Local Rule at the next — nothing repeats at only one size.* Your habit, once it runs, becomes a Local Rule you bring into a Dyad. A Dyad's pattern becomes a thread your Skein weaves from. A Skein's culture becomes one input feeding whatever Culture-scale pattern sits above it. Nobody designed this recursion. It is the same operation running at every scale, and it's the actual reason the word "fractal" belongs in this book's name at all — not a decoration sitting on top of the other pillars but the claim that nothing they describe ever stays contained to the scale it started at. The operation repeats without exception. Whether the *shapes* it makes repeat too — one recognizable pattern in a habit, a marriage and a culture — is a further claim, often true and never guaranteed, and this book treats it as something to show each time rather than assume.
+
+**And the same sentence read the other way, which is not a second claim but the first one stated completely.** If a Global Form at one scale is a Local Rule at the next, that holds going down as surely as going up. A Culture's Global Form is a Local Rule running in your ordinary day. A Skein's is a Local Rule running inside your Dyad. You did not agree to those and mostly cannot see them, and they are doing the same work in you that your habit does in the Dyad you bring it to.
+
+Read only upward, this pillar says you build the world. Read both ways, it says something truer and less flattering: you are building a world that is simultaneously building you, and neither direction waits for the other. Everything in this book that sounds like it puts you in charge should be read against that, and several things later on only make sense once it has been said.
 
 **IV. The Leverage.** *Not all effort is equal, and finding where a small push produces a large effect is a real, learnable skill.* If the Loop and the Third Thing were the whole story, you'd be a passenger — patterns forming around and inside you with no meaningful say in the matter. They aren't the whole story. Some places inside a system move everything downstream of them; most places move almost nothing, no matter how hard you push there. Learning to tell the difference, and to act on what you find, is where belief turns into a practice you can start today — and it's where Part Two of this book will spend most of its time.
 
 These are not four separate claims sitting in a list. They generate each other, in order, and it's worth seeing the chain once before you go further.
 
-The Loop is the engine: something repeats. Repetition alone would only ever produce more of the same thing — so the Third Thing is the claim that it doesn't, that something appears which was never in the parts. But a Third Thing has to exist somewhere, at some size, and the moment it does it becomes an ingredient for whatever sits above it: that's the Nest, the same operation running again one scale up. And once you have scales nested inside each other, some places in the stack necessarily move more than others, because a change near the root reaches every leaf and a change at a leaf reaches nothing. That's Leverage — not an additional fact about the world, but what the first three pillars make unavoidable.
+The Loop is the engine: something repeats. Repetition alone would only ever produce more of the same thing — so the Third Thing is the claim that it doesn't, that something appears which was never in the parts. But a Third Thing has to exist somewhere, at some size, and the moment it does it becomes an ingredient for whatever sits above it: that's the Nest, the same operation running again one scale up. And once you have scales nested inside each other, some places in the stack necessarily move more than others, because a change near the root reaches every leaf and a change at a leaf reaches only what it touches. That's Leverage — not an additional fact about the world, but what the first three pillars make unavoidable.
 
 Four claims, each one falling out of the one before it. That's not a coincidence in how they were chosen. It's the point.
 
@@ -332,9 +339,11 @@ Four claims, each one falling out of the one before it. That's not a coincidence
 
 The four pillars describe how things get built. This chapter is about the one thing that cannot be built this way, and it is here rather than at the end because a limit you meet after four hundred pages is a limit you have already had time to misuse.
 
+**One thing to get out of the way first, because the title invites a misreading the chapter does not intend.** This is about *governance* — who is allowed to tell you what your own patterns mean. It is not a claim about which direction causes run. Causes run both ways, as the Nest has just finished saying, and nothing here revises that. A rule genuinely can be imposed on you from above and shape your day completely. The claim is narrower and only about authority: no one gets to hand you the reading.
+
 **Fractalism cannot have a central authority. Not should not — cannot, in the same way a circle cannot have corners.**
 
-The whole argument of this book is that large forms arise from small rules repeated without a designer, and that this is not a charming fact about ferns but the actual mechanism by which selves, relationships, groups and cultures come to exist. A version of this framework with someone at the top telling you what your patterns mean would be a Global Form imposed from above — which is precisely the thing the book spends its length arguing does not produce anything real. It would refute itself in the act of organizing.
+The whole argument of this book is that large forms arise from small rules repeated without a designer, and that this is not a charming fact about ferns but the actual mechanism by which selves, relationships, groups and cultures come to exist. A version of this framework with someone at the top telling you what your patterns mean would be a designer installed at the top of the very process this book says has none. It would refute itself in the act of organizing.
 
 So there is no authority here, and this is structural rather than modest. Three things follow from it directly.
 
@@ -388,7 +397,7 @@ None of these figures cite a source. None of them use the words *emergence*, *it
 
 Every Third Thing so far has been visible from outside. You can stand next to a marriage and see two people; you can stand outside a culture and see the crowd. There is exactly one Third Thing you will never get to stand outside of, and you are it.
 
-So the self is not merely *like* the other examples. It is the hardest possible case of the same claim, and the difficulty is structural rather than emotional: the one instrument available for examining the pattern is the pattern. **The self is a Third Thing whose parts are less obvious than two people standing near each other** — what combines is every past instant of noticing, remembering, and revising. What combines is every past instant of noticing, remembering, and revising, repeated across a nested stack of scales — which is pillar III, the Nest, showing up again here rather than staying confined to groups. You are not a single, bounded thing sitting at the center of your own life. You are what a very long, very fast Loop looks like once it's been running long enough to feel like an identity instead of a process.
+So the self is not merely *like* the other examples. It is the hardest possible case of the same claim, and the difficulty is structural rather than emotional: the one instrument available for examining the pattern is the pattern. **The self is a Third Thing whose parts are less obvious than two people standing near each other** — what combines is every past instant of noticing, remembering, and revising, repeated across a nested stack of scales — which is pillar III, the Nest, showing up again here rather than staying confined to groups. You are not a single, bounded thing sitting at the center of your own life. You are what a very long, very fast Loop looks like once it's been running long enough to feel like an identity instead of a process.
 
 This has a specific, practical consequence, worth being direct about before the feeling of loss has a chance to set in: a thing that was built by repetition can be rebuilt by repetition. If you were only ever a fixed essence, you'd be stuck with whatever you were handed. Because you are a pattern, you have leverage over yourself — pillar IV, right on schedule — that a fixed thing never could. This is the actual mechanical reason Naming and Defusing works at all in Part Two, and it's why Part Four returns to this same claim with the research to back it: the experiencing self and the remembering self are genuinely different systems, assembled substantially from outside material, with no single unified narrator running the show from a fixed interior point. None of that is a loss. It's the opening move of the entire practice.
 
@@ -406,11 +415,11 @@ One more thing worth being direct about, since it's the reason any of this is wo
 
 The pillars are in hand and you've seen them in the wild. The next two chapters are the first thing to actually do with them — a diagnostic, run before you decide what to do about anything at all. Two questions, in order. This is the first.
 
-A jet engine has tens of thousands of parts. Take it apart, understand each piece, and you can rebuild your understanding of the whole from the pieces. Nothing about a jet engine will surprise the people who built it.
+A car assembly line has thousands of steps. Take it apart, understand each station, and you can rebuild your understanding of the whole from the pieces. Nothing about the line will surprise the people who built it: one car comes off it much like the last.
 
 A pond has far fewer moving parts, and nobody can tell you what it will look like in five years.
 
-The difference is not size. It's whether anything in the system feeds back into itself. The jet engine runs one direction — fuel in, thrust out, every part traceable, nothing looping. The pond's algae feed the insects that feed the fish whose waste feeds the algae. Output becomes input. That single fact is what separates a thing you can take apart from a thing that dies when you do.
+The difference is not size. It's whether anything in the system feeds back into itself. The assembly line runs one direction — parts in, cars out, every step traceable, nothing looping. The pond's algae feed the insects that feed the fish whose waste feeds the algae. Output becomes input. That single fact is what separates a thing you can take apart from a thing that dies when you do.
 
 A **complicated** system is merely large: many parts, fixed relationships, nothing emerging that nobody put there. A **complex** system is alive in the specific sense this book means — a Third Thing is present, and two parts is enough to produce one.
 
@@ -440,13 +449,13 @@ Elegance is only available where the underlying thing is genuinely complex. Some
 
 **Try this:** Name one thing you've been trying to fix. Trace whether any part of it feeds back into another part. If you find a loop, stop looking for the broken piece — there isn't one.
 
-Once you know something is complex, one more distinction is worth having, because it changes what's actually worth attempting. Some emergence is *weak* — the whole is genuinely produced by the parts, and in principle you could trace exactly how, even if doing so takes more patience than anyone has. A committee's decision is like this. Annoying to predict; not actually mysterious. Other emergence is *strong* — no amount of knowing the parts, even perfectly, tells you what the whole will do, because the whole isn't a complicated sum of the parts, it's a genuinely new fact about them. A marriage's mood on a given evening is closer to this. There's no spreadsheet of two people's individual states that outputs it.
+Once you know something is complex, one more thing is worth having, because it changes what's actually worth attempting. Being produced by the parts is not the same as being traceable from them. A marriage's mood on a given evening is made of nothing but two people and what passes between them, and there is still no spreadsheet of their individual states that outputs it. Going looking for the one variable that explains the whole, certain that enough data must reveal it, is a common and expensive mistake. The fix isn't better analysis. It's working with the pattern directly and accepting that you'll feel its state before you can explain it.
 
-Treating a strongly emergent situation like a weakly emergent one is a common, expensive mistake — you go looking for the one variable that explains the whole, certain that with enough data it must be traceable, when the honest answer is that it was never going to be traceable even in principle. The fix there isn't better analysis. It's tending the pattern directly and accepting that you'll feel its state before you can explain it.
-
-**There is an exit from that concentration, worth knowing now rather than discovering later that there wasn't one.** A system that concentrates its returns keeps concentrating them, because the concentration feeds the next round — early advantage buys the resources that produce more early advantage, and nothing inside the loop reverses it. The reliable intervention is periodic and comes from outside the loop's own logic: reset some portion of the advantage, on a schedule, before the gap becomes structural. Every league redistributing draft picks is doing this. So is every group that rotates who runs the meeting.
+**The reason is structural, worth knowing now even though its mathematics can wait.** Two runs of the same rules, started from conditions differing by less than anyone could measure, end up with nothing in common; and the rule set you were working from was never complete anyway, because the Nest means every system is entered continuously by rules running at scales you didn't include. Neither of those is fixed by looking harder. What it costs you is the forecast. What it doesn't cost you is the leverage — and the gap between those two is the entire reason this book pushes on rules instead of on outcomes. Part Four takes it properly.
 
 **One more prediction this gate makes, worth having before you're surprised by it: a genuinely complex system rarely produces even outcomes.** Feedback that reinforces — a fuller stock filling faster, a larger audience growing faster — doesn't spread its results smoothly across every part of the system. It concentrates them, sharply, in a small number of places, while most of the system does comparatively little. This is the actual mechanism behind the familiar observation that a small share of causes tends to produce most of a system's effects. It isn't a separate law bolted onto the world. It's what real feedback looks like from the outcome side rather than the mechanism side — which means a skewed result isn't evidence something's broken. Answered honestly, the first question already told you to expect one.
+
+**There is an exit from that concentration, worth knowing now rather than discovering later that there wasn't one.** A system that concentrates its returns keeps concentrating them, because the concentration feeds the next round — early advantage buys the resources that produce more early advantage, and nothing inside the loop reverses it. The reliable intervention is periodic and comes from outside the loop's own logic: reset some portion of the advantage, on a schedule, before the gap becomes structural. Every league redistributing draft picks is doing this. So is every group that rotates who runs the meeting.
 
 ---
 
@@ -480,7 +489,7 @@ This is the whole book stated in physics. A daily practice is a small constant f
 
 It also explains something you will otherwise experience as failure. A change in acceleration produces almost no visible change in position for a long time. Weeks of a new practice, and the numbers look identical. That is not evidence it isn't working. That is what a second derivative looks like from inside, and mistaking the delay for failure is probably the single most common reason people abandon something that was about to work.
 
-**Acceleration is not a synonym for growth.** A reinforcing loop can compound in either direction — a habit building or a debt deepening are the same mathematics with opposite signs. And deliberately slowing something down is a legitimate, often correct goal. That's damping, not failure. Not every good force points at *more*.
+**Acceleration is not a synonym for growth.** A reinforcing loop compounds whatever it carries — a habit building and a debt deepening are the same mathematics running the same way. And deliberately slowing something down is a legitimate, often correct goal. That's damping, not failure. Not every good force points at *more*.
 
 **One more thing worth knowing before you trust any reading you take: a loop has a natural period, and you need to have watched at least one full turn of it before you can honestly tell a trend from a stage.** A habit's loop closes in a day — watch a week and you've already seen it cycle several times over, trend included. A loop closing across generations is a different matter entirely. Watch an entire human lifetime and you may have caught less than half a single turn of it, and from where you're standing, that half-turn is indistinguishable from a permanent fact about the world, rather than one phase of something that was always going to reverse eventually. A fast loop announces itself. A slow one disguises itself as the ground you're standing on, precisely because you've personally never had the chance to stand anywhere else.
 
@@ -500,7 +509,7 @@ And it's an acceleration problem exactly as this chapter describes one. The mome
 
 **The practical form is a single question, asked before agreeing to anything: what will this have to be true alongside?** Count the relationships, not the items.
 
-**One number, because a chapter that tells you to read acceleration and then offers no arithmetic is asking for faith.** Anything growing at a steady percentage doubles in roughly seventy divided by that percentage. Three percent a month doubles in about two years. Ten percent doubles in seven.
+**One number, because a chapter that tells you to read acceleration and then offers no arithmetic is asking for faith.** Anything growing at a steady percentage doubles in roughly seventy divided by that percentage. Three percent a month doubles in about two years. Ten percent a month doubles in seven months.
 
 That single division turns *be patient, it's compounding* into a date you can hold the thing against. It is not the same instrument as the natural period a moment ago, and both are worth having: the period tells you how long before a trend is **readable** at all; doubling time tells you how long before it becomes **visible in position** — before the number on the outside finally moves. A practice can be exactly on schedule and show nothing, and now you can say roughly how long nothing should last.
 
@@ -527,7 +536,7 @@ What follows is Fractalism's answer, offered exactly the way any genesis story s
 
 **The First Iteration — Difference.** In the beginning there was no beginning — only a state, unremarkable, undivided. And within it, without command and without cause, a distinction occurred: *this, not that.* The distinction did not stay single. It repeated, and a second time changed what "once" meant. Arithmetic was not given to the universe. Arithmetic *was* the universe, the very first time repetition noticed itself. *And the output of that first counting became the input for what came next, as it would every time from here on.*
 
-**The Second Iteration — Shape.** Numbers, repeating, do not stay numbers. Enough distinctions in relation to one another produce *position.* Position repeated becomes *line.* Line repeated at an angle to itself becomes *shape*, folding back on itself until shapes contain shapes — a triangle built from triangles, the same rule visible at every size. No hand drew the first shape. It was what arithmetic looked like once it had repeated enough times to be seen from a distance. Before anything folded back on itself — before there was a loop for anything to close into — there was only branching: one line becoming several, each one meeting its own angle, its own length, its own particular corner of the shape it was building toward. This was the first tree, long before there was a name for one, and long before the Third Iteration would show it how to fold back and close. *And the output of shape became the input for what moved.*
+**The Second Iteration — Shape.** Numbers, repeating, do not stay numbers. Enough distinctions in relation to one another produce *position.* Position repeated becomes *line.* Line repeated at an angle to itself becomes *shape*, folding back on itself until shapes contain shapes — a triangle built from triangles, the same rule visible at every size. No hand drew the first shape. It was what arithmetic looked like once it had repeated enough times to be seen from a distance. But a shape folding into shapes is still a rule unrolled, not yet a loop that acts on itself. What it made was branching: one line becoming several, each one meeting its own angle, its own length, its own particular corner of the shape it was building toward. This was the first tree, long before there was a name for one, and long before the Third Iteration would close it into something that could move. *And the output of shape became the input for what moved.*
 
 **The Third Iteration — Motion.** A shape held still is a fact. A shape repeated across time is a process — and process is where the universe first became unpredictable to itself. The chaos game shows this directly: a rule this simple, repeated ten thousand times, assembles a structure no single step could have shown you. Order did not require a plan. Order required only a rule, repeated, and enough patience to let the repeating finish revealing itself. *And the output of motion became the input for what could break its own pattern.*
 
@@ -567,9 +576,21 @@ This is not care, and it is not treatment. Everything here is a way of looking �
 
 There are people whose work is helping, and they are good at it in ways a framework structurally cannot be. A therapist, a psychiatrist, a doctor, a counsellor — these are trained, practised, accountable, and present in the room with you, which is four things no book has ever been. They can see what you cannot see about yourself, adjust as you change, and carry some of the weight while you are not able to. If you are struggling, or if someone you love is, that is where to go. Not instead of this if you find this useful, but first, and regardless.
 
+**And there is a mechanism underneath that caution, not just a caution.** Some conditions attack this practice's own preconditions. Everything here asks you to notice, to repeat, to hold a thing steady long enough to see its shape — and there are states in which noticing is precisely what has become expensive, in which repetition cannot get started, in which the attention this requires is the thing that is missing. **A framework that needs energy to run fails exactly the people who need it most.** That is not a statement about anyone's character. It is a statement about the limits of this object, and it is the plainest reason a trained person is not an optional upgrade to a book.
+
 Be especially careful of the idea that understanding a pattern is the same as being relieved of it. Naming something accurately can make it more bearable and can point at where to push. It does not treat depression, it does not resolve anxiety, and it will not carry you through a crisis. A belief — any belief, including this one, held as sincerely as you like — does not do what a trained person sitting across from you does. Fractalism makes no claim otherwise, and a version of it that did would be the exact failure this whole book has been arguing against: a framework that mistook its own fluency for competence it never had.
 
 Believe it the way you'd test anything else this book claims: not by taking our word for it, but by repeating the practice, and watching what it builds.
+
+**And one sentence, if the whole chapter had to compress to one: it does not matter much what you believe. It matters that you believe something, and that you hold it honestly enough to keep checking it.**
+
+Fractalism does not ask you to trade in whatever you already hold. Believing is not, underneath the specific vocabulary any tradition dresses it in, primarily about a deity, an institution, or a claim about how the universe began. It is about answering to something larger than your own immediate want — and it is about building the thing that should exist and does not yet, right alongside accepting, honestly, the thing that already does and cannot currently be moved. Both of those are the practice. A belief that only knows how to build is a pattern that only reinforces, and the Fifth Iteration has already told you what that becomes.
+
+Which is also why most disagreement between sincerely held beliefs is not the conflict it presents itself as. Two people, two traditions, two vocabularies, aimed at the same underlying want and simply organizing the reach for it differently, are not opposed. They are reading the same pattern from two ports of entry — which is exactly what a pattern found more than once, by hands that never touched, should be expected to look like.
+
+Held this way, whether a belief is worth keeping stops being a question about its content at all. It becomes the same question this book asks of everything else: **is the loop it runs tending or fraying — and is that pull a lifeline or a snare, and for whom.** Because a belief whose Tending is a lifeline to its holder and a snare to everyone and everything that holder is nested in has not passed that test. It has passed the half of it that was never going to object.
+
+Real disagreement — the kind that cannot be dissolved by finding the shared want underneath — is rarer than it looks and already has a name here: the pattern where every actor's effort is real, opposed, and cancels rather than compounds. It is not the only place stakes are genuinely opposed rather than differently dressed; a finite thing two people both need is a different problem with its own figures, and treating every conflict as the same shape is precisely the resemblance this book's own instruments exist to catch. But most of what presents itself as belief in conflict with belief is neither. It is two loops describing one shape in two tongues.
 
 ---
 
@@ -639,8 +660,10 @@ In one real conversation, notice the moment you form your read of what's going o
 
 The first answer someone gives is almost never the real one — not because people lie, but because the first answer is the one already packaged for telling. What arrives after the second *what else* was always there. It was waiting to find out whether you were.
 
-**Day 7 — Choose one thing to keep, and one question to keep asking.**
+**Day 7 — Choose one thing to keep, and do it where someone can see.**
 Look back over the week and pick exactly one practice to carry forward for a month before adding anything else — the breath, the naming, the three-legged read, holding your read in a conversation. One. This is the entire method in miniature: not everything, not at once, one small rule repeated past the point where it starts building something visible.
+
+Then do today's instance of it somewhere it is visible to one other person. Not announced, not explained — just not hidden. Say the honest thing at the table rather than in your head. Ask the second *what else* where someone else is listening. This is not a social exercise tacked onto a private week. A rule repeated only in private builds exactly one thing; the same rule repeated where it can be seen becomes an input to somebody else's rule, and that is the only route any of this has to a scale larger than you. The week ends outside your own head on purpose.
 
 Then take one question with you, and this one is pointed at the book rather than at you: **did naming any of it change what you actually did?** If a pattern you identified led to exactly the action you'd have taken anyway, the name was decoration, however satisfying the recognition felt. That's worth knowing. It's information about whether this framework earns its place in your life, and you are the only one positioned to collect it.
 
@@ -665,7 +688,11 @@ Sit or stand still. On the inhale, think: *this one breath.* On the exhale, thin
 
 Find any branching thing. Follow one branch to where it splits. Notice: the smaller branch is shaped like the whole tree. Follow it again. Rest your attention on the *repetition*, not the whole shape.
 
-**What it's actually doing:** training your eye to default to seeing pattern instead of only seeing objects. This sounds abstract until you notice the payoff — it's the exact same perceptual shift that, applied to your own life, lets you notice your habit loops instead of only noticing their results. You cannot intervene on a pattern you've only ever perceived as a single isolated event.
+**What it's actually doing:** the training Day 2 of the onboarding began — seeing pattern instead of objects, which is the shift that later lets you notice a loop instead of only its results.
+
+**And the object is not incidental, which is the part that usually reads as arbitrary.** Part Three has a word for the honest, unrolled record of a loop — one root rule branching into a genuinely different leaf every time it meets a new condition — and the word is **Tree**. Sitting with a literal branching thing is direct practice for seeing that: not a metaphor placed alongside the vocabulary but the same shape, at a size you can hold in your eyes, slow enough to study. You are learning to look at something that got where it is by repeating one rule against conditions it did not choose, which is also a description of you.
+
+*A second reason to keep it, for the days you would skip it: directed attention is a depletable resource, and time spent among branching, undemanding things restores it. The practice is cheapest to do on exactly the day it is hardest to start.*
 
 ### Naming the Loop
 *Use the moment you catch yourself mid-habit.*
@@ -688,6 +715,14 @@ A simple version for closing the day: *"What I did today becomes what I do tomor
 
 **What it's actually doing:** every thought you repeat gets easier to think again — that's simply what repetition does to a mental pathway, the same mechanism that turns a difficult new skill into an effortless one. That mechanism doesn't check whether what it's making effortless is good for you. Seeding is choosing, on purpose, what you're willing to make effortless.
 
+**This practice is easy to misread in one way, and the misreading changes what it asks of you.** Seeding is not something you start doing. You are planting either way — every repeated thought, every sentence said in a particular tone, every small thing done again. Nothing here begins the planting. The only thing the practice changes is whether you can see what is going into the ground, and seeing it is what makes a choice available that was not available before.
+
+**And it has a second beat the other practices lack: go back and look.** Before the day ends, check one thing you planted. Not to judge the crop — most of what you plant today will show nothing today. To confirm the ground answers at all. That is the fast return, and it is what keeps the sense of having any hand in your own life fed while the slow things are still underground.
+
+Its failure mode is already written into one of the figures: what you attend to grows, and so does whatever you keep confirming. Go looking for returns and you will find the ones you went looking for. The correction is the ordinary one — look for what actually happened, not for the evidence you wanted.
+
+**These four practices are four moves of one activity, which is worth saying once so they stop looking like a list.** Tree-Gazing and Naming the Loop are the same skill aimed two ways — pattern outward, pattern inward. Seeding is what goes in. The breath is pulling what has started to take over. And the second beat above is tending what is already there. Look, plant, tend, thin. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.
+
 Residue collects at the edges of a day the way fluid pools at the body's extremities — neither one returns to the center on its own. That's the whole case for the evening version. You don't need a catastrophe to justify it.
 
 ---
@@ -703,6 +738,10 @@ Everything in this movement operates at the smallest scale this book practices a
 *"Choose the game you want to play."*
 
 The Third Thing pillar, pointed at your own life, asks a specific, practical question: *what are you actually going to repeat?* This chapter is a self-inventory to help answer it — not a personality test, just four honest questions, best answered in writing, that overlap where a sustainable local rule tends to live.
+
+**One thing before the questions, because without it this chapter quietly asks you to answer for things that were never yours.** The Nest runs downward as well as up, which means some of the rules you are running right now were not chosen by you. They were installed — by a family, a shortage, a workplace, a feed, a scale above you that never asked. That is arithmetic rather than sympathy: if a Global Form at one scale is a Local Rule at the next, then rules arrive from above as a matter of course, and yours did.
+
+So there are two questions here, and they are easy to collapse. *Is this rule mine to work?* and *was this rule my fault?* The first is almost always yes. The second is frequently no, and nothing about the first requires the second. **A Local Rule you did not choose, installed by conditions you did not set, is still yours to work and was never your fault.** Hold both. Dropping the first is helplessness; dropping the second is a self-blame that will make every page after this one harder than it needs to be.
 
 **What do you love enough to repeat without being paid to?**
 Not what you're supposed to love. Not what looks good described at a dinner party. What do you actually keep returning to, on your own time, when nothing is making you?
@@ -820,6 +859,12 @@ None of this is a promise that creative work becomes easy. It's a narrower claim
 
 ---
 
+**And one thing about what compost actually is, because the chapter so far reads as consolation and the mechanism is better than that.** In a forest, fallen wood and dead leaves are not the aftermath of growth. They are the nutrient supply for the next round of it — the accumulated remains of everything that did not make it are precisely what makes the ground richer than it was. That is not a nice way of thinking about failure. It is where the fertility comes from.
+
+Stated in the vocabulary Part Four uses: **compost is a stock.** Not a one-time consolation for a particular loss, but an accumulating reservoir that raises the rate at which everything planted afterward grows. Which is the honest reason the fifth attempt at something is easier than the first, and it is not because you have become a better person. It is because you are planting into ground that four previous attempts fed.
+
+**And it closes the loop this practice runs on.** You plant with some direction in mind. Some of it grows fast and some of it takes years. Whatever fails feeds the ground. The next planting starts from richer soil than the last one — helped, or hindered, by everything that came before it, including what other people planted and what fell before you arrived. That is the whole cycle, and no part of it requires anything to have worked.
+
 ## 6. Reading Your Own Cycle
 
 *"Step repeats, form emerges."*
@@ -848,6 +893,12 @@ The practical use of this chapter is not to force yourself into whichever shape 
 
 *"Before you ask why you aren't moving, ask what moving would require."*
 
+Day 5 of the onboarding asked you to name what was missing from one stuck thing, and handed you three words to choose between. This chapter is that page opened all the way — why those three and no others, why the fixes don't substitute, and what each one actually costs to clear.
+
+**One thing before any of it, because a stall is where this book is most likely to be turned into a weapon against the person holding it.** Agency and responsibility are different questions and they come apart constantly. That you *can* act on something does not mean the not-acting was a choice you made, and the clearest evidence is a technique this chapter will arrive at on its own: the reason action has to precede motivation, in the conditions where that applies, is that **waiting to feel like it does not work there.** If motivation reliably arrived first, nobody would have needed the technique. So the absence of motivation is not evidence of unwillingness — it is the thing the technique exists because of.
+
+The other half is worth holding just as hard: **values persist underneath long stretches of inaction.** A year of not doing the thing is not proof the thing stopped mattering to you. It is usually proof the route to it was blocked, and the route is a different object from the wanting.
+
 Sooner or later you will find yourself unable to move on something that genuinely matters to you, and the ordinary response is to assume the problem is willpower and apply more of it. That answer is almost always wrong, and it's wrong in a specific, checkable way.
 
 **A stall has exactly three possible causes, and they are not interchangeable.**
@@ -870,9 +921,9 @@ If some part of you is drawn to the doing — even a difficult, unglamorous part
 
 Those two feel remarkably similar from the inside, and they lead to completely different places. A wanted thing that's hard is a capacity or understanding problem and will yield to the matching fix. An owed thing will not, ever, no matter how well you rest or how clearly you plan — because the fix for an owed thing is not a better approach to it. It's an honest decision about whether to keep owing it.
 
-**Both poles, because this diagnostic has one like everything else here.** Used well, it ends months of misdirected effort in about ten minutes. Used badly, it becomes a sophisticated way to quit: every hard stretch reclassified as a want problem, every difficulty read as a sign the thing was never yours. The distinction is the one already drawn above — difficulty is not the same as absence of want, and a practice worth having will sometimes be both wanted and genuinely unpleasant on a Tuesday.
+**Its Tending reads two ways, because this diagnostic has poles like every running pattern here.** The harder it runs, the more it reclassifies, and that can be a lifeline or a snare. Used well, it ends months of misdirected effort in about ten minutes. Used badly, it becomes a sophisticated way to quit: every hard stretch reclassified as a want problem, every difficulty read as a sign the thing was never yours. The distinction is the one already drawn above — difficulty is not the same as absence of want, and a practice worth having will sometimes be both wanted and genuinely unpleasant on a Tuesday.
 
-**There is a fourth cause, and it hides inside the second, which is why it gets its own paragraph rather than its own leg.** A thing can look like a capacity problem when actually a Local Rule isn't underpowered, it's the wrong category of rule entirely.** There are shapes that a whole family of simple rules can approximate forever and never actually reach — no amount of additional repetition gets you there, because the rule you're repeating is structurally incapable of producing that result. Applied to a life: some things you're failing at are not failing for want of consistency, or leverage, or a better rung. They're failing because the kind of move you're making could never have worked, and doing more of it just spends more of you on the same impossibility.
+**There is a version of the first cause that hides inside it, which is why it gets its own paragraph rather than its own leg.** A thing can look like a capacity problem when actually a Local Rule isn't underpowered, it's the wrong category of rule entirely. There are shapes that a whole family of simple rules can approximate forever and never actually reach — no amount of additional repetition gets you there, because the rule you're repeating is structurally incapable of producing that result. Applied to a life: some things you're failing at are not failing for want of consistency, or leverage, or a better rung. They're failing because the kind of move you're making could never have worked, and doing more of it just spends more of you on the same impossibility.
 
 **Also worth asking:** name one thing you've been trying to fix by doing more of the same. Ask, honestly, whether more of it could ever have worked — or whether the situation needs a different kind of move altogether. If it's the second, stop climbing the ladder. You're on the wrong one.
 
@@ -926,7 +977,7 @@ Here is a hierarchy, ordered roughly from weakest leverage to strongest, adapted
 
 **Before the list itself, the thing that makes it make sense.** Part One asked you to tell position from speed from acceleration. This ladder is that distinction, applied to intervention — that's the whole reason the rungs are ordered the way they are, and it's the part that's usually left unexplained.
 
-The bottom rungs act on **position**. A number is a state: what's in the account today, what the scale says this morning. Change it directly and nothing about the machinery that produced it has changed, which is exactly why it drifts back.
+The bottom rungs act on **position**. A number is a state: what's in the account today, what the scale says this morning. Push on it and, even when it moves, nothing about the machinery that produced it has changed, which is exactly why it drifts back.
 
 The middle rungs act on **speed**. Rules and information flow don't set a state — they set a rate. A rule changes how fast something accumulates or drains, every day, without being renewed. This is already a different category of intervention, and it's why rule-level change outlasts number-level change so reliably.
 
@@ -942,19 +993,25 @@ That's also the honest warning attached to the top of this ladder. Acceleration-
 
 **Rules.** The actual structure governing what's allowed to happen and what triggers what — not "spend less" but "no purchases without a 24-hour wait," not "sleep more" but "phone charges outside the bedroom." Rules change behavior by changing the default, not by asking for more willpower against an unchanged default. This is where most durable change actually happens, and it's a significant step up from adjusting numbers. A useful test for whether you've actually found a rule-level constraint rather than just three competing numbers: name your limiting factors honestly. You can usually pick any two of *cheap*, *fast*, and *good* — a solution that's cheap and fast is rarely good; one that's fast and good is rarely cheap. If your Local Rule keeps failing, check whether you've been quietly demanding all three from yourself at once.
 
-**Self-organization.** Whether the system can still grow structure it did not have. Not tuning the rules — the capacity to *add* one, invent a practice, form a part that wasn't there. A person who can only run the routines they already have is in a different condition from one who can build a new one when the situation changes, and no amount of optimizing the existing routines converts the first into the second. This rung is the one the rest of this book is about: everything here works by a small rule repeated until something larger exists that nobody designed. Tending is a system that can still do that. Fraying is the capacity traded away for predictability — which is complication arriving by the front door, since a system that can no longer generate structure can only ever accumulate patches.
+**Self-organization.** Whether the system can still grow structure it did not have. Not tuning a rule — the capacity to *add* one, invent a practice, form a part that wasn't there. A person who can only run the routines they already own is in a different condition from one who can build a new routine when conditions change, and no amount of optimizing the existing routines converts the first into the second.
+
+This is not the Third Thing restated, and the difference is exactly why it earns a rung of its own. The Third Thing is a claim about what exists: repetition makes new things, and those things are real. This is a claim about *rate* — and rate is the part there is somewhere to push on. Two systems equally full of Thirds can differ completely in whether either one can still make another. Which is also why it sits apart from the rung below it: editing a rule changes what the existing structure does, while working this rung changes whether new structure can appear at all, usually by removing whatever quietly punishes novelty, or by leaving room for a practice that does not exist yet and cannot be specified in advance.
+
+Fraying here is that capacity loosening, often traded for predictability without anyone registering the trade — standardization buys reliability by pricing invention out of the building, and that can be a relief or a loss. A system that can no longer generate structure can only accumulate patches, which is complication arriving through the front door.
 
 **Goals.** What the system is actually organized to produce, as opposed to what it claims to be organized to produce. A habit aimed at "looking disciplined" and a habit aimed at "actually being well" produce very different behavior even when the daily actions look identical from outside. Misalignment here quietly poisons every lever below it — you can perfect your rules and information flow and still fail, forever, if the underlying goal was never actually the one you thought you were pursuing.
 
-**Paradigm.** The unquestioned assumption underneath the goal itself — not "I should be more productive" but the buried belief that your worth is a function of your output at all. This is the strongest lever on this ladder, and also the hardest to see, precisely because a paradigm doesn't feel like an assumption from inside it. It feels like reality. Shifting it rarely happens through direct argument — it tends to happen the way everything else in this book happens: through repeated, lived contact with a different pattern, until the old assumption simply stops being the thing you're standing on.
+**Paradigm.** The unquestioned assumption underneath the goal itself — not "I should be more productive" but the buried belief that your worth is a function of your output at all. This is the strongest lever on this ladder short of the rung above it, and also the hardest to see, precisely because a paradigm doesn't feel like an assumption from inside it. It feels like reality. Shifting it rarely happens through direct argument — it tends to happen the way everything else in this book happens: through repeated, lived contact with a different pattern, until the old assumption simply stops being the thing you're standing on.
 
 **Holding a paradigm as a paradigm.** One rung above the last, and it is the strangest one on the ladder because it is not a change you make to the system — it is a change in your grip. A paradigm you can see *as* a paradigm has stopped being the floor you stand on and become a thing on the floor with you. You can put it down. You can pick up another and check whether it reaches further.
 
 This is the highest leverage available, and the reason is the Nest: everything below this rung is a move made *inside* a frame, and this is the only move that operates on the frame itself. It is also the rung this book has been standing on the entire time without announcing it — a belief system that tells you plainly it was constructed is not being modest, it is working at the top of the ladder.
 
-Its Fraying pole is real and this book has already named it in another chapter: recursing past the point of usefulness is not depth. A person who holds every frame so loosely that none of them is ever repeated long enough to build anything has reached the top of the ladder and fallen off the other side. Nothing accumulates without some ground being stood on for a while.
+Its Tending pole can be a snare, and Part One already named it: recursing past the point of usefulness is not depth. A person who holds every frame so loosely that none of them is ever repeated long enough to build anything has reached the top of the ladder and fallen off the other side. Nothing accumulates without some ground being stood on for a while.
 
 The practical use of this ladder is not "always aim for paradigm change" — that's a good way to spend years of effort with nothing to show for it, because paradigm-level work is slow and hard to aim deliberately. The practical use is: when a numbers-level fix keeps failing to hold, stop blaming your willpower and check one level up. Usually the real leverage was sitting one or two rungs above where you were pushing.
+
+**And the ladder's honest ceiling, which belongs here rather than as a surprise later.** Every rung on it tells you where to push. Not one of them tells you what comes out. Nothing here promises a Global Form on request — the form is a consequence, and consequences arrive on their own schedule and in their own shape. This isn't a limitation of the ladder; it is what the ladder is for. If outcomes could be ordered directly you would order them and skip the rungs entirely. You work the rule precisely because the outcome was never the thing you had hold of, and Part Four's chapter on running it forward says why that holds even in principle.
 
 Worth calling this ladder what it structurally is, because the word sharpens the practice: it's a tree, not a ladder, with paradigm sitting at the root and every symptom you actually notice — a missed habit, a blown budget, a recurring argument — sitting out at a leaf. The reason a paradigm-level fix cascades down through goals, rules, and numbers automatically, while a numbers-level fix never reaches upward, is exactly the relationship a root has to its leaves: the root shapes every leaf that grows from it, but no single leaf can reshape the root by itself. This is the same structure "root cause" has always pointed at, now given the rest of its shape — a cause isn't a root because it's important. It's a root because everything else downstream of it is one of its leaves, shaped by it, unable to un-shape it by acting alone.
 
@@ -964,7 +1021,7 @@ Worth calling this ladder what it structurally is, because the word sharpens the
 
 ## 10. Fractal Resistance, Practiced
 
-*"People are not disturbed by things, but by the view they take of them."* — Epictetus
+*"The lever is real. Your arm is the question."*
 
 Not every system you'll move through is built the way you're learning to build yourself. A rigid bureaucracy, an inflexible chain of command, a family that punishes any visible change in you — some structures are organized, on purpose, to resist exactly the kind of local, bottom-up change this practice teaches. This chapter turns that honest tension into something you can actually do.
 
@@ -975,6 +1032,48 @@ This is not only a claim about resilience under pressure. It's a claim about imm
 **Practically:** pick one small place, this week, where you've been giving the expected, frictionless answer instead of the honest one — a meeting, a family conversation, a habit of agreeing before you've actually decided you agree. Give the honest answer once, calmly, without turning it into a confrontation. Notice what happens. Repeat only where it's sustainable to repeat.
 
 **Recognize when a rigid structure and a fractal one are the same pattern at a different resolution.** Some structures organize identity around the individual. Others organize it around the group, with a person's meaning flowing from their place inside something larger. Fractalism doesn't crown one of these correct — both are the same underlying pattern, nested identity operating at whatever scale is currently in view, just expressed with more or fewer visible seams. This matters practically because it stops you from mistaking every hierarchy you meet for the enemy of the practice. Ask, before pushing against a structure: is this actually rigid in a way that's harming me, or is it just organized at a scale I haven't learned to see the pattern in yet?
+
+**And now the thing this chapter is useless without, which the previous one was in no position to say.** Leverage can be real and still not be yours to reach.
+
+The ladder ranks rungs by how much they move. What ranking them does not tell you is that your *position* in a structure decides which of them you can put a hand on at all. Most people, inside most of the structures they spend their lives in, can adjust numbers freely, can build buffers, can sometimes change who sees what — and cannot touch the rules, the goals, or the paradigm without someone else's agreement. That is not a failure of practice and it is not a failure of nerve. It is a fact about where you are standing, and it is the most common way this book turns into self-blame in the hands of a reader doing everything right. A high rung you cannot reach will read as a personal failing every single time, because the ladder describes the system and says nothing about you.
+
+It is also not an accident. Power in any structure that has lasted a while sits with a small number of positions rather than spreading evenly, and a structure that is old is by definition one that has already outlived people who wanted to change its rules. The rungs near the top are guarded because they are the ones that work.
+
+**Which leaves three moves, and there are only three.**
+
+**Get access to a higher rung.** The slow one, and the one most often skipped because it looks unrelated to the problem. Position is itself changeable — by tenure, by demonstrated competence, by alliance, by becoming the person the rule-setters consult — and that route usually has nothing to do with the thing you actually want changed. This is a real move and it costs real years. Naming the price is not discouragement; it is the difference between choosing it and drifting into it.
+
+**Leave.** Voluntary participation is a genuine structural property, and where it exists, exit is the highest-leverage act available to someone with no rung to stand on — not as a threat, as an actual departure. Where it does not exist, this move is simply not on the board. A family, a body, a country, a dependent: for these, telling someone to leave is not advice. It is the fantasy of leverage offered in place of the thing.
+
+**Accept, and spend what you have where it reaches.** This is the one that sounds like defeat and is not. Acceptance here means exactly one thing — you stop paying for the rung you cannot reach — and the reason it matters is arithmetic rather than attitude. Effort spent on an unreachable rung is not merely wasted. It is *withdrawn* from the rungs you could have moved, which is why the person grinding hardest against an immovable rule is usually the same person whose reachable ground has gone untended for years. Getting clear about which is which is not resignation. It is what makes the remaining leverage available at all.
+
+**One caution running the other way, because this section is easy to misuse.** The gap is real and it is also the most comfortable explanation available, which means it will be reached for early and often. Being told no once is not evidence that a rung is out of reach; neither is expecting to be told no. Test cheaply before concluding — one honest ask, made plainly, costs very little and settles the question far more reliably than a year of assuming.
+
+**And the most common version of this is not a bureaucracy at all.** It is a set of demands absorbed early, from people who were passing on what they had absorbed, which by now does not feel like a demand — it feels like your own standard, and it governs the rule layer of your life without ever having been examined. The rung is fully reachable in that case. It just does not look like a rung, because it is speaking in your voice.
+
+**Now the part that has been missing, and it is the difference between this chapter being honest and this chapter being bleak.** This book has two structures in it, and they are gated differently.
+
+**The ladder is gated by position.** Everything above says so. You cannot promote yourself, and the rungs that move the most are held by people who are not you.
+
+**The Nest is gated by connection** — and it is gated, which is worth saying because the tempting version of this claim is that the Nest is free and it is not. The catalogue's own arithmetic settles it: a group-scale pattern is two dyad-scale patterns sharing a person, and a culture-scale one is two group-scale ones sharing a dyad. Every scale above yourself is built out of dyads. Someone with no dyads at all is not standing at the bottom of the Nest. They are outside it, with nothing above them constructible, and a book that pretended otherwise would be lying to precisely the person it most needs to be straight with.
+
+**The asymmetry is not that one gate is open. It is that the two gates open from different sides.** Your position changes when someone else decides it does. Your connection changes when you decide it does — a dyad takes two people to hold and one to start.
+
+Which makes the hardest case sharper rather than sadder. If you have no dyads, the first one is not one relationship added to zero. By that same arithmetic it is the entire Nest becoming constructible again — every scale above it goes from impossible to merely difficult. That is a change in kind, not in amount, and it is the single highest-return act available to anyone in that position. It is also worth saying plainly that how someone arrived there is a completely separate question from what the arithmetic says about the first reconnection, and illness, grief, moving, and ordinary bad luck put people there constantly without anyone having burned anything.
+
+**And one more thing about those three moves, because of what they quietly assume.** Get access, leave, accept — all three picture the actor as one person. That is not a fourth option missing from the list. It is an assumption running underneath all three. *Unreachable* is not a property of a rung; it is a relation between a rung and whoever is reaching, and this book already has a pillar saying that whoever is reaching is composable. Two people are a unit neither of them contains. A unit has its own reach. One person acts at the level of numbers; enough people, coordinated, are standing at the rules.
+
+**Which leaves the question of how one person's action gets anywhere at all**, since alone it does look trivial next to the thing it is aimed at. It does not travel by its own force. It travels because other people see it. Your act is an input to their Local Rules — the Nest running downward into someone else's ordinary day — and theirs run upward from there. That is not encouragement. It is the transmission mechanism, and it is the reason a small act done where it can be seen is categorically different from the same act done privately.
+
+**And a short diagnostic for the state this chapter is actually about, which is feeling acted upon.** Three questions, in order, and it terminates rather than looping.
+
+*Is there a return at all?* If nothing you do changes what comes back — genuinely nothing, tested rather than assumed — then you are a recipient here rather than a participant, and the honest move is to name what is happening to you instead of hunting for your contribution to it.
+
+*How long is it?* If the answer is years, stop trying to feel the long loop. It will not report in on your schedule. Find a shorter one running inside it and tend that instead.
+
+*Were you looking when it arrived?* This is usually the actual answer, and it is the cheapest of the three to fix. Most returns land and go unclaimed, which produces the same felt result as having no returns at all.
+
+**One caution on all of this, and it is the same caution this book gives about any intervention.** Pushing on a rule from below is still pushing on a rule, and a complex system answers a confident push with consequences nobody modelled. The move that was supposed to help has a long history of producing the opposite. Nothing here exempts you from the return path: when you are the one pushing, you owe the same attention to what came back that you would demand from anyone above you.
 
 ---
 
@@ -1010,6 +1109,40 @@ Stated in the terms Part One gave you, the Sacrifice Trap is a specific error ab
 
 One honest caveat belongs here, because a chapter about deferred reward owes you the whole truth about what repetition can and can't promise. There's a popular version of this claim that runs *luck equals preparation plus time* — tidy, motivating, and quietly overstating its case on both sides. The plus sign should really be a multiplication: a stroke of captured luck tends to buy more of the exposure that produces the next one, which compounds rather than simply adds. And the equals sign is the bigger problem — it promises a guarantee that was never actually available. What preparation and time buy you is a better distribution of outcomes across many attempts, not a fixed result on the one attempt you're currently making. You can run this practice correctly for years and still lose the one roll that happened to matter, for reasons that had nothing to do with what you built. That isn't a flaw in the practice. It's the same honest limit Chance already placed on everything else in this book, arriving here in its most personal form: the work improves your odds. It was never going to remove the roll.
 
+**And now the half this chapter has been missing, because everything above is one reading of something that was never given its other side.**
+
+Read back over it. A direction that makes today merely instrumental; a payoff always one lap further on; a self held hostage to a future version who gets reimbursed. That is Tending read as a snare, a pull toward the future that holds tighter every lap — and a pattern read from only one side is one you have not finished looking at. The other side has a name the chapter never used: **vision**.
+
+**A vision is not a destination, and the confusion about that is what produces the trap.** Part One already gave the mechanics: you cannot apply force to position or to speed, only to acceleration. So a vision is not somewhere you arrive. **It is a direction you check your acceleration against.** You never get there; you verify, periodically, that today's push is still pointed at it.
+
+Which keeps it consistent with what this book says everywhere else — that a Global Form cannot be acted on directly, only steered toward. The vision is not the Global Form. **It is a hypothesis about what this Local Rule, repeated, would produce** — and therefore something that can be wrong, which is the entire value of having one. A season of honest repetition producing nothing that rhymes with the vision means either the rule is wrong or the vision was. Both are answers, and neither is available to someone who never stated the hypothesis.
+
+**So the two readings, in one line:** a direction that makes today's rule worth doing on its own, against a direction that makes today a toll you pay. Same mechanism, same pull. The difference is not how distant the vision is — it is whether the thing you are doing today survives the vision being wrong.
+
+---
+
+**Three returns come back to you, at three speeds, and mistaking one for another is most of the suffering in this chapter.**
+
+**The fast one — what grows back within days.** The small thing whose result you see before the day ends. Its job is not progress; it is evidence that the ground answers at all. Agency is a perception, and a perception has to be fed — a day containing no visible return produces the feeling of being acted upon no matter how much was actually done. The practice is small and specific: once a day, do one thing whose result you will see today, and then **actually look at it.** Not a new thing. The shortest-return item already on your list.
+
+**The slow one — what takes years and shows almost nothing meanwhile.** This is the thing you were actually growing. Part Three already named its shape without connecting it to practice: a **Tree** is one root rule branching into a genuinely different leaf every time it meets a new condition, and *a Tree cannot be handed to anyone — it can only be walked.* That is the honest limit on every long build, and it is why there is no shortcut to the canopy. The check available here is not *did it work*, which is not available yet. It is **is the direction still holding** — and it is the only one of the three that can tell you you are wrong while there is still time to turn.
+
+**The slowest one — what stands after many lives, including everything that fell and everything other people planted.** Not yours to watch, not proportional, not owed. You are not tending your own return at this range. You are tending ground.
+
+**Each answers a different question and none substitutes for the others.** Someone running only the fast one has energy and no direction. Someone running only the slow one has direction and no evidence they exist. Someone living only on the slowest has stopped planting and is standing in shade other people grew.
+
+**And there is a failure of rate rather than of mix, which is the most common one and the least obvious.** Plant faster than you can tend and you do not lose one thing — you get a bed of stunted starts competing for the same light, none of them maturing, because the limiting resource was never the seed. Seeds are cheap. Attention is not.
+
+What makes it a spiral rather than a plateau is the response. When control is threatened, people reach for what restores the *feeling* of control — and taking something new on is an act of agency, while grinding through the middle of something half-built is not. So the reach goes exactly where it does the most damage, and it feels like initiative the entire time. **The tell is simple and worth checking honestly: is the newest thing reliably the most exciting one?** If excitement tracks recency of commitment rather than what the thing actually is, this is running.
+
+The arithmetic underneath is the same one Part One gave for rules, and it is why the wall arrives suddenly rather than gradually: **commitments multiply rather than add.** Each new one carries its own weight plus its interference with everything already standing — the collisions, the switching, and the particular cost of being aware of the other four while doing the fifth.
+
+Which means the fix is not a better schedule, and it is not more slack. Those are the two weakest rungs. **A standing limit on how many things may be alive at once is a rule-level change, and it is the only one that holds.** The difficulty is structural rather than a matter of will: subtracting feels like failing at the exact moment it is most needed, because the same machinery that produced the spiral reads every removal as one more loss of control.
+
+**None of which makes planting more than will survive a mistake.** A tree drops thousands of seeds expecting two, and this book already runs that as a practice — get everything out before judging any of it. **The test between lifeline and snare is whether an exit was built in:** are you planting many while expecting to thin, or planting many while hoping all of them live? The first has the losses anticipated and something useful made of them. The second has no exit, and what happens instead is that reality does the thinning on its own schedule.
+
+---
+
 **There's a sharper, related trap worth naming on its own, because it isn't the same shape as ordinary burnout.** A population's growth is genuinely self-reinforcing while resources are abundant, and genuinely self-*limiting* once it crosses its own carrying capacity — the same underlying rule, no new force introduced, the coupling itself flipping character purely because a threshold was crossed. Growth and effort work the same way. The exact behavior that built something — more hours, more borrowing, more pushing — can be authentically expansive below a certain point and authentically corrosive past it, with no warning bell at the crossing and nothing about the behavior itself changing to announce the shift. This is worse than the Sacrifice Trap's ordinary form, because it isn't simply deferring a reward that never arrives — it's continuing an action whose actual effect on you has quietly reversed sign while it still feels, from the inside, exactly like the thing that used to work.
 
 ---
@@ -1032,15 +1165,33 @@ A few things distinguish the Fold sharply from the traditions it's descended fro
 
 **No proportional accounting.** The Fold doesn't promise that cruelty returns as cruelty, in matched measure, on a schedule. A Nest is a messy, many-input system — what returns to you has passed through everyone else's Local Rules on the way, not just yours. Expect the Fold to be real but distorted, not exact. There's a structural reason for the distortion: what left you was never traveling around a closed circle waiting to come back unchanged. It branched — through one person, then several, then a Skein's worth of retellings and reactions, a tree of genuinely different intermediate states, each one shaped by whoever was carrying it at the time. What returns is one leaf of that tree finding its way back to the root, not the original thing making a clean lap. Calling it a Fold names the return. It doesn't promise the return arrives looking anything like what you sent.
 
+**And the same distance governs three things at once, not one — which is worth having before the mechanics, because two of the three are what people actually get wrong.**
+
+How faithfully it returns. How much you can aim it. And how much of it is yours to answer for. All three fall off together as the edges accumulate, which means the Fold's cautions are **distance-dependent rather than flat**. At six edges: not proportional, not owed, not traceable, do not aim. At one edge the opposite advice applies — you can aim, you should expect a return, a missing return is information, and what you put in is genuinely yours to answer for. Reading the far-range caution at close range quietly talks people out of the one thing this book most wants them doing, which is tending a specific relationship on purpose and checking whether it landed.
+
+**There is also a threshold effect that explains something about how agency feels.** A return that closes fast enough and cleanly enough registers as *something you did*. A return that arrives slowly, or scrambled, registers as *something that happened* — even when you are demonstrably the one feeding it. That is not a difference in the loop. It is a difference in latency and fidelity, and it is why a person whose every return is long and distorted experiences themselves as a recipient of their own life. The loop is real; the feedback is not perceptible.
+
+Which makes shortening the loop a lever rather than a nicety, and locates it exactly: it is an Information-flow move, one of the middle rungs from Chapter 9. You cannot always shorten a loop. You can almost always find a shorter one running inside it.
+
 **And the distortion is proportional to distance, which makes the Fold's unpredictability a matter of arithmetic rather than mystery.** Every hand something passes through is a channel, and no channel carries a signal perfectly — a little is lost at each transfer, and none of it comes back on its own. That is not cynicism about people; it is what transmission is. A message crossing six people has been re-encoded six times by six systems with their own needs and their own compressions. What returns from one step away — a single person, directly — comes back nearly intact. What returns after crossing six people is barely recognizable, because it passed through six Local Rules, each adding its own shaping. So the Fold is not equally unreliable everywhere. It is nearly faithful up close and nearly unreadable at distance, and the only variable is how many edges it had to cross. This is also why a near Dyad is the only scale where you can meaningfully check what came back against what you sent.
 
 A living, literal version of this exists, worth knowing about because it's real rather than only illustrative: a flower's electric field is measurably reshaped by every single bee that visits it, and the next bee reads a field already altered by everyone who came before — real information, genuinely returned, and never a clean, untouched original. This is the Fold with no metaphor required at all, running in a system small enough to actually measure.
 
 **No afterlife required.** The loop can close within years, within months, sometimes within the same conversation — the Second Pass practice in the Loop Tongue is, structurally, a compressed Fold: your own contribution to a conflict folds directly back into the interaction you're already having.
 
+**And the Fold is not a separate mechanism from the Nest. It is the Nest, seen up close.**
+
+This is worth stating rather than leaving for a reader to assemble, because the book has been describing one thing in two places. A Local Rule of yours travels out through the scales above you and arrives back changed — that is the Fold. A Global Form above you arrives in your day as a Local Rule — that is the Nest, read downward. Those are the same circuit, and once the Nest is read in both directions the circuit closes: what you repeat into a Dyad composes into a Skein, Skeins compose into a Culture, and a Culture descends into somebody's ordinary Tuesday. Sometimes yours.
+
+**It closes at two speeds, and being honest about which is which is what keeps this from becoming a promise.** A return that closes inside a life is observable. It may take years, but it happens inside a life, and the return is genuinely felt — the group you helped make is a group you then live in. A return slower than a life is not observable, and it comes back to whoever is standing there when it lands.
+
+**Which is why the honest statement is that you are not tending your own return. You are tending the ground.** At the far scale the loop does not come back to you; it comes back to someone. That is not a disappointing footnote on an otherwise good deal — it is what *not proportional, not owed, not always yours to trace* has meant all along, stated at full size. And it runs the other way too: whatever ground you are standing on was tended by people you will never meet and who got nothing back from you. That is not a debt. It is simply what it is to be one term inside something that was running before you and continues after.
+
 **It has leverage, not just consequence.** Because the Fold is a loop like any other loop in this book, it answers to the same leverage-point ladder from Chapter 9. If something unwelcome keeps recurring in your life in a pattern that feels aimed at you, the useful move isn't fatalistic acceptance of dues owed. It's the same diagnostic you'd run on any other loop producing an unwanted Global Form: which Local Rule of mine is actually feeding this Nest, and is there a higher-leverage place to intervene than where I've been pushing?
 
 One caution, stated as plainly as the rest of this book tries to state its cautions: **the Fold is not a claim that you caused everything that returns to you.** Many Nests carry other people's Local Rules far more heavily than your own — a Nest can deliver real harm to you that has nothing to do with anything you fed into it. Tracing the Fold is a tool for examining your own repeated contribution honestly when it's genuinely there to find. It is not a license to assume blame for someone else's harm, and reaching for it as an explanation for another person's cruelty or a system's injustice is a misuse of the idea, not an application of it. If you find yourself using the Fold to explain away harm done *to* you rather than to examine a pattern you're actually repeating, that's the moment to set the concept down and simply name the harm for what it is.
+
+**And the same error has a second direction, which is less obvious and at least as common.** Read backward, the misuse says *something bad happened, so I must have earned it.* Read forward, it says *I did my part, so something good is owed.* Both are the same mistake — a ledger inferred from an outcome — and the forward version is harder to catch because it feels like faith rather than like blame. It isn't. A well-tended life can be struck anyway; a carelessly tended one can go untouched for decades. The Fold describes a circuit, not an account, and the moment you can predict your own balance from it you have stopped using the idea and started using a wish.
 
 **One thing the Fold doesn't cover, and it's the half that isn't moving.**
 
@@ -1048,7 +1199,7 @@ The Fold is about what you sent, still traveling. There is a second kind of thin
 
 Go calls this *aji* — literally "lingering taste." A stone that is effectively dead but has not been removed, and whose mere presence forbids certain moves and enables others for the rest of the game. Its power is entirely latent. It does nothing until the moment it decides something.
 
-Both poles, since it has them. Held deliberately, this is preserved optionality — something kept unresolved on purpose because resolving it would close futures you aren't ready to close. Left unattended, it's an accumulation of unfinished things that quietly narrows the board while nobody notices it happening, until the range of moves available to you is much smaller than you believe it is and you cannot say when that changed.
+Two readings, since it has them. Held deliberately, this is preserved optionality — something kept unresolved on purpose because resolving it would close futures you aren't ready to close. Left unattended, it's an accumulation of unfinished things that quietly narrows the board while nobody notices it happening, until the range of moves available to you is much smaller than you believe it is and you cannot say when that changed.
 
 **The question, asked perhaps twice a year:** *what is still here that isn't doing anything yet?*
 
@@ -1110,6 +1261,12 @@ A Dyad missing any one leg tends to compensate, badly, with the other two — he
 
 **One well-documented pattern is worth knowing here, because it explains a specific kind of friction people usually blame on personality mismatch rather than mechanism.** How two people actually behave toward each other, moment to moment, runs on two separate axes that don't work the same way. On warmth — how friendly or cold a person is being — the pattern is correspondence: warmth tends to invite warmth back, coldness tends to invite coldness back, same tone answered with the same tone. On control — who's asserting and who's yielding — the pattern flips entirely: dominance tends to invite deference, and deference tends to invite dominance, opposite answered with opposite, both people settling into a stable, complementary pair without ever discussing it. A relationship where both people keep asserting, neither yielding, isn't failing at empathy. It's stuck on the one axis that was never supposed to be met with more of the same.
 
+**And that axis has a consequence this book owes you plainly, because the tables in Part Five quietly assume something that is often false.** A Dyad-Kin is drawn as two people each running a pattern of comparable weight, meeting as peers. Complementarity says otherwise: in the arrangements built on the control axis, the two people are not running the same rule at all. They are running **fitted opposite** rules, and the pattern is stable precisely because neither half can change without the other's half changing too.
+
+So when you name a Third, there is a second question, and it is the one that decides what you can do: **who is feeding this, and who is absorbing it?** A loop can be entirely reciprocal and not remotely equitable. Two people are in it; one supplies a rule and one receives an outcome.
+
+Which gives a category this practice has not had a name for. **If you are absorbing and not feeding, it is not your loop to change** — and the honest move is not to hunt harder for your contribution. It is to name what is happening to you as what it is. The Fold chapter already says this as a caution against misusing the idea; it belongs here as a reading, because the misuse it warns against is what a sincere practitioner does by default when the framework only offers them one seat.
+
 **The leverage ladder, walked at this scale, because a Dyad is where it is easiest to aim badly.** the *numbers*-level fix is "we should talk less about money" — a quantity adjustment that never holds. The *buffer* is a bigger emotional reserve — more patience banked before the next argument, still not addressing why the argument keeps recurring. The *rule* is something like "no money conversations after 9pm" — a real structural change, more durable than either of the above. *Information flow* is whether both people can actually see the shared budget rather than one person managing it invisibly. The *goal* underneath the rule is the real fork: is this Dyad organized around "avoid conflict" or around "build something honestly together"? And the *paradigm* — the rarely-examined assumption underneath even that — might be something like "money conversations are inherently dangerous," inherited from somewhere neither person chose, quietly poisoning every lower rung until it's actually named and checked.
 
 **Try this:** think of one recurring friction in a close relationship. Name which axis it actually sits on — warmth or control — before trying to fix it. A warmth problem needs someone to go first with the tone they want back. A control problem needs someone to actually yield, once, on purpose, rather than both people waiting the other out.
@@ -1136,9 +1293,11 @@ This reframes something people usually treat as a private feeling — love, clos
 
 *"You cannot hear what someone is actually saying until they can tell you are listening."*
 
-Everything in this movement so far has been about understanding another person — checking whether a Dyad stands on all three legs, modelling what they are experiencing, absorbing what they send without being deformed by it. All of it assumes the channel between you is open.
+Everything in this movement so far has been about understanding another person — checking whether a Dyad stands on all three legs, modelling what they are experiencing, noticing who is feeding a loop and who is only absorbing it. All of it assumes the channel between you is open.
 
 Usually it isn't, and this chapter is about the work that opens it.
+
+You have already done this once. Day 6 of the onboarding asked you to hold your read and ask *what else?* twice, and to sit through the second pause without rescuing it — one conversation, one time, with no explanation of why that particular instruction and not some friendlier one. Here is the why.
 
 **Start with what a conversation actually is, because the ordinary picture of it is wrong in a way that matters.**
 
@@ -1164,7 +1323,7 @@ It is tempting to describe this as tuning to someone's frequency — finding the
 
 Ordinary conversation is closer to two oscillators pulling into phase. Each one's state depends on the other's; you drift toward each other, overshoot, correct, drift again, and either settle into something shared or never quite do. That is a balancing loop searching for a setpoint, and like every balancing loop in this book it does not always converge. Two people can spend an hour missing each other, both trying, neither failing at anything in particular.
 
-You have already met this mechanism one chapter ago without its name: warmth invites warmth. That correspondence is not a rule of etiquette. It is entrainment, at the scale of two people.
+You have already met this mechanism two chapters ago without its name: warmth invites warmth. That correspondence is not a rule of etiquette. It is entrainment, at the scale of two people.
 
 **The acute case is genuinely different, and it is worth saying which one you are in.**
 
@@ -1196,7 +1355,7 @@ The failure mode has a shape worth recognizing: **leaving someone alone with it,
 
 People are measurably biased toward believing they understand others better than others understand them. *You don't know me, but I know you* is not a personality flaw; it is a documented asymmetry in how minds estimate their own insight, and everyone has it.
 
-Now hand that mind a catalogue of forty-nine named patterns, a vocabulary for scales, and a fusion table that resolves the third leg from the other two. The fluency is real. **The confidence it produces outruns it, and it outruns it invisibly.** There is a second bias sitting beside the first — the tendency to assume other people think roughly as you do — and together they produce a practitioner who is genuinely better at reading patterns and significantly worse at knowing when they have not read one.
+Now hand that mind a catalogue of fifty-two named patterns, a vocabulary for scales, and a fusion table that pairs the legs with the Thirds they can make. The fluency is real. **The confidence it produces outruns it, and it outruns it invisibly.** There is a second bias sitting beside the first — the tendency to assume other people think roughly as you do — and together they produce a practitioner who is genuinely better at reading patterns and significantly worse at knowing when they have not read one.
 
 There is an image for this worth keeping. You see about a tenth of a person: their behavior. Underneath it sit the things that actually produce it — what they need, and what they believe about how to get it — and none of that is visible from outside. Observation gives you the tenth. The rest is not deduced; it is *offered*, and only to someone the person has decided is actually there.
 
@@ -1218,11 +1377,11 @@ That gap matters more than it looks, because the other half of every Dyad is a p
 
 **One correction first, because it applies to everything already said about Dyads.**
 
-The practice in Part Five works on a triangle: your pattern, theirs, and the thing the two of you produce. Change your leg and what the two of you make together necessarily changes, without needing their agreement or even their awareness.
+The practice in Part Five works on a triangle: your pattern, theirs, and the thing the two of you produce. Change your leg and what the two of you make together can change, without needing their agreement or even their awareness.
 
 That is true, and it is incomplete in a way worth stating plainly. It assumes a person who is simply unaware. It says nothing about a person who *notices* you changed and adjusts to restore the old shape — and people do this constantly, usually without deciding to, because the old shape was serving something in them.
 
-The triangle still resolves. It just resolves somewhere you didn't choose. So the honest version of the sideways solve is: changing your leg changes the outcome, and against someone invested in the previous outcome, the first change will often be met rather than accepted. That isn't a failure of the method. It's the method working on a system with another intelligence in it, which was always the situation.
+The triangle still resolves. It just resolves somewhere you didn't choose. So the honest version of the sideways solve is: changing your leg can change the outcome, and against someone invested in the previous outcome, the first change will often be met rather than accepted. That isn't a failure of the method. It's the method working on a system with another intelligence in it, which was always the situation.
 
 **Six things you can do with what arrives. None of them is the best one.**
 
@@ -1255,7 +1414,7 @@ Some patterns are neither stable nor moving. They repeat — the same argument r
 
 The exit is a move somewhere else entirely. Not a distraction and not a subject change — and this is the part that's easy to get wrong — but a move on a genuinely different part of your shared life that carries enough weight that it actually has to be dealt with. A weightless move elsewhere accomplishes nothing at all; the pattern simply resumes with you a step further behind. It has to matter enough to occupy the attention that was feeding the loop.
 
-Both poles here, as always. Done well, this is how a deadlock that has survived a year of direct effort breaks in a week. Done badly, it's manufacturing a crisis elsewhere to avoid the one in front of you, which is a stopgap that atrophies exactly the capacity it replaced.
+Two readings here, as always, of the same move. Done well, this is how a deadlock that has survived a year of direct effort breaks in a week. Done badly, it's manufacturing a crisis elsewhere to avoid the one in front of you, which is a stopgap that atrophies exactly the capacity it replaced.
 
 **Try this:** think of something that arrived at you recently — a criticism, a demand, a mood you had to absorb. Name which of the six you used. Then ask whether you chose it, or whether it's simply the one you always use. Most people have one. Knowing which one is yours is most of the value in this chapter, because the response you never reach for is usually the one the situation needed.
 
@@ -1305,6 +1464,14 @@ There's an old idea, more often found in fiction than in doctrine, worth borrowi
 
 The test that separates them is simple, and slightly uncomfortable to actually apply: **would this connection survive if the label disappeared tomorrow?** A Skein would — the interweaving was never really about the word "Fractalism," it was about the repeated contact. A Banner wouldn't, because the label was the only thread holding it together in the first place.
 
+**The same test has a second form, pointed at you instead of at the group, and it is the more uncomfortable one:** *would I still believe this if leaving cost me nothing?* Most people never separate what they think from what it would cost to stop thinking it, and the cost is rarely about the idea. It is about the people.
+
+**Which is why arguing anyone out of a group almost never works, and why this book has a structural rather than a moral account of it.** Belonging is not a preference sitting on top of a life. Acute social isolation produces craving responses in the same machinery as hunger, and the need for connection is monitored continuously rather than switching on once other needs are met — it is not a luxury that arrives after the basics. So a group that supplies belonging is supplying something at the level of food, whatever else it is also supplying.
+
+Remove the ideas and you have removed nothing that was holding it. **You have to replace the function, not refute the content.** And the mechanism that makes this possible is the one this whole book runs on: belonging is made of repetition, not of agreement. A group formed around anything — a game, a craft, a standing Tuesday — accumulates real in-group belonging that outlasts whatever it originally formed around. That is why a club works where an argument doesn't, and it is not a consolation prize. It is the same machinery, pointed somewhere survivable.
+
+**And for someone who finds face-to-face contact currently expensive rather than merely inconvenient**, mediated contact is a genuine stepping-stone rather than a failure state. Repetition is what builds the thing; the channel it runs on matters less than the fact that it keeps running.
+
 **Notice, don't recruit — and notice for something specific.** The instinct, especially early, is to go looking for people to convert: find Fractalists, form a group, grow it. This produces Banners reliably and Skeins almost never. A better instinct is to notice who you're *already* in repeated contact with, and to notice along four particular lines that tend to predict whether a real Skein is already forming, whether or not anyone involved has a name for it yet:
 
 **Proximity** — do you actually cross paths with this person often enough, over time, for a pattern to have room to form? A Skein needs repeated contact the way a habit needs repeated cues; a person you deeply admire but see twice a year is not yet Skein material, whatever the quality of the connection.
@@ -1350,6 +1517,18 @@ A Skein is, in the end, just the Third Thing pillar applied to community itself:
 Three movements, three scales, and one thing worth saying plainly now that you've moved through all of them: they were never actually separate. Self, Dyad, and Skein are the same Nest, examined at different resolutions — which means a practice that only ever holds at one of these scales isn't actually finished yet, however solid it feels in isolation.
 
 Suffering runs through all three the same way, worth naming once here rather than expanding on: it's often the friction that reveals what a scale needed and wasn't getting. Held with the distance Chapter 4 already taught you — pain observed rather than pain obeyed — it converts into something usable instead of curdling into bitterness. That capacity has a name, hope, and it's trainable the same way everything else here is: not a temperament some people are born with more of, but a loop, practiced. Whatever gets built this way doesn't stay contained at Self scale, any more than a Local Rule stays contained to the loop you first thought you were running. It travels, the same way everything real in this book travels.
+
+**And the last thing, said plainly, because everything in this part has been one long argument for it.**
+
+You are planting every day whether you mean to or not. Nothing in this book starts the planting — every repeated thought, every sentence said in a particular tone, every small thing done again is already going into the ground. The only thing any of this changes is whether you can see what you are putting there. And seeing it is what makes available a choice that was not available before: plant out of care rather than out of fear.
+
+Let what you are aiming at hold both the fast things and the slow ones. The fast things are what keep you standing while the slow ones are still underground, and the slow ones are what you were actually growing. Whatever fails becomes compost, and compost is not a consolation prize — it is the reason the next planting starts from better ground than the last.
+
+Tend yourself, your Dyads, your Skein, the culture you are inside of, the world you are inside of that. Not because any of it owes you a return — it does not, and anyone promising one is selling something. Tend them because the Nest runs both ways, and a forest tends whoever is standing in it. Some seasons that will be you. Other seasons it will be someone you never met, standing in shade you spent years growing and will never be thanked for.
+
+What consistency buys is not an outcome. **It is a canopy.** And a canopy takes the light without aiming it — it changes what can take root underneath it, so that some things find the conditions easy and others never get purchase, including some you would have wanted: a mature commitment shades out options that were live before it. *(That last part is ecology, and the version about your own life is offered as a resemblance rather than demonstrated — it is what this book means by a model, and it should be held the way models are held.)* That is the whole of the leverage available here. It is considerably more than it sounds like.
+
+---
 
 This is the whole shape of Part Two, said once more, all the way through: you tend the Self, because an untended Self travels its chaos outward. You bring something worth magnifying into a Dyad, because a Dyad amplifies whatever you actually bring it, not what you meant to bring. You let a Skein form around real, repeated contact rather than a label, because a Skein built on anything else was never going to hold weight. And the whole practice, done honestly at any one of these scales, eventually — filtered, delayed, imperfectly, through whatever Fold it has to travel — comes home to all three at once.
 
@@ -1428,6 +1607,10 @@ The Loop Tongue doesn't introduce new ideas. It compresses ideas you already hav
 
 Loop and Tree are not two different things. They are one structure at two settings of temporal compression: the Loop is the cycle with time collapsed into a rule, and the Tree is that same cycle unrolled across every instance it actually ran. Unroll a cycle along time and it stops being a cycle — it becomes a branching record with no return path in it, because each pass through is now its own separate limb. This also explains why only complex things have Trees at all. Unroll something that never repeated and you get back exactly what you started with; nothing branches, because nothing ran twice. A merely complicated chain doesn't have a Tree. It has a diagram.
 
+**One piece of history is worth having here, because it is the strongest available argument that a word does real work rather than decorative work.** Fractals are everywhere in plants — branching, self-similar, at every scale, in front of everyone, for the entire history of looking at plants. They are not what led anyone to the idea. The mathematics arrived from somewhere else entirely, out of coastlines and a handful of curves that had been treated as pathological, and only afterward did anyone turn around and see that ferns had been doing it the whole time.
+
+That is this book's own claim with a documented case attached: **we build the world by repeating what we cannot see**, and a pattern can be universal, unhidden, and directly in front of you, and remain genuinely invisible until something gives you a way to hold it. That is what the nine words are for. Not to make anyone sound like a practitioner — to make catchable a thing that was already happening to you and had nowhere to land.
+
 **And the difference between them is not only size. It's transfer.** A Loop-name can be handed to someone — that's what a compression is for, and it's why nine words can carry this whole practice between two people in a kitchen. A Tree cannot be handed to anyone. It can only be walked. Every leaf on it was a particular instance, met under particular conditions, and the only route to having them is having been there. This is the reason this book is built as a practice rather than an explanation, and the reason nearly every chapter ends by asking you to go do something instead of summarising what was said. The names are transmissible. The thing the names compress is not.
 
 A game with a two-thousand-year written tradition has a proverb for exactly this, and it is sharper than most attempts to state it plainly: *learn the standard openings, lose two stones.* Memorize the sequences every strong player uses and you become measurably **worse** for a while — not merely no better. You now hold the names without the reasons, and you will play them into positions where the reason doesn't apply, which is a thing you could not have done before you knew them. That is the transfer problem stated as a cost rather than a caution.
@@ -1480,7 +1663,7 @@ The fix is a small, learnable habit: **name your scale before making a claim abo
 
 **Self** — one person's internal pattern.
 **Dyad** — a pattern between two specific people.
-**Group** — a team, family, or community's shared pattern.
+**Skein** — a team, family, or community's shared pattern.
 **Culture** — a pattern operating across a whole society or institution.
 **World** — a pattern operating across the whole of human activity and the living system it runs on; the largest scale where a push still reaches.
 **Cosmos** — a pattern claimed to operate at the largest scale this book describes, the one the Seven Iterations tells the origin story of.
@@ -1497,7 +1680,7 @@ And you can **know which pattern you're currently standing inside** — which is
 
 Scale-Tagging is a tool for that third thing. So is the first gate of Reading a System, and the two-pole check, and the instruction to widen the frame when you can only see one pole. None of them tell you anything new about a pattern. They tell you whether the pattern you're holding is the one actually in front of you, at the resolution you're actually looking. That is a separate skill from knowing and from having lived, and it is the one that decides whether either of the others is any use today.
 
-There is a fourth answer those tools have to be able to return, and it's the one people forget to check for: **nothing is running.** A pattern can be tended, it can be fraying, and it can also simply not be there — a loop that has stopped has no direction, so it has no pole to read. If you are hunting for a pattern's second side and finding nothing at all, the honest first question isn't which way it points. It's whether it's moving.
+There is a fourth answer those tools have to be able to return, and it's the one people forget to check for: **nothing is running.** A pattern can be tending, it can be fraying, and it can also simply not be there — a loop that has stopped has no direction, so it has no pole to read. If you are hunting for a pattern's second side and finding nothing at all, the honest first question isn't which way it points. It's whether it's moving.
 
 ---
 
@@ -1525,7 +1708,7 @@ This is worth practicing deliberately, not just waiting to remember it during a 
 
 A group ritual, useful for any real decision — a household budget, a team's direction, a community's next move — meant to correct a specific failure mode: a group deciding something while everyone in the room is unknowingly reasoning at a different scale.
 
-**Before the group decides anything, go around once.** Each person names, in a sentence, what scale they think the issue is actually operating at — Self, Dyad, Group, Culture — and states their view from that scale specifically. The rule: no one repeats the scale the person before them just used. If the first person spoke at Group scale, the second person is asked to try Self or Culture instead, even if it feels like a stretch.
+**Before the group decides anything, go around once.** Each person names, in a sentence, what scale they think the issue is actually operating at — Self, Dyad, Skein, Culture — and states their view from that scale specifically. The rule: no one repeats the scale the person before them just used. If the first person spoke at Skein scale, the second person is asked to try Self or Culture instead, even if it feels like a stretch.
 
 This produces something a normal go-around discussion rarely does: a decision informed by the same issue seen from several actual zoom levels, instead of five people agreeing with each other at the same zoom level and mistaking consensus for completeness. It's slower than a normal meeting. It's specifically useful for the decisions where the group has quietly kept picking the same kind of solution and it keeps not working — that's usually the signature of a group stuck reasoning at one scale when the actual leverage is at another.
 
@@ -1553,7 +1736,7 @@ Three honest gaps, stated plainly rather than smoothed over.
 
 The notation works cleanly for a single habit or a two-person conflict and is untested on a whole organization's dysfunction, where a napkin sketch may simply run out of room.
 
-Scale-tagging assumes five clean categories, and real patterns often refuse to sit still at one — a habit that's really a relationship pattern that's really a response to a culture-wide condition doesn't split cleanly, and forcing it into one tag can lose more than it clarifies.
+Scale-tagging assumes six clean categories, and real patterns often refuse to sit still at one — a habit that's really a relationship pattern that's really a response to a culture-wide condition doesn't split cleanly, and forcing it into one tag can lose more than it clarifies.
 
 The Second Pass is easy to perform badly, as a way of *sounding* fair while still quietly assigning more blame to the other half of the loop than your own. Anyone teaching this should watch for that one specifically. It's the most tempting failure.
 
@@ -1601,6 +1784,12 @@ What both examples share, and what makes them the mathematical foundation of thi
 
 **Try this:** Actually run the chaos game. Paper, pencil, a coin flipped twice. Fifty points is enough to see nothing. Two hundred is enough to watch it start. You will not believe this the same way after doing it by hand as you do after reading about it.
 
+**One objection this chapter should answer before moving on, because it is the reasonable one.** A fern is not actually running an algorithm. The resemblance between a mathematical object and a plant could easily be a resemblance and nothing more — which is exactly the kind of claim this book demands be shown part for part rather than asserted.
+
+It has been. Plant growth is modelled, in practice and not as a metaphor, by a formal grammar — a small symbolic alphabet plus rewriting rules, applied repeatedly, generating branching structure that matches real morphology closely enough to be used as a working model of how the plant develops. The rule set is tiny and the output is a tree. Separately, there is a chemical account of how a uniform field of tissue produces spots and stripes: two substances spreading and reacting at different rates, with no template anywhere specifying where a spot goes. In both cases the structure is not stored. It is produced, each time, by a rule short enough to write on a card.
+
+So the fern is not being compared to something. It is an instance of it.
+
 **Complexity can emerge from a rule with a single random bit added to it.** Take an iterative rule that would otherwise be entirely deterministic — repeat the same fixed operation on a starting value, over and over — and introduce exactly one small element of chance into each step, such as randomly flipping a sign before applying the rule. The result is not a small variation on the deterministic pattern. It is the same category of object arrived at from the opposite direction — an intricate, self-similar structure with fine detail at every scale, reached by chance rather than by construction. This is worth sitting with because it cuts against a common intuition — that adding randomness to a system should make it messier or less structured. Here, a single well-placed bit of chance is exactly what turns a flat, predictable rule into something with genuine depth. It's the same shape as the Fourth Iteration in the Genesis story: chance folded into a rule doesn't destroy structure, it's frequently what makes richer structure possible in the first place.
 
 **Try this:** Find one routine you've kept perfectly stable and introduce a single small variation into it this week — one different route, one different order, one unplanned conversation. Not to improve it. Just to see what the variation surfaces that the stable version never did.
@@ -1624,6 +1813,16 @@ This is the precise mechanism behind the mantra Part One asked you to hold onto:
 That distortion is worth taking seriously as more than a bias to correct for, because it points at the third clause directly: the remembering self's actual job is compression. It takes a genuine tree of distinct lived instants — no two identical, each one shaped by whatever that particular day happened to bring — and flattens it into a single named loop simple enough to be recalled at all. This is necessary; a mind that stored every leaf of every tree in full would never be able to act on any of them in time. But it means the "loop" you carry around as a description of your own habit or your own relationship is already an edited object, built from a tree the remembering self chose not to show you in full. Neither self was ever going to hand you an accurate, real-time view of the loop, let alone the tree underneath it. Both views have to be built deliberately, after the fact or from outside, which is the entire reason this book insists on practices like the Second Pass rather than trusting either self to supply the missing shape on its own.
 
 **The socially assembled self.** A separate line of work looks at where the sense of a private, internal self actually comes from, and finds it consistently harder to locate than intuition suggests. Expert performance — the kind that feels, from inside, like the product of a coherent individual will — turns out to be reliably traceable to distributed processes: incubation, embodied practice, environmental scaffolding, other people's feedback, narrated afterward as if a single deliberate self had authored it start to finish, when the actual process was messier, more collaborative, and less centrally directed than the story told about it. This isn't a claim that you don't exist. It's a claim that what you experience as a private, unified origin point is, on inspection, an ongoing act of narration layered over a much more distributed and social process — closer to a river continually fed by tributaries than a spring with one clean source.
+
+**And the boundary of the self turns out to be demonstrable rather than only arguable, which is worth having because the claim otherwise stays abstract.** Sit with one hand hidden from view and a rubber hand placed where yours would plausibly be. Have someone stroke both in synchrony, so what you see and what you feel agree. Within about a minute most people report the rubber hand as *theirs* — and will flinch protectively when it is threatened, before any reasoning about it can intervene. Nothing was believed into place. Two sensory streams agreed, and the boundary moved.
+
+Read this narrowly, because the narrow version is the strong one. It does not show that your history is fictional or that your character is arbitrary. It shows that even the most basic version of the self — the one that marks where you stop and the world starts — is a model assembled continuously out of inputs, and that it updates on evidence in about sixty seconds. Whatever is built on top of that is not built on bedrock.
+
+**And the stronger version of the same finding is the one this book actually needs, because it is about action rather than sensation.** The rubber hand moves a boundary with two agreeing inputs while you sit still. Put yourself behind a steering wheel and something larger happens: you turn, the world answers, and within minutes the edge of *you* has moved to the edge of the car. The evidence is in what people say afterward. Nobody rear-ended at a light says *he hit my car.* They say **he hit me.**
+
+Nothing was believed into place there either. What moved the boundary was a loop closing — an action, a consequence, reliably, fast enough to be felt as one event rather than two. Which is a claim about loops, in a book about loops: **the self extends to wherever your actions close a loop.** A tool you have used for years, an instrument, a keyboard, a craft — these are not metaphorically part of you. They are inside the boundary by the same mechanism the rubber hand demonstrates, with agency added.
+
+This is also the least mystical available account of why what you repeatedly do stops feeling like something you do and starts feeling like something you are.
 
 **The observing self.** A third and more directly practical strand — the basis of the Naming and Defusing practice in Part Two — draws a distinction between the content of your mind (the specific thoughts, judgments, and self-stories passing through it) and the capacity that notices that content. This capacity, sometimes called the observing self, is described as remarkably stable across a lifetime in a way the content of thought is not: the thoughts you had at seven and the thoughts you have now share almost nothing, but the "watching" itself has a continuity the content lacks. Practically, this reframes the entire defusion practice: you're not trying to replace a bad thought with a good one. You're strengthening your contact with the part of you that can notice either kind of thought without being fully identified with it — which is a different, and more durable, kind of change than winning an argument against any single thought.
 
@@ -1649,7 +1848,7 @@ None of this is offered as proof of anything about selves specifically — it's 
 
 *"We don't rise to our goals. We fall to our systems."*
 
-Part Two handed you a leverage-point ladder — numbers, buffers, rules, information flow, goals, paradigm — as a practical tool for finding where to intervene in your own habits. This chapter gives the formal version it was built from, because the formal version is more powerful once you're ready for it.
+Part Two handed you a leverage-point ladder — numbers, buffers, information flow, rules, self-organization, goals, paradigm, and holding a paradigm as a paradigm — as a practical tool for finding where to intervene in your own habits. This chapter gives the formal version it was built from, because the formal version is more powerful once you're ready for it.
 
 Any system worth analyzing this way can be described using three basic pieces. A **stock** is an accumulated quantity — the water in a bathtub, the trust in a relationship, the savings in an account, the confidence a person has built up over years. A **flow** is a rate that changes a stock — water entering or leaving the tub, the daily small acts that build or erode trust. And a **feedback loop** is a structure where a stock's level influences its own flows — a thermostat where the temperature (stock) determines whether the heater (flow) turns on, forming a **balancing loop** that pushes the stock back toward a target; or a bank account where a larger balance earns more interest, which grows the balance further, forming a **reinforcing loop** that amplifies rather than corrects.
 
@@ -1663,9 +1862,7 @@ Two practical consequences follow. First, a complicated system can be fully unde
 
 A reinforcing loop is positive feedback on the rate: the fuller the stock, the faster it fills. That's compounding, and it's the same mathematics whether it's compounding toward something good or something ruinous — a reinforcing loop has a sign, and nothing about the structure prefers one sign over the other. A balancing loop is negative feedback: the further the stock drifts from its target, the harder the flow pushes back. Formally that's damping, not deceleration, and the distinction is worth keeping — a damped system resists displacement in either direction, which is a different behavior from a reinforcing loop running in reverse.
 
-**Worth being precise about where a market's equilibrium actually belongs in this vocabulary, since it's tempting to reach for a different word entirely.** A stable price isn't attraction between opposites the way two charges pull together — a pure attraction has no resting point, it just collapses inward. A real equilibrium needs a second, opposing term, the way an actual chemical bond needs both attraction and a repulsive term at short range to settle anywhere at all. Rising price pulling demand down while pulling supply up is exactly that two-term shape: two opposing pressures meeting at one point. That's a balancing loop, precisely, not a new mechanism needing its own name.
-
-**The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Two structures are *isomorphic* when they have identical shape under different labels — same parts, same connections, different names on everything. That is precisely what "the same pattern at a different scale" asserts every time this book says it. Which means the claim is falsifiable, and should be treated that way: show the correspondence, part for part and relation for relation, or admit you are pattern-matching. A resemblance that cannot be laid out as a structure-preserving match between two systems is a resemblance, not a Nest.
+**The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Two structures are *isomorphic* when they have identical shape under different labels — same parts, same connections, different names on everything. That is precisely what "the same pattern at a different scale" asserts every time this book says it. Which means the claim is falsifiable, and should be treated that way: show the correspondence, part for part and relation for relation, or admit you are pattern-matching. A resemblance that cannot be laid out as a structure-preserving match between two systems is a resemblance, not a Nest. Held to that standard, the claim holds often and not always. The sources this book draws on describe a culture capturing its own measures, drifting, locking in and handing down practice with the same mechanics they describe for one person or a pair, and a good share of the larger patterns in Part Five are a smaller one run by two parties. Most are mixtures. The operation repeats at every scale; a given shape repeating is common, and has to be shown each time.
 
 **A connected component is not an abstraction anyone had to invent for this book, and one game demonstrates it more cleanly than any diagram.** In Go, the object every player reasons in terms of — the *group*, the thing that lives or dies as a unit — is not defined anywhere in the rules. The rules only ever speak about individual stones. A group is simply the name players gave to a connected component of stones sharing liberties: a set with no edge leading outside it. It emerged as a necessary word because the mathematics was already there in the position, doing work, whether or not anyone had a term for it.
 
@@ -1681,15 +1878,17 @@ It's also worth being precise about a distinction folded into "emergent" that th
 
 The practical consequence for intervention is the ordering of the leverage ladder itself. Adjusting a number sets a stock — a one-time change to a position, immediately subject to whatever rates are still running. Changing a rule or an information flow sets a rate — a change to speed, which persists without renewal. Changing a goal or a paradigm changes the feedback structure that determines how rates respond to states — a change to acceleration, which is why it propagates downward through every level automatically and why nothing below it ever reaches back up. Each rung is an integration of the one above it. That's not a metaphor about the ladder; it's what the ladder is.
 
-The leverage-point ladder from Part Two is a specific, ordered list of where within this stock-flow-loop structure a given intervention lands, ranked roughly by how much of the system's behavior it actually governs. The formal version adds a detail worth knowing: the reason paradigm-level change sits at the top isn't mystical, it's structural — a paradigm shift changes which goals get set, which changes what information gets tracked, which changes what rules get written, which changes the flows, which changes the stocks. Intervening at the top cascades downward through every lower level automatically. Intervening at the bottom changes nothing above it. This is the actual mechanism behind the practical advice in Part Two: not that low-leverage change is worthless, but that it's structurally incapable of producing the higher-level shift on its own, no matter how much willpower is applied to it.
+The leverage-point ladder from Part Two is a specific, ordered list of where within this stock-flow-loop structure a given intervention lands, ranked roughly by how much of the system's behavior it actually governs. The formal version adds a detail worth knowing: the reason paradigm-level change sits at the top isn't mystical, it's structural — a paradigm shift changes which goals get set, which changes what rules get written, which changes what information gets tracked, which changes the flows, which changes the stocks. Intervening at the top cascades downward through every lower level automatically. Intervening at the bottom changes nothing above it. This is the actual mechanism behind the practical advice in Part Two: not that low-leverage change is worthless, but that it's structurally incapable of producing the higher-level shift on its own, no matter how much willpower is applied to it.
 
 **This cascade has a proper name, and it's worth being precise about it: a Tree, not just a ladder.** A tree is what you get any time one root rule produces many distinct downstream results, each one shaped by the root but also by whatever local condition it happens to meet — a different symptom, a different department, a different day. The leverage-point structure is exactly this: paradigm is the root, everything below it a leaf shaped by that root meeting a specific circumstance. This is also, not coincidentally, the same underlying relationship the mathematics in Chapter 1 already described — a fixed rule, repeated, meeting a different local condition each time and producing a genuinely different result while still being recognizably the same rule underneath. A root cause is called a root for the identical reason a mathematical root generates a whole family of related curves: the root shapes what grows from it without being fully determined by any single thing that does.
 
 **There's a second recursion worth making explicit here, distinct from the tree just described, and it's the mechanical version of the claim Part One's Four Pillars stated plainly: a Global Form at one scale is a Local Rule at the next.** This isn't a leverage-ladder fact — it's a scale fact, and it's what actually makes this whole framework fractal rather than merely layered. A stock at Self scale (a habit, fully compounded) becomes a flow into a Dyad-scale stock (trust, built partly from that habit showing up reliably). A Dyad's accumulated stock becomes a flow into a Skein's — and a Skein's stock of shared practice becomes one flow among many into whatever Culture-scale stock sits above it. The reason a leverage-point intervention at one scale can sometimes ripple upward in ways this book hasn't fully mapped is exactly this: the leverage ladder was never confined to a single scale in the first place. Each scale's Global Form is quietly serving as Local Rule for the scale above it, whether or not anyone tending it at the lower scale ever notices the higher one receiving it.
 
+**And the same recursion runs downward, which the stock-and-flow picture makes unusually concrete.** A Culture-scale stock — an accumulated norm, an inherited expectation, a distribution of who holds what — is a flow into the Skeins beneath it, which are flows into Dyads, which are flows into a person's day. Nobody at the lower scale consented to that inflow and mostly nobody can see it, and it arrives at the same rate whether or not it is noticed. Which means a Local Rule you find in yourself has two possible origins and the diagnosis matters: one you built by repetition, and one that was delivered. They feel identical from inside, they answer to different interventions, and the second is the more common of the two.
+
 **One real, worked example of this chain shows why the same recursion can quietly punish you rather than reward you, depending purely on how many links it has.** Consider a well-known chain of questions about whether other intelligent civilizations exist: does a star have planets, do those planets end up habitable, does life actually start there, does life become complex, does complexity become intelligence, does intelligence build technology capable of being detected across interstellar distances. Each step is its own Local-Rule-to-Global-Form transition, its own threshold, and each one has to be crossed before the next one is even possible. Multiply several real but small probabilities together and the aggregate shrinks fast — which is the same mechanism behind why a five-step Local Rule is so much harder to sustain than a one-step one, made vivid at the largest scale this book will ever reach.
 
-**A formal definition worth having, because it disciplines how loosely the word "system" gets used.** A system, properly defined, is not just any collection of related things. It's a set of elements, a set of interconnections between them, and a function or purpose that the whole thing is organized around — all three pieces required, none optional. A digestive system is teeth, enzymes, stomach, and intestines (the elements), linked by the physical flow of food and a cascade of chemical signals (the interconnections), organized around breaking food down into usable nutrients (the function). A sports team is players, a coach, a field, and a ball (the elements), linked by rules, strategy, and constant communication (the interconnections), organized around winning, or simply around the enjoyment of playing well (the function). Swap out any single player and the team, as a system, persists — which is exactly the test that separates a real system from a mere pile of parts: a pile doesn't care which pieces it has and is no different for losing one; a system absorbs the substitution and keeps doing the particular thing it was doing, because what makes it a system was never any individual part, it was the interconnection and the shared function running through whichever parts happen to be occupying it at the moment. This is worth holding next to every Self, Dyad, and Skein described in Part Two — each one qualifies as a system in this full, formal sense, not just as a loose metaphor borrowed from engineering, and each one should be diagnosed the same way: not by asking whether the current people or habits occupying it are good or bad, but by asking whether the elements, interconnections, and function are actually coherent together at all.
+**A formal definition worth having, because it disciplines how loosely the word "system" gets used.** A system, properly defined, is not just any collection of related things. It's a set of elements, a set of interconnections between them, and a function or purpose that the whole thing is organized around — all three pieces required, none optional. A sports team is players, a coach, a field, and a ball (the elements), linked by rules, strategy, and constant communication (the interconnections), organized around winning, or simply around the enjoyment of playing well (the function). Swap out any single player and the team, as a system, persists — which is exactly the test that separates a real system from a mere pile of parts: a pile doesn't care which pieces it has and is no different for losing one; a system absorbs the substitution and keeps doing the particular thing it was doing, because what makes it a system was never any individual part, it was the interconnection and the shared function running through whichever parts happen to be occupying it at the moment. This is worth holding next to every Self, Dyad, and Skein described in Part Two — each one qualifies as a system in this full, formal sense, not just as a loose metaphor borrowed from engineering, and each one should be diagnosed the same way: not by asking whether the current people or habits occupying it are good or bad, but by asking whether the elements, interconnections, and function are actually coherent together at all.
 
 ---
 
@@ -1701,9 +1900,13 @@ A fair question for a skeptical reader to ask about any of this book's daily pra
 
 **Challenge-skill balance.** Sustained absorption in an activity — the state commonly called flow — depends less on the activity itself than on a specific relationship between its difficulty and your current ability. Too easy, and attention drifts; too hard, and anxiety displaces absorption. The activities that reliably produce the sense of "losing yourself" in a good way are ones where the challenge tracks your growing skill closely enough that you're always working right at your current edge. This is directly relevant to the Local Rule chosen in Part Two's self-inventory: a repeated practice pitched below your current capacity goes stale fast, and one pitched too far above it produces avoidance rather than commitment. The right Local Rule is one that can be re-calibrated as your skill grows, keeping you at that edge rather than letting the loop drift into boredom or overwhelm.
 
+**And there is a second account, from an unconnected field, that says what the reward is actually for — which the balance account does not.** Game design has converged on the claim that fun is not a single pleasure but the specific feeling of a pattern being successfully absorbed: the brain rewards the act of grokking a structure, and boredom is what arrives when there is no structure left to absorb. A game that stops teaching stops being fun no matter how polished it is, and the ones that last are the ones whose patterns do not bottom out.
+
+The two accounts fit together without overlapping. The balance account says *where* the sweet spot sits — at the edge of your current skill. The absorption account says *what the pleasure is a signal of* — that a pattern is going in. And it gives this book's practice a prediction it otherwise has no way to make. Pattern-noticing should feel like something while it is working. If a practice here has stopped feeling like anything at all, there are exactly two honest readings: you have absorbed what it had to teach and should move to a harder one, or it was never teaching you a pattern in the first place. Neither of those is "try harder," and both are more useful than the guilt that usually fills the gap.
+
 **A second mechanism sits beside adaptation and is often mistaken for it, though it would hold even if nobody ever adapted to anything.** Felt satisfaction tracks the *logarithm* of a resource rather than the resource. Doubling an income buys roughly the same increment of satisfaction whether the doubling starts from small or large — which means equal steps of felt gain require multiplicative, not additive, increases in the input.
 
-Put that next to a reinforcing loop and the arithmetic becomes unpleasant. The loop compounds the stock geometrically. Perception reads it logarithmically. Those two curves are inverses of each other, which means **holding felt gain constant requires the loop to keep accelerating forever.** That is not greed and it is not adaptation. It is a mismatch between two functions, and it is the engine underneath the standard-climbing figure in Part Five and the deferral trap in Part Two, both of which describe the behavior without explaining why it is structurally guaranteed.
+Put that next to a reinforcing loop and the arithmetic becomes unpleasant. The loop compounds the stock geometrically. Perception reads it logarithmically. Those two curves are inverses of each other, which means **exponential growth is exactly break-even for feeling**: a stock that keeps doubling on schedule delivers the same felt gain each time, and no more. Nothing sustains exponential growth forever, so felt gain begins to decay the moment the growth rate slows at all. That is not greed and it is not adaptation. It is a mismatch between two functions, and it is the engine underneath the standard-climbing figure in Part Five and the deferral trap in Part Two, both of which describe the behavior without explaining why it is structurally guaranteed.
 
 It has a practical corollary worth stating, because it points the other way from where most effort goes: **most of the available felt value sits early on the curve.** The leverage on well-being is near the bottom of a stock, not the top. Going from nothing to enough is where nearly all of it is.
 
@@ -1781,13 +1984,13 @@ There is a documented pattern here, and it is uncomfortable to apply to oneself.
 
 This explains something Part Two describes without accounting for: why a Banner feels like belonging. The book says a Banner is legible from outside. Legibility is the description; this is the reason legibility is what a threatened person is shopping for. It also predicts when a group is most at risk of becoming one — not during growth, during shock.
 
-It gives two Standing Thirds a shared root as well. The Salve's Fraying pole is a stopgap that atrophies the capacity it replaced. The Mask's is a self you can no longer see around. Both are structure substituted for agency, which is why they so often show up together.
+It gives two Standing Thirds a shared root as well. The Salve's Tending pole, where it turns snare, is a stopgap that atrophies the capacity it replaced. The Mask's is a self you can no longer see around. Both are structure substituted for agency, which is why they so often show up together.
 
-And it is the self-check this book owes you, so here it is plainly. **A framework offering a complete vocabulary, a catalogue of forty-nine named figures, a deck and a calendar is an unusually attractive object to someone whose agency feels threatened.** That describes a large share of anyone who picks up a book like this, including on the days you pick it up. The test is one question, asked honestly and not too rarely: *am I practicing this because it is giving me leverage, or because it is giving me something predictable to stand on?* Both answers are survivable. Only one of them is the practice.
+And it is the self-check this book owes you, so here it is plainly. **A framework offering a complete vocabulary, a catalogue of fifty-two named figures, a deck and a calendar is an unusually attractive object to someone whose agency feels threatened.** That describes a large share of anyone who picks up a book like this, including on the days you pick it up. The test is one question, asked honestly and not too rarely: *am I practicing this because it is giving me leverage, or because it is giving me something predictable to stand on?* Both answers are survivable. Only one of them is the practice.
 
-**This raises a question the chapter owes you a direct answer to: if belief spreads like anything else that needs a host, why do so many unconnected traditions keep landing on the same handful of ideas?** Reciprocity. The self as something closer to a passing witness than a fixed possession. Suffering that becomes a teacher rather than staying only a cost. Warnings against speech that flatters rather than tells the truth. A branching tree standing in for the body, or the cosmos, or both at once — traditions with no contact whatsoever have independently reached for the same structure to describe how one root gives rise to many distinct, living parts. These recur across traditions separated by oceans, centuries, and no shared contact whatsoever — not borrowed from each other along any traceable pathway, but arrived at independently, over and over, by people who never once heard of each other's version.
+**This raises a question the chapter owes you a direct answer to: if belief spreads like anything else that needs a host, why do so many unconnected traditions keep landing on the same handful of ideas?** Reciprocity. The self as something closer to a passing witness than a fixed possession. Suffering that becomes a teacher rather than staying only a cost. *(And a guard belongs on that one, because it is the item on this list most easily turned into cruelty: a pattern can be learned from without the pain having been for the learning. The Fold's non-proportionality applies to meaning as much as to consequence — nothing was arranged, nothing was owed, and a person who finds nothing instructive in what happened to them has not failed at anything.)* Warnings against speech that flatters rather than tells the truth. A branching tree standing in for the body, or the cosmos, or both at once — traditions with no contact whatsoever have independently reached for the same structure to describe how one root gives rise to many distinct, living parts. These recur across traditions separated by oceans, centuries, and no shared contact whatsoever — not borrowed from each other along any traceable pathway, but arrived at independently, over and over, by people who never once heard of each other's version.
 
-There's a practical, everyday version of this same convergence, worth naming separately, since it doesn't require centuries or an ocean between the two instances. Finding that your exact situation already has a name — someone else's marriage, someone else's habit, a figure in this very roster — is not just comforting. It's genuinely faster than working the pattern out from scratch, because a mind reaches for resonance before it reaches for derivation. This is, quietly, the actual argument for why the Standing Thirds exist as characters rather than as a plain list of behavioral tendencies: a reader doesn't have to reason their way to "presence given freely gets taken for granted." The Gardener hands them an instance to recognize themselves in immediately, and recognition installs faster than proof ever does. The mythology in Part Five was never decoration on top of the mechanism. It's the mechanism, applied to teaching itself.
+There's a practical, everyday version of this same convergence, worth naming separately, since it doesn't require centuries or an ocean between the two instances. Finding that your exact situation already has a name — someone else's marriage, someone else's habit, a figure in this very roster — is not just comforting. It's genuinely faster than working the pattern out from scratch, because a mind reaches for resonance before it reaches for derivation. This is, quietly, the actual argument for why the Standing Thirds exist as characters rather than as a plain list of behavioral tendencies: a reader doesn't have to reason their way to "what you keep returning to grows." The Gardener hands them an instance to recognize themselves in immediately, and recognition installs faster than proof ever does. The mythology in Part Five was never decoration on top of the mechanism. It's the mechanism, applied to teaching itself.
 
 **A second instance, and this one arrives from a field with a very different job.** Part Two argues that a Local Rule sits at the visible end of a chain — a need underneath, a belief about how the behavior serves it, and the behavior itself as the only link anyone can see.
 
@@ -1803,11 +2006,79 @@ Which is the test this section is describing, run on the book itself, with the r
 
 This deserves its own name, because it's a genuinely different phenomenon from ordinary spreading, and it's actually stronger evidence of something real than successful spreading ever is. A pattern that travels well through one large, connected population only proves it's good at traveling. A pattern that gets reinvented independently, by populations with no pathway between them at all, is doing something closer to what a wing does: bats, birds, insects, and the long-extinct pterosaurs didn't copy flight from one another. Powered flight got discovered at least four separate times because it's a genuinely good solution to a real, recurring pressure — moving through air — pressing on each lineage independently. Call an idea that shows up this way **beyond telling** — a Third stood up more than once, by hands that never touched, because the underlying pressure producing it was never local to any one of them in the first place.
 
+**Which raises the obvious hazard, and it is worth walking one case all the way through rather than warning about it abstractly.** A pattern can also spread widely because it is *appealing*, and from inside those two look identical. This book has already said that a catchy falsehood and a careful truth compete on the same terms once loose in the world. Here is what that looks like when you actually check.
+
+Take the most famous pattern-claim there is. In a great many plants, leaves are placed around a stem by advancing a fixed fraction of a turn each time — and that fraction sits very near a specific irrational proportion, which is precisely what keeps successive leaves from stacking and shading each other. That claim is measurable. You can count the turns, compute the angle, and find it. It is a Local Rule with a Global Form and a reason the rule is the one it is.
+
+Now take the other half of the same number's reputation: that this proportion is a universal law of beauty, used deliberately by classical architects and Renaissance painters, hardwired into human aesthetic response. That claim is largely an invention, traceable to a single mid-nineteenth-century book by one enthusiast, and it spread for the reason appealing claims spread — it is a wonderful thing to believe and it requires nothing of you. The measurements offered in its support are mostly measurements taken until they cooperated.
+
+**Same number. One half survives checking and one half does not**, and the half that did not is the half that got famous. That is not a curiosity about art history. It is this chapter's whole warning, arriving in the exact territory this book works in — a claim about a pattern, spreading on its appeal, decorated with just enough real mathematics to be hard to refuse. The test is not whether a pattern-claim is beautiful, and this book is not exempt from it: **which part of this was measured, and which part was merely repeated?**
+
 This is not a coincidence to be quietly managed or explained away. It's the best confirmation available that a given Third is tracking something structurally real rather than something merely well-marketed within one tradition. And it comes with an obligation this book intends to take seriously rather than skip past: wherever a piece of this framework closely resembles something another tradition already recognized — and it will, repeatedly, because that's exactly what being beyond telling predicts — the honest move is to say so plainly, credit the resemblance, and be clear about what's being kept and what's being interpreted differently. The Fold recognizes the same pressure other traditions call karma, without borrowing their ledger. The observing self recognizes the same witness other contemplative traditions have described for millennia, without borrowing their metaphysics of an eternal soul underneath it. None of this makes Fractalism's version simply a rebranding. Different meaning can genuinely be drawn from the same underlying shape — that's what beyond telling actually implies, if you take it seriously: many hands finding the same real thing and holding it differently, not one hand's version being quietly redistributed under new names.
 
 ---
 
-## 7. Open Questions & How to Expand This
+## 7. The Limits of Running It Forward
+
+*"You can find a rule that fits. You cannot run it forward."*
+
+Everything in this book points one direction: small rules, repeated, build large forms, and finding the rule is how you find the leverage. Read quickly, that sounds like a promise about prediction — get the rule, and the form follows from it. It is not one. And the difference is worth having explicitly, because a reader expecting prediction and not getting it will conclude the framework failed, rather than that it was never offering that in the first place.
+
+**Two different things make a Global Form unpredictable, and they ask for different responses, which is why they are worth keeping apart.**
+
+**The first is sensitive dependence.** Run a deterministic system forward from two starting states differing by an amount too small to measure, and the two runs do not stay near each other. They diverge, at a rate that compounds, until they have nothing to do with one another. Nothing random was introduced. The rule was the same rule both times. The only difference was in a decimal place nobody could have read.
+
+This is why weather forecasting has a horizon rather than an accuracy problem. Better instruments push the horizon further out; they do not remove it, because the precision required to predict further ahead grows faster than any instrument can supply. Which gives a blunt practical rule: **where the limit is sensitive dependence, measuring harder does not help.** It is not a resourcing problem that a better budget would solve. It is the shape of the thing.
+
+**The second is that you never had the whole rule set** — and this one the framework already owns, because it falls directly out of the Nest.
+
+A Global Form at one scale is a Local Rule at the next. So any boundary you draw around a system is a convenience rather than a fact: the thing you drew around is being entered, continuously, by rules running at scales you did not include. You did not fail to finish the list. There is no list.
+
+Mathematics has an exact version of this, and it is worth walking because the exact version says something the intuition misses. Measure a coastline with a ruler a mile long and you get a number. Measure the same coastline with a ruler a foot long and the number is larger — not slightly, substantially, because a foot-long ruler follows inlets that a mile-long ruler stepped straight across. Go down to an inch and it grows again. The measurement does not converge on a true length. It increases without bound, because real structure is present at every resolution you bring to it.
+
+There is a number for how fast that growth happens, and it is the honest form of "how much structure is packed in here." A line has dimension one. A filled plane has dimension two. A coastline sits between them — somewhere near 1.25 — because it is more than a line and less than a surface. The dimension is not a whole number, and that is the entire content of the idea: it measures how thoroughly a pattern fills the space it is embedded in.
+
+Turned from a coastline toward a situation, this says something sharper than "it's complicated." Looking closer does not reduce your uncertainty by finally revealing the last few rules. **Looking closer reveals more rule.** Enumeration does not fail because you ran out of patience. It fails because there is no bottom to enumerate down to.
+
+So the response here is different from the first case: **where the limit is unenumerable rules, the move is to notice that the boundary you drew was never real, and to stop treating whatever crosses it as interference.** The thing you called an outside factor was always part of the system. You just did not draw it in.
+
+**And the limit runs the other way too, which matters just as much for practice.** From a form you can work backward to a rule that would produce it — but rarely to only one. A sorted neighborhood can come from mild preferences on every street, or from a rule somebody wrote about who was allowed to borrow, and the finished pattern looks the same from above. So a rule you have named is a hypothesis. Where several rules fit, the work is to look for evidence that chooses among them: change the one you suspect, and see whether the form moves. A name that has never been tested that way is a guess that happens to fit.
+
+---
+
+**Which brings up the charge this chapter exists to answer.**
+
+A reader this far in may reasonably suspect the book of determinism, and to a point the suspicion is correct. Fractalism does claim that things have causes, that causes are findable, and that a form nobody chose was nonetheless produced by rules that can be named. That is a commitment to **mechanism**, and it is a real one, held on purpose.
+
+But mechanism is a smaller claim than determinism, and nothing here needs the larger one. Determinism says the future is fixed by the present. Mechanism says only that what happens has findable causes — which is true whether or not the world is deterministic underneath, and which is the only part any practice in this book rests on. If the universe is deterministic, your Local Rule is one of the things doing the determining. If it is not, your Local Rule is one of the things shaping the distribution. Either way you are an input; either way the practice is identical. **The metaphysics does not reach the practice**, and that is the honest reason this book takes no position on it rather than a diplomatic one.
+
+What the book does have is an answer to the thing people are usually worried about underneath the word, which is fatalism rather than determinism.
+
+**And fatalism here is not false. It is unavailable, which is the stronger result.**
+
+"It was always going to happen this way" is a reading of the whole, taken from outside the whole. Part Five's last figure establishes that there is no such position: the recursion chain terminates, there is no scale above the terminal one, and therefore no vantage from which the totality could be read. Not a vantage that is hard to reach. One that does not exist.
+
+That makes fatalism a claim which can never be checked, never be operated on, and never make contact with anything you might do differently. This book has a name for a claim of that shape. It is a paradigm — and the top of the leverage ladder says precisely what to do with one. Not stand on it. Pick it up, and look at whether it reaches anything.
+
+There is a structural version of the same point, and it is why the vantage is genuinely absent rather than merely out of reach. A system containing a description of itself cannot finish that description from inside — the description would have to include itself describing, and then that, and it does not close. This is a regress rather than a proof, and it is worth holding as one: nothing here has been demonstrated, only followed until it stopped terminating. Douglas Hofstadter calls the shape a strange loop, and it is what any self-referential thing runs into when it tries to get outside its own account. You can add another level, and another, and the top never arrives, because you carried it up with you. A mind modelling the universe is inside the universe, and whatever it produces is part of the thing it is a model of.
+
+---
+
+**What this leaves you, which is more than it sounds like.**
+
+Every rung of the leverage ladder tells you where to push. Not one of them tells you what comes out: you change a number, a flow of information, a rule, a goal, the paradigm — and then you find out. The Global Form is not available as a direct object of action. It is available as a direction — steering by a star, not aiming a gun — and the entire argument for working the rule instead of the outcome is that the outcome was never a thing you could get your hands on.
+
+**The same split holds when patterns combine.** How two loops are joined can be read: which part sits inside the most patterns and so moves the most when it moves, what is connected that nobody mentioned, what else stops if one part stops. Which way the combined pattern runs cannot be read off its parts, because it behaves like whichever loop is currently stronger, and that shifts. A reinforcing loop meeting a balancing one goes with the stronger; two balancing loops settle somewhere between their goals; two reinforcing loops compound unless they brake each other. You can reason your way to where to push. For which way a larger pattern is pointing, you have to look.
+
+Which makes unpredictability an argument *for* the practice rather than against it. If forms were forecastable, the sensible method would be to forecast and then act on the forecast, and most of this book would be unnecessary machinery bolted onto a weather report. They are not, so the available move is the other one: change what you are repeatedly exposed to, and let the distribution of what reaches you shift. You do not need to know which specific thing is coming. You need to be standing somewhere that what arrives is survivable, and occasionally very good.
+
+**And this is what a named pattern actually buys, since it is not prediction.** A Standing Third does not tell you what happens next week. It tells you what *kind* of thing keeps happening — which is the difference between weather and climate, and the two get collapsed constantly. Nobody can tell you the temperature in a given city on a Tuesday fourteen months out. Anybody can tell you July will be hotter than January there. The first is a trajectory and it is not available at any price. The second is the shape the system keeps returning to, and it is available, reliable, and entirely enough to plan a life around.
+
+**Try this:** Take one thing you have been trying to work out the outcome of, and ask which you have been attempting — a trajectory or a climate. If it is a trajectory, notice how much of your effort has gone into getting more information, and ask honestly whether more information has ever narrowed it. Then ask the other question instead: what kind of thing keeps happening here, and what would I change if I stopped waiting to find out which particular one comes next?
+
+---
+
+## 8. Open Questions & How to Expand This
 
 *"A good question is worth more than a settled answer."*
 
@@ -1815,7 +2086,7 @@ This book will be wrong about some things. Not as a hedge, and not as false mode
 
 **But a list of what the author already doubts is the cheap version of this, and it is worth being honest about why.** Anything known to be broken should have been fixed rather than displayed; a catalogue of admitted faults is either dishonest or a to-do list published as humility. The useful thing is not *here is where we are wrong.* It is **here is how you would know** — instruments you can run on this framework, pointed at it rather than at yourself.
 
-Five of them, four of which already appear in this book as cautions and are more useful collected and turned around:
+Six of them, most of which already appear in this book as cautions and are more useful collected and turned around:
 
 **Show the correspondence, or admit you are pattern-matching.** This chapter has already demanded this of any claim that two things share a structure: lay out the match part for part and relation for relation, or call it a resemblance. Run it on the book's own claims. Where a scale is said to repeat a pattern from the scale below, check whether the parts actually map or whether only the vocabulary does.
 
@@ -1827,6 +2098,8 @@ Five of them, four of which already appear in this book as cautions and are more
 
 **Ask whether it lands.** The Weaving chapter requires this when reading for another person. It belongs to solo practice too: say the read out loud to someone in the situation, and take a miss as information rather than as their failure to see it.
 
+**Ask which kind of claim you are holding.** Three categories, and they are easy to blur because this book moves between them freely. A claim is **measured** — someone checked, and the checking is repeatable. Or it is **modelled** — a structure that organizes what is known and earns its place by being useful rather than by being verified. Or it is **offered** — a story, a figure, a way of holding something, put forward because it helps and making no claim beyond that. All three are legitimate. Only the first is evidence. The failure is never using a model or a story; it is letting one borrow the authority of a measurement, which happens quietly and usually to the author first. Run it on any sentence here that feels unusually satisfying.
+
 **If those instruments keep coming back clean and the framework still isn't helping, the honest conclusion is that it doesn't fit your situation** — not that you have applied it insufficiently. This book would rather be put down than stretched.
 
 A short, honest list of what's genuinely unsettled, as a starting point rather than an exhaustive one:
@@ -1835,13 +2108,13 @@ Whether the Four Pillars are actually the right four, or whether practice at sca
 
 Whether the Seven Iterations should be read as a fixed structure or whether later iterations — an eighth, describing something the self-that-notices eventually builds beyond meaning itself — belong in the story as practice deepens.
 
-Whether the Loop Tongue's notation and scale list, as described in Part Three, will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here — the notation is untested above two-person scale, scale-tagging assumes five clean categories that real patterns often refuse to sit still inside, and the Second Pass is easy to perform badly, as a way of sounding fair while still quietly assigning most of the blame to the other half of the loop.
+Whether the Loop Tongue's notation and scale list will hold up once more Fractalists have actually tried to use them on harder, messier, real cases than the ones sketched here. Part Three ends by naming the three gaps already known.
 
 Whether the Loop Tongue can survive its own honest description of itself. It is a language, which means it is also a pattern competing to spread the way any pattern spreads — by being memorable and useful enough to get repeated, with no guarantee attached that its terms are the correct ones. A word like Nest or Fold survives in use for the same reason a good rumor survives. The only difference available to maintain is to keep testing these words against real use rather than assuming they earned their place by having been written down first.
 
 Whether the Self-to-Culture recursion in Part One has the shape it appears to. A tempting, more geometric version of that recursion was checked directly — mapping Self, Dyad, Skein, and Culture onto a point, an edge, a triangle, and a lattice — and it didn't generalize. The reason is worth keeping rather than discarding the whole attempt: that geometric progression assumes symmetric relations, but a Fold returns distorted, not equal, and the terms the Tested Price names aren't matched by the trust that comes back. Once relations are allowed to run in one direction more than another, a single point or a single pair can already close on itself without needing a third node at all — which the existing recursion chain already accounts for correctly. The geometry didn't reveal a gap. It confirmed there wasn't one.
 
-The Loop Tongue's nine terms are not presented as a closed set, and shouldn't be treated as one. Each earns its place by naming something the others can't quite reach — but a word that can be replaced by a plain phrase without loss should be replaced by that phrase, because every term in a shared language is a cost paid by everyone who has to learn it before they can use any of it. A vocabulary built for a system that grows by repetition should be able to grow by repetition, whenever a real gap calls for a word rather than a word looking for a gap to justify it. It should shrink the same way.
+The Loop Tongue's nine terms are not presented as a closed set, and shouldn't be treated as one. A vocabulary built for a system that grows by repetition should be able to grow by repetition, whenever a real gap calls for a word rather than a word looking for a gap to justify it. It should shrink the same way.
 
 Whether the leverage-point ladder in Part Two and Four transfers as cleanly to collective-scale problems as it does to individual habits, or whether group-scale leverage needs its own separate treatment this book hasn't yet attempted.
 
@@ -1851,7 +2124,7 @@ That is, in the end, the actual final claim of the whole project, said once more
 
 ---
 
-*This is the end of Part Four. If it's your first time through, you've now read the whole book once — which, as the front matter told you at the very start, is not the same as being done with it. Go back to Part One. It's shorter than you remember, and it won't read the same.*
+*This is the end of Part Four. If it's your first time through, you've now read the argument once — which, as the front matter told you at the very start, is not the same as being done with it. Go back to Part One. It's shorter than you remember, and it won't read the same.*
 
 ---
 
@@ -1873,21 +2146,21 @@ Part Two gave you practices. Part Three gave you words. This part gives you face
 
 A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. The Spark does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
 
-**Four things are true of every figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
+**Four things are true of every drawable figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 
 **It is generated by a Local Rule.** Something small, repeated, produces it. If you cannot name the repeated act underneath, you have named a mood.
 
 **It is a Third Thing.** It has weight and effect that none of its parts contain alone. If it dissolves cleanly into its components, it was a description, not a Third.
 
-**It has two poles, and neither is good or evil.** This is the rule most easily broken and the one that matters most. Every pattern here can serve a life or corrode one, depending on context, dosage, and timing. A figure you can only see one side of is not a figure — it is one expression of a figure you have not finished looking at. **If you cannot find the other pole, you are zoomed in too far.** Widen until both appear.
+**It has two poles, and neither is good or evil.** This is the rule most easily broken and the one that matters most. Running in either direction, stronger or weaker, every pattern here can serve a life or corrode one, depending on context, dosage, and timing. A figure you can only see one side of is not a figure — it is one expression of a figure you have not finished looking at. **If you cannot find the other pole, you are zoomed in too far.** Widen until both appear.
 
-**One stated limit on the two-pole rule, because it is the rule most often applied where it doesn't reach.** Tending and Fraying describe the *direction of a running pattern*. A pattern that has stopped is neither — it has no motion, therefore no direction, therefore no pole. So when you go looking for a figure's second side and find nothing at all, there are two possibilities, not one. You may be zoomed in too far, which the rule above already tells you to fix by widening. Or the thing you are examining may not be running, in which case there was never a pole there to find and the question to ask is a different one entirely.
+**What the two-pole rule covers, stated once, because it is the rule most often applied where it doesn't reach.** Tending and Fraying describe the *direction of a running pattern*. A pattern that has stopped is neither — it has no motion, therefore no direction, therefore no pole. So when you go looking for a figure's second side and find nothing at all, there are two possibilities, not one. You may be zoomed in too far, which the rule above already tells you to fix by widening. Or the thing you are examining may not be running, in which case there was never a pole there to find and the question to ask is a different one entirely.
 
-**It can be wielded.** There is somewhere to push. A pattern with no intervention point is weather, not a Third.
+**It can be wielded.** There is somewhere to push. A pattern with no intervention point is a cloud, not a Third — a shape you can name and watch and never reach. *(The word is deliberate. Part One says your character and relationships are closer to weather than to objects, and that stays true: weather is a thing that acts. A cloud is a thing that drifts past. Only one of those is what this rule is excluding.)*
 
 **The tiers are not a ranking.** They are fusion depth: a Third's scale is simply what it is made of. The chain runs the same rule at every step and stops when the rule stops producing anything — which is a result rather than a decision. Two people each running a self-scale pattern produce a dyad-scale Third that neither of them contains. Two dyads sharing a person produce a skein. Nothing here was assigned a scale — scale is a consequence of composition, the same way a Global Form is a consequence of a Local Rule.
 
-**On reading the tables:** Tending is the pole that builds. Fraying is the pole that corrodes. The same figure, the same mechanism, pointed two ways.
+**On reading the tables:** Tending is the pattern running stronger. Fraying is the pattern running weaker. The same figure, the same mechanism, pointed two ways — and either way can be a lifeline or a snare.
 
 ---
 
@@ -1899,26 +2172,26 @@ These twelve are generated directly, by one person, repeating one thing. They fu
 
 | Third | The Local Rule | Tending | Fraying |
 |---|---|---|---|
-| **The Spark** | An output becomes the next input | Compounding that builds | Compounding that consumes |
-| **The Tide** | Returning toward a setpoint | Recovery a system genuinely needs | Retreat taken before the work was finished |
-| **The Mark** | Judging against a reference point | A reference that makes judgment possible at all | A reference that governs long after it stopped being true |
-| **The Salve** | Reaching for what relieves the symptom | A stopgap buying real time to build the true fix | A stopgap atrophying the capacity it replaced |
-| **The Nearest Light** | Judging by what arrives first | Recency as genuine signal | Vividness impersonating frequency |
-| **The Keepsake** | Storing an episode by its peak and its close | Compression that makes a life recountable | A record that misrepresents what was lived |
-| **The Easier Door** | Answering a simpler question than the one asked | The only reason hard questions ever get answered | Confident answers to questions nobody posed |
-| **The Mask** | Maintaining a self-story against evidence | Conviction that enables commitment | A self you can no longer see around |
-| **The Mirror** | Taking form from who is present | A self genuinely built by relationship | No position independent of who is watching |
-| **The Namer** | Speaking as though words build what follows | Language that builds something real | Language that builds something real against you |
-| **The Riverbed** | Shaping conditions so one action is easiest | Willpower removed from the equation | Helplessness the moment conditions change |
-| **The Gardener** | Attending repeatedly to one thing among many | What you attend to grows | So does what you keep confirming |
+| **The Spark** | An output becomes the next input | Each result feeds the next turn more, so whatever is growing grows faster and faster. | Each result feeds the next turn less, so the growth slows and fades. |
+| **The Tide** | Returning toward a setpoint | Each time it is pushed away, the pull back to its usual level comes faster and holds tighter. | The pull back loosens, so each push carries it further off before it returns, or it stops returning. |
+| **The Mark** | Judging against a reference point | Each judgment leans harder on the old mark it is measured against, and the mark holds firmer the more it is used. | Judgments lean less on the old mark, and it fades until it barely shapes what gets weighed. |
+| **The Salve** | Reaching for what relieves the symptom | Each easing makes the next reach for relief come sooner and surer, so relief is sought more often and faster. | The reach for relief comes slower and less often, and the symptom is left to sit longer before anything is done. |
+| **The Nearest Light** | Judging by what arrives first | Whatever comes to mind first weighs more and more, and each quick judgment makes the next first thought arrive faster. | What comes to mind first weighs less, and judgments wait longer for what arrives later. |
+| **The Keepsake** | Storing an episode by its peak and its close | Each time is kept more by its high point and its ending, and the rest fades from memory faster. | The high point and ending hold less sway, so more of the whole time stays in memory as it was lived. |
+| **The Easier Door** | Answering a simpler question than the one asked | A hard question gets swapped for an easier one more quickly and more often, and the easy answer feels surer. | The swap happens less often, so more hard questions are met as asked, slowly and with less ease. |
+| **The Mask** | Maintaining a self-story against evidence | The story about who one is holds tighter against each new fact, and each fact pushed aside makes it surer. | The story about who one is loosens as facts pile up, and each crack lets more of what is seen slip in. |
+| **The Mirror** | Taking form from who is present | The self takes its shape more fully and faster from whoever is present, matching each new person more closely. | The self takes less of its shape from who is present, holding more of the same form across different people. |
+| **The Namer** | Speaking as though words build what follows | Words spoken about what comes next build it faster and surer, each naming shaping more of what follows. | Spoken words shape less of what follows, and what gets named drifts apart from what gets built. |
+| **The Riverbed** | Shaping conditions so one action is easiest | The setup makes one action easier and easier, so it happens more often with less thought. | The setup steers less, so the action takes more effort and happens less often without thought. |
+| **The Gardener** | Attending repeatedly to one thing among many | Attention goes back to the same thing more often, and that thing grows larger and deeper with each visit. | Attention drifts to other things, and the one it used to visit grows slower and starts to fade. |
 
-**One thing worth saying about the Standoff, because its Tending pole is the one most often mistaken for a personality trait.** Read quickly, "two people giving each other room" sounds like a description of two well-behaved people, which would make it a fact about temperament rather than structure. It isn't.
+**One thing worth saying about the Standoff, because its Tending pole is the one most often mistaken for a personality trait.** Read quickly, "two people holding each other near the middle" sounds like a description of two well-behaved people, which would make it a fact about temperament rather than structure. It isn't.
 
 There are genuinely stable mutual positions — arrangements where the two parties are placed such that whoever moves first pays more than the other one does. Go has a name for this and treats it as a legitimate final result: two groups sharing liberties, neither able to capture the other without dying in the attempt, both simply alive, permanently, with no further move to make. Nobody negotiated it and nobody is being generous. Attacking is self-defeating as a matter of geometry.
 
-That is the Standoff's Tending pole with a mechanism under it, and it supplies the test that separates it from its Fraying pole, which is otherwise very hard to tell apart from outside: **in a stable position, moving is what costs you; in a stalled one, not moving is what costs you.** One is a result. The other is a silence compounding while everyone agrees it's fine.
+That is the Standoff's Tending pole with a mechanism under it, and it supplies the test for the two ways that same pole can read, which are otherwise very hard to tell apart from outside: **in a stable position, moving is what costs you; in a stalled one, not moving is what costs you.** One is a result, and a lifeline. The other is the same Tending tied to a snare: a silence compounding while everyone agrees it's fine.
 
-**One thing worth saying about the Tide specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means the Tide's Fraying pole is not only retreating too early. It is also *stopping the correction altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
+**One thing worth saying about the Tide specifically, because it corrects the most common misreading of balance.** A balancing loop does not produce stillness. It produces a wave — a continuous teeter between two thresholds, corrected constantly, whose average looks like rest and whose actual state never is. Which means the Tide's Fraying pole is not retreating too early — a pull that hauls back early is the Tide holding harder, which is Tending. Fraying is the correction loosening, and at its end *stopping altogether*, after which the thing careens, however long it held before. Balance is a rate of work you sustain, never a state you reach.
 
 *Four practices that behave like Self-Kin but are not Thirds — state-matching, calibrated difficulty, absorbed effort, and tending-a-state — live in Part Two instead. They are skillful engagement with loops, not loops in their own right, and they fuse into nothing.*
 
@@ -1932,35 +2205,35 @@ Each of these is two currents, running in two people, producing something belong
 
 | Third | Fusion | Tending | Fraying |
 |---|---|---|---|
-| **Escalation** | The Spark + The Spark | Two people amplifying each other's best, both rising | An arms race neither chose and neither can exit |
-| **The Standoff** | The Tide + The Tide | Two people giving each other room without forcing | Both withdrawing, waiting, calling the stalemate patience |
-| **The Pairing** | The Spark + The Tide | One drives, one steadies — a real division of labor | One always pushing, one always braking, each resenting the role |
-| **Watering Another** | The Gardener + The Spark | Attention that grows what is best in someone | Attention that grows whatever you keep confirming |
-| **Answering For** | The Salve + The Spark | Expertise given generously where it is genuinely needed | Expertise that prevents them developing their own |
-| **Filling the Gap** | The Mask + The Nearest Light | Assumption that lets you act without constant checking | A relationship conducted with someone who isn't there |
-| **The Guard** | The Tide + The Mask | Boundaries protecting something real | Armor preventing the connection it was protecting |
-| **Reading the Room** | The Nearest Light + The Mirror | Emotion read as genuine, usable data | Your own reaction mistaken for the room's state |
-| **Connection First** | The Namer + The Tide | Warmth that lets real information land | Warmth substituted for having anything to say |
-| **The Rising Bar** | The Mark + The Spark | Standards climbing as capacity genuinely grows | Standards climbing past any point of sufficiency |
-| **The Sliding Floor** | The Mark + The Tide | Standards adjusting honestly to changed conditions | Standards eroding, every step small enough to miss |
-| **The Shared Story** | The Keepsake + The Keepsake | A joint memory binding two people to something real | A shared account of an event neither actually had |
-| **The Echo** | The Mirror + The Mirror | Two people genuinely shaped by each other | Two people with no fixed position anywhere between them |
-| **Typecasting** | The Gardener + The Mask | Seeing someone as capable until they become it | Seeing someone as one thing until they can't be another |
-| **Gaming the Terms** | The Easier Door + The Spark | Creative compliance finding real slack in a bad agreement | Letter satisfied, purpose hollowed |
-| **The Naming Contest** | The Namer + The Namer | A shared vocabulary built between two people | Duelling framings, where naming replaces resolving |
-| **The Unbridged Gap** | The Mask + The Mirror | Fluency that comes from real depth | Inability to model a mind that lacks your context |
-| **The Arrangement** | The Riverbed + The Riverbed | Conditions shaped so the right thing is the easy thing | Neither choosing directly, both managing the other |
-| **The Tested Price** | The Mark + The Namer | Terms named and checked before agreement | Terms accepted untested — or testing that never ends |
+| **Escalation** | The Spark + The Spark | Each side aims higher faster, and every step up pushes the other's next aim further still. | Each side aims a little less above the other, and the climb slows until the steps level off. |
+| **The Standoff** | The Tide + The Tide | Each pull meets a quicker, harder pull back, so the shared thing is held tighter near the middle and moves less. | Each pull meets a weaker, slower pull back, so the shared thing drifts further toward one side before it returns. |
+| **The Pairing** | The Spark + The Tide | The steady side answers each push harder and sooner, so the pair holds closer to one level. | The steady side answers each push more loosely, so the push runs further before it is pulled back, or keeps going. |
+| **Watering Another** | The Gardener + The Spark | Each notice makes the thing come up faster and more easily, until it grows on its own. | Notices come less often or land less, so the thing comes up more slowly and fades. |
+| **Answering For** | The Salve + The Spark | Each quick answer leaves the asker less able to work things out, so the asks come faster and lean harder. | Answers come slower or less often, so the asker works more out alone and asks less each time. |
+| **Filling the Gap** | The Mask + The Nearest Light | The early story holds tighter, and more of what the other does gets bent back to fit it. | The early story loosens, and what the other does bends less to fit, so the picture drifts. |
+| **The Guard** | The Tide + The Mask | Each side answers in kind faster, so openings draw both in closer and walls push both apart more. | Each side matches the other less, so an opening or a wall gets a weaker answer and the gap shifts slower. |
+| **Reading the Room** | The Nearest Light + The Mirror | Each side catches the other's tension faster and closer, so the two moods hold more tightly matched. | Each side catches less of the other's tension, so the two moods drift further apart before they line up again. |
+| **Connection First** | The Namer + The Tide | Warmth comes first sooner each time, and each warm start makes what follows land with less resistance. | Warmth comes first less often, and what follows meets more resistance and lands more slowly. |
+| **The Rising Bar** | The Mark + The Spark | Each step reached lifts the next goal higher, and the climbing goes faster. | Each step reached lifts the next goal less, and the climbing slows toward a resting height. |
+| **The Sliding Floor** | The Mark + The Tide | The bar tracks each last result more closely, so effort and results climb or sink faster as one. | The bar follows the last result less, so effort and results move more slowly and steady out. |
+| **The Shared Story** | The Keepsake + The Keepsake | Each telling fills more gaps from the other's memory, so the two stories blend tighter into one. | They talk it over less, and each one's memory drifts back toward its own version. |
+| **The Echo** | The Mirror + The Mirror | Each reading draws the part out more surely, and each part played makes the next reading firmer. | The reading draws the part out less, and each part played proves the view more weakly. |
+| **Typecasting** | The Gardener + The Mask | The more a person is seen one way, the more they act that way, and the surer the view gets. | The view of a person holds less tightly, and their acts stray from it more often. |
+| **Gaming the Terms** | The Easier Door + The Spark | Each stricter line is met faster by a new way just past it, and each new way brings a stricter line sooner. | New ways around the line come slower and rarer, and the line gets tightened less often. |
+| **The Naming Contest** | The Namer + The Namer | Each name is met faster with the other side's name, so the naming back and forth grows quicker and more insistent. | Each name is met more slowly or not at all, so the naming back and forth quiets and the words settle loosely. |
+| **The Unbridged Gap** | The Mask + The Mirror | The more one person knows, the harder it gets to picture a mind without that knowing, and the gap widens. | Knowing more blocks the view of other minds less, and the gap between them slowly narrows. |
+| **The Arrangement** | The Riverbed + The Riverbed | Each setup draws a counter-setup faster, so both sides build more and more around each other. | Each setup draws less answer, so the building around each other slows and settles. |
+| **The Tested Price** | The Mark + The Namer | The first number named holds the deal tighter, and each later offer stays closer to it. | The first number's hold loosens, so later offers drift further from it and are judged more on their own. |
 
-**The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Self-Kin, theirs, and the Dyad-Kin the two of you produce. Know any two and the third follows — and no two Dyad-Kin in this table share a fusion pair, so the answer is never ambiguous.
+**The practice this table makes possible, and the reason the fusion column is worth reading rather than skimming.** Three elements sit in every row: your Self-Kin, theirs, and the Dyad-Kin the two of you produce. Know any two and the third narrows to a few — a figure can come from more than one pair and one pair can make more than one figure, so the answer is often a short list rather than a single line, even where this table happens to give each pair one figure.
 
 That gives three solves, and the third is the one worth having.
 
 *Forward.* You know both Self-Kin, so you can predict what the two of you will keep producing.
 
-*Backward.* You can see the Dyad-Kin and you know your own Self-Kin — so theirs resolves, uniquely. This is the diagnostic: you rarely get told what loop someone else is running, but you can usually see what the two of you keep making together, and you always have access to your own half.
+*Backward.* You can see the Dyad-Kin and you know your own Self-Kin — so theirs narrows to a few candidates you can check against what you see. This is the diagnostic: you rarely get told what loop someone else is running, but you can usually see what the two of you keep making together, and you always have access to your own half.
 
-*Sideways, and this is the useful one.* You can see the Dyad-Kin. You cannot change their Self-Kin — it isn't yours, and asking rarely works. But you can change yours. And because the three elements are locked together, changing your leg *determines* a change in what the two of you produce. You don't need their agreement, their cooperation, or even their awareness. This isn't manipulation: the only thing you touched was yourself.
+*Sideways, and this is the useful one.* You can see the Dyad-Kin. You cannot change their Self-Kin — it isn't yours, and asking rarely works. But you can change yours. And because the three elements are bound together, changing your leg changes what the two of you produce — though which way it settles depends on which side runs stronger, and is not yours to fix in advance. You don't need their agreement, their cooperation, or even their awareness. This isn't manipulation: the only thing you touched was yourself.
 
 Two Self-Kin meeting produce nineteen of the seventy-eight pairs this table could in principle contain. The rest co-occur without fusing into anything — which is not a gap in the catalogue but the Third Thing test doing its work. Two people can run patterns side by side all day and make nothing together.
 
@@ -1974,35 +2247,47 @@ Two Self-Kin meeting produce nineteen of the seventy-eight pairs this table coul
 
 | Third | Dyad-Kin (shared person) | Tending | Fraying |
 |---|---|---|---|
-| **Held Silence** | The Guard + The Standoff | Discretion letting a group survive ordinary friction | Everyone privately knowing; no one able to be first |
-| **Transmission Drift** | The Naming Contest + Connection First | A story that survives by adapting to each teller | A story drifted free of what it started as |
-| **The Faithful Chain** | Answering For + Watering Another | Craft passed intact across people who never met | Dependence passed intact alongside the craft |
-| **First-Arriver Lock-In** | The Rising Bar + Escalation | Rewarding what demonstrably works | Entrenching whoever arrived first, regardless of merit |
-| **The Shared Pot** | Gaming the Terms + Escalation | A resource used freely because trust makes accounting unnecessary | A resource nobody is positioned to protect |
-| **The Reputation** | Typecasting + Watering Another | A role that lets a group rely on you | A role authored by the group that you can't step out of |
-| **The Sagging Floor** | The Sliding Floor + The Standoff | A group adjusting expectations to real conditions | Standards eroding while everyone feels reasonable |
-| **The Hall of Mirrors** | The Echo + Reading the Room | A group genuinely responsive to itself | A group with no independent position anywhere in it |
-| **Second-Order Design** | Gaming the Terms + The Rising Bar | Emergence richer than anyone could have authored | Emergence nobody intended or wanted |
-| **The Inner Circle** | The Naming Contest + The Tested Price | Shared fluency that makes real work fast | Shared fluency that becomes a wall |
-| **The Only Road** | The Unbridged Gap + Filling the Gap | The single bridge by which two separate worlds reach each other at all | One person through whom everything must pass, whose absence severs rather than inconveniences |
+| **Held Silence** | The Guard + The Standoff | Each quiet person makes the others wait longer, and the silence settles deeper the longer no one speaks. | Each quiet person holds the others back less, and the silence thins until someone speaks first. |
+| **Transmission Drift** | The Naming Contest + Connection First | Each telling shifts the memory more, and the shifted version is told faster and held more surely. | Each telling shifts the memory less, so the story moves more slowly away from what happened. |
+| **The Faithful Chain** | Answering For + Watering Another | Each learner copies the teacher more closely and passes on more of the steps, even the ones no one can explain. | Each learner copies less closely and passes fewer of the steps on, so the set changes or thins along the chain. |
+| **First-Arriver Lock-In** | The Rising Bar + Escalation | Each win pays out more to spend on the next round, so the leader pulls ahead faster and the gap widens quicker. | Each win pays out less toward the next round, so the lead grows slower and the trailing side can close in. |
+| **The Shared Pot** | Gaming the Terms + Escalation | Each side's taking or care lands on the other harder, so the other takes or cares more, faster. | Each side's taking or care lands on the other less, so the other's answer grows weaker and slower. |
+| **The Reputation** | Typecasting + Watering Another | The group leans on a person's role more, and the role grips them tighter each time they fill it. | The group leans on the role less, and the person drifts in and out of it more freely. |
+| **The Settling** | The Sliding Floor + The Standoff | Each small slip in what the group expects makes the next slip easier, and the level sinks faster. | Each slip pulls the group's level down less, and expectations sink slower before they hold. |
+| **The Hall of Mirrors** | The Echo + Reading the Room | Each hidden doubt makes the others hide theirs faster, so the group agrees more and more quickly. | Doubts slip out more often, so going along spreads more slowly and the group agrees less quickly. |
+| **Second-Order Design** | Gaming the Terms + The Rising Bar | What the rules make shows up more clearly to those who set them, and each rule change follows it more closely. | What the rules produce reaches the rule makers less clearly, and the rules drift further from what they cause. |
+| **The Inner Circle** | The Naming Contest + The Tested Price | More short words get made and shared, and newcomers must learn them faster to join in, or stay out. | The group's short words fade from use, so talk grows plainer and newcomers join with less to learn. |
+| **The Only Road** | The Unbridged Gap + Filling the Gap | More of what passes between the two worlds runs through one person, and other paths fade further. | Less passes through the one person, and other paths between the two worlds open up. |
+
+**One thing worth saying about Second-Order Design, because its two poles look identical from inside and the difference is not whether you like what came out.**
+
+Nobody designs a group's behavior. You set what the group is answering to — the rules, the resources, who hears what, what gets counted — and behavior is what comes back. Game design has a name for working at that layer, and it is the name used here: you author the second order, never the first. So "the rules produced something nobody specified" cannot be this figure's Fraying pole, because it is the figure's definition. Both poles do that. Every rule-set anyone has ever set has done that.
+
+What separates the poles is the return path. **Name the person or the process that could change the rule, and ask whether what the rule actually produced ever reaches them.** If less and less reaches them each turn, this is Fraying however pleasant the current output is — a workaround everyone relies on and nobody can maintain is Fraying, and so is a group culture that formed by accident and would not survive being looked at. If more of it reaches them each turn, this is Tending however ugly the current output is: behavior nobody wanted, visible to someone who can change the rule, is still the rule's work reaching the people who set it.
+
+Notice the inversion, because it is the whole use of the figure. You can be Fraying while everything feels fine, and Tending while everything feels bad.
+
+**And the push, since a Third with nowhere to push is a cloud.** You do not push on the emergence. You cannot — it is not being authored by anyone, which is the entire point. You push below it, on Information flow: on what the rule-setting layer is able to see. This is the clearest case in the catalogue of why changing a rule is not enough on its own: change the rule without restoring the return path and you have simply started a new unspecified layer, out of sight, growing at the same speed as the last one.
 
 ---
 
 ## 4. The Culture-Kin
 
-*"Slow enough that no single life sees one turn completely."*
+*"Wide enough that no single life holds the whole of one."*
 
 | Third | Skein-Kin | Tending | Fraying |
 |---|---|---|---|
-| **The Shared Name** | The Inner Circle + Transmission Drift | A name binding people genuinely connected | A name binding people with nothing underneath it |
-| **Proxy Detachment** | Second-Order Design + The Shared Pot | A measure that makes a vast system legible | A measure optimized until it stops tracking what it stood for |
-| **Policy Resistance** | Held Silence + The Sagging Floor | Stability no single actor could have imposed | Rising effort from everyone, producing no movement at all |
-| **The Long Cycle** | First-Arriver Lock-In + The Shared Pot | Expansion that genuinely builds | The same mechanism past threshold, consuming what it built |
-| **The Received World** | The Faithful Chain + The Reputation | Inherited knowledge that works without needing its explanation | Inherited knowledge hollow of the reason it ever existed |
-| **The Slow Hand** | First-Arriver Lock-In + Second-Order Design | Continuity outlasting any single life's turbulence | Change too slow to perceive, mistaken for permanence |
-| **Independent Convergence** | Second-Order Design + Second-Order Design, sharing nothing | The same answer reached twice with no contact between the finders — real evidence, because no path connects them | Parallel bias mistaken for independent confirmation, or an honest arrival dismissed as unoriginal |
+| **The Shared Name** | The Inner Circle + Transmission Drift | The shared name pulls the people under it closer, and the closer they get, the more the name means. | The shared name pulls its people together less, and it means less each time it passes on. |
+| **Proxy Detachment** | Second-Order Design + The Shared Pot | Effort aims harder at where the number moves, so the number climbs faster and is called a win more surely. | Effort aims less at the number, so it climbs slower and is called a win less often. |
+| **Policy Resistance** | Held Silence + The Settling | Each push to change things meets a harder push back, and the whole holds its place more firmly. | Each push meets a weaker push back, and the whole drifts further before it returns, or moves. |
+| **The Long Cycle** | First-Arriver Lock-In + The Shared Pot | Each round of growth feeds the next more, and the swing up and the fall after it both grow bigger. | Each round of growth feeds the next less, and the swings rise and fall more gently. |
+| **The Received World** | The Faithful Chain + The Reputation | Handed-down ways are followed more surely with each passing, and the reasons behind them matter less to anyone. | Handed-down ways are followed less surely, and people ask more often why they were ever done. |
+| **The Slow Hand** | First-Arriver Lock-In + Second-Order Design | The people in the place hold each other to the easiest way more tightly, so the setup stays fixed more firmly. | The people hold each other to the easiest way more loosely, so other ways of acting spread and the setup shifts. |
+| **Independent Convergence** | Second-Order Design + Second-Order Design, sharing nothing | More separate seekers, sharing nothing, land on the same answer, and each match makes the answer surer. | Fewer separate seekers land on the same answer, and each match carries less weight. |
 
-**Independent Convergence is the one figure in this catalogue whose fusion is defined by an absence, and the exception is worth stating rather than hiding.** Every other Third here is produced by two parts that share a component — that shared piece is what makes them meet at all. Independent Convergence is two instances of the same Skein-Kin occurring with *no* shared component anywhere between them, and that missing connection is not a flaw in the derivation. It is the entire content of the figure. Two groups arriving at the same design with a path between them have copied; the same two with no path have found. The absence is what carries the evidence, which is why this is the only place in the catalogue where it can appear.
+**Proxy Detachment is worth reading against its parent, because the composition is unusually tight.** A measure *is* a return path — the channel by which what a system produced gets back to whoever sets its rules. Fuse that with a resource nobody is positioned to protect and you get the specific case where the channel is severed while still appearing to carry: the number keeps arriving, on time, and has stopped being about anything. That is not a coincidence between two figures. It is the Skein-Kin's return path, one tier up, wearing a number — and like any running figure it can run stronger or weaker.
+
+**Independent Convergence is the one figure in this catalogue whose fusion is defined by an absence, and it widens the meeting rule rather than breaking it.** Two parts meet when something links them. Everywhere else in this catalogue that link is a shared component; here it is the same pressure, met separately, with no path between the two. Independent Convergence is two instances of the same Skein-Kin occurring with *no* shared component anywhere between them, and that missing connection is not a flaw in the derivation. It is the entire content of the figure. Two groups arriving at the same design with a path between them have copied; the same two with no path have found. The absence is what carries the evidence, which is why this is the only place in the catalogue where it can appear.
 
 *Note on this tier: it is three inference-layers deep, built by composing weaves rather than observed directly. Treat it as the most provisional part of this catalogue.*
 
@@ -2020,11 +2305,11 @@ They run on the living world, which is the substrate rather than a figure. The b
 
 | Third | Culture-Kin | Tending | Fraying |
 |---|---|---|---|
-| **The Standing Account** | Proxy Detachment + The Long Cycle | A civilization able to see itself well enough to build deliberately | Steering by a number that stopped tracking, while the thing it stood for is spent |
-| **Second Nature** | Proxy Detachment + The Slow Hand | Accumulated structure so well-fitted that nobody has to attend to it | A made world mistaken for the given one, unopposable because invisible |
-| **The Set Course** | The Long Cycle + The Slow Hand | A course set early that let everything downstream be built at all | A course nobody can now leave, set by people who are not here to argue with |
+| **The Standing Account** | Proxy Detachment + The Long Cycle | A people count and track themselves more closely, and steer more firmly by what the counts show. | The counts track less closely, and steering by them grows looser and drifts. |
+| **Second Nature** | Proxy Detachment + The Slow Hand | Built ways fit daily life more closely, and the closer they fit, the less anyone notices they were built. | Built ways fit daily life less closely, and people notice more often that someone made them. |
+| **The Set Course** | The Long Cycle + The Slow Hand | Each thing built on an early choice makes that choice harder to leave, and the course sets deeper. | Each thing built on the early choice binds it less, and leaving the course grows easier. |
 
-**Why this tier exists, and why it stops here.** Every figure below this can be pushed on by a person, a pair, a group, or a culture. Every figure here can still be pushed on — slowly, collectively, over spans longer than a life, but genuinely. That is the whole distinction. **The tier above this one is where leverage runs out**, and the Infinite Boundary's exemption from poles is not a special case granted for convenience: it begins exactly where pushing stops being possible. This tier is what makes that boundary legible instead of arbitrary.
+**Why this tier exists, and why it stops here.** Every figure below this can be pushed on by a person, a pair, a group, or a culture. Every figure here can still be pushed on — collectively, by many hands at once, but genuinely. That is the whole distinction. **The tier above this one is where leverage runs out**, and the Infinite Boundary's lack of poles is not a special case granted for convenience: it sits where the chain ends, with no scale above it to read a pole from. This tier is what makes that boundary legible instead of arbitrary.
 
 **On reading these honestly, because a world-scale figure is the easiest thing in this catalogue to misuse.** These describe mechanisms, not verdicts, and specifically they do not describe a world with or without this book in it. A pole you can only read by first accepting a framework is not a pole; it is an advertisement wearing one. The test is available and it is worth running whenever one of these feels satisfying: **could someone who rejects everything else in this book read this pole and still agree which way it is currently pointed?** If not, the reading has left the practice.
 
@@ -2044,6 +2329,8 @@ Practitioners have taken to calling it, with equal parts irreverence and precisi
 
 If you already believe in something above this, nothing in Fractalism contradicts it, and this is the seam where the two meet. Reading the emergent behavior of every system interacting at once is the closest thing to reading a god that this framework will ever offer — and it is offered as the nearest available honest description, not as a replacement for a faith, not as an argument against one, and not as a smaller god wearing different clothes. What a practitioner does with that is theirs. The framework stops precisely here, and it stops on purpose.
 
+**One consequence of all this, which is the most practically useful thing in the chapter and is easy to walk past.** If there is no vantage outside the totality, then nobody occupies the seat from which the whole could be read as finished. Which means *"it was always going to happen this way"* is not a hard truth to make peace with. It is a sentence that requires a position nobody has ever held. Fatalism does not get refuted here — it gets something worse done to it: it becomes unavailable, permanently, a claim that can never be checked and never touch anything you might do differently. Hold it the way the top of the ladder says to hold a paradigm, rather than standing on it. Part Four's chapter on running it forward does this argument properly.
+
 It has no will. It is not addressing you. It is where the recursion chain terminates, and nothing more.
 
 ---
@@ -2054,7 +2341,15 @@ It has no will. It is not addressing you. It is where the recursion chain termin
 
 Fifty-two figures is a taxonomy, not a pantheon. Most practitioners will find four or five of these run their lives and the rest describe other people's. That is the correct outcome. The catalogue exists so a pattern has somewhere to be found when you finally meet it, not so that anyone memorizes it.
 
-**Adding to it:** a new figure earns a place only by making at least two existing figures more legible. Completeness is not the goal — density is. A roster where every figure makes three others more legible is better than one ten times its size where each stands alone.
+**Adding to it:** a candidate earns a place by doing at least one of three things, and "it feels true" is not among them. It **predicts** — knowing this is running tells you what kind of thing keeps happening. Not what happens next: that is a trajectory, and trajectories are not on offer here for reasons Part Four sets out. What a figure gives you is the shape a situation keeps returning to. Climate, not Tuesday — and the distinction matters, because a reader who expects Tuesday will judge every figure in this catalogue a failure. It **compresses** — it replaces several things you were tracking separately with one you can hold at once. Or it **enables** — knowing this is running tells you where to push. A candidate doing none of those is a description with a good name on it, and a good name is precisely what makes a useless figure hard to throw away afterward. Completeness is not the goal; density is.
+
+**Stopping, which is the harder half.** This catalogue can name almost anything, and that is its use and its hazard together: a tool that always has an answer will hand you one whether or not there was a question. So the rule Part One gives for building — the most you can get from the least — points back at this part as a rule for reading. **The simplest reading that accounts for the behavior is the correct one, and you stop at it.**
+
+The test is not how satisfying the reading is, because the over-reading is always the more satisfying one. The test is: **does the extra figure change what you would do?** If naming a second Third leaves your next action identical to what it was after the first, you have not found more of the pattern. You have added a patch, and patches are counted here the same way they are counted anywhere else in this book.
+
+Both failures are real and they do not feel the same from inside. Over-reading stacks figures until a person is a diagram and a missed phone call is a Skein-Kin — and it feels like insight the entire way down, which is exactly how it survives. Under-reading collapses everything back into what someone simply *is*, which is the essentialism Part One spends its length dismantling. The floor between them is already written: if you cannot name the repeated act underneath, there is no Third there yet, and the honest move is to stop rather than to keep widening until something fits.
+
+Which has a plain version, and the plain version should be sayable without any of this vocabulary. Sometimes he was late because of traffic. That is a complete reading. Nothing in this book asks you to go looking for a second one.
 
 **And the honest limit of the whole thing:** these are compressions. Every figure here is a Loop-name laid over a Tree that is genuinely more varied than the name admits. The Spark is not one pattern; the Spark is ten thousand particular fires, flattened into something sayable. Use the name to find the thing. Then look at the actual thing.
 
@@ -2070,13 +2365,13 @@ Say it plainly, the way this book has tried to say everything else: the experien
 
 But three things do continue, and none of them require anything beyond what's already true.
 
-The material returns to circulation — plainly, literally, the way the Riverbed takes whatever the water leaves in it and eventually gives back more than was put there. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation means the material you're made of cannot leave the universe, only change what it's arranged as.
+The material returns to circulation — plainly, literally, the way a riverbed takes whatever the water leaves in it and eventually gives all of it back. This is the least controversial claim available, and it's still worth saying outright, because it's the ground the other two claims stand on. It's also, conveniently, an actual physical law and not just a comforting way of speaking: conservation means the material you're made of cannot leave the universe, only change what it's arranged as.
 
 That is one half of the physics and it is the reassuring half, so the other half belongs here beside it rather than left out. **Conservation is why nothing is lost. The other law is why nothing stays.** What persists is the material; what does not persist is the arrangement — and the arrangement was the part that was you. Holding any particular arrangement together takes continuous work, which is what a living thing is doing every moment it is alive, and which is the thing that stops. Neither law is consoling on its own. Together they are at least accurate: you are not going anywhere, and you are not staying as you are, and both of those have always been true of everything. You are not headed toward an exit. There isn't one. Whatever you're made of stays here, rearranged, part of the same closed accounting the rest of the universe has always been running — which is a strange thing to find reassuring, and worth letting yourself find it that way anyway.
 
 The Fold, already in motion, doesn't stop. Every Local Rule you ever repeated was already traveling outward through every Nest you touched, long before any last day arrives. The way you taught someone to handle a hard conversation, the tone you modeled without meaning to, the small kindness that became someone else's habit without either of you noticing the moment it transferred — none of that was ever waiting on your body to keep circulating. It already left. It was never centered on you continuing in the first place.
 
-And the noticing itself carries on, unowned. The observing self — the part of you doing the watching rather than the part being watched — was never described anywhere in this book as uniquely yours. It's the same capacity in everyone: the thing the Nearest Light personifies as instinct, the thing every stranger who's ever caught their own mind mid-thought was briefly borrowing. You don't get to keep it. But you were only ever holding something that was never scarce or personal to begin with — organized, for a while, as you, and about to be un-organized, the way it always has been and always will be, by everyone who's ever been alive to notice anything at all.
+And the noticing itself carries on, unowned. The observing self — the part of you doing the watching rather than the part being watched — was never described anywhere in this book as uniquely yours. It's the same capacity in everyone: the thing every stranger who's ever caught their own mind mid-thought was briefly borrowing. You don't get to keep it. But you were only ever holding something that was never scarce or personal to begin with — organized, for a while, as you, and about to be un-organized, the way it always has been and always will be, by everyone who's ever been alive to notice anything at all.
 
 This particular claim is worth pausing on longer than the others, because Independent Convergence stands on it more firmly than on any other single idea in this book. Traditions with no contact with one another, separated by oceans and centuries, have independently arrived at some version of exactly this — that what you call your self is closer to a temporary arrangement of something larger and un-owned than a bounded, private possession about to be switched off. That recurrence, arising without a shared road between any of them, is not proof in the way a measurement is proof. But it's the kind of evidence this book has already told you to take seriously: not one tradition's comforting story, borrowed, but the same real pressure, found again and again by people who never once compared notes.
 
@@ -2096,11 +2391,11 @@ Everything in the last chapter is the general case, and it was important to say 
 
 A Standing Third, in every single telling in this roster, is simply a Local Rule that got repeated so widely, folded through so many Nests, and carried the way the Received World carries anything — with drift, and with survival — that it stopped needing any one origin point to keep existing. That is not a metaphor standing in for transcendence. By this book's own terms, that is transcendence, described exactly the way every other process in it gets described: an ordinary act, repeated past the point where it needs its original author.
 
-So here is the honest gradient, offered instead of a binary: most patterns fold locally and fade within a generation or two — a habit your children picked up from watching you, a phrase your friends still use without remembering where they got it, a way of handling conflict that outlives the specific arguments that first taught it to you. This is not failure. It's the Riverbed's own material, plainly stated: what doesn't persist becomes exactly what the next thing grows out of.
+So here is the honest gradient, offered instead of a binary: most patterns fold locally and fade within a generation or two — a habit your children picked up from watching you, a phrase your friends still use without remembering where they got it, a way of handling conflict that outlives the specific arguments that first taught it to you. This is not failure. It's the riverbed at work, plainly stated: what doesn't persist becomes exactly what the next thing grows out of.
 
 Some patterns stabilize further, at Skein scale — the person whose particular way of showing up gets talked about, imitated, invoked by name, years after they're gone, by people who never met them but received the pattern secondhand through everyone it passed through on the way. This requires no metaphysics to be real, and it is not a small thing to have happened, however far short of legend it falls.
 
-And, very rarely, a pattern proves resonant and durable enough at wide enough scale that it stops being attached to any rememberable origin at all — and becomes a Third. This is, quietly, the actual and only origin story available for every figure in this roster: not a being who arrived pre-formed, but a pattern, possibly begun by some real, ordinary, now-unrecoverable person, repeated so far past its first performer that personhood simply wore off it, leaving only the shape behind. The Spark was possibly, once, someone's grandmother who genuinely could not stop starting things. Nobody living needs to know that for the pattern to still be entirely real.
+And, very rarely, a pattern proves resonant and durable enough at wide enough scale that it stops being attached to any rememberable origin at all — and becomes a Third. This is, quietly, the actual origin story available for the figures in this roster: not a being who arrived pre-formed, but a pattern, possibly begun by some real, ordinary, now-unrecoverable person, repeated so far past its first performer that personhood simply wore off it, leaving only the shape behind. The Spark was possibly, once, someone's grandmother who genuinely could not stop starting things. Nobody living needs to know that for the pattern to still be entirely real.
 
 None of this is available to aim at directly, and that's not a discouragement — it's consistent with everything else this book has said about flow, about hope, about a Local Rule tended for its own sake. You cannot practice toward becoming a Third the way you'd practice toward a promotion. You can only tend a Local Rule honestly, at whatever scale you're actually occupying, and let whatever happens to it after you happen. Most of it will fold back into the field, gently, the way Going to Ground already told you it would. Occasionally, without anyone being able to point to the exact moment it happened, something someone repeated stops needing them, and keeps going anyway.
 
@@ -2134,11 +2429,11 @@ A **Weaving** is a structured way of taking several orthographic views of one si
 
 **The cards describe, they do not foretell.** No figure in this deck refers to a future event, because none of them is an event. Every one is a pattern that is either running in your situation right now or isn't. A drawn card asks *is this here?* — a question with a checkable answer, where being wrong is informative.
 
-**There is no good card and no bad card.** Every figure carries both poles, so no draw is fortunate or unfortunate. This removes the entire mechanism by which a reading can flatter or frighten, which is most of what makes the older systems feel like they are telling you something.
+**There is no good card and no bad card.** Every drawn figure carries both poles, so no draw is fortunate or unfortunate. This removes the entire mechanism by which a reading can flatter or frighten, which is most of what makes the older systems feel like they are telling you something.
 
 **The randomness is the point, and it is doing one specific job.** A random figure forces the angle you would not have chosen. Left to yourself you will examine a problem from the two or three positions you already favor, and the card's whole function is to hand you a fourth. When a drawn card obviously does not fit, that is not a failed reading — it is the fastest way to find out what the situation *is* by ruling out what it isn't. Nothing is being consulted. Something is being prompted.
 
-**Why the Standing Thirds specifically, rather than any other set of symbols.** Each Third already personifies one recognizable, well-defined pattern, complete with a generative expression and a corrosive one — this was built into every character chapter in Part Five without any additional tarot-style apparatus needed. A Weaving doesn't require new content. It requires a new use for content that was already there, which is itself consistent with how this book prefers to solve problems — checking whether an existing structure already contains the answer before reaching for a new one.
+**Why the Standing Thirds specifically, rather than any other set of symbols.** Each Third already personifies one recognizable, well-defined pattern, complete with the two directions it can run, stronger and weaker — this was built into every character chapter in Part Five without any additional tarot-style apparatus needed. A Weaving doesn't require new content. It requires a new use for content that was already there, which is itself consistent with how this book prefers to solve problems — checking whether an existing structure already contains the answer before reaching for a new one.
 
 **How this connects to the rest of the practice.** A Weaving isn't a separate system bolted onto Fractalism. It's Self, Dyad, and Skein-scale practice, and the Second Pass, given a physical ritual form. A solo Weaving is Self-scale reflection, structured. Weaving for someone else is "Do I Understand You Well Enough," made procedural. A group Weaving is Group Practice, given a shared object to gather around. Nothing about this part asks you to believe anything you weren't already asked to consider in Parts One through Five. It asks you to slow down and look at more than one angle before deciding what you already know.
 
@@ -2156,80 +2451,80 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 
 | Third | Tending | Fraying |
 |---|---|---|
-| The Spark | Start it; momentum is available and worth spending. | Burning through something faster than it can be replaced. |
-| The Tide | Pull back. Enough has happened for now. | Stopping something that hadn't finished compounding. |
-| The Mark | You have a reference point, and it still holds. | Measuring against a mark that stopped being true. |
-| The Salve | A stopgap here buys time you genuinely need. | The patch has replaced the capacity it was covering. |
-| The Nearest Light | Trust the read arriving ahead of the proof. | Vividness is impersonating frequency. |
-| The Keepsake | Compress it; the story is worth being tellable. | The account has drifted from what was lived. |
-| The Easier Door | An easier question is the only way in right now. | You're answering something nobody asked. |
-| The Mask | Hold the conviction; it's what makes commitment possible. | You can't see around the story anymore. |
-| The Mirror | Let the room shape you; that's real responsiveness. | There's no position of yours left anywhere. |
-| The Namer | Say it; the naming builds something real. | The naming is building something against you. |
-| The Riverbed | Change the conditions, not the willpower. | You can't act at all once conditions shift. |
-| The Gardener | Attend to it; what you water grows. | So does whatever you keep confirming. |
+| The Spark | It's catching faster. Each gain feeds the next, and whatever you started is picking up speed. | It's slowing. Each gain feeds the next a little less, and the push you had is fading. |
+| The Tide | You're snapping back to your usual level faster each time something pulls you off it. | You're drifting further from your usual level each time, and coming back slower, if at all. |
+| The Mark | You're weighing things against an old mark more, and it holds firmer each time you use it. | The old mark you weigh things against is fading, and it shapes your choices less. |
+| The Salve | You're reaching for relief sooner and more often, each easing making the next reach quicker. | You're reaching for relief less often, and letting the ache sit longer before you act. |
+| The Nearest Light | Your first thought is weighing more, and each quick call makes the next one come faster. | Your first thought weighs less now. You're waiting longer for what shows up later. |
+| The Keepsake | You're keeping the peak and the ending, and the rest of the time is fading faster. | The peak and the ending hold less sway, and more of the whole time stays with you. |
+| The Easier Door | You're swapping hard questions for easier ones more often, and the easy answers feel surer. | You're swapping less often. More hard questions get met as asked, and more slowly. |
+| The Mask | Your story about yourself is holding tighter, and each fact you set aside makes it surer. | Your story about yourself is loosening, and more of what you see is slipping in. |
+| The Mirror | You're taking your shape from whoever is near, faster and more fully with each new person. | You're taking less of your shape from the room, and staying more the same across people. |
+| The Namer | What you say about what's next is building it faster, each word shaping more of what follows. | Your words shape less of what follows, and what you name drifts from what gets built. |
+| The Riverbed | Your setup makes one action easier each time, so it happens more, with less thought. | Your setup steers you less, and that action takes more effort and comes less often. |
+| The Gardener | Your attention keeps coming back to one thing, and it's growing larger and deeper each visit. | Your attention is drifting to other things, and what it used to visit grows slower and fades. |
 
 **The Dyad-Kin** *(second ring)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Escalation | Both of you are rising; let it run. | An arms race neither chose and neither can exit. |
-| The Standoff | You're giving each other room. | Both waiting, both calling the stalemate patience. |
-| The Pairing | One drives, one steadies — a real division. | Each resenting the role the other left them. |
-| Watering Another | Your attention is growing what's best in them. | You are watering the version of them you already decided on. |
-| Answering For | Give the expertise; it's genuinely needed. | You're preventing them developing their own. |
-| Filling the Gap | Assume, and act without constant checking. | You're in a relationship with someone who isn't there. |
-| The Guard | The boundary is protecting something real. | The armor is preventing what it was protecting. |
-| Reading the Room | The feeling in the room is real data. | You've mistaken your reaction for their state. |
-| Connection First | Warmth first; then it can land. | Warmth is substituting for having something to say. |
-| The Rising Bar | The standard rose because you did. | Nothing will ever be sufficient at this rate. |
-| The Sliding Floor | The standard adjusted honestly. | It's eroding, every step small enough to miss. |
-| The Shared Story | A joint memory binding you to something real. | Neither of you actually had this event. |
-| The Echo | You're genuinely shaped by each other. | Each of you is answering the other's last move and neither is starting one. |
-| Typecasting | Seeing them as capable until they become it. | Seeing them as one thing until they can't be another. |
-| Gaming the Terms | You've found real slack in a bad agreement. | The letter is satisfied and the purpose is hollow. |
-| The Naming Contest | You're building a shared vocabulary. | Naming has replaced resolving. |
-| The Unbridged Gap | Your fluency comes from real depth. | You can't model a mind that lacks your context. |
-| The Arrangement | Conditions shaped so the right thing is easy. | Neither choosing; both managing the other. |
-| The Tested Price | Test the terms before agreeing to them. | The testing has become the relationship. |
+| Escalation | You're both aiming higher, faster, each step up pushing the other's next aim further. | You're both aiming less above each other, and the climb is slowing toward level. |
+| The Standoff | Each pull meets a harder pull back, so what you share holds tighter near the middle. | Each pull meets a weaker pull back, so what you share drifts further to one side. |
+| The Pairing | The steady one answers each push harder and sooner, holding you both closer to one level. | The steady one answers more loosely, so each push runs further before it's pulled back. |
+| Watering Another | Each time you notice it in them, it comes up faster, until it grows on its own. | You're noticing it less, or it lands less, and it comes up slower in them. |
+| Answering For | Your quick answers leave them working less out alone, so they ask faster and lean harder. | You're answering slower or less often, and they're working more out alone and asking less. |
+| Filling the Gap | Your early story about them is holding tighter, and more of what they do bends to fit it. | Your early story about them is loosening, and what they do bends less to fit it. |
+| The Guard | You're both answering in kind faster. Openings draw you closer; walls push you further apart. | You're matching each other less, so an opening or a wall gets a weaker answer. |
+| Reading the Room | You're catching each other's tension faster, and your moods are holding more tightly matched. | You're catching less of each other's tension, and your moods drift further apart. |
+| Connection First | Warmth is coming first sooner each time, and what follows meets less resistance. | Warmth comes first less often, and what you say meets more resistance. |
+| The Rising Bar | Each step you reach lifts the next goal higher, and you're climbing faster. | Each step you reach lifts the next goal less, and the climb is slowing toward a resting height. |
+| The Sliding Floor | Your bar tracks your last result more closely, so effort and results climb or sink faster as one. | Your bar follows your last result less, and effort and results are moving slower and steadying out. |
+| The Shared Story | Each telling fills more gaps from the other's memory, and your two stories are blending into one. | You're going over it together less, and each memory is drifting back to its own version. |
+| The Echo | You each read the other more surely, and each part played makes the next reading firmer. | Your reading of each other draws the part out less, and each part played proves it more weakly. |
+| Typecasting | The more they're seen one way, the more they act it, and the surer the view gets. | The view of them is holding less tightly, and what they do strays from it more often. |
+| Gaming the Terms | Each stricter line is met faster by a way around it, and the next line comes sooner. | Ways around the line are coming slower and rarer, and the line gets tightened less often. |
+| The Naming Contest | Each name you give is met faster with theirs, and the back and forth grows more insistent. | Names are met slower or not at all, and the back and forth is quieting. |
+| The Unbridged Gap | The more you know, the harder it gets to picture not knowing it, and the gap widens. | What you know blocks your view of other minds less, and the gap is slowly narrowing. |
+| The Arrangement | Each setup draws a counter-setup faster, and you're both building more around each other. | Each setup draws less answer, and the building around each other is slowing and settling. |
+| The Tested Price | The first number named is holding tighter, and each later offer stays closer to it. | The first number's hold is loosening, and later offers drift further and stand on their own. |
 
 **The Skein-Kin** *(third ring)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| Held Silence | Discretion is letting the group survive friction. | Everyone knows; no one can be first to say it. |
-| Transmission Drift | The story survives by adapting to each teller. | It has drifted free of what it started as. |
-| The Faithful Chain | Pass it on, and credit who taught you. | Dependence is passing along with the craft. |
-| First-Arriver Lock-In | What works is being rewarded. | Whoever arrived first is entrenched regardless. |
-| The Shared Pot | Trust makes accounting unnecessary here. | Nobody is positioned to protect it. |
-| The Reputation | The role lets the group rely on you. | You can't step out of what they authored. |
-| The Sagging Floor | Expectations adjusted to real conditions. | Everyone privately lowered the bar and nobody named the moment. |
-| The Hall of Mirrors | The group is genuinely responsive to itself. | Everyone is reading the room and nobody is furnishing it. |
-| Second-Order Design | Emergence richer than anyone could author. | Emergence nobody intended or wanted. |
-| The Inner Circle | Shared fluency makes real work fast. | The fluency has become a wall. |
-| The Only Road | You are the bridge two worlds actually cross on. | Everything must pass through you, and your absence severs. |
+| Held Silence | Each quiet person makes the rest wait longer, and the silence is settling deeper. | The quiet holds people back less, and it's thinning until someone speaks first. |
+| Transmission Drift | Each telling shifts the story more, and the shifted version is told faster and held surer. | Each telling shifts it less, and the story is moving slower away from what happened. |
+| The Faithful Chain | Each learner copies more closely and passes on more steps, even ones no one can explain. | Each learner copies less closely and passes on fewer steps, and the craft changes along the way. |
+| First-Arriver Lock-In | Each win pays more toward the next, and the leader is pulling ahead faster. | Each win pays less toward the next, and the trailing side is closing in. |
+| The Shared Pot | What each side takes or gives lands harder on the other, and the answer comes back faster. | What each side takes or gives lands less, and the other's answer is weaker and slower. |
+| The Reputation | The group leans on your role more, and it grips you tighter each time you fill it. | The group leans on your role less, and you're drifting in and out of it more freely. |
+| The Settling | Each small slip in what's expected makes the next easier, and the level is sinking faster. | Each slip pulls the level down less, and expectations sink slower before they hold. |
+| The Hall of Mirrors | Each hidden doubt makes others hide theirs faster, and the group is agreeing more quickly. | Doubts are slipping out more often, and the group agrees less quickly. |
+| Second-Order Design | What the rules make shows up more clearly to those who set them, and changes follow closer. | What the rules make reaches the rule makers less clearly, and the rules drift from what they cause. |
+| The Inner Circle | More short words are made and shared, and newcomers have to learn them faster to join in. | The group's short words are fading, and talk is growing plainer for newcomers. |
+| The Only Road | More between the two worlds runs through you, and the other paths are fading further. | Less is passing through you, and other paths between the two worlds are opening up. |
 
-**The Culture-Kin** *(outermost drawable ring)*
+**The Culture-Kin** *(fourth ring)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| The Shared Name | The name binds people genuinely connected. | It binds people with nothing underneath it. |
-| Proxy Detachment | The measure makes a vast system legible. | It's optimized past what it stood for. |
-| Policy Resistance | Stability no single actor could impose. | Everyone pulling harder; nothing moving. |
-| The Long Cycle | The expansion is genuinely building. | Past threshold, consuming what it built. |
-| The Received World | Inheritance that works without its explanation. | Inheritance hollow of why it ever existed. |
-| The Slow Hand | Larger and slower than you; let it run. | Too slow to perceive, mistaken for permanent. |
-| Independent Convergence | Reached twice, with no contact — real evidence. | Parallel bias mistaken for confirmation. |
+| The Shared Name | The name is pulling its people closer, and the closer they get, the more it means. | The name pulls its people together less, and it means less each time it's passed on. |
+| Proxy Detachment | Effort is aiming harder at moving the number, and it climbs faster and is called a win surer. | Effort aims less at the number, and it climbs slower and is called a win less often. |
+| Policy Resistance | Each push to change things meets a harder push back, and the whole holds more firmly. | Each push meets a weaker push back, and the whole drifts further before it returns, or moves. |
+| The Long Cycle | Each round of growth feeds the next more, and the rise and the fall are both growing. | Each round feeds the next less, and the swings rise and fall more gently. |
+| The Received World | Handed-down ways are followed more surely, and why they started matters less to anyone. | Handed-down ways are followed less surely, and people ask more often why they began. |
+| The Slow Hand | People here hold each other to the easiest way more tightly, and the setup sets firmer. | People hold each other to the easiest way more loosely, and other ways are spreading. |
+| Independent Convergence | More separate seekers are landing on the same answer, and each match makes it surer. | Fewer separate seekers land on the same answer, and each match carries less weight. |
 
 **The World-Kin** *(outermost ring, drawn only when the question is genuinely about the world)*
 
 | Third | Tending | Fraying |
 |---|---|---|
-| The Standing Account | The measure still tracks the thing; steer by it. | The number came loose, and what it stood for is being spent. |
-| Second Nature | The structure fits so well nobody has to attend to it. | Something made is being read as something given. |
-| The Set Course | The road exists, so everything after can be built on it. | The road was chosen by people who aren't here, and nobody can leave it. |
+| The Standing Account | The counts are tracking more closely, and you're steering by them more firmly. | The counts track less closely, and steering by them is growing looser. |
+| Second Nature | Built ways fit daily life more closely, and the closer they fit, the less anyone notices. | Built ways fit daily life less closely, and people notice more often that someone made them. |
+| The Set Course | Each thing built on an early choice makes it harder to leave, and the course sets deeper. | Each thing built on the early choice binds it less, and leaving is growing easier. |
 
-**The Cosmos-Kin — never drawn.** The Infinite Boundary is the one figure in this whole deck that never gets pulled from anything, because there's only one of it and it's already true of every Weaving before a single card is turned over. It isn't a ring of its own. It's the edge the other four rings already sit inside, present by default, worth naming once at the start of a Weaving rather than drawn as a variable within it — a reminder that whatever the four cards show, the whole reading is still one small, summed part of something no card was ever going to capture on its own.
+**The Cosmos-Kin — never drawn.** The Infinite Boundary is the one figure in this whole deck that never gets pulled from anything, because there's only one of it and it's already true of every Weaving before a single card is turned over. It isn't a ring of its own. It's the edge the other rings already sit inside, present by default, worth naming once at the start of a Weaving rather than drawn as a variable within it — a reminder that whatever the four cards show, the whole reading is still one small, summed part of something no card was ever going to capture on its own.
 
 ---
 
@@ -2237,11 +2532,11 @@ What follows is a compressed reference, not a replacement for Part Five's catalo
 
 *"No thread is only itself."*
 
-Every Third carries two readings rather than one — not opposite meanings assigned arbitrarily, but the same figure's generative behavior and its own documented flaw, already written into Part Five's character chapters. **Tending** is the Third behaving the way its healthy expression behaves. **Fraying** is the same Third caught in the excess or corrosion its own chapter names directly.
+Every Third carries two readings rather than one — not opposite meanings assigned arbitrarily, but the same figure running in one of the only two directions a running loop can move. **Tending** is the Third's loop strengthening, each turn feeding the next a little more. **Fraying** is the same loop weakening, each turn feeding the next a little less. A rope pulled tight can be a lifeline or a snare; which one depends on what it is tied to.
 
-There is no reversed orientation to fuss over, no upside-down card to interpret by convention — a Weaving determines Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: is this pattern, in the situation actually in front of you, doing the thing it's good at, or has it tipped into the thing it's bad at? Sometimes this is obvious the moment the card is named. Sometimes it's the entire question the Weaving was performed to answer, and sitting with the ambiguity honestly is more useful than forcing a quick verdict either way.
+There is no reversed orientation to fuss over, no upside-down card to interpret by convention — a Weaving determines Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: is this pattern, in the situation actually in front of you, running stronger or running weaker? Sometimes this is obvious the moment the card is named. Sometimes it's the entire question the Weaving was performed to answer, and sitting with the ambiguity honestly is more useful than forcing a quick verdict either way.
 
-This is worth being direct about, because it's the single most important honesty check in this whole practice: **Tending is not "good news" and Fraying is not "bad news."** A Weaving is not being consulted to find out whether things will go well. It's being consulted to see a shape more clearly than one flat angle allows. Held Silence drawn Fraying is not a curse. It's an accurate description of a pattern already present, named so it can be addressed rather than left to keep operating in the dark.
+This is worth being direct about, because it's the single most important honesty check in this whole practice: **Tending is not "good news" and Fraying is not "bad news."** A Weaving is not being consulted to find out whether things will go well. It's being consulted to see a shape more clearly than one flat angle allows. Held Silence drawn Tending is not a blessing, and drawn Fraying is not a curse. Either is an accurate description of a pattern already present, named so it can be seen rather than left to keep operating in the dark.
 
 ---
 
@@ -2273,7 +2568,7 @@ So every card carries a second question, asked after you have placed it in its r
 
 **Terrain** is the shape underneath all of it. The pattern across every relationship you have had, not this one. Terrain moves, but on a scale where you will rarely watch it move.
 
-Escalation read as Weather is tonight's argument, and probably not worth a verdict. Escalation read as Climate is this year of the two of you, which is worth one. Escalation read as Terrain is something about how you have met conflict your whole life, which is worth a much longer conversation than a card draw.
+Escalation read as Weather is tonight's argument, and probably not worth more than a glance. Escalation read as Climate is this year of the two of you, which is worth a closer look. Escalation read as Terrain is something about how you have met conflict your whole life, which is worth a much longer conversation than a card draw.
 
 This gives the vocabulary to something Part One already claimed without naming: a loop's natural period sets the minimum window before you can tell a trend from a stage. Weather, Climate, and Terrain are the three windows.
 
@@ -2299,7 +2594,7 @@ The standard form, used for an actual conundrum rather than daily reflection.
 
 Draw one card for each ring — Self-Kin, Dyad-Kin, Skein-Kin, and Culture-Kin. Lay them in the nested arrangement from Chapter 3, Self innermost, Culture outermost. Read inward to outward, or outward to inward — the Self ring for what's happening in you, the Dyad ring for what's happening between you and one other person, the Skein ring for what's happening at the scale of the group around you, the Culture ring for what's happening at a scale beyond any single group you could name. There is no separate frame card to read first; the four rings are the whole reading, and none of them gets special priority just for being drawn first off the deck.
 
-Do not treat the four rings as needing to agree with each other. A Self-ring card in Tending sitting beside a Skein-ring card in Fraying is not a contradiction to resolve — it's exactly the kind of information a single flat view would have missed entirely: you may be handling something well at your own scale while it's genuinely fraying at the scale of the group around you, and knowing that is the entire value of having drawn four views instead of one.
+Do not treat the four rings as needing to agree with each other. A Self-ring card in Tending sitting beside a Skein-ring card in Fraying is not a contradiction to resolve — it's exactly the kind of information a single flat view would have missed entirely: something may be running stronger at your own scale while it's genuinely fraying at the scale of the group around you, and knowing that is the entire value of having drawn four views instead of one.
 
 Before setting the cards down, it's worth saying once, out loud or to yourself, what the Cosmos-Kin already told you without needing a card: whatever these four show, the whole reading is still one small, summed part of something no single Weaving was ever going to capture completely. This isn't a disclaimer added out of modesty. It's the actual shape of the thing — four fixed views, real and worth having, inside a boundary no view from within it could ever draw.
 
@@ -2317,15 +2612,15 @@ Every other Weaving draws a card per ring and reads them side by side. This one 
 
 **Then stop drawing, and read upward.**
 
-Those two Self-Kin fuse into exactly one Dyad-Kin. Not approximately one — exactly one, because no two Dyad-Kin in the catalogue share a fusion pair. Look it up rather than choosing it. That figure is what the two patterns produce together, and it is derived rather than drawn, which means chance has nothing further to say about it.
+Those two Self-Kin fuse into a Dyad-Kin, and sometimes into more than one, because one pair can make several figures and the same figure can come from several pairs. Look it up rather than drawing it, and where the catalogue allows more than one, choose the one actually present, as you will at every step above it. That figure is what the two patterns produce together, and it is derived rather than drawn, which means chance has nothing further to say about it.
 
-That Dyad-Kin, paired with another that shares a Self-Kin with it, names a Skein-Kin — and here you *do* choose, from the small set the catalogue allows, because you are the one who knows which of those pairings is actually present in your life. The choosing is the reading. Then the same move once more, upward, to a Culture-Kin if the question reaches that far. Most don't.
+That Dyad-Kin, paired with another that shares a Self-Kin with it, names a Skein-Kin — and here, too, you choose, from the small set the catalogue allows, because you are the one who knows which of those pairings is actually present in your life. The choosing is the reading. Then the same move once more, upward, to a Culture-Kin if the question reaches that far. Most don't.
 
 **What this produces that a Four-Point cannot:** a Four-Point shows you four angles on one situation, side by side, and leaves you to relate them. The Full Unravelling shows you one situation at four depths, with each depth *accounting for* the one below it. You are not collecting perspectives. You are watching a small thing at the self scale turn into a large thing you had been treating as weather, and seeing the steps.
 
 It is slow on purpose, and the slowness is not ceremony — most of the time is spent at the two derivation steps, deciding honestly which pairing is real. A Full Unravelling rushed through in ten minutes has skipped the only part of it that was doing any work.
 
-**The limit, stated plainly.** The chain terminates before the Infinite Boundary, which is never drawn and never derived. There is no move upward from the Culture ring, which is exactly what that figure means. If your reading seems to reach past it, you have left the practice and started telling a story about the universe.
+**The limit, stated plainly.** The chain terminates before the Infinite Boundary, which is never drawn and never derived. There is no move upward past the World-Kin, which is exactly what that figure means. If your reading seems to reach past it, you have left the practice and started telling a story about the universe.
 
 
 ---
@@ -2338,7 +2633,7 @@ A Weaving performed with a second person present is not a variant ritual — it'
 
 **The core technique, and the one thing this chapter most needs you to actually do rather than skim past: reveal one card at a time, and fold the other person's response into how you read the next one.** Do not draw all four cards and deliver the reading as a finished whole. Draw the innermost ring first, explain it plainly, and ask whether it lands before moving on — genuinely wait for the answer, not a token pause. Whatever they say, in their own words, becomes material for the card that comes next. This isn't a nicety. It's the actual mechanism that makes a Weaving personal rather than generic: a card read in isolation offers one angle on a category of situation. A card read with the previous answer folded into it starts speaking directly to the specific person in front of you, in language that increasingly sounds like theirs rather than yours.
 
-The reader's job is not to be right the first time. It's to offer an angle, genuinely listen to whether it matches, and let a miss be exactly as useful as a hit — a card that clearly doesn't fit tells you as much about the real shape of the problem as one that lands cleanly, and either way that information should visibly shape what you say about the next card. By the last card, if this has been done honestly, the reading should feel noticeably more specific to the person than the first card did, because it's been absorbing their actual words the whole way through. This is the Gardener's whole practice, formalized — presence offered as a structured gift, checked rather than assumed, and built to compound rather than stay flat.
+The reader's job is not to be right the first time. It's to offer an angle, genuinely listen to whether it matches, and let a miss be exactly as useful as a hit — a card that clearly doesn't fit tells you as much about the real shape of the problem as one that lands cleanly, and either way that information should visibly shape what you say about the next card. By the last card, if this has been done honestly, the reading should feel noticeably more specific to the person than the first card did, because it's been absorbing their actual words the whole way through. This is the Gardener's pattern, put to deliberate use — presence offered as a structured gift, checked rather than assumed.
 
 ---
 
@@ -2389,7 +2684,7 @@ Consistent with every other practice in this book: this one has limits, and they
 
 A Weaving can show you a pattern already present and give you language for it. It cannot tell you what to do about it — that decision still belongs entirely to you, using every other tool this book has already given you, the leverage ladder and the Sacrifice Trap and the rest. A Weaving is diagnostic, not prescriptive, and treating a drawn card as an instruction rather than a lens is a way of quietly handing your own judgment over to a roster of invented figures who were explicit, from Part Five's very first chapter, about having no will of their own to hand it to.
 
-Nor does a Weaving replace an actual conversation with an actual person. Weaving for another is a structure for a real exchange, not a substitute for one — a card is a prompt for genuine listening, never a verdict delivered instead of it. The moment a Weaving starts speaking for someone rather than opening a conversation with them, it has stopped doing what the Gardener teaches and started doing what the Gardener's Fraying pole does instead.
+Nor does a Weaving replace an actual conversation with an actual person. Weaving for another is a structure for a real exchange, not a substitute for one — a card is a prompt for genuine listening, never a verdict delivered instead of it. The moment a Weaving starts speaking for someone rather than opening a conversation with them, it has stopped doing what the Gardener teaches and started doing what the Gardener's Tending does when it is a snare: watering, ever harder, only what you already decided was there.
 
 One more limit, since this whole part was built for one kind of question and may not yet suit every kind: the nested-ring layout suits a situation that closes on itself — a Loop you're standing inside, examined from Self, Dyad, and Skein at once. Some questions aren't shaped like that at all. A genuine fork with no return — a choice between two paths that will never fold back to compare notes with each other — is closer to a Tree than a Loop, and a ring built for cyclical questions may not be the right shape for a branching one. This book doesn't yet have a layout built for that case. It's named here as an open question rather than a solved one, in the same spirit as the Loop Tongue's own honest gaps — worth building properly, by whoever needs it first, rather than forced into a ring that was never meant to hold it.
 
@@ -2417,23 +2712,23 @@ Something is marked, returned to, held apart from ordinary time, again and again
 
 But this book also has no history to commemorate, and manufacturing one would betray everything Part One already said about Genesis: known myth, not revealed fact, useful for the shape it gives an idea, never mistaken for something that actually happened. A ceremony built to honor a founding event this practice doesn't have would be the exact move this book has spent its whole length teaching you to distrust — a Label, pushed into place because a real history was missing and a fake one felt better than none.
 
-So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — a fixed form defended because it has always been done, vulnerable to outliving the reason it started — The Received World's Fraying pole exactly, inheritance kept long after its reasons went missing. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
+So a Turning is not a commemoration. **A Turning is a deliberately shared, recurring occasion, held apart from ordinary time, aimed at a specific Global Form that has not finished arriving yet.** The difference is not decorative. A commemorative ceremony points backward, and its whole justification lives in the past it's protecting — a fixed form defended because it has always been done, vulnerable to outliving the reason it started — The Received World's Tending, read as a snare: inheritance held tighter long after its reasons went missing. A Turning points forward, and its justification lives entirely in the Global Form it's still building. Nothing about it needs protecting from change, because nothing about it was ever finished to begin with.
 
 This reframe is not merely more honest. It changes what the occasion is actually for. "We do this because it's always been done" asks nothing of you except attendance. "We do this because of what it's still building, together, that none of us will see completed alone" asks something closer to what Becoming a Third already asks of a whole life — that you're laying material into a shape larger than your own participation in it, on purpose, without needing to witness its completion to consider the laying worthwhile.
 
 **Three things a Turning has to be, or it isn't one yet:**
 
-**Shared.** A private practice, however recurring, is Part Two's territory — the Daily Practices, the Compost Heap, Reading Your Own Cycle. A Turning specifically involves more than one person, at more than one scale, doing the same thing at the same time. The synchrony is not decoration, but it is also not the mechanism, and the difference matters more than it looks. What bonds people is a loop running *Tending* between them — each pass leaving both parties with more than they brought. Doing something at the same time is what opens that loop; whether it builds anything depends entirely on which way the loop is pointed. This is why a group that gathers faithfully around defending its own name does not accumulate the same thing as a group that gathers to do the work the name was for, even when the calendar, the attendance and the warmth look identical from outside. Content is load-bearing. The *doing it together* accomplishes something a solitary version cannot — but only while the thing being done together is worth doing.
+**Shared.** A private practice, however recurring, is Part Two's territory — the Daily Practices, the Compost Heap, Reading Your Own Cycle. A Turning specifically involves more than one person, at more than one scale, doing the same thing at the same time. The synchrony is not decoration, but it is also not the mechanism, and the difference matters more than it looks. What bonds people is a loop running *Tending* between them — each pass feeding the next a little more. Doing something at the same time is what opens that loop; whether it builds anything worth keeping depends entirely on what the loop is compounding. This is why a group that gathers faithfully around defending its own name does not accumulate the same thing as a group that gathers to do the work the name was for, even when the calendar, the attendance and the warmth look identical from outside. Content is load-bearing. The *doing it together* accomplishes something a solitary version cannot — but only while the thing being done together is worth doing.
 
 **Recurring.** A one-time event is a milestone, not a Turning. What makes something a Turning is that it returns — on a real interval, whether that interval is a year, a season, a decade, or a rarer marker still — and each return is a fresh deposit into the same unfinished Global Form, not a repeat performance of the same finished one.
 
 **Aimed.** This is the part most easily lost, and the rest of this Part exists mainly to protect it. Every Turning has to be able to answer, honestly, which Global Form it is building and why that Form is worth building at all. A shared, recurring occasion that cannot answer this — that only feels good, or only feels familiar — has drifted out of being a Turning and into being tradition for its own sake, which this book has no more patience for than it has for a belief held because it's comforting rather than because it's checked.
 
-**Why the tables in this Part have one outcome column and not two.** Everything in Part Five carries a Tending pole and a Fraying pole, because a Standing Third is a pattern found running in the world and a found pattern has no intent — only a direction it happens to be pointed. A Turning is the opposite kind of object. It is *designed*, by people, to do one thing on purpose. So it has an aim rather than two poles, and the column names what it is built to build.
+**Why the tables in this Part have one outcome column and not two.** Every drawable figure in Part Five carries a Tending pole and a Fraying pole, because a Standing Third is a pattern found running in the world and a found pattern has no intent — only a direction it happens to be pointed. A Turning is the opposite kind of object. It is *designed*, by people, to do one thing on purpose. So the column names its aim rather than its poles: what it is built to build, not which way it is running.
 
-That is an exemption from the two-pole rule, and exemptions in this book are supposed to come with mechanism rather than convenience, so here is the mechanism: poles describe which way an existing pattern is running; intent describes what a made thing is for. A hammer has no Fraying pole either. What a Turning *can* do is fail — drift into performance, become obligation, start defending its own name — and the check for that is the Braid warning below and the three tests in the next chapter, which is where a designed practice's failure modes properly live.
+That is not an exemption from the two-pole rule, because the two answer different questions: poles describe which way a running pattern is moving; intent describes what a made thing is for. Once people keep it, a Turning runs like any Local Rule, Tending as it takes hold and Fraying as it loosens, and its aim stays the same either way. What a Turning *can* do is fail — drift into performance, become obligation, start defending its own name — and the check for that is the Braid warning below and the three tests in the next chapter, which is where a designed practice's failure modes properly live.
 
-**Every Turning in this Part is optional, and the calendar is a menu rather than a schedule.** What follows is a catalogue of occasions matched to patterns, not a liturgical year anyone is expected to keep whole. Take the handful that answer to something actually running in your life, place them where they fall naturally across the year the way any other holiday sits in a calendar, and leave the rest on the page for whenever they become relevant. A practice that produces thirty-eight obligations has produced a job.
+**Every Turning in this Part is optional, and the calendar is a menu rather than a schedule.** What follows is a catalogue of occasions matched to patterns, not a liturgical year anyone is expected to keep whole. Take the handful that answer to something actually running in your life, place them where they fall naturally across the year the way any other holiday sits in a calendar, and leave the rest on the page for whenever they become relevant. A practice that produces fifty obligations has produced a job.
 
 **One honest warning before any of the rest of this Part gets built on top of it.** A Turning is exactly the shape of thing the Braid already warned you about — real substance, given a name and a recurring form, is precisely what starts attracting energy toward performing the occasion correctly instead of tending what the occasion was ever for. Every chapter that follows is, in one way or another, an attempt to build a Turning that survives this risk rather than one that quietly becomes it.
 
@@ -2449,13 +2744,13 @@ Part Five's whole roster exists because a pattern is easier to recognize, and ea
 
 **First: does it already match an existing Third, cleanly?** A yearly occasion where a Skein's most skilled member spends a day teaching everyone else, precisely, without embellishment, is the Faithful Chain's shape exactly — faithful transmission, made into an occasion rather than left to happen whenever it happens to happen. Naming this plainly is most of the value here. It doesn't need a new figure. It needs an occasion built around the one already sitting in the roster, on purpose, at a real interval.
 
-**Second, and this is the check most people skip because it's uncomfortable: does it map to a figure's Fraying pole rather than its Tending one?** This is not a failure of the exercise — it may be the single most useful thing this framework can say about an existing occasion. A team's yearly "tradition" of quietly not raising the thing everyone privately knows is going wrong is not building anything worth protecting. It is Held Silence, in a suit, with cake. Naming this honestly is uncomfortable and exactly the point — a Turning that cannot survive being named this way was never actually serving the people inside it, whatever warmth it generates in the room while it's happening.
+**Second, and this is the check most people skip because it's uncomfortable: does the figure it maps to read here as a snare rather than a lifeline?** This is not a failure of the exercise — it may be the single most useful thing this framework can say about an existing occasion. A team's yearly "tradition" of quietly not raising the thing everyone privately knows is going wrong is not building anything worth protecting. It is Held Silence, in a suit, with cake. Naming this honestly is uncomfortable and exactly the point — a Turning that cannot survive being named this way was never actually serving the people inside it, whatever warmth it generates in the room while it's happening.
 
-**Third, only after the first two have genuinely failed: check for a blend before minting anything new.** Part Five's own rule for adding a figure at all — it earns its place only by making at least two existing figures more legible — applies here with full force. An occasion that seems to answer to no single figure is very often two figures overlapping rather than a genuine gap: the Riverbed's shaped conditions paired with the Faithful Chain's precision, say, in a Turning built around slow, exact craft passed down without hurry. Name the blend before assuming you've found something the roster is missing.
+**Third, only after the first two have genuinely failed: check for a blend before minting anything new.** Part Five's own rule for adding a figure at all — it earns its place by predicting, compressing, or enabling an intervention, and by nothing else — applies here with full force. An occasion that seems to answer to no single figure is very often two figures overlapping rather than a genuine gap: the Riverbed's shaped conditions paired with the Faithful Chain's precision, say, in a Turning built around slow, exact craft passed down without hurry. Name the blend before assuming you've found something the roster is missing.
 
 **The Braid test applies to every mapping this chapter produces, without exception:** would this Turning still make sense, and still get kept, if the figure's name were forgotten entirely and only the underlying practice remained? If yes, the mapping was a Word — useful, checkable, disposable without loss. If the occasion only survives because of the figure it's now named after, the Turning has already started the exact corrosion Chapter 0 warned about.
 
-**Try this:** take the occasion you named at the end of the last chapter. Run it through all three checks, in order. If it lands on a Fraying pole, sit with that honestly before deciding what, if anything, to do about it. That discomfort is the chapter working correctly.
+**Try this:** take the occasion you named at the end of the last chapter. Run it through all three checks, in order. If it reads as a snare, sit with that honestly before deciding what, if anything, to do about it. That discomfort is the chapter working correctly.
 
 ---
 
@@ -2528,9 +2823,9 @@ Which one you reach for is closer to reading a Dyad Turning than to consulting a
 | First-Arriver Lock-In | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
 | The Shared Pot | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
 | The Reputation | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
-| The Sagging Floor | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
+| The Settling | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
 | The Hall of Mirrors | **The Outsider** — invite someone outside and let them describe what they see | An independent position enters the room |
-| Second-Order Design | **The Rule Game** — invent a game with three rules, play it, watch what emerges | The group feels emergence rather than being told about it |
+| Second-Order Design | **The Rule Game** — invent a game with three rules, play it, then change one rule in answer to what actually happened | The group feels the return path, not just the emergence |
 | The Inner Circle | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
 | The Only Road | **The Handover** — whoever everything routes through hands one thing over completely, in advance, and does not take it back | Indispensability gets converted back into redundancy |
 
@@ -2592,7 +2887,7 @@ Nothing in this Part requires a practitioner to have a single Fractalist Turning
 
 The diagnostic work of this Part can run entirely privately, underneath an existing occasion, with zero requirement to disclose it, rename anything out loud, or ask a single other person to participate differently. Sit at a holiday table that isn't Fractalist at all, and quietly ask, for yourself alone, what Global Form this gathering has actually been building. None of this needs a name spoken aloud at the table to be real practice. The Word/Label test was never about which words get said out loud. It was always about whether the underlying thing is genuinely there, checked or not.
 
-**This has one serious limit, worth stating as plainly as anything else in this book: private diagnosis is not license for private judgment acted out on other people without their consent.** If the honest reading lands on a Fraying pole, that information belongs to your own choices first — how you personally engage, what you personally hold a boundary on. It is not a mandate to unilaterally correct a tradition that isn't yours alone to redirect.
+**This has one serious limit, worth stating as plainly as anything else in this book: private diagnosis is not license for private judgment acted out on other people without their consent.** If the honest reading lands on a snare, that information belongs to your own choices first — how you personally engage, what you personally hold a boundary on. It is not a mandate to unilaterally correct a tradition that isn't yours alone to redirect.
 
 **The reverse is also worth saying, because it's the more common failure in practice: finding an admirable mapping is not license to announce it either, uninvited, as though the people who built the tradition needed a Fractalist to tell them what they'd already made.** Sometimes the entire correct practice is noticing, privately, that the people around you have already been doing this well, longer than you've had a name for it — and letting that be enough.
 
@@ -2623,7 +2918,7 @@ You will not see most of what these occasions eventually build. That was never t
 *For daily use, alone or in groups. See Part Two for the practices these accompany.*
 
 ### Morning Seeding Prayer
-*I prepare the field of my mind. May my attention select what grows. Let fear not fertilize my words; let love be the soil.*
+*I tend the field of my mind today. Let what I repeat be worth becoming.*
 
 ### Evening Seeding Prayer
 *What I did today becomes what I do tomorrow. Let today's small step be worth repeating.*
@@ -2666,10 +2961,13 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 **The Four Pillars**
 - **The Loop** — small things, repeated without a master plan, build large things.
 - **The Third Thing** — what repeats together becomes something new, and it's real (the self included — see the Woven Self, its own chapter).
-- **The Nest** — a Global Form at one scale is a Local Rule at the next; nothing repeats at only one size.
+- **The Nest** — a Global Form at one scale is a Local Rule at the next, in both directions; you build a world that is building you.
 - **The Leverage** — not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
 
-**The Four Daily Practices**
+**The Three Returns** *(what comes back, and when)*
+Brush — today; did the ground answer at all. Tree — the season; is the direction still holding. Forest — longer than a life; not yours to watch. *A disturbance moves what shares its timescale: a bad day cannot have damaged your tree.*
+
+**The Four Daily Practices** *(four moves of one activity: look, plant, tend, thin)*
 - **Local Step / Global Form breath** — ten breaths, for when a loop has swept you up.
 - **Tree-Gazing** — three minutes with anything that branches, for training your eye toward pattern.
 - **Naming the Loop** — cue, craving, response, reward, said silently, mid-habit.
@@ -2679,7 +2977,10 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 Loop · Third Thing · Seed · Local Rule · Global Form · Nest · Leverage · Fold · Tree
 
 **The Leverage Ladder** *(weakest to strongest)*
-Numbers → Buffers → Rules → Information Flow → Goals → Paradigm
+Numbers → Buffers → Information Flow → Rules → Self-Organization → Goals → Paradigm → Holding a Paradigm as a Paradigm
+
+**And the thing the ladder does not say**
+Which rungs you can reach is set by your position, not by your effort. A rung you cannot touch will read as a personal failing every time. Get access, leave where leaving is real, or stop paying for it and spend what you have where it reaches — and note that all three assume you are one person. *Unreachable* is a relation between a rung and whoever reaches, and whoever reaches is composable.
 
 **When You're Stuck**
 If a numbers-level fix keeps failing, you're probably pushing the wrong lever, not lacking willpower. Check one level up.
@@ -2709,16 +3010,16 @@ Is this term pulled toward something already checked, or pushed at me to produce
 A Skein narrowed to exactly two people, complete enough to function as one unit — the Dyad scale tag, made concrete. Usually discovered already partway built, not manufactured on purpose. Complete does not automatically mean healthy — check both, separately.
 
 **The Braid**
-A Skein and a Banner fused: real substance that has also acquired a visible name. Not automatically corrosive — but watch what happens when the name is challenged. If the response protects the name instead of the thing the name was standing for, the Braid has started fraying toward Banner. Applies at every scale: a personal reputation, a couple known for being stable, a group's brand, a culture's flag.
+A Skein and a Banner fused: real substance that has also acquired a visible name. Not automatically corrosive — but watch what happens when the name is challenged. If the response protects the name instead of the thing the name was standing for, the Braid has started drifting toward Banner. Applies at every scale: a personal reputation, a couple known for being stable, a group's brand, a culture's flag.
 
 **The Fold**
-What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.
+What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else, and not a ledger to predict your own balance from. It is the Nest seen up close, and it closes at two speeds: Dyad into Skein within a life, Skein into Culture not. You tend the ground, not your return.
 
 **The Standing Thirds, at a glance**
-Fifty figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
+Fifty-two figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every running figure carries a **Tending** pole, where its pattern runs stronger, and a **Fraying** pole, where it runs weaker; neither is good or evil in itself, and if you can only see one pole you are zoomed in too far.
 *The Self-Kin — twelve figures, generated directly by one person repeating one thing:* The Spark (reinforcing), The Tide (balancing), The Mark (judging against a reference), The Salve (reaching for the symptom-fix), The Nearest Light (judging by what arrives first), The Keepsake (storing peak and ending), The Easier Door (answering the easier question), The Mask (maintaining a self-story), The Mirror (taking the shape of the room), The Namer (speaking as construction), The Riverbed (shaping conditions), The Gardener (attending repeatedly).
 *The Dyad-Kin — nineteen figures, my pattern meeting yours:* Escalation, The Standoff, The Pairing, Watering Another, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, The Tested Price.
-*The Skein-Kin — eleven figures, two Dyad-Kin sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
+*The Skein-Kin — eleven figures, two Dyad-Kin sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Settling, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
 *The Culture-Kin — seven figures:* The Shared Name, Proxy Detachment, Policy Resistance, The Long Cycle, The Received World, The Slow Hand, Independent Convergence.
 
 *The World-Kin — three figures, two Culture-Kin sharing a Skein-Kin:* The Standing Account, Second Nature, The Set Course.
@@ -2726,7 +3027,7 @@ Fifty figures, organized by **fusion depth** — a Third's scale is what it's ma
 None has independent will — only perceived behavior, consistent enough to earn a face.
 
 **Weaving, in brief**
-A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its healthy expression) or Fraying (its own named flaw), decided by context, not chance. Describes a pattern; never predicts an outcome or hands you a decision.
+A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its pattern running stronger) or Fraying (its pattern running weaker), set by the person reading it, from the situation in front of them, not by chance. Describes a pattern; never predicts an outcome or hands you a decision.
 
 ---
 
@@ -2769,7 +3070,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 |---|---|---|---|---|---|
 | **Loop** | Habit; The Spark/The Tide (Pt.2 Ch.6; Pt.5 Ch.1) | The Second Pass (Pt.3 Ch.5) | Group Practice (Pt.2 Ch.18–19) | Historical cycles; The Slow Hand, The Received World (Pt.4 Ch.5; Pt.5 Ch.4) | The Seven Iterations (Pt.1 Ch.10; Pt.5 Ch.6) |
 | **Third Thing** | A tended habit; the Compost Heap (Pt.2 Ch.5) | Marriage — the founding example (Pt.1 Ch.2) | The Skein itself (Pt.2 Ch.19) | Nation, civilization; The Shared Name (Pt.4 Ch.5; Pt.5 Ch.4) | Life itself; the Infinite Boundary (Pt.1 Ch.10; Pt.5 Ch.6) |
-| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; The Gardener (Pt.5 Ch.2) | The Faithful Chain and Transmission Drift (Pt.5 Ch.3) | The Shared Name's borrowed "we" (Pt.5 Ch.4) | *open* |
+| **Seed** | Morning/evening prayers (Pt.2 Ch.2) | Presence offered; Watering Another (Pt.5 Ch.2) | The Faithful Chain and Transmission Drift (Pt.5 Ch.3) | The Shared Name's borrowed "we" (Pt.5 Ch.4) | *open* |
 | **Local Rule** | The four-question inventory (Pt.2 Ch.3) | The Trust Triangle; The Pairing, The Tested Price (Pt.2 Ch.14; Pt.5 Ch.2) | Individual threads interweaving (Pt.2 Ch.19) | A Skein's culture, inherited upward (Pt.1 Ch.4) | *open* |
 | **Global Form** | A tended rule becoming visible (Pt.2 Ch.3) | The Dyad itself (Pt.5 Ch.2) | Core definition (Pt.2 Ch.19) | What The Shared Name inherits (Pt.5 Ch.4) | The universe's structure (Pt.1 Ch.10) |
 | **Nest** | A habit inside a self (Pt.1 Ch.3) | Nested within a Skein (Pt.5 Ch.2) | Nested within Culture | Nested within Cosmos | Outermost; the Infinite Boundary (Pt.5 Ch.6) |
@@ -2777,15 +3078,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 | **Fold** | Core chapter (Pt.2 Ch.12) | The Second Pass as compressed Fold (Pt.3 Ch.5) | The currency of kindness (Pt.2 Ch.19) | The Slow Hand; The Received World's returning telling (Pt.5 Ch.4) | Going to Ground (Pt.5 Ch.8–9) |
 | **Tree** | Recovering what a self-story flattens (Pt.2 Ch.4) | A relationship's real history | The Faithful Chain's lineage (Pt.5 Ch.3) | The leverage ladder as root and leaves (Pt.4 Ch.3) | The Second Iteration (Pt.1 Ch.10) |
 
-**How to read the gaps.** Culture is the fullest column and Cosmos the sparsest, by design: there is only one totality, so there can only be one Third standing at that scale. The remaining open cells may eventually fill with practices rather than figures. A new figure is added only when it makes at least two existing figures more legible — completeness is not a virtue here, and filling a cell for its own sake is complication wearing a complexity costume.
+**How to read the gaps.** Culture is the fullest column and Cosmos the sparsest, by design: there is only one totality, so there can only be one Third standing at that scale. The remaining open cells may eventually fill with practices rather than figures. A new figure is added only when it predicts, compresses, or tells you where to push — completeness is not a virtue here, and filling a cell for its own sake is complication wearing a complexity costume.
 
 ### Concepts, and where to find them
 
 **The core mantra** — *You feel a line. You are a loop. You build a tree.* Pt.1 Ch.3 · Pt.2 Ch.4 · Pt.3 Ch.1, 5 · Pt.4 Ch.2
 
-**Reading a system — the two questions** — First: does anything here feed back into itself? Second: which order am I looking at? A complex system also predicts its own skew — feedback concentrates outcomes rather than spreading them evenly, which is the real mechanism behind the familiar 80/20 observation. Pt.1 Ch.8–9 · Pt.2 Ch.9 · Pt.4 Ch.3 · Pt.6 Ch.9
+**Reading a system — the two questions** — First: does anything here feed back into itself? Second: which order am I looking at? A complex system also predicts its own skew — feedback concentrates outcomes rather than spreading them evenly, which is the real mechanism behind the familiar 80/20 observation. Pt.1 Ch.8–9 · Pt.2 Ch.9 · Pt.4 Ch.3 · Pt.6 Ch.10
 
-**Complicated vs. complex** — The first question. No feedback, no Third Thing, no acceleration to read. Pt.1 Ch.8 · Pt.4 Ch.3 · Pt.6 Ch.9
+**Complicated vs. complex** — The first question. No feedback, no Third Thing, no acceleration to read. Pt.1 Ch.8 · Pt.4 Ch.3 · Pt.6 Ch.10
 
 **Position, speed, acceleration** — The second question. You never touch position directly; you apply a force, which is acceleration, and time integrates the rest. Why high-leverage work shows no visible movement for a long time. Pt.1 Ch.9 · Pt.2 Ch.5, 9, 11 · Pt.4 Ch.3 · Pt.5 Ch.1
 
@@ -2803,7 +3104,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Three kinds of knowing** — Being told a pattern (the Loop-name, transmissible, cheap), having lived a pattern (its Tree, which can only be walked), and knowing which pattern you're currently inside (neither of the first two, and not produced by either). Scale-Tagging, the complex/complicated gate, and the two-pole check all serve the third. Pt.3 Ch.2, 4
 
-**Solving for the third leg** — Your Self-Kin, theirs, and the Dyad-Kin you produce are three locked elements; knowing two gives the third, and no two Dyad-Kin share a fusion pair, so the solve is unique. The useful direction: you can't change their leg, but changing yours determines the change in what you produce together. Pt.5 Ch.2
+**Solving for the third leg** — Your Self-Kin, theirs, and the Dyad-Kin you produce are three linked elements; knowing two points toward the third, though one pair can make more than one figure, so the solve is a reading rather than a lookup. The useful direction: you can't change their leg, but changing yours changes what you produce together. Pt.5 Ch.2
 
 **Mutuality, not accounting** — Forces come in pairs; the force lives in the interaction, not in either object. You cannot affect without being affected. But equal-and-opposite applies to forces, not outcomes — mutual does not mean zero-sum, and almost nothing worth caring about is conserved. Pt.1 Ch.2
 
@@ -2815,7 +3116,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Fusion depth** — A Third's scale is what it is made of, not a category assigned to it: two selves running currents produce a dyad-scale Third; two dyads sharing a person produce a skein. The tiers of Part Five are composition, not ranking. Pt.5 Ch.0–4
 
-**The two-pole rule** — Every Third carries a Tending pole that builds and a Fraying pole that corrodes; none is good or evil in itself. If only one pole is visible, the zoom is too tight — widen until both appear. The Infinite Boundary is the sole exemption, structurally, since a pole must be read from somewhere outside. Pt.5 Ch.0, 6
+**The two-pole rule** — Every running Third carries a Tending pole, where it runs stronger, and a Fraying pole, where it runs weaker; neither is good or evil in itself. If only one pole is visible, the zoom is too tight — widen until both appear. The Infinite Boundary has none by the same rule widened: a pole is read from somewhere outside, and there is no outside there; a stopped pattern has none either, since nothing is running. Pt.5 Ch.0, 6
 
 **Weather, Climate, Terrain** — The three speeds at which any drawn figure can be read: now, this season, the shape underneath a life. Distinct from ring position, which names how many people a pattern runs through rather than how long it has been running. Distress reliably makes Weather feel like Terrain. Pt.6 Ch.4
 
@@ -2829,7 +3130,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Atomic composition and the Woven Self** — Electrons move constantly at no cost to identity (Numbers-level); neutrons are stable until they aren't, decaying on their own schedule if unprocessed (echoes the Compost Heap); protons require nuclear force to move at all, and moving them changes the element itself (Paradigm-level). A physical body for the claim that a self changes constantly at one cost and almost never at another. Pt.4 Ch.2
 
-**Two senses of "real"** — Structural realism (a Third Thing is real independent of anyone perceiving it — solidity, a floral electric field) and experiential realism (a feeling's occurrence is real simply because it's happening, separate from whether its content is true). Confusing the two is a major source of unnecessary internal struggle. Pt.1 Ch.2 · Pt.2 Ch.4
+**Two senses of "real"** — Real as structure (a Third Thing is real independent of anyone perceiving it — solidity, a floral electric field) and real as occurrence (a feeling's occurrence is real simply because it's happening, separate from whether its content is true). Confusing the two is a major source of unnecessary internal struggle. Pt.1 Ch.2 · Pt.2 Ch.4
 
 **Floral electric fields** — A dynamically updating relational field, altered by every visit and read by the next visitor for real information neither party holds alone; also the Fold's mechanism with no metaphor required, since each visitor reads a field already shaped by everyone before them. Pt.1 Ch.2 · Pt.2 Ch.12
 
@@ -2842,6 +3143,66 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 **The Oriental hornet's solar cycle** — A literal, not metaphorical, instance of tide-based homeostasis: solar energy harvested by the cuticle, activity correlated with sunlight intensity, the same reinforcing-then-balancing rhythm already claimed for the tide, running in a real insect. Pt.2 Ch.6
 
 **Signed-loop polarity** — Every link in a loop carries a sign (does more of the cause produce more or less of the effect); count the negative links, and an even count (including zero) is reinforcing, an odd count is balancing. The actual arithmetic underneath the ↻ and ⤸ marks — derivable, not a judgment call. Pt.3 Ch.3
+
+**The Nest, read downward** — The pillar stated in both directions. A Global Form at one scale is a Local Rule at the next going *down* as surely as up: a Culture's form is a rule running in an ordinary day, a Skein's is a rule running inside a Dyad. Consequence, and the reason it matters: a Local Rule found in yourself has two possible origins — built by repetition, or delivered — which feel identical from inside and answer to different interventions. Pt.1 Ch.4 · Pt.4 Ch.3
+
+**Mine to work, not my fault** — Two questions that are easy to collapse into one. If rules arrive from above as a matter of course, then a rule you did not choose, installed by conditions you did not set, is still yours to work and was never yours to answer for. Dropping the first is helplessness; dropping the second is self-blame. Pt.2 Ch.3
+
+**Two gates** — The ladder is gated by position; the Nest is gated by connection. Both are gates — the Nest is not free, since by the catalogue's fusion rule every scale above Self is built out of dyads, so a person with none is outside the Nest rather than at the bottom of it. The asymmetry is that they open from different sides: position changes when someone else decides, connection changes when you do. Hence the first dyad is a change in kind rather than in amount. Pt.2 Ch.10
+
+**Reach is composable** — *Unreachable* is not a property of a rung but a relation between a rung and whoever reaches. The three moves of the power gap were computed with the actor fixed at one person; the Third Thing pillar already says the actor is composable. And one person's act travels by being seen — it becomes an input to other people's Local Rules — which is why a small act done visibly differs in kind from the same act done privately. Pt.2 Ch.10 · Pt.2 Ch.1 (Day 7)
+
+**The Fold is the Nest seen up close** — One circuit described in two places: a rule travelling out and returning changed is the Fold; a form above arriving as a rule in your day is the Nest read downward. The circuit only closes once the Nest runs both ways. It closes at two speeds — Dyad into Skein is observable within a life, Skein into Culture is not — which is why the honest statement is that you tend the ground rather than your own return. Pt.2 Ch.12
+
+**The ledger error, both directions** — *I tended, so good is owed* and *bad happened, so something was frayed* are one mistake: an account inferred from an outcome. The forward version is harder to catch because it feels like faith rather than blame. Pt.2 Ch.12
+
+**Fun as pattern absorption** — From game design, and distinct from challenge-skill balance rather than duplicating it: balance says where the sweet spot sits, absorption says what the pleasure signals — that a pattern is going in. Gives the practice a prediction: if it has stopped feeling like anything, either it has been absorbed and a harder one is due, or it was never teaching a pattern. Pt.4 Ch.4
+
+**The rubber hand** — The self's boundary demonstrated rather than argued: two agreeing sensory streams relocate body ownership onto an object within about a minute, complete with protective flinch. Stated narrowly — it shows the minimal self is an assembled model that updates on evidence, not that character is arbitrary. Pt.4 Ch.2
+
+**The two halves of one famous number** — The worked case for appeal-versus-measurement. Leaf placement advancing a near-constant fraction of a turn is measurable and has a reason. The same proportion as a universal law of beauty is largely one nineteenth-century enthusiast's invention. Same number, one half survives checking. The test the book must also pass: which part of this was measured, and which part merely repeated? Pt.4 Ch.6
+
+**Formal grammar as the answer to "that's just a metaphor"** — Plant growth is modelled in practice by a small symbolic rewriting system, and spots and stripes by two substances reacting at different rates with no template anywhere. The structure is produced each time by a rule short enough to write on a card, so the fern is an instance rather than a comparison. Pt.4 Ch.1
+
+**Brush, Tree, Forest — the accumulation axis** — The third axis, alongside Scale (who is involved) and Speed (how fast it turns). Those two describe conditions; this one describes what has been built and is still standing. Brush returns within days and holds the ground; Tree takes years and is what you were growing; Forest stands after many lives and contains what others planted. The interaction rule generates the rest: **a disturbance moves what shares its timescale** — a bad day cannot have damaged your tree, a bad season genuinely bends one, a bad era reshapes the forest. The waste is all in the mismatches. Weather/Climate/Terrain reads a situation handed to you; Brush/Tree/Forest tends work you are growing. Pt.2 Ch.2, 11
+
+**Vision — the Sacrifice Trap's Tending, read the other way** — Read only as a snare, the Sacrifice Trap is half a figure: a direction that makes today instrumental. A vision is not a destination, since force applies only to acceleration — it is a direction you check your acceleration against, and therefore a *hypothesis about what this Local Rule, repeated, would produce*. Falsifiable by design. The two readings separate on whether today survives the vision being wrong. Pt.2 Ch.11
+
+**The rate pole** — Planting faster than you can tend. Commitments multiply rather than add (Pt.1 Ch.8's rule arithmetic), so the wall arrives suddenly; and the response to overload is *more* commitment, because compensatory control reaches for the feeling of agency and a fresh start supplies it while grinding through a half-built thing does not. Tell: excitement tracks recency of commitment. Where it reads as a snare, the lever is rule-level (a standing limit), never a schedule or a buffer. Deliberate overproduction is the same Tending read as a lifeline — one sign is whether an exit was built in. Pt.2 Ch.11
+
+**Latency, and the felt difference between doing and undergoing** — A return that closes fast and clean registers as *something you did*; one that is slow or scrambled registers as *something that happened*, even when you are the one feeding it. Distance governs three things at once — fidelity, aimability, and how much is yours to answer for — which makes the Fold's cautions distance-dependent rather than flat: at one edge the opposite advice applies. Shortening the loop is an Information-flow move. Pt.2 Ch.10, 12
+
+**Who is feeding, who is absorbing** — Complementarity (Pt.2 Ch.14) already says the control axis produces fitted *opposite* rules rather than matching ones, which means a Dyad-Kin's two halves are often not comparable. So naming a Third has a second question: who supplies the rule and who receives the outcome. A loop can be reciprocal and not equitable, and if you are absorbing without feeding it is not yours to change. Pt.2 Ch.10, 14
+
+**Agency is not responsibility** — That you can act on something does not make the not-acting a choice. Behavioral activation's own logic supplies the proof: the technique exists because waiting to feel like it does not work, so absent motivation is not evidence of unwillingness. And values persist beneath long inaction — a blocked route is a different object from a lost want. Pt.2 Ch.7
+
+**Belonging as a need, not a preference** — Isolation produces craving in the same machinery as hunger, and connection is monitored continuously rather than after other needs are met. So removing a group's ideas removes nothing that was holding it: **you replace the function, not refute the content.** And belonging is made of repetition rather than agreement, which is why a club works where an argument does not. Second form of the Skein test, pointed at the person: *would I still believe this if leaving cost me nothing?* Pt.2 Ch.19
+
+**Measured, modelled, offered** — The sixth instrument. A claim is checked and repeatable; or a structure that organizes what is known and earns its place by use; or a story put forward because it helps. All three legitimate, only the first is evidence, and the failure is a model or a story borrowing a measurement's authority — which happens to the author first. Pt.4 Ch.8
+
+**The self extends to where your actions close a loop** — The active counterpart to the rubber hand: behind a wheel the boundary moves to the edge of the car, and nobody rear-ended says *he hit my car*. Not sensory agreement but a loop closing — action, consequence, fast enough to be felt as one event. The least mystical account of why what you repeatedly do stops feeling like something you do. Pt.4 Ch.2
+
+**Fractals were invisible in plain sight** — Plants are full of them and are not what led anyone to the idea; the mathematics came from coastlines and curves treated as pathological. A pattern can be universal, unhidden, and genuinely unseeable until something gives you a way to hold it — which is the strongest available argument that the nine words do work rather than decoration. Pt.3 Ch.2
+
+**Compost is a stock** — Not consolation for a particular loss but an accumulating reservoir that raises the growth rate of everything planted after. Why a fifth attempt is easier than a first, and not because the person improved. Pt.2 Ch.5
+
+**Sensitive dependence, and the two unpredictabilities** — Two different things stop a Global Form being predictable, and they ask for different responses, so the book keeps them apart. *Sensitive dependence*: the same deterministic rule from two starting states differing by less than anyone can measure, diverging without bound — which is why forecasting has a horizon rather than an accuracy problem, and why measuring harder does not help. *Unenumerable rules*: derived from the Nest rather than imported, since a Global Form at one scale is a Local Rule at the next, so no boundary drawn around a system is real and what crosses it was never interference. Pt.4 Ch.7, hooked from Pt.1 Ch.8
+
+**Fractal dimension** — A coastline has no length: shorten the ruler and the measurement grows without converging, because structure is present at every resolution. The dimension is the non-integer number saying how thoroughly a pattern fills the space it sits in — a line is 1, a plane is 2, a coastline about 1.25. Turned on a situation it gives the exact form of why enumeration cannot finish: looking closer reveals more rule, not the last few rules. Pt.4 Ch.7
+
+**Mechanism, not determinism** — The framework's actual commitment: causes exist and are findable. Compatible with determinism and with its denial, and the practice is identical under both, since either way your Local Rule is an input. The metaphysics does not reach the practice, which is why the book takes no position on it. Pt.4 Ch.7
+
+**Fatalism as unavailable** — Not refuted, which would be weaker. "It was always going to happen" is a reading of the whole from outside the whole, and the Infinite Boundary already establishes there is no such position — so the claim can never be checked and never touches anything you might do differently. That shape is a paradigm, and the eighth rung says what to do with one. Pt.5 Ch.6 · Pt.4 Ch.7
+
+**The strange loop** — A system containing a description of itself cannot complete that description from inside: the description must include itself describing, and it does not close. Used to say why the outside vantage is genuinely absent rather than merely hard to reach, and held as a regress rather than a proof — nothing is demonstrated, only followed until it stops terminating. Pt.4 Ch.7
+
+**Attractor, not trajectory** — What a Standing Third predicts, and the resolution of the predictive admission criterion against the limits of forecasting. Climate, not Tuesday: the shape a situation keeps returning to, never what happens next. Pt.5 Ch.7 · Pt.4 Ch.7
+
+**The return path** — What separates Second-Order Design's poles, and the reason the figure has an intervention point at all. A rule-set always produces behavior its author never specified; that is the definition, not the failure. The Fraying is when what it produced reaches whoever could change the rule less and less, until it no longer does. Emergence you like can be Fraying; emergence you hate can be Tending. You never push on the emergence — you push below it, on Information flow. Pt.5 Ch.3, and its one-tier-up form in Proxy Detachment, where the measure *is* the channel and gaming it severs the channel while leaving it apparently intact.
+
+**The parsimony rule** — The simplest reading that accounts for the behavior is the correct one, and you stop at it. Derived from elegance rather than added as a caution: a second figure that leaves your next action unchanged is a patch, and patches are counted here as everywhere else. Guards both failures — over-reading, which stacks figures until a person is a diagram and feels like insight the whole way down; and under-reading, which collapses back into what someone simply is. Pt.5 Ch.7
+
+**The power gap** — Leverage can be real and not yours to reach. The ladder ranks rungs by how much they move and says nothing about which ones your position lets you touch, which is the most common route by which this book becomes self-blame for a reader doing everything right. Three moves and only three: get access to a higher rung, leave where leaving is genuinely available, or stop paying for the unreachable rung and spend what you have where it reaches — the last being arithmetic rather than attitude, since effort aimed at an unreachable rung is withdrawn from a reachable one. Pt.2 Ch.10
 
 **Shared-edge leverage** — A high-leverage connection is a maximally shared one, load-bearing for many downstream structures at once; a low-leverage one is peripheral, touching nothing beyond its own corner. Gives the leverage ladder an exact structural form rather than only a depth metaphor. Pt.4 Ch.3
 
@@ -2895,7 +3256,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **The Infinite Boundary** — The Cosmos-Kin's one figure. Pt.5 Ch.6 · Pt.4 Ch.3
 
-**What's unfinished** — Pt.4 Ch.7
+**What's unfinished** — Pt.4 Ch.8
 
 ---
 
@@ -2911,15 +3272,15 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Effectiveness is a ratio** — Results over effort. Raising effort while results stay flat lowers effectiveness by exactly the factor added. Satisfaction in the doing and a separate instrument pointed at whether the doing produces anything are two questions; neither answers the other. Pt.2 Ch.11
 
-**What actually bonds a group** — Not synchrony. A loop running Tending between people, where each pass leaves both parties with more than they brought. Doing something together opens the loop; which way it points decides whether it builds. Pt.7 Ch.0
+**What actually bonds a group** — Not synchrony. A loop running Tending between people, where each pass feeds the next a little more. Doing something together opens the loop; what it compounds decides what it builds. Pt.7 Ch.0
 
-**The Full Unravelling, as a derivation** — Draw two Self-Kin and stop. Their fusion names exactly one Dyad-Kin; that pairs upward to a Skein-Kin, and once more to a Culture-Kin. One situation at four depths, each accounting for the one below, rather than four angles side by side. Pt.6 Ch.7
+**The Full Unravelling, as a derivation** — Draw two Self-Kin and stop. Their fusion points to one of the Dyad-Kin that pair can make; you choose which Skein-Kin it pairs upward to, and once more a Culture-Kin. One situation at four depths, each accounting for the one below, rather than four angles side by side. Pt.6 Ch.7
 
 **This is not care** — The framework is a way of looking, not treatment. A trained person is present, accountable, and adjusts as you change, which no book is. Understanding a pattern is not being relieved of it. Pt.1 Ch.11 · Pt.2 Ch.1
 
-**The World-Kin** — Three figures, derived rather than chosen: two Culture-Kin sharing a Skein-Kin, which the rule produces exactly three of. The Standing Account, Second Nature, The Set Course. The last tier where a push still reaches. Pt.5 Ch.5
+**The World-Kin** — Three figures, derived rather than chosen: two Culture-Kin sharing a Skein-Kin. The Standing Account, Second Nature, The Set Course. The last tier where a push still reaches. Pt.5 Ch.5
 
-**Why leverage stops** — The World tier makes the Infinite Boundary's exemption legible: it begins exactly where pushing stops being possible, rather than being granted for convenience. Pt.5 Ch.5 · Pt.5 Ch.6
+**Why leverage stops** — The World tier makes the Infinite Boundary's place legible: it begins exactly where pushing stops being possible, the same rule reaching its edge rather than a pass granted for convenience. Pt.5 Ch.5 · Pt.5 Ch.6
 
 **The biosphere is a Third Thing but not a Standing Third** — Emergent, with weight none of its parts contain, but with no repeated act underneath it. The aggregate, not the pattern; the substrate the World-Kin run on. Pt.5 Ch.5
 
@@ -2945,17 +3306,17 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Need → belief → behavior** — A Local Rule is the visible end of a three-link chain. Changing behavior without touching the need is a Numbers-level intervention and drifts back. Pt.2 Ch.3 · Pt.2 Ch.9
 
-**Self-organization** — The rung measuring whether a system can still grow structure it did not have, as distinct from running its existing structure better. Fraying: that capacity traded for predictability, which is complication by the front door. Pt.2 Ch.9
+**Self-organization** — The rung measuring whether a system can still grow structure it did not have, as distinct from running its existing structure better. Fraying: that capacity loosening as predictability tightens, read as reliability bought or as invention priced out. Pt.2 Ch.9
 
-**Holding a paradigm as a paradigm** — The top rung: not a change to the system but a change in grip. The only move that operates on the frame rather than inside it. Fraying: nothing repeated long enough to build anything. Pt.2 Ch.9
+**Holding a paradigm as a paradigm** — The top rung: not a change to the system but a change in grip. The only move that operates on the frame rather than inside it. Tending, read as a snare: every frame held so loosely that nothing is repeated long enough to build anything. Pt.2 Ch.9
 
 **Compensatory control** — When agency feels threatened people reach for external structure as a substitute. Explains why a Banner feels like belonging, predicts Banner-drift as a shock risk rather than a growth risk, and gives the Salve and the Mask a shared root. Pt.4 Ch.6
 
 **Felt evaluation as machinery** — Fast evaluation is not interference with choosing, it is how choosing terminates; damage it and decisions never resolve. Also the mechanical reason a Label works — it arrives pre-weighted on the felt channel before deliberation is consulted. Pt.4 Ch.2
 
-**Satisfaction is logarithmic** — Equal increments of felt gain require multiplicative increases in input, so a reinforcing loop and its perception are inverse curves and holding felt gain constant requires endless acceleration. Most of the available value sits early. Pt.4 Ch.4
+**Satisfaction is logarithmic** — Equal increments of felt gain require multiplicative increases in input, so a reinforcing loop and its perception are inverse curves: exponential growth only breaks even for feeling, and felt gain decays as soon as growth slows. Most of the available value sits early. Pt.4 Ch.4
 
-**Instruments for auditing this framework** — Show the correspondence or admit pattern-matching; what would make this reading wrong; did the name change what you'd do; count the parts; ask whether it lands. Pt.4 Ch.7
+**Instruments for auditing this framework** — Show the correspondence or admit pattern-matching; what would make this reading wrong; did the name change what you'd do; count the parts; ask whether it lands. Pt.4 Ch.8
 
 **Doubling time** — Seventy divided by the growth rate. Natural period tells you when a trend is readable; doubling time tells you when it becomes visible in position. Pt.1 Ch.9
 
@@ -2973,13 +3334,13 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **The deadlock with no move inside it** — A repeating exchange where every available move within the pattern is the pattern. The exit is a weighted move elsewhere — one that genuinely has to be dealt with, since a weightless one only resumes the loop a step further behind. Pt.2 Ch.17
 
-**Aji — latent structure** — Things currently doing nothing that are nonetheless changing what remains possible. Not a loop and not inert. Tending: preserved optionality. Fraying: unfinished business quietly narrowing the board. Pt.2 Ch.12
+**Aji — latent structure** — Things currently doing nothing that are nonetheless changing what remains possible. Not a loop and not inert. Not running, so it carries no pole; it has two readings instead, preserved optionality or unfinished business quietly narrowing the board. Pt.2 Ch.12
 
 **The three-legged stall** — Capacity, understanding, want; non-substitutable fixes; the test for the third leg is whether you look forward to starting or only to having finished. Pt.2 Ch.7
 
 **Commitments multiply rather than add** — Each new one is carried in the presence of all the others, so cost scales with the pairs rather than the count. Setting a load and feeling it are different moments, and the first is cheap. Pt.1 Ch.9
 
-**Rules multiply too, in both directions** — The same arithmetic that makes a tiny rule set generative makes an over-specified one unmanageable; which pole you get depends on whether you wanted emergence or completion. Pt.1 Ch.8
+**Rules multiply too, in both directions** — The same arithmetic that makes a tiny rule set generative makes an over-specified one unmanageable; which reading you get, lifeline or snare, depends on whether you wanted emergence or completion. Pt.1 Ch.8
 
 **A rule set that names nothing it produces** — Go's roughly five rules mention no object the game is actually about, including the one that decides whether a group lives; the entire vocabulary of mastery is emergent. Pt.1 Ch.8 · Pt.4 Ch.3
 
@@ -3020,6 +3381,12 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 - *Aikido in Everyday Life* — Terry Dobson & Victor Miller
 - *Antifragile: Things That Gain from Disorder* — Nassim Nicholas Taleb
 - *Retrain Your Brain: Cognitive Behavioral Therapy in 7 Weeks* — Seth J. Gillihan
+- *Gödel, Escher, Bach: An Eternal Golden Braid* — Douglas Hofstadter
+- *It's on You: How Corporations and Behavioral Scientists Have Convinced Us That We're to Blame for Society's Deepest Problems* — Nick Chater & George Loewenstein
+- *Somebody Should Do Something: How Anyone Can Help Create Social Change* — Michael Brownstein, Alex Madva & Daniel Kelly
+- *A Little More Social* — Nicholas Epley
+- *A Theory of Fun for Game Design* — Raph Koster
+- *Do Plants Know Math?* — Stéphane Douady, Jacques Dumais, Christophe Golé & Nancy Pick
 
 Alongside these, an unpublished source: a personal notebook of aphorisms, talk outlines, and design notes, transcribed and folded into Part Two's Self, Dyad, and Skein movements directly — the Trust Triangle, the reinforcing-versus-balancing rhythm in "Reading Your Own Cycle," and the four relationships underneath the Skein chapter all trace back to it. Unlike the books above, it isn't a published work to go read further — it's closer to this whole project's original seed, several years of practice arriving at conclusions independently and later found to rhyme with the reading list around it.
 

@@ -1,0 +1,940 @@
+{
+ "Connection First": {
+  "C": [],
+  "T": [
+   {
+    "book": "VOSS",
+    "offset": 398785,
+    "quote": "negotiators spend large amounts of time building rapport before they even think of offers. Both sides know that the information they glean could be vital to effective deal making"
+   }
+  ],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 33322,
+    "quote": "Small talk might be a useful way to warm up, but it’s rarely the bridge that leads to a conversation that matters."
+   }
+  ],
+  "flags": []
+ },
+ "The Rising Bar": {
+  "C": [
+   {
+    "book": "MEADOWS",
+    "offset": 15520,
+    "quote": "Allowing performance standards to be influenced by past performance, especially if there is a negative bias in perceiving past performance, sets up a reinforcing feedback loop of eroding goals"
+   },
+   {
+    "book": "MCG",
+    "offset": 93027,
+    "quote": "W e build up a tolerance for our favorite things and start to want more."
+   }
+  ],
+  "T": [
+   {
+    "book": "MEADOWS",
+    "offset": 15832,
+    "quote": "let standards be enhanced by the best actual performances instead of being discouraged by the worst. Set up a drift toward high performance!"
+   }
+  ],
+  "F": [
+   {
+    "book": "MCG",
+    "offset": 93100,
+    "quote": "It takes bigger and better rewards just to trigger the same level of satisfaction and pleasure."
+   },
+   {
+    "book": "KAHN",
+    "offset": 1018852,
+    "quote": "Brickman and Campbell’s (1971) concept of the hedonic treadmill suggests the radical hypothesis that rapid adaptation will cause the effects of any objective improvement to be short-lived."
+   }
+  ],
+  "flags": []
+ },
+ "Typecasting": {
+  "C": [],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 262225,
+    "quote": "that sort of faith is borrowed. You believe in yourself because someone else you respect and admire believes in you."
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Unbridged Gap": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "EIJK",
+    "offset": 173890,
+    "quote": "Once we know something, it’s difficult to imagine what it was like to not know it. The knowledge has “cursed” us."
+   }
+  ],
+  "flags": []
+ },
+ "The Reputation": {
+  "C": [],
+  "T": [
+   {
+    "book": "OSTROM",
+    "offset": 256481,
+    "quote": "a reputation for keeping promises, honest dealings, and reliability in one arena is a valuable asset."
+   }
+  ],
+  "F": [
+   {
+    "book": "LOWERY",
+    "offset": 241350,
+    "quote": "Every relationship makes a demand of you; they demand that you play your part."
+   }
+  ],
+  "flags": []
+ },
+ "The Settling": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 239931,
+    "quote": "everyone is lulled into lower and lower expectations, lower effort, lower performance."
+   }
+  ],
+  "flags": []
+ },
+ "Second-Order Design": {
+  "C": [],
+  "T": [
+   {
+    "book": "MEADOWS",
+    "offset": 307532,
+    "quote": "It’s a new loop, delivering feedback to a place where it wasn’t going before."
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 309291,
+    "quote": "Suppose (this is an old one) the politicians who declare war were required to spend that war in the front lines."
+   }
+  ],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 311821,
+    "quote": "It is a system with rules designed by corporations, run by corporations, for the benefit of corporations. Its rules exclude almost any feedback from any other sector of society."
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 307613,
+    "quote": "Missing information flows is one of the most common causes of system malfunction."
+   }
+  ],
+  "flags": []
+ },
+ "The Only Road": {
+  "C": [],
+  "T": [],
+  "F": [],
+  "flags": []
+ },
+ "The Shared Name": {
+  "C": [],
+  "T": [
+   {
+    "book": "HENRICH",
+    "offset": 503289,
+    "quote": "Such markers can then be used as cues to both (1) figure out who to learn from and (2) whether a potential partner is likely to share one’s norms."
+   }
+  ],
+  "F": [
+   {
+    "book": "VONN",
+    "offset": 99336,
+    "quote": "a textbook example of a false _karass_, of a seeming team that was meaningless in terms of the ways God gets things done, a textbook example of what Bokonon calls a _granfalloon_"
+   },
+   {
+    "book": "BROWNST",
+    "offset": 282831,
+    "quote": "people start treating in-group members better than out-group members as soon as they have ways to tell the two groups apart.",
+    "note": "Brownstein reporting the minimal group paradigm (Tajfel)"
+   },
+   {
+    "book": "HENRICH",
+    "offset": 511702,
+    "quote": "this by- product can be harnessed and reified by cul-tural evolution to create linguistically labeled racial categories"
+   }
+  ],
+  "flags": []
+ },
+ "Policy Resistance": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "MEADOWS",
+    "offset": 14229,
+    "quote": "Any new policy, especially if it’s effective, just pulls the system state farther from the goals of other actors and produces additional resistance, with a result that no one likes, but that everyone expends considerable effort in maintaining."
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 217017,
+    "quote": "You probably can name a dozen other areas in which energetic efforts consistently produce non-results."
+   }
+  ],
+  "flags": []
+ },
+ "The Long Cycle": {
+  "C": [],
+  "T": [
+   {
+    "book": "DALIO",
+    "offset": 91032,
+    "quote": "If done well, this virtuous cycle leads to… … strong income growth"
+   }
+  ],
+  "F": [
+   {
+    "book": "DALIO",
+    "offset": 58608,
+    "quote": "this dynamic leads to a very small percentage of the population gaining and controlling exceptionally large percentages of the total wealth and power, then becoming overextended, and then encountering bad times"
+   }
+  ],
+  "flags": []
+ },
+ "The Received World": {
+  "C": [
+   {
+    "book": "HENRICH",
+    "offset": 250633,
+    "quote": "Operating over generations as individuals unconsciously attend to and learn from more successful, prestigious, and healthier members of their communities, this evolutionary process generates cultural adap - tations."
+   }
+  ],
+  "T": [
+   {
+    "book": "HENRICH",
+    "offset": 251066,
+    "quote": "Often, most or all of the people skilled in deploying such adaptive practices do not understand how or why they work, or even that they “do” anything at all."
+   }
+  ],
+  "F": [
+   {
+    "book": "HENRICH",
+    "offset": 249567,
+    "quote": "They did not, however, transport the age- old indigenous processing pro - tocols or the underlying commitment to using those techniques."
+   }
+  ],
+  "flags": []
+ },
+ "The Standing Account": {
+  "C": [
+   {
+    "key": "DALIO",
+    "offset": 168184,
+    "quote": "Because their spending continues to be strong, they continue to appear rich, even though their balance sheets are deteriorating."
+   },
+   {
+    "key": "DALIO",
+    "offset": 167443,
+    "quote": "Stage 4: People and Their Countries Are Poorer and Still Think of Themselves as Rich."
+   }
+  ],
+  "T": [
+   {
+    "key": "DALIO",
+    "offset": 165027,
+    "quote": "high savings rates, rapidly rising incomes, and, typically, rising foreign exchange reserves."
+   },
+   {
+    "key": "DALIO",
+    "offset": 165484,
+    "quote": "But their prior investments in infrastructure, capital goods, and research and development are still paying off by producing productivity gains that sustain their high living standards."
+   }
+  ],
+  "F": [
+   {
+    "key": "MEADOWS",
+    "offset": 275781,
+    "quote": "GNP is a measure of throughput —flows of stuff made and purchased in a year—rather than capital stocks, the houses and cars and computers and stereos that are the source of real wealth and real pleasure."
+   },
+   {
+    "key": "MEADOWS",
+    "offset": 276502,
+    "quote": "Some of them, such as overharvesting forests in order to stimulate the economy in the short term, threaten the long-term good of the economy or the society or the environment."
+   },
+   {
+    "key": "DALIO",
+    "offset": 95925,
+    "quote": "when borrowing and spending are strong, the empire appears very strong, but its finances are in fact being weakened"
+   }
+  ],
+  "flags": []
+ },
+ "Second Nature": {
+  "C": [
+   {
+    "key": "MEADOWS",
+    "offset": 321957,
+    "quote": "These beliefs are unstated because it is unnecessary to state them—everyone already knows them. Money measures something real and has real meaning; therefore, people who are paid less are literally worth less."
+   },
+   {
+    "key": "CHATER",
+    "offset": 257810,
+    "quote": "A rigged game can all too easily be rationalized as fair, with the “winners” from a profoundly unequal system viewed as deserving their rewards, however extravagant, even by the disadvantaged themselves."
+   },
+   {
+    "key": "CHATER",
+    "offset": 258252,
+    "quote": "Where inequalit y has persistently been increasing it has, we suggest, been doing so by design ."
+   }
+  ],
+  "T": [
+   {
+    "key": "MEADOWS",
+    "offset": 323108,
+    "quote": "see how timber, brick, lime, and stone have flown into convenient shape, obedient to the master idea reigning in the minds of many persons."
+   },
+   {
+    "key": "MEADOWS",
+    "offset": 322502,
+    "quote": "Paradigms are the sources of systems."
+   }
+  ],
+  "F": [
+   {
+    "key": "MEADOWS",
+    "offset": 322401,
+    "quote": "all of which have utterly dumbfounded other cultures, who thought them not the least bit obvious."
+   },
+   {
+    "key": "CHATER",
+    "offset": 241866,
+    "quote": "when we see no way of restoring justice we trick ourselves into believing that what seems unfair is actually inevitable and natural, that this is just the way things are."
+   }
+  ],
+  "flags": []
+ },
+ "The Set Course": {
+  "C": [
+   {
+    "key": "DALIO",
+    "offset": 849656,
+    "quote": "Reserve currencies tend to live on long after their fundamentals cease to justify their prominence because they become deeply entrenched in the ways things are done and there is a strong inclination to keep them. Then they abruptly plunge when it becomes clear that the fundamentals behind the currency make holding debt in it a bad deal."
+   },
+   {
+    "key": "DALIO",
+    "offset": 94755,
+    "quote": "Wealth gaps are self-reinforcing because rich people use their greater resources to expand their powers. They also influence the political system to their advantage"
+   }
+  ],
+  "T": [
+   {
+    "key": "DALIO",
+    "offset": 138693,
+    "quote": "history shows that when these cycles are handled well—i.e., strong human capital is maintained over many generations—they can go on for many generations."
+   }
+  ],
+  "F": [
+   {
+    "key": "DALIO",
+    "offset": 96049,
+    "quote": "the borrowing sustains the country’s power beyond its fundamentals by financing both domestic overconsumption and international military conflicts required to maintain the empire."
+   }
+  ],
+  "flags": []
+ },
+ "Adaptation Neglect": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 884363,
+    "quote": "This question almost certainly made you think of a paraplegic who is currently thinking about some aspect of his condition."
+   },
+   {
+    "book": "KAHN",
+    "offset": 884675,
+    "quote": "But over time, with few exceptions, attention is withdrawn from a new situation as it becomes more familiar."
+   }
+  ],
+  "flags": []
+ },
+ "Overdependence": {
+  "C": [
+   {
+    "book": "STANIER",
+    "offset": 14028,
+    "quote": "you’ve trained your people to become excessively reliant on you, a situation that turns out to be disempowering for them and frustrating for you."
+   },
+   {
+    "book": "STANIER",
+    "offset": 48411,
+    "quote": "giving it feels more comfortable than the ambiguity of asking a question."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 14021,
+    "quote": "First, you’ve trained your people to become excessively reliant on you, a situation that turns out to be disempowering for them and frustrating for you. And then as an unwelcome bonus, because you’ve been so successful in creating this dependency that you now have too much work to do, you may also have become a bottleneck in the system."
+   }
+  ],
+  "flags": []
+ },
+ "The Loud Sample": {
+  "C": [],
+  "T": [
+   {
+    "book": "KAHN",
+    "offset": 943891,
+    "quote": "Availability is a useful clue for assessing frequency or probability, because instances of large classes are usually recalled better and faster than instances of less frequen"
+   }
+  ],
+  "F": [
+   {
+    "book": "HOPSON",
+    "offset": 261614,
+    "quote": "Forum dwellers and other online commenters are massively unrepresentative of the playerbase as a whole"
+   }
+  ],
+  "flags": []
+ },
+ "The Common Stag": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "BERNS",
+    "offset": 214062,
+    "quote": "it may be mutually advantageous to adhere to a common set of rules to augment each individual’s well-being."
+   },
+   {
+    "element": "T",
+    "book": "OSTROM",
+    "offset": 273243,
+    "quote": "As long as they are confident that others are cooperating and the ruler provides joint benefits, they comply willingly to tax laws."
+   }
+  ],
+  "F": [
+   {
+    "book": "BERNS",
+    "offset": 216509,
+    "quote": "Even though everyone might agree that it’s the best thing to do, each individual has to trust that the other will do the right thing."
+   },
+   {
+    "book": "BERNS",
+    "offset": 216744,
+    "quote": "The mistrust of each other leads individuals to forgo the best outcomes in exchange for a sure thing. (In this case, abandoning the deer to grab the hare.)"
+   }
+  ],
+  "flags": []
+ },
+ "The Borrowed Fire": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "BROWNST",
+    "offset": 209320,
+    "quote": "These spiraling chang es in systems, attitudes, and representations eventually rippled out beyond the struggle for LGBTQ justice, inspiring activists in other social movements."
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Common Weather": {
+  "C": [],
+  "T": [
+   {
+    "book": "TNHF",
+    "offset": 30722,
+    "quote": "It will also bring joy to the people around you and to future generations."
+   }
+  ],
+  "F": [
+   {
+    "book": "TNHF",
+    "offset": 23704,
+    "quote": "Without mindfulness parents may transmit all their pain, anger , and suf fering to their children."
+   },
+   {
+    "book": "TNHLI",
+    "offset": 13861,
+    "quote": "This is the power of the habit energies that your parents and ancestors may have transmitted to you."
+   }
+  ],
+  "flags": []
+ },
+ "The Hot Spot": {
+  "C": [],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 321259,
+    "quote": "Paris was home to all the other artists who were drawn to the City of Light"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 249362,
+    "quote": "any dif ferential in professorial density will cause them to conver ge and increase the local density , and attract more professors."
+   }
+  ],
+  "F": [
+   {
+    "book": "SCHELL",
+    "offset": 167325,
+    "quote": "they are deteriorating because the people who keep their homes attractive are leaving; they are leaving because the neighborhood is deteriorating"
+   }
+  ],
+  "flags": []
+ },
+ "The Conferred Self": {
+  "C": [],
+  "T": [],
+  "F": [
+   {
+    "book": "BROWN",
+    "offset": 109491,
+    "quote": "the dif ference between “I am bad” and “I did something bad.” Guilt = I did something bad. Shame = I am bad."
+   }
+  ],
+  "flags": []
+ },
+ "The Bounty": {
+  "C": [
+   {
+    "book": "GNEEZY",
+    "offset": 177549,
+    "quote": "Th e incentive failed because it solely targeted quantity and ignored quality."
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 176957,
+    "quote": "enterprising citizens had realized that cutting oﬀ a rat’s tail and letting it live and breed made more ﬁ nancial sense than killing it."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "BROWNST",
+    "offset": 221641,
+    "quote": "the Delhiites figured out that they could just breed the cobras themselves instead of hunt them. Once the Brits realized that the bounty had become a perverse incentive, they canceled the program, at which point people released the cobras that they had been breed ing"
+   },
+   {
+    "book": "GNEEZY",
+    "offset": 177255,
+    "quote": "A new, proﬁ table pro- fession came into existence: farms dedicated to the breeding of rats."
+   }
+  ],
+  "flags": []
+ },
+ "The Crowded Door": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 571187,
+    "quote": "entrepreneurial firms that fail but signal new markets to more qualified competitors “optimistic martyrs”"
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 570304,
+    "quote": "The competition is simply not part of the decision, in which a difficult question has again been replaced by an easier one."
+   },
+   {
+    "book": "KAHN",
+    "offset": 570900,
+    "quote": "more competitors enter the market than the market can profitably sustain"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 570428,
+    "quote": "The question that needs an answer is this: Considering what others will do, how many people will see our film?"
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 570900,
+    "quote": "more competitors enter the market than the market can profitably sustain, so their average outcome is a loss."
+   }
+  ]
+ },
+ "The Disengagement Divide": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "GNEEZY",
+    "offset": 121026,
+    "quote": "risk-seeking spirit has seeped top- down into the layers of his companies and the hearts of his employees, thus establishing a healthy and innovative company culture."
+   }
+  ],
+  "F": [
+   {
+    "element": "F",
+    "book": "BROWN",
+    "offset": 287317,
+    "quote": "The space between our practiced values (what we’re actually doing, thinking, and feeling) and our aspirational values"
+   },
+   {
+    "element": "F",
+    "book": "GNEEZY",
+    "offset": 144122,
+    "quote": "The mixed signal happens when you set individual incentives but emphasize the importance of team effort."
+   }
+  ],
+  "flags": []
+ },
+ "The Narrow Ledger": {
+  "C": [],
+  "T": [
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 743061,
+    "quote": "loss aversion protects them from the follies of overconfident optimism."
+   },
+   {
+    "element": "T",
+    "book": "KAHN",
+    "offset": 743280,
+    "quote": "loss- averse decision makers correctly reject marginal propositions that they might otherwise accept."
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 743936,
+    "quote": "None of the executives was willing to take such a dangerous gamble. Thaler then turned to the CEO of the company, who was also present, and asked for his opinion. Without hesitation, the CEO answered, “I would like all of them to accept their risks.”",
+    "note": "Kahneman reporting Thaler: one arrival"
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 741904,
+    "quote": "A risk policy is a broad frame."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 744099,
+    "quote": "Without hesitation, the CEO answered, “I would like all of them to accept their risks.”"
+   }
+  ]
+ },
+ "The Bottleneck": {
+  "C": [
+   {
+    "book": "STANIER",
+    "offset": 62667,
+    "quote": "You’ve become the VP of Bottlenecking. You need a way to manage the temptation to jump into fixing that opening challenge. You need to stop yourself (and your team) from getting entangled in the first problem that’s put on the table."
+   }
+  ],
+  "T": [],
+  "F": [
+   {
+    "book": "STANIER",
+    "offset": 14206,
+    "quote": "because you’ve been so successful in creating this dependency that you now have too much work to do, you may also have become a bottleneck in the system."
+   },
+   {
+    "book": "STANIER",
+    "offset": 60568,
+    "quote": "coming up with decent solutions to problems that just don’t matter, and why the real challenges often go unaddressed."
+   }
+  ],
+  "flags": []
+ },
+ "The Chain Reaction": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 176997,
+    "quote": "The unconditional-pass-fail students may be suf ficient in numbers to induce some of the conditional choosers to elect pass-fail, who in turn are enough to induce some more, who in turn are enough to induce some more, and so on until all but the unconditional letter graders are electing pass-fail."
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 178233,
+    "quote": "The observed outcome may be one that everybody prefers"
+   }
+  ],
+  "F": [
+   {
+    "book": "SCHELL",
+    "offset": 178289,
+    "quote": "it may be one that nobody prefers"
+   },
+   {
+    "book": "SCHELL",
+    "offset": 176329,
+    "quote": "the people whose behavior is uninfluenced nevertheless influen ce others."
+   }
+  ],
+  "flags": []
+ },
+ "The Personal Share": {
+  "C": [],
+  "T": [
+   {
+    "book": "BROWNST",
+    "offset": 195525,
+    "quote": "Their findings suggest that small personal steps can springboard people into backi ng substantive structural chan ge."
+   },
+   {
+    "book": "CHATER",
+    "offset": 76362,
+    "quote": "“Moderating Spillover: Focusing on Personal Sustainable Behavior Rarely Hinders and Can Boost Climate Policy Support”—was written by Gregg Sparkman and his colleagues."
+   }
+  ],
+  "F": [
+   {
+    "book": "BROWNST",
+    "offset": 35274,
+    "quote": "Another study found that framing solutions in terms of individual consumer choic es decreases people’ s willingness to take other forms of action to fight climate change."
+   }
+  ],
+  "flags": []
+ },
+ "The Borrowed Assent": {
+  "C": [],
+  "T": [
+   {
+    "book": "HENRICH",
+    "offset": 251279,
+    "quote": "natural selection has favored individuals who often place their faith in cultural inheritance"
+   }
+  ],
+  "F": [
+   {
+    "book": "KAHN",
+    "offset": 600187,
+    "quote": "If you come upon an observation that does not seem to fit the model, you assume that there must be a perfectly good explanation that you are somehow missing. You give the theory the benefit of the doubt, trusting the community of experts who have accepted it."
+   }
+  ],
+  "flags": [],
+  "push": [
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 600345,
+    "quote": "You give the theory the benefit of the doubt, trusting the community of experts who have accepted it."
+   },
+   {
+    "element": "push",
+    "book": "KAHN",
+    "offset": 600885,
+    "quote": "disbelieving is hard work, and System 2 is easily tired."
+   }
+  ]
+ },
+ "The Catchment": {
+  "C": [],
+  "T": [
+   {
+    "book": "DUCK",
+    "offset": 303001,
+    "quote": "kids who live near inventors are especially likely t o become inventors i n the same",
+    "note": "Duckworth reporting Bell et al. (Lost Einsteins)"
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Accelerant": {
+  "C": [],
+  "T": [
+   {
+    "book": "HENRICH",
+    "offset": 542044,
+    "quote": "islands or island clusters with larger populations and more contact with other islands had both a greater number of different fishing- tool types and more- complex fishing technologies."
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Shifting Baseline": {
+  "C": [],
+  "T": [
+   {
+    "book": "CHATER",
+    "offset": 507469,
+    "quote": "From the perspective of public policy , adaptation might seem to be unequivocally good news: Slowly tapering sugar and salt levels, for example, should be embraced by policymakers and the public."
+   }
+  ],
+  "F": [
+   {
+    "book": "CHATER",
+    "offset": 508140,
+    "quote": "we continually adapt to the new normal, scarcely noticing as conditions continue to decline."
+   },
+   {
+    "book": "MEADOWS",
+    "offset": 15520,
+    "quote": "Allowing performance standards to be influenced by past performance, especially if there is a negative bias in perceiving past performance, sets up a reinforcing feedback loop of eroding goals"
+   }
+  ],
+  "flags": []
+ },
+ "The Assigned Debt": {
+  "C": [],
+  "T": [],
+  "F": [],
+  "flags": []
+ },
+ "The Visible Few": {
+  "C": [
+   {
+    "book": "BROWNST",
+    "offset": 208603,
+    "quote": "As gay people gained visibility in culture, politics, and media, more and more gay people came out of the closet. One result of this was that more and more American s came to understand that they already knew and loved people who were gay. More and more people’ s attitudes changed, and the market grew for positive representations of gay people in culture, politics, and media. More fictional characters in film and TV started coming out too."
+   },
+   {
+    "book": "BROWNST",
+    "offset": 206915,
+    "quote": "Those who came out risked being openly disowned by their families"
+   }
+  ],
+  "T": [
+   {
+    "book": "BROWNST",
+    "offset": 209047,
+    "quote": "This kind of self-reinforcing cycle is a positive feedback process"
+   }
+  ],
+  "F": [],
+  "flags": []
+ },
+ "The Quorum Pact": {
+  "C": [
+   {
+    "book": "OSTROM",
+    "offset": 335097,
+    "quote": "The interim agreement was drafted as a contingent contract."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 335296,
+    "quote": "was not com­mitted to curtail until producers representing at least 80% of the total \"Prescriptive Rights, 1949\" had signed"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 335485,
+    "quote": "A signatory was committed to undertaking this \"cooperative action\" only if most of the other large water producers were also committed to the action. Thus, no one would be a \"sucker,\""
+   },
+   {
+    "book": "SCHELL",
+    "offset": 240659,
+    "quote": "He wants the ban enforced; but if it is not enforced he intends to water his lawn, especially if everybody else is doing it."
+   }
+  ],
+  "T": [
+   {
+    "book": "OSTROM",
+    "offset": 336243,
+    "quote": "Water levels in the basin rose immediately and continued to rise for several years, except in a water trough underlying the city of Hawthorne, which refused to sign the agreement."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 242135,
+    "quote": "If the electrical overload that threatens is only a few percent, half of us may find a way to enforce a voluntary restriction, and thus avoid the breakdown."
+   }
+  ],
+  "F": [
+   {
+    "book": "SCHELL",
+    "offset": 240489,
+    "quote": "He damns the lack of enforcement and turns the handle on his own sprinkler, making the violation unanimous."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 240241,
+    "quote": "even that grudging participation is likely to be abandoned"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 289328,
+    "quote": "If some individuals are allowed to free-ride by sending less able workers to a required labor day, others will consider themselves to be suckers if they send their strongest workers"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 289599,
+    "quote": "Should that continue over time, only children and old people would be sent to do work"
+   }
+  ],
+  "flags": []
+ },
+ "Over the Hump": {
+  "C": [
+   {
+    "book": "SCHELL",
+    "offset": 406406,
+    "quote": "A Right-choosing coalition is viable if it exceeds this number; if it achieves the larger number corresponding to the intersection, it can induce everybody else to shift."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 406732,
+    "quote": "there is some coalition that is better off choosing Right, even though the remainder are better off still, and even though any member of the coalition would be better off if he could defect and choose Left. The difference in this case is that there is a still larger coalition that can induce everybody else to switch, because it is big enough to make Right the preferred choice."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 407456,
+    "quote": "The MPD is merely a \"truncated dual equilibrium,\" without enough people to carry themselves over the hump. (And the dual equilibrium is merely an \"extended MPD,\" with enough people added to make the coalition self-sustaining.)"
+   }
+  ],
+  "T": [
+   {
+    "book": "SCHELL",
+    "offset": 406470,
+    "quote": "if it achieves the larger number corresponding to the intersection, it can induce everybody else to shift."
+   }
+  ],
+  "F": [
+   {
+    "book": "SCHELL",
+    "offset": 405954,
+    "quote": "a coalition can occur that is insufficient to induce the remainder to choose Right, yet is viable."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 388583,
+    "quote": "The more the rest of you restrict your whaling, the more whales I catch by staying out of the self-restraining coalition if entry into the whaling industry is limited and I am already in the business."
+   },
+   {
+    "book": "SCHELL",
+    "offset": 242352,
+    "quote": "It especially infuriates us if the other half, relieved of whatever anxiety might have made them a little more conscious of wasted electricity, now relax and leave their lights on"
+   },
+   {
+    "book": "OSTROM",
+    "offset": 338202,
+    "quote": "During the period of the interim agreement, Hawthorne saved at least $100,000 by pumping more groundwater per year than it had been allotted."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 338678,
+    "quote": "The economic costs of Hawthorne's action were spread generally among all signatories who paid higher costs for imported water while Hawthorne continued to utilize the least expensive source of water."
+   },
+   {
+    "book": "OSTROM",
+    "offset": 341090,
+    "quote": "However, the attempts to reach an agreement with Hawthorne were unsuccessful."
+   }
+  ],
+  "flags": []
+ }
+}

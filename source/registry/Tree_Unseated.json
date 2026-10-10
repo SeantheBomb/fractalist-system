@@ -1,0 +1,937 @@
+{
+ "The Rising Bar": {
+  "fate": "merged",
+  "into": "The Sliding Floor",
+  "name": "The Rising Bar",
+  "tier": 2,
+  "parents": [
+   "The Mark",
+   "The Spark"
+  ],
+  "rule": null,
+  "tending": "Standards climbing as capacity genuinely grows",
+  "fraying": "Standards climbing past any point of sufficiency",
+  "sources": "",
+  "mark": 1,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 2,
+   "T": 1,
+   "F": 1
+  },
+  "reason": "The Rising Bar and The Sliding Floor are one mechanism. Meadows: 'the same system structure can pull the system up'. The written Mark+Spark has no leg-level arrival. The merged figure keeps the name The Sliding Floor: Meadows states the structure as the drift, introduces the upward run as 'the same structure', and the Sliding Floor already holds the slot, so Never Enough and The Settling keep thei"
+ },
+ "Connection First": {
+  "name": "Connection First",
+  "tier": 2,
+  "parents": [
+   "The Namer",
+   "The Tide"
+  ],
+  "rule": null,
+  "tending": "Warmth that lets real information land (Voss 398785; Hopson 113078)",
+  "fraying": "Warmth substituted for having anything to say (Stanier 33322; Berger 129385)",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "No sourced composition. Only the receiver's leg is sourced (warmth judged first: Epley, Kahneman); 'lead with warmth' is a practice (rule 13) on that leg."
+ },
+ "Typecasting": {
+  "fate": "merged",
+  "into": "The Echo",
+  "name": "Typecasting",
+  "tier": 2,
+  "parents": [
+   "The Gardener",
+   "The Mask"
+  ],
+  "rule": null,
+  "tending": "A belief in someone held through their early failures, long enough for them to catch up to it.",
+  "fraying": "Seeing someone as one thing until they can't be another",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 0
+  },
+  "reason": "The written composition has no arrival. Typecasting's best composition, Mirror+Mirror, ties the occupant, and the tie rests on a shared Lowery passage that presents both as one mechanism, so this is a merge under The Echo, not a displacement. 'The Echo' names the mechanism (mirror answering mirror) and 'Typecasting' names its Fraying. The merged figure's F goes from 0 to 2. Typecasting's Pygmalion"
+ },
+ "The Unbridged Gap": {
+  "name": "The Unbridged Gap",
+  "tier": 2,
+  "parents": [
+   "The Mask",
+   "The Mirror"
+  ],
+  "rule": null,
+  "tending": "Fluency that comes from real depth (unsourced)",
+  "fraying": "The knower answers 'what does the other know?' from what is in their own head, so a mind without that context cannot be modelled (Eijk 173890; Kahneman 430997, independent)",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "The written composition has no arrival, and no alternative has a sourced second run: the curse of knowledge, as the corpus gives it, is the Easier Door run by one party. It stands unseated until a source gives the listener's leg and the return. The Fraying is re-worded to the substitution running (the old wording described an absence) and rises to 2 with Kahneman's independent hindsight passage. Descendant The Only Road (with Filling the Gap) loses a parent."
+ },
+ "The Chain Reaction": {
+  "fate": "merged",
+  "into": "Critical Mass",
+  "name": "The Chain Reaction",
+  "tier": 3,
+  "parents": [
+   "Critical Mass",
+   "Tipping"
+  ],
+  "rule": null,
+  "tending": "A few who act regardless tip the undecided into an outcome they all wanted",
+  "fraying": "The same few deliver an outcome nobody wanted, and it cannot be avoided",
+  "sources": "Schelling",
+  "mark": 1,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 1
+  },
+  "reason": "With Tipping merged, the written parents are Critical Mass twice, which needs two interlocking runs of Critical Mass. The source rules this out. The unconditional few take no input ('independent of how the third group chooses, but not vice versa'), so they do not run the Line and there is no second run to interlock (rules 2 and 3). Their output enters the one conditional run, which is Critical Mass. Schelling states the identity in so many words: critical mass is supplied by those whose behaviou"
+ },
+ "The Common Weather": {
+  "fate": "merged",
+  "into": "The Contagion",
+  "name": "The Common Weather",
+  "tier": 3,
+  "parents": [
+   "Escalation",
+   "The Contagion"
+  ],
+  "rule": null,
+  "tending": "Suffering transformed in one relationship reaches the people around it, and they carry it on to the next.",
+  "fraying": "What is not transformed in one relationship is transmitted into the next",
+  "sources": "Thich Nhat Hanh",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "reason": "Escalation + The Contagion is now cross-tier. Nothing in the sources is escalation: Thich Nhat Hanh has suffering caught between people and carried on to the next generation. The only interlock is within a relationship, and that is The Contagion ('caught from one person and passed to the next, without anyone deciding'). The passage onward to children and 'future generations' is one-way, a transmission edge under rule 13 and not a second run. The Common Weather's Tending is The Contagion's Tendin"
+ },
+ "The Settling": {
+  "fate": "merged",
+  "into": "The Sliding Floor",
+  "name": "The Settling",
+  "tier": 3,
+  "parents": [
+   "The Sliding Floor",
+   "The Standoff"
+  ],
+  "rule": null,
+  "tending": "A group adjusting expectations to real conditions",
+  "fraying": "Standards eroding while everyone feels reasonable",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 1
+  },
+  "reason": "The parents are legal, but no source has the Standoff part (Tide+Tide, two parties waiting), which was flagged already. Every passage is Meadows' drift to low performance, whose actor is a single system ('British government, business, hospital…'). That is The Sliding Floor, the same passage The Sliding Floor already cites (239822/239931). Group size is scale, a reading (rule 4). The one peer-reference line ('look around, everybody else is having trouble too') is one of three rationalisations of "
+ },
+ "The Bounty": {
+  "fate": "merged",
+  "into": "Gaming the Terms",
+  "name": "The Bounty",
+  "tier": 3,
+  "parents": [
+   "Gaming the Terms",
+   "The Focusing Illusion"
+  ],
+  "rule": null,
+  "tending": "A standing price calls a durable supply into existence",
+  "fraying": "The price calls a supply of the very thing you were removing, and withdrawing it releases the stock",
+  "sources": "Brownstein (Siebert)",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 0,
+   "F": 2
+  },
+  "reason": "Gaming the Terms (Line+Outfall) and The Focusing Illusion (Easier Door+Gardener) share no leg: illegal. Both of Gneezy's C passages are the Gaming the Terms mechanism. The rule counts a token, a tail as pass or fail (Line). Payees act on their own account and land on the passing side ('letter, not the spirit'), leaving the cost off their account (Outfall). The breeding is the payees' own-account response, not a second Dyad's run. No Dyad with Outfall and Spark exists, and Gaming the Terms + Crit"
+ },
+ "The Quorum Pact": {
+  "name": "The Quorum Pact",
+  "tier": 3,
+  "parents": [
+   "The Pumping Race",
+   "Tipping"
+  ],
+  "rule": null,
+  "tending": "Restraint written as conditional on a quorum of the rivals takes hold all at once once the quorum is reached: West Basin's pumpers signed a contract that bound no one until 80% of rights had signed, and when 82.5% signed the water levels rose; a cooperating fraction can hold off a breakdown even while the rest ride free.",
+  "fraying": "Each rival seen or heard taking moves the next restrainer past his line: the homeowner who hears his neighbours' sprinklers in the dark turns on his own, 'making the violation unanimous', and a few who send weak workers to the labour day make the rest feel like suckers until only children and old people are sent.",
+  "sources": "OSTROM; SCHELL",
+  "mark": 2,
+  "status": "added",
+  "note": "Parsimony against The Contingent Commitment: this is restraint before any watch exists (the contract binds at a counted quorum); the watermaster came after.",
+  "push": "Offer restraint in a race as a contract that binds each signer only once a stated share of the rivals has signed, and count the signatures; do not ask for unilateral restraint (a gift to the rivals) or wait for a monitoring regime to exist first. Expect the holdouts' part of the resource to stay in the race (Hawthorne's trough). The Pumping Race alone says the users can bargain; Tipping alone says each has a cross-over; only the composition says the bargain must carry its own quorum trigger. It differs from The Contingent Commitment (Mutual Monitoring + Tipping), where contingent compliance is sustained by information from ongoing monitoring; here the quorum contract is the way out of the race before any monitoring exists (the watermaster was appointed after the signatures).",
+  "marks": {
+   "C": 2,
+   "T": 2,
+   "F": 2
+  },
+  "fate": "unseated",
+  "reason": "No sourced composition. Its conditional-commitment clause is Critical Mass's own threshold run (Ostrom's West Basin signers), and a contract clause is a practice (rule 13); no legal slot joins it to The Shared Pot."
+ },
+ "The Hot Spot": {
+  "name": "The Hot Spot",
+  "tier": 3,
+  "parents": [
+   "The Flywheel",
+   "Escalation"
+  ],
+  "rule": null,
+  "tending": "Each arrival makes the place more worth arriving at, so the people there keep drawing the next ones in.",
+  "fraying": "The same pull drains everywhere else: each departure to the centre leaves the margin less worth staying in.",
+  "sources": "Duckworth",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 2,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "Flywheel + Escalation is now cross-tier, and no passage has an escalation leg. The Tending passages are a single run: arrivals make the place more attractive and attract more arrivals. That is The Flywheel (Duckworth, whose own Flywheel C is 'situational advantage begets situational advantage') or Critical Mass run upward. The Fraying passage is Schelling's neighbourhood decline, which is Critical Mass run downward and is not linked in the text to any centre. The figure's own element, the centre's pull being the margin's drain, would need two interlocking runs (for example Critical Mass + Critical Mass, or Flywheel + First-Arriver Lock-In via the Spark), and no source states both. Neither half alone is new, so there is no merge: it stands unseated. Breaks: The Catchment, The Accelerant (and 'Loved to Death', named in out_dyads but not in work.json)."
+ },
+ "Second-Order Design": {
+  "name": "Second-Order Design",
+  "tier": 3,
+  "parents": [
+   "Gaming the Terms",
+   "The Rising Bar"
+  ],
+  "rule": null,
+  "tending": "What the rules produced stays visible to whoever can change the rules",
+  "fraying": "The same production, running where nobody who could change the rules can see it",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "Gaming the Terms + The Rising Bar is gone: The Rising Bar merged, and The Sliding Floor (Mark+Tide) shares nothing with Line+Outfall. No source composes the figure. Its Tending is Meadows' leverage-point prescription (add an information loop), which is a push, and it was flagged. Its Fraying is rule-makers acting on their own account with the consequences falling off it: the Outfall at the rule-maker, plus the return link that Gaming the Terms already contains (its push is Meadows 270679/270880, 'understand rule beating as useful feedback'). Gaming the Terms + Credited Result via the Outfall (the rule-maker judges by what reaches him) is the nearest legal reading, with 0 arrivals. Not one mechanism with Gaming the Terms (the war-declaring politicians do not beat any rule), so it is unseated rather than merged. Breaks: Proxy Detachment, The Slow Hand, then World-tier Second Nature."
+ },
+ "The Reputation": {
+  "name": "The Reputation",
+  "tier": 3,
+  "parents": [
+   "Typecasting",
+   "Watering Another"
+  ],
+  "rule": null,
+  "tending": "A role that lets a group rely on you",
+  "fraying": "A role authored by the group that you can't step out of",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "Typecasting merged into The Echo (Mirror+Mirror), which shares nothing with Watering Another (Gardener+Spark). The Fraying passage (Lowery 241350) is now The Echo's own C quote, so that pole is The Echo's Fraying. The Tending (Ostrom) is a reputation kept for long-term self-interest in repeated dealings, which no Echo- or Mirror-sharing Dyad pair reaches. The candidates (Echo + Flower Watering, Echo + Borrowed Faith, Held Commitment + Each Other's Situation) have 0 arrivals. The two poles are not one mechanism, so there is no merge: it stands unseated. Breaks: The Received World."
+ },
+ "The Conferred Self": {
+  "name": "The Conferred Self",
+  "tier": 3,
+  "parents": [
+   "Typecasting",
+   "Identity Ratchet"
+  ],
+  "rule": null,
+  "tending": "A role conferred generously and practised until it is genuinely yours",
+  "fraying": "Every slip pinned to who you are, so conforming ratchets tighter",
+  "sources": "Kahneman; Brown; Clear",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "The Echo + Identity Ratchet share no leg. The Mask+Mirror Dyad slot is empty since The Unbridged Gap was unseated, and the only Mirror+Spark partner of Identity Ratchet (The Contagion) is The Borrowed Fire's slot. No source has a role conferred by others and then ratcheted by practice (existing flag). Brown's shame is self-talk, not conferral, and the conferral half belongs to Borrowed Faith (Pygmalion) and The Echo (the 'Typecasting' Fraying). C=0 and T=0. Unseated. No descendants."
+ },
+ "The Only Road": {
+  "name": "The Only Road",
+  "tier": 3,
+  "parents": [
+   "The Unbridged Gap",
+   "Filling the Gap"
+  ],
+  "rule": null,
+  "tending": "The single bridge by which two separate worlds reach each other at all",
+  "fraying": "One person through whom everything must pass, whose absence severs rather than inconveniences",
+  "sources": "",
+  "mark": 0,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 0
+  },
+  "fate": "unseated",
+  "reason": "The Unbridged Gap is unseated. The figure has no source for C, T or F (existing flag: Granovetter's weak ties are many loose ties, not a single bridge). No legal composition has an arrival. Unseated. No descendants."
+ },
+ "The Shared Name": {
+  "name": "The Shared Name",
+  "tier": 4,
+  "parents": [
+   "The Inner Circle",
+   "Transmission Drift"
+  ],
+  "rule": null,
+  "tending": "A name binding people genuinely connected",
+  "fraying": "A name binding people with nothing underneath it",
+  "sources": "Vonnegut; Brownstein (minimal group); Henrich",
+  "mark": 0,
+  "status": "original",
+  "note": "composition under review — a bare label suffices; Transmission Drift may not be needed",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 2
+  },
+  "fate": "unseated",
+  "reason": "No sourced composition. Minimal-group and granfalloon favouritism is each member favouring label-sharers in parallel (rule 3); no source gives an interlock with The Inner Circle or Transmission Drift."
+ },
+ "Policy Resistance": {
+  "fate": "merged",
+  "into": "The Standoff",
+  "name": "Policy Resistance",
+  "tier": 4,
+  "parents": [
+   "Held Silence",
+   "The Organized Few"
+  ],
+  "rule": null,
+  "tending": "Stability no single actor could have imposed: each party's pull holds the others in place, so the system shrugs off any one push.",
+  "fraying": "Rising effort from everyone, producing no movement at all",
+  "sources": "Meadows",
+  "mark": 0,
+  "status": "recomposed",
+  "note": "Push (Meadows): find a goal every party can pursue together, so the pulls stop cancelling.",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 1
+  },
+  "reason": "The written parents (Held Silence + The Organized Few via The Standoff) are legal but have no arrival: nothing in the corpus has withholding-for-safety or a committed few in this mechanism. Meadows' own decomposition gives exactly two legs of one type, each actor's balancing correction toward its own goal, interlocked through a shared stock: that is Tide+Tide. Meadows names the result 'a standoff' (218659), and The Standoff's existing F source (Lowery 248344) pairs 'two people competing for the "
+ },
+ "The Long Cycle": {
+  "name": "The Long Cycle",
+  "tier": 4,
+  "parents": [
+   "First-Arriver Lock-In",
+   "The Shared Pot"
+  ],
+  "rule": null,
+  "tending": "Expansion that genuinely builds",
+  "fraying": "A few gain control of most of the wealth and power, overextend, and the bad times fall hardest on the least powerful.",
+  "sources": "Dalio",
+  "mark": 0,
+  "status": "original",
+  "note": "first parent unverified",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "fate": "unseated",
+  "reason": "No sourced composition. Dalio's cycle bundles several loops (concentration, borrowing, decadence, copying) with no stated interlock; only its concentration half is First-Arriver Lock-In."
+ },
+ "The Received World": {
+  "fate": "merged",
+  "into": "The Faithful Chain",
+  "name": "The Received World",
+  "tier": 4,
+  "parents": [
+   "The Faithful Chain",
+   "The Reputation"
+  ],
+  "rule": null,
+  "tending": "Inherited knowledge that works without needing its explanation",
+  "fraying": "The practice is carried without the know-how that made it safe, and the harm arrives slowly and unexplained.",
+  "sources": "Henrich; Connerton",
+  "mark": 1,
+  "status": "original",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 1
+  },
+  "reason": "The Reputation is unseated, so the written composition is gone. Every source passage is Henrich's cultural-learning account: prestige-biased copying on faith, with causally opaque steps passed on intact. That is exactly The Faithful Chain's C (Henrich 272352 'faith in one's cultural inheritance', 274647) and T (Henrich 271807, manioc processing). 'Over generations' is a scale reading (rule 4). The manioc Fraying is the same chain with the models left behind, so it is the Faithful Chain's own fai"
+ },
+ "The Catchment": {
+  "fate": "merged",
+  "into": "The Inherited Ground",
+  "name": "The Catchment",
+  "tier": 4,
+  "parents": [
+   "First-Arriver Lock-In",
+   "The Hot Spot"
+  ],
+  "rule": null,
+  "tending": "Those who arrived first set the ground the next generation grows in, so a field hands itself on without anyone choosing heirs.",
+  "fraying": "Merit outside the catchment never enters, and the advantage is read as a property of the people",
+  "sources": "Berman; Duckworth; Clear",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 0
+  },
+  "reason": "Both written parents are gone (First-Arriver Lock-In is a Dyad; The Hot Spot is unseated). The only passage (Duckworth 303001, Lost Einsteins) is a cohort growing up among a place's adults and becoming them. That is The Inherited Ground (Duckworth 371243 from the same Chetty-lab programme; the flags already link them), and restricting it to one field is scale (rule 4). No passage gives a first-arriver leg. Merge, with no C gain for The Inherited Ground (Duckworth is already its only source)."
+ },
+ "The Accelerant": {
+  "name": "The Accelerant",
+  "tier": 4,
+  "parents": [
+   "The Closed Circuit",
+   "The Hot Spot"
+  ],
+  "rule": null,
+  "tending": "Density puts more people within reach of each other, so every exchange passes through more hands.",
+  "fraying": "The same density carries harm through those hands at the same rate.",
+  "sources": "Berman; Henrich (Tending only)",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 0
+  },
+  "fate": "unseated",
+  "reason": "The written parent The Hot Spot is unseated. The figure has no Local Rule of its own: density and speed are readings (rule 4: Terrain, Loop Latency), and 'density' as the actor is stored condition, not a runner (rule 1). It is not one lower figure's mechanism read at scale, because the Henrich passage belongs to cultural learning (The Faithful Chain) and the gloss's harm-through-hands belongs to The Contagion. It is a reading of both, so no single merge target exists. Unseated. Henrich 542044 is a lead for The Faithful Chain (population size as a reading)."
+ },
+ "The Shifting Baseline": {
+  "fate": "merged",
+  "into": "The Sliding Floor",
+  "name": "The Shifting Baseline",
+  "tier": 4,
+  "parents": [
+   "The Settling",
+   "Never Enough"
+  ],
+  "rule": null,
+  "tending": "Each generation takes the world it inherits as its starting line and spends its effort on what can still be done, not on mourning a world it never saw.",
+  "fraying": "Each generation adapts to the new normal, and the memory of better erodes",
+  "sources": "Meadows; Chater & Loewenstein",
+  "mark": 0,
+  "status": "added",
+  "note": "Tending pole derived; the Never Enough leg is derived, not sourced",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 2
+  },
+  "reason": "The written parent The Settling merged into The Sliding Floor, and the Never Enough leg was derived, not sourced. Every source passage is The Sliding Floor's own mechanism. Meadows 239826/15520 is the same drift-to-low-performance trap The Sliding Floor already cites (239822). Chater 508140 is hedonic adaptation to the new normal, an independent arrival at Mark+Tide. The Y-pass parsimony claimed that the lost memory makes a new mechanism, but Meadows makes memory loss a function of how slowly th"
+ },
+ "The Visible Few": {
+  "fate": "merged",
+  "into": "The Closed Circuit",
+  "name": "The Visible Few",
+  "tier": 4,
+  "parents": [
+   "The Chain Reaction",
+   "The Social Tipping Point"
+  ],
+  "rule": null,
+  "tending": "Those who act at cost are seen, the rising count of them is reported, and the report makes the next act cheaper, so a norm most people wanted gets through its slow phase.",
+  "fraying": "The visible few who act regardless are read as the trend, and the 'more and more' reporting of them tips the undecided toward a norm most of them did not want. The repeaters are the few, the reporters and the undecided adopters.",
+  "sources": "Brownstein",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "push": "Don't treat the trend message and the first movers as separate levers. The message is made of the movers being seen, so make the ones who act regardless visible (representation, counting) instead of just announcing a trend or recruiting people who will stay unseen.",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 0
+  },
+  "reason": "The written parents are broken (The Chain Reaction merged into Critical Mass, a Dyad), and The Closed Circuit + The Social Tipping Point share no Dyad, so there is no legal Culture slot for the stated pair. Its C passage (Brownstein 208603) is the same passage that is The Closed Circuit's C (209115, 'a change in the system ... pushes other elements of the system to change'), and its T (209047, positive feedback) is that figure's too. The threshold element never appears in the passage (Brownstein"
+ },
+ "Over the Hump": {
+  "fate": "merged",
+  "into": "Critical Mass",
+  "name": "Over the Hump",
+  "tier": 4,
+  "parents": [
+   "The Chain Reaction",
+   "The Quorum Pact"
+  ],
+  "rule": null,
+  "tending": "A contracted coalition big enough to pass the intersection 'can induce everybody else to shift'. The restraint that began as a bargain becomes the choice each prefers on his own, and the pact's enforcement can be retired.",
+  "fraying": "The coalition is viable but short of the intersection: 'a coalition can occur that is insufficient to induce the remainder to choose Right, yet is viable.' Where the pact's own restraint raises the payoff to staying out ('The more the rest of you restrict your whaling, the more whales I catch by staying out'), the chain runs away from the pact. The holdouts relax and 'leave their lights on'. Hawthorne 'saved at least $100,000' pumping over its allotment while its costs 'were spread generally among all signatories', and 'the attempts to reach an agreement with Hawthorne were unsuccessful'. The signers carry the whole load under contract indefinitely.",
+  "sources": "OSTROM; SCHELL",
+  "mark": 1,
+  "status": "added",
+  "note": "",
+  "push": "Size the pact to the intersection, not merely to the number that makes it viable, and first find out whether the restrained choice's payoff rises or falls as more restrain. If it rises (the curves cross), a quorum big enough to pass the crossing tips the rest in and then holds without enforcement. If it falls (each restrainer makes staying out more profitable, as with whaling), no quorum ever self-sustains, and the contract and its enforcement must be permanent, with holdouts expected. The Quorum Pact alone says to make restraint conditional on a counted quorum. The Chain Reaction alone says a few fixed actors can tip conditional ones. Only the composition says which quorum to aim at and whether the pact can later be let go. It differs from The Visible Few (Chain Reaction + Social Tipping Point), where visible costly acts and reported counts make the next act cheaper in a norm with no race or contract. It differs from Critical Mass (tier 2), which has no bargain to reach the hump. It differs from The Shared Pot and Policy Resistance, which have no threshold.",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 2
+  },
+  "reason": "Both written parents are gone (The Chain Reaction merged into Critical Mass; The Quorum Pact unseated, and its Tipping leg merged). All of the C quotes are Schelling's binary-choice curves, in which the multi-person dilemma is 'merely a truncated dual equilibrium' (407456): one structure, Critical Mass's own. The coalition is a deliberate change to the signers' own legs (rule 12), so it is a push, not a leg. Ostrom's Hawthorne passages (a holdout pumping over its allotment while the costs spread"
+ },
+ "The Standing Account": {
+  "fate": "merged",
+  "into": "Proxy Detachment",
+  "name": "The Standing Account",
+  "tier": 5,
+  "parents": [
+   "Proxy Detachment",
+   "The Long Cycle"
+  ],
+  "rule": null,
+  "tending": "In the building phase, flows and stocks rise together: high savings, rising incomes, investments still paying off. A flow account then honestly reports what is being built.",
+  "fraying": "The account counts flows, not stocks. Spending and throughput stay strong while the balance sheet and the resource run down, so the civilisation reads itself as rich into the stage where it is already poorer, and keeps drawing down to keep the number up.",
+  "sources": "",
+  "mark": 1,
+  "status": "modelled",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 2
+  },
+  "push": "When the flow reading is strongest, check the stock (the balance sheet or the resource). A strong flow over a shrinking stock is a sign of Stage 4 (Dalio's 'poorer and still think of themselves as rich'), not a sign of health.",
+  "reason": "Both parents are gone: Proxy Detachment merges into The Captured Measure, and The Long Cycle is unseated, so no World slot and no Culture pair remains. Meadows' GNP passages (275781, 276502) sit inside her 'seeking the wrong goal' trap, the same trap The Captured Measure cites (Meadows 273992): the number reports success while the thing it stood for is spent. Dalio's 'appear rich, even though their balance sheets are deteriorating' is the same judging-by-flow, and it gives an independent arrival"
+ },
+ "Second Nature": {
+  "fate": "merged",
+  "into": "The Slow Hand",
+  "name": "Second Nature",
+  "tier": 5,
+  "parents": [
+   "Proxy Detachment",
+   "The Slow Hand"
+  ],
+  "rule": null,
+  "tending": "A shared measure goes without saying, so a whole society can build on it without restating it, and its houses, cities and institutions take the shape of the idea.",
+  "fraying": "The measure's verdict is taken as a fact about people ('people who are paid less are literally worth less'), and a game rigged by design is rationalised as fair, even by those who lose it: 'that's just the way things are.'",
+  "sources": "",
+  "mark": 1,
+  "status": "modelled",
+  "note": "",
+  "marks": {
+   "C": 2,
+   "T": 1,
+   "F": 2
+  },
+  "push": "Treat it as a paradigm, not an opponent. First show it was made: name the measure, keep pointing at its anomalies, and show it is not obvious to other cultures. Work with the open-minded middle rather than fighting the defenders, because a paradigm can drop 'in a click' while an interest has to be beaten.",
+  "reason": "Both parents are gone: Proxy Detachment merges into The Captured Measure (a Dyad), and The Slow Hand merges into The Standing Script (a Skein). The sources' two halves are the two legs of The Standing Script. Meadows gives the arranger's leg: an idea sets the structure. Chater gives both the design and the occupants reading its effects as desert. 'Effects read as their character' is The Standing Script's own Fraying (Duckworth/Barker, 'train our eye on the place, not the person'). Chater 257810 "
+ },
+ "The Set Course": {
+  "name": "The Set Course",
+  "tier": 5,
+  "parents": [
+   "The Long Cycle",
+   "The Slow Hand"
+  ],
+  "rule": null,
+  "tending": "The order the winners set up is kept in place long enough for a long building phase. Handled well, with strong human capital maintained, the cycle runs for many generations.",
+  "fraying": "The arrangement outlives its fundamentals because it is entrenched in how things are done and defended by those it made rich. The delay lets debt and wealth gaps pile up, so when the fall comes it is abrupt.",
+  "sources": "",
+  "mark": 1,
+  "status": "modelled",
+  "note": "Kept on the parsimony test: lock-in is what carries the cycle past its threshold (Dalio).",
+  "marks": {
+   "C": 1,
+   "T": 1,
+   "F": 1
+  },
+  "push": "Judge an entrenched order by the stage of the cycle, read from conditions (debt, gaps, fundamentals), and not by how prominent the order still is. Prominence lags fundamentals, so the most entrenched arrangement looks safest just before it drops.",
+  "fate": "unseated",
+  "reason": "No sourced composition. Its two halves are separate mechanisms — entrenchment (The Slow Hand) and debt overshoot (the unseated Long Cycle) — and no source joins them."
+ },
+ "The Assigned Debt": {
+  "name": "The Assigned Debt",
+  "tier": 5,
+  "parents": [
+   "The Personal Share",
+   "The Priced Tradition"
+  ],
+  "rule": null,
+  "tending": "A civilization cuts a cost into shares its living members carry, and reprices its traditions so the cost is not simply passed on.",
+  "fraying": "The shares go to people not yet present to refuse them: whoever profits from the rule staying shut issues the debt to descendants, and the lock-in outlives everyone who could have contested it.",
+  "sources": "Chater & Loewenstein",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 0
+  },
+  "fate": "unseated",
+  "reason": "No source for its composition, Tending or Fraying (searches on future generations and descendants found only passing mentions); its parents have since merged."
+ },
+ "The Pumping Race": {
+  "fate": "renamed",
+  "into": "The Shared Pot",
+  "reason": "Added figure's name retired: it merged with the book original The Shared Pot, which keeps the book's name (rule 11)."
+ },
+ "The Captured Measure": {
+  "fate": "renamed",
+  "into": "Proxy Detachment",
+  "reason": "Added figure's name retired: it merged with the book original Proxy Detachment, which keeps the book's name (rule 11)."
+ },
+ "The Standing Script": {
+  "fate": "renamed",
+  "into": "The Slow Hand",
+  "reason": "Added figure's name retired: it merged with the book original The Slow Hand, which keeps the book's name (rule 11)."
+ },
+ "The Told Self": {
+  "fate": "renamed",
+  "into": "Transmission Drift",
+  "reason": "Added figure's name retired: it merged with the book original Transmission Drift, which keeps the book's name (rule 11)."
+ },
+ "Overdependence": {
+  "fate": "merged",
+  "into": "Answering For",
+  "name": "Overdependence",
+  "tier": 2,
+  "parents": [
+   "The Salve",
+   "The Salve"
+  ],
+  "rule": null,
+  "tending": "A fast answer unblocks someone and buys the time the real build needs",
+  "fraying": "Helpfulness increases demand for help; capacity atrophies on both sides",
+  "sources": "Stanier — the overdependence circle",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 0,
+   "F": 1
+  },
+  "push": "Answer with a question more often than with an answer: each answer given trains the other to bring the next problem, so the helper's relief at answering and the asker's relief at being answered feed each other, and a question ('And what else?') breaks that cycle. The Salve alone says relief is reached for; only two runs of it say each side's relief is the other's next reason to reach.",
+  "reason": "Q4: one Stanier vicious circle; the Spark leg was the loop (a reading)"
+ },
+ "The Borrowed Fire": {
+  "name": "The Borrowed Fire",
+  "tier": 3,
+  "parents": [
+   "The Contagion",
+   "Identity Ratchet"
+  ],
+  "rule": null,
+  "tending": "Activists who proved a practice in one struggle carry it into the next through the members the struggles share, and what they learn there returns.",
+  "fraying": "The same members carry liability, stigma and defeat across from one struggle to the next.",
+  "sources": "Brownstein",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 0
+  },
+  "fate": "unseated",
+  "reason": "parsimony: no push distinct from its parents (quality pass)"
+ },
+ "The Bottleneck": {
+  "name": "The Bottleneck",
+  "tier": 3,
+  "parents": [
+   "Answering For",
+   "The Presenting Problem"
+  ],
+  "rule": null,
+  "tending": "One helper's expertise reaches a whole group, because each person can bring the problem they are able to name.",
+  "fraying": "The helper becomes the queue, and the queue fills with presented problems, each solved decently, while the real ones never reach the front.",
+  "sources": "Stanier",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 1,
+   "T": 0,
+   "F": 1
+  },
+  "push": "Your time is the queue, so the presented problems crowd out the real ones; ask for the real challenge first (Stanier's focus question) before taking any problem into the queue ('You’ve become the VP of Bottlenecking', STANIER@62667).",
+  "fate": "unseated",
+  "reason": "parsimony: no push distinct from its parents (quality pass)"
+ },
+ "Adaptation Neglect": {
+  "fate": "merged",
+  "into": "The Focusing Illusion",
+  "reason": "Mechanism the sources describe: the judge (an observer, or one's own forecasting self) is asked how a life with a condition goes and answers with the moment the question calls up (Easier Door: substitution), attending to the condition so it looms (Gardener); the person living it has meanwhile withdrawn attention from it (adaptation). The written composition Gardener + Tide has no interlock in any source: the liver's return and the judge's attention never feed each other (the judge does not see the return), so it is parallel at best (rule 3). Kahneman files the case under the focusing illusion in so many words ('and of course in the focusing illusion'; 'wrong ... about the happiness of others'), and The Focusing Illusion (Easier Door + Gardener, C=1 Kahneman) is exactly that substitution-plus-attention mechanism. Chater (495866) arrives at the same observer error independently in text, but both he and Kahneman cite Loewenstein & Ubel (2008), so it counts once. Reader 3's Learning Gradient + Gardener has no source for the interlock. Rule 11: same mechanism, merge; The Focusing Illusion keeps its name.",
+  "name": "Adaptation Neglect",
+  "tier": 2,
+  "parents": [
+   "The Gardener",
+   "The Tide"
+  ],
+  "rule": null,
+  "tending": "Sustained attention is what care and advocacy are made of",
+  "fraying": "A condition they adapted to stays vivid to you forever",
+  "sources": "Kahneman — miswanting",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 0,
+   "F": 1
+  },
+  "push": "To judge how bad a condition is for the person living with it, ask how much of their day they spend attending to it, not how vivid it is to you: 'Adaptation to a new situation, whether good or bad, consists in large part of thinking less and less about it.' The Gardener alone says repeated attention grows a thing; the Tide alone says a state returns to its setpoint. Only the pair says the observer's attention keeps alive what the person living it has already returned from.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": false,
+   "readers_rank": null
+  }
+ },
+ "The Loud Sample": {
+  "fate": "merged",
+  "into": "The Agenda",
+  "reason": "Mechanism the sources describe: a vocal few speak to move the designers (Namer: saying it loudly so a rollback follows); the designers judge how common a problem or view is by how much of it reaches them (Nearest Light); the change the designers make is what the vocal few answer, and their volume is what the designers weigh (Sellers: a change makes them 'very loud', which can 'override' behavioural data). That is The Agenda's interlock (namers set the ranking by setting the frequency; the rankers' response is what the namers speak to), read at community scale (rule 4). Hopson and Sellers arrive at it independently (no path between them). No source composes Filling the Gap + The Cascade: no passage has an assumption kept against perception, and none has hearers' concern feeding new coverage feeding concern (Sellers' 'echo chamber' is volume, not a self-sustaining chain; Kahneman's cascade is already The Cascade's own C). Reader 2's alternatives (Cascade + Reading the Room, Agenda + Reading the Room) have no arrival. Adversarial check against merging: The Loud Sample's poles talk of representativeness, The Agenda's of importance; both are 'judged prevalence set by frequency of naming', so they are one mechanism and The Agenda keeps its name.",
+  "name": "The Loud Sample",
+  "tier": 3,
+  "parents": [
+   "Filling the Gap",
+   "The Cascade"
+  ],
+  "rule": null,
+  "tending": "When the visible members are representative, availability is an efficient way to know a group",
+  "fraying": "The most extreme voices are amplified into the whole sample, and because everyone hears the same voices, everyone is wrong the same way.",
+  "sources": "Epley; Kahneman",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "push": "Treat what the loudest members say as a lead to investigate with a sample you draw yourself, not as the group's view, since everyone else is hearing the same voices (Hopson: use the noise 'as inspiration for more objective research projects'). Filling the Gap alone says assumptions outlast perception; The Cascade alone says a salient event inflates; only the pair says everyone fills the same gap from the same few, so more listening only deepens the shared error.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": false,
+   "readers_rank": null
+  }
+ },
+ "The Narrow Ledger": {
+  "fate": "merged",
+  "into": "The Mark",
+  "reason": "Mechanism (Kahneman reporting Thaler): each of 25 division heads judges his own gamble against his own reference, loss averse, one gamble at a time (narrow frame). That is The Mark: judging against a reference point, and Kahneman's reference-dependence passage is The Mark's own C. The heads do not interlock with one another or with the CEO: Kahneman gives 25 parallel runs ('loss averse in his or her domain'), and parallel runs compose nothing (rule 3). The organisation's timidity is their aggregate, a Third Thing, and the CEO's broad frame is a remedy, a push (rule 6), not a run. So the figure is The Mark read at organisation scale (rule 4). The old composition The Tested Price + The Anchor has no named number tested or anchored. Reader 2's Dual Entitlement ×2 (via the owner's reference) has no passage in which the owner's reference acts on the heads. Kahneman's agency remark (KAHN 745883, 'mental self-dealing ... conflicts of interest when the individual acts as an agent') names a conflict but no interlock, so it is a lead only. Merge, not unseat, because the mechanism is sourced; it simply is The Mark.",
+  "name": "The Narrow Ledger",
+  "tier": 3,
+  "parents": [
+   "The Tested Price",
+   "The Anchor"
+  ],
+  "rule": null,
+  "tending": "Each division head judges a gamble against his own division's reference and refuses the marginal ones, so loss aversion checks overconfident optimism.",
+  "fraying": "Locally prudent refusals sum to an organisation more timid than its owners want",
+  "sources": "Kahneman",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "push": "Set a risk policy above the divisions: let the level that sees all the gambles (the CEO's broad frame) decide which to take as a bundle, rather than letting each loss-averse manager price his own. The Tested Price alone says test a named number before accepting it; The Anchor alone says the first number governs; only the pair says each manager's own reference is the anchor, so the correction is to change who frames the bet.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": false,
+   "readers_rank": null
+  }
+ },
+ "The Borrowed Assent": {
+  "fate": "merged",
+  "into": "The Hall of Mirrors",
+  "reason": "Mechanism (Kahneman, theory-induced blindness): each scholar privately notes the anomaly, does not pursue it, and reads the field's visible acceptance as a verdict ('trusting the community of experts who have accepted it'). That community is made of scholars doing the same, so private doubts never enter the room and the field holds a position its members privately question. That is The Hall of Mirrors (Echo + Reading the Room) read at field scale (rule 4). Its duration over generations is a reading, not a leg. No source composes The Hall of Mirrors + The Imagined Public: nothing has the scholar build a public from the nearest faces, and The Imagined Public has no sourced element (C, T and F all 0). The old T came from Henrich's faith in cultural inheritance, which is vertical copying across generations (The Faithful Chain's mechanism). It is not carried over, since Kahneman's mechanism is peers reading peers. Reader 2's Faithful Chain proposals were considered and rejected for that reason. Held Silence is rejected too: the scholars keep quiet because they infer, not because they fear. Merge: same mechanism, and the World-tier slot stays empty.",
+  "name": "The Borrowed Assent",
+  "tier": 4,
+  "parents": [
+   "The Hall of Mirrors",
+   "The Imagined Public"
+  ],
+  "rule": null,
+  "tending": "Each cohort takes the framework on the assumption that the field has checked it, and so can spend its own effort at the frontier.",
+  "fraying": "Everyone assumes someone else verified the foundation; no one did, and a founding flaw stays invisible for generations.",
+  "sources": "Kahneman",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "push": "When an observation does not fit the framework everyone uses, pursue it rather than assume someone has already explained it, and ask who in the field actually checked the foundation. The Hall of Mirrors alone says collect private views before the room forms; The Imagined Public alone says test your picture against people outside your circle; only the pair says the 'community of experts' you defer to is itself deferring, so the benefit of the doubt has no one behind it.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": false,
+   "readers_rank": null
+  }
+ },
+ "The Common Stag": {
+  "fate": "merged",
+  "into": "The Contingent Commitment",
+  "reason": "The assurance mechanism the figure is built on is placed by its own T source at another composition. The Common Stag's T quote (OSTROM 273243, Ostrom reporting Levi) is the start of Ostrom's argument that 'the compliance of each depends on the compliance of the others', and Ostrom then says how assurance is produced: 'CPR appropriators create their own internal enforcement to ... assure quasi-voluntary compliers that others also comply', i.e. contingent self-commitment kept going by mutual monitoring. That is The Contingent Commitment (Mutual Monitoring + Mutual Monitoring via The Gardener), sourced to the same Ostrom chapter. Berns' stag hunt (strategic uncertainty: 'each individual has to trust that the other will do the right thing') is the same assurance problem with no composition of its own; Schelling's 'willing to do their part as long as everybody else does' is already The Contingent Commitment's F. One mechanism (conditional cooperation that holds only on visible evidence that others hold), so merge (rule 11). Neither is a book original; the name The Contingent Commitment is kept, with The Common Stag as alias. Berns 214062 adds an independent T and Berns 216509/216744 an independent F to the target.",
+  "name": "The Common Stag",
+  "tier": 3,
+  "parents": [
+   "The Held Commitment",
+   "The Arrangement"
+  ],
+  "rule": null,
+  "tending": "The parties name common rules and arrange each other's conditions so that the cooperative act is safe for everyone at once.",
+  "fraying": "Without assurance that others will hold, each takes the safe hare, and the stag nobody could take alone is never hunted.",
+  "sources": "Berns",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 2,
+   "F": 1
+  },
+  "push": "Before asking anyone to act, give each party visible evidence that the others are holding the rule, because a named rule without that assurance still leaves the safe hare as each one's best move (Ostrom reporting Levi: they comply 'as long as they are confident that others are cooperating'; Berns: 'each individual has to trust that the other will do the right thing'). The Held Commitment alone says someone else holds the conditions, The Arrangement alone says two shape each other's conditions; only the pair says the held rule works only when each can see it held by all.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": true,
+   "readers_rank": 1
+  }
+ },
+ "The Crowded Door": {
+  "fate": "merged",
+  "into": "The Focusing Illusion",
+  "reason": "Kahneman gives the mechanism and its parts. Each entrant attends to what it knows best ('entrepreneurs naturally focus on what they know best—their plans and actions'; 'If you only think about your own business'): The Gardener. It answers the easier question ('a difficult question has again been replaced by an easier one'; 'refers to knowledge that is most easily available to them'): The Easier Door. He names the two processes himself: 'WYSIATI and substitution produce both competition neglect and the above-average effect'. The entrants do not interlock: 'you don't think that everybody else is thinking the same way'. They run the same rule side by side, and the overshoot is their sum, which rule 3 says composes nothing. Coaching the Ghost (dwelling on an absent party) is the reverse of competition neglect (ignoring the absent rivals), so it is no part. By rule 4 the market-scale overshoot is the figure its composition gives, read at that scale: The Focusing Illusion (Easier Door + Gardener), whose C is Kahneman's 'substitutes a small part of it for the whole of it'. The optimistic martyrs (failed entrants signalling markets to better-qualified successors) are a one-way transmission edge, not a loop. Marks for the target: C stays 1 (Kahneman again). T gains a candidate: KAHN 571010, 'the effect on the economy as a whole could well be positive', the entrant's narrow focus producing a public good. That would take T from 0 to 1; accept it only if a market-scale Tending is admitted for a Dyad. F stays 1 (KAHN 570900 'excess entry', to be moved onto the target's F).",
+  "name": "The Crowded Door",
+  "tier": 3,
+  "parents": [
+   "The Focusing Illusion",
+   "Coaching the Ghost"
+  ],
+  "rule": null,
+  "tending": "Entrants make more attempts than a cold count would license, and those who fail mark new ground for better-qualified successors.",
+  "fraying": "Each answers the easy question and agrees with every rival, so entry overshoots",
+  "sources": "Kahneman",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 1
+  },
+  "push": "Before entering, answer the question the entrants skipped, 'considering what others will do, how many will come?', and count the rivals entering on the same reasoning; if you back entrants, expect the typical one to lose even when the field as a whole gains. The Focusing Illusion alone says what you attend to looms large; Coaching the Ghost alone says the absent party's question displaces your own; only the pair says every entrant makes the same swap at once, so entry overshoots.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": true,
+   "readers_rank": 2
+  }
+ },
+ "The Disengagement Divide": {
+  "fate": "merged",
+  "into": "The Held Commitment",
+  "reason": "Gneezy gives the mechanism with two legs, and neither is The Norm Cascade. The leader names the value ('emphasize the importance of team effort', a Namer run) and sets the conditions ('set individual incentives', a Riverbed run), and people follow the conditions: 'Do they follow the talking points or the money? They follow the money.' The T case has the same shape (Branson's risk-taking spread 'top-down' because failure was not punished: 'Don't tell your team to take risks and then punish them for failure'). What spreads is what the conditions pay for, not what saying recruits, so no source supplies the Norm Cascade leg. Brown's divide ('leaders not living by the same values they're preaching') is the same gap between the named word and the held conditions. Namer + Riverbed is The Held Commitment's slot: a declaration holds only while someone holds the conditions for it. Clear and Gneezy's habit contracts are the aligned direction and the mixed signal is the opposed direction: one structure in two directions (rule 6), so merge. Neither figure is a book original; The Held Commitment keeps its name, with The Disengagement Divide as alias. Target marks after the merge: C 2 (Clear; Gneezy), T 2 (Clear; Gneezy), F 2 (Gneezy; Brown). F counts Brown only if a leader's practiced conduct is accepted as the held condition. If not, F stays 1.",
+  "name": "The Disengagement Divide",
+  "tier": 3,
+  "parents": [
+   "The Held Commitment",
+   "The Norm Cascade"
+  ],
+  "rule": null,
+  "tending": "Those who name a value also hold the conditions that reward it, so each adopter who says it aloud recruits the next and the value spreads as a practised norm.",
+  "fraying": "Leaders name the value while arranging conditions that reward its opposite, and people follow what the conditions pay for.",
+  "sources": "Brown",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 1,
+   "F": 2
+  },
+  "push": "When you name a value, check what the conditions pay for, because people follow the money over the talking points, and put the incentive where the word is (Gneezy: 'Do they follow the talking points or the money? They follow the money'; 'When you want to encourage teamwork, you need to use team incentives'). The Held Commitment alone says a declaration holds when someone holds the conditions, The Norm Cascade alone says saying recruits; only the pair says naming spreads whatever the conditions reward, so a contradicted value spreads the gap.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": true,
+   "readers_rank": 1
+  }
+ },
+ "The Personal Share": {
+  "fate": "merged",
+  "into": "Crowd-Out",
+  "reason": "Every sourced element of The Personal Share is the personal-to-structural spillover, and both sources treat that spillover as one structure running two ways, crowd out or crowd in. Brownstein: 'personal behavior changes don't necessarily crowd out actions focused on structural change. They can crowd them in too.' Chater & Loewenstein: 'when the carbon tax was framed as costly to individuals, the authors observed crowding out'. The share is cut and handed out by a placer ('corporate campaigns against littering and for carbon footprint monitoring ... to keep the public complacent and distracted'). That is Crowd-Out (Riverbed + Salve): a placed fix whose relief spends the demand for the rule. By rule 6 its two directions are its poles, so Brownstein's crowd-in fills Crowd-Out's empty Tending. The book's assurance clause (shares carried out of sight never add up to the assurance a rule needs) has no source. It is also the mechanism of The Contingent Commitment, where The Common Stag goes, so it adds no third mechanism. Both parents move (The Two Hands) or merge (The Common Stag), so the old composition cannot stand in any case. Target marks: C 1 (Chater), T 0 to 1 (Brownstein 196059), F 1 to 2 (Chater; Brownstein 35274, a separate study). CHATER 76362 (the Sparkman title) is not T: Chater cites it in order to dispute it.",
+  "name": "The Personal Share",
+  "tier": 4,
+  "parents": [
+   "The Common Stag",
+   "The Two Hands"
+  ],
+  "rule": null,
+  "tending": "The commons cut into a share each person can carry, and the doing builds the constituency",
+  "fraying": "Each carries a personal share privately and out of sight, so no one sees the others carrying theirs; the shares never add up to the assurance that would make the rule winnable, and people who frame the problem as their own consumer choices lose the will for anything else ('framing solutions in terms of individual consumer choices decreases people's willingness to take other forms of action').",
+  "sources": "Brownstein; Chater & Loewenstein",
+  "mark": 0,
+  "status": "added",
+  "note": "",
+  "marks": {
+   "C": 0,
+   "T": 2,
+   "F": 1
+  },
+  "push": "When you ask people for a personal share, make the shares visible and count them toward the rule change, and distrust a share framing issued by the party that profits from the rule (Brownstein: 'small personal steps can springboard people into backing substantive structural change'; consumer-choice framing 'decreases people's willingness to take other forms of action'). The Common Stag alone says assurance lets people take the stag, The Two Hands alone says the personal fix can occupy the rule change's ground; only the pair says a share carried privately cannot supply the assurance.",
+  "seat_test": {
+   "source": false,
+   "readers_top3": true,
+   "readers_rank": 1
+  }
+ }
+}
