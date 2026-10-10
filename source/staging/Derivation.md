@@ -439,3 +439,51 @@ The recap describes a manuscript of about 91,000 words. The copy in this repo is
 4. Composition: state the rule (L3, L4) as outcomes plus an observed leader.
 5. Marks: Iceberg's observed marks plus "derived".
 6. Weaving: keep weave6 as the base; add the Worth step; apply the canon test to the kin.
+
+---
+
+## H. The gap, closed (2026-10-09)
+
+**Status:** applied to this branch. Not pushed.
+
+### What the gap was
+
+The missing work was never missing. It was on a local branch, `claude/loop-tongue-feedback-70a703`, written on 2026-10-07 and never pushed or merged: the handed-off manuscript (92,512 words), the registry under `source/registry/`, a first reconciliation (`source/staging/Reconciliation.md`), a repair batch and an essence pass. This branch had been cut from `main`, which still holds the older 76,795-word text.
+
+### What was done
+
+- That branch is merged into this one. The manuscript here is now the 92,512-word text.
+- These notes moved to `source/staging/Derivation.md` so both staging files survive. `Reconciliation.md` is the earlier session's and is unchanged.
+- The routine reported 41 chapters changed, one renumbered and one new. All the added text was read, the map was updated, and every trace is accepted against the new text. No anchor phrase was lost.
+- `scripts/manifest.mjs`: Open Questions is now chapter 8 of Part Four; The Limits of Running It Forward is added as chapter 7.
+
+### Where the two lines of work agree
+
+Reached separately, from the same shelf. That is weaker than independent arrival: same model, same sources.
+
+| Earlier reconciliation | This one |
+|---|---|
+| One operation: a loop that holds becomes a part. The pillars are that operation seen at each step | Three axioms, one per pillar. **The one operation is the better statement and is now the top line of the map** |
+| Leverage: because levels nest, where you push matters | Leverage as a theorem of the three |
+| You cannot run it forward; you cannot read it backward to one rule | Perspective |
+| The registry is the catalogue; teach the faces and the rules; generate the table | The generators are the canon; the figures are a library |
+| Three rings | Three rings |
+| Independent Convergence is the evidence rule, not a figure | Flagged as the one figure that breaks the fusion rule |
+| The same operation at every scale; a figure recurring is common, not general | The first question of this whole thread: the same rule, different forms |
+
+### What the newer text already settles
+
+- **Leverage and position.** Fractal Resistance now says the ladder describes the system and that which rungs you can reach depends on where you stand. That is the Standpoint, and it answers the weakness noted in D.
+- **Perspective.** The Limits of Running It Forward states it outright, including that no vantage exists above the last scale.
+- **Poles.** The text uses strengthening and weakening, with lifeline and snare for value. Section G's adoption of L1 matches it.
+- **The Turning exemption.** Rewritten: a Turning runs like any Local Rule once kept. The conflict flagged in D is gone.
+- **The merge test and count test.** Already run in the earlier reconciliation: 43 of 108 figures have a composition tracing to a single rank; 68 of 232 compositions are one part run twice. Step 3 of the order in G is half done.
+
+### What is now open
+
+1. **Nine mantras against four moves.** The Daily Practices now names its own set: look, plant, tend, thin. Four verbs beat nine mantras on elegance. They need reconciling, and the four may simply win.
+2. **Chance and Worth.** The earlier reconciliation has neither. The newer text carries both without naming them as foundations (sensitive dependence; vision as a direction; "a lifeline or a snare, and for whom").
+3. **Three pillars.** The manuscript still says four.
+4. **Part Five is still parked.** Its text changed heavily in the merge and was not re-read.
+5. **The site is behind the manuscript.** `src/content` has not been re-seeded, so the new chapter has no page and `/derivation/` links to one that does not exist yet. The earlier reconciliation judged a re-seed safe; it has not been done.
+6. **Do not push without a decision on the registry.** `source/registry/` holds about 1,100 verbatim quotations (about 30,000 words) from the source books, each short and attributed. The repo is public and its text is licensed CC BY-SA. The earlier branch was never pushed.

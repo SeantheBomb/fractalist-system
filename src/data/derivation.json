@@ -3,7 +3,9 @@
   "status": "proposed",
   "system": {
     "of": "Taking part in patterns you cannot see whole.",
-    "note": "The system is a lens, never true or false in itself. Physics, biology, a marriage are interpretations of it; each interpretation is a claim that can be tested. Its theorems are moves, not facts."
+    "note": "The system is a lens, never true or false in itself. Physics, biology, a marriage are interpretations of it; each interpretation is a claim that can be tested. Its theorems are moves, not facts.",
+    "operation": "A loop that holds becomes a part.",
+    "operationNote": "From the 2026-10-07 reconciliation (source/staging/Reconciliation.md). Something repeats; if the repetition holds it acts as one thing; that thing is a part one level up, which acts back down. The three pillars are this one operation seen three times. The same operation at every scale; the forms it makes need not repeat."
   },
   "alphabet": {
     "node": "grammar-of-pattern",
@@ -90,6 +92,11 @@
   },
   "pillarsNote": "Trimmed to three by Sean, 2026-10-09. The three hold up a place to stand. Leverage and Perspective are what one position on it gives: reach and view. Sean accepted the name Standpoint for the pair, for now.",
   "theoremsName": "The Standpoint",
+  "poles": {
+    "tending": "The loop strengthening.",
+    "fraying": "The loop weakening.",
+    "note": "Ledger L1. Neither is good or bad: a pull can be a lifeline or a snare. Direction is mechanical; whether it is a lifeline or a snare is a question of worth."
+  },
   "axioms": [
     {
       "id": "repetition-builds",
@@ -356,7 +363,8 @@
       "theorems": [],
       "foundations": [
         "where-it-comes-from",
-        "the-mathematics"
+        "the-mathematics",
+        "running-it-forward"
       ]
     },
     {
@@ -408,7 +416,9 @@
       "thin": false,
       "theorems": [],
       "foundations": [
+        "the-sacrifice-trap",
         "where-it-comes-from",
+        "a-word-on-belief",
         "flow-reward"
       ]
     }
@@ -430,9 +440,14 @@
         {
           "node": "four-pillars",
           "anchor": "what the first three pillars make unavoidable"
+        },
+        {
+          "node": "fractal-resistance",
+          "anchor": "Leverage can be real and still not be yours to reach."
         }
       ],
       "sources": [],
+      "note": "Fractal Resistance now separates the two halves: the ladder describes the system, and which rungs you can touch depends on where you stand.",
       "books": 0,
       "unstated": [],
       "mantras": [
@@ -440,6 +455,7 @@
       ],
       "foundations": [
         "finding-your-leverage-point",
+        "fractal-resistance",
         "four-pillars"
       ]
     },
@@ -455,7 +471,7 @@
         "form-becomes-rule"
       ],
       "derivation": "You are a part of a larger form. A part acts only on what is near it. The form has properties no part contains. So no part holds the whole it belongs to, and that includes its view of another person, who is a whole too. What two views make together is itself a Third Thing: depth that neither view has.",
-      "note": "Named by Sean, 2026-10-09, who placed it as derived from the pillars, not beside them. It was briefly held as an axiom called \"Frames are private\". The derivation assumes a noticing mind is a part like any other, which The Woven Self asserts.",
+      "note": "Named by Sean, 2026-10-09, who placed it as derived from the pillars, not beside them. It was briefly held as an axiom called \"Frames are private\". The derivation assumes a noticing mind is a part like any other, which The Woven Self asserts. The Limits of Running It Forward states it in time: you cannot run a rule forward, cannot read a form back to one rule, and there is no vantage above the last scale.",
       "statedIn": [
         {
           "node": "the-loop-runs-you",
@@ -464,6 +480,10 @@
         {
           "node": "naming-and-defusing",
           "anchor": "You are a loop. You build a tree."
+        },
+        {
+          "node": "running-it-forward",
+          "anchor": "There is no list."
         }
       ],
       "sources": [
@@ -508,7 +528,8 @@
         "why-lines-break-loops",
         "psychology-woven-self",
         "belief-systems-built",
-        "what-a-weaving-is"
+        "what-a-weaving-is",
+        "running-it-forward"
       ]
     }
   ],
@@ -526,6 +547,7 @@
         "onboarding",
         "daily-practices",
         "naming-and-defusing",
+        "fractal-resistance",
         "presence",
         "group-practice",
         "closing-the-loop",
@@ -565,7 +587,8 @@
         "flow-reward",
         "open-questions",
         "weaving-together",
-        "anchoring"
+        "anchoring",
+        "running-it-forward"
       ]
     },
     {
@@ -580,6 +603,7 @@
       ],
       "nodes": [
         "onboarding",
+        "fractal-resistance",
         "the-dyad",
         "the-trust-triangle",
         "do-i-understand-you",
@@ -638,6 +662,7 @@
       ],
       "nodes": [
         "daily-practices",
+        "the-compost-heap",
         "reading-your-own-cycle",
         "the-stall",
         "starting-is-expensive",
@@ -729,7 +754,8 @@
         "reading-the-global-form",
         "the-long-visitor",
         "someone-elses-calendar",
-        "outlives-the-ceremony"
+        "outlives-the-ceremony",
+        "running-it-forward"
       ]
     },
     {
@@ -758,13 +784,14 @@
       "id": "find-the-other-pole",
       "name": "Find the other pole",
       "level": "guard",
-      "instruction": "Every pattern, these included, can build or corrode. Look for the side you are not seeing.",
+      "instruction": "Every running pattern can strengthen or weaken, and either can be a lifeline or a snare. Look for the reading you are not seeing.",
       "blindSpot": "Looking for a second pole on something that has stopped running.",
       "from": [
         "repetition-builds"
       ],
       "nodes": [
         "receiving",
+        "a-word-on-belief",
         "scale-tagging",
         "loop-tongue-limits",
         "fractalism-collective",
@@ -804,8 +831,10 @@
       "anchors": [
         "Naming the Loop",
         "Tree-Gazing",
-        "Seeding"
+        "Seeding",
+        "Look, plant, tend, thin."
       ],
+      "leftover": "Names four moves of its own: look, plant, tend, thin. The nine mantras have not been reconciled with them.",
       "title": "The Daily Practices",
       "part": "part-two",
       "href": "/node/daily-practices/",
@@ -851,12 +880,14 @@
       "node": "the-compost-heap",
       "from": [
         "walk-the-loop",
-        "check-the-stand-in"
+        "check-the-stand-in",
+        "mind-what-adds-up"
       ],
       "verdict": "partial",
       "leftover": "Creative work is carried by other people. No mantra says to let them.",
       "anchors": [
-        "Failure is not waste."
+        "Failure is not waste.",
+        "compost is a stock"
       ],
       "title": "The Compost Heap",
       "part": "part-two",
@@ -936,12 +967,18 @@
       "node": "fractal-resistance",
       "from": [
         "tend-the-act",
-        "check-the-size"
+        "check-the-size",
+        "tend-the-between",
+        "watch-it-run"
       ],
       "verdict": "partial",
       "leftover": "Variation as immunity follows straight from the chance axiom. No mantra carries it.",
       "anchors": [
-        "small, honest local variation"
+        "small, honest local variation",
+        "The Nest is gated by connection"
+      ],
+      "states": [
+        "leverage"
       ],
       "title": "Fractal Resistance, Practiced",
       "part": "part-two",
@@ -959,7 +996,11 @@
       ],
       "verdict": "derived",
       "anchors": [
-        "Would I be willing to repeat exactly this, unchanged, indefinitely?"
+        "Would I be willing to repeat exactly this, unchanged, indefinitely?",
+        "It is a direction you check your acceleration against."
+      ],
+      "states": [
+        "worth-is-the-measure"
       ],
       "title": "The Sacrifice Trap",
       "part": "part-two",
@@ -975,7 +1016,8 @@
       ],
       "verdict": "derived",
       "anchors": [
-        "Tracing the Fold"
+        "Tracing the Fold",
+        "It is the Nest, seen up close."
       ],
       "title": "The Fold",
       "part": "part-two",
@@ -1011,7 +1053,8 @@
       "anchors": [
         "Authenticity",
         "Empathy",
-        "Logic"
+        "Logic",
+        "who is feeding this, and who is absorbing it?"
       ],
       "title": "The Trust Triangle",
       "part": "part-two",
@@ -1179,7 +1222,8 @@
       "from": [],
       "verdict": "foundation",
       "anchors": [
-        "They generate each other"
+        "They generate each other",
+        "It is the same operation running at every scale"
       ],
       "states": [
         "repetition-builds",
@@ -1187,7 +1231,7 @@
         "form-becomes-rule",
         "leverage"
       ],
-      "leftover": "Counts Leverage as a fourth pillar while also calling it what the first three make unavoidable. The pillars are now three; this chapter has not been changed. Perspective follows from the same three and is not named here.",
+      "leftover": "Now says the same operation runs at every scale and that the Nest runs both ways. Still counts Leverage as a fourth pillar while calling it what the first three make unavoidable. Perspective is not named beside it.",
       "title": "The Four Pillars",
       "part": "part-one",
       "href": "/node/four-pillars/",
@@ -1316,11 +1360,16 @@
       "node": "a-word-on-belief",
       "from": [
         "check-the-stand-in",
-        "make-it-worth-repeating"
+        "make-it-worth-repeating",
+        "find-the-other-pole"
       ],
       "verdict": "derived",
       "anchors": [
-        "This was built."
+        "This was built.",
+        "a lifeline or a snare, and for whom"
+      ],
+      "states": [
+        "worth-is-the-measure"
       ],
       "title": "A Word on Belief Itself",
       "part": "part-one",
@@ -1513,7 +1562,8 @@
       ],
       "verdict": "interpretation",
       "anchors": [
-        "isomorphic"
+        "isomorphic",
+        "Most are mixtures."
       ],
       "states": [
         "repetition-builds",
@@ -1717,7 +1767,7 @@
       "anchors": [
         "read upward"
       ],
-      "leftover": "Rests on the fusion table in Part Five, which is parked.",
+      "leftover": "Rests on the composition table, which is parked. The text now allows more than one figure per pair.",
       "title": "The Full Unravelling",
       "part": "part-six",
       "href": "/node/the-full-unravelling/",
@@ -1803,7 +1853,6 @@
       "anchors": [
         "Aimed."
       ],
-      "leftover": "Says a designed thing has an aim, not two poles. The guard says every pattern has two, the mantras included.",
       "title": "What a Turning Is",
       "part": "part-seven",
       "href": "/node/what-a-turning-is/",
@@ -1896,6 +1945,27 @@
       "title": "What Outlives the Ceremony",
       "part": "part-seven",
       "href": "/node/outlives-the-ceremony/",
+      "flags": [],
+      "missingAnchors": []
+    },
+    {
+      "node": "running-it-forward",
+      "from": [
+        "tend-the-act",
+        "check-the-stand-in"
+      ],
+      "verdict": "foundation",
+      "anchors": [
+        "You can find a rule that fits. You cannot run it forward.",
+        "There is no list."
+      ],
+      "states": [
+        "perspective",
+        "chance-remains"
+      ],
+      "title": "The Limits of Running It Forward",
+      "part": "part-four",
+      "href": "/node/running-it-forward/",
       "flags": [],
       "missingAnchors": []
     }
@@ -1994,10 +2064,10 @@
     }
   ],
   "report": {
-    "chapters": 83,
-    "traced": 63,
+    "chapters": 84,
+    "traced": 64,
     "verdicts": {
-      "foundation": 6,
+      "foundation": 7,
       "alphabet": 2,
       "interpretation": 6,
       "derived": 45,

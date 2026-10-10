@@ -443,7 +443,15 @@ export const NODES = [
     related: ['open-questions', 'a-word-on-belief', 'independent-convergence', 'the-received-world'],
   },
   {
-    heading: '7. Open Questions & How to Expand This',
+    heading: '7. The Limits of Running It Forward',
+    slug: 'running-it-forward',
+    title: 'The Limits of Running It Forward',
+    part: 'part-four',
+    summary: 'Finding the rule is not predicting the form. Two things make a Global Form unpredictable, a named rule is only a hypothesis, and fatalism turns out to be unavailable rather than false.',
+    related: ['complicated-or-complex', 'finding-your-leverage-point', 'open-questions'],
+  },
+  {
+    heading: '8. Open Questions & How to Expand This',
     slug: 'open-questions',
     title: 'Open Questions & How to Expand This',
     part: 'part-four',
