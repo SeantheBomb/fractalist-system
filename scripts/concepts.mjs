@@ -32,7 +32,7 @@ const INDEX_OVERRIDES = {
   'Two senses of "real"': { slug: 'two-senses-of-real' },
   'Constraint counting, and which unknown to decide first': { name: 'Constraint counting', slug: 'constraint-counting' },
   "The Oriental hornet's solar cycle": { slug: 'hornet-solar-cycle' },
-  'The Drake equation as a worked recursion chain': { name: 'The Drake equation', slug: 'drake-equation' },
+  'The intelligent-civilizations chain (the Drake equation) as a worked recursion chain': { name: 'The Drake equation', slug: 'drake-equation' },
   'Local Rule across scales, and resonance': [
     { name: 'Local Rule across scales', slug: 'local-rule-across-scales', cites: 'Pt.2 Ch.3',
       blurb: 'A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same."' },
