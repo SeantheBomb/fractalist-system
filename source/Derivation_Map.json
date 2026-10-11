@@ -679,7 +679,7 @@
       "anchors": [
         "Notice one loop. Change nothing."
       ],
-      "seen": "571110e978",
+      "seen": "454953815f",
       "moves": [
         "look@self",
         "thin@self",
@@ -703,7 +703,7 @@
         "Seeding",
         "Look, plant, tend, thin."
       ],
-      "seen": "b3dc48e32e",
+      "seen": "51df839923",
       "moves": [
         "look@self",
         "plant@self",
@@ -722,7 +722,7 @@
         "What can you sustain",
         "once per scale"
       ],
-      "seen": "f6afcc8dc7",
+      "seen": "6124651fcf",
       "moves": [
         "look@self",
         "plant@self"
@@ -740,7 +740,7 @@
       "anchors": [
         "I'm having the thought that I always quit"
       ],
-      "seen": "7be7423e8b",
+      "seen": "2e94de58fa",
       "moves": [
         "look@self",
         "thin@self"
@@ -775,7 +775,7 @@
       "anchors": [
         "balance is not stillness"
       ],
-      "seen": "ae57695e28",
+      "seen": "10fdf2b101",
       "moves": [
         "look@self",
         "plant@self",
@@ -791,7 +791,7 @@
       "anchors": [
         "A stall has exactly three possible causes"
       ],
-      "seen": "5d111dc49b",
+      "seen": "55e5e570ad",
       "moves": [
         "look@self",
         "plant@self",
@@ -809,7 +809,7 @@
       "anchors": [
         "Starting is expensive. Staying is cheap."
       ],
-      "seen": "2122dfa2b7",
+      "seen": "54334d425b",
       "moves": [
         "look@self",
         "hold@self"
@@ -826,7 +826,7 @@
       "anchors": [
         "check one level up"
       ],
-      "seen": "56a7aa0ea4",
+      "seen": "60221e7af2",
       "states": [
         "leverage"
       ],
@@ -847,7 +847,7 @@
         "small, honest local variation",
         "The Nest is gated by connection"
       ],
-      "seen": "f687fffdd1",
+      "seen": "302f515f24",
       "states": [
         "leverage"
       ],
@@ -872,7 +872,7 @@
         "Would I be willing to repeat exactly this, unchanged, indefinitely?",
         "It is a direction you check your acceleration against."
       ],
-      "seen": "3d0cb95257",
+      "seen": "43e9ac6ba7",
       "states": [
         "worth-is-the-measure"
       ],
@@ -898,7 +898,7 @@
         "Tracing the Fold",
         "It is the Nest, seen up close."
       ],
-      "seen": "31a6f874c2",
+      "seen": "af2ed2bbc2",
       "moves": [
         "look@self",
         "look@skein",
@@ -915,7 +915,7 @@
       "anchors": [
         "Completeness and health are different axes"
       ],
-      "seen": "02a8faa92e",
+      "seen": "229d969142",
       "moves": [
         "look@dyad",
         "hold@dyad"
@@ -935,7 +935,7 @@
         "Logic",
         "who is feeding this, and who is absorbing it?"
       ],
-      "seen": "1249890ce7",
+      "seen": "3d61d8d142",
       "moves": [
         "look@dyad",
         "plant@dyad"
@@ -967,7 +967,7 @@
       "anchors": [
         "Presence makes understanding possible."
       ],
-      "seen": "74d54bf428",
+      "seen": "aa3925538b",
       "moves": [
         "look@dyad",
         "hold@dyad",
@@ -984,7 +984,7 @@
       "anchors": [
         "The skill is selection, not preference."
       ],
-      "seen": "26587f496b",
+      "seen": "2101aab9fb",
       "moves": [
         "look@dyad",
         "plant@dyad",
@@ -1004,7 +1004,7 @@
       "anchors": [
         "Share one loop."
       ],
-      "seen": "b2caaf707b",
+      "seen": "264e6bc589",
       "moves": [
         "look@skein",
         "plant@skein"
@@ -1022,7 +1022,7 @@
       "anchors": [
         "would this connection survive if the label disappeared tomorrow?"
       ],
-      "seen": "16fc220a2e",
+      "seen": "46e574aa82",
       "moves": [
         "look@skein",
         "tend@skein",
@@ -1040,7 +1040,7 @@
       "anchors": [
         "a closed loop, not a checklist"
       ],
-      "seen": "89e08de2f0",
+      "seen": "b0f7130f48",
       "moves": [
         "tend@self",
         "tend@dyad",
@@ -1075,7 +1075,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "206f40341f",
+      "seen": "9be488b154",
       "guides": [
         "check-the-stand-in"
       ]
@@ -1090,7 +1090,7 @@
         "repetition-builds",
         "perspective"
       ],
-      "seen": "60ca178fc8",
+      "seen": "7f9e9f8221",
       "guides": [
         "watch-it-run"
       ]
@@ -1123,7 +1123,7 @@
       "states": [
         "perspective"
       ],
-      "seen": "5cc61347e8",
+      "seen": "a43c417ec9",
       "moves": [
         "look@dyad",
         "hold@dyad"
@@ -1146,7 +1146,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "128eb0b945",
+      "seen": "b36943b306",
       "guides": [
         "tend-the-act",
         "watch-it-run"
@@ -1162,7 +1162,7 @@
         "repetition-builds",
         "perspective"
       ],
-      "seen": "41c0595f33",
+      "seen": "0064b90570",
       "guides": [
         "tend-the-act",
         "watch-it-run"
@@ -1174,7 +1174,7 @@
       "anchors": [
         "whether anything in the system feeds back into itself"
       ],
-      "seen": "8a16f1ebf6",
+      "seen": "9343ea6695",
       "moves": [
         "look@self"
       ],
@@ -1189,7 +1189,7 @@
       "anchors": [
         "You never get to touch position directly."
       ],
-      "seen": "ddc504f28f",
+      "seen": "814168373f",
       "moves": [
         "look@self",
         "hold@self"
@@ -1216,7 +1216,7 @@
         "worth-is-the-measure",
         "chance-remains"
       ],
-      "seen": "a3a1e1ec55",
+      "seen": "5896540d41",
       "guides": []
     },
     {
@@ -1226,7 +1226,7 @@
         "This was built.",
         "a lifeline or a snare, and for whom"
       ],
-      "seen": "fca8103f5b",
+      "seen": "1967a121a7",
       "states": [
         "worth-is-the-measure"
       ],
@@ -1263,7 +1263,7 @@
       "anchors": [
         "nine words"
       ],
-      "seen": "1f4eb0d1a2",
+      "seen": "2e384ee166",
       "guides": [
         "check-the-stand-in"
       ]
@@ -1287,7 +1287,7 @@
       "anchors": [
         "name your scale before making a claim about a pattern"
       ],
-      "seen": "ccfebdad12",
+      "seen": "2d17e6e972",
       "moves": [
         "look@dyad"
       ],
@@ -1319,7 +1319,7 @@
       "anchors": [
         "no one repeats the scale"
       ],
-      "seen": "612a087925",
+      "seen": "0634ee43d5",
       "moves": [
         "look@skein"
       ],
@@ -1374,7 +1374,7 @@
         "relation-is-real",
         "chance-remains"
       ],
-      "seen": "d511707f66",
+      "seen": "7a9d78cb42",
       "guides": []
     },
     {
@@ -1387,7 +1387,7 @@
         "perspective",
         "repetition-builds"
       ],
-      "seen": "5c7e0b70f0",
+      "seen": "bb9caf193f",
       "guides": [
         "watch-it-run",
         "check-the-stand-in",
@@ -1406,7 +1406,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "a362a8e290",
+      "seen": "4a0b1f2de7",
       "guides": [
         "mind-what-adds-up",
         "walk-the-loop",
@@ -1423,7 +1423,7 @@
       "states": [
         "worth-is-the-measure"
       ],
-      "seen": "804c2e5c25",
+      "seen": "50ea252e0f",
       "guides": [
         "make-it-worth-repeating",
         "watch-it-run",
@@ -1440,7 +1440,7 @@
       "states": [
         "form-becomes-rule"
       ],
-      "seen": "f5da52ac4e",
+      "seen": "4b8e4e12cb",
       "guides": [
         "check-the-size",
         "check-the-stand-in",
@@ -1457,7 +1457,7 @@
         "perspective"
       ],
       "leftover": "Independent convergence as evidence is a rule about trusting sources. No mantra states it.",
-      "seen": "2cb289c87c",
+      "seen": "c222d6494d",
       "moves": [
         "look@self",
         "thin@skein"
@@ -1475,7 +1475,7 @@
       "anchors": [
         "here is how you would know"
       ],
-      "seen": "fdf860bb4a",
+      "seen": "aaf4dc1326",
       "moves": [
         "look@self",
         "plant@skein"
@@ -1493,7 +1493,7 @@
       "anchors": [
         "orthographic"
       ],
-      "seen": "3b772ffcda",
+      "seen": "762bac5d79",
       "states": [
         "perspective"
       ],
@@ -1512,7 +1512,7 @@
       "anchors": [
         "determines Tending or Fraying by context, not by chance"
       ],
-      "seen": "ba593f9b27",
+      "seen": "1ff637c501",
       "moves": [
         "look@self"
       ],
@@ -1540,7 +1540,7 @@
       "anchors": [
         "at what speed am I looking at this?"
       ],
-      "seen": "9f378f85b7",
+      "seen": "468a80b237",
       "moves": [
         "look@self"
       ],
@@ -1556,7 +1556,7 @@
       "anchors": [
         "The card is a prompt to check for something"
       ],
-      "seen": "c1b3570688",
+      "seen": "4e7b515375",
       "moves": [
         "look@self"
       ],
@@ -1570,7 +1570,7 @@
       "anchors": [
         "Do not treat the four rings as needing to agree"
       ],
-      "seen": "0c9fe3e78c",
+      "seen": "2625931a7e",
       "moves": [
         "look@self",
         "look@dyad",
@@ -1589,7 +1589,7 @@
         "read upward"
       ],
       "leftover": "Rests on the composition table, which is parked. The text now allows more than one figure per pair.",
-      "seen": "20d482e753",
+      "seen": "506dab101f",
       "moves": [
         "look@self",
         "look@dyad",
@@ -1639,7 +1639,7 @@
       "anchors": [
         "Confirmation is not the same as accuracy."
       ],
-      "seen": "95553717ab",
+      "seen": "5ec1d2670a",
       "moves": [
         "look@self"
       ],
@@ -1672,7 +1672,7 @@
         "Aimed.",
         "Each Turning in the tables is one move"
       ],
-      "seen": "dd1797e940",
+      "seen": "92a0158c68",
       "moves": [
         "plant@skein",
         "tend@skein",
@@ -1710,7 +1710,7 @@
       "states": [
         "relation-is-real"
       ],
-      "seen": "38f9411cd6",
+      "seen": "881994772b",
       "moves": [
         "tend@culture",
         "hold@culture"
@@ -1726,7 +1726,7 @@
       "anchors": [
         "Anchor to whatever cadence is real"
       ],
-      "seen": "c09632a741",
+      "seen": "c7131e6c60",
       "moves": [
         "plant@skein",
         "hold@skein"
@@ -1782,7 +1782,7 @@
         "perspective",
         "chance-remains"
       ],
-      "seen": "3f23e2eba8",
+      "seen": "249eb6680a",
       "guides": [
         "tend-the-act",
         "check-the-stand-in"
@@ -1815,7 +1815,7 @@
         "look@dyad",
         "tend@dyad"
       ],
-      "seen": "4cb4f2d83d"
+      "seen": "5179f2ab00"
     },
     {
       "node": "skein-gatherings",
@@ -1844,7 +1844,7 @@
         "thin@culture",
         "tend@culture"
       ],
-      "seen": "b2a1391827"
+      "seen": "33131782da"
     }
   ],
   "applications": [
