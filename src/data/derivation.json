@@ -46,7 +46,7 @@
     {
       "id": "with-another",
       "name": "With another",
-      "statement": "A move made with another person is made by the thing the two of you are.",
+      "statement": "A move made with another person is made by what the two of you make together.",
       "ground": "relation-is-real"
     }
   ],
@@ -155,8 +155,8 @@
         "great-days"
       ],
       "applied": {
-        "self": 4,
-        "dyad": 6,
+        "self": 3,
+        "dyad": 5,
         "skein": 3,
         "culture": 4
       },
@@ -219,18 +219,17 @@
         "what-a-turning-is",
         "anchoring",
         "private-turnings",
-        "dyad-turnings",
         "skein-gatherings"
       ],
       "applied": {
-        "self": 2,
-        "dyad": 2,
+        "self": 1,
+        "dyad": 0,
         "skein": 1,
         "culture": 0
       },
       "byScale": {
         "self": 7,
-        "dyad": 6,
+        "dyad": 5,
         "skein": 7,
         "culture": 0
       }
@@ -284,7 +283,7 @@
         "great-days"
       ],
       "applied": {
-        "self": 2,
+        "self": 3,
         "dyad": 3,
         "skein": 1,
         "culture": 1
@@ -345,8 +344,8 @@
         "great-days"
       ],
       "applied": {
-        "self": 4,
-        "dyad": 8,
+        "self": 5,
+        "dyad": 11,
         "skein": 6,
         "culture": 2
       },
@@ -1212,7 +1211,7 @@
       "scale": "self",
       "figure": "The Keepsake",
       "turning": "The Long Read",
-      "move": "look",
+      "move": "thin",
       "lost": false
     },
     {
@@ -1244,7 +1243,7 @@
       "scale": "self",
       "figure": "The Namer",
       "turning": "The Renaming",
-      "move": "plant",
+      "move": "tend",
       "lost": false
     },
     {
@@ -1308,7 +1307,7 @@
       "scale": "dyad",
       "figure": "Filling the Gap",
       "turning": "The Checking",
-      "move": "look",
+      "move": "thin",
       "lost": false
     },
     {
@@ -1316,7 +1315,7 @@
       "scale": "dyad",
       "figure": "The Guard",
       "turning": "The Unarmoring",
-      "move": "thin",
+      "move": "tend",
       "lost": false
     },
     {
@@ -1388,7 +1387,7 @@
       "scale": "dyad",
       "figure": "The Naming Contest",
       "turning": "The Shared Word",
-      "move": "plant",
+      "move": "thin",
       "lost": false
     },
     {
@@ -1396,7 +1395,7 @@
       "scale": "dyad",
       "figure": "The Unbridged Gap",
       "turning": "The Teaching",
-      "move": "plant",
+      "move": "thin",
       "lost": false
     },
     {
@@ -1412,7 +1411,7 @@
       "scale": "dyad",
       "figure": "The Tested Price",
       "turning": "The First Price",
-      "move": "tend",
+      "move": "thin",
       "lost": false
     },
     {
@@ -2102,7 +2101,7 @@
       "node": "bottom-up-or-nothing",
       "verdict": "derived",
       "anchors": [
-        "Nobody reads you better than you read yourself."
+        "Nobody's reading of you overrules your own."
       ],
       "states": [
         "perspective"
@@ -2786,7 +2785,7 @@
       "verdict": "derived",
       "anchors": [
         "Aimed.",
-        "Each Turning is one move, made on one figure"
+        "Each Turning in the tables is one move"
       ],
       "moves": [
         "plant@skein",
@@ -2961,8 +2960,7 @@
       "moves": [
         "thin@dyad",
         "look@dyad",
-        "tend@dyad",
-        "plant@dyad"
+        "tend@dyad"
       ],
       "title": "The Nineteen Dyad Turnings",
       "part": "part-seven",
