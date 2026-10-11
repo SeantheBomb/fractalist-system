@@ -2,7 +2,7 @@
 title: "How to Read a Recursive Book"
 part: "front"
 order: 0
-epigraph: "No man ever steps in the same river twice. — Heraclitus"
+epigraph: "You cannot step twice into the same river. — Heraclitus, as Plato reports him"
 summary: "Why this book is written in arcs instead of a straight line — and why reading it once was never going to be enough."
 related: ["what-you-already-know", "onboarding", "quick-reference"]
 ---
@@ -15,13 +15,13 @@ So: this book is written in arcs. Part One will introduce an idea. Part Two will
 
 A few practical suggestions, then:
 
-**Read Part One and Two in order, once, the way you'd read any book.** Get the shape of the whole thing before you worry about mastering any one piece of it. Don't stop to fully absorb every idea on first contact — you're not supposed to yet.
+**Read Parts One and Two in order, once, the way you'd read any book.** Get the shape of the whole thing before you worry about mastering any one piece of it. Don't stop to fully absorb every idea on first contact — you're not supposed to yet.
 
 **Live in Part Two for a while before moving on.** This is the actual point of the whole project. A belief you've only read about is not yet a belief you hold; it's a belief you're auditioning. Give the practices real days, not a single sitting, before you go looking for more theory to explain them.
 
 **Read Part Three (the Loop Tongue) once you have something real to say to another Fractalist.** It's a language, and languages are learned by use, not by study. It will feel abstract until you have a specific loop in your own life you're trying to describe to someone else — then it will suddenly feel indispensable.
 
-**Treat Part Four as a shelf, not a hallway.** Its chapters are written to be openable in any order, whenever a specific curiosity surfaces — you want to know the actual math behind the chaos game, or you want the psychology behind why the self is called "constructed," or you want the systems-theory vocabulary behind "leverage." Go get that one chapter. Don't feel obligated to read the shelf in order.
+**Treat Part Four as a shelf, not a hallway.** Its chapters are written to be openable in any order, whenever a specific curiosity surfaces — you want to know the actual math behind the dice-and-triangle game in Part One, Chapter 2, or you want the psychology behind why the self is called "woven," or you want the systems-theory vocabulary behind "leverage." Go get that one chapter. Don't feel obligated to read the shelf in order.
 
 **Read Part Five differently from everything before it — as story, not argument.** The <a class="concept-link" href="/concept/standing-thirds/">Standing Thirds</a> aren't a new theory to evaluate. They're the same claims this book has already made, given faces, so that a pattern you've been reading about abstractly becomes something you can recognize on sight, tell a friend about at a fire, or catch yourself becoming for a moment. Read it the way you'd read any mythology — for recognition, not for proof.
 
@@ -35,13 +35,13 @@ Every Part opens by stating plainly what it's for, what you'll be able to do aft
 
 Three routes, depending on what you actually want:
 
-**The practice path.** Part One, Chapters 4, 6, and 7 → all of Part Two → Part Three, Chapters 4 through 6. Roughly a quarter of the book, and everything you need to actually do this. Nothing you skip on this route is required for anything on it.
+**The practice path.** Part One, Chapters 4, 5, 8, and 9 → all of Part Two → Part Three, Chapters 4 through 6. A little over a third of the book, and everything you need to actually do this. The practices occasionally point back to what you skip on this route, and none of it is needed to do them.
 
-**The full path.** Front to back, in order, as described above. Slower, and the only route that delivers the second-reading effect this chapter opened with.
+**The full path.** Front to back, in order. Slower, and the only route that delivers the second-reading effect this section opened with.
 
 **The open-anywhere path.** Live in Part Five and Part Six — the figures and the Weavings — dipping into the rest as reference when a question sends you looking. This is the least conventional route and, for some people, the one that actually holds. A book about loops has no obligation to be entered at the start.
 
-One more thing, and then we'll start. This book was assembled, iteratively, by people reading widely across mathematics, psychology, systems theory, and story, and noticing the same pattern insisting on itself from every direction. It is offered to you the same way it was built: as something to repeat, revise, and hand forward, not as something to receive once and hold still.
+One more thing, and then we'll start. This book was assembled by people reading widely across mathematics, psychology, systems theory, and story, and noticing the same pattern insisting on itself from every direction. It is offered to you the same way it was built: as something to repeat, revise, and hand forward, not as something to receive once and hold still.
 
 ---
 

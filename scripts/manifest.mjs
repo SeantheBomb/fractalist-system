@@ -832,7 +832,7 @@ export const THIRD_BLURBS = {
   'first-arriver-lock-in': 'A group rewarding whatever already works, so the early winners keep winning. Merit rewarded, or whoever arrived first entrenched regardless of it.',
   'the-shared-pot': 'A resource a whole group draws on freely. Trust that makes keeping accounts unnecessary, or a common that nobody is placed to protect.',
   'the-reputation': 'The role a group comes to count on you to play. It lets them rely on you, and because they wrote it, it can be hard to step out of.',
-  'the-sagging-floor': "A group's expectations lowering together, one reasonable step at a time. A sensible adjustment to real conditions, or standards eroding while everyone feels fine.",
+  'the-settling': "A group's expectations lowering together, one reasonable step at a time. A sensible adjustment to real conditions, or standards eroding while everyone feels fine.",
   'the-hall-of-mirrors': 'A group where everyone takes their shape from everyone else. Real responsiveness to itself, or no independent position left anywhere in it.',
   'second-order-design': 'A group shaping the conditions that shape its members. Outcomes richer than anyone could have authored, or ones nobody intended or wanted.',
   'the-inner-circle': 'A group whose shared language makes its work fast. The same fluency can become a wall against everyone outside it.',

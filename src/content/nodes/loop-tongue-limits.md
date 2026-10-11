@@ -11,7 +11,7 @@ Three honest gaps, stated plainly rather than smoothed over.
 
 The notation works cleanly for a single habit or a two-person conflict and is untested on a whole organization's dysfunction, where a napkin sketch may simply run out of room.
 
-Scale-tagging assumes five clean categories, and real patterns often refuse to sit still at one — a habit that's really a relationship pattern that's really a response to a culture-wide condition doesn't split cleanly, and forcing it into one tag can lose more than it clarifies.
+Scale-Tagging assumes six clean categories, and real patterns often refuse to sit still at one — a habit that's really a relationship pattern that's really a response to a culture-wide condition doesn't split cleanly, and forcing it into one tag can lose more than it clarifies.
 
 The Second Pass is easy to perform badly, as a way of *sounding* fair while still quietly assigning more blame to the other half of the loop than your own. Anyone teaching this should watch for that one specifically. It's the most tempting failure.
 

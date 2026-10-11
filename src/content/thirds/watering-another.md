@@ -5,8 +5,8 @@ kinship: "dyad"
 order: 15
 personifies: "The Gardener and The Spark, meeting in two people."
 blurb: "Attention that keeps returning to someone, and grows what it lands on. It can grow the best in them, or whatever you've already decided they are."
-tending: "Your attention is growing what's best in them."
-fraying: "You are watering the version of them you already decided on."
+tending: "Each time you notice it in them, it comes up faster, until it grows on its own."
+fraying: "You're noticing it less, or it lands less, and it comes up slower in them."
 drawable: true
 parents: ["the-gardener", "the-spark"]
 relatedThirds: ["the-gardener", "the-spark", "the-faithful-chain", "the-reputation"]
@@ -14,10 +14,10 @@ relatedThirds: ["the-gardener", "the-spark", "the-faithful-chain", "the-reputati
 
 **A fusion of [The Gardener](/thirds/the-gardener/) and [The Spark](/thirds/the-spark/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
-**Tending.** Attention that grows what is best in someone.
+**Tending.** Each notice makes the thing come up faster and more easily, until it grows on its own..
 
-**Fraying.** Attention that grows whatever you keep confirming.
+**Fraying.** Notices come less often or land less, so the thing comes up more slowly and fades..
 
-**Its Turning.** **The Naming of Growth** — tell someone one thing you've watched grow in them. What it builds: growth gets witnessed.
+**Its Turning.** Tend. What it builds: growth gets witnessed.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

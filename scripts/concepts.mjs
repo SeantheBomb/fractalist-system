@@ -112,7 +112,7 @@ const PROPOSED_LINEAGE = {
   'the-two-pole-rule': { stemsFrom: ['standing-thirds'] },
   'weather-climate-terrain': { stemsFrom: ['weaving', 'loop-period'] },
   'the-long-visitor': { stemsFrom: ['infinite-boundary'] },
-  'the-fold-and-the-force': { stemsFrom: ['fold', 'infinite-boundary'] },
+  'the-fold-is-the-nest-seen-up-close': { stemsFrom: ['fold', 'nest'] },
   'solidity': { stemsFrom: ['the-symphysical'] },
   'open-and-closed-boundaries': { stemsFrom: ['word-vs-label', 'elegance'] },
   'atomic-composition': { stemsFrom: ['woven-self', 'leverage'] },

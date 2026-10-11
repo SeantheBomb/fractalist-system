@@ -15,10 +15,10 @@ The fix is a small, learnable habit: **name your scale before making a claim abo
 
 **Self** — one person's internal pattern.
 **Dyad** — a pattern between two specific people.
-**Group** — a team, family, or community's shared pattern.
+**Skein** — a team, family, or community's shared pattern.
 **Culture** — a pattern operating across a whole society or institution.
 **World** — a pattern operating across the whole of human activity and the living system it runs on; the largest scale where a push still reaches.
-**Cosmos** — a pattern claimed to operate at the largest scale this book describes, the one the <a class="concept-link" href="/concept/seven-iterations/">Seven Iterations</a> tells the origin story of.
+**Cosmos** — a pattern claimed to operate at the largest scale this book describes, the one whose origin story the <a class="concept-link" href="/concept/seven-iterations/">Seven Iterations</a> tells.
 
 In practice, this is as simple as prefacing a claim: *"Speaking at the Self scale, I think—"* or *"This is a Culture-scale pattern, so individual willpower probably isn't the right lever—"* It sounds stilted the first few times. It stops sounding stilted quickly, because the alternative — the two of you silently assuming you're talking about the same scale when you're not — is the more expensive habit, not this one.
 
@@ -30,6 +30,6 @@ You can **have lived a pattern** — walked its Tree, which costs years and can'
 
 And you can **know which pattern you're currently standing inside** — which is neither of the first two, and is not produced by either. Someone can be handed every name in this book and misapply all of them. Someone can have lived a pattern thoroughly and still not recognise it while it is happening, which is in fact the normal case, and the whole reason <a class="concept-link" href="/concept/naming-and-defusing/">Naming and Defusing</a> exists.
 
-Scale-Tagging is a tool for that third thing. So is the first gate of Reading a System, and the two-pole check, and the instruction to widen the frame when you can only see one pole. None of them tell you anything new about a pattern. They tell you whether the pattern you're holding is the one actually in front of you, at the resolution you're actually looking. That is a separate skill from knowing and from having lived, and it is the one that decides whether either of the others is any use today.
+Scale-Tagging is a tool for that third thing. So is Part One's first question, whether anything here feeds back into itself, and so, when you reach Part Five, are the two-pole check and the instruction to widen the frame when you can only see one pole. None of them tell you anything new about a pattern. They tell you whether the pattern you're holding is the one actually in front of you, at the resolution you're actually looking. That is a separate skill from knowing and from having lived, and it is the one that decides whether either of the others is any use today.
 
-There is a fourth answer those tools have to be able to return, and it's the one people forget to check for: **nothing is running.** A pattern can be tended, it can be fraying, and it can also simply not be there — a loop that has stopped has no direction, so it has no pole to read. If you are hunting for a pattern's second side and finding nothing at all, the honest first question isn't which way it points. It's whether it's moving.
+There is one more answer those tools have to be able to return, and it's the one people forget to check for: **nothing is running.** A pattern can be tending, it can be fraying, and it can also simply not be there — a loop that has stopped has no direction, so it has no pole to read. If you are hunting for a pattern's second side and finding nothing at all, the honest first question isn't which way it points. It's whether it's moving.

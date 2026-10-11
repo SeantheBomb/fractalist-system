@@ -1,25 +1,25 @@
 ---
 title: "The Twelve Private Turnings — Self"
 part: "part-seven"
-order: 71
+order: 72
 epigraph: "One a month, and the year has room for all of them."
 summary: "One per month, kept alone or with whoever's nearest — twelve small occasions, each built to make one Self-Kin's failure mode visible before it hardens."
 related: ["dyad-turnings", "self-kin", "daily-practices"]
 ---
 
-One per month, kept alone or with whoever is nearest. These are the lightest occasions in the calendar and the most frequent.
+Kept alone or with whoever is nearest. These are the lightest occasions in the calendar and the most frequent.
 
-| Third | The Turning | What it builds |
-|---|---|---|
-| <a class="concept-link" href="/thirds/the-spark/">The Spark</a> | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
-| <a class="concept-link" href="/thirds/the-tide/">The Tide</a> | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
-| <a class="concept-link" href="/thirds/the-mark/">The Mark</a> | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
-| <a class="concept-link" href="/thirds/the-salve/">The Salve</a> | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
-| <a class="concept-link" href="/thirds/the-nearest-light/">The Nearest Light</a> | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
-| <a class="concept-link" href="/thirds/the-keepsake/">The Keepsake</a> | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
-| <a class="concept-link" href="/thirds/the-easier-door/">The Easier Door</a> | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
-| <a class="concept-link" href="/thirds/the-mask/">The Mask</a> | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
-| <a class="concept-link" href="/thirds/the-mirror/">The Mirror</a> | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
-| <a class="concept-link" href="/thirds/the-namer/">The Namer</a> | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
-| <a class="concept-link" href="/thirds/the-riverbed/">The Riverbed</a> | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
-| <a class="concept-link" href="/thirds/the-gardener/">The Gardener</a> | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
+| Third | Move | The Turning | What it builds |
+|---|---|---|---|
+| <a class="concept-link" href="/thirds/the-spark/">The Spark</a> | Tend | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
+| <a class="concept-link" href="/thirds/the-tide/">The Tide</a> | Tend | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
+| <a class="concept-link" href="/thirds/the-mark/">The Mark</a> | Look | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
+| <a class="concept-link" href="/thirds/the-salve/">The Salve</a> | Thin | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
+| <a class="concept-link" href="/thirds/the-nearest-light/">The Nearest Light</a> | Thin | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
+| <a class="concept-link" href="/thirds/the-keepsake/">The Keepsake</a> | Thin | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
+| <a class="concept-link" href="/thirds/the-easier-door/">The Easier Door</a> | Look | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
+| <a class="concept-link" href="/thirds/the-mask/">The Mask</a> | Thin | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
+| <a class="concept-link" href="/thirds/the-mirror/">The Mirror</a> | Thin | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
+| <a class="concept-link" href="/thirds/the-namer/">The Namer</a> | Tend | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
+| <a class="concept-link" href="/thirds/the-riverbed/">The Riverbed</a> | Plant | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
+| <a class="concept-link" href="/thirds/the-gardener/">The Gardener</a> | Look | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |

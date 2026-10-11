@@ -7,13 +7,15 @@ summary: "A conversation is two people each building a model of the other while 
 related: ["do-i-understand-you", "the-trust-triangle", "receiving"]
 ---
 
-Everything in this movement so far has been about understanding another person — checking whether a Dyad stands on all three legs, modelling what they are experiencing, absorbing what they send without being deformed by it. All of it assumes the channel between you is open.
+Almost everything in this movement so far has been about understanding another person — checking whether a Dyad stands on all three legs, modelling what they are experiencing, noticing who is feeding a loop and who is only absorbing it. All of it assumes the channel between you is open.
 
 Usually it isn't, and this chapter is about the work that opens it.
 
+You have already done this once. Day 6 of the onboarding asked you to hold your read and ask *what else?* twice, and to sit through the second pause without rescuing it — one conversation, one time, and it gave you only one line on why it asked for that rather than for something friendlier. Here is the rest of the why.
+
 **Start with what a conversation actually is, because the ordinary picture of it is wrong in a way that matters.**
 
-A game does not happen in the software. It happens in the player's mind — the model they build of how this world works, assembled slowly out of repeated interaction. The screen and the sound are not the game; they are the language the game is written in. A designer never touches the thing they are making directly. They build it indirectly, one feedback loop at a time, in someone else's head.
+Take a game first. A game does not happen in the software. It happens in the player's mind — the model they build of how this world works, assembled slowly out of repeated interaction. The screen and the sound are not the game; they are the language the game is written in. A designer never touches the thing they are making directly. They build it indirectly, one feedback loop at a time, in someone else's head.
 
 A conversation is the same structure with one difference that changes its category entirely: **both ends are doing it.** You are building a model of them out of what they give you. They are building a model of you out of what you give them. And each of those models is being built by someone who is simultaneously being modelled, and adjusting to it.
 
@@ -31,11 +33,11 @@ Neither link is optional and neither substitutes for the other. Understanding so
 
 **The metaphor most people reach for here, and where it breaks.**
 
-It is tempting to describe this as tuning to someone's frequency — finding the band they are broadcasting on. The intuition is right and the mechanics are wrong, because it implies a fixed transmitter. It isn't fixed. **Your presence changes what they transmit.** People say different things to someone who is actually listening — not more honest versions of the same things, different things, that did not exist as available sentences a moment earlier.
+It is tempting to describe this as tuning to someone's frequency — finding the band they are broadcasting on. The intuition is right and the mechanics are wrong, because it implies a fixed transmitter. It isn't fixed. **Your presence changes what they transmit.** People say different things to someone who is actually listening — not more honest versions of the same things, different things, that were not available to say a moment earlier.
 
-Ordinary conversation is closer to two oscillators pulling into phase. Each one's state depends on the other's; you drift toward each other, overshoot, correct, drift again, and either settle into something shared or never quite do. That is a balancing loop searching for a setpoint, and like every balancing loop in this book it does not always converge. Two people can spend an hour missing each other, both trying, neither failing at anything in particular.
+Ordinary conversation is closer to two oscillators pulling into phase. Each one's state depends on the other's; you drift toward each other, overshoot, correct, drift again, and either settle into something shared or never quite do. That behaves like a balancing loop searching for a setpoint, and like a balancing loop with delays in it, it does not always converge. Two people can spend an hour missing each other, both trying, neither failing at anything in particular.
 
-You have already met this mechanism one chapter ago without its name: warmth invites warmth. That correspondence is not a rule of etiquette. It is entrainment, at the scale of two people.
+You have already met a near relative of this two chapters ago without its name: warmth invites warmth. That correspondence is not a rule of etiquette. It behaves like entrainment, at the scale of two people.
 
 **The acute case is genuinely different, and it is worth saying which one you are in.**
 
@@ -49,9 +51,9 @@ That is why presence is downstream of a practice you have already been doing. Ev
 
 **What it costs, stated plainly, because a chapter that makes this sound easy has lied to you.**
 
-Presence is hard for a specific reason and it is not lack of compassion. You have spent this whole book learning to hold a pattern without being fused to it — to watch a thought rather than be ridden by it. This is that same capacity, pointed at someone else's distress, and it is considerably harder there. Being in contact with another person's pain without being pulled under by it is real work, and there is no version where you get the contact for free.
+Presence is hard for a specific reason and it is not lack of compassion. You have spent this book so far learning to hold a pattern without being fused to it — to watch a thought rather than be ridden by it. This is that same capacity, pointed at someone else's distress, and it is considerably harder there. Being in contact with another person's pain without being pulled under by it is real work, and there is no version where you get the contact for free.
 
-The failure mode has a shape worth recognizing: **leaving someone alone with it, and calling that respect.** Sometimes it is respect. Often it is that staying would have cost more than you had available, and giving them space is the honest name for something closer to stepping back.
+The failure mode has a shape worth recognizing: **leaving someone alone with it, and calling that respect.** Sometimes it is respect. Often it is that staying would have cost more than you had available, and "giving them space" is the polite name for something closer to stepping back.
 
 **Now the verbs, because everything above is a stance and a stance is not a practice.**
 
@@ -61,13 +63,13 @@ The failure mode has a shape worth recognizing: **leaving someone alone with it,
 
 **Ask what the real challenge here is for them.** Those last two words do the work. Not what the challenge is — what it is *for them*, which is the only version you do not already have an opinion about.
 
-**Say the true thing, and offer nothing to analyze.** There is a kind of sentence that performs presence rather than delivering an assessment: *I know this is hard, and I'm here.* It is not a refusal to understand — understanding is exactly what makes it land rather than sounding like a formula. It is understanding **delivered as presence instead of as explanation.** Find your own words for it; borrowed ones announce themselves.
+**Say the true thing, and offer nothing to analyze.** There is a kind of sentence that enacts presence rather than delivering an assessment: *I know this is hard, and I'm here.* It is not a refusal to understand — understanding is exactly what makes it land rather than sounding like a formula. It is understanding **delivered as presence instead of as explanation.** Find your own words for it; borrowed ones announce themselves.
 
 **The warning this chapter exists to carry, and it is aimed at readers of this book specifically.**
 
-People are measurably biased toward believing they understand others better than others understand them. *You don't know me, but I know you* is not a personality flaw; it is a documented asymmetry in how minds estimate their own insight, and everyone has it.
+People are measurably biased toward believing they understand others better than others understand them. *You don't know me, but I know you* is not a personality flaw; it is a documented asymmetry in how minds estimate their own insight, and it is the common case rather than the exception.
 
-Now hand that mind a catalogue of forty-nine named patterns, a vocabulary for scales, and a fusion table that resolves the third leg from the other two. The fluency is real. **The confidence it produces outruns it, and it outruns it invisibly.** There is a second bias sitting beside the first — the tendency to assume other people think roughly as you do — and together they produce a practitioner who is genuinely better at reading patterns and significantly worse at knowing when they have not read one.
+Now hand that mind a catalogue of fifty-two named patterns, a vocabulary for scales, and a fusion table that pairs two people's patterns with the Thirds they can make. The fluency is real. **The confidence it produces outruns it, and it outruns it invisibly.** There is a second bias sitting beside the first — the tendency to assume other people think roughly as you do — and together they produce a practitioner who is genuinely better at reading patterns and no better at knowing when they have not read one.
 
 There is an image for this worth keeping. You see about a tenth of a person: their behavior. Underneath it sit the things that actually produce it — what they need, and what they believe about how to get it — and none of that is visible from outside. Observation gives you the tenth. The rest is not deduced; it is *offered*, and only to someone the person has decided is actually there.
 

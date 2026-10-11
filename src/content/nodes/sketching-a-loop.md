@@ -7,7 +7,7 @@ summary: "Four marks, learnable in under a minute, sketchable on a napkin mid-co
 related: ["scale-tagging", "reading-your-own-cycle", "grammar-of-pattern"]
 ---
 
-Most people never draw these. If you're not someone who reaches for a pen mid-conversation, skip to the next chapter — nothing later in this book depends on it.
+Most people never draw these. If you're not someone who reaches for a pen mid-conversation, skip to the next chapter — only the Practice Set in Chapter 7 uses it.
 
 For everyone else: words alone still carry some of the linear bias baked into speech, and four marks remove more of it. Learnable in under a minute, sketchable on a napkin.
 

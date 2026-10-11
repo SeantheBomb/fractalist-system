@@ -1,7 +1,7 @@
 ---
 title: "Source Library"
 part: "appendix"
-order: 82
+order: 83
 epigraph: "For the curious. These are the works whose ideas were read together, synthesized, and — in places — argued with, to build this text. Fractalism does not ask you to read them to practice; it offers them to anyone who wants to see the raw material the pattern was noticed in."
 summary: "The works whose ideas were read together, synthesized, and argued with to build this text — offered, never required."
 related: ["a-word-on-belief", "belief-systems-built", "open-questions"]
@@ -14,7 +14,7 @@ related: ["a-word-on-belief", "belief-systems-built", "open-questions"]
 - *Thinking in Systems* — Donella Meadows
 - *The Art of Game Design, 3rd Edition* — Jesse Schell
 - *The Happiness Trap* — Russ Harris
-- *Wooden Book* — Oliver Linton
+- *Fractals: On the Edge of Chaos* (Wooden Books) — Oliver Linton
 - *Mind Management, Not Time Management* — David Kadavy
 - *Thinking, Fast and Slow* — Daniel Kahneman
 - *Atomic Habits* — James Clear
@@ -32,16 +32,24 @@ related: ["a-word-on-belief", "belief-systems-built", "open-questions"]
 - *Snow Crash* — Neal Stephenson
 - *A Song of Ice and Fire* / *Game of Thrones* — George R. R. Martin / HBO
 - *Star Wars* — George Lucas / Lucasfilm
+- *Steven Universe* — Rebecca Sugar
+- *Ted Lasso* — Bill Lawrence, Jason Sudeikis, Brendan Hunt and Joe Kelly
+- *Kipo and the Age of Wonderbeasts* — Radford Sechrist
+- *Avatar: The Last Airbender* — Michael Dante DiMartino and Bryan Konietzko
 - *A Short History of Nearly Everything* — Bill Bryson
 - *Aikido in Everyday Life* — Terry Dobson & Victor Miller
 - *Antifragile: Things That Gain from Disorder* — Nassim Nicholas Taleb
 - *Retrain Your Brain: Cognitive Behavioral Therapy in 7 Weeks* — Seth J. Gillihan
+- *Gödel, Escher, Bach: An Eternal Golden <a class="concept-link" href="/concept/the-braid/">Braid</a>* — Douglas Hofstadter
+- *It's on You: How Corporations and Behavioral Scientists Have Convinced Us That We're to Blame for Society's Deepest Problems* — Nick Chater & George Loewenstein
+- *Somebody Should Do Something: How Anyone Can Help Create Social Change* — Michael Brownstein, Alex Madva & Daniel Kelly
+- *A Little More Social* — Nicholas Epley
+- *A Theory of Fun for Game Design* — Raph Koster
+- *Do Plants Know Math?* — Stéphane Douady, Jacques Dumais, Christophe Golé & Nancy Pick
 
-Alongside these, an unpublished source: a personal notebook of aphorisms, talk outlines, and design notes, transcribed and folded into Part Two's Self, Dyad, and Skein movements directly — the <a class="concept-link" href="/concept/the-trust-triangle/">Trust Triangle</a>, the reinforcing-versus-balancing rhythm in "Reading Your Own Cycle," and the four relationships underneath the Skein chapter all trace back to it. Unlike the books above, it isn't a published work to go read further — it's closer to this whole project's original seed, several years of practice arriving at conclusions independently and later found to rhyme with the reading list around it.
+Alongside these, an unpublished source: a personal notebook of aphorisms, talk outlines, and design notes, transcribed and folded into Part Two's Self, Dyad, and Skein movements directly — the <a class="concept-link" href="/concept/the-trust-triangle/">Trust Triangle</a>, the reinforcing-versus-balancing rhythm in "Reading Your Own Cycle," and the four questions underneath the Skein chapter all trace back to it. Unlike the books above, it isn't a published work to go read further — it's closer to this whole project's original seed, several years of practice arriving at conclusions independently and later found to rhyme with the reading list around it.
 
 One further note, specific to Part Five: the <a class="concept-link" href="/concept/standing-thirds/">Standing Thirds</a> are not drawn from any external source at all. They're original figures, built to dramatize claims this book had already made elsewhere — which is itself consistent with what Chapter 0 of that part says about how any Third comes to exist: a pattern gets noticed first, and personified after, not the reverse. Part Six's Weaving practice is built the same way — original in its specific mechanics, though the underlying instinct (examining a question from several fixed positions rather than one) is itself an old one, most familiar from tarot and comparable divinatory practices, credited here rather than left as an unstated resemblance.
-
----
 
 ---
 
