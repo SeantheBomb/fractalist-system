@@ -1,7 +1,7 @@
 ---
 title: "Quick Reference Card"
 part: "appendix"
-order: 80
+order: 81
 epigraph: "One page. Print it, carry it, hand it to someone new."
 summary: "One page. The whole practice at a glance — print it, carry it, hand it to someone new."
 related: ["onboarding", "mantras", "the-loom"]
@@ -13,13 +13,25 @@ We build the world by repeating what we cannot see.
 **The Easiest Thing to Forget**
 You feel a line. You are a loop. You build a tree. You will only ever feel the line — the loop has to be built deliberately, after the fact or from outside, and even the loop is a compression of a tree of genuinely different instances the name never fully captures.
 
-**The Four Pillars**
+**The Three Pillars** *(one operation seen three times: a loop that holds becomes a part)*
 - **The Loop** — small things, repeated without a master plan, build large things.
 - **The Third Thing** — what repeats together becomes something new, and it's real (the self included — see the Woven Self, its own chapter).
-- **The Nest** — a Global Form at one scale is a Local Rule at the next; nothing repeats at only one size.
-- **The Leverage** — not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
+- **The Nest** — a Global Form at one scale is a Local Rule at the next, in both directions; you build a world that is building you.
 
-**The Four Daily Practices**
+**The Standpoint** *(what the pillars hold up: a place to stand)*
+- **Leverage** — your reach. Not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
+- **Perspective** — your view. Every view is taken from one position inside the pattern; depth is what two views make together.
+
+**What the Pillars Leave Open**
+Chance — which of the things that can happen will. Worth — what any of it is for. The world brings the first. You bring the second.
+
+**The Four Moves** *(everything in Part Two is these: look first, at any scale, alone or with another)*
+Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Thin — weaken one, or let it go. *Hold is tending and thinning at once: keeping a thing where it is. It is work.*
+
+**The Three Returns** *(what comes back, and when)*
+Brush — today; did the ground answer at all. Tree — years; is the direction still holding. Forest — longer than a life; not yours to watch. *A disturbance moves what shares its timescale: a bad day cannot have damaged your tree.*
+
+**The Four Daily Practices** *(four moves of one activity: look, plant, tend, thin)*
 - **Local Step / Global Form breath** — ten breaths, for when a loop has swept you up.
 - **Tree-Gazing** — three minutes with anything that branches, for training your eye toward pattern.
 - **Naming the Loop** — cue, craving, response, reward, said silently, mid-habit.
@@ -29,7 +41,10 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 Loop · Third Thing · Seed · Local Rule · Global Form · Nest · Leverage · Fold · Tree
 
 **The Leverage Ladder** *(weakest to strongest)*
-Numbers → Buffers → Rules → Information Flow → Goals → Paradigm
+Numbers → Buffers → Information Flow → Rules → Self-Organization → Goals → Paradigm → Holding a Paradigm as a Paradigm
+
+**And the thing the ladder does not say**
+Which rungs you can reach is set by your position, not by your effort. A rung you cannot touch will read as a personal failing every time. Get access, leave where leaving is real, or stop paying for it and spend what you have where it reaches — and note that all three assume you are one person. *Unreachable* is a relation between a rung and whoever reaches, and whoever reaches is composable.
 
 **When You're Stuck**
 If a numbers-level fix keeps failing, you're probably pushing the wrong lever, not lacking willpower. Check one level up.
@@ -47,7 +62,7 @@ Authenticity — are you actually yourself here? Empathy — can you accurately 
 Ask: do I understand this well enough to respond yet, or am I about to respond to my own story instead of to them? If not yet — say so, and ask one more question first.
 
 **Building Community: The Skein Test**
-Would this connection survive if the label "Fractalism" disappeared tomorrow? If yes, it's a Skein — real, interwoven, repeated contact. If no, it's a Banner — a shared label with nothing underneath it. Notice for it — proximity, similarity, reciprocity, disclosure — rather than recruiting for it. Its currency is kindness, uncounted; the moment it's tracked, it's already a Banner.
+Would this connection survive if the label "Fractalism" disappeared tomorrow? If yes, it's a Skein — real, interwoven, repeated contact. If no, it's a Banner — a shared label with nothing underneath it. Notice along four lines — proximity, similarity, reciprocity, disclosure — rather than recruiting. Its currency is kindness, uncounted; the moment it's tracked, it's already a Banner.
 
 **Reading a system — two questions, in order**
 First: does anything here feed back into itself? If nothing does, it's a pile — take it apart, fix the part, done. Second, only if the first was yes: which order am I looking at? Position is where it is. Speed is where it's heading. Acceleration is whether that's speeding up or slowing down — the hardest to see, and the only one you can actually apply a force to. Time integrates the rest.
@@ -59,16 +74,16 @@ Is this term pulled toward something already checked, or pushed at me to produce
 A Skein narrowed to exactly two people, complete enough to function as one unit — the Dyad scale tag, made concrete. Usually discovered already partway built, not manufactured on purpose. Complete does not automatically mean healthy — check both, separately.
 
 **The Braid**
-A Skein and a Banner fused: real substance that has also acquired a visible name. Not automatically corrosive — but watch what happens when the name is challenged. If the response protects the name instead of the thing the name was standing for, the Braid has started fraying toward Banner. Applies at every scale: a personal reputation, a couple known for being stable, a group's brand, a culture's flag.
+A Skein and a Banner fused: real substance that has also acquired a visible name. Not automatically corrosive — but watch what happens when the name is challenged. If the response protects the name instead of the thing the name was standing for, the Braid has started drifting toward Banner. Applies at every scale: a personal reputation, a couple known for being stable, a group's brand, a culture's flag.
 
 **The Fold**
-What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else.
+What a Local Rule becomes once it travels out through a Nest and comes back to you — Fractalism's version of karma, without a ledger-keeper. Not proportional, not owed, not always yours to trace. Useful for examining your own repeated contribution honestly; not a license to explain away harm done to you by someone else, and not a ledger to predict your own balance from. It is the Nest seen up close, and it closes at two speeds: Dyad into Skein within a life, Skein into Culture not. You tend the ground, not your return.
 
 **The Standing Thirds, at a glance**
-Fifty figures, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every figure carries a **Tending** pole that builds and a **Fraying** pole that corrodes; none is good or evil in itself, and if you can only see one pole you are zoomed in too far.
+Fifty-two drawable figures and one that is never drawn, organized by **fusion depth** — a Third's scale is what it's made of, not a category assigned to it. Every running figure carries a **Tending** pole, where its pattern runs stronger, and a **Fraying** pole, where it runs weaker; neither is good or evil in itself, and if you can only see one pole you are zoomed in too far.
 *The Self-Kin — twelve figures, generated directly by one person repeating one thing:* The Spark (reinforcing), The Tide (balancing), The Mark (judging against a reference), The Salve (reaching for the symptom-fix), The Nearest Light (judging by what arrives first), The Keepsake (storing peak and ending), The Easier Door (answering the easier question), The Mask (maintaining a self-story), The Mirror (taking the shape of the room), The Namer (speaking as construction), The Riverbed (shaping conditions), The Gardener (attending repeatedly).
 *The Dyad-Kin — nineteen figures, my pattern meeting yours:* Escalation, The Standoff, The Pairing, Watering Another, Answering For, Filling the Gap, The Guard, Reading the Room, Connection First, The Rising Bar, The Sliding Floor, The Shared Story, The Echo, Typecasting, Gaming the Terms, The Naming Contest, The Unbridged Gap, The Arrangement, The Tested Price.
-*The Skein-Kin — eleven figures, two Dyad-Kin sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Sagging Floor, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
+*The Skein-Kin — eleven figures, two Dyad-Kin sharing a person:* Held Silence, Transmission Drift, The Faithful Chain, First-Arriver Lock-In, The Shared Pot, The Reputation, The Settling, The Hall of Mirrors, Second-Order Design, The Inner Circle, The Only Road.
 *The Culture-Kin — seven figures:* The Shared Name, Proxy Detachment, Policy Resistance, The Long Cycle, The Received World, The Slow Hand, Independent Convergence.
 
 *The World-Kin — three figures, two Culture-Kin sharing a Skein-Kin:* The Standing Account, Second Nature, The Set Course.
@@ -76,4 +91,4 @@ Fifty figures, organized by **fusion depth** — a Third's scale is what it's ma
 None has independent will — only perceived behavior, consistent enough to earn a face.
 
 **Weaving, in brief**
-A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its healthy expression) or Fraying (its own named flaw), decided by context, not chance. Describes a pattern; never predicts an outcome or hands you a decision.
+A structured way of looking at one situation from several fixed angles at once — one Third per ring, four rings total (Self innermost, then Dyad, Skein, Culture outermost). The Infinite Boundary is never drawn — there's only one, and it already holds every Weaving before a card is turned over. Read center-to-edge, never left-to-right; this isn't a timeline. Each card is Tending (its pattern running stronger) or Fraying (its pattern running weaker), set by the person reading it, from the situation in front of them, not by chance. Describes a pattern; never predicts an outcome or hands you a decision.

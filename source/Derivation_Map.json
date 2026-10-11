@@ -1,0 +1,2216 @@
+{
+  "version": 2,
+  "status": "applied to the manuscript",
+  "system": {
+    "of": "Taking part in patterns you cannot see whole.",
+    "note": "A formal system in the sense of Godel, Escher, Bach. Axioms and theorems are the same kind of thing, so if the theorems are practices the axioms must be moves too. What the moves stand on is the ground: a description of the world, tested separately."
+  },
+  "alphabet": {
+    "node": "grammar-of-pattern",
+    "words": [
+      "loop",
+      "third-thing",
+      "seed",
+      "local-rule",
+      "global-form",
+      "nest",
+      "leverage",
+      "fold",
+      "tree"
+    ],
+    "note": "The Loop Tongue. A pattern is written as a chain of arrows, closed into a loop, bracketed when it holds, and tagged with a scale.",
+    "scales": [
+      "self",
+      "dyad",
+      "skein",
+      "culture"
+    ],
+    "lexicon": {
+      "note": "The Standing Thirds are named patterns: words, not theorems. A name lets Look recognise a pattern quickly, and a figure's two readings are what Tend and Thin do to it. Part Five now says so. Its tables and The Deck stay parked while the catalogue is reworked."
+    }
+  },
+  "axioms": [
+    {
+      "id": "look",
+      "name": "Look",
+      "statement": "See a pattern while it runs.",
+      "onGround": [
+        "perspective"
+      ],
+      "statedIn": [
+        {
+          "node": "daily-practices",
+          "anchor": "Look, plant, tend, thin."
+        }
+      ],
+      "sources": [
+        {
+          "book": "Thinking in Systems",
+          "passage": 8321,
+          "says": "Before disturbing a system in any way, watch how it behaves and learn its history."
+        },
+        {
+          "book": "The Happiness Trap",
+          "passage": 4783,
+          "says": "The observing self registers experience directly; it does not produce thoughts about it."
+        },
+        {
+          "book": "The Coaching Habit",
+          "passage": 10416,
+          "says": "A behavior whose trigger you cannot name will already be running before you know it."
+        }
+      ]
+    },
+    {
+      "id": "plant",
+      "name": "Plant",
+      "statement": "Start a small act you mean to repeat.",
+      "onGround": [
+        "repetition-builds",
+        "leverage"
+      ],
+      "statedIn": [
+        {
+          "node": "daily-practices",
+          "anchor": "Look, plant, tend, thin."
+        }
+      ],
+      "sources": [
+        {
+          "book": "Atomic Habits",
+          "passage": 3516,
+          "says": "A new habit starts most reliably when its time and place are stated in advance."
+        },
+        {
+          "book": "The Four Agreements",
+          "passage": 3361,
+          "says": "A word is a seed and the mind is fertile ground for whatever is planted."
+        },
+        {
+          "book": "A Little More Social",
+          "passage": 21699,
+          "says": "Change comes from deliberately building a habit: one rewarding act done until it needs no thought."
+        }
+      ]
+    },
+    {
+      "id": "tend",
+      "name": "Tend",
+      "statement": "Strengthen a loop that is running.",
+      "onGround": [
+        "repetition-builds"
+      ],
+      "statedIn": [
+        {
+          "node": "daily-practices",
+          "anchor": "Look, plant, tend, thin."
+        }
+      ],
+      "sources": [
+        {
+          "book": "How to Love",
+          "passage": 10394,
+          "says": "Selective watering: arrange a life so the good seeds are watered several times a day."
+        },
+        {
+          "book": "How to Fight",
+          "passage": 10276,
+          "says": "Nothing survives without food, love included; it has to be nourished daily."
+        },
+        {
+          "book": "Atomic Habits",
+          "passage": 3462,
+          "says": "A small daily change compounds into a very large one, in either direction."
+        }
+      ]
+    },
+    {
+      "id": "thin",
+      "name": "Thin",
+      "statement": "Weaken a loop, or let it go.",
+      "onGround": [
+        "repetition-builds",
+        "leverage"
+      ],
+      "statedIn": [
+        {
+          "node": "daily-practices",
+          "anchor": "Look, plant, tend, thin."
+        }
+      ],
+      "sources": [
+        {
+          "book": "Thinking in Systems",
+          "passage": 8283,
+          "says": "Reducing the gain of a reinforcing loop, slowing its growth, is a point of leverage."
+        },
+        {
+          "book": "How to Fight",
+          "passage": 10276,
+          "says": "Nothing survives without food, so what is no longer fed does not last."
+        },
+        {
+          "book": "Advanced Game Design",
+          "passage": 1370,
+          "says": "A governor pairs a reinforcing loop with a balancing one that holds it back."
+        }
+      ]
+    }
+  ],
+  "axiomsNote": "Stated at the opening of Part Two and again in The Daily Practices: \"Look, plant, tend, thin. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.\" Together they cover every change that can be made to a loop: read it, begin one, raise it, lower it.",
+  "rules": [
+    {
+      "id": "in-order",
+      "name": "Look first",
+      "statement": "Moves chain, and Look comes first.",
+      "ground": "perspective"
+    },
+    {
+      "id": "at-a-scale",
+      "name": "At a scale",
+      "statement": "Any move can be made at self, dyad, skein or culture scale.",
+      "ground": "form-becomes-rule"
+    },
+    {
+      "id": "with-another",
+      "name": "With another",
+      "statement": "A move made with another person is made by what the two of you make together.",
+      "ground": "relation-is-real"
+    }
+  ],
+  "ground": {
+    "note": "What the moves stand on. These are descriptions of the world, sourced from the shelf, and each can be wrong. They are the meaning of the system, not part of its machinery.",
+    "operation": "A loop that holds becomes a part.",
+    "operationNote": "From the 2026-10-07 reconciliation (source/staging/Reconciliation.md). Something repeats; if the repetition holds it acts as one thing; that thing is a part one level up, which acts back down. The three pillars are this one operation seen three times. The same operation at every scale; the forms it makes need not repeat.",
+    "claims": [
+      {
+        "id": "repetition-builds",
+        "name": "Repetition builds",
+        "kind": "descriptive",
+        "statement": "Small local acts, repeated with no plan of the whole, make large forms. A form lasts only while the repetition does.",
+        "pillar": "The Loop",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "Small things, repeated without a master plan, build large things."
+          },
+          {
+            "node": "what-you-already-know",
+            "anchor": "Nothing large was built large."
+          }
+        ],
+        "sources": [
+          {
+            "book": "Atomic Habits",
+            "passage": 3462,
+            "says": "A one percent daily change compounds to a very large difference over a year, in either direction."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 8116,
+            "says": "A few simple organizing principles can produce wildly diverse self-organizing structures."
+          },
+          {
+            "book": "Advanced Game Design",
+            "passage": 1616,
+            "says": "Conway's Game of Life: simple local rules per cell produce the whole pattern."
+          },
+          {
+            "book": "Wooden Book",
+            "passage": 4596,
+            "says": "The chaos game: stepping halfway toward a random pole, repeated, draws a fractal."
+          },
+          {
+            "book": "Situated",
+            "passage": 25052,
+            "says": "A response changes the next situation, so a slight improvement feeds itself over time."
+          }
+        ],
+        "tensions": [
+          {
+            "book": "It's on You",
+            "passage": null,
+            "says": "Reported by a shelf note, not verified at passage level: individual-level fixes draw attention away from changing the rules."
+          }
+        ]
+      },
+      {
+        "id": "relation-is-real",
+        "name": "Relation is real",
+        "kind": "descriptive",
+        "statement": "What repeats together makes something neither part holds alone, and nothing affects without being affected.",
+        "pillar": "The Third Thing",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "What repeats together becomes something new"
+          },
+          {
+            "node": "the-third-thing",
+            "anchor": "you cannot affect without being affected"
+          }
+        ],
+        "sources": [
+          {
+            "book": "Advanced Game Design",
+            "passage": 1351,
+            "says": "A whole arises from relationships between lower-level things as a new independent thing; cites D. H. Lawrence on love as a third thing two people create."
+          },
+          {
+            "book": "Advanced Game Design",
+            "passage": 1392,
+            "says": "A marriage has no mass or shape and is still as real as a desk or a drop of water."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 7998,
+            "says": "A system is elements, interconnections and a purpose; it is more than the sum of its parts."
+          },
+          {
+            "book": "How to Fight",
+            "passage": 10296,
+            "says": "Interbeing: nothing exists separately; caring for another is caring for yourself."
+          },
+          {
+            "book": "Selfless",
+            "passage": 1968,
+            "says": "The sense of a separate self depends on not noticing how much of it overlaps with other selves."
+          }
+        ],
+        "tensions": []
+      },
+      {
+        "id": "form-becomes-rule",
+        "name": "Form becomes rule",
+        "kind": "descriptive",
+        "statement": "A finished form is the material of the next scale, and a threshold changes what the same rule builds.",
+        "pillar": "The Nest",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "A Global Form at one scale is a Local Rule at the next"
+          }
+        ],
+        "sources": [
+          {
+            "book": "Advanced Game Design",
+            "passage": 1357,
+            "says": "At each level a system shows organized state and behavior, which is the same as being a part in a larger system one level up."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 8119,
+            "says": "Self-organizing systems generate hierarchy: subsystems aggregated into larger subsystems, cell to organ to person to group."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 8125,
+            "says": "Hierarchies evolve from the lowest level up."
+          },
+          {
+            "book": "Atomic Habits",
+            "passage": 3476,
+            "says": "Small changes often appear to make no difference until a critical threshold is crossed."
+          },
+          {
+            "book": "Somebody Should Do Something",
+            "passage": 20902,
+            "says": "In complex systems effects build nonlinearly; small events can produce disproportionately large changes."
+          },
+          {
+            "book": "Micromotives and Macrobehavior",
+            "passage": 25292,
+            "says": "Tipping is a special case of critical-mass phenomena, with different cross-over points per person."
+          }
+        ],
+        "tensions": []
+      },
+      {
+        "id": "chance-remains",
+        "name": "Chance remains",
+        "kind": "descriptive",
+        "statement": "Repetition shifts the odds across many attempts and never removes the roll. A little chance inside a rule is what lets its form survive.",
+        "pillar": null,
+        "note": "Admitted by Sean, 2026-10-09. The manuscript already treats it as a foundation: it is the Fourth Iteration.",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "that is **chance**"
+          },
+          {
+            "node": "where-it-comes-from",
+            "anchor": "The Fourth Iteration"
+          },
+          {
+            "node": "the-mathematics",
+            "anchor": "single random bit"
+          }
+        ],
+        "sources": [
+          {
+            "book": "Thinking, Fast and Slow",
+            "passage": 3958,
+            "says": "An exceptional season was probably helped by luck, and luck does not repeat on demand."
+          },
+          {
+            "book": "Thinking, Fast and Slow",
+            "passage": 3897,
+            "says": "People are pattern seekers who reject the idea that a regular-looking sequence came from a random process."
+          },
+          {
+            "book": "Ego Is the Enemy",
+            "passage": 10150,
+            "says": "Managing yourself well holds no guarantee of prosperity; things regress toward the mean."
+          },
+          {
+            "book": "Atomic Habits",
+            "passage": 3717,
+            "says": "Luck matters. Habits are only the largest factor within your control."
+          },
+          {
+            "book": "The Art of Game Design",
+            "passage": 6450,
+            "says": "Even pure skill has a probability of success; every action carries some risk."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 8107,
+            "says": "Ecosystems are resilient partly through rich genetic variability, which lets them learn and evolve."
+          }
+        ],
+        "tensions": []
+      },
+      {
+        "id": "worth-is-the-measure",
+        "name": "Worth is the measure",
+        "kind": "value",
+        "statement": "A repetition is judged by whether it is worth repeating for its own sake, now.",
+        "pillar": null,
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "that is **worth**"
+          },
+          {
+            "node": "where-it-comes-from",
+            "anchor": "what does this mean?"
+          },
+          {
+            "node": "the-sacrifice-trap",
+            "anchor": "Would I be willing to repeat exactly this, unchanged, indefinitely?"
+          }
+        ],
+        "sources": [
+          {
+            "book": "The Happiness Trap",
+            "passage": 5078,
+            "says": "A values-focused life is more fulfilling than a goal-focused one because the journey itself is appreciated."
+          },
+          {
+            "book": "How to Love",
+            "passage": 10374,
+            "says": "Practice so that every breath, step and action is fulfilling in itself."
+          },
+          {
+            "book": "Ego Is the Enemy",
+            "passage": 10183,
+            "says": "There is only minimal control over the rewards for work, so the work has to be its own reason."
+          }
+        ],
+        "tensions": [
+          {
+            "book": "Atomic Habits",
+            "passage": 3708,
+            "says": "Reward is on the other side of sacrifice; response comes before reward. Pulls toward deferral."
+          }
+        ],
+        "note": "The Seventh Iteration already says the universe supplies no meaning and the noticing self makes it."
+      }
+    ],
+    "pillars": [
+      {
+        "name": "The Loop",
+        "is": "repetition-builds"
+      },
+      {
+        "name": "The Third Thing",
+        "is": "relation-is-real"
+      },
+      {
+        "name": "The Nest",
+        "is": "form-becomes-rule"
+      }
+    ],
+    "pillarsNote": "Three pillars, as the manuscript now states them. They hold up a place to stand. Leverage and Perspective are what one position on it gives: reach and view.",
+    "standpointName": "The Standpoint",
+    "standpoint": [
+      {
+        "id": "leverage",
+        "name": "Leverage",
+        "statement": "Some places in a nested pattern move everything built on them; most move almost nothing.",
+        "faces": "Where you can act.",
+        "from": [
+          "repetition-builds",
+          "relation-is-real",
+          "form-becomes-rule"
+        ],
+        "derivation": "Forms are built by repetition, what they build is real, and each becomes material for the next scale. A change near the root therefore reaches every leaf, and a change at a leaf reaches nothing above it.",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "Leverage is your reach."
+          },
+          {
+            "node": "fractal-resistance",
+            "anchor": "Leverage can be real and still not be yours to reach."
+          }
+        ],
+        "sources": [],
+        "note": "Fractal Resistance now separates the two halves: the ladder describes the system, and which rungs you can touch depends on where you stand."
+      },
+      {
+        "id": "perspective",
+        "name": "Perspective",
+        "statement": "Every view is from one position inside the pattern. Depth comes only from holding more than one.",
+        "faces": "What you can see.",
+        "from": [
+          "repetition-builds",
+          "relation-is-real",
+          "form-becomes-rule"
+        ],
+        "derivation": "You are a part of a larger form. A part acts only on what is near it. The form has properties no part contains. So no part holds the whole it belongs to, and that includes its view of another person, who is a whole too. What two views make together is itself a Third Thing: depth that neither view has.",
+        "note": "Named by Sean, 2026-10-09, and placed as derived from the pillars. Stated in The Three Pillars and followed to its end in The Limits of Running It Forward.",
+        "statedIn": [
+          {
+            "node": "four-pillars",
+            "anchor": "Perspective is your view."
+          },
+          {
+            "node": "the-loop-runs-you",
+            "anchor": "You are a loop. You build a tree."
+          },
+          {
+            "node": "naming-and-defusing",
+            "anchor": "You are a loop. You build a tree."
+          },
+          {
+            "node": "running-it-forward",
+            "anchor": "There is no list."
+          }
+        ],
+        "sources": [
+          {
+            "book": "The Art of Game Design",
+            "passage": 6297,
+            "says": "Minds deal with simplified models of reality, not reality, and mostly do not notice."
+          },
+          {
+            "book": "Selfless",
+            "passage": 1892,
+            "says": "No one can read your mind, and the same limit may apply to reading your own."
+          },
+          {
+            "book": "Thinking in Systems",
+            "passage": 8130,
+            "says": "Our models match the world well enough to succeed and still fall far short of representing it."
+          },
+          {
+            "book": "The Happiness Trap",
+            "passage": 4783,
+            "says": "The observing self registers experience directly; the thinking self produces thoughts about it."
+          },
+          {
+            "book": "People Skills for Analytical Thinkers",
+            "passage": 9050,
+            "says": "What is available about another person is their behavior, which can be observed more consciously."
+          }
+        ]
+      }
+    ],
+    "poles": {
+      "tending": "The loop strengthening.",
+      "fraying": "The loop weakening.",
+      "note": "Ledger L1. Neither is good or bad: a pull can be a lifeline or a snare. Direction is mechanical; whether it is a lifeline or a snare is a question of worth."
+    },
+    "candidates": [
+      {
+        "id": "order-costs",
+        "name": "Order costs",
+        "statement": "Nothing that has stopped being paid for stays where it was left.",
+        "sources": [
+          {
+            "book": "Thinking in Systems",
+            "passage": 8362,
+            "says": "No physical system grows forever in a finite environment; a balancing loop always constrains it."
+          }
+        ],
+        "note": "Stated in Reading Your Own Cycle and relied on by Anchoring to What Already Turns. Folded into the first axiom for now. Shelf support is thin: one adjacent passage."
+      }
+    ],
+    "open": {
+      "note": "What the pillars leave open, one from each side. The world brings chance; you bring worth. Stated in The Three Pillars.",
+      "claims": [
+        "chance-remains",
+        "worth-is-the-measure"
+      ]
+    }
+  },
+  "guides": [
+    {
+      "id": "watch-it-run",
+      "name": "Watch it run",
+      "level": "outside",
+      "instruction": "See the pattern while it is running, before touching it.",
+      "blindSpot": "Watching in place of acting.",
+      "from": [
+        "perspective"
+      ]
+    },
+    {
+      "id": "tend-the-act",
+      "name": "Tend the act",
+      "level": "inside",
+      "instruction": "Change the small repeated thing, not the outcome.",
+      "blindSpot": "Blaming a person for what their conditions produce.",
+      "from": [
+        "repetition-builds",
+        "leverage"
+      ]
+    },
+    {
+      "id": "tend-the-between",
+      "name": "Tend the between",
+      "level": "inside",
+      "instruction": "Fix how two sides translate each other, not the people.",
+      "blindSpot": "Repairing a relationship that should be left.",
+      "from": [
+        "relation-is-real",
+        "perspective"
+      ]
+    },
+    {
+      "id": "walk-the-loop",
+      "name": "Walk the loop",
+      "level": "inside",
+      "instruction": "Trace it round to where it started.",
+      "blindSpot": "Treating everything as a loop, or taking the blame for harm done to you.",
+      "from": [
+        "relation-is-real",
+        "form-becomes-rule"
+      ]
+    },
+    {
+      "id": "mind-what-adds-up",
+      "name": "Mind what adds up",
+      "level": "inside",
+      "instruction": "Settle what can cancel; be deliberate about what only accumulates.",
+      "blindSpot": "Keeping score.",
+      "from": [
+        "repetition-builds"
+      ]
+    },
+    {
+      "id": "check-the-size",
+      "name": "Check the size",
+      "level": "inside",
+      "instruction": "A change of scale changes what the same act builds.",
+      "blindSpot": "Waiting on a threshold with no limit set in advance.",
+      "from": [
+        "form-becomes-rule"
+      ]
+    },
+    {
+      "id": "check-the-stand-in",
+      "name": "Check the stand-in",
+      "level": "inside",
+      "instruction": "Ask whether the picture, the measure or the means still matches what it stands for.",
+      "blindSpot": "Checking without end.",
+      "from": [
+        "perspective",
+        "chance-remains"
+      ]
+    },
+    {
+      "id": "make-it-worth-repeating",
+      "name": "Make it worth repeating",
+      "level": "outside",
+      "instruction": "Ask whether you would repeat exactly this, unchanged, indefinitely, and whether it is yours or owed.",
+      "blindSpot": "A sophisticated way to quit.",
+      "from": [
+        "worth-is-the-measure",
+        "chance-remains"
+      ]
+    },
+    {
+      "id": "find-the-other-pole",
+      "name": "Find the other pole",
+      "level": "guard",
+      "instruction": "Every running pattern can strengthen or weaken, and either can be a lifeline or a snare. Look for the reading you are not seeing.",
+      "blindSpot": "Looking for a second pole on something that has stopped running.",
+      "from": [
+        "repetition-builds"
+      ]
+    }
+  ],
+  "guidesNote": "Advice about which move to make, and where. Not axioms, and not in the manuscript under these names. Each names its own blind spot.",
+  "exempt": {
+    "reason": "Reference material and front matter, not theorems.",
+    "nodes": [
+      "how-to-read",
+      "mantras",
+      "quick-reference",
+      "the-loom",
+      "sources"
+    ]
+  },
+  "parked": {
+    "reason": "The Standing Thirds are still in development (Sean, 2026-10-08). Part Five and The Deck, which restates it, are set aside until the catalogue settles.",
+    "parts": [
+      "part-five"
+    ],
+    "nodes": [
+      "the-deck"
+    ]
+  },
+  "traces": [
+    {
+      "node": "onboarding",
+      "verdict": "derived",
+      "anchors": [
+        "Notice one loop. Change nothing."
+      ],
+      "seen": "454953815f",
+      "moves": [
+        "look@self",
+        "thin@self",
+        "look@dyad",
+        "plant@dyad",
+        "hold@self",
+        "hold@dyad"
+      ],
+      "guides": [
+        "watch-it-run",
+        "tend-the-between",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "daily-practices",
+      "verdict": "derived",
+      "anchors": [
+        "Naming the Loop",
+        "Tree-Gazing",
+        "Seeding",
+        "Look, plant, tend, thin."
+      ],
+      "seen": "01c5387d92",
+      "moves": [
+        "look@self",
+        "plant@self",
+        "tend@self",
+        "thin@self"
+      ],
+      "guides": [
+        "watch-it-run",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "finding-your-local-rule",
+      "verdict": "derived",
+      "anchors": [
+        "What can you sustain",
+        "once per scale"
+      ],
+      "seen": "e84b81e44d",
+      "moves": [
+        "look@self",
+        "plant@self"
+      ],
+      "guides": [
+        "make-it-worth-repeating",
+        "check-the-size",
+        "check-the-stand-in",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "naming-and-defusing",
+      "verdict": "derived",
+      "anchors": [
+        "I'm having the thought that I always quit"
+      ],
+      "seen": "22186d3659",
+      "moves": [
+        "look@self",
+        "thin@self"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "the-compost-heap",
+      "verdict": "derived",
+      "anchors": [
+        "Failure is not waste.",
+        "compost is a stock"
+      ],
+      "seen": "d7794c7a3e",
+      "moves": [
+        "look@self",
+        "tend@self",
+        "tend@skein"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "check-the-stand-in",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "reading-your-own-cycle",
+      "verdict": "derived",
+      "anchors": [
+        "balance is not stillness"
+      ],
+      "seen": "660b81510c",
+      "moves": [
+        "look@self",
+        "plant@self",
+        "hold@self"
+      ],
+      "guides": [
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "the-stall",
+      "verdict": "derived",
+      "anchors": [
+        "A stall has three usual causes"
+      ],
+      "seen": "c146103d31",
+      "moves": [
+        "look@self",
+        "plant@self",
+        "thin@self"
+      ],
+      "guides": [
+        "make-it-worth-repeating",
+        "mind-what-adds-up",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "starting-is-expensive",
+      "verdict": "derived",
+      "anchors": [
+        "Starting is expensive. Staying is cheap."
+      ],
+      "seen": "10d0b78849",
+      "moves": [
+        "look@self",
+        "hold@self"
+      ],
+      "guides": [
+        "mind-what-adds-up",
+        "check-the-size",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "finding-your-leverage-point",
+      "verdict": "derived",
+      "anchors": [
+        "check one level up"
+      ],
+      "seen": "1daa0c19f1",
+      "states": [
+        "leverage"
+      ],
+      "moves": [
+        "look@self",
+        "plant@self"
+      ],
+      "guides": [
+        "tend-the-act",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "fractal-resistance",
+      "verdict": "derived",
+      "leftover": "Its \"accept\" is Hold, with Thin on your own effort.",
+      "anchors": [
+        "small, honest local variation",
+        "The Nest is gated by connection"
+      ],
+      "seen": "d614879aab",
+      "states": [
+        "leverage"
+      ],
+      "moves": [
+        "look@self",
+        "plant@skein",
+        "plant@dyad",
+        "thin@self",
+        "hold@self"
+      ],
+      "guides": [
+        "tend-the-act",
+        "check-the-size",
+        "tend-the-between",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "the-sacrifice-trap",
+      "verdict": "derived",
+      "anchors": [
+        "Would I be willing to repeat exactly this, unchanged, indefinitely?",
+        "It is a direction you check your acceleration against."
+      ],
+      "seen": "c2bb90dac3",
+      "states": [
+        "worth-is-the-measure"
+      ],
+      "moves": [
+        "look@self",
+        "plant@self",
+        "tend@self",
+        "thin@self",
+        "hold@self"
+      ],
+      "guides": [
+        "make-it-worth-repeating",
+        "mind-what-adds-up",
+        "check-the-size",
+        "check-the-stand-in"
+      ],
+      "leftover": "Its central question, whether you would repeat exactly this, is a judgment of worth, not a move."
+    },
+    {
+      "node": "the-fold",
+      "verdict": "derived",
+      "anchors": [
+        "Tracing the Fold"
+      ],
+      "seen": "52a58a3361",
+      "moves": [
+        "look@self",
+        "look@skein",
+        "hold@self"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "the-dyad",
+      "verdict": "derived",
+      "anchors": [
+        "Completeness and health are different axes"
+      ],
+      "seen": "d303b8b109",
+      "moves": [
+        "look@dyad",
+        "hold@dyad"
+      ],
+      "guides": [
+        "check-the-size",
+        "check-the-stand-in",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "the-trust-triangle",
+      "verdict": "derived",
+      "anchors": [
+        "Authenticity",
+        "Empathy",
+        "Logic",
+        "who is feeding this, and who is absorbing it?"
+      ],
+      "seen": "25b42827a4",
+      "moves": [
+        "look@dyad",
+        "plant@dyad"
+      ],
+      "guides": [
+        "tend-the-between",
+        "walk-the-loop",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "do-i-understand-you",
+      "verdict": "derived",
+      "anchors": [
+        "do I understand you well enough?"
+      ],
+      "seen": "335dbdd979",
+      "moves": [
+        "look@dyad"
+      ],
+      "guides": [
+        "tend-the-between",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "presence",
+      "verdict": "derived",
+      "anchors": [
+        "Presence makes understanding possible."
+      ],
+      "seen": "282e18e466",
+      "moves": [
+        "look@dyad",
+        "hold@dyad",
+        "plant@dyad"
+      ],
+      "guides": [
+        "tend-the-between",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "receiving",
+      "verdict": "derived",
+      "anchors": [
+        "The skill is selection, not preference."
+      ],
+      "seen": "6cb39821f1",
+      "moves": [
+        "look@dyad",
+        "plant@dyad",
+        "tend@dyad",
+        "thin@dyad",
+        "hold@dyad"
+      ],
+      "guides": [
+        "find-the-other-pole",
+        "walk-the-loop"
+      ],
+      "leftover": "Its \"doing nothing\" is Hold."
+    },
+    {
+      "node": "group-practice",
+      "verdict": "derived",
+      "anchors": [
+        "Share one loop."
+      ],
+      "seen": "9ed1027f21",
+      "moves": [
+        "look@skein",
+        "plant@skein"
+      ],
+      "guides": [
+        "watch-it-run",
+        "tend-the-between",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "the-skein",
+      "verdict": "derived",
+      "leftover": "Uncounted kindness is stated without a size limit. Ostrom, Governing the Commons (passage 25992): long-enduring commons all invest in monitoring.",
+      "anchors": [
+        "would this connection survive if the label disappeared tomorrow?"
+      ],
+      "seen": "836f6686ee",
+      "moves": [
+        "look@skein",
+        "tend@skein",
+        "hold@skein"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "tend-the-between",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "closing-the-loop",
+      "verdict": "derived",
+      "anchors": [
+        "a closed loop, not a checklist"
+      ],
+      "seen": "509b0e049d",
+      "moves": [
+        "tend@self",
+        "tend@dyad",
+        "tend@skein"
+      ],
+      "guides": [
+        "watch-it-run",
+        "walk-the-loop",
+        "check-the-size"
+      ]
+    },
+    {
+      "node": "what-you-already-know",
+      "verdict": "foundation",
+      "anchors": [
+        "Nothing large was built large."
+      ],
+      "states": [
+        "repetition-builds"
+      ],
+      "seen": "43069a17ec",
+      "guides": []
+    },
+    {
+      "node": "the-third-thing",
+      "verdict": "foundation",
+      "anchors": [
+        "you cannot affect without being affected",
+        "symphysical"
+      ],
+      "states": [
+        "relation-is-real",
+        "form-becomes-rule"
+      ],
+      "seen": "e59bb9f84e",
+      "guides": [
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "the-loop-runs-you",
+      "verdict": "foundation",
+      "anchors": [
+        "You are a loop. You build a tree."
+      ],
+      "states": [
+        "repetition-builds",
+        "perspective"
+      ],
+      "seen": "6294491ffd",
+      "guides": [
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "four-pillars",
+      "verdict": "foundation",
+      "anchors": [
+        "a loop that holds becomes a part",
+        "What the three pillars hold up is a place to stand."
+      ],
+      "states": [
+        "repetition-builds",
+        "relation-is-real",
+        "form-becomes-rule",
+        "leverage",
+        "perspective",
+        "chance-remains",
+        "worth-is-the-measure"
+      ],
+      "seen": "d2f28e21e9",
+      "guides": []
+    },
+    {
+      "node": "bottom-up-or-nothing",
+      "verdict": "derived",
+      "anchors": [
+        "Nobody's reading of you overrules your own."
+      ],
+      "states": [
+        "perspective"
+      ],
+      "seen": "a43c417ec9",
+      "moves": [
+        "look@dyad",
+        "hold@dyad"
+      ],
+      "guides": [
+        "watch-it-run",
+        "tend-the-between",
+        "make-it-worth-repeating",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "youve-met-this-before",
+      "verdict": "interpretation",
+      "anchors": [
+        "Nothing in this book is derived from the five characters below."
+      ],
+      "states": [
+        "repetition-builds",
+        "relation-is-real",
+        "form-becomes-rule"
+      ],
+      "seen": "779e1c028c",
+      "guides": [
+        "tend-the-act",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "the-woven-self",
+      "verdict": "foundation",
+      "anchors": [
+        "a thing that was built by repetition can be rebuilt by repetition"
+      ],
+      "states": [
+        "repetition-builds",
+        "perspective"
+      ],
+      "seen": "66f94fe41d",
+      "guides": [
+        "tend-the-act",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "complicated-or-complex",
+      "verdict": "derived",
+      "anchors": [
+        "whether anything in the system feeds back into itself"
+      ],
+      "seen": "88246d008a",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "position-speed-acceleration",
+      "verdict": "derived",
+      "anchors": [
+        "You never get to touch position directly."
+      ],
+      "seen": "1ef151ff0b",
+      "moves": [
+        "look@self",
+        "hold@self"
+      ],
+      "guides": [
+        "mind-what-adds-up",
+        "watch-it-run",
+        "check-the-stand-in",
+        "check-the-size"
+      ]
+    },
+    {
+      "node": "where-it-comes-from",
+      "verdict": "foundation",
+      "anchors": [
+        "The Fourth Iteration",
+        "what does this mean?"
+      ],
+      "states": [
+        "repetition-builds",
+        "relation-is-real",
+        "form-becomes-rule",
+        "perspective",
+        "worth-is-the-measure",
+        "chance-remains"
+      ],
+      "seen": "5896540d41",
+      "guides": []
+    },
+    {
+      "node": "a-word-on-belief",
+      "verdict": "derived",
+      "anchors": [
+        "This was built.",
+        "a lifeline or a snare, and for whom"
+      ],
+      "seen": "be57955aa4",
+      "states": [
+        "worth-is-the-measure"
+      ],
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "make-it-worth-repeating",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "why-lines-break-loops",
+      "verdict": "derived",
+      "anchors": [
+        "The sentence describes one lap of the loop."
+      ],
+      "states": [
+        "perspective"
+      ],
+      "seen": "94a3c920fb",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "grammar-of-pattern",
+      "verdict": "alphabet",
+      "anchors": [
+        "nine words"
+      ],
+      "seen": "d1906a81c1",
+      "guides": [
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "sketching-a-loop",
+      "verdict": "alphabet",
+      "anchors": [
+        "count how many are negative"
+      ],
+      "seen": "35033b34f3",
+      "guides": [
+        "walk-the-loop",
+        "mind-what-adds-up",
+        "check-the-size"
+      ]
+    },
+    {
+      "node": "scale-tagging",
+      "verdict": "derived",
+      "anchors": [
+        "name your scale before making a claim about a pattern"
+      ],
+      "seen": "5efc6b9fc0",
+      "moves": [
+        "look@dyad"
+      ],
+      "guides": [
+        "check-the-size",
+        "check-the-stand-in",
+        "watch-it-run",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "the-second-pass",
+      "verdict": "derived",
+      "anchors": [
+        "once forward and once as a Loop"
+      ],
+      "seen": "1361f6efe8",
+      "moves": [
+        "look@dyad"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "the-spiral-check",
+      "verdict": "derived",
+      "anchors": [
+        "no one repeats the scale"
+      ],
+      "seen": "0634ee43d5",
+      "moves": [
+        "look@skein"
+      ],
+      "guides": [
+        "check-the-size",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "loop-tongue-practice-set",
+      "verdict": "derived",
+      "anchors": [
+        "The mirror exercise."
+      ],
+      "seen": "7ed2e5bb39",
+      "moves": [
+        "look@self",
+        "look@dyad",
+        "look@skein"
+      ],
+      "guides": [
+        "walk-the-loop",
+        "tend-the-between",
+        "check-the-size"
+      ]
+    },
+    {
+      "node": "loop-tongue-limits",
+      "verdict": "derived",
+      "anchors": [
+        "Three honest gaps"
+      ],
+      "seen": "c6ee9e2d83",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-size",
+        "find-the-other-pole",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "the-mathematics",
+      "verdict": "interpretation",
+      "anchors": [
+        "the rule set is the compression",
+        "single random bit"
+      ],
+      "states": [
+        "repetition-builds",
+        "relation-is-real",
+        "chance-remains"
+      ],
+      "seen": "4a2e62785e",
+      "guides": []
+    },
+    {
+      "node": "psychology-woven-self",
+      "verdict": "interpretation",
+      "anchors": [
+        "The two selves."
+      ],
+      "states": [
+        "perspective",
+        "repetition-builds"
+      ],
+      "seen": "b41dd01f5a",
+      "guides": [
+        "watch-it-run",
+        "check-the-stand-in",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "systems-theory",
+      "verdict": "interpretation",
+      "anchors": [
+        "isomorphic",
+        "Most are mixtures."
+      ],
+      "states": [
+        "repetition-builds",
+        "relation-is-real",
+        "form-becomes-rule"
+      ],
+      "seen": "c171e2a12c",
+      "guides": [
+        "mind-what-adds-up",
+        "walk-the-loop",
+        "check-the-size",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "flow-reward",
+      "verdict": "interpretation",
+      "anchors": [
+        "Autotelic engagement."
+      ],
+      "states": [
+        "worth-is-the-measure"
+      ],
+      "seen": "de5d591168",
+      "guides": [
+        "make-it-worth-repeating",
+        "watch-it-run",
+        "tend-the-act",
+        "mind-what-adds-up"
+      ]
+    },
+    {
+      "node": "fractalism-collective",
+      "verdict": "interpretation",
+      "anchors": [
+        "identity beyond a certain size"
+      ],
+      "states": [
+        "form-becomes-rule"
+      ],
+      "seen": "3c1dfb2ef3",
+      "guides": [
+        "check-the-size",
+        "check-the-stand-in",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "belief-systems-built",
+      "verdict": "derived",
+      "anchors": [
+        "beyond telling"
+      ],
+      "states": [
+        "perspective"
+      ],
+      "leftover": "Independent convergence as evidence is a rule about trusting sources. No mantra states it.",
+      "seen": "2b6922c2dc",
+      "moves": [
+        "look@self",
+        "thin@skein"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "check-the-size",
+        "tend-the-between",
+        "make-it-worth-repeating"
+      ]
+    },
+    {
+      "node": "open-questions",
+      "verdict": "derived",
+      "anchors": [
+        "here is how you would know"
+      ],
+      "seen": "85b4603b53",
+      "moves": [
+        "look@self",
+        "plant@skein"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "mind-what-adds-up",
+        "tend-the-between",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "what-a-weaving-is",
+      "verdict": "derived",
+      "anchors": [
+        "orthographic"
+      ],
+      "seen": "97a3462299",
+      "states": [
+        "perspective"
+      ],
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "watch-it-run",
+        "check-the-size",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "tending-and-fraying",
+      "verdict": "derived",
+      "anchors": [
+        "determines Tending or Fraying by context, not by chance"
+      ],
+      "seen": "1ff637c501",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "the-rings",
+      "verdict": "derived",
+      "anchors": [
+        "nested rings"
+      ],
+      "seen": "5b233e0268",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-size"
+      ]
+    },
+    {
+      "node": "weather-climate-terrain",
+      "verdict": "derived",
+      "anchors": [
+        "at what speed am I looking at this?"
+      ],
+      "seen": "468a80b237",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-size",
+        "check-the-stand-in",
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "the-single-pull",
+      "verdict": "derived",
+      "anchors": [
+        "The card is a prompt to check for something"
+      ],
+      "seen": "4e7b515375",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "watch-it-run"
+      ]
+    },
+    {
+      "node": "the-four-point-weaving",
+      "verdict": "derived",
+      "anchors": [
+        "Do not treat the four rings as needing to agree"
+      ],
+      "seen": "67c76abf43",
+      "moves": [
+        "look@self",
+        "look@dyad",
+        "look@skein",
+        "look@culture"
+      ],
+      "guides": [
+        "check-the-size",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "the-full-unravelling",
+      "verdict": "derived",
+      "anchors": [
+        "read upward"
+      ],
+      "leftover": "Rests on the composition table, which is parked. The text now allows more than one figure per pair.",
+      "seen": "9311d8e570",
+      "moves": [
+        "look@self",
+        "look@dyad",
+        "look@skein"
+      ],
+      "guides": [
+        "check-the-size",
+        "walk-the-loop"
+      ]
+    },
+    {
+      "node": "weaving-for-another",
+      "verdict": "derived",
+      "anchors": [
+        "reveal one card at a time"
+      ],
+      "seen": "f4ef438720",
+      "moves": [
+        "look@dyad",
+        "hold@dyad"
+      ],
+      "guides": [
+        "tend-the-between",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "weaving-together",
+      "verdict": "derived",
+      "anchors": [
+        "the entire difference between a practice and a tribunal"
+      ],
+      "seen": "a9590a0cde",
+      "moves": [
+        "look@skein",
+        "plant@skein"
+      ],
+      "guides": [
+        "tend-the-between",
+        "walk-the-loop",
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "reading-honestly",
+      "verdict": "derived",
+      "anchors": [
+        "Confirmation is not the same as accuracy."
+      ],
+      "seen": "5ec1d2670a",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "walk-the-loop",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "weaving-limits",
+      "verdict": "derived",
+      "anchors": [
+        "A Weaving is diagnostic, not prescriptive"
+      ],
+      "leftover": "A fork with no return is a Tree, not a Loop. Every mantra assumes something that comes back round; none covers a one-way choice.",
+      "seen": "0fb447d293",
+      "moves": [
+        "look@self"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "what-a-turning-is",
+      "verdict": "derived",
+      "anchors": [
+        "Aimed.",
+        "Each Turning in the tables is one move"
+      ],
+      "seen": "9e3308eb26",
+      "moves": [
+        "plant@skein",
+        "tend@skein",
+        "hold@skein"
+      ],
+      "guides": [
+        "make-it-worth-repeating",
+        "mind-what-adds-up",
+        "check-the-stand-in",
+        "tend-the-between"
+      ]
+    },
+    {
+      "node": "reading-the-global-form",
+      "verdict": "derived",
+      "anchors": [
+        "The Word/Label test applies to every mapping"
+      ],
+      "leftover": "Checks an occasion against the roster in Part Five, which is parked.",
+      "seen": "1b2a697b46",
+      "moves": [
+        "look@skein"
+      ],
+      "guides": [
+        "check-the-stand-in",
+        "find-the-other-pole"
+      ]
+    },
+    {
+      "node": "the-long-visitor",
+      "verdict": "derived",
+      "anchors": [
+        "do not read it as a message"
+      ],
+      "states": [
+        "relation-is-real"
+      ],
+      "seen": "52c9a3091f",
+      "moves": [
+        "tend@culture",
+        "hold@culture"
+      ],
+      "guides": [
+        "check-the-size",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "anchoring",
+      "verdict": "derived",
+      "anchors": [
+        "Anchor to whatever cadence is real"
+      ],
+      "seen": "920f6a8922",
+      "moves": [
+        "plant@skein",
+        "hold@skein"
+      ],
+      "guides": [
+        "tend-the-act"
+      ]
+    },
+    {
+      "node": "someone-elses-calendar",
+      "verdict": "derived",
+      "anchors": [
+        "private diagnosis is not license for private judgment"
+      ],
+      "seen": "1184703051",
+      "moves": [
+        "look@skein",
+        "hold@skein"
+      ],
+      "guides": [
+        "watch-it-run",
+        "tend-the-between",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "outlives-the-ceremony",
+      "verdict": "derived",
+      "anchors": [
+        "A Turning is itself a Local Rule"
+      ],
+      "states": [
+        "form-becomes-rule"
+      ],
+      "seen": "fee36d269c",
+      "moves": [
+        "tend@skein"
+      ],
+      "guides": [
+        "check-the-size",
+        "make-it-worth-repeating",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "running-it-forward",
+      "verdict": "foundation",
+      "anchors": [
+        "You can find a rule that fits. You cannot run it forward.",
+        "There is no list."
+      ],
+      "states": [
+        "perspective",
+        "chance-remains"
+      ],
+      "seen": "0eb0b26137",
+      "guides": [
+        "tend-the-act",
+        "check-the-stand-in"
+      ]
+    },
+    {
+      "node": "private-turnings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "One a month"
+      ],
+      "moves": [
+        "tend@self",
+        "look@self",
+        "thin@self",
+        "plant@self"
+      ],
+      "seen": "1d31dc3439"
+    },
+    {
+      "node": "dyad-turnings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "These have no dates."
+      ],
+      "moves": [
+        "thin@dyad",
+        "look@dyad",
+        "tend@dyad"
+      ],
+      "seen": "5179f2ab00"
+    },
+    {
+      "node": "skein-gatherings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "These are not dated and they are not monthly."
+      ],
+      "moves": [
+        "thin@skein",
+        "look@skein",
+        "tend@skein",
+        "plant@skein"
+      ],
+      "seen": "fc938c4fd3"
+    },
+    {
+      "node": "great-days",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "Anchor honestly to your own place."
+      ],
+      "moves": [
+        "look@culture",
+        "thin@culture",
+        "tend@culture"
+      ],
+      "seen": "9d5d5345e8"
+    }
+  ],
+  "applications": [
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Spark",
+      "turning": "Spark Feast",
+      "move": "tend"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Tide",
+      "turning": "Low Tide",
+      "move": "tend"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mark",
+      "turning": "The Old Yardstick",
+      "move": "look"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Salve",
+      "turning": "The Patch Audit",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Nearest Light",
+      "turning": "The Second Guess",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Keepsake",
+      "turning": "The Long Read",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Easier Door",
+      "turning": "The Actual Question",
+      "move": "look"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mask",
+      "turning": "The Costume",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mirror",
+      "turning": "The Empty Room",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Namer",
+      "turning": "The Renaming",
+      "move": "tend"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Riverbed",
+      "turning": "The Rearranging",
+      "move": "plant"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Gardener",
+      "turning": "The Watering",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Escalation",
+      "turning": "The Ceasefire Dinner",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Standoff",
+      "turning": "Who Goes First",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Pairing",
+      "turning": "Trading Places",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Watering Another",
+      "turning": "The Naming of Growth",
+      "move": "tend"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Answering For",
+      "turning": "The Held Tongue",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Filling the Gap",
+      "turning": "The Checking",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Guard",
+      "turning": "The Unarmoring",
+      "move": "tend"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Reading the Room",
+      "turning": "The Weather Report",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Connection First",
+      "turning": "The Long Preamble",
+      "move": "tend"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Rising Bar",
+      "turning": "Good Enough Day",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Sliding Floor",
+      "turning": "The Original Terms",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Shared Story",
+      "turning": "The Two Tellings",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Echo",
+      "turning": "The Disagreement",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Typecasting",
+      "turning": "The Wrong Role",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Gaming the Terms",
+      "turning": "The Spirit Reading",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Naming Contest",
+      "turning": "The Shared Word",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Unbridged Gap",
+      "turning": "The Teaching",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Arrangement",
+      "turning": "The Direct Ask",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Tested Price",
+      "turning": "The First Price",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Held Silence",
+      "turning": "The Loud Table",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Transmission Drift",
+      "turning": "Round the Circle",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Faithful Chain",
+      "turning": "The Handing-On",
+      "move": "tend"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "First-Arriver Lock-In",
+      "turning": "The Newcomer's Turn",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Shared Pot",
+      "turning": "The Common Purse",
+      "move": "plant"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Reputation",
+      "turning": "The Recasting",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Settling",
+      "turning": "The High Bar",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Hall of Mirrors",
+      "turning": "The Outsider",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Second-Order Design",
+      "turning": "The Rule Game",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Inner Circle",
+      "turning": "The Plain Speech",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Only Road",
+      "turning": "The Handover",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Shared Name",
+      "turning": "The Roll Call",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Proxy Detachment",
+      "turning": "The Unmeasured Day",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Policy Resistance",
+      "turning": "The Full Stop",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Long Cycle",
+      "turning": "The Harvest Accounting",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Received World",
+      "turning": "The Why Behind",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Slow Hand",
+      "turning": "The Turning of the Year",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Independent Convergence",
+      "turning": "Fools' Truth",
+      "move": "tend"
+    }
+  ],
+  "derivedMoves": [
+    {
+      "id": "hold",
+      "name": "Hold",
+      "statement": "Tend and thin at once, so a thing stays where it is against the pull to change it.",
+      "from": [
+        "tend",
+        "thin"
+      ],
+      "note": "Not a fifth axiom, because it is made of two of the four. The ledger says the same of patterns that meet in opposite directions: they are held. Deliberately not moving is Hold, and it is work.",
+      "readings": "Steady or stuck. In a stable position, moving is what costs you; in a stalled one, not moving is what costs you.",
+      "onGround": [
+        "repetition-builds"
+      ],
+      "statedIn": [
+        {
+          "node": "bottom-up-or-nothing",
+          "anchor": "Offering it and waiting is the practice."
+        }
+      ]
+    }
+  ]
+}

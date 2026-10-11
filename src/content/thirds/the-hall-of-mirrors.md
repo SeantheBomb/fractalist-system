@@ -5,8 +5,8 @@ kinship: "skein"
 order: 38
 personifies: "The Echo and Reading the Room, sharing a person."
 blurb: "A group where everyone takes their shape from everyone else. Real responsiveness to itself, or no independent position left anywhere in it."
-tending: "The group is genuinely responsive to itself."
-fraying: "Everyone is reading the room and nobody is furnishing it."
+tending: "Each hidden doubt makes others hide theirs faster, and the group is agreeing more quickly."
+fraying: "Doubts are slipping out more often, and the group agrees less quickly."
 drawable: true
 parents: ["the-echo", "reading-the-room"]
 relatedThirds: ["the-echo", "reading-the-room"]
@@ -14,10 +14,10 @@ relatedThirds: ["the-echo", "reading-the-room"]
 
 **A fusion of [The Echo](/thirds/the-echo/) and [Reading the Room](/thirds/reading-the-room/)**, sharing a person. A figure's tier is what it's made of, not a rank it was given.
 
-**Tending.** A group genuinely responsive to itself.
+**Tending.** Each hidden doubt makes the others hide theirs faster, so the group agrees more and more quickly..
 
-**Fraying.** A group with no independent position anywhere in it.
+**Fraying.** Doubts slip out more often, so going along spreads more slowly and the group agrees less quickly..
 
-**Its Turning.** **The Outsider** — invite someone outside and let them describe what they see. What it builds: an independent position enters the room.
+**Its Turning.** Look. What it builds: an independent position enters the room.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

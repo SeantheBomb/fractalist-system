@@ -5,8 +5,8 @@ kinship: "dyad"
 order: 18
 personifies: "The Tide and The Mask, meeting in two people."
 blurb: "A boundary held between two people. It protects something real, or hardens into armor that blocks the connection it was protecting."
-tending: "The boundary is protecting something real."
-fraying: "The armor is preventing what it was protecting."
+tending: "You're both answering in kind faster. Openings draw you closer; walls push you further apart."
+fraying: "You're matching each other less, so an opening or a wall gets a weaker answer."
 drawable: true
 parents: ["the-tide", "the-mask"]
 relatedThirds: ["the-tide", "the-mask", "held-silence"]
@@ -14,10 +14,10 @@ relatedThirds: ["the-tide", "the-mask", "held-silence"]
 
 **A fusion of [The Tide](/thirds/the-tide/) and [The Mask](/thirds/the-mask/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
-**Tending.** Boundaries protecting something real.
+**Tending.** Each side answers in kind faster, so openings draw both in closer and walls push both apart more..
 
-**Fraying.** Armor preventing the connection it was protecting.
+**Fraying.** Each side matches the other less, so an opening or a wall gets a weaker answer and the gap shifts slower..
 
-**Its Turning.** **The Unarmoring** — share one thing you'd normally armor. What it builds: protection stops preventing the connection.
+**Its Turning.** Tend. What it builds: an opening gets answered with an opening.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

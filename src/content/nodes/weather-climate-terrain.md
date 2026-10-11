@@ -1,7 +1,7 @@
 ---
 title: "Weather, Climate, Terrain"
 part: "part-six"
-order: 61
+order: 62
 epigraph: "The same card, read at three speeds, answers three different questions."
 summary: "A ring tells you how many people a pattern runs through. It doesn't tell you how long it's been running — so every card gets asked a second question, at three speeds."
 related: ["the-single-pull", "the-rings", "position-speed-acceleration"]
@@ -17,8 +17,8 @@ So every card carries a second question, asked after you have placed it in its r
 
 **Terrain** is the shape underneath all of it. The pattern across every relationship you have had, not this one. Terrain moves, but on a scale where you will rarely watch it move.
 
-Escalation read as Weather is tonight's argument, and probably not worth a verdict. Escalation read as Climate is this year of the two of you, which is worth one. Escalation read as Terrain is something about how you have met conflict your whole life, which is worth a much longer conversation than a card draw.
+Escalation read as Weather is tonight's argument, and probably not worth more than a glance. Escalation read as Climate is this year of the two of you, which is worth a closer look. Escalation read as Terrain is something about how you have met conflict your whole life, which is worth a much longer conversation than a card draw.
 
-This gives the vocabulary to something Part One already claimed without naming: a loop's natural period sets the minimum window before you can tell a trend from a stage. <a class="concept-link" href="/concept/weather-climate-terrain/">Weather, Climate, and Terrain</a> are the three windows.
+This gives a working vocabulary to something Part One already claimed: a loop's natural period sets the minimum window before you can tell a trend from a stage. <a class="concept-link" href="/concept/weather-climate-terrain/">Weather, Climate, and Terrain</a> are the three windows.
 
-**One caution, and it is the most common error in reading at all:** a card drawn in distress will almost always *feel* like Terrain. Catastrophe has a way of presenting itself as permanent. Ask deliberately whether you have actually watched this long enough to call it Terrain, or whether you are looking at Weather from too close.
+**One caution, and it is the most common reading error of all:** a card drawn in distress will almost always *feel* like Terrain. Catastrophe has a way of presenting itself as permanent. Ask deliberately whether you have actually watched this long enough to call it Terrain, or whether you are looking at Weather from too close.

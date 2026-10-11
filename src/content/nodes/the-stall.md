@@ -7,9 +7,15 @@ summary: "A stall has exactly three possible causes — capacity, understanding,
 related: ["finding-your-local-rule", "the-compost-heap", "finding-your-leverage-point"]
 ---
 
+Day 5 of the onboarding asked you to name what was missing from one stuck thing, and handed you three words to choose between. This chapter is that page opened all the way — what the three are, why the fixes don't substitute, and what each one actually costs to clear.
+
+**One thing before any of it, because a stall is where this book is most likely to be turned into a weapon against the person holding it.** Agency and responsibility are different questions and they come apart constantly. That you *can* act on something does not mean the not-acting was a choice you made, and the clearest evidence is a technique this chapter reaches near its end, acting before the motivation arrives: it exists, for the conditions where it applies, because **waiting until you feel like it fails there.** If motivation reliably arrived first, nobody would have needed the technique. So the absence of motivation is not evidence of unwillingness — it is the very condition the technique was built for.
+
+The other half is worth holding just as hard: **values persist underneath long stretches of inaction.** A year of not doing the thing is not proof the thing stopped mattering to you. It is usually proof the route to it was blocked, and the route is a different object from the wanting.
+
 Sooner or later you will find yourself unable to move on something that genuinely matters to you, and the ordinary response is to assume the problem is willpower and apply more of it. That answer is almost always wrong, and it's wrong in a specific, checkable way.
 
-**A stall has exactly three possible causes, and they are not interchangeable.**
+**A stall has three usual causes, and they are not interchangeable.**
 
 **Capacity.** You don't have what it takes right now — attention, energy, money, hours, skill. Nothing is confused and nothing is unwanted. The tank is empty.
 
@@ -17,7 +23,7 @@ Sooner or later you will find yourself unable to move on something that genuinel
 
 **Want.** It isn't yours to want. You may have inherited it, agreed to it, or built an identity around it, but the wanting isn't there and no amount of arranging will install it.
 
-Three legs — and the useful property is that they are exhaustive rather than suggestive. If you can honestly rule out two, the third is what's actually wrong, whatever story you had been telling about it.
+Three causes, call them legs — and the useful property is that between them they cover nearly every stall you will meet. If you can honestly rule out two, the third is almost always what's actually wrong, whatever story you had been telling about it.
 
 **The reason this matters is that each leg has its own fix, and the fixes do not substitute for each other.** Rest does not repair not-knowing — you can sleep for a month and return to the same fog. Clarity does not repair depletion — the plan gets sharper and you still can't lift it. And neither one touches not-wanting, which is why the most common experience of being stuck is doing something reasonable, diligently, for a very long time, and watching it fail to work.
 
@@ -29,28 +35,28 @@ If some part of you is drawn to the doing — even a difficult, unglamorous part
 
 Those two feel remarkably similar from the inside, and they lead to completely different places. A wanted thing that's hard is a capacity or understanding problem and will yield to the matching fix. An owed thing will not, ever, no matter how well you rest or how clearly you plan — because the fix for an owed thing is not a better approach to it. It's an honest decision about whether to keep owing it.
 
-**Both poles, because this diagnostic has one like everything else here.** Used well, it ends months of misdirected effort in about ten minutes. Used badly, it becomes a sophisticated way to quit: every hard stretch reclassified as a want problem, every difficulty read as a sign the thing was never yours. The distinction is the one already drawn above — difficulty is not the same as absence of want, and a practice worth having will sometimes be both wanted and genuinely unpleasant on a Tuesday.
+**This diagnostic's Tending reads two ways, because it has poles like every running pattern here.** The harder it runs, the more it reclassifies, and that can be a lifeline or a snare. Used well, it ends months of misdirected effort in about ten minutes. Used badly, it becomes a sophisticated way to quit: every hard stretch reclassified as a want problem, every difficulty read as a sign the thing was never yours. The distinction is the one already drawn above — difficulty is not the same as absence of want, and a practice worth having will sometimes be both wanted and genuinely unpleasant on a Tuesday.
 
-**There is a fourth cause, and it hides inside the second, which is why it gets its own paragraph rather than its own leg.** A thing can look like a capacity problem when actually a <a class="concept-link" href="/concept/local-rule/">Local Rule</a> isn't underpowered, it's the wrong category of rule entirely.** There are shapes that a whole family of simple rules can approximate forever and never actually reach — no amount of additional repetition gets you there, because the rule you're repeating is structurally incapable of producing that result. Applied to a life: some things you're failing at are not failing for want of consistency, or leverage, or a better rung. They're failing because the kind of move you're making could never have worked, and doing more of it just spends more of you on the same impossibility.
+**There is a look-alike of the first cause that really belongs to the second, which is why it gets its own paragraph rather than its own leg.** A thing can look like a capacity problem when the <a class="concept-link" href="/concept/local-rule/">Local Rule</a> isn't underpowered at all: it's the wrong category of rule entirely. There are shapes that a whole family of simple rules can approximate forever and never actually reach — no amount of additional repetition gets you there, because the rule you're repeating is structurally incapable of producing that result. Applied to a life: some things you're failing at are not failing for want of consistency, or effort, or a better angle. They're failing because the kind of move you're making could never have worked, and doing more of it just spends more of you on the same impossibility.
 
 **Also worth asking:** name one thing you've been trying to fix by doing more of the same. Ask, honestly, whether more of it could ever have worked — or whether the situation needs a different kind of move altogether. If it's the second, stop climbing the ladder. You're on the wrong one.
 
 **And the move the want leg usually needs, which almost nobody makes while the thing is still saveable.** An owed thing can be put down. Not abandoned in failure, not left to collapse on its own — deliberately released, now, while it could still be rescued, because holding it costs more than it is worth.
 
-Go has a word for a stone given up this way on purpose: it is played *in order to be lost*, because the player has read that defending it would cost more than losing it. The move is not a concession. It is the cheapest available purchase of freedom elsewhere on the board.
+Go has a word for a stone given up this way on purpose, *sute-ishi*, the sacrifice stone: it is played *in order to be lost*, because the player has read that defending it would cost more than losing it. The move is not a concession. It is the cheapest available purchase of freedom elsewhere on the board.
 
-The <a class="concept-link" href="/concept/creative-work-as-compost/">Compost Heap</a> in an earlier chapter is about material recovered from something that already failed. This is the other case, and the harder one: choosing to let go of something that is still working, still defensible, still yours if you want it. The question that finds them: **what am I still holding only because I have already spent so much on it?**
+The <a class="concept-link" href="/concept/creative-work-as-compost/">Compost Heap</a>, in Chapter 5, is about material recovered from something that already failed. This is the other case, and the harder one: choosing to let go of something still saveable, still defensible, still yours to keep. The question that finds it: **what am I still holding only because I have already spent so much on it?**
 
 **One observation that makes the want leg easier to read honestly.** People will work extraordinarily hard at difficult, frustrating, repeatedly-failing tasks and report enjoying it — as long as the participation is genuinely theirs. The same effort, obligated, becomes work in the worn-out sense within days. Effort is not the variable. Whose it is, is.
 
 So if you are looking at something that exhausts you and you cannot tell whether that is capacity or want, this is the question that separates them: has this ever been energizing, under any conditions? Capacity problems fluctuate. An owed thing is flat in every weather.
 
-**One thing that sounds like it contradicts all of this and doesn't, and the difference between those is a usable test.**
+**One thing that sounds like it contradicts all of this and doesn't, and the reason it doesn't is a usable test.**
 
-The most reliably supported finding in the treatment of low mood is that **action comes before motivation, not after it.** Waiting to feel like it is the trap; acting first is what generates the wanting, in that order, reliably enough that entire treatments are built on the sequence.
+One of the best-supported findings in the treatment of low mood is that **action can come before motivation, not only after it.** Waiting to feel like it is the trap; acting first is what generates the wanting, in that order, reliably enough that entire treatments are built on the sequence.
 
-Set that beside the want leg above and it looks like a contradiction. It isn't, and the reason matters: action-before-motivation addresses **capacity** — the flat, heavy, nothing-is-available state where wanting has gone quiet but is still there underneath. It does not address **ownership**. An owed thing is not a thing you have temporarily stopped wanting. It is a thing you were never the one wanting.
+Set that beside the want leg above and it looks like a contradiction. It isn't, and the reason matters: action-before-motivation addresses one kind of **capacity** problem — not the empty tank that needs rest, but the flat, heavy, nothing-is-available state where wanting has gone quiet but is still there underneath. It does not address **want**, which is a question of ownership. An owed thing is not a thing you have temporarily stopped wanting. It is a thing you were never the one wanting.
 
-Which gives you the test that separates them, and it takes a week rather than a diagnosis. Act anyway, small and daily, for seven days. **If it was capacity, momentum appears** — not enthusiasm necessarily, but the thing gets slightly easier and slightly less far away. **If it was want, seven days of honest action leaves it exactly as flat as it started**, and you will notice you are still waiting for it to be over. Capacity responds to motion. Ownership doesn't.
+Which gives you the test that separates them, and it takes a week rather than a diagnosis. Act anyway, small and daily, for seven days. **If it was this kind of capacity, momentum appears** — not enthusiasm necessarily, but the thing gets slightly easier and slightly less far away. **If it was want, seven days of honest action usually leaves it about as flat as it started**, and you will notice you are still waiting for it to be over. Capacity responds to motion. Ownership doesn't.
 
 **Try this:** name one thing you've been stuck on for longer than a month. Before deciding anything about it, name which of the three is actually missing — and then name what you've been *doing* about it. If those two don't match, you've found the reason nothing has moved, and it isn't discipline.

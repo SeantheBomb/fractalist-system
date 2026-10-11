@@ -15,7 +15,7 @@ const PART_KEYS = ['', 'part-one', 'part-two', 'part-three', 'part-four', 'part-
 const INDEX_OVERRIDES = {
   'The core mantra': { slug: 'core-mantra' },
   'Reading a system — the two questions': { name: 'The two questions', slug: 'two-questions' },
-  'The four pillars, and how they generate each other': { name: 'The Four Pillars', slug: 'four-pillars' },
+  'The three pillars, and what they hold up': { name: 'The Three Pillars', slug: 'four-pillars' },
   'The Woven Self': { slug: 'woven-self' },
   'The symphysical, and emergence': [
     { name: 'The symphysical', slug: 'the-symphysical', cites: 'Pt.1 Ch.2 · Pt.4 Ch.3',
@@ -32,7 +32,7 @@ const INDEX_OVERRIDES = {
   'Two senses of "real"': { slug: 'two-senses-of-real' },
   'Constraint counting, and which unknown to decide first': { name: 'Constraint counting', slug: 'constraint-counting' },
   "The Oriental hornet's solar cycle": { slug: 'hornet-solar-cycle' },
-  'The Drake equation as a worked recursion chain': { name: 'The Drake equation', slug: 'drake-equation' },
+  'The intelligent-civilizations chain (the Drake equation) as a worked recursion chain': { name: 'The Drake equation', slug: 'drake-equation' },
   'Local Rule across scales, and resonance': [
     { name: 'Local Rule across scales', slug: 'local-rule-across-scales', cites: 'Pt.2 Ch.3',
       blurb: 'A single Local Rule projected forward, once per scale, since the same rule produces genuinely different Global Forms depending which scale you check it at, not simply "more of the same."' },
@@ -60,7 +60,7 @@ const INDEX_OVERRIDES = {
   'Not self-help, not organization-building': { name: 'Not self-help', slug: 'not-self-help' },
   'The Standing Thirds': { slug: 'standing-thirds', cites: 'Pt.5 Ch.0–6', blurb: 'Patterns given faces. Six kinships, one per scale, no exceptions.' },
   'Weaving': { slug: 'weaving', blurb: 'Reading a situation from four distances. Progressive reveal is the core technique.' },
-  'Going to Ground; conservation of mass; becoming a Third': [
+  'Going to Ground; conservation; becoming a Third': [
     { name: 'Going to Ground', slug: 'going-to-ground', cites: 'Pt.5 Ch.7' },
     { name: 'Becoming a Third', slug: 'becoming-a-third', cites: 'Pt.5 Ch.8' },
   ],
@@ -112,7 +112,7 @@ const PROPOSED_LINEAGE = {
   'the-two-pole-rule': { stemsFrom: ['standing-thirds'] },
   'weather-climate-terrain': { stemsFrom: ['weaving', 'loop-period'] },
   'the-long-visitor': { stemsFrom: ['infinite-boundary'] },
-  'the-fold-and-the-force': { stemsFrom: ['fold', 'infinite-boundary'] },
+  'the-fold-is-the-nest-seen-up-close': { stemsFrom: ['fold', 'nest'] },
   'solidity': { stemsFrom: ['the-symphysical'] },
   'open-and-closed-boundaries': { stemsFrom: ['word-vs-label', 'elegance'] },
   'atomic-composition': { stemsFrom: ['woven-self', 'leverage'] },

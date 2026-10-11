@@ -31,7 +31,7 @@ You are still not stopping it. You are proving to yourself that you can watch a 
 **Day 4 — Interrupt one, once.**
 The moment you feel swept into a loop you didn't choose — a spiral of worry, a doom-scroll, a flash of irritation — stop and take ten breaths. On the inhale, think: *this one breath.* On the exhale: *the whole of what it builds.*
 
-It works for a mechanical reason rather than a mystical one. An automatic loop runs without needing your attention, which is exactly what makes it efficient and exactly what makes it hard to catch. Loading your attention deliberately with something specific and present competes for the machinery the loop was using. You don't need a dramatic moment for this. A small one is a better teacher.
+It works for a mechanical reason rather than a mystical one. A spiral like this starts without your say-so, which is exactly what makes it hard to catch, but once it is running it feeds on your attention. Loading your attention deliberately with something specific and present competes for the machinery the loop was using. You don't need a dramatic moment for this. A small one is a better teacher.
 
 **Day 5 — Name what you're stuck on, and what's actually missing.**
 Pick one thing you've been stuck on for more than a month. Then, honestly, name which of three things is absent:
@@ -47,9 +47,11 @@ In one real conversation, notice the moment you form your read of what's going o
 
 The first answer someone gives is almost never the real one — not because people lie, but because the first answer is the one already packaged for telling. What arrives after the second *what else* was always there. It was waiting to find out whether you were.
 
-**Day 7 — Choose one thing to keep, and one question to keep asking.**
-Look back over the week and pick exactly one practice to carry forward for a month before adding anything else — the breath, the naming, the three-legged read, holding your read in a conversation. One. This is the entire method in miniature: not everything, not at once, one small rule repeated past the point where it starts building something visible.
+**Day 7 — Choose one thing to keep, and do it where someone can see.**
+Look back over the week and pick exactly one practice to carry forward for a month before adding anything else — the breath, the naming, the three-way read of a stuck thing, holding your read in a conversation. One. This is the entire method in miniature: not everything, not at once, one small rule repeated past the point where it starts building something visible.
+
+Then do today's instance of it somewhere it is visible to one other person. Not announced, not explained — just not hidden. Say the honest thing at the table rather than in your head. Ask the second *what else* where someone else is listening. This is not a social exercise tacked onto a private week. A rule repeated only in private builds exactly one thing; the same rule repeated where it can be seen becomes an input to somebody else's rule, and that is the only route any of this has to a scale larger than you. The week ends outside your own head on purpose.
 
 Then take one question with you, and this one is pointed at the book rather than at you: **did naming any of it change what you actually did?** If a pattern you identified led to exactly the action you'd have taken anyway, the name was decoration, however satisfying the recognition felt. That's worth knowing. It's information about whether this framework earns its place in your life, and you are the only one positioned to collect it.
 
-**That's the onboarding.** Everything after this point is depth on what you just sampled. The Part is arranged in order — self, then two people, then a group — because each rests on the one before it, but the order is a recommendation and not a gate. Go where your actual life is asking, and come back for the rest when it becomes relevant rather than when you feel you're supposed to.
+**That's the onboarding.** Everything after this point is depth on what you just sampled. This part is arranged in order — self, then two people, then a group — because each rests on the one before it, but the order is a recommendation and not a gate. Go where your actual life is asking, and come back for the rest when it becomes relevant rather than when you feel you're supposed to.

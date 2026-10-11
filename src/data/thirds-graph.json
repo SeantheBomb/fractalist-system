@@ -222,7 +222,7 @@
    "watering-another"
   ]
  },
- "the-sagging-floor": {
+ "the-settling": {
   "kinship": "skein",
   "parents": [
    "the-sliding-floor",
@@ -275,7 +275,7 @@
   "kinship": "culture",
   "parents": [
    "held-silence",
-   "the-sagging-floor"
+   "the-settling"
   ]
  },
  "the-long-cycle": {

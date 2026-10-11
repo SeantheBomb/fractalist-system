@@ -5,8 +5,8 @@ kinship: "dyad"
 order: 25
 personifies: "The Gardener and The Mask, meeting in two people."
 blurb: "Seeing someone as one kind of person until they become it. It can call real capability out of them, or lock them into a single role."
-tending: "Seeing them as capable until they become it."
-fraying: "Seeing them as one thing until they can't be another."
+tending: "The more they're seen one way, the more they act it, and the surer the view gets."
+fraying: "The view of them is holding less tightly, and what they do strays from it more often."
 drawable: true
 parents: ["the-gardener", "the-mask"]
 relatedThirds: ["the-gardener", "the-mask", "the-reputation"]
@@ -14,10 +14,10 @@ relatedThirds: ["the-gardener", "the-mask", "the-reputation"]
 
 **A fusion of [The Gardener](/thirds/the-gardener/) and [The Mask](/thirds/the-mask/)**, meeting in two people. A figure's tier is what it's made of, not a rank it was given.
 
-**Tending.** Seeing someone as capable until they become it.
+**Tending.** The more a person is seen one way, the more they act that way, and the surer the view gets..
 
-**Fraying.** Seeing someone as one thing until they can't be another.
+**Fraying.** The view of a person holds less tightly, and their acts stray from it more often..
 
-**Its Turning.** **The Wrong Role** — each does the thing the other is "the one who does that". What it builds: roles stay permeable.
+**Its Turning.** Thin. What it builds: roles stay permeable.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

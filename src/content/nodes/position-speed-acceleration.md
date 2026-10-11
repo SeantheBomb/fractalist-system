@@ -9,11 +9,11 @@ related: ["youve-met-this-before", "finding-your-leverage-point", "systems-theor
 
 Only ask this one if the last chapter came back yes. A thing with no feedback in it has no acceleration worth reading — nothing compounds, so where it is and where it's heading tell you everything there is. This chapter is for the other kind.
 
-You don't need a number to know something's turning. You need to ask two honest questions, one right after the other — and your own body already knows how to ask the first one, even though it's never been taught the second.
+You don't need a number to know something's turning. You need to ask where it is, which way it's moving, and whether that movement is speeding up or slowing down — and your own body already answers the last of those, even though almost nobody thinks to ask it on purpose.
 
-Think about a plane. Taking off, you feel it — pressed back into your seat, no doubt about it. Cruising at five hundred miles an hour, smooth and level, you feel nothing at all. You could be reading, asleep, unaware you're moving faster than you'll ever move again on solid ground. Your body was never built to notice speed. It was built to notice a *change* in speed — starting, stopping, speeding up, slowing down. Steady, however fast, reads as nothing.
+Think about a plane. Taking off, you feel it — pressed back into your seat, no doubt about it. Cruising at five hundred miles an hour, smooth and level, you feel nothing at all. You could be reading, asleep, unaware you're moving faster than you'll ever move on solid ground. Your body was never built to notice speed. It was built to notice a *change* in speed — starting, stopping, speeding up, slowing down. Steady, however fast, reads as nothing.
 
-This has a name worth learning properly, because the plain feeling and the formal idea are the same thing. **Position** is where something is. **Speed** is how fast that's changing. **Acceleration** is how the speed itself is changing — the thing your body actually feels, and the thing almost nobody thinks to track on purpose. Three descriptions of one motion, and they can disagree completely: a car can be far ahead of you, slowing down, about to be passed. Its position says winning. Its acceleration says losing.
+This has names worth learning properly, because the plain feeling and the formal idea are the same thing. **Position** is where something is. **Speed** is how fast that's changing. **Acceleration** is how the speed itself is changing — the thing your body actually feels. Three descriptions of one motion, and they can disagree completely: a car can be ahead of you, slowing down, about to be passed. Its position says winning. Its acceleration says losing.
 
 Everything that loops has these three orders, and there's a rough ladder of attention that goes with them.
 
@@ -23,7 +23,7 @@ More careful people look at speed. Not where I am — where I'm heading, and how
 
 Almost nobody looks at acceleration. And acceleration is where the future is actually being decided, because it's what determines whether the trend you're currently on holds, steepens, or reverses.
 
-**Here's why it's hard, and it isn't a matter of effort.** Position takes one observation. Speed takes two. Acceleration takes three, spaced far enough apart to be told apart from noise. Acceleration is, definitionally, the thing you cannot perceive from inside a single moment — which is the same claim this book keeps making about loops, arriving from a completely different direction. You feel a line. Position is what a line looks like.
+**Here's why it's hard, and it isn't a matter of effort.** Position takes one observation. Speed takes two. Acceleration takes three, spaced far enough apart for the change to stand out from noise. In anything you track rather than ride, acceleration is, definitionally, the thing you cannot read from inside a single moment — which is the same claim this book keeps making about loops, arriving from a completely different direction. You feel a line. Position is one point on it.
 
 **Now the part that matters most, and it's the reason this chapter is here at all.**
 
@@ -33,11 +33,11 @@ This is the whole book stated in physics. A daily practice is a small constant f
 
 It also explains something you will otherwise experience as failure. A change in acceleration produces almost no visible change in position for a long time. Weeks of a new practice, and the numbers look identical. That is not evidence it isn't working. That is what a second derivative looks like from inside, and mistaking the delay for failure is probably the single most common reason people abandon something that was about to work.
 
-**Acceleration is not a synonym for growth.** A reinforcing loop can compound in either direction — a habit building or a debt deepening are the same mathematics with opposite signs. And deliberately slowing something down is a legitimate, often correct goal. That's damping, not failure. Not every good force points at *more*.
+**Acceleration is not a synonym for growth.** A reinforcing loop compounds whatever it carries — a habit building and a debt deepening are the same mathematics running the same way. And deliberately slowing something down is a legitimate, often correct goal. That's damping, not failure. Not every good force points at *more*.
 
 **One more thing worth knowing before you trust any reading you take: a loop has a natural period, and you need to have watched at least one full turn of it before you can honestly tell a trend from a stage.** A habit's loop closes in a day — watch a week and you've already seen it cycle several times over, trend included. A loop closing across generations is a different matter entirely. Watch an entire human lifetime and you may have caught less than half a single turn of it, and from where you're standing, that half-turn is indistinguishable from a permanent fact about the world, rather than one phase of something that was always going to reverse eventually. A fast loop announces itself. A slow one disguises itself as the ground you're standing on, precisely because you've personally never had the chance to stand anywhere else.
 
-This is where a written record earns its place as more than a nice habit. Your own memory doesn't span a slow loop's period, and no amount of attentiveness fixes that — attention only ever covers the time you were actually there for it. A log does something memory structurally cannot: hold two points far enough apart in time to let you see the shape actually moving between them, rather than trusting a single, recent impression to stand in for the whole cycle. This is a personal, Self-scale version of exactly what a fixed record is built for — kept specifically because the pattern it's tracking outlasts what any one sitting could perceive on its own.
+This is where a written record earns its place as more than a nice habit. Your own memory doesn't span a slow loop's period, and no amount of attentiveness fixes that — attention only ever covers the time you were actually there for it. A log does something memory structurally cannot: hold two points far enough apart in time to let you see the shape actually moving between them, rather than trusting a single, recent impression to stand in for the whole cycle. This is the Self-scale case of what every written record is for: it is kept because the pattern it tracks outlasts what any one sitting could perceive.
 
 **Try this:** Before calling something a fixed truth about your life, your relationship, or your work, ask what its natural period might be if it turns out to be a loop rather than a fact. If you've only been watching for a fraction of that period, withhold the verdict — not because the trend isn't real, but because you don't yet have enough of the cycle in view to tell a trend from a stage.
 
@@ -53,9 +53,9 @@ And it's an acceleration problem exactly as this chapter describes one. The mome
 
 **The practical form is a single question, asked before agreeing to anything: what will this have to be true alongside?** Count the relationships, not the items.
 
-**One number, because a chapter that tells you to read acceleration and then offers no arithmetic is asking for faith.** Anything growing at a steady percentage doubles in roughly seventy divided by that percentage. Three percent a month doubles in about two years. Ten percent doubles in seven.
+**One number, because a chapter that tells you to read acceleration and then offers no arithmetic is asking for faith.** Anything growing at a steady percentage doubles in a number of periods roughly equal to seventy divided by that percentage. Three percent a month doubles in about two years. Ten percent a month doubles in about seven months.
 
-That single division turns *be patient, it's compounding* into a date you can hold the thing against. It is not the same instrument as the natural period a moment ago, and both are worth having: the period tells you how long before a trend is **readable** at all; doubling time tells you how long before it becomes **visible in position** — before the number on the outside finally moves. A practice can be exactly on schedule and show nothing, and now you can say roughly how long nothing should last.
+That single division turns *be patient, it's compounding* into a date you can hold the thing against. It is not the same instrument as the natural period from earlier in this chapter, and both are worth having: the period tells you how long before a trend is **readable** at all; doubling time tells you how long before it has grown enough to be **visible in position** — before the number on the outside finally moves. A practice can be exactly on schedule and show nothing, and now you can say roughly how long nothing should last.
 
 ### Knowing when to stop
 
