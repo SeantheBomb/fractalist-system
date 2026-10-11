@@ -1700,7 +1700,7 @@
       "node": "the-stall",
       "verdict": "derived",
       "anchors": [
-        "A stall has exactly three possible causes"
+        "A stall has three usual causes"
       ],
       "moves": [
         "look@self",
@@ -1826,8 +1826,7 @@
       "node": "the-fold",
       "verdict": "derived",
       "anchors": [
-        "Tracing the Fold",
-        "It is the Nest, seen up close."
+        "Tracing the Fold"
       ],
       "moves": [
         "look@self",

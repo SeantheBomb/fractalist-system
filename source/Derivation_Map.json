@@ -703,7 +703,7 @@
         "Seeding",
         "Look, plant, tend, thin."
       ],
-      "seen": "51df839923",
+      "seen": "01c5387d92",
       "moves": [
         "look@self",
         "plant@self",
@@ -722,7 +722,7 @@
         "What can you sustain",
         "once per scale"
       ],
-      "seen": "6124651fcf",
+      "seen": "e84b81e44d",
       "moves": [
         "look@self",
         "plant@self"
@@ -740,7 +740,7 @@
       "anchors": [
         "I'm having the thought that I always quit"
       ],
-      "seen": "2e94de58fa",
+      "seen": "22186d3659",
       "moves": [
         "look@self",
         "thin@self"
@@ -775,7 +775,7 @@
       "anchors": [
         "balance is not stillness"
       ],
-      "seen": "10fdf2b101",
+      "seen": "660b81510c",
       "moves": [
         "look@self",
         "plant@self",
@@ -789,9 +789,9 @@
       "node": "the-stall",
       "verdict": "derived",
       "anchors": [
-        "A stall has exactly three possible causes"
+        "A stall has three usual causes"
       ],
-      "seen": "55e5e570ad",
+      "seen": "c146103d31",
       "moves": [
         "look@self",
         "plant@self",
@@ -809,7 +809,7 @@
       "anchors": [
         "Starting is expensive. Staying is cheap."
       ],
-      "seen": "54334d425b",
+      "seen": "10d0b78849",
       "moves": [
         "look@self",
         "hold@self"
@@ -826,7 +826,7 @@
       "anchors": [
         "check one level up"
       ],
-      "seen": "60221e7af2",
+      "seen": "1daa0c19f1",
       "states": [
         "leverage"
       ],
@@ -847,7 +847,7 @@
         "small, honest local variation",
         "The Nest is gated by connection"
       ],
-      "seen": "302f515f24",
+      "seen": "d614879aab",
       "states": [
         "leverage"
       ],
@@ -872,7 +872,7 @@
         "Would I be willing to repeat exactly this, unchanged, indefinitely?",
         "It is a direction you check your acceleration against."
       ],
-      "seen": "43e9ac6ba7",
+      "seen": "c2bb90dac3",
       "states": [
         "worth-is-the-measure"
       ],
@@ -895,10 +895,9 @@
       "node": "the-fold",
       "verdict": "derived",
       "anchors": [
-        "Tracing the Fold",
-        "It is the Nest, seen up close."
+        "Tracing the Fold"
       ],
-      "seen": "af2ed2bbc2",
+      "seen": "52a58a3361",
       "moves": [
         "look@self",
         "look@skein",
@@ -915,7 +914,7 @@
       "anchors": [
         "Completeness and health are different axes"
       ],
-      "seen": "229d969142",
+      "seen": "d303b8b109",
       "moves": [
         "look@dyad",
         "hold@dyad"
@@ -935,7 +934,7 @@
         "Logic",
         "who is feeding this, and who is absorbing it?"
       ],
-      "seen": "3d61d8d142",
+      "seen": "25b42827a4",
       "moves": [
         "look@dyad",
         "plant@dyad"
@@ -967,7 +966,7 @@
       "anchors": [
         "Presence makes understanding possible."
       ],
-      "seen": "aa3925538b",
+      "seen": "282e18e466",
       "moves": [
         "look@dyad",
         "hold@dyad",
@@ -984,7 +983,7 @@
       "anchors": [
         "The skill is selection, not preference."
       ],
-      "seen": "2101aab9fb",
+      "seen": "6cb39821f1",
       "moves": [
         "look@dyad",
         "plant@dyad",
@@ -1004,7 +1003,7 @@
       "anchors": [
         "Share one loop."
       ],
-      "seen": "264e6bc589",
+      "seen": "9ed1027f21",
       "moves": [
         "look@skein",
         "plant@skein"
@@ -1022,7 +1021,7 @@
       "anchors": [
         "would this connection survive if the label disappeared tomorrow?"
       ],
-      "seen": "46e574aa82",
+      "seen": "836f6686ee",
       "moves": [
         "look@skein",
         "tend@skein",
@@ -1040,7 +1039,7 @@
       "anchors": [
         "a closed loop, not a checklist"
       ],
-      "seen": "b0f7130f48",
+      "seen": "509b0e049d",
       "moves": [
         "tend@self",
         "tend@dyad",
@@ -1075,7 +1074,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "9be488b154",
+      "seen": "e59bb9f84e",
       "guides": [
         "check-the-stand-in"
       ]
@@ -1090,7 +1089,7 @@
         "repetition-builds",
         "perspective"
       ],
-      "seen": "7f9e9f8221",
+      "seen": "6294491ffd",
       "guides": [
         "watch-it-run"
       ]
@@ -1111,7 +1110,7 @@
         "chance-remains",
         "worth-is-the-measure"
       ],
-      "seen": "8629279495",
+      "seen": "d2f28e21e9",
       "guides": []
     },
     {
@@ -1146,7 +1145,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "b36943b306",
+      "seen": "779e1c028c",
       "guides": [
         "tend-the-act",
         "watch-it-run"
@@ -1162,7 +1161,7 @@
         "repetition-builds",
         "perspective"
       ],
-      "seen": "0064b90570",
+      "seen": "66f94fe41d",
       "guides": [
         "tend-the-act",
         "watch-it-run"
@@ -1174,7 +1173,7 @@
       "anchors": [
         "whether anything in the system feeds back into itself"
       ],
-      "seen": "9343ea6695",
+      "seen": "88246d008a",
       "moves": [
         "look@self"
       ],
@@ -1189,7 +1188,7 @@
       "anchors": [
         "You never get to touch position directly."
       ],
-      "seen": "814168373f",
+      "seen": "1ef151ff0b",
       "moves": [
         "look@self",
         "hold@self"
@@ -1226,7 +1225,7 @@
         "This was built.",
         "a lifeline or a snare, and for whom"
       ],
-      "seen": "1967a121a7",
+      "seen": "be57955aa4",
       "states": [
         "worth-is-the-measure"
       ],
@@ -1263,7 +1262,7 @@
       "anchors": [
         "nine words"
       ],
-      "seen": "2e384ee166",
+      "seen": "d1906a81c1",
       "guides": [
         "check-the-stand-in"
       ]
@@ -1287,7 +1286,7 @@
       "anchors": [
         "name your scale before making a claim about a pattern"
       ],
-      "seen": "2d17e6e972",
+      "seen": "5efc6b9fc0",
       "moves": [
         "look@dyad"
       ],
@@ -1334,7 +1333,7 @@
       "anchors": [
         "The mirror exercise."
       ],
-      "seen": "bb61f826a6",
+      "seen": "7ed2e5bb39",
       "moves": [
         "look@self",
         "look@dyad",
@@ -1374,7 +1373,7 @@
         "relation-is-real",
         "chance-remains"
       ],
-      "seen": "7a9d78cb42",
+      "seen": "4a2e62785e",
       "guides": []
     },
     {
@@ -1387,7 +1386,7 @@
         "perspective",
         "repetition-builds"
       ],
-      "seen": "bb9caf193f",
+      "seen": "b41dd01f5a",
       "guides": [
         "watch-it-run",
         "check-the-stand-in",
@@ -1406,7 +1405,7 @@
         "relation-is-real",
         "form-becomes-rule"
       ],
-      "seen": "4a0b1f2de7",
+      "seen": "c171e2a12c",
       "guides": [
         "mind-what-adds-up",
         "walk-the-loop",
@@ -1423,7 +1422,7 @@
       "states": [
         "worth-is-the-measure"
       ],
-      "seen": "50ea252e0f",
+      "seen": "de5d591168",
       "guides": [
         "make-it-worth-repeating",
         "watch-it-run",
@@ -1440,7 +1439,7 @@
       "states": [
         "form-becomes-rule"
       ],
-      "seen": "4b8e4e12cb",
+      "seen": "3c1dfb2ef3",
       "guides": [
         "check-the-size",
         "check-the-stand-in",
@@ -1457,7 +1456,7 @@
         "perspective"
       ],
       "leftover": "Independent convergence as evidence is a rule about trusting sources. No mantra states it.",
-      "seen": "c222d6494d",
+      "seen": "2b6922c2dc",
       "moves": [
         "look@self",
         "thin@skein"
@@ -1475,7 +1474,7 @@
       "anchors": [
         "here is how you would know"
       ],
-      "seen": "aaf4dc1326",
+      "seen": "85b4603b53",
       "moves": [
         "look@self",
         "plant@skein"
@@ -1493,7 +1492,7 @@
       "anchors": [
         "orthographic"
       ],
-      "seen": "762bac5d79",
+      "seen": "97a3462299",
       "states": [
         "perspective"
       ],
@@ -1526,7 +1525,7 @@
       "anchors": [
         "nested rings"
       ],
-      "seen": "1ad8842af3",
+      "seen": "5b233e0268",
       "moves": [
         "look@self"
       ],
@@ -1570,7 +1569,7 @@
       "anchors": [
         "Do not treat the four rings as needing to agree"
       ],
-      "seen": "2625931a7e",
+      "seen": "67c76abf43",
       "moves": [
         "look@self",
         "look@dyad",
@@ -1589,7 +1588,7 @@
         "read upward"
       ],
       "leftover": "Rests on the composition table, which is parked. The text now allows more than one figure per pair.",
-      "seen": "506dab101f",
+      "seen": "9311d8e570",
       "moves": [
         "look@self",
         "look@dyad",
@@ -1622,7 +1621,7 @@
       "anchors": [
         "the entire difference between a practice and a tribunal"
       ],
-      "seen": "63254dd876",
+      "seen": "a9590a0cde",
       "moves": [
         "look@skein",
         "plant@skein"
@@ -1672,7 +1671,7 @@
         "Aimed.",
         "Each Turning in the tables is one move"
       ],
-      "seen": "92a0158c68",
+      "seen": "9e3308eb26",
       "moves": [
         "plant@skein",
         "tend@skein",
@@ -1710,7 +1709,7 @@
       "states": [
         "relation-is-real"
       ],
-      "seen": "881994772b",
+      "seen": "52c9a3091f",
       "moves": [
         "tend@culture",
         "hold@culture"
@@ -1726,7 +1725,7 @@
       "anchors": [
         "Anchor to whatever cadence is real"
       ],
-      "seen": "c7131e6c60",
+      "seen": "920f6a8922",
       "moves": [
         "plant@skein",
         "hold@skein"
@@ -1741,7 +1740,7 @@
       "anchors": [
         "private diagnosis is not license for private judgment"
       ],
-      "seen": "abf95e3672",
+      "seen": "1184703051",
       "moves": [
         "look@skein",
         "hold@skein"
@@ -1782,7 +1781,7 @@
         "perspective",
         "chance-remains"
       ],
-      "seen": "249eb6680a",
+      "seen": "0eb0b26137",
       "guides": [
         "tend-the-act",
         "check-the-stand-in"
@@ -1844,7 +1843,7 @@
         "thin@culture",
         "tend@culture"
       ],
-      "seen": "33131782da"
+      "seen": "9d5d5345e8"
     }
   ],
   "applications": [
