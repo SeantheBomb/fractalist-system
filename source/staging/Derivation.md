@@ -548,3 +548,70 @@ Every practice chapter was traced to the moves it is made of. Part Five and the 
 - Whether to trace per practice instead of per chapter.
 - The guides overlap the moves (Watch it run is Look). They may reduce to a short list of cautions.
 - Part Five: under this structure the figures are not theorems. They are named patterns, which is to say words in the alphabet. That changes what the catalogue is for and needs its own pass.
+
+---
+
+## J. The catalogue in the formal system (2026-10-11)
+
+**Status:** applied to the map. Part Five's text is unchanged and still parked.
+
+### Decided
+
+- **Not moving is not a fifth move.** It is Look with nothing following. Receiving and Fractal Resistance are now fully derived, so all practice chapters are.
+
+### What the Standing Thirds are
+
+Words, not theorems. A figure is a named pattern: a loop that can be written in the Loop Tongue and recognised by name. Three things follow.
+
+1. **The catalogue serves Look.** A name is how a pattern gets recognised quickly. That is its whole job.
+2. **The pole lines are not separate facts about a figure.** Tending is the loop running stronger and Fraying is it running weaker, which is exactly what the moves Tend and Thin do. The merged text already writes every pole line that way.
+3. **A practice is a move applied to a word.** That is what a theorem looks like here.
+
+### The test: the Turning tables
+
+The four Turning tables were parked with Part Five. Read as theorems, each row should be one move applied to one named pattern at that pattern's scale. All 49 rows are.
+
+| Move | Self | Dyad | Skein | Culture | All |
+|---|---|---|---|---|---|
+| Look | 4 | 6 | 3 | 4 | 17 |
+| Plant | 2 | 2 | 1 | 0 | 5 |
+| Tend | 2 | 3 | 1 | 1 | 7 |
+| Thin | 4 | 8 | 6 | 2 | 20 |
+
+The tables are now traced, and each row is recorded in the map and checked by name against the text on every build.
+
+### A correction to section I
+
+Section I said Thin is nearly absent beyond the self. That was an artifact of parking these tables. Part Seven is where the book keeps its Thin: 20 of the 49 Turnings weaken a pattern, 16 of them beyond the self. What section I found is narrower and still true: the prose chapters of Parts Two to Four rarely teach Thin with other people.
+
+### What the test shows
+
+1. **Plant is the rare move, not Thin.** Five of 49. The book has many ways to see a pattern and to loosen one, and few to start one.
+2. **Each figure has exactly one worked move.** Forty-nine words, four moves, so 196 possible practices, of which 49 exist. Seventeen figures have only a way to look at them.
+3. **The choice of move carries a judgment the pole wording leaves out.** The poles are neutral on purpose. But a Turning that thins a figure treats its strengthening as the snare, and one that tends it treats strengthening as the lifeline. Twenty figures get the first treatment and seven the second. That is worth entering through the practice, unstated.
+4. **Culture scale has no Plant at all.**
+
+### Proposed shape for a catalogue entry
+
+| Field | Content |
+|---|---|
+| Name | The word |
+| Pattern | The loop, written in the Loop Tongue |
+| How to look for it | The tell |
+| Tended | What it looks like running stronger (the current Tending line) |
+| Thinned | What it looks like running weaker (the current Fraying line) |
+| Worked moves | The Turnings, each tagged with its move |
+
+Composition (which figures join into which) stays a rule of the alphabet, with the observed leader recorded where known.
+
+### Limits
+
+- One rater. Several rows could be read two ways: The Checking is Look or Thin; The High Bar is Thin or Plant.
+- "Words, not theorems" is this session's reading. The earlier reconciliation and the registry treat figures as composed and evidenced, which this does not contradict but does not use.
+- Part Five's chapters 2 to 9 were not re-read in their merged form.
+
+### Open
+
+- Whether every figure should have all four moves, or only the ones a source supports.
+- Whether the unstated judgment in point 3 should be stated per figure.
+- The nine ranks, and how they sit under this.

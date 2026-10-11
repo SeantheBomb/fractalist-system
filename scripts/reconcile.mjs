@@ -5,7 +5,8 @@
 //   alphabet   the Loop Tongue
 //   axioms     the primitive moves
 //   rules      how a move becomes another move
-//   theorems   the practices, each traced to the moves it is made of
+//   theorems   the practices, each traced to the moves it is made of. Where a chapter is a
+//              table, each row is recorded as one move applied to one named pattern.
 // Beside it sits the ground: descriptions of the world the moves stand on (the one
 // operation, the pillars, the Standpoint), and the guides, which advise which move to make.
 //
@@ -135,6 +136,13 @@ const traces = map.traces.map((t) => {
     missingAnchors: text === null ? [] : (t.anchors ?? []).filter((a) => !text.includes(plain(a))) };
 });
 
+// Applications: one move, one named pattern, one scale. Checked by name against the text.
+const applications = (map.applications ?? []).map((a) => {
+  if (!moveIds.has(a.move) || !scales.has(a.scale)) errors.push(`application "${a.turning}" has unknown move or scale`);
+  const text = textOf(a.node);
+  return { ...a, lost: text === null || !text.includes(plain(a.turning)) || !text.includes(plain(a.figure)) };
+});
+
 const exempt = new Set(map.exempt?.nodes ?? []);
 const parkedParts = new Set(map.parked?.parts ?? []);
 const parkedSlugs = new Set(map.parked?.nodes ?? []);
@@ -153,6 +161,7 @@ const foundations = (id) => traces.filter((t) => (t.states ?? []).includes(id)).
 const axioms = map.axioms.map((a) => {
   const s = stated(a);
   return { ...s, thin: s.books < 3, nodes: usesMove(a.id),
+    applied: Object.fromEntries(map.alphabet.scales.map((sc) => [sc, applications.filter((x) => x.move === a.id && x.scale === sc).length])),
     byScale: Object.fromEntries(map.alphabet.scales.map((sc) => [sc, usesMove(a.id, sc).length])) };
 });
 const claims = map.ground.claims.map((c) => {
@@ -176,6 +185,7 @@ const report = {
   stale: traces.filter((t) => t.flags.includes('stale')).map((t) => t.node),
   drifted: traces.filter((t) => t.flags.includes('drifted')).map((t) => t.node),
   changed: traces.filter((t) => t.flags.includes('changed')).map((t) => t.node),
+  lostApplications: applications.filter((a) => a.lost).map((a) => `${a.turning} (${a.figure})`),
   unreviewed: count((t) => t.flags.includes('unreviewed')),
   unusedAxioms: axioms.filter((a) => a.nodes.length === 0).map((a) => a.id),
   thinAxioms: axioms.filter((a) => a.thin).map((a) => a.id),
@@ -194,10 +204,10 @@ if (args.has('--accept')) {
   writeFileSync(MAP_PATH, JSON.stringify(map, null, 2) + '\n');
 }
 
-const { traces: _t, axioms: _a, guides: _g, ground, ...rest } = map;
+const { traces: _t, axioms: _a, guides: _g, applications: _ap, ground, ...rest } = map;
 writeFileSync(
   join(root, 'src', 'data', 'derivation.json'),
-  JSON.stringify({ ...rest, axioms, ground: { ...ground, claims, standpoint }, guides,
+  JSON.stringify({ ...rest, axioms, ground: { ...ground, claims, standpoint }, guides, applications,
     traces: traces.map(({ now, seen, ...t }) => t), untraced, parkedNodes: parked, report }, null, 2) + '\n',
 );
 
@@ -206,9 +216,11 @@ console.log(`Derivation map vs manuscript (${map.status})`);
 console.log(`  ${report.chapters} chapters: ${report.traced} traced, ${report.untraced} untraced, ${report.parked} parked, ${report.exempt} exempt`);
 console.log(`  ${VERDICTS.filter((v) => report.verdicts[v]).map((v) => `${report.verdicts[v]} ${v}`).join(', ')}`);
 console.log(`  moves: ${axioms.map((a) => `${a.id} in ${a.nodes.length}`).join(', ')}`);
+if (applications.length) console.log(`  applied to named patterns: ${axioms.map((a) => `${a.id} ${Object.values(a.applied).reduce((x, y) => x + y, 0)}`).join(', ')}`);
 list('stale', report.stale);
 list('drifted', traces.filter((t) => t.missingAnchors.length).map((t) => `${t.node} ("${t.missingAnchors.join('", "')}")`));
 list('changed since accepted', report.changed);
+list('applications no longer in the text', report.lostApplications);
 if (report.unreviewed) console.log(`  not yet accepted: ${report.unreviewed}`);
 list('unused axioms', report.unusedAxioms);
 list('thinly sourced axioms', report.thinAxioms);
@@ -218,4 +230,4 @@ list('manuscript headings with no node', report.unmappedHeadings);
 list('nodes with no manuscript heading', report.missingChapters);
 list('errors', report.errors);
 
-if (args.has('--strict') && (errors.length || report.stale.length || report.drifted.length)) process.exit(1);
+if (args.has('--strict') && (errors.length || report.stale.length || report.drifted.length || report.lostApplications.length)) process.exit(1);

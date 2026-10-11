@@ -24,13 +24,16 @@
       "dyad",
       "skein",
       "culture"
-    ]
+    ],
+    "lexicon": {
+      "note": "The Standing Thirds are named patterns: words, not theorems. A name lets Look recognise a pattern quickly. A figure's Tending and Fraying lines are what Tend and Thin do to it. Part Five and The Deck stay parked while the catalogue is reworked."
+    }
   },
   "axioms": [
     {
       "id": "look",
       "name": "Look",
-      "statement": "See the pattern as it runs.",
+      "statement": "See the pattern as it runs. Looking and then leaving it alone is a complete move.",
       "onGround": [
         "perspective"
       ],
@@ -56,7 +59,8 @@
           "passage": 10416,
           "says": "A behavior whose trigger you cannot name will already be running before you know it."
         }
-      ]
+      ],
+      "note": "Deliberately not moving (doing nothing, accepting, \"change nothing\") is Look with nothing following, not a fifth move. Decided 2026-10-11 on the recommendation Sean approved."
     },
     {
       "id": "plant",
@@ -644,16 +648,12 @@
     ]
   },
   "parked": {
-    "reason": "The Standing Thirds are still in development (Sean, 2026-10-08). Part Five and the five tables keyed to its figures are set aside until the catalogue settles.",
+    "reason": "The Standing Thirds are still in development (Sean, 2026-10-08). Part Five and The Deck, which restates it, are set aside until the catalogue settles.",
     "parts": [
       "part-five"
     ],
     "nodes": [
-      "the-deck",
-      "private-turnings",
-      "dyad-turnings",
-      "skein-gatherings",
-      "great-days"
+      "the-deck"
     ]
   },
   "traces": [
@@ -823,8 +823,8 @@
     },
     {
       "node": "fractal-resistance",
-      "verdict": "partial",
-      "leftover": "Accepting an unreachable rung is a deliberate non-move. Variation as immunity is stated as a fact about groups, with no move attached.",
+      "verdict": "derived",
+      "leftover": "Its \"accept\" is Look followed by Thin on your own effort. Variation as immunity is carried by the plant at skein scale.",
       "anchors": [
         "small, honest local variation",
         "The Nest is gated by connection"
@@ -958,7 +958,7 @@
     },
     {
       "node": "receiving",
-      "verdict": "partial",
+      "verdict": "derived",
       "anchors": [
         "The skill is selection, not preference."
       ],
@@ -973,7 +973,7 @@
         "find-the-other-pole",
         "walk-the-loop"
       ],
-      "leftover": "Doing nothing is one of its six responses. A deliberate non-move is not one of the four moves."
+      "leftover": "Its \"doing nothing\" is Look with nothing following."
     },
     {
       "node": "group-practice",
@@ -1756,6 +1756,410 @@
         "tend-the-act",
         "check-the-stand-in"
       ]
+    },
+    {
+      "node": "private-turnings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "One a month"
+      ],
+      "moves": [
+        "tend@self",
+        "look@self",
+        "thin@self",
+        "plant@self"
+      ],
+      "seen": "4f863bf590"
+    },
+    {
+      "node": "dyad-turnings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "These have no dates."
+      ],
+      "moves": [
+        "thin@dyad",
+        "look@dyad",
+        "tend@dyad",
+        "plant@dyad"
+      ],
+      "seen": "ccef56b9ac"
+    },
+    {
+      "node": "skein-gatherings",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "These are not dated and they are not monthly."
+      ],
+      "moves": [
+        "thin@skein",
+        "look@skein",
+        "tend@skein",
+        "plant@skein"
+      ],
+      "seen": "87520e45eb"
+    },
+    {
+      "node": "great-days",
+      "guides": [],
+      "verdict": "derived",
+      "anchors": [
+        "Anchor honestly to your own place."
+      ],
+      "moves": [
+        "look@culture",
+        "thin@culture",
+        "tend@culture"
+      ],
+      "seen": "7d44411278"
+    }
+  ],
+  "applications": [
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Spark",
+      "turning": "Spark Feast",
+      "move": "tend"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Tide",
+      "turning": "Low Tide",
+      "move": "tend"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mark",
+      "turning": "The Old Yardstick",
+      "move": "look"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Salve",
+      "turning": "The Patch Audit",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Nearest Light",
+      "turning": "The Second Guess",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Keepsake",
+      "turning": "The Long Read",
+      "move": "look"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Easier Door",
+      "turning": "The Actual Question",
+      "move": "look"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mask",
+      "turning": "The Costume",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Mirror",
+      "turning": "The Empty Room",
+      "move": "thin"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Namer",
+      "turning": "The Renaming",
+      "move": "plant"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Riverbed",
+      "turning": "The Rearranging",
+      "move": "plant"
+    },
+    {
+      "node": "private-turnings",
+      "scale": "self",
+      "figure": "The Gardener",
+      "turning": "The Watering",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Escalation",
+      "turning": "The Ceasefire Dinner",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Standoff",
+      "turning": "Who Goes First",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Pairing",
+      "turning": "Trading Places",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Watering Another",
+      "turning": "The Naming of Growth",
+      "move": "tend"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Answering For",
+      "turning": "The Held Tongue",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Filling the Gap",
+      "turning": "The Checking",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Guard",
+      "turning": "The Unarmoring",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Reading the Room",
+      "turning": "The Weather Report",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Connection First",
+      "turning": "The Long Preamble",
+      "move": "tend"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Rising Bar",
+      "turning": "Good Enough Day",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Sliding Floor",
+      "turning": "The Original Terms",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Shared Story",
+      "turning": "The Two Tellings",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Echo",
+      "turning": "The Disagreement",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Typecasting",
+      "turning": "The Wrong Role",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "Gaming the Terms",
+      "turning": "The Spirit Reading",
+      "move": "look"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Naming Contest",
+      "turning": "The Shared Word",
+      "move": "plant"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Unbridged Gap",
+      "turning": "The Teaching",
+      "move": "plant"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Arrangement",
+      "turning": "The Direct Ask",
+      "move": "thin"
+    },
+    {
+      "node": "dyad-turnings",
+      "scale": "dyad",
+      "figure": "The Tested Price",
+      "turning": "The First Price",
+      "move": "tend"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Held Silence",
+      "turning": "The Loud Table",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Transmission Drift",
+      "turning": "Round the Circle",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Faithful Chain",
+      "turning": "The Handing-On",
+      "move": "tend"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "First-Arriver Lock-In",
+      "turning": "The Newcomer's Turn",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Shared Pot",
+      "turning": "The Common Purse",
+      "move": "plant"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Reputation",
+      "turning": "The Recasting",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Settling",
+      "turning": "The High Bar",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Hall of Mirrors",
+      "turning": "The Outsider",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "Second-Order Design",
+      "turning": "The Rule Game",
+      "move": "look"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Inner Circle",
+      "turning": "The Plain Speech",
+      "move": "thin"
+    },
+    {
+      "node": "skein-gatherings",
+      "scale": "skein",
+      "figure": "The Only Road",
+      "turning": "The Handover",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Shared Name",
+      "turning": "The Roll Call",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Proxy Detachment",
+      "turning": "The Unmeasured Day",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Policy Resistance",
+      "turning": "The Full Stop",
+      "move": "thin"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Long Cycle",
+      "turning": "The Harvest Accounting",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Received World",
+      "turning": "The Why Behind",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "The Slow Hand",
+      "turning": "The Turning of the Year",
+      "move": "look"
+    },
+    {
+      "node": "great-days",
+      "scale": "culture",
+      "figure": "Independent Convergence",
+      "turning": "Fools' Truth",
+      "move": "tend"
     }
   ]
 }

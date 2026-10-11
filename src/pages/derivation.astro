@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import data from '../data/derivation.json';
 
 // Written by scripts/reconcile.mjs from source/Derivation_Map.json and the manuscript.
-const { system, alphabet, axioms, rules, ground, guides, traces, untraced, parkedNodes, parked, report } = data;
+const { system, alphabet, axioms, rules, ground, guides, applications, traces, untraced, parkedNodes, parked, report } = data;
 
 const groundName = Object.fromEntries([...ground.claims, ...ground.standpoint].map((a) => [a.id, a.name]));
 const guideName = Object.fromEntries(guides.map((m) => [m.id, m.name]));
@@ -32,6 +32,7 @@ const attention = [
   ...report.stale.map((s) => `${s}: the chapter is gone`),
   ...report.drifted.map((s) => `${traceTitle[s] ?? s}: an anchor phrase is no longer in the text`),
   ...report.changed.map((s) => `${traceTitle[s] ?? s}: the text has changed since its trace was accepted`),
+  ...report.lostApplications.map((s) => `${s}: no longer in the text under that name`),
   ...report.thinAxioms.map((s) => `${moveName[s]}: sourced from fewer than three books`),
   ...report.thinGround.map((s) => `${groundName[s]}: sourced from fewer than three books`),
   ...report.unstated.map((s) => `${moveName[s] ?? groundName[s]}: not found where the map says it is stated`),
@@ -81,6 +82,32 @@ const links = (ids: string[], names: Record<string, string>) =>
         </li>
       ))}
     </ol>
+  </section>
+
+  <section class="group">
+    <h2>Moves applied to named patterns</h2>
+    <p class="note">{alphabet.lexicon.note}</p>
+    <p class="note">The Turnings are {applications.length} worked cases: each one is a single move applied to a single named pattern at its own scale.</p>
+    <table class="grid">
+      <thead><tr><th></th>{alphabet.scales.map((s) => (<th>{s}</th>))}<th>all</th></tr></thead>
+      <tbody>
+        {axioms.map((a) => (
+          <tr>
+            <th>{a.name}</th>
+            {alphabet.scales.map((s) => (<td>{a.applied[s]}</td>))}
+            <td>{Object.values(a.applied).reduce((x, y) => x + y, 0)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    {alphabet.scales.map((s) => (
+      <details>
+        <summary>At {s} scale ({applications.filter((x) => x.scale === s).length})</summary>
+        <ul class="plain">
+          {applications.filter((x) => x.scale === s).map((x) => (<li><strong>{moveName[x.move]}</strong> {x.figure}: {x.turning}</li>))}
+        </ul>
+      </details>
+    ))}
   </section>
 
   <section class="group">
@@ -237,6 +264,11 @@ const links = (ids: string[], names: Record<string, string>) =>
   .sources, .plain { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.88rem; line-height: 1.5; color: var(--muted); display: grid; gap: 0.3rem; }
   .sources em { color: var(--ink); }
   .tension { color: var(--gold); }
+  .grid { border-collapse: collapse; font-family: var(--sans); font-size: 0.86rem; margin: 0 0 0.6rem; }
+  .grid th, .grid td { padding: 0.3rem 0.9rem 0.3rem 0; text-align: right; border-bottom: 1px solid var(--line); }
+  .grid th:first-child { text-align: left; }
+  .grid thead th { color: var(--muted); font-weight: 500; text-transform: capitalize; }
+  .plain strong { color: var(--ink); font-weight: 600; }
   .traces { list-style: none; padding: 0; margin: 0; }
   .traces li { padding: 0.6rem 0; border-top: 1px solid var(--line); display: grid; gap: 0.15rem; }
   .traces li > a { font-weight: 600; text-decoration: none; }
