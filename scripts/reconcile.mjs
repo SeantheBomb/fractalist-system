@@ -76,7 +76,7 @@ const ids = (list, what) => {
 };
 const VERDICTS = ['foundation', 'alphabet', 'interpretation', 'derived', 'partial', 'orphan'];
 const PRACTICE = ['derived', 'partial', 'orphan'];
-const moveIds = ids(map.axioms, 'axiom');
+const moveIds = ids([...map.axioms, ...(map.derivedMoves ?? [])], 'move');
 const claimIds = ids(map.ground.claims, 'claim');
 const standIds = ids(map.ground.standpoint, 'standpoint');
 const groundIds = new Set([...claimIds, ...standIds]);
@@ -100,6 +100,7 @@ const stated = (a) => {
 };
 
 for (const a of map.axioms) for (const g of a.onGround ?? []) if (!groundIds.has(g)) errors.push(`axiom "${a.id}" stands on unknown ground "${g}"`);
+for (const d of map.derivedMoves ?? []) for (const f of d.from) if (!map.axioms.some((a) => a.id === f)) errors.push(`derived move "${d.id}" comes from unknown axiom "${f}"`);
 for (const r of map.rules) if (r.ground && !groundIds.has(r.ground)) errors.push(`rule "${r.id}" stands on unknown ground "${r.ground}"`);
 for (const s of map.ground.standpoint) for (const f of s.from) if (!claimIds.has(f)) errors.push(`"${s.id}" comes from unknown claim "${f}"`);
 for (const g of map.guides) for (const f of g.from) if (!groundIds.has(f)) errors.push(`guide "${g.id}" comes from unknown ground "${f}"`);
@@ -164,6 +165,8 @@ const axioms = map.axioms.map((a) => {
     applied: Object.fromEntries(map.alphabet.scales.map((sc) => [sc, applications.filter((x) => x.move === a.id && x.scale === sc).length])),
     byScale: Object.fromEntries(map.alphabet.scales.map((sc) => [sc, usesMove(a.id, sc).length])) };
 });
+const derivedMoves = (map.derivedMoves ?? []).map((a) => ({ ...stated(a), nodes: usesMove(a.id),
+  byScale: Object.fromEntries(map.alphabet.scales.map((sc) => [sc, usesMove(a.id, sc).length])) }));
 const claims = map.ground.claims.map((c) => {
   const s = stated(c);
   return { ...s, thin: s.books < 3, foundations: foundations(c.id),
@@ -190,7 +193,7 @@ const report = {
   unusedAxioms: axioms.filter((a) => a.nodes.length === 0).map((a) => a.id),
   thinAxioms: axioms.filter((a) => a.thin).map((a) => a.id),
   thinGround: claims.filter((c) => c.thin).map((c) => c.id),
-  unstated: [...axioms, ...claims, ...standpoint].filter((a) => a.unstated.length > 0).map((a) => a.id),
+  unstated: [...axioms, ...derivedMoves, ...claims, ...standpoint].filter((a) => a.unstated.length > 0).map((a) => a.id),
   unmappedHeadings: unmapped,
   missingChapters: missing,
   errors,
@@ -204,10 +207,10 @@ if (args.has('--accept')) {
   writeFileSync(MAP_PATH, JSON.stringify(map, null, 2) + '\n');
 }
 
-const { traces: _t, axioms: _a, guides: _g, applications: _ap, ground, ...rest } = map;
+const { traces: _t, axioms: _a, derivedMoves: _d, guides: _g, applications: _ap, ground, ...rest } = map;
 writeFileSync(
   join(root, 'src', 'data', 'derivation.json'),
-  JSON.stringify({ ...rest, axioms, ground: { ...ground, claims, standpoint }, guides, applications,
+  JSON.stringify({ ...rest, axioms, derivedMoves, ground: { ...ground, claims, standpoint }, guides, applications,
     traces: traces.map(({ now, seen, ...t }) => t), untraced, parkedNodes: parked, report }, null, 2) + '\n',
 );
 
@@ -215,7 +218,7 @@ const list = (label, xs) => { if (xs.length) console.log(`  ${label}: ${xs.join(
 console.log(`Derivation map vs manuscript (${map.status})`);
 console.log(`  ${report.chapters} chapters: ${report.traced} traced, ${report.untraced} untraced, ${report.parked} parked, ${report.exempt} exempt`);
 console.log(`  ${VERDICTS.filter((v) => report.verdicts[v]).map((v) => `${report.verdicts[v]} ${v}`).join(', ')}`);
-console.log(`  moves: ${axioms.map((a) => `${a.id} in ${a.nodes.length}`).join(', ')}`);
+console.log(`  moves: ${[...axioms, ...derivedMoves].map((a) => `${a.id} in ${a.nodes.length}`).join(', ')}`);
 if (applications.length) console.log(`  applied to named patterns: ${axioms.map((a) => `${a.id} ${Object.values(a.applied).reduce((x, y) => x + y, 0)}`).join(', ')}`);
 list('stale', report.stale);
 list('drifted', traces.filter((t) => t.missingAnchors.length).map((t) => `${t.node} ("${t.missingAnchors.join('", "')}")`));

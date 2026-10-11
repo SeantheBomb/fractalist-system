@@ -15,7 +15,7 @@ const PART_KEYS = ['', 'part-one', 'part-two', 'part-three', 'part-four', 'part-
 const INDEX_OVERRIDES = {
   'The core mantra': { slug: 'core-mantra' },
   'Reading a system — the two questions': { name: 'The two questions', slug: 'two-questions' },
-  'The four pillars, and how they generate each other': { name: 'The Four Pillars', slug: 'four-pillars' },
+  'The three pillars, and what they hold up': { name: 'The Three Pillars', slug: 'four-pillars' },
   'The Woven Self': { slug: 'woven-self' },
   'The symphysical, and emergence': [
     { name: 'The symphysical', slug: 'the-symphysical', cites: 'Pt.1 Ch.2 · Pt.4 Ch.3',

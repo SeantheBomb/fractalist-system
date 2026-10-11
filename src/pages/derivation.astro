@@ -3,11 +3,11 @@ import Base from '../layouts/Base.astro';
 import data from '../data/derivation.json';
 
 // Written by scripts/reconcile.mjs from source/Derivation_Map.json and the manuscript.
-const { system, alphabet, axioms, rules, ground, guides, applications, traces, untraced, parkedNodes, parked, report } = data;
+const { system, alphabet, axioms, derivedMoves, rules, ground, guides, applications, traces, untraced, parkedNodes, parked, report } = data;
 
 const groundName = Object.fromEntries([...ground.claims, ...ground.standpoint].map((a) => [a.id, a.name]));
 const guideName = Object.fromEntries(guides.map((m) => [m.id, m.name]));
-const moveName = Object.fromEntries(axioms.map((a) => [a.id, a.name]));
+const moveName = Object.fromEntries([...axioms, ...derivedMoves].map((a) => [a.id, a.name]));
 const nameOf: Record<string, string> = { ...groundName, ...guideName };
 const traceTitle = Object.fromEntries(traces.map((t) => [t.node, t.title]));
 const partLabel = (p: string | null) =>
@@ -82,6 +82,23 @@ const links = (ids: string[], names: Record<string, string>) =>
         </li>
       ))}
     </ol>
+    {derivedMoves.map((d) => (
+      <>
+        <h3 class="level">The first theorem</h3>
+        <ul class="cards">
+          <li id={d.id}>
+            <h3>{d.name}</h3>
+            <p>{d.statement}</p>
+            <p class="meta">Made of: {d.from.map((f, i) => (<>{i > 0 && ' and '}<a href={`#${f}`}>{moveName[f]}</a></>))}. {d.note}</p>
+            <p class="meta">Two readings: {d.readings}</p>
+            <p class="meta">
+              Used in {d.nodes.length} of {practices.length} practices
+              ({alphabet.scales.filter((s) => d.byScale[s] > 0).map((s) => `${d.byScale[s]} at ${s}`).join(', ')})
+            </p>
+          </li>
+        </ul>
+      </>
+    ))}
   </section>
 
   <section class="group">
@@ -168,6 +185,9 @@ const links = (ids: string[], names: Record<string, string>) =>
         </li>
       ))}
     </ul>
+
+    <h3 class="level">What the pillars leave open</h3>
+    <p class="note">{ground.open.note}</p>
 
     <h3 class="level">Direction</h3>
     <p class="note">

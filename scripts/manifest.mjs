@@ -101,9 +101,9 @@ export const NODES = [
     related: ['the-woven-self', 'four-pillars', 'daily-practices', 'psychology-woven-self'],
   },
   {
-    heading: '4. The Four Pillars',
+    heading: '4. The Three Pillars',
     slug: 'four-pillars',
-    title: 'The Four Pillars',
+    title: 'The Three Pillars',
     part: 'part-one',
     summary: 'The whole framework in four moves: the Loop, the Third Thing, the Nest, and the Leverage — with the self\'s own chapter next, as the clearest example of pillar II.',
     related: ['the-woven-self', 'onboarding', 'youve-met-this-before', 'quick-reference'],

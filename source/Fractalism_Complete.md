@@ -16,7 +16,7 @@
 - 1. What You Already Know
 - 2. The Third Thing
 - 3. The Loop Runs You Right Now
-- 4. The Four Pillars
+- 4. The Three Pillars
 - 5. Bottom-Up or Nothing
 - 6. You've Met This Before
 - 7. The Woven Self
@@ -307,11 +307,11 @@ Hold onto one sentence from here forward, because it's easy to lose and worth th
 
 ---
 
-## 4. The Four Pillars
+## 4. The Three Pillars
 
 *"Behind every system of action is a system of beliefs."*
 
-Everything above compresses into four pillars. You'll see all four again, expanded, throughout the book — treat this as the map, not the territory.
+Everything above compresses into three pillars, and into what those three hold up. You'll see all of it again, expanded, throughout the book — treat this as the map, not the territory.
 
 **I. The Loop.** *Small things, repeated without a master plan, build large things.* This is the engine. Nothing skips this step. Every fern, every habit, every empire got built this way. There is no shortcut where something large arrives without first being something small, repeated.
 
@@ -323,13 +323,17 @@ Everything above compresses into four pillars. You'll see all four again, expand
 
 Read only upward, this pillar says you build the world. Read both ways, it says something truer and less flattering: you are building a world that is simultaneously building you, and neither direction waits for the other. Everything in this book that sounds like it puts you in charge should be read against that, and several things later on only make sense once it has been said.
 
-**IV. The Leverage.** *Not all effort is equal, and finding where a small push produces a large effect is a real, learnable skill.* If the Loop and the Third Thing were the whole story, you'd be a passenger — patterns forming around and inside you with no meaningful say in the matter. They aren't the whole story. Some places inside a system move everything downstream of them; most places move almost nothing, no matter how hard you push there. Learning to tell the difference, and to act on what you find, is where belief turns into a practice you can start today — and it's where Part Two of this book will spend most of its time.
+These are not three separate claims sitting in a list. They are one operation seen three times: **a loop that holds becomes a part.** Something repeats — the Loop. Repetition alone would only ever produce more of the same thing, so the Third Thing is the claim that it doesn't: what holds acts as one thing that was never in the parts. And a thing has to exist somewhere, at some size, where it becomes an ingredient for whatever sits above it — the Nest, the same operation running again one scale up.
 
-These are not four separate claims sitting in a list. They generate each other, in order, and it's worth seeing the chain once before you go further.
+**What three pillars hold up is a place to stand.** Everything so far is true with nobody in it. Put a person on that floor, at one spot, and two more things appear that belong to neither the person nor the pattern alone. Call the pair the **Standpoint**.
 
-The Loop is the engine: something repeats. Repetition alone would only ever produce more of the same thing — so the Third Thing is the claim that it doesn't, that something appears which was never in the parts. But a Third Thing has to exist somewhere, at some size, and the moment it does it becomes an ingredient for whatever sits above it: that's the Nest, the same operation running again one scale up. And once you have scales nested inside each other, some places in the stack necessarily move more than others, because a change near the root reaches every leaf and a change at a leaf reaches only what it touches. That's Leverage — not an additional fact about the world, but what the first three pillars make unavoidable.
+**Leverage is your reach.** *Not all effort is equal, and finding where a small push produces a large effect is a real, learnable skill.* Once scales nest, some places in the stack move more than others, because a change near the root reaches every leaf and a change at a leaf reaches only what it touches. Without this you'd be a passenger — patterns forming around and inside you with no meaningful say in the matter. Learning where a push lands, from where you actually stand, is where belief turns into a practice you can start today, and it's where Part Two will spend most of its time.
 
-Four claims, each one falling out of the one before it. That's not a coincidence in how they were chosen. It's the point.
+**Perspective is your view.** *Every view is taken from one position inside the pattern.* A part touches only what is near it, and a whole has properties no part contains, so no part ever holds the whole it belongs to — the last chapter's sentence, arriving from the other side: you feel a line. It is why finding leverage is a skill and not something you could look up, and why so much of this book is a way of getting a second position: a written record, a second telling, another person's honest read. Depth is what two views make together, and it is in neither one.
+
+Neither is a fourth pillar. They are what the three make unavoidable for anyone standing inside them, and they are the two directions of one loop between you and the pattern: it arrives at you as what you can see, and you go out into it as what you can move. The two do not match — your reach runs further than your view — and that mismatch is the Core Line, stated as a fact about where you stand.
+
+**Two things the pillars do not supply, named now so nobody goes looking for them in the wrong place.** They hold up a floor, not a roof, and they do not point anywhere. Nothing in them says which of the things that can happen will: that is **chance**, and the origin story later in this Part gives it an iteration of its own. And nothing in them says what any of it is for: that is **worth**, the one thing here you supply and do not find. The world brings the first. You bring the second.
 
 ---
 
@@ -337,7 +341,7 @@ Four claims, each one falling out of the one before it. That's not a coincidence
 
 *"A rule that has to be enforced from above was never a Local Rule."*
 
-The four pillars describe how things get built. This chapter is about the one thing that cannot be built this way, and it is here rather than at the end because a limit you meet after four hundred pages is a limit you have already had time to misuse.
+The three pillars describe how things get built. This chapter is about the one thing that cannot be built this way, and it is here rather than at the end because a limit you meet after four hundred pages is a limit you have already had time to misuse.
 
 **One thing to get out of the way first, because the title invites a misreading the chapter does not intend.** This is about *governance* — who is allowed to tell you what your own patterns mean. It is not a claim about which direction causes run. Causes run both ways, as the Nest has just finished saying, and nothing here revises that. A rule genuinely can be imposed on you from above and shape your day completely. The claim is narrower and only about authority: no one gets to hand you the reading.
 
@@ -353,7 +357,7 @@ So there is no authority here, and this is structural rather than modest. Three 
 
 There is a mechanism underneath this rather than a preference. Remove voluntary participation from a game and it does not become a worse game; it becomes work. The rules are identical, the goal is identical, the feedback is identical, and the thing has changed category. Exactly the same conversion happens to a practice.
 
-**You are the captain of your own ship.** This is the fourth pillar turned around and pointed at the book itself. If leverage is real, it is yours, including the leverage to decide this framework is wrong, or finished, or not for you. A reader who takes nothing from here but a sharper sense of where their own leverage sits has used the book correctly.
+**You are the captain of your own ship.** This is Leverage turned around and pointed at the book itself. If leverage is real, it is yours, including the leverage to decide this framework is wrong, or finished, or not for you. A reader who takes nothing from here but a sharper sense of where their own leverage sits has used the book correctly.
 
 **One thing to protect, and one to refuse, because they are easy to confuse.**
 
@@ -369,11 +373,11 @@ To refuse: *you are X, therefore you must Y.* Naming a pattern accurately create
 
 *"Your focus determines your reality."* — Qui-Gon Jinn, *Star Wars: Episode I – The Phantom Menace*
 
-You have just been handed four claims. Before doing anything with them, it's worth checking whether they describe anything you already recognize — because a framework that only works inside its own vocabulary is not describing the world, it is describing itself.
+You have just been handed three pillars and a place to stand. Before doing anything with them, it's worth checking whether they describe anything you already recognize — because a framework that only works inside its own vocabulary is not describing the world, it is describing itself.
 
-**Nothing in this book is derived from the five characters below.** They aren't sources, they aren't authorities, and no part of the framework rests on them. The pillars came from the mathematics and the systems work in Part Four, and they would stand unchanged if every one of these stories vanished. What the characters offer is a different kind of check: these are patterns that writers with no interest in emergence, iteration, or feedback arrived at anyway, because the patterns were already there in how people actually change. If the four pillars are real, they should already be visible in stories written by people who never heard of them — and they are.
+**Nothing in this book is derived from the five characters below.** They aren't sources, they aren't authorities, and no part of the framework rests on them. The pillars came from the mathematics and the systems work in Part Four, and they would stand unchanged if every one of these stories vanished. What the characters offer is a different kind of check: these are patterns that writers with no interest in emergence, iteration, or feedback arrived at anyway, because the patterns were already there in how people actually change. If the pillars are real, they should already be visible in stories written by people who never heard of them — and they are.
 
-So read these as recognition rather than evidence. Five characters, one pillar each, and the last one carrying all four.
+So read these as recognition rather than evidence. Five characters: one for each pillar, one for the Standpoint, and the last carrying all of it.
 
 **Steven, from *Steven Universe*.** Steven's world runs on *fusion* — two beings choosing to combine, again and again, into something genuinely neither of them, with its own personality, its own voice, its own needs. The show never plays fusion as a special effect. It plays it as the most honest depiction available of what any close relationship actually is: not two people standing near each other, but a third thing that exists only in the repeated choice to stay combined, capable of being unstable, joyful, or damaging depending on whether the individuals inside it are being honest with each other. Steven's whole arc is the discovery that he can't fix people by force, only by repeatedly, patiently *seeing* them — extending the same small act of empathy over and over, to people convinced for centuries they're unlovable, until something in them actually shifts. He never delivers one grand speech that fixes a person. He shows up, and shows up again, and the change is what accumulates. *The pillar he embodies: the Third Thing. The practice: Seeding — every small, repeated act of being seen is a word planted in someone else's field.*
 
@@ -381,9 +385,9 @@ So read these as recognition rather than evidence. Five characters, one pillar e
 
 **Kipo, from *Kipo and the Age of Wonderbeasts*.** Kipo spends her entire story discovering that the identity she thought was fixed — "girl from the burrow" — was always a small, provisional layer over a much larger nested self she didn't know she had. Instead of playing this as a betrayal ("who I really am was hidden from me"), the show plays it as expansion: she keeps being exactly as much herself as before, just at a bigger scale, with more of the pattern visible. What makes her a clean example isn't the biological twist, it's her method — she never conquers anything by force. She makes friends with it, repeatedly, patiently, including things everyone around her has already decided are simply enemies by category. Her optimism isn't naivety; it's a working hypothesis about how systems actually change, applied consistently even when it fails. *The pillar she embodies: the Nest — the same self, expanding to a larger scale without ever betraying the smaller one it grew from. The practice: the Local Step / Global Form breath — handle what's directly in front of you with curiosity instead of panic, and trust that doing this consistently builds something larger than you can currently see.*
 
-**Qui-Gon Jinn.** Qui-Gon's defining teaching is presence — his insistence that focus should stay rooted in "here" and "now," not in fear of loss or hunger for a particular future outcome. His belief that meaning is present in every small thing, not concentrated only in grand events, is a version of the claim that the Third Thing is real at every scale, not just the impressive ones. And his defiance of a rigid, credential-based council, in order to trust one small, unlikely local signal — a child on a backwater planet no one else thought to look at twice — is a leverage judgment made in miniature: recognizing that the highest-leverage point in the entire situation was the one thing an official verdict had already dismissed as beneath consideration. *The pillar he embodies: the Leverage — acting on a small signal the official process had already dismissed without examining. Worth noting honestly that the story is what vindicates him; his method is a real one, and the same conviction, applied to a signal that turned out to be noise, is how leverage judgments fail. A story gets to confirm its protagonist. You don't.*
+**Qui-Gon Jinn.** Qui-Gon's defining teaching is presence — his insistence that focus should stay rooted in "here" and "now," not in fear of loss or hunger for a particular future outcome. His belief that meaning is present in every small thing, not concentrated only in grand events, is a version of the claim that the Third Thing is real at every scale, not just the impressive ones. And his defiance of a rigid, credential-based council, in order to trust one small, unlikely local signal — a child on a backwater planet no one else thought to look at twice — is a leverage judgment made in miniature: recognizing that the highest-leverage point in the entire situation was the one thing an official verdict had already dismissed as beneath consideration. *What he embodies: the Standpoint. Presence is Perspective kept honest — attention on what can actually be seen from here. And acting on a small signal the official process had already dismissed without examining is Leverage. Worth noting honestly that the story is what vindicates him; his method is a real one, and the same conviction, applied to a signal that turned out to be noise, is how leverage judgments fail. A story gets to confirm its protagonist. You don't.*
 
-**Uncle Iroh.** Iroh is what all four pillars look like once they've been lived long enough to stop sounding like theory. He doesn't lecture his nephew into changing; he stays present, repeats small acts of unconditional patience across years of rejection, and lets the pattern do what a single confrontation never could. His grief over his own son is never "resolved" by one epiphany — he tends it daily, visibly, the same way he tends his tea, and the story treats those two disciplines as the same discipline. His most repeated teaching is that failure is not the opposite of honor but often the beginning of it — that a person's worth isn't measured by a single outcome but by what they choose to repeat afterward. That is the Loop, stated as a mercy instead of a mechanism. And his patience with a nephew who spent years actively resisting him, inside a rigid, honor-bound hierarchy that punished the exact gentleness he practiced, is Fractal Resistance lived for a decade instead of performed for a scene. *The pillar he embodies: all four, integrated — which is really the point. His tea ceremony is the Local Step / Global Form breath, aged into a daily ritual instead of a technique.*
+**Uncle Iroh.** Iroh is what the pillars and the Standpoint look like once they've been lived long enough to stop sounding like theory. He doesn't lecture his nephew into changing; he stays present, repeats small acts of unconditional patience across years of rejection, and lets the pattern do what a single confrontation never could. His grief over his own son is never "resolved" by one epiphany — he tends it daily, visibly, the same way he tends his tea, and the story treats those two disciplines as the same discipline. His most repeated teaching is that failure is not the opposite of honor but often the beginning of it — that a person's worth isn't measured by a single outcome but by what they choose to repeat afterward. That is the Loop, stated as a mercy instead of a mechanism. And his patience with a nephew who spent years actively resisting him, inside a rigid, honor-bound hierarchy that punished the exact gentleness he practiced, is Fractal Resistance lived for a decade instead of performed for a scene. *What he embodies: all of it, integrated — which is really the point. His tea ceremony is the Local Step / Global Form breath, aged into a daily ritual instead of a technique.*
 
 None of these figures cite a source. None of them use the words *emergence*, *iteration*, or *loop*. That's the actual point. They arrived at the same conclusion this book is making from a completely different direction, because the pattern was already there to be found, in story, long before it had a name. If you finished any of these stories wanting to *be better*, without being able to name the exact technique the character used — this book is largely an attempt to name it. Small, chosen, repeated, mostly invisible acts, applied consistently long enough that they stop looking small.
 
@@ -399,7 +403,7 @@ Every Third Thing so far has been visible from outside. You can stand next to a 
 
 So the self is not merely *like* the other examples. It is the hardest possible case of the same claim, and the difficulty is structural rather than emotional: the one instrument available for examining the pattern is the pattern. **The self is a Third Thing whose parts are less obvious than two people standing near each other** — what combines is every past instant of noticing, remembering, and revising, repeated across a nested stack of scales — which is pillar III, the Nest, showing up again here rather than staying confined to groups. You are not a single, bounded thing sitting at the center of your own life. You are what a very long, very fast Loop looks like once it's been running long enough to feel like an identity instead of a process.
 
-This has a specific, practical consequence, worth being direct about before the feeling of loss has a chance to set in: a thing that was built by repetition can be rebuilt by repetition. If you were only ever a fixed essence, you'd be stuck with whatever you were handed. Because you are a pattern, you have leverage over yourself — pillar IV, right on schedule — that a fixed thing never could. This is the actual mechanical reason Naming and Defusing works at all in Part Two, and it's why Part Four returns to this same claim with the research to back it: the experiencing self and the remembering self are genuinely different systems, assembled substantially from outside material, with no single unified narrator running the show from a fixed interior point. None of that is a loss. It's the opening move of the entire practice.
+This has a specific, practical consequence, worth being direct about before the feeling of loss has a chance to set in: a thing that was built by repetition can be rebuilt by repetition. If you were only ever a fixed essence, you'd be stuck with whatever you were handed. Because you are a pattern, you have leverage over yourself — the Standpoint, right on schedule — that a fixed thing never could. This is the actual mechanical reason Naming and Defusing works at all in Part Two, and it's why Part Four returns to this same claim with the research to back it: the experiencing self and the remembering self are genuinely different systems, assembled substantially from outside material, with no single unified narrator running the show from a fixed interior point. None of that is a loss. It's the opening move of the entire practice.
 
 One thing worth saying plainly, because it applies to this chapter more than to anything else in the book: even this description is a compression. "The Woven Self" is a Loop-name for an actual, uncompressed tree of every instant you've ever lived, each one slightly different from the last. You'll meet this exact idea again, formally, once the Loop Tongue introduces the word Tree in Part Three — and it will be worth circling back here, because the self is the one tree nobody has ever seen unrolled, including you.
 
@@ -613,6 +617,8 @@ Part One made a claim: the world, including you, is built by small repeated acts
 Nothing here requires you to have fully resolved what you think about the Third Thing, or whether you buy every step of the Genesis story, or whether the self is "really" just a pattern. Belief, in Fractalism, is meant to be tested by practicing first and settling your opinions after, not the other way around. So: start here, whether or not you're sure yet. The certainty, if it comes, will come from doing this, not from thinking about doing this.
 
 This part is organized around a claim that only becomes obvious once you're inside it: **a sustainable, fulfilling practice can't stay at one scale.** A Local Rule that only ever touches you, alone, tends to calcify into self-improvement for its own sake. A relationship practice with no grounding in your own patterns tends to burn out the person doing all the giving. A community with no individuals actually practicing anything real is just a Banner. So Part Two moves through three scales in order — **Self, Dyad, Skein** — each building on what came before it, closing on a chapter that treats them as one nested loop rather than three separate projects.
+
+**And everything in it is made of four moves.** *Look*: see a pattern while it runs. *Plant*: start a small act you mean to repeat. *Tend*: strengthen a loop that is running. *Thin*: weaken one, or let it go. That is every change that can be made to a loop — read it, begin one, raise it, lower it — and three rules turn four moves into a book: look comes first; any move can be made at any scale; and a move made with another person is made by the thing the two of you are. One more is worth naming, because so much of this part leans on it, though it is not a fifth. **Hold** is tending and thinning at once, so that a thing stays where it is against the pull to change it. Holding your read, sitting through a pause, staying with a practice that has stopped showing results: all of it is work, and none of it is doing nothing.
 
 ---
 
@@ -1882,7 +1888,7 @@ The leverage-point ladder from Part Two is a specific, ordered list of where wit
 
 **This cascade has a proper name, and it's worth being precise about it: a Tree, not just a ladder.** A tree is what you get any time one root rule produces many distinct downstream results, each one shaped by the root but also by whatever local condition it happens to meet — a different symptom, a different department, a different day. The leverage-point structure is exactly this: paradigm is the root, everything below it a leaf shaped by that root meeting a specific circumstance. This is also, not coincidentally, the same underlying relationship the mathematics in Chapter 1 already described — a fixed rule, repeated, meeting a different local condition each time and producing a genuinely different result while still being recognizably the same rule underneath. A root cause is called a root for the identical reason a mathematical root generates a whole family of related curves: the root shapes what grows from it without being fully determined by any single thing that does.
 
-**There's a second recursion worth making explicit here, distinct from the tree just described, and it's the mechanical version of the claim Part One's Four Pillars stated plainly: a Global Form at one scale is a Local Rule at the next.** This isn't a leverage-ladder fact — it's a scale fact, and it's what actually makes this whole framework fractal rather than merely layered. A stock at Self scale (a habit, fully compounded) becomes a flow into a Dyad-scale stock (trust, built partly from that habit showing up reliably). A Dyad's accumulated stock becomes a flow into a Skein's — and a Skein's stock of shared practice becomes one flow among many into whatever Culture-scale stock sits above it. The reason a leverage-point intervention at one scale can sometimes ripple upward in ways this book hasn't fully mapped is exactly this: the leverage ladder was never confined to a single scale in the first place. Each scale's Global Form is quietly serving as Local Rule for the scale above it, whether or not anyone tending it at the lower scale ever notices the higher one receiving it.
+**There's a second recursion worth making explicit here, distinct from the tree just described, and it's the mechanical version of the claim Part One's third pillar stated plainly: a Global Form at one scale is a Local Rule at the next.** This isn't a leverage-ladder fact — it's a scale fact, and it's what actually makes this whole framework fractal rather than merely layered. A stock at Self scale (a habit, fully compounded) becomes a flow into a Dyad-scale stock (trust, built partly from that habit showing up reliably). A Dyad's accumulated stock becomes a flow into a Skein's — and a Skein's stock of shared practice becomes one flow among many into whatever Culture-scale stock sits above it. The reason a leverage-point intervention at one scale can sometimes ripple upward in ways this book hasn't fully mapped is exactly this: the leverage ladder was never confined to a single scale in the first place. Each scale's Global Form is quietly serving as Local Rule for the scale above it, whether or not anyone tending it at the lower scale ever notices the higher one receiving it.
 
 **And the same recursion runs downward, which the stock-and-flow picture makes unusually concrete.** A Culture-scale stock — an accumulated norm, an inherited expectation, a distribution of who holds what — is a flow into the Skeins beneath it, which are flows into Dyads, which are flows into a person's day. Nobody at the lower scale consented to that inflow and mostly nobody can see it, and it arrives at the same rate whether or not it is noticed. Which means a Local Rule you find in yourself has two possible origins and the diagnosis matters: one you built by repetition, and one that was delivered. They feel identical from inside, they answer to different interventions, and the second is the more common of the two.
 
@@ -1976,7 +1982,7 @@ The history of the atom is as clean a demonstration of this as exists. In 1913, 
 
 This is the same test Scale-Tagging already runs, arrived at from a different direction, and it's worth stating the unification plainly: **naming the right scale and choosing the right model boundary are the same act.** A closed boundary that correctly predicts what a given scale actually needs is a Word, however false its insides. The identical boundary, kept unopened at a scale that genuinely needed what was inside it, is a Label — not because anything about the boundary changed, but because it kept being relied on past the one place it was ever entitled to be relied on.
 
-**A distinction from one contemporary wisdom tradition is worth borrowing here, because it names the exact tension this chapter is trying to hold.** One tradition describes life as a living force that manifests itself through two intertwined aspects: a structured, nameable, ordered layer — everything you can point to, describe, and organize into categories — and a formless, living layer underneath it that the structured layer can only ever partially capture. Held next to the Genesis chapter's own claim — that the universe simply exists, indifferent, and meaning is what the noticing self reads into the pattern rather than something the pattern hands down — this is close to the same distinction wearing older language. The Four Pillars, the Seven Iterations, the Loop Tongue's vocabulary: all of this is the structured layer, the nameable categories laid over something that was never going to fit inside them perfectly. That's not a flaw in the structured layer. It's what a structured layer is *for* — not to replace the formless reality underneath it, but to give a noticing self enough purchase on it to actually live inside it and act. The mistake this chapter is trying to help you avoid is mistaking the categories for the whole of what they're describing — treating the map as though it had replaced the territory, rather than as a genuinely useful, genuinely partial tool for moving through territory too vast and formless to hold directly.
+**A distinction from one contemporary wisdom tradition is worth borrowing here, because it names the exact tension this chapter is trying to hold.** One tradition describes life as a living force that manifests itself through two intertwined aspects: a structured, nameable, ordered layer — everything you can point to, describe, and organize into categories — and a formless, living layer underneath it that the structured layer can only ever partially capture. Held next to the Genesis chapter's own claim — that the universe simply exists, indifferent, and meaning is what the noticing self reads into the pattern rather than something the pattern hands down — this is close to the same distinction wearing older language. The three pillars, the Seven Iterations, the Loop Tongue's vocabulary: all of this is the structured layer, the nameable categories laid over something that was never going to fit inside them perfectly. That's not a flaw in the structured layer. It's what a structured layer is *for* — not to replace the formless reality underneath it, but to give a noticing self enough purchase on it to actually live inside it and act. The mistake this chapter is trying to help you avoid is mistaking the categories for the whole of what they're describing — treating the map as though it had replaced the territory, rather than as a genuinely useful, genuinely partial tool for moving through territory too vast and formless to hold directly.
 
 **This chapter has explained how a belief travels. It has not explained why anyone reaches out and takes one, which is the other half of the same transaction.**
 
@@ -2060,7 +2066,7 @@ What the book does have is an answer to the thing people are usually worried abo
 
 That makes fatalism a claim which can never be checked, never be operated on, and never make contact with anything you might do differently. This book has a name for a claim of that shape. It is a paradigm — and the top of the leverage ladder says precisely what to do with one. Not stand on it. Pick it up, and look at whether it reaches anything.
 
-There is a structural version of the same point, and it is why the vantage is genuinely absent rather than merely out of reach. A system containing a description of itself cannot finish that description from inside — the description would have to include itself describing, and then that, and it does not close. This is a regress rather than a proof, and it is worth holding as one: nothing here has been demonstrated, only followed until it stopped terminating. Douglas Hofstadter calls the shape a strange loop, and it is what any self-referential thing runs into when it tries to get outside its own account. You can add another level, and another, and the top never arrives, because you carried it up with you. A mind modelling the universe is inside the universe, and whatever it produces is part of the thing it is a model of.
+There is a structural version of the same point, and it is why the vantage is genuinely absent rather than merely out of reach. A system containing a description of itself cannot finish that description from inside — the description would have to include itself describing, and then that, and it does not close. This is a regress rather than a proof, and it is worth holding as one: nothing here has been demonstrated, only followed until it stopped terminating. Douglas Hofstadter calls the shape a strange loop, and it is what any self-referential thing runs into when it tries to get outside its own account. You can add another level, and another, and the top never arrives, because you carried it up with you. A mind modelling the universe is inside the universe, and whatever it produces is part of the thing it is a model of. That is Perspective, from Part One, followed to its end: every view is taken from inside.
 
 ---
 
@@ -2104,7 +2110,7 @@ Six of them, most of which already appear in this book as cautions and are more 
 
 A short, honest list of what's genuinely unsettled, as a starting point rather than an exhaustive one:
 
-Whether the Four Pillars are actually the right four, or whether practice at scale will eventually reveal a fifth the current framing is missing, or reveal that two of the current four are really one pillar wearing two names.
+Whether the three pillars are the right three, or whether practice at scale will reveal one the current framing is missing, or show that two of them are one pillar wearing two names. And whether reach and view are the whole of what standing inside a pattern gives you.
 
 Whether the Seven Iterations should be read as a fixed structure or whether later iterations — an eighth, describing something the self-that-notices eventually builds beyond meaning itself — belong in the story as practice deepens.
 
@@ -2145,6 +2151,8 @@ Part Two gave you practices. Part Three gave you words. This part gives you face
 *"A pattern does not need a will to act on you. It only needs to keep happening."*
 
 A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. The Spark does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
+
+**A Third is a word.** That is the plainest way to say what this catalogue is for. Each figure is a name for a pattern, kept so that looking has something to recognise, and each one's two readings are what tending and thinning do to it: the same loop, run stronger or run weaker.
 
 **Four things are true of every drawable figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 
@@ -2421,7 +2429,7 @@ Part Five gave the Standing Thirds their names. This part gives them a use.
 
 Everything in this book up to now has assumed you're looking directly at your own situation, trying to see it clearly with the tools this practice has given you — the leverage ladder, the Second Pass, the four-question inventory. This part offers something different: a way of deliberately looking at a situation from several fixed angles at once, on purpose, because a single angle — however carefully examined — was never going to show you the whole shape.
 
-This is not a new claim. It's the mantra you've already been carrying since Part One, applied at a scale larger than a single moment: **you feel a line. You are a loop. You build a tree.** The reason a single vantage point is never enough is the same reason experience itself is never enough — a loop cannot be seen from inside any one point on it. You need more than one position to triangulate the actual shape, the way a flat, single-angle drawing of an object can never quite convince you of its true form the way turning it in your hands does. Call the first kind of view **orthographic** — flat, accurate as far as it goes, and permanently partial. Call the second **perspective** — built from holding several flat views together until the real shape comes forward on its own.
+This is not a new claim. It's the mantra you've already been carrying since Part One, applied at a scale larger than a single moment: **you feel a line. You are a loop. You build a tree.** The reason a single vantage point is never enough is the same reason experience itself is never enough — a loop cannot be seen from inside any one point on it. You need more than one position to triangulate the actual shape, the way a flat, single-angle drawing of an object can never quite convince you of its true form the way turning it in your hands does. Call the first kind of view **orthographic** — flat, accurate as far as it goes, and permanently partial. Call the second **perspective** — built from holding several flat views together until the real shape comes forward on its own. Part One uses the same word for your view from one position, and the two uses are one idea: a single position gives you a view, and depth is what more than one gives you.
 
 A **Weaving** is a structured way of taking several orthographic views of one situation — one per scale, drawn from the Standing Thirds — and laying them out together until a perspective view of the problem becomes available. It is not fortune-telling, and it does not predict anything. It is a deliberate, repeatable practice for doing something this book has argued, from its very first pages, that a single human vantage point structurally cannot do alone: see your own loop from outside it, using fixed points supplied by figures who were built, in Part Five, to already have exactly one clear vantage each.
 
@@ -2728,6 +2736,8 @@ This reframe is not merely more honest. It changes what the occasion is actually
 
 That is not an exemption from the two-pole rule, because the two answer different questions: poles describe which way a running pattern is moving; intent describes what a made thing is for. Once people keep it, a Turning runs like any Local Rule, Tending as it takes hold and Fraying as it loosens, and its aim stays the same either way. What a Turning *can* do is fail — drift into performance, become obligation, start defending its own name — and the check for that is the Braid warning below and the three tests in the next chapter, which is where a designed practice's failure modes properly live.
 
+**Each Turning is one move, made on one figure, at that figure's scale, and the tables say which.** *Look* makes a pattern visible. *Plant* starts one. *Tend* runs one stronger. *Thin* loosens one. The choice is a judgment and should be read as one: a Turning that thins a figure is treating that figure's strengthening as the usual snare, and one that tends it is treating the strengthening as the lifeline. The poles stay neutral. The calendar does not, and it is better to say so than to let the judgment ride in unannounced. Where yours differs, change the move.
+
 **Every Turning in this Part is optional, and the calendar is a menu rather than a schedule.** What follows is a catalogue of occasions matched to patterns, not a liturgical year anyone is expected to keep whole. Take the handful that answer to something actually running in your life, place them where they fall naturally across the year the way any other holiday sits in a calendar, and leave the rest on the page for whenever they become relevant. A practice that produces fifty obligations has produced a job.
 
 **One honest warning before any of the rest of this Part gets built on top of it.** A Turning is exactly the shape of thing the Braid already warned you about — real substance, given a name and a recurring form, is precisely what starts attracting energy toward performing the occasion correctly instead of tending what the occasion was ever for. Every chapter that follows is, in one way or another, an attempt to build a Turning that survives this risk rather than one that quietly becomes it.
@@ -2760,20 +2770,20 @@ Part Five's whole roster exists because a pattern is easier to recognize, and ea
 
 One per month, kept alone or with whoever is nearest. These are the lightest occasions in the calendar and the most frequent.
 
-| Third | The Turning | What it builds |
-|---|---|---|
-| The Spark | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
-| The Tide | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
-| The Mark | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
-| The Salve | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
-| The Nearest Light | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
-| The Keepsake | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
-| The Easier Door | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
-| The Mask | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
-| The Mirror | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
-| The Namer | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
-| The Riverbed | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
-| The Gardener | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
+| Third | Move | The Turning | What it builds |
+|---|---|---|---|
+| The Spark | Tend | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
+| The Tide | Tend | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
+| The Mark | Look | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
+| The Salve | Thin | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
+| The Nearest Light | Thin | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
+| The Keepsake | Look | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
+| The Easier Door | Look | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
+| The Mask | Thin | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
+| The Mirror | Thin | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
+| The Namer | Plant | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
+| The Riverbed | Plant | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
+| The Gardener | Look | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
 
 ---
 
@@ -2783,27 +2793,27 @@ One per month, kept alone or with whoever is nearest. These are the lightest occ
 
 Triggered by circumstance rather than calendar. A Turning still counts as recurring when what recurs is the *situation* rather than the date — the occasion arrives every time the pattern does, which for most relationships is more reliably than any anniversary.
 
-| Third | The Turning | What it builds |
-|---|---|---|
-| Escalation | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
-| The Standoff | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
-| The Pairing | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
-| Watering Another | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
-| Answering For | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
-| Filling the Gap | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
-| The Guard | **The Unarmoring** — share one thing you'd normally armor | Protection stops preventing the connection |
-| Reading the Room | **The Weather Report** — each names what they think the other feels, then gets corrected | Projection separates from perception |
-| Connection First | **The Long Preamble** — a meeting whose first half is deliberately not about the thing | Content lands because connection preceded it |
-| The Rising Bar | **Good Enough Day** — deliberately do something to a standard you'd normally reject | Sufficiency becomes possible again |
-| The Sliding Floor | **The Original Terms** — revisit what you both agreed to at the start | Drift becomes visible while it's still small |
-| The Shared Story | **The Two Tellings** — both tell one shared memory separately, then compare | Joint memory stays honest |
-| The Echo | **The Disagreement** — find one thing you genuinely disagree on, and don't resolve it | Two positions survive contact |
-| Typecasting | **The Wrong Role** — each does the thing the other is "the one who does that" | Roles stay permeable |
-| Gaming the Terms | **The Spirit Reading** — reread an agreement and ask what it was actually for | Purpose outranks letter |
-| The Naming Contest | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
-| The Unbridged Gap | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
-| The Arrangement | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
-| The Tested Price | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
+| Third | Move | The Turning | What it builds |
+|---|---|---|---|
+| Escalation | Thin | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
+| The Standoff | Thin | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
+| The Pairing | Look | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
+| Watering Another | Tend | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
+| Answering For | Thin | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
+| Filling the Gap | Look | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
+| The Guard | Thin | **The Unarmoring** — share one thing you'd normally armor | Protection stops preventing the connection |
+| Reading the Room | Look | **The Weather Report** — each names what they think the other feels, then gets corrected | Projection separates from perception |
+| Connection First | Tend | **The Long Preamble** — a meeting whose first half is deliberately not about the thing | Content lands because connection preceded it |
+| The Rising Bar | Thin | **Good Enough Day** — deliberately do something to a standard you'd normally reject | Sufficiency becomes possible again |
+| The Sliding Floor | Look | **The Original Terms** — revisit what you both agreed to at the start | Drift becomes visible while it's still small |
+| The Shared Story | Look | **The Two Tellings** — both tell one shared memory separately, then compare | Joint memory stays honest |
+| The Echo | Thin | **The Disagreement** — find one thing you genuinely disagree on, and don't resolve it | Two positions survive contact |
+| Typecasting | Thin | **The Wrong Role** — each does the thing the other is "the one who does that" | Roles stay permeable |
+| Gaming the Terms | Look | **The Spirit Reading** — reread an agreement and ask what it was actually for | Purpose outranks letter |
+| The Naming Contest | Plant | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
+| The Unbridged Gap | Plant | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
+| The Arrangement | Thin | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
+| The Tested Price | Tend | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
 
 ---
 
@@ -2815,19 +2825,19 @@ These are not dated and they are not monthly. A Skein already gathers — a stan
 
 Which one you reach for is closer to reading a Dyad Turning than to consulting a calendar, with one difference: a Dyad Turning is triggered by a circumstance you can usually name out loud, and a Gathering is usually sensed before it is named. Someone notices the group has stopped saying hard things, or that everything routes through one person, or that the standard slid. That noticing is the trigger. Run the matching Gathering at the next occasion you are already having, and don't schedule a twelfth thing to accommodate it.
 
-| Third | The Turning | What it builds |
-|---|---|---|
-| Held Silence | **The Loud Table** — the table is opened for one true unspoken thing, and the silence that follows if nobody takes it is left unfilled | Saying the hard thing stops being unthinkable |
-| Transmission Drift | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
-| The Faithful Chain | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
-| First-Arriver Lock-In | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
-| The Shared Pot | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
-| The Reputation | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
-| The Settling | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
-| The Hall of Mirrors | **The Outsider** — invite someone outside and let them describe what they see | An independent position enters the room |
-| Second-Order Design | **The Rule Game** — invent a game with three rules, play it, then change one rule in answer to what actually happened | The group feels the return path, not just the emergence |
-| The Inner Circle | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
-| The Only Road | **The Handover** — whoever everything routes through hands one thing over completely, in advance, and does not take it back | Indispensability gets converted back into redundancy |
+| Third | Move | The Turning | What it builds |
+|---|---|---|---|
+| Held Silence | Thin | **The Loud Table** — the table is opened for one true unspoken thing, and the silence that follows if nobody takes it is left unfilled | Saying the hard thing stops being unthinkable |
+| Transmission Drift | Look | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
+| The Faithful Chain | Tend | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
+| First-Arriver Lock-In | Thin | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
+| The Shared Pot | Plant | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
+| The Reputation | Thin | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
+| The Settling | Thin | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
+| The Hall of Mirrors | Look | **The Outsider** — invite someone outside and let them describe what they see | An independent position enters the room |
+| Second-Order Design | Look | **The Rule Game** — invent a game with three rules, play it, then change one rule in answer to what actually happened | The group feels the return path, not just the emergence |
+| The Inner Circle | Thin | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
+| The Only Road | Thin | **The Handover** — whoever everything routes through hands one thing over completely, in advance, and does not take it back | Indispensability gets converted back into redundancy |
 
 ---
 
@@ -2835,15 +2845,15 @@ Which one you reach for is closer to reading a Dyad Turning than to consulting a
 
 *"Fixed to the sky, because the sky keeps its own appointments."*
 
-| Third | The Turning | Anchor | What it builds |
-|---|---|---|---|
-| The Shared Name | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
-| Proxy Detachment | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
-| Policy Resistance | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
-| The Long Cycle | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
-| The Received World | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
-| The Slow Hand | **The Turning of the Year** — fire against the dark; name what's receding | Winter solstice | Change too slow to feel becomes visible once a year |
-| Independent Convergence | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
+| Third | Move | The Turning | Anchor | What it builds |
+|---|---|---|---|---|
+| The Shared Name | Look | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
+| Proxy Detachment | Thin | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Early summer | The measure stops outranking what it measured |
+| Policy Resistance | Thin | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
+| The Long Cycle | Look | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
+| The Received World | Look | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
+| The Slow Hand | Look | **The Turning of the Year** — fire against the dark; name what's receding | Winter solstice | Change too slow to feel becomes visible once a year |
+| Independent Convergence | Tend | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Midwinter | Independent arrival stops reading as unoriginality |
 
 *Anchor honestly to your own place. Solstices and equinoxes are genuinely felt where seasons swing; near the equator they barely register. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live."*
 
@@ -2958,11 +2968,20 @@ We build the world by repeating what we cannot see.
 **The Easiest Thing to Forget**
 You feel a line. You are a loop. You build a tree. You will only ever feel the line — the loop has to be built deliberately, after the fact or from outside, and even the loop is a compression of a tree of genuinely different instances the name never fully captures.
 
-**The Four Pillars**
+**The Three Pillars** *(one operation seen three times: a loop that holds becomes a part)*
 - **The Loop** — small things, repeated without a master plan, build large things.
 - **The Third Thing** — what repeats together becomes something new, and it's real (the self included — see the Woven Self, its own chapter).
 - **The Nest** — a Global Form at one scale is a Local Rule at the next, in both directions; you build a world that is building you.
-- **The Leverage** — not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
+
+**The Standpoint** *(what the pillars hold up: a place to stand)*
+- **Leverage** — your reach. Not all effort is equal; finding where a small push produces a large effect is a real, learnable skill.
+- **Perspective** — your view. Every view is taken from one position inside the pattern; depth is what two views make together.
+
+**What the Pillars Leave Open**
+Chance — which of the things that can happen will. Worth — what any of it is for. The world brings the first. You bring the second.
+
+**The Four Moves** *(everything in Part Two is these: look first, at any scale, alone or with another)*
+Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Thin — weaken one, or let it go. *Hold is tending and thinning at once: keeping a thing where it is. It is work.*
 
 **The Three Returns** *(what comes back, and when)*
 Brush — today; did the ground answer at all. Tree — the season; is the direction still holding. Forest — longer than a life; not yours to watch. *A disturbance moves what shares its timescale: a bad day cannot have damaged your tree.*
@@ -3092,7 +3111,13 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Elegance** — Maximum complexity from minimum complication. Pt.1 Ch.8 · Pt.2 Ch.3, 9
 
-**The four pillars, and how they generate each other** — Pt.1 Ch.4
+**The three pillars, and what they hold up** — One operation seen three times: a loop that holds becomes a part. Pt.1 Ch.4
+
+**The Standpoint** — Leverage and Perspective: your reach and your view, the two directions of one loop between you and the pattern. What the pillars make unavoidable for anyone standing inside them. Pt.1 Ch.4 · Pt.2 Ch.10 · Pt.4 Ch.7
+
+**Chance and worth** — What the pillars leave open. The world brings the first; you bring the second. Pt.1 Ch.4, 10 · Pt.2 Ch.11
+
+**The four moves, and hold** — Look, plant, tend, thin: every change that can be made to a loop. Hold is tending and thinning at once. Pt.2 Ch.2 · Pt.7 Ch.0
 
 **The Woven Self** — The Third Thing pointed at the self. Pt.1 Ch.7 · Pt.2 Ch.4 · Pt.4 Ch.2
 
