@@ -734,8 +734,6 @@ Pointed at your own life, the Loop pillar asks one practical question: *what are
 
 Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.
 
-Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.
-
 **One thing before the questions, or this chapter will quietly ask you to answer for things that were never yours.** Some of the rules you run were not chosen by you. A family installed them, or a shortage, a workplace, a feed: a scale above you that never asked. That isn't the book being kind; it's how the Nest works, downward as well as up. A household that went quiet whenever money came up has a Global Form, silence about money, and its children inherit it as a Local Rule: don't look at the balance. Rules arrive from above as a matter of course. Before you answer anything, name one of yours that did.
 
 So there are two questions here, and they are easy to collapse. *Is this rule mine to work?* and *was this rule my fault?* The first is almost always yes. The second is frequently no, and nothing about the first requires the second. **A Local Rule you did not choose, installed by conditions you did not set, is still yours to work and was never your fault.** Hold both. Dropping the first is helplessness; dropping the second is a self-blame that will make every page after this one harder than it needs to be. Carry them into the four questions below: answer as someone doing the work, not standing trial.
@@ -1785,8 +1783,6 @@ The fern's rules were all fixed. Chance is the other ingredient, and it does som
 
 **Try this:** Chance can surface what a fixed rule hides. Test that small: find one routine you've kept perfectly stable and change one thing in it this week: one different route, one different order, one unplanned conversation. Not to improve it. Write one line on what the change surfaced that the stable version never did. If nothing surfaced, say so; the coastline claims a nudge changes everything, and this is where you check it, in one routine and one week, which is a small sample.
 
-Picture Dev at that kitchen table, two hundred dots in, pencil hovering over a patch he'd swear he never touched. Nobody put the gap there. When a routine hands you a shape you didn't choose, ask his question: which one-line rule, repeated, would draw this? Then check it, as he did.
-
 When a routine hands you a shape you didn't choose, ask Dev's question: which one-line rule, repeated, would draw this? Then check it as he did, by hand, with a way to be wrong. He doubted until about dot two hundred, and nothing anyone said moved him; the dots did.
 
 ---
@@ -2235,8 +2231,6 @@ Tuesday's snacks were one person's gaps, but the tense email had a sender too. E
 | **The Unbridged Gap** (*the expert who can't explain the basics*) | The Mask + The Mirror | The more one knows, the harder it is to picture not knowing, so the gap widens. | Knowing blocks the view less, so the gap narrows. |
 | **The Arrangement** (*housemates and the dish rota*) | The Riverbed + The Riverbed | Each setup draws a quicker counter-setup, so both build around each other. | Setups draw less answer, and the building settles. |
 | **The Tested Price** (*the asking price on a used car*) | The Mark + The Namer | The first number named holds the deal tighter. | Its hold loosens, and offers are judged on their own. |
-
-Read the table by finding your own pairing, not by scanning all nineteen rows. Pick the one person and the one pattern you already suspect, and start there.
 
 Once you have your pair, the rest of this chapter is one skill used three ways.
 
@@ -2703,8 +2697,6 @@ Before you draw, ask Part One's first question, the same gate that decides wheth
 **A Weaving that only ever confirms what the weaver already believed has become a mirror: your own view, with extra steps.** The one-line question above catches a single nod; a run of nods needs a test across readings, and passing the gate does not protect against it. Before you draw, say aloud what you expect the cards to show; after the last ring, ask whether anything surprised you or made you wince. If, three readings running, nothing has, the practice has quietly failed. The cards are not wrong; the uncomfortable angle is the reason to weave.
 
 **Circling is the opposite quiet failure.** Here the nod never comes, and a problem that will not let go turns the deck into one more way of going over it again. A sitting is about twenty minutes. If you notice you are circling without new information, the same cards giving the same answer, stop and do something else: walk, eat, call someone. The question will keep until tomorrow.
-
-Dara tries it. Before her next draw she says aloud, "I expect the Slow Hand: it's the team's speed." The last ring turns up her own Held Silence in Tuesday's meeting, and she winces. That wince is the sign the reading worked; a fourth easy "yes, that's them" would be the sign it hadn't. At your next sitting, say your expectation first.
 
 Dara tries it. Before her next draw she says aloud, "I expect the Slow Hand: it's the team's speed." The last ring turns up her own Held Silence in Tuesday's meeting, and she winces. A wince is a pointer, not a sentence; it shows the reading worked, where a fourth easy "yes, that's them" would show it hadn't. At your next sitting, say your expectation first.
 

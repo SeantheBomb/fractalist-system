@@ -14,6 +14,9 @@ This pass acted on the retrospective: the six next steps, the 25 chapters and 64
 5. **Guards.** Anchors: every edit was checked against all 95 Derivation Map anchor phrases in every paragraph containing them; `reconcile` is clean on each intermediate draft and on the final one. Shrink: no paragraph could shrink more than 15%. One paragraph per edit (multi-paragraph text rejected). Rejected edits: Part-level 0, chapters 9, seams 2.
 6. **Where the reviewers' complaint was "polish, not substance".** Chapter edits were briefed with the reviewers' own remarks and a rebuild brief (one aim, a named person, a small move with a cue and a sign it worked, a mechanism or an honest hedge). The panel rescored them; where individual reviewers still say the chapter lacks a stock or a step, it is listed under "Still low".
 
+
+> **Correction after delivery.** A review of the finished draft found that the Skein and chapter-rebuild passes inserted four paragraphs twice (a round-2 rewrite was added beside the round-1 version, because the process could edit original paragraphs but not its own inserts). The four superseded earlier versions were removed from the v3 draft (-188 words): the Mara intro in *Finding Your Local Rule* (it was an exact duplicate), the Dev kitchen-table paragraph, the "read the table by finding your own pairing" paragraph, and the Dara "tries it" paragraph in Part Six. Before/after entries above still show both versions; the later one is what remains.
+
 ## What changed, by retrospective ask
 
 ### Step 1: Part-level fixes (6 agents, 19 edits, 12 new paragraphs)
