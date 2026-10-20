@@ -4,6 +4,9 @@ A second pass over the manuscript after the paragraph-level (Self) braintrust. T
 
 For each scale the personas first agreed a four-criterion yes/no rubric (propose, merge, ratify, finalize; see `Rubrics.md`), then scored every item 0 to 4. Median under 3 meant rework; nothing was cut. The best-ranked items at each scale (and at lower scales) were handed to the editors as exemplars, and each rework records the move it borrowed and which exemplar taught it. Up to two rework rounds per scale; reworked items were rescored by all ten personas.
 
+
+> **About paragraph ids.** P#### ids are numbered in the draft each step started from, so one paragraph can carry different ids in different steps (new paragraphs shift every id after them). Chapter and Part names are the stable key.
+
 ## Read this first
 
 1. **Nothing was cut in this pass.** Edits rewrite seams, openers, closers and connective sentences; 49 short new bridging paragraphs were added (46 at chapter level, 3 at Part level); no paragraph was removed.
@@ -502,7 +505,7 @@ After:
 
 > That is this book's one idea, said at the largest scale it has: we build the world by repeating what we cannot see. Sometimes what we built outlives the seeing and gets a name, a face, a story. What this part established is smaller: fifty-three names, and tests your own days can run against them. The test above reaches only the first copy; how far any of your acts travels cannot be known in advance. The rest goes to ground, and stays in the cycle either way. Bring the pattern you caught this week to Part Six, where it becomes your first card. Somewhere a cook is stirring a recipe from a woman she never met, and the woman never learned it had traveled.
 
-**INSERT after Fifty-three names, not findings. Your day can go against one: repeats whose gaps neither shrink nor widen, a pair that holds still when you move your half, a name that changes nothing you'd do. Each names a repeated act, never what a person is; aim it at your half first. If a name feels like a verdict on you, or you keep circling it, stop; run its test.** (PART FIVE — THE STANDING THIRDS (opener); +68 words; move: name the part's own failure conditions and a stop rule at entry; inspired by T3)
+**INSERT after P0855** (PART FIVE — THE STANDING THIRDS (opener); +68 words; move: name the part's own failure conditions and a stop rule at entry; inspired by T3)
 
 *States up front the catalogue's evidential status, the existing ways a figure can fail, and a guard for fragile readers, all drawn from tests the chapters already give.*
 
@@ -559,7 +562,7 @@ After:
 
 > Check it plainly. After a week with one line, did you do the small step you named, even once, or catch yourself reaching and come back? If not, the line was recited, not repeated; change the line or the pause. A missed week speaks of the line and the pause, not of you. This page establishes nothing more than that: whether the step helped is for Part Two's practices to show. Then, at the kettle tomorrow, say it again, and this month say one line aloud to one other person.
 
-**INSERT after *On a hard day, say only this one: feet, breath, room. Then rest, or tell one person. Missing the line is not a failure of the loop; a loop is built to be picked up again.*** (A. The Mantras, Prayers, and Meditations — Full Text; +36 words; move: insert pause and exit mid-sequence; inspired by T6)
+**INSERT after P1102** (A. The Mantras, Prayers, and Meditations — Full Text; +36 words; move: insert pause and exit mid-sequence; inspired by T6)
 
 *Adds an off-ramp for hard days and for a fragile reader, framed as a doing, not a being.*
 
@@ -567,7 +570,7 @@ New paragraph:
 
 > *On a hard day, say only this one: feet, breath, room. Then rest, or tell one person. Missing the line is not a failure of the loop; a loop is built to be picked up again.*
 
-**INSERT after *Saying it to someone makes it harder to drop. The last three lines are for a room: say them with one other person, or send one to a friend.*** (A. The Mantras, Prayers, and Meditations — Full Text; +29 words; move: bridge solitary lines toward a room; inspired by T3)
+**INSERT after P1103** (A. The Mantras, Prayers, and Meditations — Full Text; +29 words; move: bridge solitary lines toward a room; inspired by T3)
 
 *Sends a solitary list toward others and sets up the group lines that follow.*
 
@@ -819,7 +822,7 @@ After:
 
 > *What you'll be able to do after it: look at a habit, a marriage or a workplace and see the loop that keeps it going, as you will have seen one in the die, the coastline and Maya's phone, and the Third Thing the loop makes that no part contains: the marriage itself, not just the two people. A shift in seeing, not yet a practice.*
 
-**INSERT after *If you read on, the first test is Maya's, and it fits in a morning. Tomorrow, try to catch the cue before your hand reaches for the phone. If you never catch one, that counts against this part's claim. Chapter 3 names the four beats to watch for.*** (+48 words; round 1; move: end on the opening person with a test that can fail; inspired by C037)
+**INSERT after P0023** (+48 words; round 1; move: end on the opening person with a test that can fail; inspired by C037)
 
 *Gives a small action today with a stated sign of failure, and closes the opener on the planted image of the phone.*
 
@@ -980,7 +983,7 @@ After:
 
 > Not a thing you have, then: not a soul dropped into you fully formed, not a fixed "true self" hiding beneath your habits, waiting to be excavated. The self is *built* — the way a habit is built, the way a coastline is built — out of small loops of experience, feedback, and revision, nested from your neurons up through your relationships to the culture that raised you. What you call "who I really am" is closer to a river than a rock: it holds a recognizable shape only because something keeps flowing through it in a consistent way, not because there's a solid thing sitting underneath the current. The only evidence so far is the phone habit above; the next paragraph says how far that carries.
 
-**INSERT after Tomorrow's test stays small. The hand moves toward the phone, and you catch the cue first or you don't. Catch it, and you have watched one turn of a loop from inside. Miss it all week, and you have learned how fast it turns. Either way, you have seen the average the hand runs on, and the tree behind it.** (+60 words; round 1; move: return to the planted image carrying more weight; inspired by C070)
+**INSERT after P0058** (+60 words; round 1; move: return to the planted image carrying more weight; inspired by C070)
 
 *Lands the chapter back on the opening phone image, now carrying the line/loop/tree meaning, with both outcomes named as information.*
 
@@ -1079,7 +1082,7 @@ After:
 
 > **Two things the pillars do not supply, named now so nobody looks for them in the wrong place.** They hold up a floor, not a roof, and they do not point anywhere. Because your reach outruns your view, nothing in them says which of the things that can happen will: that is **chance**, and the origin story later in this Part gives it an iteration of its own. And nothing in them says what any of it is for: that is **worth**, the one thing here you supply and do not find. The world brings the first. You bring the second, and the test below is a first place to do it.
 
-**INSERT after Tonight, charge your phone in another room. Tomorrow, catch the half-second where your hand goes to the empty nightstand: that is your Loop, seen from your Standpoint. If the pull is as strong after a week, the push sat too near a leaf; try one size up. Whether the trouble is worth it is yours to say.** (+57 words; round 1; move: close on the planted image with a test and a failure condition; inspired by C044)
+**INSERT after P0071** (+57 words; round 1; move: close on the planted image with a test and a failure condition; inspired by C044)
 
 *Lands on the opening phone image with a small tonight action, a sign of failure, and ties back to worth, which the reader supplies.*
 
@@ -1166,7 +1169,7 @@ After:
 
 > **Try this:** the next time any of this gives you a clear read on someone else, offer it as a question: "Here's one angle; does it fit?" Then stop talking. Offering it and waiting is the practice. Delivering it and expecting agreement is the failure, and from inside they feel almost identical, so check from outside: did they correct it or add anything? A read that always comes back untouched was probably delivered, not offered.
 
-**INSERT after Back to Maya at three in the afternoon. Her manager sets her hours, a friend may guess at the restlessness, and this book offers a lens. Each is an angle, and only she can say whether it fits. A meaning reached that way needs no enforcer, and it is the only kind that was ever hers.** (+56 words; round 1; move: return to the planted person and the epigraph's claim at the close; inspired by C070)
+**INSERT after P0084** (+56 words; round 1; move: return to the planted person and the epigraph's claim at the close; inspired by C070)
 
 *Closes on the person planted in the opening and the epigraph's image, now carrying the chapter's argument.*
 
@@ -1471,7 +1474,7 @@ After:
 
 > **There is an exit from that concentration, and the Try this below uses it.** A system that concentrates its returns keeps concentrating them, because the concentration feeds the next round — early advantage buys the resources that produce more early advantage, and nothing inside the loop reverses it. The reliable intervention is periodic and comes from outside the loop's own logic: reset some portion of the advantage, on a schedule, before the gap becomes structural. Every league redistributing draft picks is doing this. So is every group that rotates who runs the meeting.
 
-**INSERT after The mechanic's station stays fixed because nothing feeds it. Your Friday argument comes back because something does. That is the whole difference between the car and the pond, and next Friday's record will tell you which one you were standing in.** (+41 words; round 2; move: return to the opening image and the planted example, now weighted; inspired by C061)
+**INSERT after P0123** (+41 words; round 2; move: return to the opening image and the planted example, now weighted; inspired by C061)
 
 *Lands the chapter on the epigraph's car and pond and the planted Friday argument, now carrying the test the reader just ran.*
 
@@ -1606,7 +1609,7 @@ After:
 
 > **Try this:** Take one thing you're currently tracking — a habit, a savings balance, a relationship, a project. Write down where it is. Then write down which direction it's moving. Then, honestly, write down whether that movement is speeding up or slowing down, and what you've been doing lately that would explain the difference. Stop at that third line: it is the only one tied to a force you can change. If nothing you've done lately explains it, write that down; it is a finding too. Date the page, and when the thing's natural period has turned once, read it again and ask whether your third line called it.
 
-**INSERT after Back in the cabin: at cruise you feel nothing, and the seat still tells you the one thing that matters, the instant the speed changes. A life has no seat to press you back. The three lines are the seat. Push one small force, wait out its lag, and read the change, not the cruise.** (+55 words; round 2; move: return to the opening image carrying the full argument; inspired by C072)
+**INSERT after P0152** (+55 words; round 2; move: return to the opening image carrying the full argument; inspired by C072)
 
 *Returns to the plane planted at the opening, now carrying the chapter: the log is the sense your body lacks, and the push-wait-read sequence closes the aim.*
 
@@ -1681,7 +1684,7 @@ After:
 
 > **The Seventh Iteration — Meaning.** On the first six, something happened. On the seventh, something was *read.* The noticing self looked back across everything that had unfolded and asked the question none of the previous six iterations could ask of themselves: *what does this mean?* The honest answer is that the universe does not supply one. It offers only the pattern, vast, self-similar, indifferent to whether anyone is watching it. Beauty, purpose, and intent are not properties handed down already attached to things. They are what the noticing self *does* with the pattern. Where older stories rest on the seventh day because the work is finished, this one hands the work to you, because the meaning is never finished. It is remade each time a family, a town, or a team tells the story together, like the night your grandparents met. *And the output of that first telling became the input for every telling since, including this one.*
 
-**INSERT after One small test, this week. Take the one thing your week hangs on, the way Dana's hangs on her 7:30 train, and give it a second way to get done. At week's end, note whether the spare ever carried you. If it never mattered, the wheat-field claim bought you nothing, and the story stays only a story.** (+57 words; round 1; move: close with a small test that names its own failure; inspired by C014)
+**INSERT after P0162** (+57 words; round 1; move: close with a small test that names its own failure; inspired by C014)
 
 *Gives the chapter a landing: a small, checkable test of the wheat-field claim with a stated failure condition, returning to Dana.*
 
@@ -1852,7 +1855,7 @@ After:
 
 > Seen this way, some disagreement between sincerely held beliefs is not the conflict it looks like, since both sides are answering to something larger than the want of the moment. One neighbor keeps the Sabbath; another keeps a phone-free Sunday hike. Ask each what the day gives them and the answers often rhyme: a day the week can't have. Two people reaching for the same want by different roads are not opposed. They have found one pattern twice, by hands that never touched, which is just what a real pattern should look like. Not all of it dissolves this way; two paragraphs on, the kind that doesn't.
 
-**INSERT after Say you hold that every message needs an answer within the hour. Where did you get it? A first job, a boss's sigh, a client you once lost? Name which, and whether you saw it happen or were told. If you can't, that is worth knowing before you build a day on it.** (+53 words; round 2; move: worked mini-example of the test with a named finding; inspired by C022)
+**INSERT after P0165** (+53 words; round 2; move: worked mini-example of the test with a named finding; inspired by C022)
 
 *Gives the origin check a person and a small, doable step with a visible result, so the aim is a test rather than an attitude.*
 
@@ -1951,7 +1954,7 @@ After:
 
 > *This part is the working book. Part One explained how small repeated acts build a life; here you make some, starting today with the smallest one: watching a pattern run.*
 
-**INSERT after So the next time the argument starts to go the way it always goes, or your thumb finds the scroll, that moment is Look. Day 1 has begun.** (+28 words; round 2; move: close on the opening's images, now doing work; inspired by C014)
+**INSERT after P0188** (+28 words; round 2; move: close on the opening's images, now doing work; inspired by C014)
 
 *Gives the chapter a landing on the image planted in its opening (the argument, the scroll), now an actual first move rather than a list.*
 
@@ -1978,7 +1981,7 @@ After:
 
 > Everything in this movement happens at the smallest scale this book works at: you, alone, closing your own loops. What you do alone rarely stays alone. Say you round your spending down when you tell yourself the total. Soon you may round it down to your partner, and your Dyad, the two of you, learns to stop asking. Then your Skein, the family or team around you, may learn it too. The reason is your Local Rule, the small move you repeat: one that's dishonest at Self scale tends to travel outward, the way everything in a Nest does, each scale held inside a larger one.
 
-**INSERT after Start with one rule: how you tell yourself the truth about money. Name it in a sentence today. Tomorrow, catch one moment you were about to round it off, and note whether you did. Catch none, and either the rule is honest or you aren't yet looking. Close that first, and your partner's next question meets a plain answer.** (+59 words; round 1; move: end the opener on a small test, then return to the planted person; inspired by C044)
+**INSERT after P0235** (+59 words; round 1; move: end the opener on a small test, then return to the planted person; inspired by C044)
 
 *Gives one small step with a sign of whether it worked, and returns to the partner image so the opener lands on something to do.*
 
@@ -2127,7 +2130,7 @@ After:
 > **What are you actually good at — including the parts that feel too easy to count?**
 > What you love tells you what you'll keep returning to, not whether you're any good at it. People routinely discount what comes naturally, on the theory that anything easy can't be a real skill. This is backwards. Mara spots where a meeting is stuck within a minute and thinks that's nothing. Innate aptitude is a starting point, not a destiny, but it's not nothing: growth rarely comes from grinding at weaknesses until they resemble strengths. It comes from noticing what already feels easy and choosing environments and habits that amplify that edge, treating the rest as context to manage. Talent alone stalls without the less glamorous commitment to work with your nature, not against it. Look for what's easy for you and hard for most people; that gap is where a real Local Rule tends to live. What it can't tell you is whether anyone needs it.
 
-**INSERT after Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.** (+47 words; round 1; move: plant a person early, pay off at the close; inspired by C070)
+**INSERT after P0237** (+47 words; round 1; move: plant a person early, pay off at the close; inspired by C070)
 
 *Gives the chapter a person standing in its claims from the opening, whom the ending returns to.*
 
@@ -2135,7 +2138,7 @@ New paragraph:
 
 > Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.
 
-**INSERT after Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.** (+47 words; round 2; move: plant a running case near the opening; inspired by C083)
+**INSERT after P0237** (+47 words; round 2; move: plant a running case near the opening; inspired by C083)
 
 *Gives the chapter a person who carries every abstract step, as the panel asked, and sets up the closing return.*
 
@@ -2143,7 +2146,7 @@ New paragraph:
 
 > Keep one person beside you as we go. Mara answers every message in four words and calls it efficiency. In meetings she is the one who grabs the marker. Nothing is wrong with her. She will run each step of this chapter a little ahead of you.
 
-**INSERT after Mara reads *never make anyone wait* again. It's still a decent rule, but now she knows the need under it, a belief worth questioning, and a five-year sentence she doesn't love. She marks a date a month out. If it still reads true then and the old habit hasn't crept back, it's holding. If not, she revises.** (+57 words; round 2; move: return to the planted person with added weight and a sign of success; inspired by C075)
+**INSERT after P0253** (+57 words; round 2; move: return to the planted person with added weight and a sign of success; inspired by C075)
 
 *Closes the run on Mara's rule, now heavier, and gives the reader a dated sign of whether the candidate holds.*
 
@@ -3371,7 +3374,7 @@ After:
 
 > **Testing whether today survives the vision being wrong means watching what comes back, and what comes back arrives at three speeds.** Some of the suffering this chapter describes may come from mistaking one speed for another: judging a years-long build by today's results, or judging today by the years, as when tonight's exhaustion is excused by a partnership two years off.
 
-**INSERT after Back to the associate, still two years from partner. Tomorrow, before the phone, she asks whether she would repeat yesterday unchanged. If not, she changes one small thing in today's rule. In a month she checks one thing: did this month cost more than last? If it did, the trade is failing, however near the partnership looks.** (+57 words; round 1; move: close on the planted person with the test in hand; inspired by C076)
+**INSERT after P0411** (+57 words; round 1; move: close on the planted person with the test in hand; inspired by C076)
 
 *Returns to the opening associate and gathers the chapter's one test with its sign of failure, so the ending is paid for.*
 
@@ -3597,7 +3600,7 @@ After:
 
 > Self-scale practice closes its own loop, but it was never meant to stay closed forever. Almost everything worth having in a life happens with one specific other person, like a partner, a close friend, or a collaborator. That scale is small enough to be intimate and complete in a way a Skein, the wider circle that follows, rarely is. Precisely because of that, it magnifies whatever you bring into it. Dana thanks Mo for the dishes and means it, and by Thursday he has started dinner; she sighs at the same dishes, and by Thursday neither of them is cooking. Patience comes back as ease, contempt as distance. This movement is about bringing something worth magnifying.
 
-**INSERT after Try it once, today: with the one person who came to mind, notice the first sentence you bring and the first sentence that comes back. If the two match in warmth or edge, you have seen the magnifying. If they don't, note that too. One exchange is a story; a week of them starts to be evidence.** (+57 words; round 1; move: end the opener on a notice-and-compare test with a stated limit; inspired by C044)
+**INSERT after P0443** (+57 words; round 1; move: end the opener on a notice-and-compare test with a stated limit; inspired by C044)
 
 *Gives the doorway one small act for today, a sign of whether it held, and a stated limit separating story from evidence.*
 
@@ -3696,7 +3699,7 @@ After:
 
 > **A Dyad can become a Braid too, once it's visible to anyone else.** That is the second misuse: not isolation but reputation. Picture "the stable ones," "the couple who never fights": a real relationship underneath, a public name riding on top, the fusion Chapter 19 calls a Braid, here one scale down. Then the label answers the question for you, and the energy the harder, unphotogenic maintenance needs goes into keeping up the name. The test comes when the reputation is threatened, a bad public fight or a hard year you can't hide: does your response protect what people think you are, or the actual relationship? A real Dyad can survive looking imperfect from outside. Only the label needs it to look otherwise.
 
-**INSERT after Back to Ines, quieter every year. A closed loop hides its own drift; no one can name the dinner it began at. Tonight, ask once whether you were more yourself with them or less, and write down the moment that answers. A week of moments shows which way the pair leans. If none comes, watch longer; don't issue a verdict.** (+60 words; round 1; move: return to the planted person with a check and a failure sign; inspired by C044)
+**INSERT after P0451** (+60 words; round 1; move: return to the planted person with a check and a failure sign; inspired by C044)
 
 *Returns to Ines planted mid-chapter and ends on a small test with a stopping condition, so the chapter lands on the one question.*
 
@@ -3807,7 +3810,7 @@ After:
 
 > Which gives a case this practice has to say outright. **If you are absorbing and not feeding, it is not your loop to change** — and the honest move is not to hunt harder for your contribution. It is to name what is happening to you as what it is; the first move in the Try this belongs to whoever is feeding. The Fold chapter already says this as a caution against misusing the idea; it belongs here as a reading, because that misuse is what a sincere practitioner does by default when the framework offers only one seat.
 
-**INSERT after Back to the stool you are both sitting on. A thin leg, a stuck axis and a lopsided loop are three ways it wobbles, and the repair is usually one person moving first, once, on purpose. Whoever moves, watch the next exchange: it will tell you whether you read the wobble right.** (+52 words; round 2; move: return to the epigraph image with the chapter's payload attached; inspired by C075)
+**INSERT after P0464** (+52 words; round 2; move: return to the epigraph image with the chapter's payload attached; inspired by C075)
 
 *Gives the chapter a landing that returns to the opening stool image, now carrying the three diagnostics and the move-first test.*
 
@@ -4227,7 +4230,7 @@ After:
 
 > One caution, so the king example doesn't mislead. Not being able to see inside a name, a sealed boundary, isn't what makes it a Label. You don't inspect a pilot's licence before boarding; you trust it because it reliably predicts a safe landing. A real king's title works the same way: a Word, sealed shut and working as intended. The false king's title predicted nothing, which is why it had to be shouted. So the test isn't whether you can see inside a name, but whether it predicts.
 
-**INSERT after Back to the lake house. Those three words work because you both were there. Tonight's Loop is the same test: if the other person can finish the lap ("...and then I check my phone"), the word predicts. If they only nod, or a plain phrase would have done, it isn't working yet.** (+52 words; round 1; move: return to the opening image as a test; inspired by C076)
+**INSERT after P0615** (+52 words; round 1; move: return to the opening image as a test; inspired by C076)
 
 *Returns to the opening image with more weight and gives a checkable sign of success or failure for tonight's rep.*
 
@@ -4326,7 +4329,7 @@ After:
 
 > Tagging has one more answer to be ready for, and people forget to check for it: **nothing is running.** A pattern can be tending, it can be fraying, and it can simply not be there. Suppose the burnout Dana and Ray are fighting over has quietly ended; there is no direction left to read, and no scale to tag. A marriage gone quiet can be the same case: sometimes the old fight has just stopped. If you keep hunting for a pattern's other side and find nothing, ask whether it's moving. If it isn't, stop hunting.
 
-**INSERT after Today, catch one "always" or "never" of your own and say its scale first. Then watch the reply. If the other person answers at your scale, or names theirs, the ruler was the problem. If the same fight returns at the same volume, it wasn't, and the two of you disagree about the pattern itself.** (+55 words; round 1; move: end on a test with a stated failure condition; inspired by C044)
+**INSERT after P0635** (+55 words; round 1; move: end on a test with a stated failure condition; inspired by C044)
 
 *Gives a small step to try today, with a sign of success and a sign the habit did not help.*
 
@@ -4334,7 +4337,7 @@ New paragraph:
 
 > Today, catch one "always" or "never" of your own and say its scale first. Then watch the reply. If the other person answers at your scale, or names theirs, the ruler was the problem. If the same fight returns at the same volume, it wasn't, and the two of you disagree about the pattern itself.
 
-**INSERT after Today, catch one of your own "always"s or "never"s and say its scale first, then watch the reply. If they answer at your scale, or name theirs, the ruler was the problem. If the same fight returns at the same volume, you disagree about the pattern itself, which is the conversation Dana and Ray reach once their rulers match.** (+59 words; round 2; move: end on the opening case, now carrying the test's result; inspired by C072)
+**INSERT after P0635** (+59 words; round 2; move: end on the opening case, now carrying the test's result; inspired by C072)
 
 *Keeps the try-today test with its failure condition and closes on Dana and Ray, now carrying the chapter's payoff. Replaces the prior closing paragraph at the same length.*
 
@@ -4373,7 +4376,7 @@ After:
 
 > What it buys is a decision informed by several real zoom levels, not five people agreeing at one and mistaking consensus for completeness. Take a family whose savings (the stock) keep draining, and whose fix is always a stricter budget. The Self answer finds the outflow's source: stress-buying after bad weeks. The Culture answer finds an inflow no budget touches: wages flat while prices run. Different levers, one Loop. The round is slower than a normal meeting, so spend it where the group keeps picking the same kind of fix and it keeps not working. If everyone finishes without hearing a scale they hadn't already used, the round failed; go again and stretch.
 
-**INSERT after Alone, today, the same rule works as a one-person round. Write down the decision you keep circling, then one sentence each from Self, Dyad, Skein, and Culture, repeating none. Whichever sentence surprises you is your back of the house. The five at the window were never wrong about the view; they had only never walked round.** (+56 words; round 2; move: solo version that closes on the opening image; inspired by C072)
+**INSERT after P0646** (+56 words; round 2; move: solo version that closes on the opening image; inspired by C072)
 
 *Gives a try-today solo version for readers without a room, and lands on the epigraph's window image with changed meaning.*
 
@@ -4563,7 +4566,7 @@ After:
 
 > So the fern isn't being loosely compared to anything. A rule short enough to write down has been shown to grow a form like the fern's, branching where it branches. That proves the rule is enough, not that the fern reads it. Enough is what this book needs: intricacy requires no plan, only a rule repeated. It doesn't prove your habits work this way; it shows a tangle this fine can come without a plan, which is the book's claim about them.
 
-**INSERT after Picture Dev at that kitchen table, two hundred dots in, pencil hovering over a patch he'd swear he never touched. Nobody put the gap there. When a routine hands you a shape you didn't choose, ask his question: which one-line rule, repeated, would draw this? Then check it, as he did.** (+51 words; round 1; move: close on the opening image with a person standing in it, carrying the question forward; inspired by C076)
+**INSERT after P0676** (+51 words; round 1; move: close on the opening image with a person standing in it, carrying the question forward; inspired by C076)
 
 *Gives the chapter a person and returns to the kitchen table planted in the opening, now carrying the chapter's question.*
 
@@ -4571,7 +4574,7 @@ New paragraph:
 
 > Picture Dev at that kitchen table, two hundred dots in, pencil hovering over a patch he'd swear he never touched. Nobody put the gap there. When a routine hands you a shape you didn't choose, ask his question: which one-line rule, repeated, would draw this? Then check it, as he did.
 
-**INSERT after Picture Dev at that kitchen table, two hundred dots in, pencil hovering over a patch he'd swear he never touched. Nobody put the gap there. When a routine hands you a shape you didn't choose, ask Dev's question: which one-line rule, repeated, would draw this? Then check it, as he did.** (+51 words; round 2; move: return to the planted person with more weight; inspired by C061)
+**INSERT after P0676** (+51 words; round 2; move: return to the planted person with more weight; inspired by C061)
 
 *Returns to the opening image of Dev and the two-hundred-dot threshold, now carrying the chapter's claim into daily life.*
 
@@ -4869,7 +4872,7 @@ After:
 
 > **And the same recursion runs downward, which the stock-and-flow picture makes unusually concrete.** A Culture-scale stock — an accumulated norm, an inherited expectation, a distribution of who holds what — feeds a flow into the Skeins beneath it, whose stocks feed Dyads, whose stocks feed a person's day. Nobody at the lower scale consented to that inflow and mostly nobody can see it; it arrives at the same rate whether or not it is noticed. So a Local Rule you find in yourself has two possible origins: one you built by repetition, and one that was delivered. They feel identical from inside and answer to different interventions, and the second is the more common. Mara's ten could be either.
 
-**INSERT after Mara tries it. Parts: her, the floor, a morning count. Connections: twelve leaves her sore, and soreness shortens the next set. Function: holding the number near ten. She wants more; the system is built to hold ten. That mismatch is the finding. Her test: raise the aim; if ten still pulls her back, the diagnosis was wrong.** (+57 words; round 1; move: worked example with a stated failure condition; inspired by C044)
+**INSERT after P0721** (+57 words; round 1; move: worked example with a stated failure condition; inspired by C044)
 
 *Worked example with a named person returns to the opening puzzle, and names what would show the diagnosis failed.*
 
@@ -4877,7 +4880,7 @@ New paragraph:
 
 > Mara tries it. Parts: her, the floor, a morning count. Connections: twelve leaves her sore, and soreness shortens the next set. Function: holding the number near ten. She wants more; the system is built to hold ten. That mismatch is the finding. Her test: raise the aim; if ten still pulls her back, the diagnosis was wrong.
 
-**INSERT after Mara tries it. Parts: her, the floor, a morning count. Connections: twelve leaves her sore, and soreness shortens the next set. Function: holding the number near ten. She wants more; the system is built to hold ten. That mismatch is the finding. Her test: raise the aim; if ten still pulls her back, the diagnosis was wrong.** (+57 words; round 2; move: worked example with a stated failure condition; inspired by C083)
+**INSERT after P0721** (+57 words; round 2; move: worked example with a stated failure condition; inspired by C083)
 
 *Runs the three questions on Mara and ends on a test that can fail, giving the chapter a worked example with a name and a number.*
 
@@ -4885,7 +4888,7 @@ New paragraph:
 
 > Mara tries it. Parts: her, the floor, a morning count. Connections: twelve leaves her sore, and soreness shortens the next set. Function: holding the number near ten. She wants more; the system is built to hold ten. That mismatch is the finding. Her test: raise the aim; if ten still pulls her back, the diagnosis was wrong.
 
-**INSERT after Clear's line now has its mechanism: a system holds what it is organized to hold, so the high rungs win by changing that. If Mara's test comes back as predicted, her ten was never a failure of effort.** (+38 words; round 2; move: return to the opening epigraph and person, now loaded; inspired by C075)
+**INSERT after P0721** (+38 words; round 2; move: return to the opening epigraph and person, now loaded; inspired by C075)
 
 *Place after the Mara paragraph. Returns to the opening epigraph and Mara's ten with new weight, hedged on her test, so the landing is conditional rather than overclaimed.*
 
@@ -4948,7 +4951,7 @@ After:
 
 > **If the fix is redesign, what gets redesigned is your choices, not your resolve: sustainable effort comes from shaping the choices in front of you, not from forcing yourself through whatever happens to be there.** Systems built to hold people for years, such as a well-tuned game's difficulty settings or a good coach's training plan, rarely leave difficulty, options, and goals generic. They fit them to the person's current capacity and mood, and they limit them, because too many undifferentiated choices can disengage people as surely as too few. Applied to your own practice, sustainable means reshaping the demands, not applying willpower evenly against fixed ones. On a depleted day, narrow to one option: the smallest version of your Local Rule, with nothing to decide. On a day with capacity, widen it. Recalibrate the way this chapter opened, with challenge set against skill, so that showing up meets you where you actually are. The smallest version has a concrete form.
 
-**INSERT after One breath does not treat depression; the opening was right about that. It keeps the loop alive on a day with nothing else in it. Tally the catches. If the breath changes nothing you can notice, or you never catch the holding, change the cue, then the practice's pitch. If low days persist, that calls for help, not technique.** (+59 words; round 1; move: return to the planted image with a failure test; inspired by C044)
+**INSERT after P0734** (+59 words; round 1; move: return to the planted image with a failure test; inspired by C044)
 
 *Lands on the opening's depression and depleted day, adds a sign the breath is not working, and keeps the claim humble.*
 
@@ -5047,7 +5050,7 @@ After:
 
 > **Try this:** Name the role you play in the group you pictured at the start — the organizer, the one who lightens things, the one who says the hard thing. Once this week, at a low-stakes moment, play it differently or leave it open: let the silence sit, or hand the task to someone else. Then watch for two things. Did you feel a pull to step back in? Did the group rearrange around the gap? If it did, the role was holding something up, and you've learned what before changing anything. If nobody noticed and nothing pulled, it was habit rather than scaffolding. If you can't tell, try a second occasion before deciding. You don't have to stop. Just check that it's still a choice.
 
-**INSERT after Back in the kitchen, the line cook who bristles at the pass sees only the hierarchy. Ask what the rank carries: a dozen cooks plating hundreds of dinners without collision. Then ask what it costs. Together the answers separate scaffolding from a cage. The group you pictured at the start holds something up, and now you can say what.** (+59 words; round 2; move: close on the opening image carrying more weight; inspired by C061)
+**INSERT after P0742** (+59 words; round 2; move: close on the opening image carrying more weight; inspired by C061)
 
 *Returns to the kitchen and the pictured group promised in the opening, so the chapter lands on the changed question (scaffolding or cage) rather than on a role exercise. 57 words.*
 
@@ -5278,7 +5281,7 @@ After:
 
 > It also carries a duty, and it keeps the seams showing. When this framework resembles what another tradition already found, as being beyond telling predicts it often will, say so, give credit, and say what is kept and what is read differently. The Fold, a rule you sent out coming back to you, is the pressure other traditions call karma, without their ledger. The observing self is the witness contemplatives have described for millennia, without an eternal soul beneath it. That is not rebranding. It is two climbers who may be on the same mountain, each route keeping its name on the map.
 
-**INSERT after A map earns trust from how it was surveyed, not from how many copies circulate. Part One showed you this one's drawing; this chapter handed you the question to put to it and to every other map you carry: *measured, or merely repeated?* Try it first on the one you have never traced.** (+53 words; round 1; move: close on the opening image carrying the chapter's question; inspired by C014)
+**INSERT after P0776** (+53 words; round 1; move: close on the opening image carrying the chapter's question; inspired by C014)
 
 *Lands the chapter on the Korzybski map image from the epigraph and opening, now carrying the question, and hands off to the Try this.*
 
@@ -5432,7 +5435,7 @@ After:
 
 > **Balance is a rate of work you sustain, never a state you reach.** Tuesday's gaps slid one way; the Tide does not, and its lesson corrects the most common misreading of balance. A balancing loop rarely produces stillness. With delay in it, it produces a wave: a constant teeter around its setpoint, like a shower you keep nudging between too hot and too cold. Its average looks like rest. Its actual state never is. Loosen the correction and the swings widen. Stop it altogether and the loop has quit, which is no pole at all, and the thing careens.
 
-**INSERT after Take a Tuesday of tense email. You eat a snack at 2:05, again at 2:40, again at 3:00: gaps of 35 minutes, then 20, each reach coming sooner. That is the Salve in Tending. Gaps of 35, then 50, then 70 would be Fraying.** (+44 words; round 1; move: one worked case with numbers, read off the table; inspired by C073)
+**INSERT after P0839** (+44 words; round 1; move: one worked case with numbers, read off the table; inspired by C073)
 
 *Gives the table a person and a worked day with numbers, so the Salve row becomes a checkable causal reading rather than a catalogue entry.*
 
@@ -5440,7 +5443,7 @@ New paragraph:
 
 > Take a Tuesday of tense email. You eat a snack at 2:05, again at 2:40, again at 3:00: gaps of 35 minutes, then 20, each reach coming sooner. That is the Salve in Tending. Gaps of 35, then 50, then 70 would be Fraying.
 
-**INSERT after Tomorrow, pick one row and its small act, and note the gaps between repeats. Shrinking is Tending; widening, Fraying. If you cannot name the act, or the gaps do neither, you have named a mood, not a Third. The snack was never the finding; the 35, then 20, was.** (+49 words; round 1; move: end on a try-this with a failure condition, returning to the opening case; inspired by C044)
+**INSERT after P0841** (+49 words; round 1; move: end on a try-this with a failure condition, returning to the opening case; inspired by C044)
 
 *Ends on a small, bad-day-sized test with a stated failure condition, returning to Tuesday's snack now carrying more weight, instead of closing on the Flow aside.*
 
@@ -5551,7 +5554,7 @@ After:
 
 > **Try this:** name the pattern you and one specific person reliably produce, the climbing email thread, say. Find it in the table. Read off your own Self-Kin, then theirs, and ask honestly whether that lands. Then ask which test applies: is it stable, where moving costs you, or stalled, where not moving does? Then ask the only question you have leverage over: what happens to the Dyad-Kin between you if you change your leg and theirs stays exactly where it is? If nothing shifts after a few rounds, your guess about the row or their half was probably wrong, so try the next candidate.
 
-**INSERT after Read the table by finding your own pairing, not by scanning all nineteen rows. Pick the one person and the one pattern you already suspect, and start there.** (+28 words; round 1; move: tell the reader where to enter a long table; inspired by C037)
+**INSERT after P0844** (+28 words; round 1; move: tell the reader where to enter a long table; inspired by C037)
 
 *Tells the reader how to use the table so it stops being a dump.*
 
@@ -5559,7 +5562,7 @@ New paragraph:
 
 > Read the table by finding your own pairing, not by scanning all nineteen rows. Pick the one person and the one pattern you already suspect, and start there.
 
-**INSERT after Read the table by finding your own pairing, not by scanning all nineteen rows. Pick the one person and the one pattern you already suspect, and start there.** (+28 words; round 2; move: narrow the entry point to one case; inspired by C022)
+**INSERT after P0844** (+28 words; round 2; move: narrow the entry point to one case; inspired by C022)
 
 *Eases the nineteen-row load by giving the reader one thread to follow before the three readings begin.*
 
@@ -5567,7 +5570,7 @@ New paragraph:
 
 > Read the table by finding your own pairing, not by scanning all nineteen rows. Pick the one person and the one pattern you already suspect, and start there.
 
-**INSERT after The reply-all war never had a single author, so it needs no single surrender. Your whole half is one reply a notch cooler than the last. The next email shows whether the thread moved.** (+34 words; round 2; move: return to opening image as a test; inspired by C058)
+**INSERT after P0854** (+34 words; round 2; move: return to opening image as a test; inspired by C058)
 
 *Ends on the chapter's opening image with new weight: the climbing thread is now something the reader can test with one small act.*
 
@@ -5642,7 +5645,7 @@ After:
 
 > **And the push, since a Third with nowhere to push is a cloud.** You can't push on the emergence, because nobody is authoring it. Push below it, on Information flow: on what the people setting the rules can actually see. That might be a feedback channel that reaches them, or an honest look at how the work really gets done. Small test for this week: ask whoever set a rule what it has produced, and compare their answer with what you see. If they can't say, the return path is cut. Ban the workaround without that view and a new one grows where Priya still can't see it, at the same speed as the last.
 
-**INSERT after Eleven figures follow, each two Dyad-Kin sharing a person, each a Third that gives a group its shape. Read them for the pattern. Then stay with one, Second-Order Design, the only one whose Tending and Fraying you cannot judge by how things feel, and leave with a test you can run on a rule you set.** (+56 words; round 2; move: state the one aim and the pivot before the table; inspired by C071)
+**INSERT after P0855** (+56 words; round 2; move: state the one aim and the pivot before the table; inspired by C071)
 
 *Gives the chapter a stated aim up front and explains why one row is singled out, so the pivot after the table is expected.*
 
@@ -5681,7 +5684,7 @@ After:
 
 > *A warning for this tier: these figures are built from other figures, three steps from anything watched directly. Carry them as questions to a team or a town, not as answers; anything built on them is more provisional still. If your one figure changed nothing anyone did, you have met the clinic's clock, and can now see it.*
 
-**INSERT after A clinic's report says waits are falling. The waiting room looks the same. This chapter names seven patterns too large for any one hand to hold or turn, and gives you one question to carry into the room where yours is running.** (+42 words; round 1; move: open on a concrete case that states the aim and plants the closing image; inspired by C037)
+**INSERT after P0862** (+42 words; round 1; move: open on a concrete case that states the aim and plants the closing image; inspired by C037)
 
 *Gives the chapter a stated aim and a person-scale image near the opening, planted so the closing can return to it.*
 
@@ -5969,7 +5972,7 @@ After:
 
 > That is this book's one idea, said at the largest scale it has: we build the world by repeating what we cannot see. Sometimes what we built outlives the seeing entirely, and gets a name, and a face, and a story someone tells slightly differently around the next fire. The test above reaches only the first copy; how far any of your acts travels cannot be known in advance. The rest goes to ground, and stays in the cycle either way. Somewhere a cook is stirring a recipe from a woman she never met, and the woman never learned it had traveled.
 
-**INSERT after Try this today. Pick one small thing you do on purpose: how you greet the new hire, the thanks you give the driver. Within a month, look for one place someone did it when you were not there. Finding none is no failure; the pattern is still one person wide. Finding one shows a first copy, no more.** (+58 words; round 1; move: small test with a stated empty result; inspired by C044)
+**INSERT after P0905** (+58 words; round 1; move: small test with a stated empty result; inspired by C044)
 
 *Supplies the missing small step: an action doable today, an observable that can come back empty, and an honest limit on what a hit proves.*
 
@@ -6142,7 +6145,7 @@ After:
 
 > What follows is a pocket reference, not a replacement for Part Five's catalogue; go there for the mechanism and the fusion lineage. Use it mid-Weaving, card in hand, to find the one line that lets you ask: is this running in my life right now, and which way? Take Dana, who draws The Riverbed for her stalled morning runs. Tending reads: your setup makes one action easier each time. She checks the week, not her feelings: shoes by the door, three runs in five mornings, against one last month. Tending, with a number behind it. Had the count not moved, the card would not fit, and that is an answer too.
 
-**INSERT after Next week Dana asks the same card again. If the shoes still sit by the door and the count hasn't moved, she has her sign: the card was wrong, or the setup isn't the lever. And if a reading starts to sound like a verdict on you, set the card down; it names a pattern, never a person.** (+58 words; round 1; move: return to the opening person with a stated failure condition and a safety stop; inspired by C044)
+**INSERT after P0933** (+58 words; round 1; move: return to the opening person with a stated failure condition and a safety stop; inspired by C044)
 
 *Gives the chapter a landing: returns to Dana, states what would show the card failed, and adds a protective stop rule for low-mood readers.*
 
@@ -6444,7 +6447,7 @@ After:
 
 > Kept alone or with whoever is nearest, these are the lightest and most frequent occasions in the calendar, each aimed at a habit you run daily without noticing: how you start things, rest, measure yourself, patch what breaks, remember your own life. The aim here is one Turning, tried once. Pick the row that sounds like you and keep it this month.
 
-**INSERT after Take Dana, who picks The Patch Audit on a Tuesday. Her list runs to nine: a bungee-corded cabinet door, a password on a sticky note, a "temporary" invoice spreadsheet two years old. She fixes one properly, the cabinet, in twenty minutes. The other eight stay on the list.** (+48 words; round 1; move: plant a named person with a number in the catalogue; inspired by C073)
+**INSERT after P1016** (+48 words; round 1; move: plant a named person with a number in the catalogue; inspired by C073)
 
 *Gives the table a person, a number and a traceable small loop before the catalogue.*
 
@@ -6452,7 +6455,7 @@ New paragraph:
 
 > Take Dana, who picks The Patch Audit on a Tuesday. Her list runs to nine: a bungee-corded cabinet door, a password on a sticky note, a "temporary" invoice spreadsheet two years old. She fixes one properly, the cabinet, in twenty minutes. The other eight stay on the list.
 
-**INSERT after Dana's check is a number: next month the list is shorter, or the door still shuts. If the list only grows, or the one fix keeps getting skipped, that is a result too, and another row may fit better. Pick yours tonight and put a date on it.** (+48 words; round 1; move: state what failure looks like, then return to the planted image; inspired by C044)
+**INSERT after P1017** (+48 words; round 1; move: state what failure looks like, then return to the planted image; inspired by C044)
 
 *Adds a failure sign, returns to the planted door, and ends on a small action for today.*
 
@@ -6479,7 +6482,7 @@ After:
 
 > Triggered by circumstance rather than calendar: the cue is the pattern itself, so read the table for the Third your pair keeps meeting, not the Turning that sounds nicest. A Turning still counts as recurring when what recurs is the *situation* rather than the date. The Ceasefire Dinner comes after a real fight, every real fight, and for most relationships the pattern returns more reliably than any anniversary.
 
-**INSERT after Say Dana and Mo have the same fight about money twice a month, and it always ends in a cold evening. In the table that is Escalation. Next time, once voices drop, each cooks one dish. Neither apologizes first; the cooking is the off-ramp.** (+44 words; round 1; move: plant a named person at the opening, then return to them at the close; inspired by C073)
+**INSERT after P1019** (+44 words; round 1; move: plant a named person at the opening, then return to them at the close; inspired by C073)
 
 *Gives the table a couple standing in it, so one row becomes a lived case the reader can recognize.*
 
@@ -6487,7 +6490,7 @@ New paragraph:
 
 > Say Dana and Mo have the same fight about money twice a month, and it always ends in a cold evening. In the table that is Escalation. Next time, once voices drop, each cooks one dish. Neither apologizes first; the cooking is the off-ramp.
 
-**INSERT after Back to Dana and Mo: the test is the next fight. If it ends sooner, or the quiet after it is warmer, the Turning worked; if the dinner is eaten in the same cold silence, they misread the pattern, and try another row. Where a fight carries fear, skip the table and bring in help.** (+55 words; round 1; move: close on the planted person with a stated failure condition and caution; inspired by C044)
+**INSERT after P1020** (+55 words; round 1; move: close on the planted person with a stated failure condition and caution; inspired by C044)
 
 *Lands on the planted couple with a checkable sign of failure and a safety caution for unsafe relationships.*
 
@@ -6526,7 +6529,7 @@ After:
 
 > Choosing one is closer to reading a Dyad Turning than to checking a calendar, with one difference: a Dyad's trigger can usually be named out loud, and a Gathering's is usually sensed first. Someone notices the group has stopped saying hard things, or that everything routes through one person, or that the standard slid. If you've ever left a dinner thinking *nobody said it*, you've felt one: Held Silence, the first row below. That noticing is the trigger; the Third in each row names what the noticing would be. Test the sense before acting: can you finish the sentence "nobody said ___"? If you can't, wait. If you can, run the matching Gathering at the next occasion you already have.
 
-**INSERT after Then check the room. At Dana's next practice night, did anyone say a hard thing without the table being opened? If only the Loud Table night had it, the Gathering produced a performance, not a change; try again with the sentence sharper. The row's last column is the sign to look for.** (+52 words; round 2; move: close with a failure condition on the named case; inspired by C044)
+**INSERT after P1024** (+52 words; round 2; move: close with a failure condition on the named case; inspired by C044)
 
 *Supplies the missing sign of working or failing and lands the chapter back in the room where a hard thing goes unsaid, instead of ending on a bare table.*
 
@@ -6553,7 +6556,7 @@ After:
 
 > *Anchor honestly to your own place. Where seasons swing, solstices and equinoxes land hard; near the equator they barely register, and a Turning tied to a turn you never feel is one you'll forget. The rule was never "use the solstice" — it was "anchor to a cadence that keeps its own appointment where you actually live." Which turn do you actually feel? If your year turns on the rains, keep it by the rains. Today, pick the one row whose Third you already see in your group and write down the date of that turn. A year on, if nobody at the fire can say when it fell, the anchor was wrong: move it.*
 
-**INSERT after These seven are the Culture-scale Turnings, pinned to the sky so that no one has to remember them. Each gives one slow pattern one yearly turn in which to be seen. Picture a village at the winter fire, asked a single question: what hasn't moved since last year? Chapter 7 explains why the sky keeps the appointment.** (+57 words; round 1; move: state the aim and plant an image near the opening for the close to echo; inspired by C037)
+**INSERT after P1025** (+57 words; round 1; move: state the aim and plant an image near the opening for the close to echo; inspired by C037)
 
 *Gives the table a stated aim, a person-scale scene to return to, and an explicit pointer to where anchoring is taught.*
 
@@ -6604,7 +6607,7 @@ After:
 
 > You will not see most of what these occasions eventually build, and some will not outlast you; a recipe survives only where someone stood close enough to learn it. So the comfort is smaller and sturdier than a promise: the laying itself was real, and this year one guest can stand at your elbow.
 
-**INSERT after **Try this:** after your next Turning, ask two guests separately what it was for. If their answers match, the aim is travelling and someone else could keep it. If they differ, or neither can say, it is still yours alone, and that is what to hand on next year.** (+49 words; round 1; move: end with a test that can say it failed; inspired by C044)
+**INSERT after P1048** (+49 words; round 1; move: end with a test that can say it failed; inspired by C044)
 
 *Gives a small, checkable test of whether a Turning is being carried, with a visible sign of failure.*
 
@@ -6631,7 +6634,7 @@ After:
 
 > *For daily use, alone or in groups, at any pause in the day: the kettle, the doorway, the red light. Each is short enough to say in a breath, so it gets said again; like a path worn by walking, the repeating does the work. Take one line and keep it a week. The first five choose the step, the next three steady you when you reach past it, the last three check the loop and bring it to a room. Part Two gives the practices most of these accompany.*
 
-**INSERT after Check it plainly. After a week with one line, did you do the small step you named, even once, or catch yourself reaching and come back? If not, the line was recited, not repeated; change the line or the pause. Then, at the kettle tomorrow, say it again.** (+48 words; round 1; move: close with a stopping condition and return to the opening image; inspired by C044)
+**INSERT after P1061** (+48 words; round 1; move: close with a stopping condition and return to the opening image; inspired by C044)
 
 *Adds a sign of failure and returns to the kettle planted in the opening, so the appendix ends on use rather than a list's last line.*
 
