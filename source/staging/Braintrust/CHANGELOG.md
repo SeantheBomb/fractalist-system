@@ -10,7 +10,7 @@ Every persona's score and note for every unit in every round is in `scores.json`
 
 1. **92 units are still below 3 after four rounds** (13 at median 1, 79 at 1.5–2.5). The plan capped the loop at four rounds, so the "no 0, 1 or 2" target was **not** reached. They sit in the draft in their latest revision, flagged in the chapter tables below as Unresolved. 31 of them are epigraphs and 11 are short framing lines, which struggle to earn the Concrete and Personal points under this rubric; another 45 are prose.
 2. **The revisions grew the text.** 517 of 730 revised units got longer (200 shorter), taking in-scope words from 82,643 to 84,630 even after 40 cuts. The panel rewards examples and stakes, which cuts against the "elegance / cut noise" standard.
-3. **Derivation Map anchors broke** (next section). The original manuscript has none drifted; this draft has 23 phrases across 21 chapters.
+3. **Derivation Map anchors**: the panel's revisions broke 24 anchor phrases; they have since been restored (next section) and reconcile is clean, but the restored wording was not rescored.
 4. **94 revisions carry a doctrinal flag**, meaning the editor said a full fix would need a doctrine change and gave a non-doctrinal version instead. Listed below.
 5. **Rounds 3–4 were scored and edited on Sonnet** (rounds 0–2 on the session model) to save tokens, so scores are not perfectly comparable across that boundary.
 6. Round 0 is the only round where all 1,090 units were scored; later rounds only rescored what was revised.
@@ -143,37 +143,38 @@ Every persona's score and note for every unit in every round is in `scores.json`
 | 9. What Outlives the Ceremony | 5 | 2 | 3 | 0 | 0 |
 | A. The Mantras, Prayers, and Meditations — Full Text | 13 | 1 | 10 | 1 | 1 |
 
-## Derivation Map anchors lost
+## Derivation Map anchors: lost, then restored
 
-The original manuscript passes `scripts/reconcile.mjs` with no drifted anchors. This draft does not: 23 anchor phrases across 21 chapters are gone or reworded. `Derivation_Map.json` keys on these phrases, so before this draft replaces the manuscript each one needs either restoring or re-anchoring. Each row shows the unit that carried the phrase and what the panel did to it.
+The panel's revisions removed or reworded 24 anchor phrases that `Derivation_Map.json` keys on (23 trace anchors, plus "Leverage can be real and still not be yours to reach." from the ground claims). `scripts/reconcile.mjs` on the first draft reported 21 drifted chapters and 4 ground claims not found where stated; the original manuscript reports none.
 
-| Chapter node | Anchor phrase | Unit | Fate |
-|---|---|---|---|
-| the-stall | A stall has three usual causes | U0307 | reworded |
-| the-sacrifice-trap | It is a direction you check your acceleration against. | U0409 | reworded |
-| presence | Presence makes understanding possible. | U0495 | reworded |
-| closing-the-loop | a closed loop, not a checklist | U0586 | reworded |
-| what-you-already-know | Nothing large was built large. | U0027 | reworded |
-| position-speed-acceleration | You never get to touch position directly. | U0135 | reworded |
-| a-word-on-belief | This was built. | U0170 | reworded |
-| sketching-a-loop | count how many are negative | U0636 | reworded |
-| loop-tongue-limits | Three honest gaps | U0667 | reworded |
-| the-mathematics | the rule set is the compression | U0685 | reworded |
-| the-mathematics | single random bit | U0690 | reworded |
-| systems-theory | Most are mixtures. | U0723 | reworded |
-| fractalism-collective | identity beyond a certain size | U0752 | reworded |
-| what-a-weaving-is | orthographic | U0934 | reworded |
-| tending-and-fraying | determines Tending or Fraying by context, not by chance | U0958 | reworded |
-| the-full-unravelling | read upward | U0986 | reworded |
-| reading-the-global-form | The Word/Label test applies to every mapping | U1041 | reworded |
-| anchoring | Anchor to whatever cadence is real | U1065 | reworded |
-| outlives-the-ceremony | A Turning is itself a Local Rule | U1074 | reworded |
-| running-it-forward | You can find a rule that fits. You cannot run it forward. | U0793 | reworded |
-| running-it-forward | There is no list. | U0799 | reworded |
-| private-turnings | One a month | U1043 | reworded |
-| skein-gatherings | These are not dated and they are not monthly. | U1050 | reworded |
+All 24 were then restored in a separate, minimal pass: the revised wording kept, the anchor phrase spliced back in; three units that the panel had rewritten whole were reverted to the original instead. **Reconcile now reports no drifted anchors and nothing not found where stated, the same as the original.** Two caveats: the restored wording was **not rescored by the panel**, and a few splices put back plainer or more technical phrasing the panel had asked to change (for example "your acceleration" in U0409).
 
-Also reported by reconcile: not found where stated: repetition-builds, chance-remains, leverage, perspective
+| Unit | Chapter node | Fix | Old (revision) | New |
+|---|---|---|---|---|
+| U0307 | the-stall | spliced | When you're stuck, one of three things is usually missing — fuel, a map, or a real want —  | A stall has three usual causes — fuel, a map, or a real want — and they are not interchangeable. |
+| U0409 | the-sacrifice-trap | spliced | **It is a direction you check today's push against**, the way a sailor checks the compass  | **It is a direction you check your acceleration against.** A sailor checks the compass the same way, knowing s |
+| U0495 | presence | reverted whole unit | (revision discarded) | (original text) |
+| U0586 | closing-the-loop | spliced | That's a circle, not a checklist: | That's a closed loop, not a checklist: |
+| U0027 | what-you-already-know | spliced | Almost nothing large in your life was built large. It was built small, | Nothing large was built large. In your own life it was built small, |
+| U0135 | position-speed-acceleration | spliced | Not once, ever. A life works | You never get to touch position directly. Not once, ever. A life works |
+| U0170 | a-word-on-belief | spliced | This was built, from real mathematics, tested psychology and stories people already found  | This was built. It came from real mathematics, tested psychology and stories people already found true enough  |
+| U0636 | sketching-a-loop | spliced | Count the minuses. | Then count how many are negative. |
+| U0667 | loop-tongue-limits | spliced | Three places this language is known to break. | Three honest gaps — places this language is known to break. |
+| U0685 | the-mathematics | spliced | the rules are the loop, the coastline is the tree that grows from it. | the rule set is the compression, the loop, and the coastline is the tree that grows from it. |
+| U0690 | the-mathematics | spliced | **A coin flip added to a rule can make complexity appear.** | **A single random bit, a coin flip, added to a rule can make complexity appear.** |
+| U0723 | systems-theory | spliced | between two parties, and most are mixtures. | between two parties. Most are mixtures. |
+| U0752 | fractalism-collective | spliced | beyond a certain size, identity can't be carried by direct relationship alone | identity beyond a certain size can't be carried by direct relationship alone |
+| U0934 | what-a-weaving-is | spliced | What turning finds is **perspective** | A single flat view is **orthographic**: accurate as far as it goes, and permanently partial. What turning find |
+| U0958 | tending-and-fraying | spliced | a Weaving settles Tending or Fraying by context, not by chance | a Weaving determines Tending or Fraying by context, not by chance |
+| U0986 | the-full-unravelling | spliced | **Then stop drawing.** | **Then stop drawing, and read upward.** |
+| U1041 | reading-the-global-form | spliced | **Every mapping this chapter produces gets the Word/Label test:** | **The Word/Label test applies to every mapping this chapter produces:** |
+| U1065 | anchoring | spliced | Anchor to whichever is real and strongly felt where | Anchor to whatever cadence is real and strongly felt where |
+| U1074 | outlives-the-ceremony | spliced | Ceremonies get no special rule here. Any Local Rule | A Turning is itself a Local Rule, so it gets no special rule here: any Local Rule |
+| U0793 | running-it-forward | reverted whole unit | (revision discarded) | (original text) |
+| U0799 | running-it-forward | spliced | There is no list, only the line you drew | There is no list. There is only the line you drew |
+| U1043 | private-turnings | reverted whole unit | (revision discarded) | (original text) |
+| U1050 | skein-gatherings | spliced | These Gatherings have no dates; they ride along | These are not dated and they are not monthly. They ride along |
+| U0370 | fractal-resistance (also "not found where stated": leverage) | spliced | **Some levers are real and still not yours to reach.** | **Leverage can be real and still not be yours to reach.** |
 
 ## Doctrinal flags
 
@@ -969,9 +970,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > Nothing large was built large. It was built small, over and over, until it stopped looking small.
 
-**After:**
+**After (anchor restored):**
 
-> Almost nothing large in your life was built large. It was built small, over and over, until it stopped looking small.
+> Nothing large was built large. In your own life it was built small, over and over, until it stopped looking small.
+
+*Restored by splice: "Almost nothing large in your life was built large. It was built small," → "Nothing large was built large. In your own life it was built small,"*
 
 *Editor, round 1:* Adds 'almost' and 'in your life' so it survives shocks and planned highways (Stress-Tester, Structural Critic); personal scope lifts P; keeps the line people want to carry.
 
@@ -3317,9 +3320,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > You never get to touch position directly. Not once, ever. You can only apply a force — and a force produces acceleration. Time does everything after that: integrating your acceleration into speed, and your speed into position, quietly, without asking permission and without telling you it's working.
 
-**After:**
+**After (anchor restored):**
 
-> Not once, ever. A life works like any moving body here: all you can do is apply a force, and a force produces acceleration. Time does everything after that. It adds your acceleration up into speed and your speed into position, quietly, without asking permission and without telling you it's working. You can't put a year of savings in the account today. You can only change what goes in each week.
+> You never get to touch position directly. Not once, ever. A life works like any moving body here: all you can do is apply a force, and a force produces acceleration. Time does everything after that. It adds your acceleration up into speed and your speed into position, quietly, without asking permission and without telling you it's working. You can't put a year of savings in the account today. You can only change what goes in each week.
+
+*Restored by splice: "Not once, ever. A life works" → "You never get to touch position directly. Not once, ever. A life works"*
 
 *Editor, round 1:* Flagged the analogy with 'works like' (Skeptic, Satirist). Bridged to flow-and-stock with a savings example (Modeler) and kept the freeing 'time does everything after' line (Contemplative). Opener follows the new U0134.
 
@@ -4040,9 +4045,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > So: yes. This was built. Assembled out of mathematics that's real, psychology that's tested, and stories that people have already found true enough to love — by people repeating a pattern they kept noticing until the pattern held together on its own. That is not a confession. It's the method, stated once, applied to itself. A belief built by repetition, describing a world built by repetition, honest about being exactly what it says everything else is.
 
-**After:**
+**After (anchor restored):**
 
-> So: yes. This was built, from real mathematics, tested psychology and stories people already found true enough to love, by repeating a pattern until it held together on its own. That means you can check it the way the book says to check everything: by what it builds when it's repeated. Part Two's seven days are that check. They cost about a week, and if you finish them and still can't see a loop while it runs, the book has failed its own test.
+> So: yes. This was built. It came from real mathematics, tested psychology and stories people already found true enough to love, by repeating a pattern until it held together on its own. That means you can check it the way the book says to check everything: by what it builds when it's repeated. Part Two's seven days are that check. They cost about a week, and if you finish them and still can't see a loop while it runs, the book has failed its own test.
+
+*Restored by splice: "This was built, from real mathematics, tested psychology and stories people already found true enough to love, by repeating a pattern" → "This was built. It came from real mathematics, tested psychology and stories people already found true enough to love, by repeating a pattern"*
 
 *Editor, round 1:* Cut the mirror-trick last sentence (Contemplative, Satirist). The ending now turns to the reader with something to do, checking the book (Clinician, Game Designer, Habit Engineer). Tighter, less self-admiring (Stress-Tester).
 
@@ -6397,9 +6404,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **A stall has three usual causes, and they are not interchangeable.**
 
-**After:**
+**After (anchor restored):**
 
-> **When you're stuck, one of three things is usually missing — fuel, a map, or a real want — and they are not interchangeable.**
+> **A stall has three usual causes — fuel, a map, or a real want — and they are not interchangeable.**
+
+*Restored by splice: "When you're stuck, one of three things is usually missing — fuel, a map, or a real want — and they are not interchangeable." → "A stall has three usual causes — fuel, a map, or a real want — and they are not interchangeable."*
 
 *Editor, round 1:* Signpost complaint: the header now carries content, previewing the three legs in plain metaphor (empty tank, fog, want) so it scores beyond E.
 
@@ -7305,9 +7314,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **And now the thing this chapter is useless without, which the previous one was in no position to say.** Leverage can be real and still not be yours to reach.
 
-**After:**
+**After (anchor restored):**
 
-> **Some levers are real and still not yours to reach.** The last chapter's ladder ranked rungs by how much they move, not by who may touch them. A new hire can see exactly which meeting wastes everyone's week and still have no power to cancel it.
+> **Leverage can be real and still not be yours to reach.** The last chapter's ladder ranked rungs by how much they move, not by who may touch them. A new hire can see exactly which meeting wastes everyone's week and still have no power to cancel it.
+
+*Restored by splice: "**Some levers are real and still not yours to reach.**" → "**Leverage can be real and still not be yours to reach.**"*
 
 *Editor, round 1:* Drops the throat-clearing first sentence (Contemplative, Habit Engineer). Puts the panel's favourite line up front and bare (Satirist, Structural Critic). Keeps the cross-reference to the previous chapter as a short tail.
 
@@ -7934,9 +7945,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **A vision is not a destination, and the confusion about that is what produces the trap.** Part One already gave the mechanics: you never touch position or speed directly; you apply a force, and a force produces acceleration. So a vision is not somewhere you arrive. **It is a direction you check your acceleration against.** You never get there; you verify, periodically, that today's push is still pointed at it.
 
-**After:**
+**After (anchor restored):**
 
-> **A vision is not a destination, and mistaking it for one is what springs the trap.** Part One's mechanics hold here: you never move where you are directly; you can only push, and the push sets your heading. So a vision is not a place you arrive. **It is a direction you check today's push against**, the way a sailor checks the compass knowing she will never reach north. You never get there. Every so often you look up and confirm that today's effort still points that way.
+> **A vision is not a destination, and mistaking it for one is what springs the trap.** Part One's mechanics hold here: you never move where you are directly; you can only push, and the push sets your heading. So a vision is not a place you arrive. **It is a direction you check your acceleration against.** A sailor checks the compass the same way, knowing she will never reach north. You never get there. Every so often you look up and confirm that today's effort still points that way.
+
+*Restored by splice: "**It is a direction you check today's push against**, the way a sailor checks the compass knowing she will never reach north." → "**It is a direction you check your acceleration against.** A sailor checks the compass the same way, knowing she will never reach north."*
 
 *Editor, round 1:* Replaced the force/acceleration language with push and heading, and used the compass image several reviewers suggested. Added a person doing the checking and kept 'you never get there'. Part One reference softened, not stated as physics.
 
@@ -9534,9 +9547,9 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > > **Presence makes understanding possible. Understanding is what care is made of.**
 
-**After:**
+**After (reverted to the original; the revision cost the anchor):**
 
-> > **Be with them, and they let you understand them. Understand them, and your care becomes help.**
+> > **Presence makes understanding possible. Understanding is what care is made of.**
 
 *Editor, round 1:* Left unchanged: most reviewers found it memorable and said it earns the blockquote. The Satirist's lone request to unbold was outweighed.
 
@@ -11102,9 +11115,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > That's a closed loop, not a checklist — the last practice feeding the first, which is why nothing here has a completion state. You don't finish the Self movement and graduate to the Dyad one. You run all three, badly at first, and each one makes the others slightly more possible than they were last month. If the practices ever start feeling like a sequence you're working through, you've turned a complex thing back into a complicated one, and you'll get the results a checklist gets.
 
-**After:**
+**After (anchor restored):**
 
-> That's a circle, not a checklist: the last practice feeds the first, so nothing here has a completion state. You don't finish the Self and graduate to the Dyad. You run all three, badly at first, and on each lap something is a little easier than it was last month. That is the progress. Treat them as a sequence and you've turned a complex thing back into a complicated one, and you'll get the results a checklist gets.
+> That's a closed loop, not a checklist: the last practice feeds the first, so nothing here has a completion state. You don't finish the Self and graduate to the Dyad. You run all three, badly at first, and on each lap something is a little easier than it was last month. That is the progress. Treat them as a sequence and you've turned a complex thing back into a complicated one, and you'll get the results a checklist gets.
+
+*Restored by splice: "That's a circle, not a checklist:" → "That's a closed loop, not a checklist:"*
 
 *Editor, round 1:* Keeps 'badly at first' and the dry checklist line. Adds a felt milestone for each lap (Game Designer). Less repetition of U0585. Keeps the complex/complicated callback but compresses it.
 
@@ -12328,9 +12343,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **One more thing worth knowing, because it tells you which mark to actually draw rather than leaving it to guesswork: every arrow in a chain carries a sign, and the loop's own type follows from those signs exactly, not by feel.** An arrow is "+" if more of the cause produces more of the effect, "−" if more of the cause produces less of it. Trace the whole loop, note the sign of every link, and count how many are negative. An even count — including zero — makes it reinforcing. An odd count makes it balancing. *Anxiety → checking the phone* is a "+" link; *checking the phone → relief* is a "+" link; *relief → faster anxiety next time* is a "+" link — zero negatives, even, reinforcing, exactly matching the ↻ above. This isn't a metaphor for how loops work. It's the actual arithmetic underneath the mark, and it means you never have to guess which symbol to draw — you can derive it, every time, from the chain itself.
 
-**After:**
+**After (anchor restored):**
 
-> **If you're unsure which mark to draw, the chain will tell you.** Give each arrow a sign: "+" if more of the cause means more of the effect, "−" if it means less. Count the minuses. Even, including none, is reinforcing ↻; odd is balancing ⤸. The phone hides two loops, one fast and one slow. Tonight: *anxiety → check (+) → relief (+) → less anxiety (−)*, one minus, balancing ⤸: checking really does calm you. Over weeks: *anxiety → check (+) → relief (+) → faster anxiety next time (+)*, no minuses, reinforcing ↻: the relief teaches you to need it. That's why the phone feels like the cure and works like the cause. You never have to guess the mark; you can count it.
+> **If you're unsure which mark to draw, the chain will tell you.** Give each arrow a sign: "+" if more of the cause means more of the effect, "−" if it means less. Then count how many are negative. Even, including none, is reinforcing ↻; odd is balancing ⤸. The phone hides two loops, one fast and one slow. Tonight: *anxiety → check (+) → relief (+) → less anxiety (−)*, one minus, balancing ⤸: checking really does calm you. Over weeks: *anxiety → check (+) → relief (+) → faster anxiety next time (+)*, no minuses, reinforcing ↻: the relief teaches you to need it. That's why the phone feels like the cure and works like the cause. You never have to guess the mark; you can count it.
+
+*Restored by splice: "Count the minuses." → "Then count how many are negative."*
 
 *Editor, round 1:* Fixed the fudged relief sign by splitting the time scales (Modeler, Skeptic, Satirist). Cut the restating sentences and the overclaim (Structural Critic). Kept it a quick recipe a reader can check (Habit Engineer, Stress-Tester). It is now shorter.
 
@@ -12927,9 +12944,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > Three honest gaps, stated plainly rather than smoothed over.
 
-**After:**
+**After (anchor restored):**
 
-> Three places this language is known to break. Better to find them here than mid-argument, in front of the person you were drawing it for.
+> Three honest gaps — places this language is known to break. Better to find them here than mid-argument, in front of the person you were drawing it for.
+
+*Restored by splice: "Three places this language is known to break." → "Three honest gaps — places this language is known to break."*
 
 *Editor, round 1:* Keeps the honest tone reviewers liked and gives the reader a concrete reason to read the gaps now, not mid-argument.
 
@@ -13461,9 +13480,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > There's a compression claim buried in this that the rest of the book has been leaning on without naming. A sphere is fully described by one number, a triangle by three — but describing a coastline in genuine detail takes millions. And yet a handful of iterated rules will generate a coastline of the same character, with detail at every scale. This is the formal version of Loop and Tree: the rule set is the compression, the generated form is the unrolled thing, and the enormous gap between how little you must specify and how much you get back is precisely what it means for something to be built by repetition rather than by design.
 
-**After:**
+**After (anchor restored):**
 
-> Change one small thing in a rule you repeat, and everything it grows changes with it. Picture a coastline: zoom in and there is always more detail, without end. Yet a handful of rules, repeated, will grow a coastline just like it, with detail at every scale. That is Loop and Tree, part for part: the rules are the loop, the coastline is the tree that grows from it. You wrote down very little and repetition returned a great deal, which is what it means to be built by repetition rather than by design. Nudge one rule, and the coastline comes out different at every scale.
+> Change one small thing in a rule you repeat, and everything it grows changes with it. Picture a coastline: zoom in and there is always more detail, without end. Yet a handful of rules, repeated, will grow a coastline just like it, with detail at every scale. That is Loop and Tree, part for part: the rule set is the compression, the loop, and the coastline is the tree that grows from it. You wrote down very little and repetition returned a great deal, which is what it means to be built by repetition rather than by design. Nudge one rule, and the coastline comes out different at every scale.
+
+*Restored by splice: "the rules are the loop, the coastline is the tree that grows from it." → "the rule set is the compression, the loop, and the coastline is the tree that grows from it."*
 
 *Editor, round 1:* Keeps the coastline contrast (Satirist, Mythmaker); swaps compression/unrolled jargon for seed-and-growth (Clinician, Game Designer); names iterated function systems (Stress-Tester); softens 'precisely' (Skeptic). Loop and Tree cross-reference kept.
 
@@ -13631,9 +13652,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **Complexity can emerge from a rule with a single random bit added to each step.** Take an iterative rule that would otherwise be entirely deterministic — repeat the same fixed operation on a starting value, over and over — and introduce exactly one small element of chance into each step, such as randomly flipping a sign before applying the rule. For the right rule, the result is not a small variation on the deterministic pattern. It is the same category of object arrived at from the opposite direction — an intricate, self-similar structure with fine detail at every scale, reached by chance rather than by construction. This is worth sitting with because it cuts against a common intuition — that adding randomness to a system should make it messier or less structured. Here, a single well-placed bit of chance is exactly what turns a flat, predictable rule into something with genuine depth. It's the same shape as the Fourth Iteration in the Genesis story: chance folded into a rule doesn't destroy structure, it's frequently what makes richer structure possible in the first place.
 
-**After:**
+**After (anchor restored):**
 
-> **A coin flip added to a rule can make complexity appear.** Take a rule with two possible next steps, each pulling a point toward its own spot. Follow one fixed choice forever and every point settles to the same place: flat, predictable, finished. Now flip a coin at each step to choose between the two, and mark where the points land. Instead of one dot you get a Julia set, a lacy outline that curls into smaller copies of itself at every scale. Intuition says chance should make a system messier. Here the coin doesn't add the pattern; it lets the rule show a depth no single fixed choice ever could. Chance folded into a rule need not destroy structure, as in the Fourth Iteration of the Genesis story; it can be where the structure appears. The next exercise asks you to try that on a routine.
+> **A single random bit, a coin flip, added to a rule can make complexity appear.** Take a rule with two possible next steps, each pulling a point toward its own spot. Follow one fixed choice forever and every point settles to the same place: flat, predictable, finished. Now flip a coin at each step to choose between the two, and mark where the points land. Instead of one dot you get a Julia set, a lacy outline that curls into smaller copies of itself at every scale. Intuition says chance should make a system messier. Here the coin doesn't add the pattern; it lets the rule show a depth no single fixed choice ever could. Chance folded into a rule need not destroy structure, as in the Fourth Iteration of the Genesis story; it can be where the structure appears. The next exercise asks you to try that on a routine.
+
+*Restored by splice: "**A coin flip added to a rule can make complexity appear.**" → "**A single random bit, a coin flip, added to a rule can make complexity appear.**"*
 
 *Editor, round 1:* Names the rule (random-sign inverse iteration, Julia set) so it can be run and pictured; shows deterministic versus random outcome; Genesis tie-in kept as a cross-reference but reframed as rhyme, not mechanism.
 
@@ -14203,9 +14226,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Two structures are *isomorphic* when they have identical shape under different labels — same parts, same connections, different names on everything. That is precisely what "the same pattern at a different scale" asserts every time this book says it. Which means the claim is falsifiable, and should be treated that way: show the correspondence, part for part and relation for relation, or admit you are pattern-matching. A resemblance that cannot be laid out as a structure-preserving match between two systems is a resemblance, not a Nest. Held to that standard, the claim holds often and not always. The sources this book draws on describe a culture capturing its own measures, drifting, locking in and handing down practice with the same mechanics they describe for one person or a pair, and a good share of the larger patterns in Part Five are each a smaller pattern run between two parties. Most are mixtures. The operation repeats at every scale; a given shape repeating is common, and has to be shown each time.
 
-**After:**
+**After (anchor restored):**
 
-> **The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Take a person who starts eating for the bathroom scale and a company that starts working for its quarterly metric. Each has a measure, a target, and choices that bend toward the measure instead of the thing it measures, joined the same way. That is what *isomorphic* means: the same parts and the same connections under different names, and it is exactly what this book claims every time it says "the same pattern at a different scale." So the claim can fail. Name the parts on each side, pair them off, and check that the connections match. A resemblance that cannot be laid out like that is a resemblance, not a Nest. Run the test on any "this is just like" you hear, including this book's. Held to that standard, the claim holds often and not always. A good share of the larger patterns in Part Five are a smaller pattern run between two parties, and most are mixtures. The operation repeats at every scale; a given shape repeating is common, and has to be shown each time.
+> **The Nest's central claim has a formal test, and it is worth adopting as a discipline rather than a footnote.** Take a person who starts eating for the bathroom scale and a company that starts working for its quarterly metric. Each has a measure, a target, and choices that bend toward the measure instead of the thing it measures, joined the same way. That is what *isomorphic* means: the same parts and the same connections under different names, and it is exactly what this book claims every time it says "the same pattern at a different scale." So the claim can fail. Name the parts on each side, pair them off, and check that the connections match. A resemblance that cannot be laid out like that is a resemblance, not a Nest. Run the test on any "this is just like" you hear, including this book's. Held to that standard, the claim holds often and not always. A good share of the larger patterns in Part Five are a smaller pattern run between two parties. Most are mixtures. The operation repeats at every scale; a given shape repeating is common, and has to be shown each time.
+
+*Restored by splice: "between two parties, and most are mixtures." → "between two parties. Most are mixtures."*
 
 *Editor, round 1:* Adds the part-for-part worked match that Game Designer and Mythmaker asked for. Trims the source inventory (Contemplative, Clinician). Keeps the falsifiable test and the 'often and not always' verdict the Skeptic, Modeler and Satirist praised.
 
@@ -14759,9 +14784,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > One of the clearest places this shows up is in how societies construct legitimate authority at scale. A group of a dozen people can organize around direct, individual relationships — everyone actually knows everyone. A nation of hundreds of millions cannot. Making a group that large cohere requires something a small group doesn't: an invented shared story — a history, a symbol set, a sense of common identity — that lets people who will never meet each other feel bound into the same "we." This is not a cynical claim that large-scale identity is fake. It's a structural claim about scale: identity beyond a certain size cannot be sustained by direct relationship alone, and always requires a Third Thing — a shared narrative — doing the binding work that face-to-face familiarity did at smaller scale.
 
-**After:**
+**After (anchor restored):**
 
-> One of the clearest places this shows up is in how societies build legitimate authority at scale. A group of a dozen people can run on direct relationships; everyone knows everyone. The anthropologist Robin Dunbar put the ceiling for that kind of knowing at roughly 150 people. A nation of hundreds of millions cannot work that way. Holding a group that large together needs what Benedict Anderson called an imagined community: a shared story, a history, a flag, an anthem, that lets strangers who will never meet feel bound into the same "we." It's why someone can tear up at an anthem sung by people they'll never know. This is not a cynical claim that large-scale identity is fake. It's a structural claim about scale: beyond a certain size, identity can't be carried by direct relationship alone, and always requires a Third Thing, a shared narrative, doing the binding work that face-to-face familiarity did in the small group. Ask what story binds the largest "we" you belong to.
+> One of the clearest places this shows up is in how societies build legitimate authority at scale. A group of a dozen people can run on direct relationships; everyone knows everyone. The anthropologist Robin Dunbar put the ceiling for that kind of knowing at roughly 150 people. A nation of hundreds of millions cannot work that way. Holding a group that large together needs what Benedict Anderson called an imagined community: a shared story, a history, a flag, an anthem, that lets strangers who will never meet feel bound into the same "we." It's why someone can tear up at an anthem sung by people they'll never know. This is not a cynical claim that large-scale identity is fake. It's a structural claim about scale: identity beyond a certain size can't be carried by direct relationship alone, and always requires a Third Thing, a shared narrative, doing the binding work that face-to-face familiarity did in the small group. Ask what story binds the largest "we" you belong to.
+
+*Restored by splice: "beyond a certain size, identity can't be carried by direct relationship alone" → "identity beyond a certain size can't be carried by direct relationship alone"*
 
 *Editor, round 1:* Credited Dunbar with the number and Anderson (Modeler, Skeptic, Satirist), added the anthem image so the Third Thing is felt (Mythmaker), and closed with a reader question (Game Designer, Habit Engineer).
 
@@ -15592,9 +15619,9 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > *"You can find a rule that fits. You cannot run it forward."*
 
-**After:**
+**After (reverted to the original; the revision cost the anchor):**
 
-> *"You can find a rule that fits your life. You cannot run it forward."*
+> *"You can find a rule that fits. You cannot run it forward."*
 
 *Editor, round 1:* Most reviewers liked the epigraph as it was. Adding 'your life' gives it a direct personal stake while keeping it a one-line limit statement.
 
@@ -15735,9 +15762,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > A Global Form at one scale is a Local Rule at the next. So any boundary you draw around a system is a convenience rather than a fact: the thing you drew around is being entered, continuously, by rules running at scales you did not include. You did not fail to finish the list. There is no list.
 
-**After:**
+**After (anchor restored):**
 
-> So any boundary you draw around a system is a convenience, not a fact. Draw one around your household and it is still entered every day by rules you left out: a boss's schedule, a landlord's lease, an interest rate, a school calendar. You did not fail to finish the list. There is no list, only the line you drew and whatever keeps crossing it.
+> So any boundary you draw around a system is a convenience, not a fact. Draw one around your household and it is still entered every day by rules you left out: a boss's schedule, a landlord's lease, an interest rate, a school calendar. You did not fail to finish the list. There is no list. There is only the line you drew and whatever keeps crossing it.
+
+*Restored by splice: "There is no list, only the line you drew" → "There is no list. There is only the line you drew"*
 
 *Editor, round 1:* Keeps 'There is no list' untouched. Adds everyday examples so the boundary point lands on the reader's own life (personal, concrete). The opening premise moved up into U0798.
 
@@ -18896,9 +18925,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > This is not a new claim. It's the mantra you've already been carrying since Part One, applied at a scale larger than a single moment: **you feel a line. You are a loop. You build a tree.** The reason a single vantage point is never enough is the same reason experience itself is never enough — a loop cannot be seen from inside any one point on it. You need more than one position to triangulate the actual shape, the way a flat, single-angle drawing of an object can never quite convince you of its true form as turning it in your hands does. Call the first kind of view **orthographic** — flat, accurate as far as it goes, and permanently partial. Call the second **perspective** — built from holding several flat views together until the real shape comes forward on its own. Part One uses the same word more narrowly, for your view from one position. Here it names what Part One calls depth: what more than one view makes together, and what no single one holds.
 
-**After:**
+**After (anchor restored):**
 
-> You can't see a whole loop from any one point on it, just as no single drawing of a cup convinces you the way turning it in your hands does. What turning finds is **perspective**, Part One's depth: the shape several views make together that none of them holds alone. It is Part One's mantra at a wider scale: **you feel a line. You are a loop. You build a tree.**
+> You can't see a whole loop from any one point on it, just as no single drawing of a cup convinces you the way turning it in your hands does. A single flat view is **orthographic**: accurate as far as it goes, and permanently partial. What turning finds is **perspective**, Part One's depth: the shape several views make together that none of them holds alone. It is Part One's mantra at a wider scale: **you feel a line. You are a loop. You build a tree.**
+
+*Restored by splice: "What turning finds is **perspective**" → "A single flat view is **orthographic**: accurate as far as it goes, and permanently partial. What turning finds is **perspective**"*
 
 *Editor, round 1:* Removed the confusing 'same word, narrower sense' passage that nearly every reviewer flagged, and pointed briefly to Part One's 'depth'. The hands image now leads. Both terms stay because Chapter 3 cites them.
 
@@ -19585,9 +19616,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > There is no reversed orientation to fuss over, no upside-down card to interpret by convention — a Weaving determines Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: is this pattern, in the situation actually in front of you, running stronger or running weaker? Sometimes this is obvious the moment the card is named. Sometimes it's the entire question the Weaving was performed to answer, and sitting with the ambiguity honestly is more useful than forcing a quick verdict either way.
 
-**After:**
+**After (anchor restored):**
 
-> There is no reversed card to fuss over, no upside-down convention to decode: a Weaving settles Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: in the situation actually in front of you, is this pattern running stronger or weaker? Draw The Set Course while weighing the job you took five years ago, and the question becomes: has each year made leaving harder, or easier? Sometimes the answer is obvious the moment the card is named. Sometimes it's the whole question the Weaving was laid out to answer, and sitting honestly with the ambiguity is more useful than forcing a quick verdict either way.
+> There is no reversed card to fuss over, no upside-down convention to decode: a Weaving determines Tending or Fraying by context, not by chance. When a Third is drawn, ask plainly: in the situation actually in front of you, is this pattern running stronger or weaker? Draw The Set Course while weighing the job you took five years ago, and the question becomes: has each year made leaving harder, or easier? Sometimes the answer is obvious the moment the card is named. Sometimes it's the whole question the Weaving was laid out to answer, and sitting honestly with the ambiguity is more useful than forcing a quick verdict either way.
+
+*Restored by splice: "a Weaving settles Tending or Fraying by context, not by chance" → "a Weaving determines Tending or Fraying by context, not by chance"*
 
 *Editor, round 1:* Answered the near-universal P0 and A0 with a personal worked draw: The Set Course on the reader's own job, using the deck table's wording. Kept the plain question and the honest-ambiguity advice reviewers praised. Tightened the opening.
 
@@ -20112,9 +20145,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **Then stop drawing, and read upward.**
 
-**After:**
+**After (anchor restored):**
 
-> **Then stop drawing.** Two cards are all chance gets. Everything above them is worked out, not dealt, so the cards cannot invent your life for you. At each rung, ask one thing first: is this actually happening?
+> **Then stop drawing, and read upward.** Two cards are all chance gets. Everything above them is worked out, not dealt, so the cards cannot invent your life for you. At each rung, ask one thing first: is this actually happening?
+
+*Restored by splice: "**Then stop drawing.**" → "**Then stop drawing, and read upward.**"*
 
 *Editor, round 1:* Still a bold pacing line, but it now says why you stop: from here chance has no say. That line moved up from U0987.
 
@@ -21333,9 +21368,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **The Word/Label test applies to every mapping this chapter produces, without exception:** would this Turning still make sense, and still get kept, if the figure's name were forgotten entirely and only the underlying practice remained? If yes, the mapping was a Word — useful, checkable, disposable without loss. If the occasion only survives because of the figure it's now named after, the Turning has already started the exact corrosion Chapter 0 warned about.
 
-**After:**
+**After (anchor restored):**
 
-> **Every mapping this chapter produces gets the Word/Label test:** if everyone forgot the figure's name, would this Turning still make sense, and still get kept? A teaching day kept because the teaching is good passes: the name was a Word, a handy tag you could drop without losing anything. A day kept because it's "our Faithful Chain day," long after anyone learns much at it, fails: the name has become a Label, propping up an occasion that no longer earns itself, and the Turning has started the exact corrosion Chapter 0 warned about.
+> **The Word/Label test applies to every mapping this chapter produces:** if everyone forgot the figure's name, would this Turning still make sense, and still get kept? A teaching day kept because the teaching is good passes: the name was a Word, a handy tag you could drop without losing anything. A day kept because it's "our Faithful Chain day," long after anyone learns much at it, fails: the name has become a Label, propping up an occasion that no longer earns itself, and the Turning has started the exact corrosion Chapter 0 warned about.
+
+*Restored by splice: "**Every mapping this chapter produces gets the Word/Label test:**" → "**The Word/Label test applies to every mapping this chapter produces:**"*
 
 *Editor, round 1:* Led with the plain forget-the-name question (Game Designer, Clinician, Satirist); glossed Word and Label in lay terms for newcomers; dropped 'without exception' (Contemplative).
 
@@ -21359,9 +21396,9 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > *"One a month, and the year has room for all of them."*
 
-**After:**
+**After (reverted to the original; the revision cost the anchor):**
 
-> *"Small enough to keep alone, one a month: a life is built from habits this size."*
+> *"One a month, and the year has room for all of them."*
 
 *Editor, round 1:* Added the lift reviewers missed: smallness and solitude as the reason all twelve fit, still one light line.
 
@@ -21502,9 +21539,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > These are not dated and they are not monthly. A Skein already gathers — a standing dinner, a practice night, a group that happens to be in one room — and these are what you reach for once you are there and something in the room is asking for it.
 
-**After:**
+**After (anchor restored):**
 
-> Your Skein already gathers — the standing dinner, the practice night, the crew that ends up in one room anyway. These Gatherings have no dates; they ride along on those nights, pulled out when something in the room calls for one. A practice that needs no extra evening is one that actually gets kept.
+> Your Skein already gathers — the standing dinner, the practice night, the crew that ends up in one room anyway. These are not dated and they are not monthly. They ride along on those nights, pulled out when something in the room calls for one. A practice that needs no extra evening is one that actually gets kept.
+
+*Restored by splice: "These Gatherings have no dates; they ride along" → "These are not dated and they are not monthly. They ride along"*
 
 *Editor, round 1:* Answers the Contemplative and Game Designer's 'clear but no move': it is shorter and more concrete, and it ends on a personal, actionable line that leads into the trigger paragraph.
 
@@ -21880,9 +21919,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > **Solstice and equinox are not the only reliable cadence, and treating them as the only correct one would quietly re-import exactly the kind of single-correct-form thinking this whole Part has been built to avoid.**  The lunar cycle is visible from everywhere on Earth and needs no cultural memory either. A tide, a monsoon, a planting season, a migration — every place on Earth has at least one natural cadence that keeps its own appointment without help. Anchor to whatever cadence is real and strongly felt where the Turning is actually practiced, and let that local reality decide the calendar rather than importing one from somewhere else.
 
-**After:**
+**After (anchor restored):**
 
-> **The solstice isn't the only reliable cadence, and making it the one correct form would smuggle back the single-correct-form thinking this Part was built to avoid.** The moon is visible from everywhere on Earth and needs no cultural memory either. A tide, a monsoon, a planting season, a migration: every place has at least one cadence that keeps its own appointment. A fishing town might keep the spring tides, a farming valley the first rains. Anchor to whichever is real and strongly felt where the Turning is practiced, and let the place set the calendar instead of importing one.
+> **The solstice isn't the only reliable cadence, and making it the one correct form would smuggle back the single-correct-form thinking this Part was built to avoid.** The moon is visible from everywhere on Earth and needs no cultural memory either. A tide, a monsoon, a planting season, a migration: every place has at least one cadence that keeps its own appointment. A fishing town might keep the spring tides, a farming valley the first rains. Anchor to whatever cadence is real and strongly felt where the Turning is practiced, and let the place set the calendar instead of importing one.
+
+*Restored by splice: "Anchor to whichever is real and strongly felt where" → "Anchor to whatever cadence is real and strongly felt where"*
 
 *Editor, round 1:* Shortens the overlong bold opener many reviewers flagged. Keeps the pluralist list and adds two concrete local examples so it goes beyond U1055 (Structural Critic) and the reader can find their own place in it.
 
@@ -21954,9 +21995,11 @@ The editor kept these within doctrine but said a full fix would need a doctrinal
 
 > A Turning is itself a Local Rule — repeated, shared, aimed — which means everything this book has already said about a Local Rule applies to it without exception, including the part most easily forgotten while an occasion is still young: it will, if kept honestly for long enough, stop belonging to whoever first held it.
 
-**After:**
+**After (anchor restored):**
 
-> Kept honestly for long enough, a Turning stops belonging to whoever first held it, the way your grandmother's recipe outlives her: someone learned it at her elbow, made it again, and taught it on. Ceremonies get no special rule here. Any Local Rule that people keep sharing and repeating can outlive its maker this way; the ones nobody passes on end with them.
+> Kept honestly for long enough, a Turning stops belonging to whoever first held it, the way your grandmother's recipe outlives her: someone learned it at her elbow, made it again, and taught it on. A Turning is itself a Local Rule, so it gets no special rule here: any Local Rule that people keep sharing and repeating can outlive its maker this way; the ones nobody passes on end with them.
+
+*Restored by splice: "Ceremonies get no special rule here. Any Local Rule" → "A Turning is itself a Local Rule, so it gets no special rule here: any Local Rule"*
 
 *Editor, round 1:* Leads with the buried payoff (Mythmaker, Habit Engineer, Satirist); cuts book-referencing jargon to one human image (Contemplative); keeps Local Rule framing short enough to serve as setup for U1075.
 
