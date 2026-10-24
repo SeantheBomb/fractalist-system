@@ -18,6 +18,6 @@ relatedThirds: ["the-gardener", "the-mask", "the-reputation"]
 
 **Fraying.** The view of a person holds less tightly, and their acts stray from it more often..
 
-**Its Turning.** Thin. What it builds: roles stay permeable.
+**Its Turning.** Fray. What it builds: roles stay permeable.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

@@ -18,6 +18,6 @@ relatedThirds: ["the-faithful-chain", "the-reputation"]
 
 **Fraying.** Handed-down ways are followed less surely, and people ask more often why they were ever done..
 
-**Its Turning.** Thin. What it builds: inheritance keeps its reasons attached.
+**Its Turning.** Fray. What it builds: inheritance keeps its reasons attached.
 
 Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

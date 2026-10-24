@@ -18,6 +18,6 @@ relatedThirds: ["the-riverbed"]
 
 **Fraying.** Each setup draws less answer, so the building around each other slows and settles..
 
-**Its Turning.** Thin. What it builds: directness stays available.
+**Its Turning.** Fray. What it builds: directness stays available.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

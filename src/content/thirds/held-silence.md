@@ -18,6 +18,6 @@ relatedThirds: ["the-guard", "the-standoff", "policy-resistance"]
 
 **Fraying.** Each quiet person holds the others back less, and the silence thins until someone speaks first..
 
-**Its Turning.** Thin. What it builds: saying the hard thing stops being unthinkable.
+**Its Turning.** Fray. What it builds: saying the hard thing stops being unthinkable.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

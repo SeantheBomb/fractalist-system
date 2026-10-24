@@ -18,6 +18,6 @@ relatedThirds: ["the-mirror", "the-hall-of-mirrors"]
 
 **Fraying.** The reading draws the part out less, and each part played proves the view more weakly..
 
-**Its Turning.** Thin. What it builds: two positions survive contact.
+**Its Turning.** Fray. What it builds: two positions survive contact.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

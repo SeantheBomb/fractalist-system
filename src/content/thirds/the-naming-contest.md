@@ -18,6 +18,6 @@ relatedThirds: ["the-namer", "transmission-drift", "the-inner-circle"]
 
 **Fraying.** Each name is met more slowly or not at all, so the naming back and forth quiets and the words settle loosely..
 
-**Its Turning.** Thin. What it builds: vocabulary becomes shared rather than contested.
+**Its Turning.** Fray. What it builds: vocabulary becomes shared rather than contested.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

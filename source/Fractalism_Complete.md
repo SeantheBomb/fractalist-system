@@ -573,7 +573,7 @@ Nothing here requires you to have fully resolved what you think about the Third 
 
 This part is organized around a claim that only becomes obvious once you're inside it: **a sustainable, fulfilling practice can't stay at one scale.** A Local Rule that only ever touches you, alone, tends to calcify into self-improvement for its own sake. A relationship practice with no grounding in your own patterns tends to burn out the person doing all the giving. A community with no individuals actually practicing anything real is just a Banner, Chapter 19's word for a shared name with nothing under it. So Part Two moves through three scales in order — **Self, Dyad, Skein** — each building on what came before it, closing on a chapter that treats them as one nested loop rather than three separate projects.
 
-**And everything in it is made of four moves.** *Look*: see a pattern while it runs. *Plant*: start a small act you mean to repeat. *Tend*: strengthen a loop that is running. *Thin*: weaken one, or let it go. That is everything that can be done with a loop — read it, begin one, raise it, lower it — and three rules turn four moves into a book: look comes first; any move can be made at any scale; and a move made with another person is made by what the two of you make together. One more is worth naming, because so much of this part leans on it, though it is not a fifth. **Hold** is tending and thinning at once, so that a thing stays where it is against the pull to change it. Holding your read, sitting through a pause, staying with a practice that has stopped showing results: all of it is work, and none of it is doing nothing.
+**And everything in it is made of four moves.** *Look*: see a pattern while it runs. *Plant*: start a small act you mean to repeat. *Tend*: strengthen a loop that is running. *Fray*: weaken one, or let it go. That is everything that can be done with a loop — read it, begin one, raise it, lower it — and three rules turn four moves into a book: look comes first; any move can be made at any scale; and a move made with another person is made by what the two of you make together. One more is worth naming, because so much of this part leans on it, though it is not a fifth. **Hold** is tending and fraying at once, so that a thing stays where it is against the pull to change it. Holding your read, sitting through a pause, staying with a practice that has stopped showing results: all of it is work, and none of it is doing nothing.
 
 ---
 
@@ -685,7 +685,7 @@ Residue collects at the edges of a day the way fluid pools at the body's extremi
 
 Its failure mode is already written into one of Part Five's figures: what you attend to grows, and so does whatever you keep confirming. Go looking for returns and you will find the ones you went looking for. The correction is the ordinary one — look for what actually happened, not for the evidence you wanted.
 
-**These four practices carry the four moves between them, which is worth saying once so they stop looking like a list.** Tree-Gazing and Naming the Loop are the same skill aimed two ways — pattern outward, pattern inward. Seeding is what goes in. The breath is thinning: pulling out what has started to take over. And the second beat above, going back to what you planted, is where tending starts. Look, plant, tend, thin. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.
+**These four practices carry the four moves between them, which is worth saying once so they stop looking like a list.** Tree-Gazing and Naming the Loop are the same skill aimed two ways — pattern outward, pattern inward. Seeding is what goes in. The breath is fraying: pulling out what has started to take over. And the second beat above, going back to what you planted, is where tending starts. Look, plant, tend, fray. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.
 
 ---
 
@@ -2100,7 +2100,7 @@ Part Two gave you practices. Part Three gave you words. This part gives you face
 
 A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. The Spark does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
 
-**A Third is a word.** That is the plainest way to say what this catalogue is for. Each figure is a name for a pattern, kept so that looking has something to recognise, and each one's two readings are what tending and thinning do to it: the same loop, run stronger or run weaker.
+**A Third is a word.** That is the plainest way to say what this catalogue is for. Each figure is a name for a pattern, kept so that looking has something to recognise, and each one's two readings are what tending and fraying do to it: the same loop, run stronger or run weaker.
 
 **Four things are true of every drawable figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 
@@ -2686,7 +2686,7 @@ This reframe is not merely more honest. It changes what the occasion is actually
 
 That is not an exemption from the two-pole rule, because poles and intent answer different questions: poles describe which way a running pattern is moving; intent describes what a made thing is for. Once people keep it, a Turning runs like any Local Rule, Tending as it takes hold and Fraying as it loosens, and its aim stays the same either way. What a Turning *can* do is fail — drift into performance, become obligation, start defending its own name — and what guards against that is the Braid warning below and the three checks in the next chapter, which is where a designed practice's failure modes properly live.
 
-**Each Turning in the tables is one move, made on one figure, at that figure's scale, and the Move column says which.** *Look* makes a pattern visible. *Plant* starts one. *Tend* runs one stronger. *Thin* loosens one. The choice is a judgment and should be read as one: a Turning that thins a figure is treating that figure's strengthening as the usual snare, and one that tends it is treating the strengthening as the lifeline. The poles stay neutral. The calendar does not, and it is better to say so than to let the judgment ride in unannounced. Where yours differs, change the move.
+**Each Turning in the tables is one move, made on one figure, at that figure's scale, and the Move column says which.** *Look* makes a pattern visible. *Plant* starts one. *Tend* runs one stronger. *Fray* loosens one. The choice is a judgment and should be read as one: a Turning that frays a figure is treating that figure's strengthening as the usual snare, and one that tends it is treating the strengthening as the lifeline. The poles stay neutral. The calendar does not, and it is better to say so than to let the judgment ride in unannounced. Where yours differs, change the move.
 
 **Every Turning in this Part is optional, and the calendar is a menu rather than a schedule.** What follows is a catalogue of occasions matched to patterns, not a liturgical year anyone is expected to keep whole. Take the handful that answer to something actually running in your life, place them where they fall naturally across the year the way any other holiday sits in a calendar, and leave the rest on the page for whenever they become relevant. A practice that produces fifty obligations has produced a job.
 
@@ -2725,12 +2725,12 @@ Kept alone or with whoever is nearest. These are the lightest occasions in the c
 | The Spark | Tend | **Spark Feast** — feast for something started and not finished | Starting stops requiring certainty |
 | The Tide | Tend | **Low Tide** — a day of indulgent rest, not productive rest | Rest stops needing to be earned |
 | The Mark | Look | **The Old Yardstick** — dig out a measure from years ago and compare honestly | Standards that moved without a decision become visible |
-| The Salve | Thin | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
-| The Nearest Light | Thin | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
-| The Keepsake | Thin | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
+| The Salve | Fray | **The Patch Audit** — list what's held by temporary fixes; properly fix one | Stopgaps stop silently becoming permanent |
+| The Nearest Light | Fray | **The Second Guess** — for one day, every instant answer gets a written second one | First answers stop being final |
+| The Keepsake | Fray | **The Long Read** — reread old journals or photos; notice what you'd forgotten | The remembered life reconnects to the lived one |
 | The Easier Door | Look | **The Actual Question** — write the question you're really answering beside the one you set out to | Substituted questions become visible |
-| The Mask | Thin | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
-| The Mirror | Thin | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
+| The Mask | Fray | **The Costume** — tell one person a story about yourself you're no longer sure is true | Self-stories stay testable |
+| The Mirror | Fray | **The Empty Room** — a day alone, nothing posted, nothing reported back | You find what's left when nobody's watching |
 | The Namer | Tend | **The Renaming** — rename one thing you've called by a name that no longer fits | Language stays pulled toward the real |
 | The Riverbed | Plant | **The Rearranging** — physically change one thing so a desired action gets easier | Environment takes over work willpower was doing |
 | The Gardener | Look | **The Watering** — name one thing you attended to all year, and what grew | Attention becomes a visible choice |
@@ -2745,25 +2745,25 @@ Triggered by circumstance rather than calendar. A Turning still counts as recurr
 
 | Third | Move | The Turning | What it builds |
 |---|---|---|---|
-| Escalation | Thin | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
-| The Standoff | Thin | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
+| Escalation | Fray | **The Ceasefire Dinner** — after a real fight, each cooks one dish | Escalation gets a reliable off-ramp |
+| The Standoff | Fray | **Who Goes First** — a coin flip decides who speaks first about the unsaid thing | Stalemates break by structure, not willpower |
 | The Pairing | Look | **Trading Places** — swap the driver and the brake for a day | Each learns the cost of the other's role |
 | Watering Another | Tend | **The Naming of Growth** — tell someone one thing you've watched grow in them | Growth gets witnessed |
-| Answering For | Thin | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
-| Filling the Gap | Thin | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
+| Answering For | Fray | **The Held Tongue** — a conversation where you may only ask questions | Capacity stays with its owner |
+| Filling the Gap | Fray | **The Checking** — ask directly about one assumption you've been running | Assumptions get tested before they harden |
 | The Guard | Tend | **The Unarmoring** — share one thing you'd normally armor | An opening gets answered with an opening |
 | Reading the Room | Look | **The Weather Report** — each names what they think the other feels, then gets corrected | Projection separates from perception |
 | Connection First | Tend | **The Long Preamble** — a meeting whose first half is deliberately not about the thing | Content lands because connection preceded it |
-| The Rising Bar | Thin | **Good Enough Day** — deliberately do something to a standard you'd normally reject | Sufficiency becomes possible again |
+| The Rising Bar | Fray | **Good Enough Day** — deliberately do something to a standard you'd normally reject | Sufficiency becomes possible again |
 | The Sliding Floor | Look | **The Original Terms** — revisit what you both agreed to at the start | Drift becomes visible while it's still small |
 | The Shared Story | Look | **The Two Tellings** — both tell one shared memory separately, then compare | Joint memory stays honest |
-| The Echo | Thin | **The Disagreement** — find one thing you genuinely disagree on, and don't resolve it | Two positions survive contact |
-| Typecasting | Thin | **The Wrong Role** — each does the thing the other is "the one who does that" | Roles stay permeable |
+| The Echo | Fray | **The Disagreement** — find one thing you genuinely disagree on, and don't resolve it | Two positions survive contact |
+| Typecasting | Fray | **The Wrong Role** — each does the thing the other is "the one who does that" | Roles stay permeable |
 | Gaming the Terms | Look | **The Spirit Reading** — reread an agreement and ask what it was actually for | Purpose outranks letter |
-| The Naming Contest | Thin | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
-| The Unbridged Gap | Thin | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
-| The Arrangement | Thin | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
-| The Tested Price | Thin | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
+| The Naming Contest | Fray | **The Shared Word** — invent one word together for something only you two experience | Vocabulary becomes shared rather than contested |
+| The Unbridged Gap | Fray | **The Teaching** — teach each other something from your own domain, to a beginner standard | Expertise stays transmissible |
+| The Arrangement | Fray | **The Direct Ask** — one thing asked for plainly rather than engineered | Directness stays available |
+| The Tested Price | Fray | **The First Price** — openly haggle over something low-stakes and silly | Testing becomes normal rather than insulting |
 
 ---
 
@@ -2777,17 +2777,17 @@ Which one you reach for is closer to reading a Dyad Turning than to consulting a
 
 | Third | Move | The Turning | What it builds |
 |---|---|---|---|
-| Held Silence | Thin | **The Loud Table** — the table is opened for one true unspoken thing, and the silence that follows if nobody takes it is left unfilled | Saying the hard thing stops being unthinkable |
+| Held Silence | Fray | **The Loud Table** — the table is opened for one true unspoken thing, and the silence that follows if nobody takes it is left unfilled | Saying the hard thing stops being unthinkable |
 | Transmission Drift | Look | **Round the Circle** — play telephone with a real story about the group | Drift becomes funny and visible |
 | The Faithful Chain | Tend | **The Handing-On** — teach one craft; credit whoever taught you, out loud | Skill compounds with its lineage intact |
-| First-Arriver Lock-In | Thin | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
+| First-Arriver Lock-In | Fray | **The Newcomer's Turn** — the newest member decides what the oldest usually decides | Early advantage stops calcifying |
 | The Shared Pot | Plant | **The Common Purse** — a resource everyone adds to and anyone may draw from, tracked openly | Shared things acquire a keeper |
-| The Reputation | Thin | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
-| The Settling | Thin | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
+| The Reputation | Fray | **The Recasting** — each names a role in the group they're tired of holding | Group-authored roles can be returned |
+| The Settling | Fray | **The High Bar** — attempt one genuinely difficult thing together | The group remembers what its ceiling was |
 | The Hall of Mirrors | Look | **The Outsider** — invite someone outside and let them describe what they see | An independent position enters the room |
 | Second-Order Design | Look | **The Rule Game** — invent a game with three rules, play it, then change one rule in answer to what actually happened | The group feels the return path, not just the emergence |
-| The Inner Circle | Thin | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
-| The Only Road | Thin | **The Handover** — whoever everything routes through hands one thing over completely, in advance, and does not take it back | Indispensability gets converted back into redundancy |
+| The Inner Circle | Fray | **The Plain Speech** — a gathering where no in-jokes or shorthand are allowed | Fluency stops functioning as a wall |
+| The Only Road | Fray | **The Handover** — whoever everything routes through hands one thing over completely, in advance, and does not take it back | Indispensability gets converted back into redundancy |
 
 ---
 
@@ -2798,10 +2798,10 @@ Which one you reach for is closer to reading a Dyad Turning than to consulting a
 | Third | Move | The Turning | Anchor | What it builds |
 |---|---|---|---|---|
 | The Shared Name | Look | **The Roll Call** — say what actually binds this group, without using its name | Spring equinox | The name stays accountable to the substance |
-| Proxy Detachment | Thin | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Late spring | The measure stops outranking what it measured |
-| Policy Resistance | Thin | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
+| Proxy Detachment | Fray | **The Unmeasured Day** — do the thing without recording, counting, or reporting it | Late spring | The measure stops outranking what it measured |
+| Policy Resistance | Fray | **The Full Stop** — everyone stops pulling for one day; see what actually moves | Summer solstice | Effort gets audited against motion |
 | The Long Cycle | Look | **The Harvest Accounting** — name what this year's growth actually cost | Autumn equinox | Expansion stays honest about its price |
-| The Received World | Thin | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
+| The Received World | Fray | **The Why Behind** — trace one inherited practice back to why it started | Late autumn | Inheritance keeps its reasons attached |
 | The Slow Hand | Look | **The Turning of the Year** — fire against the dark; name what hasn't moved all year | Winter solstice | What has held fixed too long to notice becomes visible once a year |
 | Independent Convergence | Tend | **Fools' Truth** — celebrate one idea someone worked out honestly on their own, before learning it already had a name | Late winter | Independent arrival stops reading as unoriginality |
 
@@ -2935,12 +2935,12 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 Chance — which of the things that can happen will. Worth — what any of it is for. The world brings the first. You bring the second.
 
 **The Four Moves** *(everything in Part Two is these: look first, at any scale, alone or with another)*
-Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Thin — weaken one, or let it go. *Hold is tending and thinning at once: keeping a thing where it is. It is work.*
+Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Fray — weaken one, or let it go. *Hold is tending and fraying at once: keeping a thing where it is. It is work.*
 
 **The Three Returns** *(what comes back, and when)*
 Brush — today; did the ground answer at all. Tree — years; is the direction still holding. Forest — longer than a life; not yours to watch. *A disturbance moves what shares its timescale: a bad day cannot have damaged your tree.*
 
-**The Four Daily Practices** *(four moves of one activity: look, plant, tend, thin)*
+**The Four Daily Practices** *(four moves of one activity: look, plant, tend, fray)*
 - **Local Step / Global Form breath** — ten breaths, for when a loop has swept you up.
 - **Tree-Gazing** — three minutes with anything that branches, for training your eye toward pattern.
 - **Naming the Loop** — cue, craving, response, reward, said silently, mid-habit.
@@ -3071,7 +3071,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Chance and worth** — What the pillars leave open. The world brings the first; you bring the second. Pt.1 Ch.4, 10 · Pt.2 Ch.11
 
-**The four moves, and hold** — Look, plant, tend, thin: every change that can be made to a loop. Hold is tending and thinning at once. Pt.2 opening · Pt.2 Ch.2 · Pt.7 Ch.0
+**The four moves, and hold** — Look, plant, tend, fray: every change that can be made to a loop. Hold is tending and fraying at once. Pt.2 opening · Pt.2 Ch.2 · Pt.7 Ch.0
 
 **The Woven Self** — The Third Thing pointed at the self. Pt.1 Ch.7 · Pt.2 Ch.4 · Pt.4 Ch.2
 

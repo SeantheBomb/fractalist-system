@@ -18,6 +18,6 @@ relatedThirds: ["filling-the-gap", "the-guard", "typecasting", "the-unbridged-ga
 
 **Fraying.** The story about who one is loosens as facts pile up, and each crack lets more of what is seen slip in..
 
-**Its Turning.** Thin. What it builds: self-stories stay testable.
+**Its Turning.** Fray. What it builds: self-stories stay testable.
 
 Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

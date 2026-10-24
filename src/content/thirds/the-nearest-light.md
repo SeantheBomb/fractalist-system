@@ -18,6 +18,6 @@ relatedThirds: ["filling-the-gap", "reading-the-room"]
 
 **Fraying.** What comes to mind first weighs less, and judgments wait longer for what arrives later..
 
-**Its Turning.** Thin. What it builds: first answers stop being final.
+**Its Turning.** Fray. What it builds: first answers stop being final.
 
 Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

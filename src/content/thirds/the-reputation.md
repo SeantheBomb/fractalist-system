@@ -18,6 +18,6 @@ relatedThirds: ["typecasting", "watering-another", "the-received-world"]
 
 **Fraying.** The group leans on the role less, and the person drifts in and out of it more freely..
 
-**Its Turning.** Thin. What it builds: group-authored roles can be returned.
+**Its Turning.** Fray. What it builds: group-authored roles can be returned.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

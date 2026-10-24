@@ -70,7 +70,7 @@ A word that can be replaced by a plain phrase without loss should be. Nine is no
 
 **Chance and worth** — What the pillars leave open. The world brings the first; you bring the second. Pt.1 Ch.4, 10 · Pt.2 Ch.11
 
-**The four moves, and hold** — Look, plant, tend, thin: every change that can be made to a loop. Hold is tending and thinning at once. Pt.2 opening · Pt.2 Ch.2 · Pt.7 Ch.0
+**The four moves, and hold** — Look, plant, tend, fray: every change that can be made to a loop. Hold is tending and fraying at once. Pt.2 opening · Pt.2 Ch.2 · Pt.7 Ch.0
 
 **The Woven Self** — The Third Thing pointed at the self. Pt.1 Ch.7 · Pt.2 Ch.4 · Pt.4 Ch.2
 

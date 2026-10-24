@@ -18,6 +18,6 @@ relatedThirds: ["the-mark", "the-namer", "the-inner-circle"]
 
 **Fraying.** The first number's hold loosens, so later offers drift further from it and are judged more on their own..
 
-**Its Turning.** Thin. What it builds: testing becomes normal rather than insulting.
+**Its Turning.** Fray. What it builds: testing becomes normal rather than insulting.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

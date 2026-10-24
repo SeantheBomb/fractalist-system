@@ -18,6 +18,6 @@ relatedThirds: ["the-mark", "the-spark", "first-arriver-lock-in", "second-order-
 
 **Fraying.** Each step reached lifts the next goal less, and the climbing slows toward a resting height..
 
-**Its Turning.** Thin. What it builds: sufficiency becomes possible again.
+**Its Turning.** Fray. What it builds: sufficiency becomes possible again.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

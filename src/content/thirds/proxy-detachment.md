@@ -18,6 +18,6 @@ relatedThirds: ["second-order-design", "the-shared-pot", "the-standing-account",
 
 **Fraying.** Effort aims less at the number, so it climbs slower and is called a win less often..
 
-**Its Turning.** Thin. What it builds: the measure stops outranking what it measured.
+**Its Turning.** Fray. What it builds: the measure stops outranking what it measured.
 
 Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.
