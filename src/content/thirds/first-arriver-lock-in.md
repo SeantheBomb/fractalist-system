@@ -18,6 +18,6 @@ relatedThirds: ["the-rising-bar", "escalation", "the-long-cycle", "the-slow-hand
 
 **Fraying.** Each win pays out less toward the next round, so the lead grows slower and the trailing side can close in..
 
-**Its Turning.** Thin. What it builds: early advantage stops calcifying.
+**Its Turning.** Fray. What it builds: early advantage stops calcifying.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

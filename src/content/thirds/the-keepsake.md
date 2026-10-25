@@ -18,6 +18,6 @@ relatedThirds: ["the-shared-story"]
 
 **Fraying.** The high point and ending hold less sway, so more of the whole time stays in memory as it was lived..
 
-**Its Turning.** Thin. What it builds: the remembered life reconnects to the lived one.
+**Its Turning.** Fray. What it builds: the remembered life reconnects to the lived one.
 
 Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

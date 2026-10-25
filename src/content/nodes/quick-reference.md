@@ -26,12 +26,12 @@ You feel a line. You are a loop. You build a tree. You will only ever feel the l
 Chance — which of the things that can happen will. Worth — what any of it is for. The world brings the first. You bring the second.
 
 **The Four Moves** *(everything in Part Two is these: look first, at any scale, alone or with another)*
-Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Thin — weaken one, or let it go. *Hold is tending and thinning at once: keeping a thing where it is. It is work.*
+Look — see a pattern while it runs. Plant — start a small act you mean to repeat. Tend — strengthen a loop. Fray — weaken one, or let it go. *Hold is tending and fraying at once: keeping a thing where it is. It is work.*
 
 **The Three Returns** *(what comes back, and when)*
 Brush — today; did the ground answer at all. Tree — years; is the direction still holding. Forest — longer than a life; not yours to watch. *A disturbance moves what shares its timescale: a bad day cannot have damaged your tree.*
 
-**The Four Daily Practices** *(four moves of one activity: look, plant, tend, thin)*
+**The Four Daily Practices** *(four moves of one activity: look, plant, tend, fray)*
 - **Local Step / Global Form breath** — ten breaths, for when a loop has swept you up.
 - **Tree-Gazing** — three minutes with anything that branches, for training your eye toward pattern.
 - **Naming the Loop** — cue, craving, response, reward, said silently, mid-habit.

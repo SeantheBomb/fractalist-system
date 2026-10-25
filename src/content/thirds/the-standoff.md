@@ -18,6 +18,6 @@ relatedThirds: ["the-tide", "held-silence", "the-settling"]
 
 **Fraying.** Each pull meets a weaker, slower pull back, so the shared thing drifts further toward one side before it returns..
 
-**Its Turning.** Thin. What it builds: stalemates break by structure, not willpower.
+**Its Turning.** Fray. What it builds: stalemates break by structure, not willpower.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

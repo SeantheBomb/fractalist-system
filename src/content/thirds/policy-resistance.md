@@ -18,6 +18,6 @@ relatedThirds: ["held-silence", "the-settling"]
 
 **Fraying.** Each push meets a weaker push back, and the whole drifts further before it returns, or moves..
 
-**Its Turning.** Thin. What it builds: effort gets audited against motion.
+**Its Turning.** Fray. What it builds: effort gets audited against motion.
 
 Catalogued in [The Culture-Kin](/node/culture-kin/), alongside every other figure at this scale.

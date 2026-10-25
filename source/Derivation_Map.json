@@ -26,7 +26,7 @@
       "culture"
     ],
     "lexicon": {
-      "note": "The Standing Thirds are named patterns: words, not theorems. A name lets Look recognise a pattern quickly, and a figure's two readings are what Tend and Thin do to it. Part Five now says so. Its tables and The Deck stay parked while the catalogue is reworked."
+      "note": "The Standing Thirds are named patterns: words, not theorems. A name lets Look recognise a pattern quickly, and a figure's two readings are what Tend and Fray do to it. Part Five now says so. Its tables and The Deck stay parked while the catalogue is reworked."
     }
   },
   "axioms": [
@@ -40,7 +40,7 @@
       "statedIn": [
         {
           "node": "daily-practices",
-          "anchor": "Look, plant, tend, thin."
+          "anchor": "Look, plant, tend, fray."
         }
       ],
       "sources": [
@@ -72,7 +72,7 @@
       "statedIn": [
         {
           "node": "daily-practices",
-          "anchor": "Look, plant, tend, thin."
+          "anchor": "Look, plant, tend, fray."
         }
       ],
       "sources": [
@@ -103,7 +103,7 @@
       "statedIn": [
         {
           "node": "daily-practices",
-          "anchor": "Look, plant, tend, thin."
+          "anchor": "Look, plant, tend, fray."
         }
       ],
       "sources": [
@@ -125,8 +125,8 @@
       ]
     },
     {
-      "id": "thin",
-      "name": "Thin",
+      "id": "fray",
+      "name": "Fray",
       "statement": "Weaken a loop, or let it go.",
       "onGround": [
         "repetition-builds",
@@ -135,7 +135,7 @@
       "statedIn": [
         {
           "node": "daily-practices",
-          "anchor": "Look, plant, tend, thin."
+          "anchor": "Look, plant, tend, fray."
         }
       ],
       "sources": [
@@ -157,7 +157,7 @@
       ]
     }
   ],
-  "axiomsNote": "Stated at the opening of Part Two and again in The Daily Practices: \"Look, plant, tend, thin. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.\" Together they cover every change that can be made to a loop: read it, begin one, raise it, lower it.",
+  "axiomsNote": "Stated at the opening of Part Two and again in The Daily Practices: \"Look, plant, tend, fray. That is the whole of it, and everything else in this part is those four moves at a larger scale or with another person in the room.\" Together they cover every change that can be made to a loop: read it, begin one, raise it, lower it.",
   "rules": [
     {
       "id": "in-order",
@@ -682,7 +682,7 @@
       "seen": "454953815f",
       "moves": [
         "look@self",
-        "thin@self",
+        "fray@self",
         "look@dyad",
         "plant@dyad",
         "hold@self",
@@ -701,14 +701,14 @@
         "Naming the Loop",
         "Tree-Gazing",
         "Seeding",
-        "Look, plant, tend, thin."
+        "Look, plant, tend, fray."
       ],
-      "seen": "01c5387d92",
+      "seen": "1c32d26544",
       "moves": [
         "look@self",
         "plant@self",
         "tend@self",
-        "thin@self"
+        "fray@self"
       ],
       "guides": [
         "watch-it-run",
@@ -743,7 +743,7 @@
       "seen": "22186d3659",
       "moves": [
         "look@self",
-        "thin@self"
+        "fray@self"
       ],
       "guides": [
         "check-the-stand-in",
@@ -795,7 +795,7 @@
       "moves": [
         "look@self",
         "plant@self",
-        "thin@self"
+        "fray@self"
       ],
       "guides": [
         "make-it-worth-repeating",
@@ -842,7 +842,7 @@
     {
       "node": "fractal-resistance",
       "verdict": "derived",
-      "leftover": "Its \"accept\" is Hold, with Thin on your own effort.",
+      "leftover": "Its \"accept\" is Hold, with Fray on your own effort.",
       "anchors": [
         "small, honest local variation",
         "The Nest is gated by connection"
@@ -855,7 +855,7 @@
         "look@self",
         "plant@skein",
         "plant@dyad",
-        "thin@self",
+        "fray@self",
         "hold@self"
       ],
       "guides": [
@@ -880,7 +880,7 @@
         "look@self",
         "plant@self",
         "tend@self",
-        "thin@self",
+        "fray@self",
         "hold@self"
       ],
       "guides": [
@@ -988,7 +988,7 @@
         "look@dyad",
         "plant@dyad",
         "tend@dyad",
-        "thin@dyad",
+        "fray@dyad",
         "hold@dyad"
       ],
       "guides": [
@@ -1459,7 +1459,7 @@
       "seen": "2b6922c2dc",
       "moves": [
         "look@self",
-        "thin@skein"
+        "fray@skein"
       ],
       "guides": [
         "check-the-stand-in",
@@ -1671,7 +1671,7 @@
         "Aimed.",
         "Each Turning in the tables is one move"
       ],
-      "seen": "9e3308eb26",
+      "seen": "fcb534b7da",
       "moves": [
         "plant@skein",
         "tend@skein",
@@ -1797,10 +1797,10 @@
       "moves": [
         "tend@self",
         "look@self",
-        "thin@self",
+        "fray@self",
         "plant@self"
       ],
-      "seen": "1d31dc3439"
+      "seen": "b86499eb22"
     },
     {
       "node": "dyad-turnings",
@@ -1810,11 +1810,11 @@
         "These have no dates."
       ],
       "moves": [
-        "thin@dyad",
+        "fray@dyad",
         "look@dyad",
         "tend@dyad"
       ],
-      "seen": "5179f2ab00"
+      "seen": "ba22c1b8fc"
     },
     {
       "node": "skein-gatherings",
@@ -1824,12 +1824,12 @@
         "These are not dated and they are not monthly."
       ],
       "moves": [
-        "thin@skein",
+        "fray@skein",
         "look@skein",
         "tend@skein",
         "plant@skein"
       ],
-      "seen": "fc938c4fd3"
+      "seen": "b307e58a98"
     },
     {
       "node": "great-days",
@@ -1840,10 +1840,10 @@
       ],
       "moves": [
         "look@culture",
-        "thin@culture",
+        "fray@culture",
         "tend@culture"
       ],
-      "seen": "9d5d5345e8"
+      "seen": "acb8d9a4e6"
     }
   ],
   "applications": [
@@ -1873,21 +1873,21 @@
       "scale": "self",
       "figure": "The Salve",
       "turning": "The Patch Audit",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "private-turnings",
       "scale": "self",
       "figure": "The Nearest Light",
       "turning": "The Second Guess",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "private-turnings",
       "scale": "self",
       "figure": "The Keepsake",
       "turning": "The Long Read",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "private-turnings",
@@ -1901,14 +1901,14 @@
       "scale": "self",
       "figure": "The Mask",
       "turning": "The Costume",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "private-turnings",
       "scale": "self",
       "figure": "The Mirror",
       "turning": "The Empty Room",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "private-turnings",
@@ -1936,14 +1936,14 @@
       "scale": "dyad",
       "figure": "Escalation",
       "turning": "The Ceasefire Dinner",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "The Standoff",
       "turning": "Who Goes First",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
@@ -1964,14 +1964,14 @@
       "scale": "dyad",
       "figure": "Answering For",
       "turning": "The Held Tongue",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "Filling the Gap",
       "turning": "The Checking",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
@@ -1999,7 +1999,7 @@
       "scale": "dyad",
       "figure": "The Rising Bar",
       "turning": "Good Enough Day",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
@@ -2020,14 +2020,14 @@
       "scale": "dyad",
       "figure": "The Echo",
       "turning": "The Disagreement",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "Typecasting",
       "turning": "The Wrong Role",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
@@ -2041,35 +2041,35 @@
       "scale": "dyad",
       "figure": "The Naming Contest",
       "turning": "The Shared Word",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "The Unbridged Gap",
       "turning": "The Teaching",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "The Arrangement",
       "turning": "The Direct Ask",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "dyad-turnings",
       "scale": "dyad",
       "figure": "The Tested Price",
       "turning": "The First Price",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
       "scale": "skein",
       "figure": "Held Silence",
       "turning": "The Loud Table",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
@@ -2090,7 +2090,7 @@
       "scale": "skein",
       "figure": "First-Arriver Lock-In",
       "turning": "The Newcomer's Turn",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
@@ -2104,14 +2104,14 @@
       "scale": "skein",
       "figure": "The Reputation",
       "turning": "The Recasting",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
       "scale": "skein",
       "figure": "The Settling",
       "turning": "The High Bar",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
@@ -2132,14 +2132,14 @@
       "scale": "skein",
       "figure": "The Inner Circle",
       "turning": "The Plain Speech",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "skein-gatherings",
       "scale": "skein",
       "figure": "The Only Road",
       "turning": "The Handover",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "great-days",
@@ -2153,14 +2153,14 @@
       "scale": "culture",
       "figure": "Proxy Detachment",
       "turning": "The Unmeasured Day",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "great-days",
       "scale": "culture",
       "figure": "Policy Resistance",
       "turning": "The Full Stop",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "great-days",
@@ -2174,7 +2174,7 @@
       "scale": "culture",
       "figure": "The Received World",
       "turning": "The Why Behind",
-      "move": "thin"
+      "move": "fray"
     },
     {
       "node": "great-days",
@@ -2195,10 +2195,10 @@
     {
       "id": "hold",
       "name": "Hold",
-      "statement": "Tend and thin at once, so a thing stays where it is against the pull to change it.",
+      "statement": "Tend and fray at once, so a thing stays where it is against the pull to change it.",
       "from": [
         "tend",
-        "thin"
+        "fray"
       ],
       "note": "Not a fifth axiom, because it is made of two of the four. The ledger says the same of patterns that meet in opposite directions: they are held. Deliberately not moving is Hold, and it is work.",
       "readings": "Steady or stuck. In a stable position, moving is what costs you; in a stalled one, not moving is what costs you.",

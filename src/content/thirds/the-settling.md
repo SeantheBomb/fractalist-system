@@ -18,6 +18,6 @@ relatedThirds: ["the-sliding-floor", "the-standoff", "policy-resistance"]
 
 **Fraying.** Each slip pulls the group's level down less, and expectations sink slower before they hold..
 
-**Its Turning.** Thin. What it builds: the group remembers what its ceiling was.
+**Its Turning.** Fray. What it builds: the group remembers what its ceiling was.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

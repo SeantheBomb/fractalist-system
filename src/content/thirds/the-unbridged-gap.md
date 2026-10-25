@@ -18,6 +18,6 @@ relatedThirds: ["the-mask", "the-mirror", "the-only-road"]
 
 **Fraying.** Knowing more blocks the view of other minds less, and the gap between them slowly narrows..
 
-**Its Turning.** Thin. What it builds: expertise stays transmissible.
+**Its Turning.** Fray. What it builds: expertise stays transmissible.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

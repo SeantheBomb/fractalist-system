@@ -593,6 +593,8 @@ Section I said Thin is nearly absent beyond the self. That was an artifact of pa
 
 ### Proposed shape for a catalogue entry
 
+**Superseded by K:** the pole lines keep the names Tending and Fraying, so the Tended and Thinned labels below are not adopted.
+
 | Field | Content |
 |---|---|
 | Name | The word |
@@ -615,3 +617,31 @@ Composition (which figures join into which) stays a rule of the alphabet, with t
 - Whether every figure should have all four moves, or only the ones a source supports.
 - Whether the unstated judgment in point 3 should be stated per figure.
 - The nine ranks, and how they sit under this.
+
+---
+
+## K. One word for the weakening (2026-10-24)
+
+**Status:** applied to the manuscript, the map and the site.
+
+### Decided
+
+Sean: keep the term Fraying, and let it name both the pole and the move. The four moves are **look, plant, tend, fray**. The poles stay Tending and Fraying.
+
+### Why it holds
+
+- Section J already found that a figure's two readings are what two of the moves do to it. With one word for each, the pairs read straight across: Tend makes Tending, Fray makes Fraying.
+- The poles stay neutral. Fraying is a direction, not a verdict, so a Turning that frays a figure still treats that figure's strengthening as the snare by choice, as point 3 of J says.
+- Hold is tending and fraying at once.
+
+### What changed
+
+- The move's id in the map is `fray`, with its scaled forms (`fray@self` and so on).
+- Every statement of the four moves, every Move column in the Turning tables, and every figure page's Turning line.
+- Sections A to J are left as written. Where they say Thin, read Fray.
+
+### Left alone
+
+- Ordinary uses of "thin" (thin on empathy, the silence thins).
+- The Sacrifice Trap's "planting many while expecting to thin" and "reality does the thinning". Both are the gardener's literal thinning of seedlings. They read as the move, but Fray does not fit the image of seeds. Sean's call.
+

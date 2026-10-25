@@ -9,7 +9,7 @@ related: ["self-kin", "the-third-thing", "what-a-weaving-is"]
 
 A Standing Third is a pattern that recurs reliably enough, across enough lives, to be worth naming. Nothing here has intentions. <a class="concept-link" href="/thirds/the-spark/">The Spark</a> does not want anything. Naming these patterns is a compression, exactly like naming a Loop — useful, and never to be mistaken for discovering a person.
 
-**A Third is a word.** That is the plainest way to say what this catalogue is for. Each figure is a name for a pattern, kept so that looking has something to recognise, and each one's two readings are what tending and thinning do to it: the same loop, run stronger or run weaker.
+**A Third is a word.** That is the plainest way to say what this catalogue is for. Each figure is a name for a pattern, kept so that looking has something to recognise, and each one's two readings are what tending and fraying do to it: the same loop, run stronger or run weaker.
 
 **Four things are true of every drawable figure in this catalogue, without exception, and any candidate failing one of them is not a Third:**
 

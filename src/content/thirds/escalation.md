@@ -18,6 +18,6 @@ relatedThirds: ["the-spark", "first-arriver-lock-in", "the-shared-pot"]
 
 **Fraying.** Each side aims a little less above the other, and the climb slows until the steps level off..
 
-**Its Turning.** Thin. What it builds: escalation gets a reliable off-ramp.
+**Its Turning.** Fray. What it builds: escalation gets a reliable off-ramp.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

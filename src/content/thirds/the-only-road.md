@@ -18,6 +18,6 @@ relatedThirds: ["the-unbridged-gap", "filling-the-gap"]
 
 **Fraying.** Less passes through the one person, and other paths between the two worlds open up..
 
-**Its Turning.** Thin. What it builds: indispensability gets converted back into redundancy.
+**Its Turning.** Fray. What it builds: indispensability gets converted back into redundancy.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

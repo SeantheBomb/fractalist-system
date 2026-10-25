@@ -18,6 +18,6 @@ relatedThirds: ["the-salve", "the-spark", "the-faithful-chain"]
 
 **Fraying.** Answers come slower or less often, so the asker works more out alone and asks less each time..
 
-**Its Turning.** Thin. What it builds: capacity stays with its owner.
+**Its Turning.** Fray. What it builds: capacity stays with its owner.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

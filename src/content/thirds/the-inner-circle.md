@@ -18,6 +18,6 @@ relatedThirds: ["the-naming-contest", "the-tested-price", "the-shared-name"]
 
 **Fraying.** The group's short words fade from use, so talk grows plainer and newcomers join with less to learn..
 
-**Its Turning.** Thin. What it builds: fluency stops functioning as a wall.
+**Its Turning.** Fray. What it builds: fluency stops functioning as a wall.
 
 Catalogued in [The Skein-Kin](/node/skein-kin/), alongside every other figure at this scale.

@@ -18,6 +18,6 @@ relatedThirds: ["the-mask", "the-nearest-light", "the-only-road"]
 
 **Fraying.** The early story loosens, and what the other does bends less to fit, so the picture drifts..
 
-**Its Turning.** Thin. What it builds: assumptions get tested before they harden.
+**Its Turning.** Fray. What it builds: assumptions get tested before they harden.
 
 Catalogued in [The Dyad-Kin](/node/dyad-kin/), alongside every other figure at this scale.

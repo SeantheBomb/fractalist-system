@@ -18,6 +18,6 @@ relatedThirds: ["answering-for"]
 
 **Fraying.** The reach for relief comes slower and less often, and the symptom is left to sit longer before anything is done..
 
-**Its Turning.** Thin. What it builds: stopgaps stop silently becoming permanent.
+**Its Turning.** Fray. What it builds: stopgaps stop silently becoming permanent.
 
 Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.

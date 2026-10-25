@@ -18,6 +18,6 @@ relatedThirds: ["reading-the-room", "the-echo", "the-unbridged-gap"]
 
 **Fraying.** The self takes less of its shape from who is present, holding more of the same form across different people..
 
-**Its Turning.** Thin. What it builds: you find what's left when nobody's watching.
+**Its Turning.** Fray. What it builds: you find what's left when nobody's watching.
 
 Catalogued in [The Self-Kin](/node/self-kin/), alongside every other figure at this scale.
