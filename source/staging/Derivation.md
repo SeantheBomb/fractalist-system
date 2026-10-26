@@ -615,3 +615,146 @@ Composition (which figures join into which) stays a rule of the alphabet, with t
 - Whether every figure should have all four moves, or only the ones a source supports.
 - Whether the unstated judgment in point 3 should be stated per figure.
 - The nine ranks, and how they sit under this.
+
+---
+
+## K. The polar system: one schema under the whole book (2026-10-26)
+
+**Status:** proposed. Nothing in the manuscript or the map is changed. Sean, 2026-10-25 and 26: look for the most elegant formal system that produces all of Fractalism as theorems. The candidate is polarity. Test it three ways: does it produce anything false, does it miss anything true, does it produce anything new.
+
+### Why a schema and not an axiom
+
+An axiom is one statement. An **axiom schema** is a template with a variable in it, and every way of filling the variable is an axiom. Peano's induction is the standard example: one line, infinitely many axioms, all the same shape. Polarity is this kind of thing. It is not a claim about warm and cold, or near and far. It is a claim about *any* difference, so every difference there is fills it once.
+
+This also leaves section I standing. There, the axioms of the practice system are the four moves. Under this proposal the four moves stay axioms of the practice system and become **theorems of the system beneath it**. The book then has two floors. The polar system produces the Ground and the moves, and the moves produce the practices.
+
+### The system
+
+**Alphabet.** A *difference* (this, not that). A *thing*. A *point* on a difference. A *vantage*, the place a reading is taken from. A *coupling*, a signed link between two points.
+
+**The schema (Polarity).** For every difference D, every thing x, and every vantage v outside D: read from v, x sits at exactly one point on D, between two poles, and neither pole is privileged.
+
+**Three rules.**
+
+| Rule | Statement | Sean's wording it formalises |
+|---|---|---|
+| R1 Relation | A point on one difference can move with a point on another. Each coupling has a sign: the same way (+) or the opposite way (−). A chain of couplings that returns to where it began is a loop, and its sign is the product of its links. | "It moves along that continuum based on its relation to other axes" |
+| R2 Change | A point moves only when a coupling pulls it, one step at a time. Time is the order of the steps. A point can return to an old place, but a step cannot be taken back. | "That gradual shifting change is what's perceived as time" |
+| R3 Self-application | Whatever the rules produce (a coupling, a loop, a rate of change, a vantage) is itself a difference, so the schema applies to it. | "Everything exists on a spectrum," taken literally, including the spectrum |
+
+R3 is the strange loop. It hands the system's output back to it as new input, which is the Seven Iterations' refrain ("the output became the input for what came next") stated as a rule.
+
+**Three free variables.** The schema fixes that each of these exists and leaves its value open:
+
+| Left open by the schema | What the book calls it |
+|---|---|
+| *Which* point x occupies ("exactly one," not which one) | **Chance** |
+| *Which* pole matters ("neither is privileged") | **Worth** |
+| *Which* vantage the reading is taken from ("from v," not which v) | **The Standpoint** |
+
+These are the three things Part One, Chapter 4 sets beside the pillars: a person put "at one spot," then "what the pillars do not supply": chance, which the world brings, and worth, which you bring. The book names them. The schema explains why exactly these three are open: they are its three unbound terms.
+
+### The dictionary
+
+| Fractalism | In the polar system |
+|---|---|
+| Loop; reinforcing and balancing | R1. A closed chain of couplings; even negatives reinforce, odd balance (already the book's Signed-loop polarity, Pt.3 Ch.3) |
+| Local Rule | A coupling that repeats |
+| Third Thing | A loop that holds is a difference (holding or not), so by R3 it is a thing with points of its own. Its point is not any part's point |
+| Nest | That thing can be coupled (R1), and couplings run both ways, so the Nest runs up and down |
+| Position, speed, acceleration | R3 on R2: a rate of change is a difference, so it has a point. "Acceleration is itself a position, one level up" (Pt.1 Ch.9) |
+| Tending and Fraying | The two directions on a running loop's strength. Unprivileged, so neither good nor evil |
+| A stopped pattern | No step, so no direction, so no Tending or Fraying. It still has a point |
+| Aji | A point with couplings and no steps: "not a loop and not inert" |
+| The Infinite Boundary | The sum of all things. No vantage outside it, so the schema has nothing to read from: no pole |
+| Perspective and Leverage | A vantage is a thing (R3), so it is coupled: couplings in are your view, couplings out are your reach |
+| The four moves | See T7 |
+
+### Worked derivations
+
+**T1. Nothing affects without being affected.** A point is defined relative to something else (the schema reads from a vantage). If x moves relative to y, y has moved relative to x. Mutuality is the schema itself. *Not zero-sum* follows from R1: both couplings can be +.
+
+**T2. The Loop (Pillar I).** Positions change only by steps (R2), and steps come only from couplings (R1). Nothing arrives large without many small steps.
+
+**T3. The Third Thing (Pillar II).** A loop that keeps returning near its own path is a difference between holding and not holding. By R3 it is a thing, with points the parts do not have.
+
+**T4. The Nest (Pillar III), both ways.** A thing made by T3 can be coupled to other things (R1), and couplings are relations, so they run in both directions. The same operation runs at every level, while the shapes need not repeat, because the couplings at each level differ.
+
+**T5. The two-pole rule, with both of its exceptions.** A running loop's strength changes (R2). A rate is a difference (R3) with two unprivileged poles: stronger (Tending) and weaker (Fraying). A loop that takes no step has no direction: a stopped pattern. A sum with nothing outside it has no vantage: the Infinite Boundary. The manuscript states all three separately. Here they are one rule.
+
+**T6. You never touch position directly.** A point is produced by its couplings (R1, R2). The only thing anyone can change is a coupling, which is a force. "Time does everything after that" (Pt.1 Ch.9).
+
+**T7. The four moves are complete.** On a loop you can read its point from a vantage (*Look*), add a coupling (*Plant*), or push its strength toward one of the two poles (*Tend*, *Thin*). There are exactly two pushes because a difference has exactly two poles. *Hold* is a balancing coupling: tend when the point falls and thin when it rises. By R3 a coupling is itself a difference, so the same four moves apply to couplings (Second-Order Design, Information flow, the return path), and no fifth move is needed.
+
+**T8. Look first.** A push counts as Tend or Thin only relative to the loop's current direction. Without a reading you cannot know which one you are making.
+
+**T9. No authority, no fatalism, no will.** Every reading is taken from a vantage, and no vantage is outside the whole, so no reading is privileged over yours (Bottom-Up or Nothing). "It was always going to happen" is a reading from outside the whole, so it is unavailable. A will needs a vantage, so the whole has none.
+
+**T10. You are X, therefore you must Y, is refused.** A point says where a thing is, and no pole is privileged, so no position yields an obligation. The is–ought gap is a theorem.
+
+**T11. Check the stand-in.** A stand-in is a point coupled to what it stands for. By R3 the coupling is a difference, tight or loose, so any stand-in can come loose while still looking attached. Section A found this family missing from the five mantras and covering twenty figures. The schema would have predicted it.
+
+### Test 1: does it produce anything false?
+
+Six candidate false theorems. Three come from wording in the original conversation and are fixed by stating the rules precisely. Two are hazards the system survives only when used carefully. One is a real collision with the manuscript.
+
+| # | Candidate theorem | What the book says | Verdict |
+|---|---|---|---|
+| F1 | "Because a thing cannot be at both poles, it is always sliding" | A stopped pattern has no pole; Aji is not running; some positions are stable | **False as originally worded.** Being unable to hold both poles does not imply moving. R2 fixes it: a thing moves only when a coupling pulls it |
+| F2 | "Every point lies toward one end or the other" (no middle) | "Nothing is running" is a real answer, distinct from either pole | **False if the middle is forbidden.** It would abolish stopped patterns and Aji. The schema says one *point*, not one *pole*. **Sean to decide** |
+| F3 | "Poles are relative, so every reading is as good as any other" | The World-Kin test: could someone who rejects the book still agree which way it points? | **False as relativism.** Relative to a vantage is not arbitrary: from a given vantage the point is fixed, and two readers at one vantage can check each other. No reading has authority (T9), but readings can be wrong |
+| F4 | "No pole is privileged, so decay and growth are equally likely" | Order is not free: "nothing which has stopped being paid for stays where you left it" | **Survives, with care.** Each difference is symmetric, but organised arrangements are a tiny share of all joint positions across many differences, so unheld drift almost always lands in disorder. That uses chance and counting, not a privileged pole |
+| F5 | "The same operation at every scale, so the same shapes at every scale" | Pillar III: the operation repeats; whether the shapes repeat is "never guaranteed" | **Survives.** R3 repeats the operation and the couplings differ by level. This is the most tempting wrong derivation, though, and the book is right to say so |
+| F6 | "The whole has no drift, and there is no moment of the whole" | Pt.5 Ch.6: the sum of every pattern "does have a *drift* at any given moment" | **Collision.** Drift is a direction, and a direction is read from a vantage, which the same paragraph says does not exist. "At any given moment" also assumes one clock for the whole, and R2 gives each loop its own steps. The system says the chapter breaks its own rule |
+
+**Proposed fix for F6** (Sean to decide): what a practitioner reads is not the whole's drift but the whole's *pull on them*, read from where they stand. That keeps everything the seam is for: unauthored, unreachable by petition, and the largest real thing there is. It also stops giving the Infinite Boundary a direction while denying it a pole.
+
+Two passes worth recording, because they look like violations of "cannot occupy both poles": *Life runs a reinforcing and a balancing loop at once* (Fifth Iteration), and *Hold is tending and thinning at once*. Both pass because they concern two couplings or two differences, never one point at two poles.
+
+### Test 2: is anything true left out?
+
+The test set is every entry in the Quick Reference glossary (Appendix C), 131 in all, each read as a claim and checked for whether the system produces it.
+
+| Verdict | Meaning | Count |
+|---|---|---|
+| Derived | Follows from the schema and rules through the dictionary | 48 |
+| Derived in kind | The form follows; a number, threshold or named instance is measured | 41 |
+| Measured | An observation the system neither produces nor contradicts | 19 |
+| Open slot | A claim of worth; the system shows it cannot settle it (T10) | 5 |
+| Collision | The system produces its negation | 1 (F6) |
+| Not a claim | A pointer, a procedure or a disclaimer | 17 |
+
+Of the 114 claims, **89 are produced (78%)**. Every structural claim is either derived or derived in kind. Nothing measured is contradicted.
+
+- **Derived:** the two questions; complicated vs complex; position, speed, acceleration; the three pillars; chance and worth (their being open is itself a theorem); the four moves and Hold; the Woven Self; three kinds of knowing; the third leg; mutuality; balance is a wave (a balancing loop with steps in it overshoots); isomorphism as a demand; the two-pole rule; two senses of real; sign-flipping couplings (a coupling's sign is a point and can move); signed-loop polarity; the Nest read downward; reach is composable; the Fold; the ledger error (an outcome does not fix the couplings that produced it); vision; the self extends to where your actions close a loop; mechanism not determinism (chance is an open slot, so the system takes no side, as the book does); fatalism unavailable; the strange loop; climate not trajectory; the return path; shared-edge leverage; loop period; reinforcing vs balancing; the Dyad; Word vs Label (which way the coupling runs); the Seven Iterations; the Infinite Boundary; why a Turning has an aim (a vantage privileging a pole); no fortunate card; why leverage stops; bottom-up or nothing; being named is not being reduced; two coupled models; holding a paradigm; essence vs relation; the resistant partner; Aji; commitments multiply (couplings scale with pairs); rules multiply; a rule set that names nothing it produces; a stopped pattern has no pole.
+- **Measured:** solidity, atomic composition, floral fields, the hornet, fun as absorption, the rubber hand, formal grammars in plants, belonging as a need, fractal dimension, Drake, the association machine, the Trust Triangle, action before motivation, empathy vs sympathy, the insight asymmetry, compensatory control, felt evaluation, logarithmic satisfaction, the three-legged stall. The system says what shape such facts may take, and the world supplies them, as physical constants sit inside laws.
+- **Open slot:** elegance as a goal, "never yours to answer for," agency is not responsibility (its normative half), parsimony, sute-ishi. Each says what is worth doing. T10 shows the system cannot say that, which is what the book claims.
+- **One real gap: conservation.** "Conservation is why nothing is lost" has no foothold in the system. Nothing in the schema says material persists. It is either measured physics (the likelier reading) or a fourth rule. It matters, because Going to Ground leans on it.
+
+### Test 3: does it produce anything new?
+
+Each item below is a theorem the system produces that the manuscript does not state. None is tested yet.
+
+1. **The Ground is the schema plus its three free variables.** The book lists the Standpoint, chance and worth as what sits beside the pillars. The system says why these three, and predicts there is no fourth thing that the world or the reader has to supply.
+2. **Every move has a second order.** Look, plant, tend and thin each apply to a coupling as well as to a point. The book has the second order scattered (Second-Order Design, Information flow, the return path, the stand-in) but not as a rule. Testable: classify every practice by order and see which of the eight cells are empty.
+3. **Time is local.** Each loop keeps its own steps, so there is no one clock for the whole. The book already has the consequence ("a disturbance moves what shares its timescale," Brush/Tree/Forest); this is its cause. A corollary for the Dyad chapters: two people whose loops do not touch have no shared tick, so comparing their timelines compares nothing.
+4. **Felt time is felt movement.** Time is the order of steps, and the body reads change, not steadiness (Pt.1 Ch.9). So a stretch of Hold, or of a force still on the second derivative, *feels* like time lost while time is passing at the order above. "A season that felt like nothing happened was a season your position didn't move, not a season nothing moved."
+5. **Culture-scale Plant must exist.** Any move at any scale is a theorem (T4, T7). Section J found no culture-scale Plant in the book. The system says that gap belongs to the book, not to the world.
+6. **Hold, sharpened.** Not "tend and thin at once" but a balancing coupling: tend when it falls, thin when it rises. That gives a test for whether you are holding or stuck: does your push change sign when the drift does?
+7. **Sibling figures.** Every Standing Third is a loop on one difference at one scale. By T4 the same difference can carry a loop at other scales with a different shape. Writing each of the 52 as a difference, a sign and a scale would predict missing figures, and would show which figures are one difference seen twice.
+
+### Limits
+
+- One rater, who also wrote the system and the dictionary. The dictionary is where generosity hides: a short schema stretches. A second reading by someone with no stake should repeat Test 2.
+- "Derived" means a derivation of a few steps can be written out, not that each was written out formally. T1 to T11 are the ones that were.
+- The glossary is a summary. Its entries are cleaner than the chapters they point to, which makes Test 2 easier than a chapter-by-chapter pass would be.
+- Part Five stays parked, so the Standing Thirds were used as instances, not as test material.
+- The evidence that the system has content, rather than being a vocabulary that fits anything, is F1 to F3: as first worded, it made false predictions, and precise rules were needed to stop them.
+
+### Open
+
+- **F2:** whether a point can sit at the middle. The recommendation is yes.
+- **F6:** whether Pt.5 Ch.6 should change "the whole has a drift" to "the whole has a pull on you."
+- **Conservation:** measured fact or fourth rule.
+- Whether the two-floor structure (polar system under the practice system) replaces section I's slot table or sits beneath it.
+- Next tests: the blind second rating of Test 2; the sibling-figure trace (item 7); and a toy simulation, since the system is concrete enough to run (points on differences, signed couplings, stepwise updates), to see whether waves, lock-in, skew and holding loops appear from the rules alone.
