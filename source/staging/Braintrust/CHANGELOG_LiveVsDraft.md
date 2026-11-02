@@ -67,7 +67,7 @@ All written during this process, none yet signed off by you:
 
 ## Main things removed or condensed
 
-(The full list is `Cut_Ledger.md`.) The Bohr's-atom block and the Go-proverb, entropy-and-friendship, dynastic-cycle, Game of Life and Turing detours; most of the middle of Systems Theory Foundations (isomorphism and Go kept in a tighter form, emergence, thresholds, trees and recursion cut); the opening of the Part Four belief chapter (it re-made Part One's point); The Deck's five tables, name block, World-Kin sample table and Cosmos aside; the Part Two Movement openers folded into the Part opener; "Reading Your Own Cycle" folded into "The Stall" and left as a short signpost.
+(The full list is `Cut_Ledger.md`.) The Bohr's-atom block and the Go-proverb, entropy-and-friendship, dynastic-cycle, Game of Life and Turing detours; most of the middle of Systems Theory Foundations (the isomorphism test is kept; the Go example, emergence, thresholds, trees and cross-scale recursion are cut); the opening of the Part Four belief chapter (it re-made Part One's point); The Deck's five tables, name block, World-Kin sample table and Cosmos aside; the Part Two Movement openers folded into the Part opener; "Reading Your Own Cycle" folded into "The Stall" and left as a short signpost.
 
 ## The Standing Thirds, specifically
 
